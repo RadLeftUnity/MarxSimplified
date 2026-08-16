@@ -1,0 +1,84 @@
+{
+  "id": "on-contradiction",
+  "title": "On Contradiction",
+  "author": "Mao Zedong",
+  "year": "1937",
+  "difficulty": "Medium",
+  "readingTime": "1.2 hours",
+  "shortDescription": "A simplified guide to Mao Zedong's essay on how conflict and change work. It explains why opposing forces exist in everything and how focusing on the main problem helps solve real-life challenges.",
+  "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+  "subject": "Dialectical Materialism & Philosophy",
+  "tags": [
+    "Philosophy",
+    "Dialectics",
+    "Maoism",
+    "1930s"
+  ],
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_17.htm",
+  "context": "Written in August 1937, this text began as lectures for anti-Japanese resistance fighters in Yenan, China. Mao wrote it to stop people from blindly copying textbook formulas (dogmatism) and to teach them how to analyze real conditions on the ground.",
+  "relatesToToday": "Mao's ideas give us practical tools for solving problems in daily life, workplace dynamics, and society:\n\n1. Finding the Main Problem (Principal Contradiction): If a company is losing customers because its core product is broken, spending money on fancy marketing won't save it until the product quality issue is solved first.\n\n2. Friendly vs. Destructive Conflicts (Non-antagonistic vs. Antagonistic): A debate between friends over how to split rent can be resolved through discussion and compromise, but a conflict with an abusive landlord illegally evicting tenants requires active legal or political resistance.\n\n3. Priorities in Crises: During a pandemic or climate disaster, society must temporarily pause smaller political disputes to tackle the main shared emergency first.",
+  "keyTakeaways": [
+    "Everything is shaped by opposing forces: Growth and change happen because opposing forces push against each other (like buyers wanting low prices while sellers want high prices).",
+    "Conflict is everywhere, but every situation is unique: While opposing forces exist in all things, you must study the specific details of your own situation instead of applying one-size-fits-all rules.",
+    "Always focus on the main issue first: In any complicated situation with many problems, one primary conflict controls the rest. Solve that main issue first to unlock progress on everything else.",
+    "Not all conflicts require fight-to-the-death battles: Some conflicts are hostile (antagonistic) and require overcoming the opposing side, while others are internal or friendly (non-antagonistic) and can be solved through discussion, compromise, and mutual learning."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "i-the-two-world-outlooks",
+      "title": "I. THE TWO WORLD OUTLOOKS",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "ii-the-universality-of-contradiction",
+      "title": "II. THE UNIVERSALITY OF CONTRADICTION",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "iii-the-particularity-of-contradiction",
+      "title": "III. THE PARTICULARITY OF CONTRADICTION",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "iv-the-principal-contradiction-and-the-principal-aspect-of-a-contradiction",
+      "title": "IV. THE PRINCIPAL CONTRADICTION AND THE PRINCIPAL ASPECT OF A CONTRADICTION",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "v-the-identity-and-struggle-of-the-aspects-of-a-contradiction",
+      "title": "V. THE IDENTITY AND STRUGGLE OF THE ASPECTS OF A CONTRADICTION",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "vi-the-place-of-antagonism-in-contradiction",
+      "title": "VI. THE PLACE OF ANTAGONISM IN CONTRADICTION",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "vii-conclusion",
+      "title": "VII. CONCLUSION",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    }
+  ]
+}

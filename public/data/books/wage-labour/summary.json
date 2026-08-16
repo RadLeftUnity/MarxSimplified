@@ -1,0 +1,89 @@
+{
+  "id": "wage-labour",
+  "title": "Wage Labour and Capital",
+  "author": "Karl Marx",
+  "year": "1847",
+  "difficulty": "Medium",
+  "readingTime": "1 hour",
+  "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1847/wage-labour/",
+  "context": "Based on lectures Marx delivered in 1847 to the German Workingmen's Club in Brussels, this work provides a straightforward and accessible explanation of the economic relationships under capitalism, particularly how labor becomes a commodity and how wages are determined.",
+  "relatesToToday": "This theory directly explains the rising cost of living crisis and wage stagnation today. Even as worker productivity increases and tech companies accumulate record-breaking profits, average wages are kept anchored near the cost of survival. Modern inflation and housing price increases mean that the minimum cost to survive and reproduce labor-power (rent, groceries, healthcare) has risen, forcing workers to spend almost all of their income on necessities while relative inequality widens.",
+  "keyTakeaways": [
+    "Wages are the price of a specific commodity: human labor-power.",
+    "Capitalists buy labor-power to generate surplus value (profit) by selling the products of that labor for more than the wages paid.",
+    "The interests of wage labor and capital are diametrically opposed; as capital grows, the worker becomes relatively poorer and more dependent."
+  ],
+  "chapters": [
+    {
+      "id": "introduction-engels",
+      "title": "Introduction by Frederick Engels",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "preliminary",
+      "title": "Preliminary",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "what-are-wages",
+      "title": "Chapter 1: What Are Wages?",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "price-of-commodity",
+      "title": "Chapter 2: By What is the Price of a Commodity Determined?",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "wages-determined",
+      "title": "Chapter 3: By What is Wages Determined?",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "nature-of-capital",
+      "title": "Chapter 4: The Nature and Growth of Capital",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "relation-labour-capital",
+      "title": "Chapter 5: Relation of Wage-Labour to Capital",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "rise-and-fall-of-wages",
+      "title": "Chapter 6: The General Law of Wages and Profit",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "interests-opposed",
+      "title": "Chapter 7: Interests of Capital and Wage-Labour",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "capitalist-competition",
+      "title": "Chapter 8: Effect of Capitalist Competition",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    }
+  ]
+}

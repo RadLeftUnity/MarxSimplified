@@ -1,0 +1,47 @@
+{
+  "id": "grundrisse",
+  "title": "Grundrisse",
+  "author": "Karl Marx",
+  "year": "1857",
+  "difficulty": "Hard",
+  "readingTime": "4 hours (Extracts)",
+  "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1857/grundrisse/",
+  "context": "Written in 1857-1858, the Grundrisse (German for 'Outlines') is a massive set of raw, private notebooks where Marx worked out his economic theories before writing Capital. Left unpublished until 1939, it contains Marx's most futuristic speculations on automation, technology, and the liberation of human free time.",
+  "relatesToToday": "The Fragment on Machines is highly relevant in the era of artificial intelligence and advanced automation. Today, AI models, automated checkout terminals, and self-driving vehicles are introduced not to reduce work hours for the general public, but to lower labor costs and maximize profit for major corporation shareholders. It challenges us to imagine a society where technology is used to create abundant free time for all, rather than unemployment and longer hours.",
+  "keyTakeaways": [
+    "Under capitalism, machines are used to increase the rate of exploitation, rather than to reduce work hours for the workers.",
+    "As automation advances, human direct labor becomes less important in production compared to scientific knowledge and technology (the 'general intellect').",
+    "The ultimate goal of a post-capitalist society is not labor itself, but the creation of free time (disposable time) for everyone to develop their full potential."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "I. Introduction (Notebook M)",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "chapter-on-money",
+      "title": "II. The Chapter on Money",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "chapter-on-capital",
+      "title": "III. The Chapter on Capital",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "on-wages",
+      "title": "IV. On Wages",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    }
+  ]
+}

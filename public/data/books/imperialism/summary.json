@@ -1,0 +1,105 @@
+{
+  "id": "imperialism",
+  "title": "Imperialism, the Highest Stage of Capitalism",
+  "author": "V.I. Lenin",
+  "year": "1916",
+  "difficulty": "Medium-Hard",
+  "readingTime": "4.5 hours",
+  "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1916/imp-hsc/",
+  "context": "Written in Zurich in early 1916, during World War I, and first published as a pamphlet in mid-1917 in Petrograd. Lenin wrote it under tsarist censorship, forcing him to use cautious, 'Aesopian' language and focus on purely economic analysis. The work builds on J.A. Hobson's and Rudolf Hilferding's studies of imperialism and finance capital, synthesising their data into a Marxist framework that explains imperialism as a necessary stage of capitalist development, not merely a policy choice.",
+  "relatesToToday": "Lenin's analysis of monopoly capitalism, the export of capital to exploit poorer nations, and the division of the world among great powers maps directly onto modern phenomena: multinational corporations dominating global markets, the outsourcing of production to low-wage countries, resource extraction in the Global South, and geopolitical competition over trade routes, rare minerals, and spheres of economic influence. His concept of a 'labour aristocracy' bribed by imperial superprofits also finds echoes in debates about why workers in wealthy nations sometimes support policies that harm workers elsewhere.",
+  "keyTakeaways": [
+    "Imperialism is not just a foreign policy; it is the monopoly stage of capitalism, arising inevitably from the concentration of production and the merging of bank and industrial capital.",
+    "Finance capital (the fusion of banking and industrial monopolies) creates a financial oligarchy that dominates the economy and the state.",
+    "Surplus capital is exported to less developed countries (where profits are higher) rather than being used to raise living standards at home, because doing so would reduce capitalist profits.",
+    "The world has been completely divided among the great capitalist powers, meaning future expansion can only happen through re-division (wars and conflicts).",
+    "Imperialism generates a 'labour aristocracy': a privileged layer of workers in rich countries, bribed with a share of colonial superprofits, who become supporters of the existing system."
+  ],
+  "chapters": [
+    {
+      "id": "preface",
+      "title": "Preface",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "preface-to-the-french-and-german-editions",
+      "title": "Preface to the French and German Editions",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "i-concentration-of-production-and-monopolies",
+      "title": "I. Concentration of Production and Monopolies",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "ii-banks-and-their-new-role",
+      "title": "II. Banks and Their New Role",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "iii-finance-capital-and-the-financial-oligarchy",
+      "title": "III. Finance Capital and the Financial Oligarchy",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "iv-export-of-capital",
+      "title": "IV. Export of Capital",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "v-division-of-the-world-among-capitalist-associations",
+      "title": "V. Division of the World Among Capitalist Associations",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "vi-division-of-the-world-among-the-great-powers",
+      "title": "VI. Division of the World Among the Great Powers",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "vii-imperialism-as-a-special-stage-of-capitalism",
+      "title": "VII. Imperialism as a Special Stage of Capitalism",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "viii-parasitism-and-decay-of-capitalism",
+      "title": "VIII. Parasitism and Decay of Capitalism",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "ix-critique-of-imperialism",
+      "title": "IX. Critique of Imperialism",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "x-the-place-of-imperialism-in-history",
+      "title": "X. The Place of Imperialism in History",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    }
+  ]
+}

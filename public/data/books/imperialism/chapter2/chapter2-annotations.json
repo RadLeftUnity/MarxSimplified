@@ -1,0 +1,20 @@
+[
+  {
+    "id": "imperialism-chapter2-1",
+    "targetText": "This pamphlet was written with an eye to the tsarist censorship.",
+    "summary": "Lenin had to write this text cautiously using indirect economic terms to pass Russian imperial censorship.",
+    "context": "Because of tsarist political repression, Lenin used Aesopian language to discuss imperialist war without getting banned."
+  },
+  {
+    "id": "imperialism-chapter2-2",
+    "targetText": "forced to confine myself strictly to an exclusively theoretical, specifically economic analysis of facts",
+    "summary": "forced to confine myself strictly to an exclusively theoretical, specifically... this statement highlights key economic principles governing class relations under capitalism.",
+    "context": "Essential theoretical analysis of capital, wages, and social relations."
+  },
+  {
+    "id": "imperialism-chapter2-3",
+    "targetText": "unless this is studied, it will be impossible to understand and appraise modern war and modern politics.",
+    "summary": "One cannot understand modern warfare or global politics without analyzing the economic roots of imperialism.",
+    "context": "Lenin argues that World War I was driven by economic competition between monopoly powers, not moral disputes."
+  }
+]

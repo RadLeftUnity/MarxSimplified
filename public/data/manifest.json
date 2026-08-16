@@ -1,0 +1,102 @@
+{
+  "books": [
+    {
+      "id": "grundrisse",
+      "title": "Grundrisse",
+      "author": "Karl Marx",
+      "year": "1857",
+      "difficulty": "Hard",
+      "readingTime": "4 hours (Extracts)",
+      "shortDescription": "Written in 1857-1858, the Grundrisse (German for 'Outlines') is a massive set of raw, private notebooks where Marx worked out his economic theories before writing Capital. Left unpublished until 1939, it contains Marx's most futuristic speculations on automation, technology, and the liberation of human free time.",
+      "coverColor": "#4a154b",
+      "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "imperialism",
+      "title": "Imperialism, the Highest Stage of Capitalism",
+      "author": "V.I. Lenin",
+      "year": "1916",
+      "difficulty": "Medium-Hard",
+      "readingTime": "4.5 hours",
+      "shortDescription": "Written in Zurich in early 1916, during World War I, and first published as a pamphlet in mid-1917 in Petrograd. Lenin wrote it under tsarist censorship, forcing him to use cautious, 'Aesopian' language and focus on purely economic analysis. The work builds on J.A. Hobson's and Rudolf Hilferding's studies of imperialism and finance capital, synthesising their data into a Marxist framework that explains imperialism as a necessary stage of capitalist development, not merely a policy choice.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "manifesto",
+      "title": "The Communist Manifesto",
+      "author": "Karl Marx & Friedrich Engels",
+      "year": "1848",
+      "difficulty": "Easy-Medium",
+      "readingTime": "1.5 hours",
+      "shortDescription": "Commissioned by the Communist League and published in London in February 1848, this pamphlet was written during a period of massive political unrest across Europe. It explains the class struggle and critiques capitalism, serving as a call to action for the working class.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "on-contradiction",
+      "title": "On Contradiction",
+      "author": "Mao Zedong",
+      "year": "1937",
+      "difficulty": "Medium",
+      "readingTime": "1.2 hours",
+      "shortDescription": "A simplified guide to Mao Zedong's essay on how conflict and change work. It explains why opposing forces exist in everything and how focusing on the main problem helps solve real-life challenges.",
+      "coverColor": "#2b2d42",
+      "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+      "subject": "Dialectical Materialism & Philosophy",
+      "tags": [
+        "Philosophy",
+        "Dialectics",
+        "Maoism",
+        "1930s"
+      ]
+    },
+    {
+      "id": "value-price-profit",
+      "title": "Value, Price and Profit",
+      "author": "Karl Marx",
+      "year": "1865",
+      "difficulty": "Medium",
+      "readingTime": "2.3 hours",
+      "shortDescription": "First published in 1865, this text forms an essential part of Karl Marx's critique of political economy. It provides simplified, yet rigorous, explanations of key capitalist economic concepts.",
+      "coverColor": "#2b2d42",
+      "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "wage-labour",
+      "title": "Wage Labour and Capital",
+      "author": "Karl Marx",
+      "year": "1847",
+      "difficulty": "Medium",
+      "readingTime": "1 hour",
+      "shortDescription": "Based on lectures Marx delivered in 1847 to the German Workingmen's Club in Brussels, this work provides a straightforward and accessible explanation of the economic relationships under capitalism, particularly how labor becomes a commodity and how wages are determined.",
+      "coverColor": "#1b263b",
+      "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    }
+  ]
+}

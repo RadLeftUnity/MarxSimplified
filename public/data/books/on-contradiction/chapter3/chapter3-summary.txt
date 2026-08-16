@@ -1,0 +1,7 @@
+This section explains that conflict and opposing forces exist in everything:
+
+1. Present Everywhere and Always: Opposing forces exist in nature (positive and negative electric charges), mathematics (addition and subtraction), biology (growth and decay), and human society (employers and workers).
+
+2. Internal Debates Are Normal: Disagreements inside a team or political group are not accidental flaws; they reflect competing pressures from society outside.
+
+Real-life Example: Healthy debate in a software team between the design team (who want visual beauty) and the engineering team (who want fast performance) is normal and necessary. Working through that tension creates a superior product.
