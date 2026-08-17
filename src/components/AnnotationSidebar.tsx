@@ -8,6 +8,7 @@ interface AnnotationSidebarProps {
   activeAnnotationId: string | null;
   onSelectAnnotation: (id: string | null) => void;
   chapterSummary?: string;
+  onSelectTopicTag?: (topic: string) => void;
 }
 
 export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
@@ -15,6 +16,7 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
   activeAnnotationId,
   onSelectAnnotation,
   chapterSummary,
+  onSelectTopicTag,
 }) => {
   const [activeTab, setActiveTab] = useState<'highlights' | 'summary'>('highlights');
 
@@ -94,7 +96,7 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                     <MessageCircle className="section-icon" /> Original Text
                   </span>
                   <blockquote className="original-quote">
-                    "{ann.targetText}"
+                    {ann.targetText}
                   </blockquote>
                 </div>
 
@@ -111,6 +113,25 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                       <History className="section-icon" /> Historical Context
                     </span>
                     <p className="context-text">{ann.context}</p>
+                  </div>
+                )}
+
+                {ann.topics && ann.topics.length > 0 && (
+                  <div className="sidebar-card-topics">
+                    {ann.topics.map((topic) => (
+                      <span
+                        key={topic}
+                        className="sidebar-topic-pill"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          if (onSelectTopicTag) {
+                            onSelectTopicTag(topic);
+                          }
+                        }}
+                      >
+                        #{topic}
+                      </span>
+                    ))}
                   </div>
                 )}
               </div>

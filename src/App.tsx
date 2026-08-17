@@ -4,19 +4,22 @@ import { Library } from './pages/Library';
 import { BookSummary } from './pages/BookSummary';
 import type { BookDetail } from './pages/BookSummary';
 import { Reader } from './pages/Reader';
+import { SimplifiedVersion } from './pages/SimplifiedVersion';
 import type { Book } from './components/BookCard';
 import { Glossary } from './pages/Glossary';
+import { Topics } from './pages/Topics';
 import { AccessibilityPanel, DEFAULT_A11Y_SETTINGS } from './components/AccessibilityPanel';
 import type { AccessibilitySettings, ReaderFontSize, Theme } from './components/AccessibilityPanel';
 import { Loader2, AlertTriangle } from 'lucide-react';
-import { fetchCachedJSON, prefetchBookSummaries } from './utils/dataCache';
+import { fetchCachedJSON, prefetchBookSummaries, fetchCachedTopicIndex } from './utils/dataCache';
 
 export default function App() {
-  const [page, setPage] = useState<'library' | 'summary' | 'reading' | 'glossary'>('library');
+  const [page, setPage] = useState<'library' | 'summary' | 'reading' | 'glossary' | 'simplified' | 'topics'>('library');
   const [books, setBooks] = useState<Book[]>([]);
   const [selectedBookId, setSelectedBookId] = useState<string | null>(null);
   const [selectedBookDetail, setSelectedBookDetail] = useState<BookDetail | null>(null);
   const [selectedChapterId, setSelectedChapterId] = useState<string | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   
   const [loading, setLoading] = useState<boolean>(true);
   const [bookLoading, setBookLoading] = useState<boolean>(false);
@@ -87,8 +90,9 @@ export default function App() {
         const data = await fetchCachedJSON<{ books: Book[] }>('/data/manifest.json');
         setBooks(data.books);
         
-        // Background pre-fetch all book summaries in the catalog
+        // Background pre-fetch all book summaries and topic index in the catalog
         prefetchBookSummaries(data.books);
+        fetchCachedTopicIndex().catch(() => {});
 
         // Load reading progress
         const stored = localStorage.getItem('marx_simplified_progress');
@@ -111,23 +115,31 @@ export default function App() {
           const params = new URLSearchParams(window.location.search);
           const urlBook = params.get('book');
           const urlChapter = params.get('chapter');
+          const urlView = params.get('view');
+          const urlPage = params.get('page');
+          const urlTopic = params.get('topic');
           
-          if (urlBook && data.books.some((b: Book) => b.id === urlBook)) {
+          if (urlPage === 'topics' || urlTopic) {
+            if (urlTopic) setSelectedTopic(urlTopic);
+            setPage('topics');
+          } else if (urlBook && data.books.some((b: Book) => b.id === urlBook)) {
             setSelectedBookId(urlBook);
-            if (urlChapter) {
-              try {
-                const summaryData = await fetchCachedJSON<BookDetail>(`/data/books/${urlBook}/summary.json`);
-                setSelectedBookDetail(summaryData);
-                if (summaryData.chapters.some((c: any) => c.id === urlChapter)) {
+            try {
+              const summaryData = await fetchCachedJSON<BookDetail>(`/data/books/${urlBook}/summary.json`);
+              setSelectedBookDetail(summaryData);
+
+              if (urlView === 'simplified') {
+                if (urlChapter && summaryData.chapters.some((c: any) => c.id === urlChapter)) {
                   setSelectedChapterId(urlChapter);
-                  setPage('reading');
-                } else {
-                  setPage('summary');
                 }
-              } catch {
+                setPage('simplified');
+              } else if (urlChapter && summaryData.chapters.some((c: any) => c.id === urlChapter)) {
+                setSelectedChapterId(urlChapter);
+                setPage('reading');
+              } else {
                 setPage('summary');
               }
-            } else {
+            } catch {
               setPage('summary');
             }
           }
@@ -175,27 +187,53 @@ export default function App() {
     if (loading) return;
     const params = new URLSearchParams(window.location.search);
     
-    if (selectedBookId && page !== 'glossary' && page !== 'library') {
-      params.set('book', selectedBookId);
-    } else {
+    if (page === 'topics') {
+      params.set('page', 'topics');
+      if (selectedTopic) {
+        params.set('topic', selectedTopic);
+      } else {
+        params.delete('topic');
+      }
       params.delete('book');
-    }
-    
-    if (selectedChapterId && page === 'reading') {
-      params.set('chapter', selectedChapterId);
-    } else {
       params.delete('chapter');
-    }
-    
-    if (page !== 'reading') {
+      params.delete('view');
       params.delete('ann');
+    } else {
+      params.delete('page');
+      params.delete('topic');
+
+      if (selectedBookId && page !== 'glossary' && page !== 'library') {
+        params.set('book', selectedBookId);
+      } else {
+        params.delete('book');
+      }
+      
+      if (page === 'simplified') {
+        params.set('view', 'simplified');
+        if (selectedChapterId) {
+          params.set('chapter', selectedChapterId);
+        } else {
+          params.delete('chapter');
+        }
+      } else {
+        params.delete('view');
+        if (selectedChapterId && page === 'reading') {
+          params.set('chapter', selectedChapterId);
+        } else {
+          params.delete('chapter');
+        }
+      }
+      
+      if (page !== 'reading') {
+        params.delete('ann');
+      }
     }
 
     const searchStr = params.toString();
     const hashStr = window.location.hash;
     const newUrl = (searchStr ? `?${searchStr}` : window.location.pathname) + hashStr;
     window.history.replaceState(null, '', newUrl);
-  }, [page, selectedBookId, selectedChapterId, loading]);
+  }, [page, selectedBookId, selectedChapterId, selectedTopic, loading]);
 
   // Save progress helper
   const saveProgress = (newProgress: typeof progressMap) => {
@@ -242,6 +280,40 @@ export default function App() {
     }
   };
 
+  const handleStartSimplifiedReading = (chapterId?: string) => {
+    if (chapterId) {
+      setSelectedChapterId(chapterId);
+    } else if (selectedBookDetail && selectedBookDetail.chapters.length > 0) {
+      setSelectedChapterId(selectedBookDetail.chapters[0].id);
+    }
+    setPage('simplified');
+  };
+
+  const handleSelectAnnotationInText = (chapterId: string, annotationId: string) => {
+    setSelectedChapterId(chapterId);
+    setPage('reading');
+
+    // Update URL param 'ann' so Reader highlights and scrolls to annotation
+    const params = new URLSearchParams(window.location.search);
+    params.set('book', selectedBookId || '');
+    params.set('chapter', chapterId);
+    params.set('ann', annotationId);
+    params.delete('view');
+    window.history.replaceState(null, '', `?${params.toString()}`);
+
+    if (selectedBookId && progressMap[selectedBookId] !== 'completed') {
+      const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [selectedBookId]: 'reading' };
+      saveProgress(updated);
+    }
+  };
+
+  const handleSwitchToFullText = (chapterId?: string) => {
+    if (chapterId) {
+      setSelectedChapterId(chapterId);
+    }
+    setPage('reading');
+  };
+
   const handleMarkCompleted = () => {
     if (!selectedBookId) return;
     const isCurrentlyCompleted = progressMap[selectedBookId] === 'completed';
@@ -262,6 +334,31 @@ export default function App() {
     setSelectedChapterId(null);
   };
 
+  const handleGoToTopics = (topic?: string) => {
+    if (topic) {
+      setSelectedTopic(topic);
+    }
+    setPage('topics');
+  };
+
+  const handleSelectAnnotationFromTopics = (bookId: string, chapterId: string, annotationId: string) => {
+    setSelectedBookId(bookId);
+    setSelectedChapterId(chapterId);
+    setPage('reading');
+
+    const params = new URLSearchParams(window.location.search);
+    params.set('book', bookId);
+    params.set('chapter', chapterId);
+    params.set('ann', annotationId);
+    params.delete('view');
+    window.history.replaceState(null, '', `?${params.toString()}`);
+
+    if (progressMap[bookId] !== 'completed') {
+      const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [bookId]: 'reading' };
+      saveProgress(updated);
+    }
+  };
+
   const updateA11ySettings = (newPartial: Partial<AccessibilitySettings>) => {
     setA11ySettings((prev) => ({ ...prev, ...newPartial }));
   };
@@ -270,8 +367,9 @@ export default function App() {
     <div className="app-layout">
       <Navbar 
         onGoHome={handleGoHome} 
-        currentPage={page} 
+        currentPage={page === 'simplified' ? 'summary' : page} 
         onGoToGlossary={handleGoToGlossary}
+        onGoToTopics={() => handleGoToTopics()}
         theme={a11ySettings.theme}
         onThemeChange={(newTheme) => updateA11ySettings({ theme: newTheme })}
         onOpenA11y={() => setA11yOpen(true)}
@@ -302,7 +400,8 @@ export default function App() {
             <BookSummary 
               book={selectedBookDetail} 
               onBack={handleGoHome} 
-              onStartReading={handleStartReading} 
+              onStartReading={handleStartReading}
+              onStartSimplifiedReading={handleStartSimplifiedReading}
             />
           )}
 
@@ -315,11 +414,31 @@ export default function App() {
               onMarkCompleted={handleMarkCompleted}
               isCompleted={progressMap[selectedBookId || ''] === 'completed'}
               onOpenA11y={() => setA11yOpen(true)}
+              onSwitchToSimplified={() => setPage('simplified')}
+              onSelectTopicTag={handleGoToTopics}
+            />
+          )}
+
+          {page === 'simplified' && selectedBookDetail && (
+            <SimplifiedVersion
+              book={selectedBookDetail}
+              initialChapterId={selectedChapterId}
+              onBackToSummary={() => setPage('summary')}
+              onSelectAnnotationInText={handleSelectAnnotationInText}
+              onSwitchToFullText={handleSwitchToFullText}
+              onOpenA11y={() => setA11yOpen(true)}
             />
           )}
 
           {page === 'glossary' && (
             <Glossary />
+          )}
+
+          {page === 'topics' && (
+            <Topics
+              initialTopic={selectedTopic}
+              onSelectAnnotationInReader={handleSelectAnnotationFromTopics}
+            />
           )}
           
           {bookLoading && (
@@ -340,3 +459,4 @@ export default function App() {
     </div>
   );
 }
+

@@ -7,6 +7,7 @@ interface NavbarProps {
   onGoHome: () => void;
   currentPage: string;
   onGoToGlossary: () => void;
+  onGoToTopics?: () => void;
   theme: Theme;
   onThemeChange: (theme: Theme) => void;
   onOpenA11y: () => void;
@@ -16,6 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onGoHome,
   currentPage,
   onGoToGlossary,
+  onGoToTopics,
   theme,
   onThemeChange,
   onOpenA11y,
@@ -42,6 +44,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           id="nav-btn-library"
         >
           Library
+        </button>
+        <button
+          onClick={onGoToTopics}
+          className={`nav-btn ${currentPage === 'topics' ? 'nav-btn-active' : ''}`}
+          id="nav-btn-topics"
+        >
+          Topics
         </button>
         <button
           onClick={onGoToGlossary}
