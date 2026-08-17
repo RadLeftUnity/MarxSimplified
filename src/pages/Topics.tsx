@@ -3,7 +3,7 @@ import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Lo
 import { fetchCachedTopicIndex } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
-
+import { getAuthorImageUrl } from '../utils/authorImage';
 
 interface TopicsProps {
   initialTopic?: string | null;
@@ -162,64 +162,85 @@ export const Topics: React.FC<TopicsProps> = ({
                   {currentGroup.annotations.map((ref, idx) => {
                     const ann = ref.annotation;
                     const annId = ann.id || `ann-${idx}`;
+                    const authorImgUrl = getAuthorImageUrl(ref.bookAuthor || '');
 
                     return (
                       <article key={`${ref.bookId}-${ref.chapterId}-${annId}`} className="topic-annotation-card glass-panel">
-                        <div className="card-source-header">
-                          <div className="source-info">
-                            <BookOpen className="source-icon text-gold" />
-                            <span className="source-book">{ref.bookTitle}</span>
-                            <span className="source-separator">•</span>
-                            <span className="source-chapter">{ref.chapterTitle}</span>
-                          </div>
-                          <button
-                            id={`read-btn-${annId}`}
-                            className="read-in-book-btn"
-                            onClick={() => onSelectAnnotationInReader(ref.bookId, ref.chapterId, annId)}
+                        <div 
+                          className="topic-card-book-cover-wrap"
+                          onClick={() => onSelectAnnotationInReader(ref.bookId, ref.chapterId, annId)}
+                          title={`Read ${ref.chapterTitle} in ${ref.bookTitle}`}
+                        >
+                          <div 
+                            className="book-cover mini-topic-cover" 
+                            style={{ background: ref.coverGradient || 'linear-gradient(135deg, #8b0000 0%, #3a0000 100%)' }}
                           >
-                            <span>Read in Book</span>
-                            <ArrowRight className="btn-arrow-icon" />
-                          </button>
+                            {authorImgUrl && (
+                              <img src={authorImgUrl} alt={ref.bookAuthor || ''} className="book-cover-author-overlay" />
+                            )}
+                            <span className="book-cover-star">★</span>
+                            <div className="book-cover-title">{ref.bookTitle}</div>
+                            <div className="book-cover-author">{ref.bookAuthor}</div>
+                          </div>
                         </div>
 
-                        <div className="topic-card-section quote-section">
-                          <span className="section-label">
-                            <MessageCircle className="section-icon" /> Target Text
-                          </span>
-                          <blockquote className="original-quote">
-                            {ann.targetText}
-                          </blockquote>
-                        </div>
+                        <div className="topic-card-body">
+                          <div className="card-source-header">
+                            <div className="source-info">
+                              <BookOpen className="source-icon text-gold" />
+                              <span className="source-book">{ref.bookTitle}</span>
+                              <span className="source-separator">•</span>
+                              <span className="source-chapter">{ref.chapterTitle}</span>
+                            </div>
+                            <button
+                              id={`read-btn-${annId}`}
+                              className="read-in-book-btn"
+                              onClick={() => onSelectAnnotationInReader(ref.bookId, ref.chapterId, annId)}
+                            >
+                              <span>Read in Book</span>
+                              <ArrowRight className="btn-arrow-icon" />
+                            </button>
+                          </div>
 
-                        <div className="topic-card-section summary-section">
-                          <span className="section-label summary-label">
-                            <Sparkles className="section-icon" /> Simplified Meaning
-                          </span>
-                          <FormattedText text={ann.summary} className="simplified-text" />
-                        </div>
-
-                        {ann.context && (
-                          <div className="topic-card-section context-section">
-                            <span className="section-label context-label">
-                              <History className="section-icon" /> Historical Context
+                          <div className="topic-card-section quote-section">
+                            <span className="section-label">
+                              <MessageCircle className="section-icon" /> Target Text
                             </span>
-                            <FormattedText text={ann.context} className="context-text" />
+                            <blockquote className="original-quote">
+                              {ann.targetText}
+                            </blockquote>
                           </div>
-                        )}
 
-                        {ann.topics && ann.topics.length > 0 && (
-                          <div className="topic-card-tags">
-                            {ann.topics.map((t) => (
-                              <span
-                                key={t}
-                                className={`topic-pill ${t === currentGroup.topic ? 'active' : ''}`}
-                                onClick={() => setSelectedTopic(t)}
-                              >
-                                #{t}
-                              </span>
-                            ))}
+                          <div className="topic-card-section summary-section">
+                            <span className="section-label summary-label">
+                              <Sparkles className="section-icon" /> Simplified Meaning
+                            </span>
+                            <FormattedText text={ann.summary} className="simplified-text" />
                           </div>
-                        )}
+
+                          {ann.context && (
+                            <div className="topic-card-section context-section">
+                              <span className="section-label context-label">
+                                <History className="section-icon" /> Historical Context
+                              </span>
+                              <FormattedText text={ann.context} className="context-text" />
+                            </div>
+                          )}
+
+                          {ann.topics && ann.topics.length > 0 && (
+                            <div className="topic-card-tags">
+                              {ann.topics.map((t) => (
+                                <span
+                                  key={t}
+                                  className={`topic-pill ${t === currentGroup.topic ? 'active' : ''}`}
+                                  onClick={() => setSelectedTopic(t)}
+                                >
+                                  #{t}
+                                </span>
+                              ))}
+                            </div>
+                          )}
+                        </div>
                       </article>
                     );
                   })}

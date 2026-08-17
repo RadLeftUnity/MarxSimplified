@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowLeft, BookOpen, Key, History, ChevronRight, ExternalLink, Sparkles } from 'lucide-react';
 import { FormattedText } from '../components/FormattedText';
+import { getAuthorImageUrl } from '../utils/authorImage';
 
 export interface Chapter {
   id: string;
@@ -38,6 +39,8 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
   onStartReading,
   onStartSimplifiedReading,
 }) => {
+  const authorImageUrl = getAuthorImageUrl(book.author);
+
   return (
     <div className="page-container summary-page">
       <button className="back-link-btn" onClick={onBack}>
@@ -47,6 +50,13 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
       <section className="summary-hero-row">
         <div className="summary-hero-cover">
           <div className="book-cover" style={{ background: book.coverGradient }}>
+            {authorImageUrl && (
+              <img
+                src={authorImageUrl}
+                alt={book.author}
+                className="book-cover-author-overlay"
+              />
+            )}
             <span className="book-cover-star">★</span>
             <div className="book-cover-title">{book.title}</div>
             <div className="book-cover-author">{book.author}</div>

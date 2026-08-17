@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAuthorImageUrl } from '../utils/authorImage';
 
 export interface Book {
   id: string;
@@ -28,6 +29,8 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress = 'not-starte
     }
   };
 
+  const authorImageUrl = getAuthorImageUrl(book.author);
+
   return (
     <div className="book-card glass-panel card-hover-effect" onClick={() => onSelect(book.id)}>
       <div className="book-card-cover-container">
@@ -35,6 +38,13 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress = 'not-starte
           className="book-cover" 
           style={{ background: book.coverGradient }}
         >
+          {authorImageUrl && (
+            <img 
+              src={authorImageUrl} 
+              alt={book.author} 
+              className="book-cover-author-overlay"
+            />
+          )}
           <span className="book-cover-star">★</span>
           <div className="book-cover-title">{book.title}</div>
           <div className="book-cover-author">{book.author}</div>
