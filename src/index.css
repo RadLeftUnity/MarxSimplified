@@ -282,6 +282,28 @@ body {
   background: rgba(0, 0, 0, 0.25);
   box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.05);
   border-radius: 0;
+  z-index: 2;
+}
+
+.book-cover-author-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0.35;
+  mix-blend-mode: luminosity;
+  pointer-events: none;
+  z-index: 1;
+  filter: contrast(1.15) brightness(0.85);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.book-card:hover .book-cover-author-overlay {
+  opacity: 0.48;
+  transform: scale(1.04);
 }
 
 .book-cover-star {
@@ -291,6 +313,7 @@ body {
   font-size: 18px;
   color: var(--accent);
   opacity: 0.3;
+  z-index: 2;
 }
 
 .book-cover-title {
@@ -300,7 +323,9 @@ body {
   line-height: 1.3;
   color: #fff;
   margin-top: 24px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 2;
 }
 
 .book-cover-author {
@@ -310,7 +335,9 @@ body {
   letter-spacing: 0.5px;
   color: var(--accent);
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 2;
 }
 
 /* Base Layout */
@@ -432,12 +459,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 22px 30px;
   border-radius: 0;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   background: linear-gradient(135deg, rgba(158, 27, 27, 0.08) 0%, rgba(20, 20, 25, 0.4) 100%);
-  border: 1px solid rgba(158, 27, 27, 0.15);
-  gap: 32px;
+  border: 1px solid rgba(158, 27, 27, 0.2);
+  border-left: 3px solid var(--accent);
+  gap: 28px;
 }
 
 .hero-text-content {
@@ -448,17 +476,17 @@ body {
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   background: rgba(212, 175, 55, 0.08);
   color: var(--accent);
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 6px 12px;
+  padding: 4px 10px;
   border-radius: 0;
-  border: 1px solid rgba(212, 175, 55, 0.15);
-  margin-bottom: 16px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  margin-bottom: 8px;
 }
 
 .hero-badge-icon {
@@ -468,21 +496,29 @@ body {
 
 .hero-title {
   font-family: var(--font-serif);
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   color: var(--text-primary);
 }
 
+.hero-separator {
+  height: 1px;
+  width: 100%;
+  max-width: 220px;
+  background: linear-gradient(90deg, var(--accent) 0%, rgba(212, 175, 55, 0.3) 70%, transparent 100%);
+  margin: 6px 0 8px 0;
+}
+
 .hero-subtitle {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 13.5px;
+  line-height: 1.5;
   color: var(--text-secondary);
 }
 
 .hero-stats {
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 
 .stat-card {
@@ -490,14 +526,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 12px 18px;
   border-radius: 0;
-  min-width: 110px;
-  height: 90px;
+  min-width: 90px;
+  height: 72px;
 }
 
 .stat-value {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
   color: var(--text-primary);
 }
@@ -507,7 +543,7 @@ body {
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .library-filter-bar {
@@ -3775,11 +3811,12 @@ body {
 }
 
 .topic-annotation-card {
-  padding: 28px;
-  border-radius: 12px;
+  padding: 24px;
+  border-radius: 0;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 24px;
   transition: all 0.25s ease;
   border: 1px solid var(--border-subtle);
 }
@@ -3787,6 +3824,51 @@ body {
 .topic-annotation-card:hover {
   border-color: rgba(212, 175, 55, 0.4);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.topic-card-book-cover-wrap {
+  flex-shrink: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2px;
+}
+
+.mini-topic-cover.book-cover {
+  width: 115px;
+  height: 165px;
+  padding: 12px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5), inset 2px 0 3px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topic-card-book-cover-wrap:hover .mini-topic-cover.book-cover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.7), inset 2px 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.mini-topic-cover .book-cover-title {
+  font-size: 11.5px;
+  margin-top: 16px;
+  line-height: 1.25;
+}
+
+.mini-topic-cover .book-cover-author {
+  font-size: 8.5px;
+}
+
+.mini-topic-cover .book-cover-star {
+  font-size: 14px;
+  top: 8px;
+  right: 8px;
+}
+
+.topic-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .card-source-header {
@@ -3935,6 +4017,111 @@ body {
   }
 }
 
+<<<<<<< Updated upstream
+=======
+@media (max-width: 640px) {
+  .topic-annotation-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topic-card-book-cover-wrap {
+    justify-content: center;
+  }
+}
+
+/* Formatted Text & List Styles */
+.formatted-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formatted-paragraph {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.formatted-intro {
+  margin-bottom: 2px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.formatted-list-wrapper {
+  margin: 4px 0 8px 0;
+}
+
+.formatted-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formatted-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  border-left: 2px solid var(--accent);
+  border-radius: 0;
+  transition: all 0.15s ease;
+}
+
+.formatted-list-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(212, 175, 55, 0.35);
+  border-left-color: var(--accent);
+}
+
+.formatted-ol-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 0;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.formatted-ul-bullet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--accent);
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.formatted-item-content {
+  flex: 1;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+
+.formatted-item-title {
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+
+>>>>>>> Stashed changes
 
 
 

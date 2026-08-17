@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { BookCard } from '../components/BookCard';
 import type { Book } from '../components/BookCard';
-import { Search, BookOpen, GraduationCap, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, BookOpen, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface LibraryProps {
   books: Book[];
@@ -22,7 +22,10 @@ export const Library: React.FC<LibraryProps> = ({ books, onSelectBook, progressM
   // Dynamically extract unique filter options
   const authors = useMemo(() => {
     const set = new Set<string>();
-    books.forEach((b) => set.add(b.author));
+    books.forEach((b) => {
+      const normalized = b.author.replace(/V\.\s+I\./g, 'V.I.');
+      set.add(normalized);
+    });
     return ['All', ...Array.from(set)];
   }, [books]);
 
@@ -60,8 +63,11 @@ export const Library: React.FC<LibraryProps> = ({ books, onSelectBook, progressM
       }
 
       // Author filter
-      if (filterAuthor !== 'All' && book.author !== filterAuthor) {
-        return false;
+      if (filterAuthor !== 'All') {
+        const normBookAuthor = book.author.replace(/V\.\s+I\./g, 'V.I.');
+        if (normBookAuthor !== filterAuthor) {
+          return false;
+        }
       }
 
       // Year filter
@@ -114,12 +120,10 @@ export const Library: React.FC<LibraryProps> = ({ books, onSelectBook, progressM
     <div className="page-container library-page">
       <section className="library-hero glass-panel">
         <div className="hero-text-content">
-          <span className="hero-badge">
-            <GraduationCap className="hero-badge-icon" /> Welcome to Simplified Theory
-          </span>
-          <h2 className="hero-title">Democratizing Classic Texts</h2>
+          <h2 className="hero-title">Marxist Theory, Simplified</h2>
+          <div className="hero-separator" />
           <p className="hero-subtitle">
-            Study original publications side-by-side with paragraph-by-paragraph modern translations, historical context guides, and core takeaway summaries.
+            Read classic Marxist texts, definitions, and key topics: annotated with clear line notes and historical context.
           </p>
         </div>
         <div className="hero-stats">

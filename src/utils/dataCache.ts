@@ -159,6 +159,8 @@ export interface TopicAnnotationRef {
   annotation: Annotation;
   bookId: string;
   bookTitle: string;
+  bookAuthor?: string;
+  coverGradient?: string;
   chapterId: string;
   chapterTitle: string;
 }
@@ -250,6 +252,8 @@ export async function fetchCachedTopicIndex(): Promise<TopicGroup[]> {
                       annotation: effectiveAnn,
                       bookId: book.id,
                       bookTitle: bookDetail.title || book.title,
+                      bookAuthor: bookDetail.author || (book as any).author || '',
+                      coverGradient: bookDetail.coverGradient || (book as any).coverGradient || 'linear-gradient(135deg, #8b0000 0%, #3a0000 100%)',
                       chapterId: chapter.id,
                       chapterTitle: chapter.title,
                     });
