@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { HelpCircle, Sparkles, Lightbulb, Tag } from 'lucide-react';
 
 export type TheoryTag = 
@@ -13,11 +14,100 @@ export interface GlossaryTerm {
   definition: string;
   misconception: string;
   dayToDayExample: string;
-  theoryTags: TheoryTag[];
+  theoryTags?: TheoryTag[];
 }
 
 export const getTermSlug = (term: string): string => {
   return term.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+};
+
+export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> = ({ part, matchingTerm }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const [coords, setCoords] = useState<{ top: number; left: number; popDown: boolean } | null>(null);
+  const targetRef = useRef<HTMLSpanElement>(null);
+  const termSlug = getTermSlug(matchingTerm.term);
+
+  const updatePosition = () => {
+    if (!targetRef.current) return;
+    const rect = targetRef.current.getBoundingClientRect();
+    const tooltipWidth = 340;
+    const halfWidth = tooltipWidth / 2;
+    const preferredLeft = rect.left + rect.width / 2;
+    const clampedLeft = Math.max(16 + halfWidth, Math.min(window.innerWidth - 16 - halfWidth, preferredLeft));
+
+    const popDown = rect.top < 260;
+    const top = popDown ? rect.bottom + 10 : rect.top - 10;
+
+    setCoords({ top, left: clampedLeft, popDown });
+  };
+
+  return (
+    <>
+      <span
+        ref={targetRef}
+        className="jargon-highlight"
+        onClick={(e) => {
+          e.stopPropagation();
+          e.preventDefault();
+          const targetHash = `#term-${termSlug}`;
+          window.location.hash = targetHash;
+          window.dispatchEvent(new CustomEvent('navigate-to-glossary', { detail: { slug: termSlug } }));
+        }}
+        onMouseEnter={() => {
+          updatePosition();
+          setIsHovered(true);
+        }}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {part}
+      </span>
+      {isHovered && coords && createPortal(
+        <div
+          className={`tooltip-balloon jargon-tooltip glass-panel portal-tooltip ${coords.popDown ? 'pop-down' : ''}`}
+          style={{
+            position: 'fixed',
+            top: coords.popDown ? `${coords.top}px` : 'auto',
+            bottom: !coords.popDown ? `${window.innerHeight - coords.top}px` : 'auto',
+            left: `${coords.left}px`,
+            transform: 'translateX(-50%)',
+            zIndex: 99999,
+            opacity: 1,
+            visibility: 'visible',
+            pointerEvents: 'auto',
+          }}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          <span className="tooltip-balloon-label">
+            <Sparkles className="section-icon text-gold" /> Glossary: {matchingTerm.term}
+          </span>
+
+          {matchingTerm.theoryTags && matchingTerm.theoryTags.length > 0 && (
+            <div className="tooltip-theory-tags">
+              {matchingTerm.theoryTags.map((tag) => (
+                <span key={tag} className="theory-tag-pill mini">
+                  <Tag className="tag-icon" /> {tag}
+                </span>
+              ))}
+            </div>
+          )}
+
+          <p className="jargon-def-text">{matchingTerm.definition}</p>
+
+          <span className="jargon-example-label">
+            <Lightbulb className="section-icon text-amber" /> Day-to-day Example
+          </span>
+          <p className="jargon-example-text">{matchingTerm.dayToDayExample}</p>
+
+          <span className="jargon-misconception-label">
+            <HelpCircle className="section-icon text-crimson" /> Common Misconception
+          </span>
+          <p className="jargon-misconception-text">{matchingTerm.misconception}</p>
+        </div>,
+        document.body
+      )}
+    </>
+  );
 };
 
 export const glossary: GlossaryTerm[] = [
@@ -317,60 +407,8 @@ export const highlightJargon = (text: string): React.ReactNode[] => {
     const matchedVariant = allVariants.find(v => v.variant.toLowerCase() === lowerPart);
 
     if (matchedVariant) {
-      const matchingTerm = matchedVariant.term;
-      const termSlug = getTermSlug(matchingTerm.term);
       return (
-        <span 
-          key={index} 
-          className="jargon-highlight"
-          onClick={(e) => {
-            e.stopPropagation();
-            e.preventDefault();
-            const targetHash = `#term-${termSlug}`;
-            window.location.hash = targetHash;
-            window.dispatchEvent(new CustomEvent('navigate-to-glossary', { detail: { slug: termSlug } }));
-          }}
-          onMouseEnter={(e) => {
-            const rect = e.currentTarget.getBoundingClientRect();
-            const balloon = e.currentTarget.querySelector('.tooltip-balloon');
-            if (balloon) {
-              if (rect.top < 210) {
-                balloon.classList.add('pop-down');
-              } else {
-                balloon.classList.remove('pop-down');
-              }
-            }
-          }}
-        >
-          {part}
-          <span className="tooltip-balloon jargon-tooltip glass-panel">
-            <span className="tooltip-balloon-label">
-              <Sparkles className="section-icon text-gold" /> Glossary: {matchingTerm.term}
-            </span>
-
-            {matchingTerm.theoryTags && matchingTerm.theoryTags.length > 0 && (
-              <div className="tooltip-theory-tags">
-                {matchingTerm.theoryTags.map((tag) => (
-                  <span key={tag} className="theory-tag-pill mini">
-                    <Tag className="tag-icon" /> {tag}
-                  </span>
-                ))}
-              </div>
-            )}
-
-            <p className="jargon-def-text">{matchingTerm.definition}</p>
-
-            <span className="jargon-example-label">
-              <Lightbulb className="section-icon text-amber" /> Day-to-day Example
-            </span>
-            <p className="jargon-example-text">{matchingTerm.dayToDayExample}</p>
-
-            <span className="jargon-misconception-label">
-              <HelpCircle className="section-icon text-crimson" /> Common Misconception
-            </span>
-            <p className="jargon-misconception-text">{matchingTerm.misconception}</p>
-          </span>
-        </span>
+        <JargonWord key={index} part={part} matchingTerm={matchedVariant.term} />
       );
     }
 

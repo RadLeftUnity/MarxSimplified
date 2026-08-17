@@ -2,19 +2,19 @@
   {
     "id": "imperialism-chapter2-1",
     "targetText": "This pamphlet was written with an eye to the tsarist censorship.",
-    "summary": "Lenin had to write this text cautiously using indirect economic terms to pass Russian imperial censorship.",
-    "context": "Because of tsarist political repression, Lenin used Aesopian language to discuss imperialist war without getting banned."
+    "summary": "Lenin wrote under strict Russian government censorship, forcing him to use encoded language ('Aesopian language') to discuss political revolution without getting his text banned.",
+    "context": "Tsarist censors strictly prohibited anti-war agitation and calls for revolution. Lenin bypassed censors by using cautious economic data and substituting country names (such as using Japan as a code word for Russia's colonial expansion)."
   },
   {
     "id": "imperialism-chapter2-2",
     "targetText": "forced to confine myself strictly to an exclusively theoretical, specifically economic analysis of facts",
-    "summary": "forced to confine myself strictly to an exclusively theoretical, specifically... this statement highlights key economic principles governing class relations under capitalism.",
-    "context": "Essential theoretical analysis of capital, wages, and social relations."
+    "summary": "Because of censorship, Lenin relied entirely on hard economic statistics and corporate reports rather than overt political slogans to prove his points.",
+    "context": "This constraint actually strengthened the text: Lenin relied on indisputable banking data, corporate records, and official government statistics from Western industrial powers, proving that imperialism is a structural economic phase rather than a moral choice."
   },
   {
     "id": "imperialism-chapter2-3",
     "targetText": "unless this is studied, it will be impossible to understand and appraise modern war and modern politics.",
-    "summary": "One cannot understand modern warfare or global politics without analyzing the economic roots of imperialism.",
-    "context": "Lenin argues that World War I was driven by economic competition between monopoly powers, not moral disputes."
+    "summary": "You cannot understand modern global wars or international conflicts without examining the underlying financial and economic greed that drives them.",
+    "context": "World War I was presented by governments as a noble fight for democracy or national honor. Lenin cuts through political rhetoric to show that modern warfare is driven by competing monopoly cartels and financial powers fighting over resources and trade routes."
   }
 ]

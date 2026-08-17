@@ -97,6 +97,22 @@
         "Theory",
         "Philosophy"
       ]
+    },
+    {
+      "id": "what-is-to-be-done",
+      "title": "What Is To Be Done?",
+      "author": "V.I. Lenin",
+      "year": "1902",
+      "difficulty": "Medium-Hard",
+      "readingTime": "5.5 hours",
+      "shortDescription": "Written by V.I. Lenin in late 1901 and published in 1902, this pivotal work argues for a disciplined, professional vanguard party to lead the working class beyond basic trade-union demands to full political consciousness.",
+      "coverColor": "#4e1a3b",
+      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
     }
   ]
 }

@@ -2,19 +2,19 @@
   {
     "id": "imperialism-chapter6-1",
     "targetText": "Paramount importance attaches to the \"holding system,\" already",
-    "summary": "Financiers use parent and subsidiary companies to control massive industrial networks with a small fraction of capital.",
-    "context": "The holding system allows financial magnates to exercise leverage over vast economic networks while avoiding liability."
+    "summary": "The holding system allows a parent financial corporation to control vast webs of subsidiary companies using only a small fraction of capital.",
+    "context": "By buying controlling stakes (51% or less) in parent companies, which in turn control subsidiaries, financial magnates exercise leverage over entire industrial sectors while insulating themselves from losses."
   },
   {
     "id": "imperialism-chapter6-2",
     "targetText": "monstrous rule of the\n financial oligarchy are so glaring",
-    "summary": "A small oligarchy of bankers and monopoly magnates exercises dominant control over economic and political institutions.",
-    "context": "Lenin demonstrates how industrial and financial concentration leads directly to political oligarchy."
+    "summary": "A tiny financial elite of bankers, private investors, and corporate magnates rules the economy and shapes government policies.",
+    "context": "Lenin details how financial concentration transforms formal democracy into a hidden rule by an oligarchy that influences government decisions, treasury loans, and state contracts."
   },
   {
     "id": "imperialism-chapter6-3",
     "targetText": "petty usury capital, is ending its development",
-    "summary": "Capitalism evolves from small money-lending into massive financial extraction and speculative debt networks.",
-    "context": "Productive manufacturing becomes subordinated to financial extraction and speculative banking returns."
+    "summary": "Capitalism evolves from small money-lending into massive financial extraction, where wealth is made through financial speculation, debt issuance, and stock manipulation.",
+    "context": "In this stage, economic power shifts away from factory owners making physical goods to Wall Street and central bankers managing speculative debt and equity instruments."
   }
 ]

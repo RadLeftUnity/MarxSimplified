@@ -48,19 +48,27 @@ function cleanHtml(html) {
   // Strip remaining tags
   let text = bodyContent.replace(/<[^>]*>/g, '');
 
-  // Decode common HTML entities
+  // Decode common HTML entities (named and numeric)
   text = text
-    .replace(/&nbsp;|&#160;/gi, ' ')
-    .replace(/&ldquo;|&#8220;/gi, '"')
-    .replace(/&rdquo;|&#8221;/gi, '"')
-    .replace(/&lsquo;|&#8216;/gi, "'")
-    .replace(/&rsquo;|&#8217;/gi, "'")
-    .replace(/&amp;/gi, '&')
-    .replace(/&lt;/gi, '<')
-    .replace(/&gt;/gi, '>')
-    .replace(/&quot;/gi, '"')
-    .replace(/&mdash;|&#8212;/gi, '; ')
-    .replace(/&ndash;|&#8211;/gi, '; ');
+    .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"')
+    .replace(/&#8216;|&#8217;|&lsquo;|&rsquo;/g, "'")
+    .replace(/&#8211;|&#8212;|&ndash;|&mdash;/g, '; ')
+    .replace(/&#163;/g, '£')
+    .replace(/&#160;|&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, (_, code) => {
+      const num = parseInt(code, 10);
+      if (num === 8211 || num === 8212) return '; ';
+      if (num === 8220 || num === 8221) return '"';
+      if (num === 8216 || num === 8217) return "'";
+      return String.fromCharCode(num);
+    })
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => {
+      return String.fromCharCode(parseInt(hex, 16));
+    })
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
 
   // Replace em-dashes with semicolons to comply with workspace rule
   text = text.replace(/—|--/g, '; ');
