@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, BookOpen, Key, History, ChevronRight, ExternalLink } from 'lucide-react';
+import { ArrowLeft, BookOpen, Key, History, ChevronRight, ExternalLink, Sparkles } from 'lucide-react';
 
 export interface Chapter {
   id: string;
@@ -28,9 +28,15 @@ interface BookSummaryProps {
   book: BookDetail;
   onBack: () => void;
   onStartReading: (chapterId: string) => void;
+  onStartSimplifiedReading?: (chapterId?: string) => void;
 }
 
-export const BookSummary: React.FC<BookSummaryProps> = ({ book, onBack, onStartReading }) => {
+export const BookSummary: React.FC<BookSummaryProps> = ({
+  book,
+  onBack,
+  onStartReading,
+  onStartSimplifiedReading,
+}) => {
   return (
     <div className="page-container summary-page">
       <button className="back-link-btn" onClick={onBack}>
@@ -54,6 +60,26 @@ export const BookSummary: React.FC<BookSummaryProps> = ({ book, onBack, onStartR
           </div>
           <h2 className="summary-book-title">{book.title}</h2>
           <p className="summary-book-author">By {book.author}</p>
+
+          <div className="summary-action-btns-row">
+            <button
+              className="summary-primary-btn full-text-mode-btn"
+              onClick={() => onStartReading(book.chapters[0]?.id || '')}
+              id="hero-start-reading-btn"
+            >
+              <BookOpen className="btn-small-icon" /> Read Full Text
+            </button>
+            {onStartSimplifiedReading && (
+              <button
+                className="summary-secondary-btn simplified-mode-btn"
+                onClick={() => onStartSimplifiedReading()}
+                id="hero-start-simplified-btn"
+              >
+                <Sparkles className="btn-small-icon text-gold" /> Simplified Version
+              </button>
+            )}
+          </div>
+
           {book.marxistsOrgUrl && (
             <a 
               href={book.marxistsOrgUrl} 
@@ -107,15 +133,27 @@ export const BookSummary: React.FC<BookSummaryProps> = ({ book, onBack, onStartR
             </h3>
             <div className="chapters-list">
               {book.chapters.map((chapter) => (
-                <div 
-                  key={chapter.id} 
-                  className="chapter-list-item glass-panel card-hover-effect"
-                  onClick={() => onStartReading(chapter.id)}
-                >
-                  <div className="chapter-item-details">
+                <div key={chapter.id} className="chapter-row-container">
+                  <button 
+                    className="chapter-list-item glass-panel card-hover-effect"
+                    onClick={() => onStartReading(chapter.id)}
+                    id={`chapter-full-btn-${chapter.id}`}
+                  >
                     <span className="chapter-item-title">{chapter.title}</span>
-                  </div>
-                  <ChevronRight className="chapter-item-arrow" />
+                    <ChevronRight className="chapter-item-arrow" />
+                  </button>
+
+                  {onStartSimplifiedReading && (
+                    <button
+                      className="chapter-simplified-side-btn glass-panel card-hover-effect"
+                      onClick={() => onStartSimplifiedReading(chapter.id)}
+                      title="Read chapter simplified version"
+                      id={`chapter-simplified-btn-${chapter.id}`}
+                    >
+                      <Sparkles className="btn-mini-icon text-gold" />
+                      <span>Simplified</span>
+                    </button>
+                  )}
                 </div>
               ))}
             </div>
@@ -125,3 +163,4 @@ export const BookSummary: React.FC<BookSummaryProps> = ({ book, onBack, onStartR
     </div>
   );
 };
+

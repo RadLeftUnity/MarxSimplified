@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, CheckCircle, X, Loader2, RefreshCw, Type } from 'lucide-react';
+import { ArrowLeft, CheckCircle, X, Loader2, RefreshCw, Type, Sparkles } from 'lucide-react';
 import type { BookDetail } from './BookSummary';
 import { ChapterReader } from '../components/ChapterReader';
 import type { Annotation } from '../components/ChapterReader';
@@ -14,6 +14,8 @@ interface ReaderProps {
   onMarkCompleted: () => void;
   isCompleted: boolean;
   onOpenA11y?: () => void;
+  onSwitchToSimplified?: () => void;
+  onSelectTopicTag?: (topic: string) => void;
 }
 
 export const Reader: React.FC<ReaderProps> = ({
@@ -24,6 +26,8 @@ export const Reader: React.FC<ReaderProps> = ({
   onMarkCompleted,
   isCompleted,
   onOpenA11y,
+  onSwitchToSimplified,
+  onSelectTopicTag,
 }) => {
   const [text, setText] = useState<string>('');
   const [annotations, setAnnotations] = useState<Annotation[]>([]);
@@ -163,6 +167,18 @@ export const Reader: React.FC<ReaderProps> = ({
         </div>
 
         <div className="toolbar-actions">
+          {onSwitchToSimplified && (
+            <button
+              className="toolbar-action-btn switch-mode-btn"
+              onClick={onSwitchToSimplified}
+              title="Switch to Simplified Version (Annotations Only)"
+              id="reader-toolbar-simplified-btn"
+            >
+              <Sparkles className="toolbar-btn-icon text-gold" />
+              <span className="hide-mobile-sm">Simplified</span>
+            </button>
+          )}
+
           {onOpenA11y && (
             <button
               className="toolbar-action-btn reader-a11y-btn"
@@ -171,7 +187,7 @@ export const Reader: React.FC<ReaderProps> = ({
               id="reader-toolbar-a11y-btn"
             >
               <Type className="toolbar-btn-icon text-gold" />
-              <span className="hide-mobile">Text</span>
+              <span className="hide-mobile-sm">Text</span>
             </button>
           )}
 
@@ -179,19 +195,19 @@ export const Reader: React.FC<ReaderProps> = ({
             <button 
               className="toolbar-action-btn mobile-summary-btn"
               onClick={() => setShowMobileSummary(true)}
-              style={{ marginRight: '8px' }}
               id="mobile-chapter-summary-btn"
             >
               <span>Summary</span>
             </button>
           )}
+
           <button 
             className={`toolbar-action-btn complete-btn ${isCompleted ? 'completed' : ''}`}
             onClick={onMarkCompleted}
             id="mark-completed-btn"
           >
             <CheckCircle className="toolbar-btn-icon" />
-            <span>{isCompleted ? 'Completed' : 'Mark Done'}</span>
+            <span className="hide-mobile-sm">{isCompleted ? 'Completed' : 'Mark Done'}</span>
           </button>
         </div>
       </header>
@@ -254,6 +270,7 @@ export const Reader: React.FC<ReaderProps> = ({
               activeAnnotationId={activeAnnotationId}
               onSelectAnnotation={handleSelectAnnotation}
               chapterSummary={chapterSummary}
+              onSelectTopicTag={onSelectTopicTag}
             />
           )}
         </div>
@@ -272,7 +289,7 @@ export const Reader: React.FC<ReaderProps> = ({
             
             <div className="drawer-body">
               <blockquote className="drawer-quote">
-                "{activeAnnotation.targetText}"
+                {activeAnnotation.targetText}
               </blockquote>
               <div className="drawer-meaning">
                 <span className="drawer-label">Meaning:</span>
