@@ -2,7 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Loader2 } from 'lucide-react';
 import { fetchCachedTopicIndex } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
-import { highlightJargon } from '../data/glossary';
+import { FormattedText } from '../components/FormattedText';
+
 
 interface TopicsProps {
   initialTopic?: string | null;
@@ -194,7 +195,7 @@ export const Topics: React.FC<TopicsProps> = ({
                           <span className="section-label summary-label">
                             <Sparkles className="section-icon" /> Simplified Meaning
                           </span>
-                          <p className="simplified-text">{highlightJargon(ann.summary)}</p>
+                          <FormattedText text={ann.summary} className="simplified-text" />
                         </div>
 
                         {ann.context && (
@@ -202,7 +203,7 @@ export const Topics: React.FC<TopicsProps> = ({
                             <span className="section-label context-label">
                               <History className="section-icon" /> Historical Context
                             </span>
-                            <p className="context-text">{highlightJargon(ann.context)}</p>
+                            <FormattedText text={ann.context} className="context-text" />
                           </div>
                         )}
 

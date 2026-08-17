@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { glossary, getTermSlug } from '../data/glossary';
 import type { GlossaryTerm, TheoryTag } from '../data/glossary';
 import { Sparkles, HelpCircle, Lightbulb, BookOpen, Link as LinkIcon, Check, Tag, Search, X } from 'lucide-react';
+import { FormattedText } from '../components/FormattedText';
 
 const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
   'All',
@@ -244,21 +245,21 @@ export const Glossary: React.FC = () => {
                         <span className="section-label summary-label">
                           <Sparkles className="section-icon text-gold" /> Simplified Meaning
                         </span>
-                        <p className="glossary-card-text">{item.definition}</p>
+                        <FormattedText text={item.definition} paragraphClassName="glossary-card-text" />
                       </div>
 
                       <div className="glossary-card-section example-section glass-panel">
                         <span className="section-label example-label">
                           <Lightbulb className="section-icon text-amber" /> Day-to-day Example
                         </span>
-                        <p className="glossary-card-text">{item.dayToDayExample}</p>
+                        <FormattedText text={item.dayToDayExample} paragraphClassName="glossary-card-text" />
                       </div>
 
                       <div className="glossary-card-section misconception-section glass-panel">
                         <span className="section-label context-label">
                           <HelpCircle className="section-icon text-crimson" /> Common Misconception
                         </span>
-                        <p className="glossary-card-text text-muted-style">{item.misconception}</p>
+                        <FormattedText text={item.misconception} paragraphClassName="glossary-card-text text-muted-style" />
                       </div>
                     </div>
                   );

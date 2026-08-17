@@ -5,6 +5,8 @@ import { ChapterReader } from '../components/ChapterReader';
 import type { Annotation } from '../components/ChapterReader';
 import { AnnotationSidebar } from '../components/AnnotationSidebar';
 import { fetchChapterBundle, prefetchAdjacentChapters } from '../utils/dataCache';
+import { FormattedText } from '../components/FormattedText';
+
 
 interface ReaderProps {
   book: BookDetail;
@@ -293,12 +295,12 @@ export const Reader: React.FC<ReaderProps> = ({
               </blockquote>
               <div className="drawer-meaning">
                 <span className="drawer-label">Meaning:</span>
-                <p>{activeAnnotation.summary}</p>
+                <FormattedText text={activeAnnotation.summary} />
               </div>
               {activeAnnotation.context && (
                 <div className="drawer-context">
                   <span className="drawer-label">Context:</span>
-                  <p>{activeAnnotation.context}</p>
+                  <FormattedText text={activeAnnotation.context} />
                 </div>
               )}
             </div>
@@ -320,11 +322,7 @@ export const Reader: React.FC<ReaderProps> = ({
             <div className="drawer-body" style={{ gap: '16px' }}>
               <span className="drawer-label">concise summary:</span>
               <div className="chapter-summary-content" style={{ fontFamily: 'var(--font-serif)', lineHeight: 1.7, fontSize: '14px', color: 'var(--text-secondary)' }}>
-                {chapterSummary.split(/\n\s*\n/).map((para, idx) => (
-                  <p key={idx} style={{ marginBottom: '14px' }}>
-                    {para}
-                  </p>
-                ))}
+                <FormattedText text={chapterSummary} />
               </div>
             </div>
           </div>

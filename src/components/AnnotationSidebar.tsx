@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import type { Annotation } from './ChapterReader';
 import { BookOpen, Sparkles, History, MessageCircle } from 'lucide-react';
-import { highlightJargon } from '../data/glossary';
+import { FormattedText } from './FormattedText';
+
 
 interface AnnotationSidebarProps {
   annotations: Annotation[];
@@ -68,11 +69,7 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
               <Sparkles className="section-icon text-gold" /> Concise Summary
             </span>
             <div className="chapter-summary-content">
-              {chapterSummary.split(/\n\s*\n/).map((para, idx) => (
-                <p key={idx} className="summary-paragraph">
-                  {highlightJargon(para)}
-                </p>
-              ))}
+              <FormattedText text={chapterSummary} paragraphClassName="summary-paragraph" />
             </div>
           </div>
         ) : annotations.length === 0 ? (
@@ -104,7 +101,7 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                   <span className="section-label summary-label">
                     <Sparkles className="section-icon" /> Simplified Meaning
                   </span>
-                  <p className="simplified-text">{summaryText}</p>
+                  <FormattedText text={summaryText} className="simplified-text" />
                 </div>
 
                 {ann.context && (
@@ -112,7 +109,7 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                     <span className="section-label context-label">
                       <History className="section-icon" /> Historical Context
                     </span>
-                    <p className="context-text">{ann.context}</p>
+                    <FormattedText text={ann.context} className="context-text" />
                   </div>
                 )}
 

@@ -3,7 +3,8 @@ import { ArrowLeft, BookOpen, Sparkles, History, ExternalLink, Layers, Type, Com
 import type { BookDetail, Chapter } from './BookSummary';
 import type { Annotation } from '../components/ChapterReader';
 import { fetchCachedAnnotations, fetchCachedText } from '../utils/dataCache';
-import { highlightJargon } from '../data/glossary';
+import { FormattedText } from '../components/FormattedText';
+
 
 interface SimplifiedVersionProps {
   book: BookDetail;
@@ -257,11 +258,7 @@ export const SimplifiedVersion: React.FC<SimplifiedVersionProps> = ({
                             <h4>Chapter Overview</h4>
                           </div>
                           <div className="narrative-body">
-                            {chData.chapterSummary.split(/\n\s*\n/).map((para, pIdx) => (
-                              <p key={pIdx} className="narrative-paragraph">
-                                {highlightJargon(para)}
-                              </p>
-                            ))}
+                            <FormattedText text={chData.chapterSummary} paragraphClassName="narrative-paragraph" />
                           </div>
                         </div>
                       )}
@@ -296,9 +293,9 @@ export const SimplifiedVersion: React.FC<SimplifiedVersionProps> = ({
                                   <span className="concept-label">
                                     <Sparkles className="concept-label-icon text-gold" /> Simplified Meaning
                                   </span>
-                                  <p className="concept-summary-text">
-                                    {highlightJargon(ann.summary)}
-                                  </p>
+                                  <div className="concept-summary-text">
+                                    <FormattedText text={ann.summary} />
+                                  </div>
                                 </div>
 
                                 {/* Original Text Excerpt Context */}
@@ -317,9 +314,9 @@ export const SimplifiedVersion: React.FC<SimplifiedVersionProps> = ({
                                     <span className="concept-label">
                                       <History className="concept-label-icon text-crimson" /> Historical & Analytical Context
                                     </span>
-                                    <p className="concept-context-text">
-                                      {highlightJargon(ann.context)}
-                                    </p>
+                                    <div className="concept-context-text">
+                                      <FormattedText text={ann.context} />
+                                    </div>
                                   </div>
                                 )}
                               </article>
