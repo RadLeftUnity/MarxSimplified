@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, CheckCircle, X, Loader2, RefreshCw } from 'lucide-react';
+import { ArrowLeft, CheckCircle, X, Loader2, RefreshCw, Type } from 'lucide-react';
 import type { BookDetail } from './BookSummary';
 import { ChapterReader } from '../components/ChapterReader';
 import type { Annotation } from '../components/ChapterReader';
@@ -13,6 +13,7 @@ interface ReaderProps {
   onChapterChange: (chapterId: string) => void;
   onMarkCompleted: () => void;
   isCompleted: boolean;
+  onOpenA11y?: () => void;
 }
 
 export const Reader: React.FC<ReaderProps> = ({
@@ -22,6 +23,7 @@ export const Reader: React.FC<ReaderProps> = ({
   onChapterChange,
   onMarkCompleted,
   isCompleted,
+  onOpenA11y,
 }) => {
   const [text, setText] = useState<string>('');
   const [annotations, setAnnotations] = useState<Annotation[]>([]);
@@ -161,6 +163,18 @@ export const Reader: React.FC<ReaderProps> = ({
         </div>
 
         <div className="toolbar-actions">
+          {onOpenA11y && (
+            <button
+              className="toolbar-action-btn reader-a11y-btn"
+              onClick={onOpenA11y}
+              title="Adjust Reader Text Size & Theme"
+              id="reader-toolbar-a11y-btn"
+            >
+              <Type className="toolbar-btn-icon text-gold" />
+              <span className="hide-mobile">Text</span>
+            </button>
+          )}
+
           {isMobile && chapterSummary && (
             <button 
               className="toolbar-action-btn mobile-summary-btn"

@@ -101,17 +101,20 @@
     {
       "id": "what-is-to-be-done",
       "title": "What Is To Be Done?",
-      "author": "V.I. Lenin",
+      "author": "V. I. Lenin",
       "year": "1902",
-      "difficulty": "Medium-Hard",
-      "readingTime": "5.5 hours",
-      "shortDescription": "Written by V.I. Lenin in late 1901 and published in 1902, this pivotal work argues for a disciplined, professional vanguard party to lead the working class beyond basic trade-union demands to full political consciousness.",
-      "coverColor": "#4e1a3b",
-      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
-      "subject": "Theory & Philosophy",
+      "difficulty": "Medium",
+      "readingTime": "3.5 hours",
+      "shortDescription": "Lenin's seminal work on political organization, arguing that working-class political consciousness requires systematic theoretical education rather than pure trade unionism.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Party Organization & Political Consciousness",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Vanguard Party",
+        "Political Consciousness",
+        "Economism",
+        "Class Struggle",
+        "Marxism-Leninism"
       ]
     }
   ]

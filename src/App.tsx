@@ -6,6 +6,8 @@ import type { BookDetail } from './pages/BookSummary';
 import { Reader } from './pages/Reader';
 import type { Book } from './components/BookCard';
 import { Glossary } from './pages/Glossary';
+import { AccessibilityPanel, DEFAULT_A11Y_SETTINGS } from './components/AccessibilityPanel';
+import type { AccessibilitySettings, ReaderFontSize, Theme } from './components/AccessibilityPanel';
 import { Loader2, AlertTriangle } from 'lucide-react';
 import { fetchCachedJSON, prefetchBookSummaries } from './utils/dataCache';
 
@@ -20,17 +22,58 @@ export default function App() {
   const [bookLoading, setBookLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   
-  // Theme state: dark, gray, light
-  const [theme, setTheme] = useState<'dark' | 'gray' | 'light'>(() => {
-    const saved = localStorage.getItem('marx_simplified_theme');
-    if (saved === 'grayish') return 'gray';
-    return (saved as 'dark' | 'gray' | 'light') || 'dark';
+  // Accessibility & Theme state persisted in localStorage
+  const [a11yOpen, setA11yOpen] = useState<boolean>(false);
+  const [a11ySettings, setA11ySettings] = useState<AccessibilitySettings>(() => {
+    const saved = localStorage.getItem('marx_simplified_a11y');
+    if (saved) {
+      try {
+        return { ...DEFAULT_A11Y_SETTINGS, ...JSON.parse(saved) };
+      } catch {
+        // fallback
+      }
+    }
+    const legacyTheme = localStorage.getItem('marx_simplified_theme');
+    return {
+      ...DEFAULT_A11Y_SETTINGS,
+      theme: (legacyTheme as Theme) || 'dark',
+    };
   });
 
+  // Apply data attributes to document root
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('marx_simplified_theme', theme);
-  }, [theme]);
+    document.documentElement.setAttribute('data-theme', a11ySettings.theme);
+    document.documentElement.setAttribute('data-reader-size', a11ySettings.fontSize);
+    document.documentElement.setAttribute('data-reader-font', a11ySettings.fontFamily);
+    document.documentElement.setAttribute('data-reader-spacing', a11ySettings.lineHeight);
+    localStorage.setItem('marx_simplified_a11y', JSON.stringify(a11ySettings));
+  }, [a11ySettings]);
+
+  // Keyboard accessibility hotkeys (Alt + +, Alt + -, Alt + A)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.altKey && (e.key === '+' || e.key === '=')) {
+        e.preventDefault();
+        setA11ySettings((prev) => {
+          const sizes: ReaderFontSize[] = ['small', 'normal', 'large', 'xlarge'];
+          const idx = sizes.indexOf(prev.fontSize);
+          return { ...prev, fontSize: sizes[Math.min(sizes.length - 1, idx + 1)] };
+        });
+      } else if (e.altKey && (e.key === '-' || e.key === '_')) {
+        e.preventDefault();
+        setA11ySettings((prev) => {
+          const sizes: ReaderFontSize[] = ['small', 'normal', 'large', 'xlarge'];
+          const idx = sizes.indexOf(prev.fontSize);
+          return { ...prev, fontSize: sizes[Math.max(0, idx - 1)] };
+        });
+      } else if (e.altKey && (e.key === 'a' || e.key === 'A')) {
+        e.preventDefault();
+        setA11yOpen((prev) => !prev);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   // Progress tracker mapping book ID to status
   const [progressMap, setProgressMap] = useState<Record<string, 'not-started' | 'reading' | 'completed'>>({});
@@ -219,14 +262,19 @@ export default function App() {
     setSelectedChapterId(null);
   };
 
+  const updateA11ySettings = (newPartial: Partial<AccessibilitySettings>) => {
+    setA11ySettings((prev) => ({ ...prev, ...newPartial }));
+  };
+
   return (
     <div className="app-layout">
       <Navbar 
         onGoHome={handleGoHome} 
         currentPage={page} 
         onGoToGlossary={handleGoToGlossary}
-        theme={theme}
-        onThemeChange={setTheme}
+        theme={a11ySettings.theme}
+        onThemeChange={(newTheme) => updateA11ySettings({ theme: newTheme })}
+        onOpenA11y={() => setA11yOpen(true)}
       />
       
       {loading ? (
@@ -266,6 +314,7 @@ export default function App() {
               onChapterChange={setSelectedChapterId}
               onMarkCompleted={handleMarkCompleted}
               isCompleted={progressMap[selectedBookId || ''] === 'completed'}
+              onOpenA11y={() => setA11yOpen(true)}
             />
           )}
 
@@ -281,6 +330,13 @@ export default function App() {
           )}
         </main>
       )}
+
+      <AccessibilityPanel
+        isOpen={a11yOpen}
+        onClose={() => setA11yOpen(false)}
+        settings={a11ySettings}
+        onUpdateSettings={updateA11ySettings}
+      />
     </div>
   );
 }

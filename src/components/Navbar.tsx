@@ -1,7 +1,7 @@
 import React from 'react';
-import { BookOpen, Moon, Sun, Palette } from 'lucide-react';
+import { BookOpen, Moon, Sun, Sliders } from 'lucide-react';
 
-export type Theme = 'dark' | 'gray' | 'light';
+export type Theme = 'dark' | 'sepia' | 'high-contrast' | 'gray' | 'light';
 
 interface NavbarProps {
   onGoHome: () => void;
@@ -9,6 +9,7 @@ interface NavbarProps {
   onGoToGlossary: () => void;
   theme: Theme;
   onThemeChange: (theme: Theme) => void;
+  onOpenA11y: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -17,6 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onGoToGlossary,
   theme,
   onThemeChange,
+  onOpenA11y,
 }) => {
   return (
     <header className="navbar glass-header">
@@ -49,8 +51,19 @@ export const Navbar: React.FC<NavbarProps> = ({
           Glossary
         </button>
 
-        {/* Theme Picker */}
-        <div className="theme-toggle-group">
+        {/* Accessibility & Reading Options Button */}
+        <button
+          onClick={onOpenA11y}
+          className="nav-btn a11y-trigger-btn"
+          id="nav-btn-a11y"
+          title="Open Text Size & Accessibility Settings (Alt+A)"
+        >
+          <Sliders className="btn-small-icon text-gold" style={{ marginRight: '6px' }} />
+          <span>Text & Display</span>
+        </button>
+
+        {/* Quick Theme Picker */}
+        <div className="theme-toggle-group hide-mobile">
           <button
             title="Dark Theme"
             onClick={() => onThemeChange('dark')}
@@ -62,23 +75,23 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
 
           <button
-            title="Gray Theme"
-            onClick={() => onThemeChange('gray')}
-            className={`theme-btn ${theme === 'gray' ? 'active' : ''}`}
-            id="theme-btn-gray"
+            title="Warm Sepia Theme"
+            onClick={() => onThemeChange('sepia')}
+            className={`theme-btn ${theme === 'sepia' ? 'active' : ''}`}
+            id="theme-btn-sepia"
           >
-            <Palette className="theme-btn-icon" />
-            <span className="theme-btn-label">Gray</span>
+            <Sun className="theme-btn-icon" />
+            <span className="theme-btn-label">Sepia</span>
           </button>
 
           <button
-            title="Light Theme"
-            onClick={() => onThemeChange('light')}
-            className={`theme-btn ${theme === 'light' ? 'active' : ''}`}
-            id="theme-btn-light"
+            title="High Contrast Theme"
+            onClick={() => onThemeChange('high-contrast')}
+            className={`theme-btn ${theme === 'high-contrast' ? 'active' : ''}`}
+            id="theme-btn-high-contrast"
           >
-            <Sun className="theme-btn-icon" />
-            <span className="theme-btn-label">Light</span>
+            <Sliders className="theme-btn-icon" />
+            <span className="theme-btn-label">Contrast</span>
           </button>
         </div>
       </nav>
