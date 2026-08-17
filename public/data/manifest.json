@@ -67,6 +67,22 @@
       ]
     },
     {
+      "id": "origin-family",
+      "title": "The Origin of the Family, Private Property and the State",
+      "author": "Friedrich Engels",
+      "year": "1884",
+      "difficulty": "Medium-Hard",
+      "readingTime": "5.7 hours",
+      "shortDescription": "Published in 1884 following Karl Marx's death, this landmark work draws on Lewis H. Morgan's anthropological research into Indigenous societies to demonstrate that social institutions like the monogamous family, private property, and the state are not eternal features of human existence, but historical developments that arose alongside class division.",
+      "coverColor": "#2b2d42",
+      "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+      "subject": "Theory & Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "value-price-profit",
       "title": "Value, Price and Profit",
       "author": "Karl Marx",

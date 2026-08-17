@@ -1,0 +1,23 @@
+[
+  {
+    "id": "origin-family-ch1-1",
+    "targetText": "the determining factor in history is, in the final instance, the production and reproduction of the immediate essentials of life",
+    "summary": "Human history is fundamentally shaped by two practical activities: producing physical goods to survive (food, tools, shelter) and producing new human beings (childbirth, family, and child-rearing).",
+    "context": "Engels lays down the bedrock principle of historical materialism. Social systems, moral codes, and legal structures do not fall from the sky; they are built upon how a society produces material goods and organizes family life.",
+    "topics": ["Historical Materialism", "Family & Patriarchy"]
+  },
+  {
+    "id": "origin-family-ch1-2",
+    "targetText": "the more the social order is found to be dominated by kinship groups",
+    "summary": "In early human history when technology and stored wealth were minimal, society was organized around tribal clan bloodlines rather than states or private wealth.",
+    "context": "Before private property developed, human communities were structured around communal kinship bonds. Social obligations were determined by clan relationships rather than state laws or money.",
+    "topics": ["Kinship & Clan Society", "Historical Materialism"]
+  },
+  {
+    "id": "origin-family-ch1-3",
+    "targetText": "the old society founded on kinship groups is broken up; in its place appears a new society, with its control centered in the state",
+    "summary": "As private wealth grew, old communal tribal systems collapsed under class conflict. In their place, the state was created to protect private property and manage division between rich and poor.",
+    "context": "This explains the historical transition from primitive communalism to class society. The state did not exist eternally; it arose specifically to enforce property rights and suppress class conflict.",
+    "topics": ["State & Revolution", "Private Property", "Class Struggle"]
+  }
+]
