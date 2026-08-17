@@ -55,6 +55,7 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress = 'not-starte
         <div className="book-card-meta-row">
           <span className={`progress-badge badge-${progress}`}>{getProgressLabel()}</span>
           <span className="difficulty-badge">{book.difficulty}</span>
+          {book.subject && <span className="subject-badge">{book.subject}</span>}
         </div>
         
         <h3 className="book-card-title">{book.title}</h3>

@@ -2,7 +2,20 @@ export type TheoryTag =
   | 'Classical Marxism' 
   | 'Marxism-Leninism' 
   | 'Trotskyism' 
-  | 'Maoism';
+  | 'Maoism'
+  | 'Anarcho-Communism'
+  | 'Stalinism'
+  | 'Dengism'
+  | 'Xi Jinping Thought'
+  | 'Juche'
+  | 'Anti-Colonial Socialism'
+  | 'Capitalist Theory'
+  | 'Fascism Analysis'
+  | 'Neo-Marxism'
+  | 'Bourgeois Philosophy'
+  | 'Pre-Capitalist Modes'
+  | 'Postmodernism'
+  | 'Marxist Feminism';
 
 export interface GlossaryTerm {
   term: string;

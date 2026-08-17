@@ -1,0 +1,259 @@
+II. The Working Period Greater than the Period of Circulation
+
+The working and turnover periods of capitals I and II cross one another
+instead of relieving one another. Simultaneously some capital is set free.
+This was not so in the previously considered case.
+
+But this does not alter the fact that, as before, 1) the number
+of working periods of the total capital advanced is equal to the sum of
+the value of the annual product of both advanced portions of capital divided
+by the total capital advanced, and 2) the number of turnovers made by the
+total capital is equal to the sum of the two amounts turned over divided
+by the sum of the two advanced capitals. Here too we must consider both
+portions of capital as if they performed turnover movements entirely independent
+of each other.
+
+Thus, we assume once more, that &pound;100 are to be advanced
+weekly to the labour-process. Let the working period last 6 weeks, requiring
+therefore every time an advance of &pound;600 (capital I). Let the time
+of circulation be 3 weeks, so that the period of turnover is 9 weeks, as
+before. Let capital II of &pound;300 step in during the three-week circulation
+period of capital I. Considering both capitals as independent of each other,
+we find the schedule of the annual turnover to be as follows:
+
+Table II
+
+CAPITAL I, &pound;600
+
+Periods of Turnover
+Working Periods
+Advance
+Periods of Circulation
+
+I. 1st-9th week
+1st-6th week
+&pound;600
+7th-9th week
+
+II. 10th-18th "
+10th-15th "
+&pound;600
+16th-18th"
+
+III. 19th-27th "
+19th-24th "
+&pound;600
+25th-27th "
+
+IV. 28th-36th "
+28th-33rd "
+&pound;600
+34th-36th "
+
+V. 37th-45th "
+37th-42nd "
+&pound;600
+43rd-45th "
+
+VI. 46th-[54th] "
+46th-51st "
+&pound;600
+[52nd-54th] "
+
+ADDITIONAL CAPITAL II, &pound;300
+
+Periods of Turnover
+Working Periods
+Advance
+Periods of Circulation
+
+I. 7th-15th week
+7th-9th week
+&pound;300
+10th-15th week
+
+II. 16th-24th "
+16th-18th "
+&pound;300
+19th-24th "
+
+III. 25th-33rd "
+25th-27th "
+&pound;300
+28th-33rd "
+
+IV. 34th-42nd "
+34th-36th "
+&pound;300
+37th-42nd "
+
+V. 43rd-51st "
+43rd-45th "
+&pound;300
+46th-51st "
+
+The process of production continues uninterruptedly the whole year round
+on the same scale. The two capitals I and II remain entirely separate.
+But in order to represent them as separate, we had to tear apart their
+real intersections and intertwinings, and thus also to change the number
+of turnovers. For according to the above table the amounts turned over
+would be:
+
+by capital I, 
+5⅔ times 600, or &pound;3,400 and
+
+by capital II, 
+5 times 300, or &pound;1,500
+
+; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+
+Hence by the total capital 5 4/9 times 900, or &pound;4,900.
+
+But this is not correct, for, as we shall see, the actual periods of
+production and circulation do not absolutely coincide with those of the
+above schedule, in which it was mainly a question of presenting capitals
+I and II as independent of each other.
+
+In reality, capital II has no working and circulating periods
+separate and distinct from those of capital I. The working period is 6
+weeks, the circulation period 3 weeks. Since capital II amounts to only
+&pound;300, it can suffice only for a part of the working period. This
+is indeed the case. At the end of the 6th week a product valued at &pound;600
+passes into circulation and returns in money-form at the close of the 9th
+week. Then, at the opening of the 7th week, capital II begins its activity,
+and covers the requirements of the next working period, the 7th to 9th
+week. But according to our assumption the working period is only half up
+at the end of the 9th week. Hence capital I of &pound;600 having just returned,
+at the beginning of the 10th week, once more enters into operation and
+with its &pound;300 supplies the advances needed for the 10th to 12th week.
+This disposes of the second working period. A product value of &pound;600
+is in circulation and will return at the close of the 15th week. At the
+same time, &pound;300, the amount of the original capital II, are set free
+and are able to function in the first half of the following working period,
+that is to say, in the 13th to 15th week. After the lapse of these weeks
+the &pound;600 return; &pound;300 of them suffice for the remainder of
+the working period, and &pound;300 remain for the following working period.
+
+The thing therefore works as follows:
+
+First period of turnover: 1st-9th week.
+
+1st working period: 1st-6th week. Capital I, &pound;600, performs its function.
+
+1st period of circulation: 7th-9th week. End of 9th week, &pound;600 return.
+
+Second period of turnover: 7th-15th week.
+
+2nd working period: 7th-12th week.
+
+First half: 7th-9th week. Capital II, &pound;300, performs its function.
+
+End of 9th week, &pound;600 return in money-form (capital I).
+
+Second half: 10th-12th week. &pound;300 of capital I perform their
+function. The other &pound;300 of capital I remain freed.
+
+2nd period of circulation: 13th-15th week.
+
+End of 15th week, &pound;600 (half taken from capital I, half from
+capital II) return in the form of money.
+
+Third period of turnover; 13-21st week.
+
+3rd working period: 13th-18th week.
+
+First half: 13th-15th week. The freed &pound;300 perform their function.
+End of 15th week, &pound;600 return in money-form.
+
+Second half: 16th-18th week, &pound;300 of the returned &pound;600
+function, the other &pound;300 again remain freed.
+
+3rd period of circulation: 19th-21st week at the close of which &pound;600
+again return in money-form. In these &pound;600 capital I and capital II
+are now indistinguishably fused.
+
+And so there are eight full turnover periods of a capital of &pound;600
+(I: 1st-9th week; II: 7th-15th week; III: 13th-21st; IV: 19th-27th; V:
+25th-33rd; VI: 31st-39th; VII: 37th-45th; VIII: 43rd-51st week) to the
+end of the 51st week. But as the 49th-51st weeks fall within the eighth
+period of circulation, the &pound;300 of freed capital must step in and
+keep production going. Thus the turnover at the end of the year is as follows:
+&pound;600 have completed their circuit eight times, making &pound;4,800.
+In addition we have the product of the last 3 weeks (49th-51st), which,
+however, has completed only one-third of its circuit of 9 weeks, so that
+in the sum turned over it counts for only one-third of its amount, &pound;100.
+If, then, the annual product of 51 weeks is &pound;5,100, the capital turned
+over is only 4,800 plus 100, or &pound;4,900. The total capital advanced,
+&pound;900, has therefore been turned over 5 4/9 times, a trifle more than
+in the first case.
+
+In the present example we assumed a case in which the working
+time was ⅔ and the circulation time ⅓ of the period of turnover, i.e.,
+the working time was a simple multiple of the circulation time. The question
+now is whether capital is likewise set free, in the way shown above, when
+this assumption is not made.
+
+Let us assume a working time of 5 weeks, a circulation time of 4 weeks,
+and a capital advance of &pound;100 per week.
+
+First period of turnover: 1st-9th week.
+
+1st working period: 1st-5th week. Capital I, or &pound;500, performs its function.
+
+1st circulation period: 6th-9th week. End of 9th week, &pound;500 return in
+money-form.
+
+Second period of turnover: 6th-14th week.
+
+2nd working period: 6th-10th week.
+
+First section: 6th-9th week. Capital II, of &pound;400, performs its
+function. End of 9th week, capital I of &pound;500 returns in money-form.
+
+Second section: 10th week. &pound;100 of the returned &pound;500 perform
+their function. The remaining &pound;400 are set free for the following
+working period.
+
+2nd circulation period: 11th-14th week. End of 14th week. &pound;500 return
+in money-form.
+
+Up to the end of the 14th week (11th-14th), the &pound;400 set free above
+perform their function; &pound;100 of the &pound;500 then returned fill
+the requirements of the third working period (11th-15th week) so that &pound;400
+are once more released for the fourth working period. The same thing is
+repeated in every working period; at its beginning &pound;40 are ready
+at hand, sufficing for the first 4 weeks. End of the 4th week, &pound;500
+return in money-form, only &pound;100 of which are needed for the last
+week, while the other &pound;400 remain free for the next working period.
+
+Let us further assume a working period of 7 weeks, with a capital
+I of &pound;700; a circulation period of 2 weeks, with a capital II of
+&pound;200.
+
+In that case the first period of turnover lasts from the 1st to
+the 9th week; its first working period from the 1st to the 7th week, with
+an advance of &pound;700, its first circulation period from the 8th to
+the 9th week. End of the 9th week, &pound;700 flow back in money-form.
+
+The second period of turnover, from the 8th to the 16th week,
+contains the second working period of the 8th to the 14th week. The requirements
+of the 8th and 9th weeks of this period are covered by capital II. End
+of the 9th week, the above &pound;700 return. Up to the close of this working
+period (10th-14th week), &pound;500 of this sum are used up; &pound;200
+remain free for the next working period. The second circulation period
+lasts from the 15th to the 16th week. End of the 16th week &pound;700 return
+once more. From now on, the same thing is repeated in every working period.
+The need for capital during the first two weeks is covered by the &pound;200
+set free at the close of the preceding working period; at the close of
+the second week &pound;700 return; but only 5 weeks remain of the working
+period, so that it can consume only &pound;500; therefore &pound;200 always
+remain free for the next working period.
+
+We find, then, that in the given case, where the working period
+has been assumed to be greater than the circulation period, a money-capital
+will at all events have been set free at the close of each working period,
+which is of the same magnitude as capital II advanced for the circulation
+period. In our three illustrations capital II was &pound;300 in the first,
+&pound;400 in the second, and &pound;200 in third. Accordingly, the capital
+set free at the close of each working period was &pound;300, &pound;400
+and &pound;200 respectively.

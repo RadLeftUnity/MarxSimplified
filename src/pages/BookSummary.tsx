@@ -24,6 +24,8 @@ export interface BookDetail {
   chapters: Chapter[];
   relatesToToday?: string;
   marxistsOrgUrl?: string;
+  subject?: string;
+  tags?: string[];
 }
 
 interface BookSummaryProps {
@@ -66,6 +68,7 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
         <div className="summary-hero-info">
           <div className="info-meta-row">
             <span className="difficulty-badge">{book.difficulty}</span>
+            {book.subject && <span className="subject-badge">{book.subject}</span>}
             <span className="reading-time-meta">{book.readingTime}</span>
             <span className="year-meta">Published {book.year}</span>
           </div>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { glossary, getTermSlug } from '../data/glossary';
 import type { GlossaryTerm, TheoryTag } from '../data/glossary';
-import { Sparkles, HelpCircle, Lightbulb, BookOpen, Link as LinkIcon, Check, Tag, Search, X } from 'lucide-react';
+import { Sparkles, HelpCircle, Lightbulb, Link as LinkIcon, Check, Tag, Search, X, ArrowLeft } from 'lucide-react';
 import { FormattedText } from '../components/FormattedText';
 
 const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
@@ -10,9 +10,28 @@ const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
   'Marxism-Leninism',
   'Trotskyism',
   'Maoism',
+  'Anarcho-Communism',
+  'Stalinism',
+  'Dengism',
+  'Xi Jinping Thought',
+  'Juche',
+  'Anti-Colonial Socialism',
+  'Capitalist Theory',
+  'Fascism Analysis',
+  'Neo-Marxism',
+  'Bourgeois Philosophy',
+  'Pre-Capitalist Modes',
+  'Postmodernism',
+  'Marxist Feminism',
 ];
 
-export const Glossary: React.FC = () => {
+
+interface GlossaryProps {
+  onBack?: () => void;
+  previousViewLabel?: string;
+}
+
+export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel }) => {
   const [targetSlug, setTargetSlug] = useState<string | null>(null);
   const [copiedSlug, setCopiedSlug] = useState<string | null>(null);
   const [selectedTheory, setSelectedTheory] = useState<'All' | TheoryTag>('All');
@@ -102,17 +121,14 @@ export const Glossary: React.FC = () => {
 
   return (
     <div className="page-container glossary-page">
-      <section className="library-hero glass-panel">
-        <div className="hero-text-content">
-          <span className="hero-badge">
-            <BookOpen className="hero-badge-icon" /> Jargon Dictionary
-          </span>
-          <h2 className="hero-title">Simplified Glossary of Terms</h2>
-          <p className="hero-subtitle">
-            A guide to understanding core Marxist jargon, explaining away common media misconceptions and defining economic concepts with real-world, everyday examples.
-          </p>
+      {onBack && (
+        <div className="glossary-back-nav">
+          <button className="glossary-back-btn glass-panel" onClick={onBack} id="glossary-back-btn">
+            <ArrowLeft className="btn-small-icon" />
+            <span>{previousViewLabel || 'Back to Previous Page'}</span>
+          </button>
         </div>
-      </section>
+      )}
 
       {/* Search & Filter Bar */}
       <section className="glossary-filter-bar glass-panel">

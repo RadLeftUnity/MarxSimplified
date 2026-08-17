@@ -1,0 +1,206 @@
+VIII. The Constant Capital in Both Departments
+
+The analysis of the total value of the product of 9,000, and of the
+categories into which it is divided, does not present any greater difficulty
+than that of the value produced by an individual capital. On the contrary,
+they are identical.
+
+The entire annual social product here contains three social working-days,
+each of one year. The value expressed by each one of these
+working-days is 3,000, so that the value expressed by the total product
+is equal to 3 × 3,000, or 9,000.
+
+Furthermore the following portions of this working time have elapsed
+prior to the one-year process of production, the product of which we are
+now analysing: In department I four-thirds of a working-day (with a
+product worth 4,000), and in department II two-thirds of a working-day
+(with a product worth 2,000), making a total of two social working-days
+with a product worth 6,000. For this reason 4,000 Ic + 2,000 IIc = 6,000c figure as the value of the means of production, or the constant capital-value re-appearing in the total value of the social product.
+Furthermore one-third of the social working-day of one year newly
+added in department I is necessary labour, or labour replacing the value
+of the variable capital of 1,000 I and paying the price of the labour
+employed by I. In the same way one-sixth of a social working-day in II is
+necessary labour with a value of 500. Hence 1,000 Iv + 500 IIv = 1,500v, expressing the value of one half of the social working-day, is the
+value-expression of the first half of the aggregate working-day added this
+year and consisting of necessary labour.
+
+Finally, in department I one-third of the aggregate working-day, with
+a product worth 1,000, is surplus-labour, and in department II one-sixth
+of the working-day, with a product worth 500, is surplus-labour.
+
+Together they constitute the other half of the added aggregate working-day.
+Hence the total surplus-value produced is equal to 1,000 Is + 500
+IIs, or 1,500s.
+
+Thus:
+
+The constant capital portion of the value of the social product (c):
+
+Two working-days expended prior to the process of
+
+production; expression of value = 6,000.
+
+Necessary labour (v) expended during the year:
+
+One half of a working-day expended on the annual
+
+production; expression of value 1,500.
+
+Surplus-labour (s) expended during the year:
+
+One half of a working-day expended on the annual
+
+production; expression of value = 1,500.
+
+Value produced by annual labour (v + s) = 3,000.
+
+Total value of product (c + v + s) = 9,000.
+
+The difficulty, then, does not consist in the analysis of the value of
+the social product itself. It arises in the comparison of the component
+parts of the value of the social product with its material constituents.
+
+The constant, merely re-appearing portion of value is equal to the
+value of that part of this product which consists of means of production
+and is incorporated in that part.
+
+The new value-product of the year, equal to v + s, is equal to the
+value of that part of this product which consists of articles of
+consumption and is incorporated in it.
+
+But with exceptions of no consequence here, means of production
+and articles of consumption are wholly different kinds of commodities,
+products of entirely different bodily or use-forms, and, therefore,
+products of wholly different classes of concrete labour. The labour which
+employs machinery in the production of means of subsistence is vastly
+different from the labour which makes machinery. The entire aggregate
+annual working-day, whose value-expression is 3,000, seems spent in
+the production of articles of consumption equal to 3,000, in which no
+constant portion of value re-appears, since these 3,000, equal to 1,500v
++ 1,500s, resolve themselves only into variable capital-value and
+surplus-value. On the other hand the constant capital-value of 6,000 re-appears
+in a class of products quite different from articles of
+consumption, namely in means of production, while as a matter of fact
+no part of the social working-day seems spent in the production of these
+new products. It seems rather that the entire working-day consists only
+of classes of labour which do not result in means of production but in
+articles of consumption. This mystery has already been cleared up. The
+value-product of the year's labour is equal to the value of the products of
+department II, to the total value of the newly produced articles of
+consumption. But the value of these products is greater by two-thirds
+than that portion of the annual labour which has been expended in the
+sphere of production of articles of consumption (department II). Only
+one-third of the annual labour has been expended in their production.
+Two-thirds of this annual labour have been expended in the production
+of means of production, that is to say, in department I. The value-product
+created during this time in I, equal to the variable capital-value
+plus surplus-value produced in I, is equal to the constant-capital-value of
+II re-appearing in articles of consumption of II. Hence they may be
+mutually exchanged and replaced in kind. The total value of the articles
+of consumption of II is therefore equal to the sum of the new value-product
+of I and II, or II(c + v + s) equal to I(v + s) + II(v + s), hence equal to the sum of the new values produced by the year's labour in the form of v plus s.
+
+On the other hand the total value of the means of production (I) is
+equal to the sum of the constant capital-value re-appearing in the form
+of means of production (I) and in that of articles of consumption (II); in
+other words, equal to the sum of the constant capital-value re-appearing
+in the total product of society. This total value is equal in terms of value
+to four-thirds of a working-day preceding the process of production of I
+and two-thirds of a working-day preceding the process of production of
+II, in all equal to two aggregate working-days.
+
+The difficulty with the annual social product arises therefore from the
+fact that the constant portion of value is represented by a wholly
+different class of products ; means of production ; than the new value v
++ s added to this constant portion of value and represented by articles
+of consumption. Thus the appearance is created, so far as value is
+concerned, that two-thirds of the consumed mass of products are found
+again in a new form as new product, without any labour having been
+expended by society in their production. This is not so in the case of an
+individual capital. Every individual capitalist employs some particular
+concrete kind of labour, which transforms the means of production
+peculiar to it into a product. Let for instance the capitalist be a machine-builder,
+the constant capital expended during the year 6,000c, the
+variable 1,500v, the surplus-value 1,500s, the product 9,000, the product, say, 18 machines of 500 each. The entire product here exists
+in the same form, that of machines. (If he produces various kinds, each
+kind is calculated separately.) The entire commodity-product is the result
+of the labour expended during the year in machine-building; it is a
+combination of the same concrete kind of labour with the same means
+of production. The various portions of the value of the product therefore
+present themselves in the same bodily form: 12 machines embody
+6,000c, 3 machines 1,500v, 3 machines 1,500s. In the present case it is evident that the value of the 12 machines is equal to 6,000c, not because there is incorporated in these 12 machines only labour
+performed previously to the manufacture of these machines and not
+labour expended on building them. The value of the means of production
+for 18 machines did not of itself become transformed into 12 machines
+but the value of these 12 machines (consisting itself of 4,000c + 1,000v + 1,000s) is equal to the total value of the constant capital contained in the 18 machines. The machine-manufacturer must therefore sell 12 of
+the 18 machines in order to replace his expended constant capital,
+which he requires for the reproduction of 18 new machines. On the
+contrary, the thing would be inexplicable if in spite of the fact that the
+labour expended was employed solely in the manufacture of machines,
+the result were to be: On the one hand 6 machines equal to 1,500v +
+1,500s, on the other iron, copper, screws, belts, etc., of a value amounting
+to 6,000c, i.e., the means of production of the machines in their
+bodily form, which, as we know, the individual machine-building
+capitalist does not produce himself but must replace by way of the
+process of circulation. And yet it seems at first glance that the
+reproduction of the annual product of society takes place in this absurd
+way.
+
+The product of an individual capital, i.e., of every fraction of the
+social capital endowed with a life of its own and functioning
+independently, has a bodily form of one kind or another. The only
+condition is that this product must really have a use-form, a use-value,
+which gives it the imprint of a member of the world of commodities
+capable of circulation. It is immaterial and accidental whether or not it
+can re-enter as a means of production into the same process of
+production from which it emerged as a product; in other words, whether
+the portion of its value representing the constant part of the capital has a
+bodily form in which it can actually function again as constant capital. If
+not, this portion of the value of the product is reconverted into the form
+of its material elements of production by means of sale and purchase
+and thus the constant capital is reproduced in the bodily form capable of
+functioning.
+
+It is different with the product of the aggregate social capital. All the
+material elements of reproduction must in their bodily form constitute
+parts of this product. The consumed constant part of capital can be
+replaced by the aggregate production only to the extent that the entire
+constant part of the capital reappearing in the product re-appears in the
+bodily form of new means of production which can really function as
+constant capital. Hence, simple reproduction being assumed, the value
+of that portion of the product which consists of means of production
+must be equal to the constant portion of the value of social capital.
+
+Furthermore: Considered individually, the capitalist produces in the
+value of his product by means of the newly added labour only his
+variable capital plus surplus-value, while the constant part of the value
+is transferred to the product owing to the concrete character of the newly
+added labour.
+
+Considered socially that portion of the social working-day which
+produces means of production, hence adding new value to them as well
+as transferring to them the value of the means of production consumed
+in their manufacture, creates nothing but new constant capital intended
+to replace that consumed in the shape of old means of production in
+both departments I and II. It creates only product intended for productive
+consumption. The entire value of this product, then, is only value which
+can function anew as constant capital, which can only buy back
+constant capital in its bodily form, and which, for this reason, resolves
+itself, considered socially, neither into variable capital nor surplus-value.
+On the other hand that part of the social working-day which produces
+articles of consumption does not create any portion of the social
+replacement capital. It creates only products intended, in their bodily
+form, to realise the value of the variable capital and surplus-value of I
+and II.
+
+Speaking of the point of view of society, and therefore considering the
+aggregate product of society, which comprises both the reproduction of
+social capital and individual consumption, we must not lapse into the
+manner copied by Proudhon from bourgeois economy and look upon this
+matter as though a society with a capitalist mode of production, if
+viewed en bloc, as a totality, would lose this its specific historical and
+economic character. No, on the contrary. We have, in that case, to deal
+with the aggregate capitalist. The aggregate capital appears as the
+capital stock of all individual capitalists combined. This joint-stock
+company has in common with many other stock companies that
+everyone knows what he puts in, but not what he will get out of it.

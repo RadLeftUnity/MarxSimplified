@@ -1,0 +1,160 @@
+II. Accumulation in Department II
+
+We have hitherto assumed that A, A', A'' (I) sell their surplus-product
+to B, B', B'', etc., who belong to the same department I. But supposing
+A (I) converts his surplus-product into money by selling it to one B in
+department II. This can be done only by A (I) selling means of
+production to B (II) without subsequently buying articles of consumption,
+i.e., only by a one-sided sale on A's part. Now whereas II c cannot be
+converted from the commodity-capital form into the bodily form of
+productive constant capital unless not only Iv but also at least a portion of
+Is is exchanged for a portion of IIc, which IIc exists in the form of articles
+of consumption; but now A converts his Is into money by not making this
+exchange but rather withdrawing from circulation the money obtained
+from II on the sale of his I s instead of exchanging it in the purchase of
+articles of consumption II c ; then what we have on the part of A (I) is
+indeed a formation of additional virtual money-capital, but on the other
+hand a portion of the constant capital of B (II) of equal magnitude of
+value is tied up in the form of commodity-capital, unable to transform
+itself into the bodily form of productive, constant capital. In other words,
+a portion of the commodities of B (II), and indeed primo facie a portion
+without the sale of which he cannot reconvert his constant capital
+entirely into its productive form, has become unsaleable. As far as this
+portion is concerned there is therefore an over-production, which,
+likewise as far as the same portion is concerned, clogs reproduction,
+even on the same scale.
+
+In this case the additional virtual money-capital on the side of A (I) is
+indeed a moneyed form of surplus-product (surplus-value), but the
+surplus-product (surplus-value) considered as such is here a
+phenomenon of simple reproduction, not yet of reproduction on an
+extended scale. I(v+s) for which this is true at all events of one portion of
+s, must ultimately be exchanged for II c, in order that the reproduction of
+II c may take place on the same scale. By the sale of his surplus-product
+to B(II), A(I) has supplied to the latter a corresponding portion of the
+value of constant capital in its bodily form. But at the same time he has
+rendered an equivalent portion of the commodities of B (II) unsaleable
+by withdrawing the money from circulation ; by failing to complement
+his sale through subsequent purchase. Hence, if we survey the entire
+social reproduction, which comprises the capitalists of both I and II, the
+conversion of the surplus-product of A (I) into virtual money-capital
+expresses the impossibility of reconverting commodity-capital of B (II)
+representing an equal amount of value into productive (constant) capital II;
+hence not virtual production on an extended scale but an obstruction
+of simple reproduction, and so a deficit in simple reproduction. As the
+formation and sale of the surplus-product of A (I) are normal phenomena
+of simple reproduction, we have here even on the basis of simple
+reproduction the following interdependent phenomena: Formation of
+virtual additional money-capital in class I (hence under-consumption
+from the view-point of II); piling up of commodity-supplies in class II
+which cannot be reconverted into productive capital (hence relative over-production
+in II); surplus of money-capital in I and reproduction deficit in
+II.
+
+Without pausing any longer at this point, we simply remark that we
+had assumed in the analysis of simple reproduction that the entire
+surplus-value of I and II is spent as revenue. As a matter of fact however
+one portion of the surplus-value is spent as revenue, and the other is
+converted into capital. Actual accumulation can take place only on this
+assumption. That accumulation should take place at the expense of
+consumption is, couched in such general terms, an illusion contradicting
+the nature of capitalist production. For it takes for granted that the aim
+and compelling motive of capitalist production is consumption, and not
+the snatching of surplus-value and its capitalisation, i.e., accumulation.
+
+Let us now take a closer look at the accumulation in department II.
+
+The first difficulty with reference to II c, i.e., its reconversion from a
+component part of commodity-capital II into the bodily form of constant
+capital II, concerns simple reproduction. Let us take the former scheme:
+(1,000 v + 1,000 s) I are exchanged for 2,000 II c.
+
+Now, if for instance one half of the surplus-product of I, hence
+1,000/2 s or 500 I s is reincorporated in department I as constant
+capital, then this portion of the surplus-product, being detained in I,
+cannot replace any part of II c. Instead of being converted into articles of
+consumption (and here in this section of the circulation between I and II
+the exchange is actually mutual, that is, there is a double change of
+position of the commodities, unlike the replacement of 1,000 II c by
+1,000 I v effected by the labourers of I), it is made to serve as an
+additional means of production in I itself. It cannot perform this function
+simultaneously in I and II. The capitalist cannot spend the value of his
+surplus-product for articles of consumption and at the same time
+consume the surplus-product itself productively, i.e., incorporate it in his
+productive capital. Instead of 2,000 I(v+s), only 1,500, namely (1,000 v
++ 500 s) I, are therefore exchangeable for 2,000 II c ; 500 II c cannot be
+reconverted from the commodity-form into productive (constant) capital II. 
+
+Hence there would be an over-production in II, exactly equal in 
+volume to the expansion of production in I. This over-production in II
+might react to such an extent on I that even the reflux of the 1,000
+spent by the labourers of I for articles of consumption of II might take
+place but partially, so that these 1,000 would not return to the hands of
+capitalists I in the form of variable money-capital. These capitalists
+would thus find themselves hampered even in reproduction on an
+unchanging scale, and this by the bare attempt to expand it. And in this
+connection it must be taken into consideration that in I only simple
+reproduction had actually taken place and that its elements, as
+represented in our scheme, are only differently grouped with a view to
+expansion in the future, say, next year.
+
+One might attempt to circumvent this difficulty in the following way:
+Far from being over-production, the 500 II c which are kept in stock by
+the capitalists and cannot be immediately converted into productive
+capital represent, on the contrary, a necessary element of reproduction,
+which we have so far neglected. We have seen that a money-supply
+must be accumulated at many points, hence money must be withdrawn
+from circulation, partly for the purpose of making it possible to form new
+money-capital in I, and partly to hold fast temporarily the value of the
+gradually depreciating fixed capital in the form of money. But since we
+placed all money and commodities from the very start exclusively into
+the hands of capitalists I and II when we drew up our scheme and since
+neither merchants, nor money-changers, nor bankers, nor merely
+consuming and not directly producing classes exist here, it follows that
+the constant formation of commodity stores in the hands of their
+respective producers is here indispensable to keep the machinery of
+reproduction going. The 500 II c held in stock by capitalists II therefore
+represent the commodity-supply of articles of consumption which
+ensures the continuity of the process of consumption implied in
+reproduction, here meaning the passage of one year to the next. The
+consumption-fund, which is as yet in the hands of its sellers who are at
+the same time its producers, cannot fall one year to the point of zero in
+order to begin the next with zero, any more than such a thing can take
+place in the transition from today to tomorrow. Since such supplies of
+commodities must constantly be built up anew, though varying in
+volume, our capitalist producers II must have a reserve money-capital,
+which enables them to continue their process of production although one
+portion of their productive capital is temporarily tied up in the shape of
+commodities. Our assumption is that they combine the whole business
+of trading with that of producing. Hence they must also have at their
+disposal the additional money-capital, which is in the hands of the
+merchants when the individual functions in the process of reproduction
+are separated and distributed among the various kinds of capitalists.
+
+To this one may object:
+
+1) That the forming of such supplies and the
+necessity of doing so applies to all capitalists, those of I as well as of II.
+Considered as mere sellers of commodities, they differ only in that they
+sell different kinds of commodities. A supply of commodities II implies a
+previous supply of commodities I. If we neglect this supply on one side,
+we must also do so on the other. But if we take them into account on
+both sides, the problem is not altered in any way.
+
+2) Just as a certain year closes on the part of II with a supply of
+commodities for the following year, so it was opened with a supply of
+commodities on the same part, taken over from the preceding year. In
+an analysis of annual reproduction, reduced to its most abstract form,
+we must therefore strike it out in both cases. If we leave to the given
+year its entire production, including the commodity-supply to be yielded
+up for next year, and simultaneously take from it the supply of
+commodities transferred to it from the preceding year, we have before us
+the actual aggregate product of an average year as the subject of our
+analysis.
+
+3) The simple circumstance that in the analysis of simple
+reproduction we did not stumble across the difficulty which is now to be
+surmounted proves that we are confronted by a specific phenomenon
+due solely to the different grouping (with reference to reproduction) of
+elements I, a changed grouping without which reproduction on an
+extended scale cannot take place at all.

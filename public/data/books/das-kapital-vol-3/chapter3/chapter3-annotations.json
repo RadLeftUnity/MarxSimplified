@@ -1,0 +1,12 @@
+[
+  {
+    "id": "das-kapital-vol-3-ch3-1",
+    "targetText": "The rate of surplus-value measured against the variable capital is called rate of surplus-value. The rate of surplus-value measured against the total capital is called rate of profit. These are two different measurements of the same entity, and owing to the difference of the two standards of measurement they express different proportions or relations of this entity.",
+    "explanation": "The rate of surplus value (s/v) measures exploitation of labor. The rate of profit (s/[c+v]) measures return on total capital. They are different measurements of the same surplus value, and their divergence conceals how profit really originates from labor."
+  },
+  {
+    "id": "das-kapital-vol-3-ch3-2",
+    "targetText": "The value contained in a commodity is equal to the labour-time expended in its production, and the sum of this labour consists of paid and unpaid portions. But for the capitalist the costs of the commodity consist only of that portion of the labour materialised in it for which he has paid. The surplus-labour contained in the commodity costs the capitalist nothing, although, like the paid portion, it costs the labourer his labour, and although it creates value and enters into the commodity as a value-creating element quite like paid labour. The capitalist's profit is derived from the fact that he has something to sell for which he has paid nothing. The surplus-value, or profit, consists precisely in the excess value of a commodity over its cost-price, i.e., the excess of the total labour embodied in the commodity over the paid labour embodied in it. The surplus-value, whatever its origin, is thus a surplus over the advanced total capital. The proportion of this surplus to the total capital is therefore expressed by the fraction s/C, in which C stands for total capital. We thus obtain the rate of profit s/C=s/(c+v), as distinct from the rate of surplus-value s/v.",
+    "explanation": "Marx states the origin of profit plainly: surplus value is the difference between total labor in the commodity and the paid labor in it. The capitalist sells the unpaid portion as if it cost them nothing, because it did."
+  }
+]

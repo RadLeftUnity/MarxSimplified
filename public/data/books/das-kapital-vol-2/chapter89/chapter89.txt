@@ -1,0 +1,177 @@
+III. Schematic Presentation of Accumulation
+
+We shall now study reproduction according to the following scheme.
+
+Scheme a)
+
+I. 4,000c + 1,000v + 1,000s
+
+= 6,000
+
+II. 1,500c + 376v + 376s
+
+= 2,252
+
+= 8,252 Total
+
+We note in the first place that the sum total of the annual social
+product, or 8,252, is smaller than that of the first scheme, where it was
+9,000. We might just as well assume a much larger sum, for instance
+one ten times larger. We have chosen a smaller sum than in our scheme
+I in order to make it conspicuously clear that reproduction on an
+enlarged scale (which is here regarded merely as production carried on
+with a larger investment of capital) has nothing to do with the absolute
+volume of the product, that for a given quantity of commodities it implies
+merely a different arrangement or a different definition of the functions of
+the various elements of a given product, so that it is but a simple
+reproduction so far as the value of the product is concerned. It is not the
+quantity but the qualitative determination of the given elements of
+simple reproduction which is changed, and this change is the material
+premise of a subsequent reproduction on an extended scale. [1]
+
+We might vary the scheme by changing the ratio between the variable
+and constant capital. For instance as follows:
+
+Scheme b)
+
+I. 4,000c + 875v + 875s
+
+= 5,750
+
+II. 1,750c + 376v + 376s
+
+= 2,502
+
+= 8,252 Total
+
+This scheme seems arranged for reproduction on a simple scale, the
+surplus-value being entirely consumed as revenue and not accumulated.
+In either case, both a) and b), we have an annual product of the same
+magnitude of value, only under b) functionally its elements are grouped in such a way that reproduction is resumed on the same scale, while under a) the functional
+grouping forms the material basis of reproduction on an extended scale.
+Under b) (875v + 875s) I, or 1,750 I(v + s), are exchanged without any surplus for 1,750 IIc while under a) the exchange of (1,000v + 1,000s) I, equal to 2,000 I(v + s), for 1,000 IIc leaves a surplus of 500 Is for accumulation in class I.
+
+Now let us analyse scheme a) more closely. Let us suppose that both
+I and II accumulate one half of their surplus-value, that is to say, convert
+it into an element of additional capital, instead of spending it as revenue.
+As one half of 1,000 Is, or 500, are to be accumulated in one form or
+another, invested as additional money-capital, i.e., converted into
+additional productive capital, only (1,000v + 500s) I are spent as revenue. Hence only 1,500 figures here as the normal size of IIc. We
+need not further examine the exchange between 1,500 I(v + s) and 1,500
+IIc, because this has already been done under the head of process of
+simple reproduction. Nor does 4,000 Ic require any attention, since its
+re-arrangement for the newly commencing reproduction (which this time
+will occur on an extended scale) was likewise discussed as a process of
+simple reproduction.
+
+The only thing that remains to be examined by us is 500 Is and (376v + 376s) II, inasmuch as it is a matter on the one hand of the internal relations of both I and II and on the other of the movement between
+them. Since we have assumed that in II likewise one half of the surplus-value
+is to be accumulated, 188 are to be converted here into capital, of
+which one-fifth, or 47, or, to round it off, 48, are to be variable
+capital, so that 140 remain to be converted into constant capital.
+
+Here we come across a new problem, whose very existence must
+appear strange to the current view that commodities of one kind are
+exchanged for commodities of another kind, or commodities for money
+and the same money again for commodities of another kind. The 140
+IIs can be converted into productive capital only by replacing them with
+commodities of Is of the same value. It is a matter of course that that
+portion of Is which must be exchanged for IIs must consist of means of production, which may enter either into the production of both I and II,
+or exclusively into that of II. This replacement can be made feasible only
+by means of a one-sided purchase on the part of II, as the entire surplus-product
+of 500 Is, which we still have to examine, is to serve the
+purposes of accumulation within I, hence cannot be exchanged for
+commodities II; in other words, it cannot be simultaneously accumulated
+and consumed by I. Therefore II must buy 140 Is for cash without
+recovering this money by a subsequent sale of its commodities to I. And
+this is a process which is continually repeating itself in every new annual
+production, so far as it is reproduction on an extended scale. Where in II
+is the source of the money for this?
+
+It would rather seem that II is a very unprofitable field for the
+formation of new money-capital which accompanies actual accumulation
+and necessitates it under capitalist production, and which at first
+actually presents itself as simple hoarding.
+
+We have first 376 IIv. The money-capital of 376, advanced in labour-power,
+continually returns through the purchase of commodities II as
+variable capital in money-form to capitalist II. This constant repetition of
+departure from and return to the starting-point, the pocket of the
+capitalist, does not add in any way to the money roving over this circuit.
+This, then, is not a source of the accumulation of money. Nor can this
+money be withdrawn from circulation in order to form hoarded, virtually
+new, money-capital.
+
+But stop! Isn't there a chance here to make a little profit?
+
+We must not forget that class II has this advantage over class I, that
+its labourers have to buy back from it the commodities produced by
+themselves. Class II is a buyer of labour-power and at the same time a
+seller of the commodities to the owners of the labour-power employed by
+it. Class II can therefore:
+
+1) ; and this it shares with the capitalists of class I ; simply depress
+wages below their normal average level. By this means a portion of the
+money functioning as the money-form of variable capital is released, and
+if this process is continually repeated, it might become a normal source
+of hoarding, and thus of virtually additional money-capital in class II. Of
+course we are not referring to a casual swindle profit here, since we are
+treating of a normal formation of capital. But it must not be forgotten
+that the normal wages actually paid (which ceteris paribus determine
+the magnitude of the variable capital) are not paid by the capitalists but
+of the goodness of their hearts, but must he paid under given relations.
+This eliminates the above method of explanation. If we assume that
+376v is the variable capital to be laid out by class II, we have no right
+suddenly to sneak in the hypothesis that it may pay only 350v instead of
+376v, merely to elucidate a problem that has newly arisen.
+
+2) On the other hand class II, taken as a whole, has the above-mentioned
+advantage over I that it is at the same time a buyer of labour-power
+and a seller of its commodities to its own labourers. Every
+industrial country (for instance Britain and the U.S.A.) furnishes the
+most tangible proofs of the way in which this advantage may be
+exploited ; by paying nominally the normal wages but grabbing, alias
+stealing, back part of them without an equivalent in commodities; by
+accomplishing the same thing either through the truck system or through
+a falsification of the medium of circulation (perhaps in a way too elusive
+for the law). (Take this opportunity to expatiate on this idea with some
+appropriate examples.) This is the same operation as under 1), only
+disguised and carried out by a detour. Therefore it must likewise be
+rejected, the same as the other. We are dealing here with actually paid,
+not nominally paid wages.
+
+We see that in an objective analysis of the mechanism of capitalism
+certain stains still sticking to it with extraordinary tenacity cannot be
+used as a subterfuge to get over some theoretical difficulties. But strange
+to say, the great majority of my bourgeois critics upbraid me as though I
+have wronged the capitalists by assuming, for instance in Book I of
+Capital, that the capitalist pays labour-power at its real value, a thing
+which he mostly does not do! (Here, exercising some of the magnanimity
+attributed to me, it would be appropriate to quote Sch&auml;ffle.)
+
+So with the 376 IIv we cannot get any nearer the goal we have
+mentioned.
+
+But the 376 IIv seem to be in a still more precarious position. Here
+only capitalists of the same class, mutually buying and selling the
+articles of consumption they produced, confront one another. The money
+required for these transactions functions only as a medium of circulation
+and in the normal course of things must flow back to the interested
+parties in the same portion in which they advanced it to the circulation,
+in order to cover the same route over and over again.
+
+There seem to be only two ways by which this money can be
+withdrawn from circulation to form virtually additional money-capital.
+Either one part of capitalists II cheats the other and thus robs them of
+their money. We know that no preliminary expansion of the circulating
+medium is necessary for the formation of new money-capital. All that is
+necessary is that the money should be withdrawn from circulation by
+certain parties and hoarded. It would not alter the case if this money
+were stolen, so that the formation of additional money-capital by one
+part of capitalists II would entail a positive loss of money by another
+part. The cheated capitalists II would have to live a little less gaily, that
+would be all.
+
+Or a part of II represented by necessities of life is directly converted
+into new variable capital within department II. How that is done we shall
+examine at the close of this chapter (under No. IV).

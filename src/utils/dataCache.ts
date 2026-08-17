@@ -284,3 +284,32 @@ export async function fetchCachedTopicIndex(): Promise<TopicGroup[]> {
   return topicIndexPromise;
 }
 
+export interface IndexedChapter {
+  bookId: string;
+  bookTitle: string;
+  author: string;
+  subject: string;
+  tags: string[];
+  chapterId: string;
+  chapterTitle: string;
+  summaryText: string;
+  annotations: Array<{
+    id?: string;
+    targetText: string;
+    explanation?: string;
+    summary?: string;
+  }>;
+  paragraphs: string[];
+}
+
+export interface SearchIndexData {
+  updatedAt: string;
+  totalChapters: number;
+  chapters: IndexedChapter[];
+}
+
+export async function fetchSearchIndex(): Promise<SearchIndexData> {
+  return fetchCachedJSON<SearchIndexData>('/data/search-index.json');
+}
+
+

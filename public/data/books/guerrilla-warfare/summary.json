@@ -1,0 +1,83 @@
+{
+  "id": "guerrilla-warfare",
+  "title": "On Guerrilla Warfare",
+  "author": "Mao Zedong",
+  "year": "1937",
+  "difficulty": "Medium",
+  "readingTime": "1.6 hours",
+  "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/works/1937/guerrilla-warfare/",
+  "context": "First published in 1937 during the Second Sino-Japanese War while Mao Zedong was based in Yan'an, this seminal treatise outlines the military and political doctrine of protracted guerrilla warfare. Mao establishes that guerrilla warfare is not merely a military tactic, but a political struggle of the masses against a foreign invader or oppressive ruling class, requiring deep integration with the population.",
+  "relatesToToday": "Mao's famous formulation that 'the people are like water, and the guerrilla is like a fish who swims in it' remains a cornerstone of asymmetric warfare and anti-colonial resistance theory. It highlights that political mobilization, popular support, and military discipline are inseparable when weaker forces resist technologically superior invading armies.",
+  "keyTakeaways": [
+    "Guerrilla warfare is fundamentally a political instrument; victory depends on winning the active support, trust, and mobilization of the civilian population.",
+    "Guerrilla operations must coordinate closely with regular armed forces, acting as a supportive shield during early defensive stages and preparing to transition into conventional counter-offensives.",
+    "Tactical flexibility, surprise attacks, mobility, and strict political discipline (respecting civilian rights and property) are essential to sustain long-term resistance."
+  ],
+  "chapters": [
+    {
+      "id": "what-is-guerrilla-warfare",
+      "title": "What Is Guerrilla Warfare?",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-relation-of-guerrilla-hostilitiesto-regular-operations",
+      "title": "The Relation Of Guerrilla Hostilitiesto Regular Operations",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "guerrilla-warfare-in-history",
+      "title": "Guerrilla Warfare In History",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "can-victory-be-attained-by-guerrilla-operations",
+      "title": "Can Victory Be Attained By Guerrilla Operations?",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "organization-for-guerilla-warfare",
+      "title": "Organization For Guerilla Warfare",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-political-problems-of-guerrilla-warfare",
+      "title": "The Political Problems Of Guerrilla Warfare",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-strategy-of-guerrilla-resistance-against-japan",
+      "title": "The Strategy Of Guerrilla Resistance Against Japan",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "appendix",
+      "title": "Appendix: Tables of Organization",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    }
+  ],
+  "subject": "Anti-Imperialism",
+  "tags": [
+    "Anti-Imperialism",
+    "Guerrilla Warfare",
+    "People's War",
+    "Maoism",
+    "Mao Zedong"
+  ]
+}

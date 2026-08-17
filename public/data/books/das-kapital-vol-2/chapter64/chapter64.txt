@@ -1,0 +1,123 @@
+II. The Two Departments of Social Production
+
+The total product, and therefore the total production, of society may
+be divided into two major departments:
+
+I. Means of Production, commodities having a form in which they must, or at least may, pass into productive consumption.
+
+II. Articles of Consumption, commodities having a form in which they pass into the individual consumption of the capitalist and the working-class.
+
+All the various branches of production pertaining to each of these two
+departments form one single great branch of production, that of the
+means of production in the one case, and that of articles of consumption
+in the other. The aggregate capital employed in each of these two
+branches of production constitutes a separate large department of the
+social capital.
+
+In each department the capital consists of two parts:
+
+1) Variable Capital. This capital, so far as its value is concerned, is equal to the value of the social labour-power employed in this branch of production; in other words, it is equal to the sum of the wages paid for
+this labour-power. So far as its substance is concerned, it consists of the
+labour-power in action, i.e., of the living labour set in motion by this
+capital-value.
+
+2) Constant Capital. This is the value of all the means of production employed for productive purposes in this branch. These, again, are
+divided into fixed capital, such as machines, instruments of labour,
+buildings, labouring animals, etc., and circulating constant capital, such
+as materials of production: raw and auxiliary materials, semi-finished
+products, etc.
+
+The value of the total annual product created with the aid of this
+capital in each of the two departments consists of one portion which
+represents the constant capital c consumed in the process of production
+and only transferred to the product in accordance with its value, and of
+another portion added by the entire labour of the year. This latter portion
+is divided in turn into the replacement of the advanced variable capital v
+and the excess over and above it, which forms the surplus-value s. And
+just as the value of every individual commodity, that of the entire annual
+product of each department consists of c + v + s.
+
+Portion c of the value, representing the constant capital consumed in
+production, does not coincide with the value of the constant capital
+employed in production. True, the materials of production are entirely
+consumed and their values completely transferred to the product. But
+only a portion of the employed fixed capital is wholly consumed and its
+value thus transferred to the product. Another part of the fixed capital,
+such as machines, buildings, etc., continues to exist and function the
+same as before, though depreciated to the extent of the annual wear and
+tear. This persistent portion of the fixed capital does not exist for us,
+when we consider the value of the product. It is a portion of the capital-value,
+which exists independently and alongside of this newly produced
+commodity-value. This was shown previously in the analysis of the value
+of the product of individual capital (Vol. I, Ch. VIII.). However, for the
+present we must leave aside the method of analysis employed there. We
+saw in the study of the value of the product of individual capital that the
+value of which the fixed capital was shorn through wear and tear is
+transferred to the product created during the time of wear, irrespective of
+whether or not any portion of this fixed capital is replaced in kind during
+this time out of the value thus transferred. At this point in the study of
+the total social product and of its value, however, we are compelled, at
+least for the present, to leave out of account that portion of value which
+is transferred from the fixed capital to the annual product by wear and
+tear, unless fixed capital is replaced in kind during the year. In one of
+the following sections of this chapter we shall discuss this point in
+particular.
+
+We shall base our study of simple reproduction on the following
+scheme, in which c stands for constant capital, v for variable capital,
+and s for surplus-value, assuming the rate of surplus-value s/v to be 100
+per cent. The figures may indicate millions of marks, francs, or pounds
+sterling.
+
+I. Production of Means of Production:
+
+Capital. . . . . . . . . . . . . 4,000c + 1,000v = 5,000
+
+Commodity-Product . . . 4,000c + 1,000v, + 1,000s = 6,000,
+
+existing in means of production.
+
+II. Production of Articles of Consumption:
+
+Capital . . . . . . . . . . . 2,000c + 500v = 2,500
+
+Commodity-Product . . 2,000c + 500v + 500s = 3,000,
+
+ existing in articles of consumption.
+
+Recapitulation: Total annual commodity-product:
+
+I. 4,000c + 1,000v + 1,000s = 6,000 means of production
+
+II. 2,000c + 500v + 500s = 3,000 articles of consumption.
+
+Total value 9,000, exclusive of the fixed capital persisting in its
+natural form, according to our assumption.
+
+If we were now to examine the transformations necessary on the
+basis of simple reproduction, where the entire surplus-value is
+unproductively consumed, and leave aside for the present the money-circulation
+that brings them about, we should obtain at the outset three
+great points of support.
+
+1) The 500v, representing wages of the labourers, and 500s,
+representing surplus-value of the capitalists, in department II, must be
+spent for articles of consumption. But their value exists in articles of
+consumption worth 1,000, held by the capitalists of department II,
+which replace the advanced 500v and represent the 500s. Consequently the wages and surplus-value of department II are exchanged within this
+department for products of this same department. Thereby articles of
+consumption to the amount of (500v + 500s) II = 1,000, drop out of the total product.
+
+2) The 1,000v plus 1,000s of department I must likewise be spent for articles of consumption; in other words, for products of department II.
+Hence they must be exchanged for the remainder of this product equal
+to the constant capital part, 2,000c. Department II receives in return an
+equal quantity of means of production, the product of I, in which the
+value of 1,000v + 1,000s of I is incorporated. Thereby 2,000 IIc and (1,000v +1,000s) I drop out of the calculation.
+
+3) There still remain 4,000 Ic. These consist of means of production
+which can be used only in department I to replace its consumed
+constant capital, and are therefore disposed of by mutual exchange
+between the individual capitalists of I, just as the (500v + 500s) II by an exchange between the labourers and capitalists, or between the individual capitalists of II.
+
+Let this serve for the moment to facilitate the understanding of what
+follows.

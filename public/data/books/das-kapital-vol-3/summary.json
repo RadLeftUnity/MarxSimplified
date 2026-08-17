@@ -1,0 +1,421 @@
+{
+  "id": "das-kapital-vol-3",
+  "title": "Capital: Volume 3 (The Process of Capitalist Production as a Whole)",
+  "author": "Karl Marx (ed. Friedrich Engels)",
+  "year": "1894",
+  "difficulty": "Hard",
+  "readingTime": "32.9 hours",
+  "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1894-c3/index.htm",
+  "context": "Edited and published by Friedrich Engels in 1894, Volume 3 presents the concrete forms that capital assumes in society as a whole: the conversion of surplus value into profit, the transformation of values into prices of production, commercial profit, interest, credit, and ground rent.",
+  "relatesToToday": "Marx's theories on the tendential fall in the rate of profit, financial speculation, fictitious capital, and ground rent provide key analytical tools for understanding modern banking crises, real estate bubbles, and stock market volatility.",
+  "keyTakeaways": [
+    "Competition equalizes rates of profit across industries, transforming commodity values into prices of production.",
+    "Rising organic composition of capital causes a tendential fall in the general rate of profit, triggering counteracting forces.",
+    "Credit and fictitious capital expand the scope of capitalist production beyond immediate cash reserves but amplify economic instability."
+  ],
+  "chapters": [
+    {
+      "id": "cost-price-and-profit",
+      "title": "Cost-Price and Profit",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-rate-of-profit",
+      "title": "The Rate of Profit",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "the-relation-of-the-rate-of-profit-to-the-rate-of-surplus-value",
+      "title": "The Relation of the Rate of Profit to the Rate of Surplus-Value",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-effect-of-the-turnover-on-the-rate-of-profit",
+      "title": "The Effect of the Turnover on the Rate of Profit",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "economy-in-the-employment-of-constant-capital",
+      "title": "Economy in the Employment of Constant Capital",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-effect-of-price-fluctuations",
+      "title": "The Effect of Price Fluctuations",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "supplementary-remarks",
+      "title": "Supplementary Remarks",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "different-compositions-of-capitals-in-different-branches-of-production-and-resulting-differences-in-rates-of-profit",
+      "title": "Different Compositions of Capitals in Different Branches of Production and Resulting Differences in Rates of Profit",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "formation-of-a-general-rate-of-profit-average-rate-of-profit-and-transformation-of-the-values-of-commodities-into-prices-of-production",
+      "title": "Formation of a General Rate of Profit (Average Rate of Profit) and Transformation of the Values of Commodities into Prices of Production",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "equalisation-of-the-general-rate-of-profit-through-competition-market-prices-and-market-values-surplus-profit",
+      "title": "Equalisation of the General Rate of Profit Through Competition. Market-Prices and Market-Values. Surplus-Profit.",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "effects-of-general-wage-fluctuations-on-prices-of-production",
+      "title": "Effects of General Wage Fluctuations on Prices of Production",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "supplementary-remarks",
+      "title": "Supplementary Remarks",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "the-law-as-such",
+      "title": "The Law as Such",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "counteracting-influences",
+      "title": "Counteracting Influences",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "exposition-of-the-internal-contradictions-of-the-law",
+      "title": "Exposition of the Internal Contradictions of the Law",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    },
+    {
+      "id": "commercial-capital",
+      "title": "Commercial Capital",
+      "textFile": "chapter17/chapter17.txt",
+      "annotationFile": "chapter17/chapter17-annotations.json",
+      "summaryFile": "chapter17/chapter17-summary.txt"
+    },
+    {
+      "id": "commercial-profit",
+      "title": "Commercial Profit",
+      "textFile": "chapter18/chapter18.txt",
+      "annotationFile": "chapter18/chapter18-annotations.json",
+      "summaryFile": "chapter18/chapter18-summary.txt"
+    },
+    {
+      "id": "the-turnover-of-merchant-s-capital",
+      "title": "The Turnover of Merchant's Capital",
+      "textFile": "chapter19/chapter19.txt",
+      "annotationFile": "chapter19/chapter19-annotations.json",
+      "summaryFile": "chapter19/chapter19-summary.txt"
+    },
+    {
+      "id": "money-dealing-capital",
+      "title": "Money-Dealing Capital",
+      "textFile": "chapter20/chapter20.txt",
+      "annotationFile": "chapter20/chapter20-annotations.json",
+      "summaryFile": "chapter20/chapter20-summary.txt"
+    },
+    {
+      "id": "historical-facts-about-merchant-s-capital",
+      "title": "Historical Facts about Merchant's Capital",
+      "textFile": "chapter21/chapter21.txt",
+      "annotationFile": "chapter21/chapter21-annotations.json",
+      "summaryFile": "chapter21/chapter21-summary.txt"
+    },
+    {
+      "id": "interest-bearing-capital",
+      "title": "Interest-Bearing Capital",
+      "textFile": "chapter22/chapter22.txt",
+      "annotationFile": "chapter22/chapter22-annotations.json",
+      "summaryFile": "chapter22/chapter22-summary.txt"
+    },
+    {
+      "id": "division-of-profit-rate-of-interest-natural-rate-of-interest",
+      "title": "Division of Profit. Rate of Interest. Natural Rate of Interest.",
+      "textFile": "chapter23/chapter23.txt",
+      "annotationFile": "chapter23/chapter23-annotations.json",
+      "summaryFile": "chapter23/chapter23-summary.txt"
+    },
+    {
+      "id": "interest-and-profit-of-enterprise",
+      "title": "Interest and Profit of Enterprise",
+      "textFile": "chapter24/chapter24.txt",
+      "annotationFile": "chapter24/chapter24-annotations.json",
+      "summaryFile": "chapter24/chapter24-summary.txt"
+    },
+    {
+      "id": "externalisation-of-the-relations-of-capital-in-the-form-of-interest-bearing-capital",
+      "title": "Externalisation of the Relations of Capital in the Form of Interest-Bearing Capital",
+      "textFile": "chapter25/chapter25.txt",
+      "annotationFile": "chapter25/chapter25-annotations.json",
+      "summaryFile": "chapter25/chapter25-summary.txt"
+    },
+    {
+      "id": "credit-and-fictitious-capital",
+      "title": "Credit and Fictitious Capital",
+      "textFile": "chapter26/chapter26.txt",
+      "annotationFile": "chapter26/chapter26-annotations.json",
+      "summaryFile": "chapter26/chapter26-summary.txt"
+    },
+    {
+      "id": "accumulation-of-money-capital-its-influence-on-the-interest-rate",
+      "title": "Accumulation of Money-Capital. Its Influence on the Interest Rate.",
+      "textFile": "chapter27/chapter27.txt",
+      "annotationFile": "chapter27/chapter27-annotations.json",
+      "summaryFile": "chapter27/chapter27-summary.txt"
+    },
+    {
+      "id": "the-role-of-credit-in-capitalist-production",
+      "title": "The Role of Credit in Capitalist Production",
+      "textFile": "chapter28/chapter28.txt",
+      "annotationFile": "chapter28/chapter28-annotations.json",
+      "summaryFile": "chapter28/chapter28-summary.txt"
+    },
+    {
+      "id": "medium-of-circulation-and-capital-views-of-tooke-and-fullarton",
+      "title": "Medium of Circulation and Capital; Views of Tooke and Fullarton",
+      "textFile": "chapter29/chapter29.txt",
+      "annotationFile": "chapter29/chapter29-annotations.json",
+      "summaryFile": "chapter29/chapter29-summary.txt"
+    },
+    {
+      "id": "component-parts-of-bank-capital",
+      "title": "Component Parts of Bank Capital",
+      "textFile": "chapter30/chapter30.txt",
+      "annotationFile": "chapter30/chapter30-annotations.json",
+      "summaryFile": "chapter30/chapter30-summary.txt"
+    },
+    {
+      "id": "money-capital-and-real-capital-i",
+      "title": "Money-Capital and Real Capital. I",
+      "textFile": "chapter31/chapter31.txt",
+      "annotationFile": "chapter31/chapter31-annotations.json",
+      "summaryFile": "chapter31/chapter31-summary.txt"
+    },
+    {
+      "id": "money-capital-and-real-capital-ii",
+      "title": "Money-Capital and Real Capital. II",
+      "textFile": "chapter32/chapter32.txt",
+      "annotationFile": "chapter32/chapter32-annotations.json",
+      "summaryFile": "chapter32/chapter32-summary.txt"
+    },
+    {
+      "id": "money-capital-and-real-capital-iii",
+      "title": "Money-Capital and Real Capital. III",
+      "textFile": "chapter33/chapter33.txt",
+      "annotationFile": "chapter33/chapter33-annotations.json",
+      "summaryFile": "chapter33/chapter33-summary.txt"
+    },
+    {
+      "id": "the-medium-of-circulation-in-the-credit-system",
+      "title": "The Medium of Circulation in the Credit System",
+      "textFile": "chapter34/chapter34.txt",
+      "annotationFile": "chapter34/chapter34-annotations.json",
+      "summaryFile": "chapter34/chapter34-summary.txt"
+    },
+    {
+      "id": "the-currency-principle-and-the-english-bank-legislation-of-1844",
+      "title": "The Currency Principle and the English Bank Legislation of 1844",
+      "textFile": "chapter35/chapter35.txt",
+      "annotationFile": "chapter35/chapter35-annotations.json",
+      "summaryFile": "chapter35/chapter35-summary.txt"
+    },
+    {
+      "id": "precious-metal-and-rate-of-exchange",
+      "title": "Precious Metal and Rate of Exchange",
+      "textFile": "chapter36/chapter36.txt",
+      "annotationFile": "chapter36/chapter36-annotations.json",
+      "summaryFile": "chapter36/chapter36-summary.txt"
+    },
+    {
+      "id": "pre-capitalist-relationships",
+      "title": "Pre-Capitalist Relationships",
+      "textFile": "chapter37/chapter37.txt",
+      "annotationFile": "chapter37/chapter37-annotations.json",
+      "summaryFile": "chapter37/chapter37-summary.txt"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter38/chapter38.txt",
+      "annotationFile": "chapter38/chapter38-annotations.json",
+      "summaryFile": "chapter38/chapter38-summary.txt"
+    },
+    {
+      "id": "differential-rent-general-remarks",
+      "title": "Differential Rent: General Remarks",
+      "textFile": "chapter39/chapter39.txt",
+      "annotationFile": "chapter39/chapter39-annotations.json",
+      "summaryFile": "chapter39/chapter39-summary.txt"
+    },
+    {
+      "id": "first-form-of-differential-rent-differential-rent-i",
+      "title": "First Form of Differential Rent (Differential Rent I)",
+      "textFile": "chapter40/chapter40.txt",
+      "annotationFile": "chapter40/chapter40-annotations.json",
+      "summaryFile": "chapter40/chapter40-summary.txt"
+    },
+    {
+      "id": "second-form-of-differential-rent-differential-rent-ii",
+      "title": "Second Form of Differential Rent (Differential Rent II)",
+      "textFile": "chapter41/chapter41.txt",
+      "annotationFile": "chapter41/chapter41-annotations.json",
+      "summaryFile": "chapter41/chapter41-summary.txt"
+    },
+    {
+      "id": "differential-rent-ii-8212-first-case-constant-price-of-production",
+      "title": "Differential Rent II : First Case: Constant Price of Production",
+      "textFile": "chapter42/chapter42.txt",
+      "annotationFile": "chapter42/chapter42-annotations.json",
+      "summaryFile": "chapter42/chapter42-summary.txt"
+    },
+    {
+      "id": "differential-rent-ii-8212-second-case-falling-price-of-production",
+      "title": "Differential Rent II : Second Case: Falling Price of Production",
+      "textFile": "chapter43/chapter43.txt",
+      "annotationFile": "chapter43/chapter43-annotations.json",
+      "summaryFile": "chapter43/chapter43-summary.txt"
+    },
+    {
+      "id": "differential-rent-ii-8212-third-case-rising-price-of-production",
+      "title": "Differential Rent II : Third Case: Rising Price of Production",
+      "textFile": "chapter44/chapter44.txt",
+      "annotationFile": "chapter44/chapter44-annotations.json",
+      "summaryFile": "chapter44/chapter44-summary.txt"
+    },
+    {
+      "id": "differential-rent-also-on-the-worst-cultivated-soil",
+      "title": "Differential Rent Also on the Worst Cultivated Soil",
+      "textFile": "chapter45/chapter45.txt",
+      "annotationFile": "chapter45/chapter45-annotations.json",
+      "summaryFile": "chapter45/chapter45-summary.txt"
+    },
+    {
+      "id": "absolute-ground-rent",
+      "title": "Absolute Ground-Rent",
+      "textFile": "chapter46/chapter46.txt",
+      "annotationFile": "chapter46/chapter46-annotations.json",
+      "summaryFile": "chapter46/chapter46-summary.txt"
+    },
+    {
+      "id": "building-site-rent-rent-in-mining-price-of-land",
+      "title": "Building Site Rent. Rent in Mining. Price of Land",
+      "textFile": "chapter47/chapter47.txt",
+      "annotationFile": "chapter47/chapter47-annotations.json",
+      "summaryFile": "chapter47/chapter47-summary.txt"
+    },
+    {
+      "id": "genesis-of-capitalist-ground-rent",
+      "title": "Genesis of Capitalist Ground-Rent",
+      "textFile": "chapter48/chapter48.txt",
+      "annotationFile": "chapter48/chapter48-annotations.json",
+      "summaryFile": "chapter48/chapter48-summary.txt"
+    },
+    {
+      "id": "the-trinity-formula",
+      "title": "The Trinity Formula",
+      "textFile": "chapter49/chapter49.txt",
+      "annotationFile": "chapter49/chapter49-annotations.json",
+      "summaryFile": "chapter49/chapter49-summary.txt"
+    },
+    {
+      "id": "concerning-the-analysis-of-the-process-of-production",
+      "title": "Concerning the Analysis of the Process of Production",
+      "textFile": "chapter50/chapter50.txt",
+      "annotationFile": "chapter50/chapter50-annotations.json",
+      "summaryFile": "chapter50/chapter50-summary.txt"
+    },
+    {
+      "id": "illusions-created-by-competition",
+      "title": "Illusions Created by Competition",
+      "textFile": "chapter51/chapter51.txt",
+      "annotationFile": "chapter51/chapter51-annotations.json",
+      "summaryFile": "chapter51/chapter51-summary.txt"
+    },
+    {
+      "id": "distribution-relations-and-production-relations",
+      "title": "Distribution Relations and Production Relations",
+      "textFile": "chapter52/chapter52.txt",
+      "annotationFile": "chapter52/chapter52-annotations.json",
+      "summaryFile": "chapter52/chapter52-summary.txt"
+    },
+    {
+      "id": "classes",
+      "title": "Classes",
+      "textFile": "chapter53/chapter53.txt",
+      "annotationFile": "chapter53/chapter53-annotations.json",
+      "summaryFile": "chapter53/chapter53-summary.txt"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter54/chapter54.txt",
+      "annotationFile": "chapter54/chapter54-annotations.json",
+      "summaryFile": "chapter54/chapter54-summary.txt"
+    },
+    {
+      "id": "the-law-of-value-and-rate-of-profit",
+      "title": "The Law of Value and Rate of Profit",
+      "textFile": "chapter55/chapter55.txt",
+      "annotationFile": "chapter55/chapter55-annotations.json",
+      "summaryFile": "chapter55/chapter55-summary.txt"
+    },
+    {
+      "id": "the-stock-exchange",
+      "title": "The Stock Exchange",
+      "textFile": "chapter56/chapter56.txt",
+      "annotationFile": "chapter56/chapter56-annotations.json",
+      "summaryFile": "chapter56/chapter56-summary.txt"
+    },
+    {
+      "id": "8220-engels-edition-of-the-third-volume-of-capital-and-marx-s-original-manuscript-8221",
+      "title": "\"Engels' Edition of the Third Volume of Capital and Marx's Original Manuscript\"",
+      "textFile": "chapter57/chapter57.txt",
+      "annotationFile": "chapter57/chapter57-annotations.json",
+      "summaryFile": "chapter57/chapter57-summary.txt"
+    }
+  ],
+  "shortDescription": "Published in 1894 by Engels, Volume 3 synthesizes production and circulation to explain profit equalization, the tendency of the rate of profit to fall, credit, fictitious capital, and ground rent.",
+  "subject": "Political Economy",
+  "tags": [
+    "Political Economy",
+    "Rate of Profit",
+    "Fictitious Capital",
+    "Ground Rent",
+    "Karl Marx"
+  ],
+  "coverColor": "#1b263b"
+}

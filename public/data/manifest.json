@@ -1,6 +1,63 @@
 {
   "books": [
     {
+      "id": "das-kapital-vol-1",
+      "title": "Capital: Volume 1 (The Process of Production of Capital)",
+      "author": "Karl Marx",
+      "year": "1867",
+      "difficulty": "Hard",
+      "readingTime": "30.5 hours",
+      "shortDescription": "First published in 1867, Volume 1 of Marx's magnum opus analyzes the capitalist mode of production, commodity fetishism, surplus value, wage labor, and primitive accumulation.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "Political Economy",
+      "tags": [
+        "Political Economy",
+        "Capitalism",
+        "Surplus Value",
+        "Commodity Fetishism",
+        "Karl Marx"
+      ]
+    },
+    {
+      "id": "das-kapital-vol-2",
+      "title": "Capital: Volume 2 (The Process of Circulation of Capital)",
+      "author": "Karl Marx (ed. Friedrich Engels)",
+      "year": "1885",
+      "difficulty": "Hard",
+      "readingTime": "30.9 hours",
+      "shortDescription": "Edited by Friedrich Engels and published posthumously in 1885, Volume 2 examines the circulation of capital, turnover times, reproduction schemes, and macro-economic circuit dynamics.",
+      "coverColor": "#2b2d42",
+      "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+      "subject": "Political Economy",
+      "tags": [
+        "Political Economy",
+        "Circulation",
+        "Reproduction Schemes",
+        "Macroeconomics",
+        "Karl Marx"
+      ]
+    },
+    {
+      "id": "das-kapital-vol-3",
+      "title": "Capital: Volume 3 (The Process of Capitalist Production as a Whole)",
+      "author": "Karl Marx (ed. Friedrich Engels)",
+      "year": "1894",
+      "difficulty": "Hard",
+      "readingTime": "32.9 hours",
+      "shortDescription": "Published in 1894 by Engels, Volume 3 synthesizes production and circulation to explain profit equalization, the tendency of the rate of profit to fall, credit, fictitious capital, and ground rent.",
+      "coverColor": "#1b263b",
+      "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+      "subject": "Political Economy",
+      "tags": [
+        "Political Economy",
+        "Rate of Profit",
+        "Fictitious Capital",
+        "Ground Rent",
+        "Karl Marx"
+      ]
+    },
+    {
       "id": "grundrisse",
       "title": "Grundrisse",
       "author": "Karl Marx",
@@ -10,10 +67,32 @@
       "shortDescription": "Written in 1857-1858, the Grundrisse (German for 'Outlines') is a massive set of raw, private notebooks where Marx worked out his economic theories before writing Capital. Left unpublished until 1939, it contains Marx's most futuristic speculations on automation, technology, and the liberation of human free time.",
       "coverColor": "#4a154b",
       "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Political Economy",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Political Economy",
+        "Automation",
+        "General Intellect",
+        "Technology",
+        "Karl Marx"
+      ]
+    },
+    {
+      "id": "guerrilla-warfare",
+      "title": "On Guerrilla Warfare",
+      "author": "Mao Zedong",
+      "year": "1937",
+      "difficulty": "Medium",
+      "readingTime": "1.6 hours",
+      "shortDescription": "First published in 1937 during the Second Sino-Japanese War while Mao Zedong was based in Yan'an, this seminal treatise outlines the military and political doctrine of protracted guerrilla warfare. Mao establishes that guerrilla warfare is not merely a military tactic, but a political struggle of the masses against a foreign invader or oppressive ruling class, requiring deep integration with the population.",
+      "coverColor": "#4e1a3b",
+      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+      "subject": "Anti-Imperialism",
+      "tags": [
+        "Anti-Imperialism",
+        "Guerrilla Warfare",
+        "People's War",
+        "Maoism",
+        "Mao Zedong"
       ]
     },
     {
@@ -26,10 +105,13 @@
       "shortDescription": "Written in Zurich in early 1916, during World War I, and first published as a pamphlet in mid-1917 in Petrograd. Lenin wrote it under tsarist censorship, forcing him to use cautious, 'Aesopian' language and focus on purely economic analysis. The work builds on J.A. Hobson's and Rudolf Hilferding's studies of imperialism and finance capital, synthesising their data into a Marxist framework that explains imperialism as a necessary stage of capitalist development, not merely a policy choice.",
       "coverColor": "#8b0000",
       "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Anti-Imperialism",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Anti-Imperialism",
+        "Finance Capital",
+        "Monopoly Capitalism",
+        "Marxism-Leninism",
+        "V.I. Lenin"
       ]
     },
     {
@@ -42,10 +124,13 @@
       "shortDescription": "Commissioned by the Communist League and published in London in February 1848, this pamphlet was written during a period of massive political unrest across Europe. It explains the class struggle and critiques capitalism, serving as a call to action for the working class.",
       "coverColor": "#8b0000",
       "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Class Struggle",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Class Struggle",
+        "Historical Materialism",
+        "Bourgeoisie & Proletariat",
+        "Karl Marx",
+        "Friedrich Engels"
       ]
     },
     {
@@ -58,12 +143,12 @@
       "shortDescription": "A simplified guide to Mao Zedong's essay on how conflict and change work. It explains why opposing forces exist in everything and how focusing on the main problem helps solve real-life challenges.",
       "coverColor": "#2b2d42",
       "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
-      "subject": "Dialectical Materialism & Philosophy",
+      "subject": "Dialectics",
       "tags": [
-        "Philosophy",
         "Dialectics",
+        "Philosophy",
         "Maoism",
-        "1930s"
+        "Mao Zedong"
       ]
     },
     {
@@ -76,10 +161,13 @@
       "shortDescription": "Published in 1884 following Karl Marx's death, this landmark work draws on Lewis H. Morgan's anthropological research into Indigenous societies to demonstrate that social institutions like the monogamous family, private property, and the state are not eternal features of human existence, but historical developments that arose alongside class division.",
       "coverColor": "#2b2d42",
       "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Anthropology",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Anthropology",
+        "Historical Materialism",
+        "The State",
+        "Patriarchy",
+        "Friedrich Engels"
       ]
     },
     {
@@ -92,10 +180,13 @@
       "shortDescription": "First published in 1865, this text forms an essential part of Karl Marx's critique of political economy. It provides simplified, yet rigorous, explanations of key capitalist economic concepts.",
       "coverColor": "#2b2d42",
       "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Political Economy",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Political Economy",
+        "Surplus Value",
+        "Wages",
+        "Capitalism",
+        "Karl Marx"
       ]
     },
     {
@@ -108,10 +199,12 @@
       "shortDescription": "Based on lectures Marx delivered in 1847 to the German Workingmen's Club in Brussels, this work provides a straightforward and accessible explanation of the economic relationships under capitalism, particularly how labor becomes a commodity and how wages are determined.",
       "coverColor": "#1b263b",
       "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Political Economy",
       "tags": [
-        "Theory",
-        "Philosophy"
+        "Political Economy",
+        "Wage Labor",
+        "Capital Accumulation",
+        "Karl Marx"
       ]
     },
     {
@@ -124,13 +217,14 @@
       "shortDescription": "Lenin's seminal work on political organization, arguing that working-class political consciousness requires systematic theoretical education rather than pure trade unionism.",
       "coverColor": "#8c1c1c",
       "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
-      "subject": "Party Organization & Political Consciousness",
+      "subject": "Party Organization",
       "tags": [
+        "Party Organization",
         "Vanguard Party",
-        "Political Consciousness",
         "Economism",
         "Class Struggle",
-        "Marxism-Leninism"
+        "Marxism-Leninism",
+        "V.I. Lenin"
       ]
     }
   ]

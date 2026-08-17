@@ -9,6 +9,19 @@ import { classicalTerms } from './classical';
 import { dialecticalTerms } from './dialectics';
 import { leninistTerms } from './leninism';
 import { maoistTerms } from './maoism';
+import { trotskyistTerms } from './trotskyism';
+import { anarchistTerms } from './anarchism';
+import { stalinistTerms } from './stalinism';
+import { dengistTerms } from './dengism';
+import { jucheTerms } from './juche';
+import { antiColonialTerms } from './antiColonial';
+import { capitalistTerms } from './capitalism';
+import { fascistTerms } from './fascism';
+import { neoMarxistTerms } from './neoMarxism';
+import { philosophyTerms } from './philosophy';
+import { feudalismTerms } from './feudalism';
+import { postmodernTerms } from './postmodernism';
+import { marxistFeministTerms } from './marxistFeminism';
 
 export type { TheoryTag, GlossaryTerm };
 export { getTermSlug };
@@ -17,8 +30,22 @@ export const glossary: GlossaryTerm[] = [
   ...classicalTerms,
   ...dialecticalTerms,
   ...leninistTerms,
-  ...maoistTerms
+  ...maoistTerms,
+  ...trotskyistTerms,
+  ...anarchistTerms,
+  ...stalinistTerms,
+  ...dengistTerms,
+  ...jucheTerms,
+  ...antiColonialTerms,
+  ...capitalistTerms,
+  ...fascistTerms,
+  ...neoMarxistTerms,
+  ...philosophyTerms,
+  ...feudalismTerms,
+  ...postmodernTerms,
+  ...marxistFeministTerms,
 ];
+
 
 export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> = ({ part, matchingTerm }) => {
   const [isHovered, setIsHovered] = useState(false);

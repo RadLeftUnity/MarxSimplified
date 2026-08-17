@@ -251,9 +251,21 @@ export const Reader: React.FC<ReaderProps> = ({
                 ‹ Previous
               </button>
 
-              <span className="nav-footer-info">
-                CH. {currentChapterIndex + 1} / {book.chapters.length}
-              </span>
+              <div className="footer-chapter-jump">
+                <select
+                  className="chapter-jump-select footer-jump-select glass-panel"
+                  value={chapterId}
+                  onChange={(e) => onChapterChange(e.target.value)}
+                  aria-label="Jump to Chapter"
+                  id="footer-chapter-jump-select"
+                >
+                  {book.chapters.map((ch, idx) => (
+                    <option key={ch.id} value={ch.id} className="chapter-jump-option">
+                      Ch {idx + 1}: {ch.title}
+                    </option>
+                  ))}
+                </select>
+              </div>
 
               <button
                 className="nav-footer-btn"

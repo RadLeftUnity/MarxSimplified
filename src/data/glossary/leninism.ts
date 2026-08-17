@@ -147,11 +147,11 @@ export const leninistTerms: GlossaryTerm[] = [
   },
   {
     "term": "Ultra-Leftism",
-    "pattern": "ultra-leftism|ultra-left",
+    "pattern": "ultra-leftism|ultra-left|ultra left|ultra leftism|ultraleft",
     "definition": "A political tendency that rejects necessary compromise, mass union work, or tactical flexibility in favor of radical rhetoric and impossible demands far ahead of class readiness.",
-    "misconception": "Being very left-wing. Ultra-leftism isolates revolutionaries from mainstream workers by refusing to meet workers at their current level of consciousness.",
-    "dayToDayExample": "Denouncing workers for participating in electoral voting or trade union elections as betrayals of revolution.",
-    "theoryTags": ["Marxism-Leninism"]
+    "misconception": "Being very left-wing. Lenin in 'Left-Wing' Communism: An Infantile Disorder (1920) criticized ultra-leftism as an infantile disorder that isolates revolutionaries from working-class masses by rejecting essential tactical maneuvers and mass organizations.",
+    "dayToDayExample": "Denouncing workers for participating in trade union negotiations or parliamentary voting as betrayals of revolution.",
+    "theoryTags": ["Marxism-Leninism", "Classical Marxism"]
   },
   {
     "term": "Adventurism",
@@ -170,7 +170,7 @@ export const leninistTerms: GlossaryTerm[] = [
     "theoryTags": ["Marxism-Leninism"]
   },
   {
-    "term": "Dependency Theory & Dependency",
+    "term": "Dependency Theory",
     "pattern": "dependency theory|economic dependency",
     "definition": "The economic framework explaining how developing nations are kept structurally subordinate and underdeveloped to serve the raw material and labor needs of wealthy imperialist powers.",
     "misconception": "That poor nations are underdeveloped simply due to lack of modern technology. Their underdevelopment is actively produced by global capital integration.",
@@ -208,5 +208,77 @@ export const leninistTerms: GlossaryTerm[] = [
     "misconception": "Workers who earned their money fairly. The labor aristocracy tends to adopt reformist and pro-imperialist politics to protect its relative privileges.",
     "dayToDayExample": "Union leaders in wealthy nations supporting foreign interventions to secure cheap resource imports that lower domestic living costs.",
     "theoryTags": ["Marxism-Leninism"]
+  },
+  {
+    "term": "Commanding Heights of the Economy",
+    "pattern": "commanding heights of the economy|commanding heights|commanding heights of industry",
+    "definition": "The strategically vital sectors of a national economy (such as banking, heavy industry, energy, telecommunications, transportation, and natural resources) that must remain under state ownership and control to ensure socialist direction, even when minor market forces are permitted.",
+    "misconception": "That allowing small private businesses or market trade means abandoning socialism. Lenin introduced the concept during the New Economic Policy (NEP) in 1921, asserting that as long as the proletarian state controls the commanding heights, socialism maintains economic dominance.",
+    "dayToDayExample": "State-owned banks and public energy utilities directing national investment toward public housing and green transit while small private cafes and retail shops operate freely.",
+    "theoryTags": ["Marxism-Leninism", "Dengism"]
+  },
+  {
+    "term": "New Economic Policy",
+    "pattern": "new economic policy|nep|lenin's nep",
+    "definition": "Also known as the NEP. A temporary economic policy introduced by V.I. Lenin in Soviet Russia (1921), replacing War Communism by permitting limited market mechanisms, small private trade, and grain requisitions replacement with a tax in kind to rebuild war-torn productive forces while retaining state control of the commanding heights.",
+    "misconception": "A capitulation to capitalism. Lenin described NEP as a necessary strategic retreat to restore agricultural supply and industrial production after the devastating Russian Civil War.",
+    "dayToDayExample": "Peasants selling surplus grain on local open markets after paying a fixed grain tax to the state.",
+    "theoryTags": ["Marxism-Leninism"]
+  },
+  {
+    "term": "Dual Power",
+    "pattern": "dual power|dvoevlastie|dual power situation",
+    "definition": "A revolutionary political situation described by V.I. Lenin in 1917, where two competing state structures co-exist: the official bourgeois government (such as the Russian Provisional Government) and autonomous revolutionary working-class organs (the Soviets of Workers' and Soldiers' Deputies).",
+    "misconception": "A stable long-term alliance between workers and capitalists. Lenin emphasized that dual power is an inherently unstable transitional phase that must end in the complete victory of one class over the other.",
+    "dayToDayExample": "A city where corporate city hall attempts to enforce policy while neighborhood assemblies and worker councils manage local food distribution and refuse obedience to police.",
+    "theoryTags": ["Marxism-Leninism", "Trotskyism", "Classical Marxism"]
+  },
+  {
+    "term": "Primitive Socialist Accumulation",
+    "pattern": "primitive socialist accumulation|socialist accumulation",
+    "definition": "An economic theory formulated by Evgeny Preobrazhensky and expanded during Soviet industrialization, asserting that an underdeveloped socialist state must extract resources and surplus from non-socialist sectors (such as agriculture) to rapidly build state-owned heavy industry.",
+    "misconception": "Capitalist accumulation. Unlike capitalist primitive accumulation based on colonial plunder and private profit, primitive socialist accumulation reinvests surplus into public industrial infrastructure and social development.",
+    "dayToDayExample": "Using state agricultural trade profits to build steel mills, tractor factories, and electrical power grids.",
+    "theoryTags": ["Marxism-Leninism", "Trotskyism", "Stalinism"]
+  },
+  {
+    "term": "De-linking",
+    "pattern": "de-linking|delinking|economic sovereignty",
+    "definition": "An anti-imperialist economic strategy formulated by Marxist economist Samir Amin, asserting that developing nations must break away from Western-dominated global market logic and tailor domestic production to local popular needs rather than foreign monopoly export demand.",
+    "misconception": "Total autarky or isolation. De-linking means restructuring national trade on sovereign, equal terms rather than submitting to imperialist terms of trade.",
+    "dayToDayExample": "A developing nation halting raw mineral exports to foreign conglomerates and instead building domestic factories to process mineral resources locally for its own energy grid.",
+    "theoryTags": ["Marxism-Leninism", "Maoism"]
+  },
+  {
+    "term": "State Monopoly Capitalism",
+    "pattern": "state monopoly capitalism|stamocap",
+    "definition": "The stage of capitalism where monopoly corporations merge their power directly with the state apparatus, using government subsidies, bailouts, tax laws, and military forces to guarantee monopoly corporate profits and crush working-class resistance.",
+    "misconception": "That state intervention in capitalism equals socialism. State monopoly capitalism uses state resources to protect private monopoly corporate capital against economic failure.",
+    "dayToDayExample": "Governments using taxpayer funds to bail out private mega-banks during financial crises while corporate executives receive multi-million dollar bonuses.",
+    "theoryTags": ["Marxism-Leninism"]
+  },
+  {
+    "term": "Proletarian Internationalism",
+    "pattern": "proletarian internationalism|socialist internationalism|workers of the world unite",
+    "definition": "The core Marxist principle formulated by Karl Marx and Friedrich Engels ('Workers of the world, unite!'), asserting that working-class interests are global and that workers must form international solidarity across national borders to defeat global capitalism and imperialism.",
+    "misconception": "Bourgeois globalization or corporate free trade. Proletarian internationalism unites working-class anti-imperialist movements against national chauvinism and imperialist war.",
+    "dayToDayExample": "Dockworkers in one country refusing to unload cargo ships carrying military weapons bound for an imperialist invasion of another nation.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Trotskyism", "Anarcho-Communism"]
+  },
+  {
+    "term": "National Liberation Struggle",
+    "pattern": "national liberation struggle|national liberation|anti-colonial struggle|national liberation movement",
+    "definition": "Revolutions and anti-colonial movements undertaken by oppressed nations in the Global South to overthrow foreign colonial rule, imperialist occupation, and neocolonial domination.",
+    "misconception": "Bourgeois nationalism. Lenin and Mao emphasized that national liberation struggles in imperialist colonies weaken global monopoly capital and are vital allies of global socialist revolution.",
+    "dayToDayExample": "Colonial populations taking up arms and organizing popular fronts to expel foreign occupying military forces and reclaim national land and resources.",
+    "theoryTags": ["Marxism-Leninism", "Maoism"]
+  },
+  {
+    "term": "AES (Actually Existing Socialism)",
+    "pattern": "aes|actually existing socialism|really existing socialism|existing socialism",
+    "definition": "A term used by Marxists to refer to real-world socialist states past and present (such as Cuba, China, Vietnam, Laos, DPRK, and the former Soviet Union) that achieved state power, nationalized key industries, and constructed socialist economies under real anti-imperialist conditions.",
+    "misconception": "That socialist theory can only be evaluated against idealized, flawless abstractions. Marxist materialists analyze AES states within their real historical context of imperialist encirclement, economic sanctions, and material underdevelopment.",
+    "dayToDayExample": "Analyzing real public housing, universal healthcare, literacy, and land reform achievements in Cuba or Vietnam rather than comparing them to ideal utopian models.",
+    "theoryTags": ["Marxism-Leninism", "Anti-Colonial Socialism"]
   }
 ];

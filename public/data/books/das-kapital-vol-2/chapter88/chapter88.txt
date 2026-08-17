@@ -1,0 +1,788 @@
+Capital Volume II
+
+Chapter 21: Accumulation and Reproduction on an Extended Scale
+
+Part 2
+
+III. Schematic Presentation of Accumulation
+
+We shall now study reproduction according to the following scheme.
+
+Scheme a)
+
+I. 4,000c + 1,000v + 1,000s
+
+= 6,000
+
+II. 1,500c + 376v + 376s
+
+= 2,252
+
+= 8,252 Total
+
+We note in the first place that the sum total of the annual social
+product, or 8,252, is smaller than that of the first scheme, where it was
+9,000. We might just as well assume a much larger sum, for instance
+one ten times larger. We have chosen a smaller sum than in our scheme
+I in order to make it conspicuously clear that reproduction on an
+enlarged scale (which is here regarded merely as production carried on
+with a larger investment of capital) has nothing to do with the absolute
+volume of the product, that for a given quantity of commodities it implies
+merely a different arrangement or a different definition of the functions of
+the various elements of a given product, so that it is but a simple
+reproduction so far as the value of the product is concerned. It is not the
+quantity but the qualitative determination of the given elements of
+simple reproduction which is changed, and this change is the material
+premise of a subsequent reproduction on an extended scale. [1]
+
+We might vary the scheme by changing the ratio between the variable
+and constant capital. For instance as follows:
+
+Scheme b)
+
+I. 4,000c + 875v + 875s
+
+= 5,750
+
+II. 1,750c + 376v + 376s
+
+= 2,502
+
+= 8,252 Total
+
+This scheme seems arranged for reproduction on a simple scale, the
+surplus-value being entirely consumed as revenue and not accumulated.
+In either case, both a) and b), we have an annual product of the same
+magnitude of value, only under b) functionally its elements are grouped in such a way that reproduction is resumed on the same scale, while under a) the functional
+grouping forms the material basis of reproduction on an extended scale.
+Under b) (875v + 875s) I, or 1,750 I(v + s), are exchanged without any surplus for 1,750 IIc while under a) the exchange of (1,000v + 1,000s) I, equal to 2,000 I(v + s), for 1,000 IIc leaves a surplus of 500 Is for accumulation in class I.
+
+Now let us analyse scheme a) more closely. Let us suppose that both
+I and II accumulate one half of their surplus-value, that is to say, convert
+it into an element of additional capital, instead of spending it as revenue.
+As one half of 1,000 Is, or 500, are to be accumulated in one form or
+another, invested as additional money-capital, i.e., converted into
+additional productive capital, only (1,000v + 500s) I are spent as revenue. Hence only 1,500 figures here as the normal size of IIc. We
+need not further examine the exchange between 1,500 I(v + s) and 1,500
+IIc, because this has already been done under the head of process of
+simple reproduction. Nor does 4,000 Ic require any attention, since its
+re-arrangement for the newly commencing reproduction (which this time
+will occur on an extended scale) was likewise discussed as a process of
+simple reproduction.
+
+The only thing that remains to be examined by us is 500 Is and (376v + 376s) II, inasmuch as it is a matter on the one hand of the internal relations of both I and II and on the other of the movement between
+them. Since we have assumed that in II likewise one half of the surplus-value
+is to be accumulated, 188 are to be converted here into capital, of
+which one-fifth, or 47, or, to round it off, 48, are to be variable
+capital, so that 140 remain to be converted into constant capital.
+
+Here we come across a new problem, whose very existence must
+appear strange to the current view that commodities of one kind are
+exchanged for commodities of another kind, or commodities for money
+and the same money again for commodities of another kind. The 140
+IIs can be converted into productive capital only by replacing them with
+commodities of Is of the same value. It is a matter of course that that
+portion of Is which must be exchanged for IIs must consist of means of production, which may enter either into the production of both I and II,
+or exclusively into that of II. This replacement can be made feasible only
+by means of a one-sided purchase on the part of II, as the entire surplus-product
+of 500 Is, which we still have to examine, is to serve the
+purposes of accumulation within I, hence cannot be exchanged for
+commodities II; in other words, it cannot be simultaneously accumulated
+and consumed by I. Therefore II must buy 140 Is for cash without
+recovering this money by a subsequent sale of its commodities to I. And
+this is a process which is continually repeating itself in every new annual
+production, so far as it is reproduction on an extended scale. Where in II
+is the source of the money for this?
+
+It would rather seem that II is a very unprofitable field for the
+formation of new money-capital which accompanies actual accumulation
+and necessitates it under capitalist production, and which at first
+actually presents itself as simple hoarding.
+
+We have first 376 IIv. The money-capital of 376, advanced in labour-power,
+continually returns through the purchase of commodities II as
+variable capital in money-form to capitalist II. This constant repetition of
+departure from and return to the starting-point, the pocket of the
+capitalist, does not add in any way to the money roving over this circuit.
+This, then, is not a source of the accumulation of money. Nor can this
+money be withdrawn from circulation in order to form hoarded, virtually
+new, money-capital.
+
+But stop! Isn't there a chance here to make a little profit?
+
+We must not forget that class II has this advantage over class I, that
+its labourers have to buy back from it the commodities produced by
+themselves. Class II is a buyer of labour-power and at the same time a
+seller of the commodities to the owners of the labour-power employed by
+it. Class II can therefore:
+
+1) ; and this it shares with the capitalists of class I ; simply depress
+wages below their normal average level. By this means a portion of the
+money functioning as the money-form of variable capital is released, and
+if this process is continually repeated, it might become a normal source
+of hoarding, and thus of virtually additional money-capital in class II. Of
+course we are not referring to a casual swindle profit here, since we are
+treating of a normal formation of capital. But it must not be forgotten
+that the normal wages actually paid (which ceteris paribus determine
+the magnitude of the variable capital) are not paid by the capitalists but
+of the goodness of their hearts, but must he paid under given relations.
+This eliminates the above method of explanation. If we assume that
+376v is the variable capital to be laid out by class II, we have no right
+suddenly to sneak in the hypothesis that it may pay only 350v instead of
+376v, merely to elucidate a problem that has newly arisen.
+
+2) On the other hand class II, taken as a whole, has the above-mentioned
+advantage over I that it is at the same time a buyer of labour-power
+and a seller of its commodities to its own labourers. Every
+industrial country (for instance Britain and the U.S.A.) furnishes the
+most tangible proofs of the way in which this advantage may be
+exploited ; by paying nominally the normal wages but grabbing, alias
+stealing, back part of them without an equivalent in commodities; by
+accomplishing the same thing either through the truck system or through
+a falsification of the medium of circulation (perhaps in a way too elusive
+for the law). (Take this opportunity to expatiate on this idea with some
+appropriate examples.) This is the same operation as under 1), only
+disguised and carried out by a detour. Therefore it must likewise be
+rejected, the same as the other. We are dealing here with actually paid,
+not nominally paid wages.
+
+We see that in an objective analysis of the mechanism of capitalism
+certain stains still sticking to it with extraordinary tenacity cannot be
+used as a subterfuge to get over some theoretical difficulties. But strange
+to say, the great majority of my bourgeois critics upbraid me as though I
+have wronged the capitalists by assuming, for instance in Book I of
+Capital, that the capitalist pays labour-power at its real value, a thing
+which he mostly does not do! (Here, exercising some of the magnanimity
+attributed to me, it would be appropriate to quote Sch&auml;ffle.)
+
+So with the 376 IIv we cannot get any nearer the goal we have
+mentioned.
+
+But the 376 IIv seem to be in a still more precarious position. Here
+only capitalists of the same class, mutually buying and selling the
+articles of consumption they produced, confront one another. The money
+required for these transactions functions only as a medium of circulation
+and in the normal course of things must flow back to the interested
+parties in the same portion in which they advanced it to the circulation,
+in order to cover the same route over and over again.
+
+There seem to be only two ways by which this money can be
+withdrawn from circulation to form virtually additional money-capital.
+Either one part of capitalists II cheats the other and thus robs them of
+their money. We know that no preliminary expansion of the circulating
+medium is necessary for the formation of new money-capital. All that is
+necessary is that the money should be withdrawn from circulation by
+certain parties and hoarded. It would not alter the case if this money
+were stolen, so that the formation of additional money-capital by one
+part of capitalists II would entail a positive loss of money by another
+part. The cheated capitalists II would have to live a little less gaily, that
+would be all.
+
+Or a part of II represented by necessities of life is directly converted
+into new variable capital within department II. How that is done we shall
+examine at the close of this chapter (under No. IV).
+
+1. First Illustration
+
+ A. Scheme of Simple Reproduction
+
+ I. 4,000c + 1,000v + 1,000s
+ = 6,000
+
+ II. 2,000c + 500v + 500s
+
+ =3,000
+
+ = 9,000 Total
+
+B. Initial Scheme for Reproduction
+on an Extended Scale
+
+I. 4,000c + 1,000v + 1,000s
+= 6,000
+
+II. 1,500c + 750v + 750s 
+= 3,000
+
+= 9,000 Total
+
+Assuming that in scheme B one half of surplus-value I, i.e., 500, is
+accumulated, we first receive (1,000v + 500s) I, or 1,500 I(v + s) to be replaced by 1,500 IIc. There then remains in I:4,000c and 500s, the latter having to be accumulated. The replacement of (1,000v + 500s) I by 1,500 IIc is a process of simple reproduction, which has been examined previously.
+
+Let us now assume that 400 of the 500 Is are to be converted into
+constant capital, and 100 into variable capital. The exchange within I of
+the 400s, which are thus to be capitalised, has already been discussed.
+They can therefore be annexed to Ic, without more ado and in that case
+we get for I:
+
+4,400c + 1,000v + 100s (the latter to be converted into 100v).
+
+II in turn buys from I for the purpose of accumulation the 100 Is
+(existing in means of production) which now form additional constant
+capital II, while the 100 in money which it pays for them are converted
+into the money-form of the additional variable capital of I. We then have
+for I a capital of 4,400c + 1,100v (the latter in money), equaling 5,500.
+
+II has now 1,600c for its constant capital. In order to put them to
+work, it must advance a further 50v in money for the purchase of new
+labour-power, so that its variable capital grows from 750 to 800. This
+expansion of the constant and variable capital of II by a total of 150 is
+supplied out of its surplus-value. Hence only 600s of the 750 IIs remain as a consumption-fund for capitalists II, whose annual product is now distributed as follows:
+
+II. 1,600c + 800v + 600s (consumption-fund), equal to 3,000.
+
+The 150s produced in articles of consumption, which have been
+converted here into (100c + 50v) II, go entirely in their bodily form for the consumption of the labourers, 100 being consumed by the labourers
+of I (100 Iv), and 50 by the labourers of II (50 IIv), as explained above. As a matter of fact in II, where its total product is prepared in a form
+suitable for accumulation, a part greater by 100 of the surplus-value in
+the form of necessary articles of consumption must be reproduced. If
+reproduction really starts on an extended scale, then the 100 of variable
+money-capital I flow back through the hands of its working-class to II,
+while II transfers 100s in commodity-supply to I and at the same time
+50 in commodity-supply to its own working-class.
+
+The arrangement changed for the purpose of accumulation is now as
+follows:
+
+ I. 4,400c + 1,100v + 500 consumption-fund
+ = 6,000
+
+II. 1,600c + 800v + 600 consumption-fund
+ = 3,000
+
+= 9,000 Total, as before
+
+Of these amounts, the following are capital:
+
+ I. 4,400c + 1,100v (money)
+= 5,500
+
+II. 1,600c + 800v (money)
+= 2,400 
+
+= 7,900
+
+while production started out with
+
+ I. 4,000c + 1,000v
+= 5,000
+
+II. 1,500c + 750v
+= 2,250 
+
+= 7,250
+
+Now, if actual accumulation takes place on this basis, that is to say,
+if production really goes on with this augmented capital, we obtain at
+the end of the following year:
+
+ I. 4,400c + 1,100v + 1,100s
+= 6,600
+
+II. 1,600c + 800v + 800v
+= 3,200 
+
+= 9,800
+
+Then let accumulation in I continue in the same proportion, so that
+550s are spent as revenue and 550s accumulated. In that case 1,100 Iv are first replaced by 1,100 IIc, and 550 Is must be realised in an equal amount of commodities of II, making a total of 1,650 I(v + s). But the constant capital II, which is to be replaced, is equal to only 1,600; hence the remaining 50 must be supplemented out of 800 IIs. Leaving aside the money aspect for the present, we have as a result of this
+transaction:
+
+I. 4,400c + 550s (to be capitalised); furthermore, realised in
+commodities IIc, the consumption-fund of the capitalists and labourers
+1,650(v + s).
+
+II. 1,650c (50 added from IIs as indicated above) + 800v + 750s (consumption-fund of the capitalists).
+
+But if the old ratio of v:c is maintained in II, then additional 25v must
+be laid out for 50c, and these are to be taken from the 750s. Then we have
+
+II. 1,650c + 825v + 725s.
+
+In I, 550s must be capitalised. If the former ratio is maintained, 440
+of this amount form constant capital and 110 variable capital. These
+110 might be taken out of the 725 IIs, i.e., articles of consumption to
+the value of 110 are consumed by labourers I instead of capitalists II,
+so that the latter are compelled to capitalise these 110s which they
+cannot consume. This leaves 615 IIs of the 725 IIs. But if II thus converts these 110 into additional constant capital, it requires an
+additional variable capital of 55. This again must be supplied by its
+surplus-value. Subtracting this amount from 615 IIs leaves 560 for the
+consumption of capitalists II, and we now obtain the following capital-value
+after accomplishing all actual and potential transfers:
+
+I. (4,400c + 440c) + (1,100v + 110v) = 4,840c + 1,210v = 6,050
+
+II. (1,600c + 50c + 110c) + (800v + 25v + 55v)
+
+= 1760c + 880v = 2,640/8,690
+
+If things are to proceed normally, accumulation in II must take place
+more rapidly than in I, because otherwise the portion I(v + s) which must
+be converted into commodities II will grow more rapidly than IIc, for
+which alone it can be exchanged.
+
+If reproduction is continued on this basis and conditions otherwise remain
+unchanged we obtain at the end of the succeeding year:
+
+ I. 4,840c + 1,210v + 1,210s
+= 7,260
+
+II. 1,760c + 880v + 880s
+= 3,520 
+
+= 10,780
+
+If the rate of division of the surplus-value remains unchanged, there is
+first to be expended as revenue by I: 1,210v and one half of s, or 605, a
+total of 1,815. This consumption-fund is again larger than IIc by 55.
+These 55 must be deducted from 880s, leaving 825. Furthermore, the
+conversion of 55 IIs into IIc implies another deduction from IIs for a corresponding variable capital of 27&frac12;, leaving for consumption 797&frac12;
+IIs.
+
+I has now to capitalise 605s. Of these 484 are constant and 121
+variable. The last named are to be deducted from IIs, which is still equal
+to 797&frac12;, leaving 676&frac12; IIs. II, then, converts another 121 into constant capital and requires another variable capital of 60&frac12; for it, which
+likewise comes out of 676&frac12;, leaving 616 for consumption.
+
+Then we have the following capitals:
+
+ I.
+
+Constant:
+4,840 + 484 = 5,324
+
+ Variable: 
+1,210 + 121 = 1,331
+
+II.
+Constant:
+
+1,760 + 55 + 121 = 1,936
+
+Variable:
+880 + 27&frac12; + 60&frac12; = 968
+
+ Totals:
+I. 5,324c + 1,331v 
+= 6,655
+
+ II. 1,936c + 968v
+
+= 2,904
+
+= 9,559
+
+And at the end of the year the product is
+
+ I. 5,324c + 1,331v + 1,331s
+
+= 7,986
+
+II. 1,936c + 968v + 968s
+= 3,872 
+
+= 11,858
+
+Repeating the same calculation and rounding off the fractions, we get
+at the end of the succeeding year the following product:
+
+ I. 5,856c + 1,464v + 1,464s
+= 8,784
+
+II. 2,129c + 1,065v + 1,065s
+= 4,259 
+
+= 13,043
+
+And at the end of the next succeeding year:
+
+ I. 6, 442c + 1,610v + 1,610s
+
+= 9,662
+
+II. 2,342c + 1,172v + 1,172s
+ = 4,686
+
+= 14,348
+
+In the course of five years of reproduction on an extended scale the
+aggregate capital of I and II has risen from 5,500c + 1,750v = 7,250 to 8,784c + 2,782v = 11,566; in other words in the ratio of 100:160. The total surplus-value was originally 1,750; it is now 2,782. The consumed
+surplus-value was originally 500 for I and 600 for II, a total of 1,100.
+The previous year it was 732 for I and 745 for II, a total of 1,477. It
+has therefore grown in the ratio of 100:134.
+
+2. Second Illustration
+
+Now take the annual product of 9,000, which is altogether a
+commodity-capital in the hands of the class of industrial capitalists in a
+form in which the general average ratio of the variable to the constant
+capital is that of 1:5. This presupposes a considerable development of
+capitalist production and accordingly of the productivity of social labour,
+a considerable previous increase in the scale of production, and finally a
+development of all the circumstances which produce a relative surplus-population
+among the working-class. The annual product will then be
+divided as follows, after rounding off the various fractions:
+
+ I. 5,000c + 1,000v + 1,000s
+= 7,000
+
+II. 1,430c + 285v + 285s
+= 2,000 
+
+= 9,000
+
+Now take it that capitalist class I consumes one half of its surplus-value,
+or 500, and accumulates the other half. In that case (1,000v +
+500s) I, or 1,500, would have to be converted into 1,500 IIc. Since IIc here amounts to only 1,430, it is necessary to add 70 from the surplus-value. Subtracting this sum from 285 IIs leaves 215 IIs. Then we have:
+
+I. 5,000c + 500s (to be capitalised) + 1,500(v + s)
+
+in the consumption-fund of the capitalists and labourers.
+
+II. 1,430c + 70s (to be capitalised) + 285v + 215s.
+
+As 70 IIs are directly annexed here to IIc, a variable capital of 70/5, or 14, is required to set this additional constant capital in motion. These
+14 must also come out of the 215 IIs, so that 201 IIs remain, and we have:
+
+II. (1,430c + 70c) + (285v + 14v) + 201s.
+
+The exchange of 1,500 I(v + &frac12;s) for 1,500 IIc is a process of simple reproduction, and nothing further need be said about it. However a few
+peculiarities remain to be noted here, which arise from the fact that in
+accumulating reproduction I(v + &frac12;s) is not replaced solely by IIc, but by IIc plus a portion of IIs.
+
+It goes without saying that as soon as we assume accumulation, I(v + s)
+is greater than IIc, not equal to IIc, as in simple reproduction. For in the first place, I incorporates a portion of its surplus-product in its own
+productive capital and converts five-sixths of it into constant capital,
+therefore cannot replace these five-sixths simultaneously by articles of
+consumption II. In the second place I has to supply out of its surplus-product
+the material for the constant capital required for accumulation
+within II, just as II has to supply I with the material for the variable
+capital, which is to set in motion the portion of I's surplus-product
+employed by I itself as additional constant capital. We know that the
+actual, and therefore also the additional, variable capital consists of
+labour-power. It is not capitalist I who buys from II a supply of
+necessities of life or accumulates them for the additional labour-power to
+be employed by him, as the slaveholder had to do. It is the labourers
+themselves who trade with II. But this does not prevent the articles of
+consumption of his additional labour-power from being viewed by the
+capitalist as only so many means of production and maintenance of his
+eventual additional labour-power, hence as the bodily form of his
+variable capital. His own immediate operation, in the present case that
+of I, consists in merely storing up the new money-capital required for
+the purchase of additional labour-power. As soon as he has
+incorporated this in his capital, the money becomes a means of
+purchase of commodities II for this labour-power, which must find these
+articles of consumption at hand.
+
+By the by. The capitalist, as well as his press, is often dissatisfied
+with the way in which the labour-power spends its money and with the
+commodities II in which it realises this money. On such occasions he
+philosophises, babbles of culture, and dabbles in philanthropical talk, for
+instance after the manner of Mr. Drummond, the Secretary of the British
+Embassy in Washington. According to him, The Nation (a journal)
+carried last October 1879, an interesting article, which contained among
+other things the following passages:
+
+"The working-people have not kept
+up in culture with the growth of invention, and they have had things
+showered on them which they do not know how to use, and thus make
+no market for." [Every capitalist naturally wants the labourer to buy his
+commodities.] "There is no reason why the working man should not
+desire as many comforts as the minister, lawyer, and doctor, who is
+earning the same amount as himself." [This class of lawyers, ministers
+and doctors have indeed to be satisfied with the mere desire of many
+comforts!] "He does not do so, however. The problem remains, how to
+raise him as a consumer by rational and healthful processes, not an easy
+one, as his ambition does not go beyond a diminution of his hours of
+labour, the demagogues rather inciting him to this than to raising his
+condition by the improvement of his mental and moral powers." (Reports
+of H. M.'s Secretaries of Embassy and Legation on the Manufactures,
+Commerce, etc., of the Countries in which they reside. London, 1879,
+p. 404.)
+
+Long hours of labour seem to be the secret of the rational and
+healthful processes, which are to raise the condition of the labourer by
+an improvement of his mental and moral powers and to make a rational
+consumer of him. In order to become a rational consumer of the
+commodities of the capitalist, he should above all begin to let his own
+capitalist consume his labour-power irrationally and unhealthfully ; but
+the demagogue prevents him! What the capitalist means by a rational
+consumption is evident wherever he is condescending enough to engage
+directly in the trade with his own labourers, in the truck system, which
+includes also the supplying of homes to the labourers, so that the
+capitalist is at the same time a landlord for them ; a branch of business
+among many others.
+
+The same Drummond, whose beautiful soul is enamoured of the
+capitalist attempts to uplift the working-class, tells in the same report
+among other things of the cotton goods manufacture of the Lowell and
+Lawrence Mills. The boarding and lodging houses for the factory girls
+belong to the corporation or company owning the mills. The
+stewardesses of these houses are in the employ of the same company
+which prescribes them rules of conduct. No girl is permitted to stay out
+after 10 p.m. Then comes a gem: a special police patrol the grounds for
+the purpose of guarding against an infringement of those rules. After 10
+p. m. no girl can leave or enter. No girl may live anywhere but on the
+premises of the company, and every house on it brings the company
+about 10 dollars per week in rent. And now we see the rational
+consumer in his full glory:
+
+"As the ever present piano is however to be
+found in many of the best appointed working girls' boarding houses,
+music, song, and dance come in for a considerable share of the
+operatives' attention at least among those who, after 10 hours' steady
+work at the looms, need more relief from monotony than actual rest." (p.
+412.)
+
+But the main secret of making a rational consumer out of the
+labourer is yet to be told. Mr. Drummond visits the cutlery works of
+Turner's Falls (Connecticut River), and Mr. Oakman, the treasurer of the
+concern, after telling him that especially American table cutlery beat the
+English in quality, continues:
+
+"The time is coming that we will beat
+England as to prices also, we are ahead in quality now, that is
+acknowledged, but we must have lower prices, and shall have it the
+moment we get our steel at lower prices and have our labour down." (p.
+427.)
+
+A reduction of wages and long hours of labour ; that is the
+essence of the rational and healthful processes which are to uplift the
+labourer to the dignity of a rational consumer, so that "they make a
+market for things showered upon them" by culture and growth of
+invention.
+
+Consequently, just as I has to supply the additional constant capital
+of II out of its surplus-product, so II likewise supplies the additional
+variable capital for I. II accumulates for I and for itself, so far as the
+variable capital is concerned, by reproducing a greater portion of its total
+product, and hence especially of its surplus-product, in the shape of
+necessary articles of consumption.
+
+In production on the basis of increasing capital, I(v + s) must be equal
+to IIc plus that portion of the surplus-product which is re-incorporated as
+capital, plus the additional portion of constant capital required for the
+expansion of the production in II; and the minimum of this expansion is
+that without which real accumulation, i.e., a real expansion of
+production in I itself, is unfeasible.
+
+Reverting now to the case which we examined last, we find in it the
+peculiarity that IIc is smaller than I(v + &frac12;s), than that portion of product I which is spent as revenue for articles of consumption, so that on
+exchanging the 1,500 I(v + s) a portion of surplus-product II, equal to 70,
+is at once realised. As for IIc, equal to 1,430, it must, all other
+conditions remaining the same, be replaced by an equal magnitude of
+value out of I(v + s), in order that simple reproduction may take place in II,
+and to that extent we need not pay any more attention to it here. It is
+different with the additional 70 IIs. What for I is merely a replacement of
+revenue by articles of consumption, merely commodity-exchange meant
+for consumption, is for II not a mere reconversion of its constant capital
+from the form of commodity-capital into its bodily form, as it is in simple
+reproduction, but a direct process of accumulation, a transformation of a
+part of its surplus-product from the form of articles of consumption into
+that of constant capital. If with £70 in money (money-reserve for the
+conversion of surplus-value) I buys the 70 IIs, and if II does not buy in
+exchange 70 Is, but accumulates the £70 as money-capital, then
+the latter is indeed always an expression of additional product (precisely
+of the surplus-product of II, of which it is an aliquot part), although this
+is not a product which re-enters production; but in that case this
+accumulation of money on the part of II would at the same time express
+that 70 Is in means of production are unsaleable. There would be a
+relative overproduction in I, corresponding to the simultaneous non-expansion
+of reproduction on the part of II.
+
+But apart from this: Until the 70 in money, which came from I,
+return to it, wholly or in part, through the purchase of 70 Is by II, this 70
+in money figures wholly or in part as additional virtual money-capital in
+the hands of II. This is true of every exchange between I and II, until the
+mutual replacement of their respective commodities has effected the
+return of the money to its starting-point. But in the normal course of
+things the money figures here only transiently in this role. In the credit
+system, however, where all temporarily released additional money is
+supposed to function at once actively as an additional money-capital,
+such only temporarily released money-capital may be enthralled, for
+instance, serve in new enterprises of I, while it should have to realise
+surplus-products held there in other enterprises. It must also be noted
+that the annexation of 70 Is to constant capital II requires at the same
+time an expansion of variable capital II by 14. This implies ; about the
+way it did in I, in the direct incorporation of surplus-product Is in capital
+Ic ; that the reproduction in II is already in process with a tendency
+toward further capitalisation; in other words, it implies expansion of that
+portion of the surplus-product which consists of necessary means of
+subsistence.
+
+The product of 9,000 in the second illustration must, as we have
+seen, be distributed in the following manner for the purpose of
+reproduction, if 500 Is is to be capitalised. In doing so we merely
+consider the commodities and neglect the money-circulation.
+
+I. 5,000c + 500s (to be capitalised) + 1,500(v + s) consumption-fund equals 7,000 in commodities.
+
+II. 1,500c + 299v + 201s equals 2,000 in commodities. Grand total, 9,000 in commodities.
+
+Capitalisation takes place in the following manner:
+
+In I the 500s which are being capitalised divide into five-sixths, or
+417c plus one-sixth, or 83v. The 83v draw an equal amount out of IIs, which buys elements of constant capital and adds them to IIc. An increase of IIc by 83 implies an increase of IIv by one-fifth of 83, or 17.
+
+We have, then, after this exchange
+
+I. (5,000c + 417s)c + (1,000v + 83s)v = 5,417c + 1,083v = 6,500
+
+II. (1,500c + 83s)c + (299v + 17s)v = 1,583c + 316v = 1,899
+
+Total... 8,399.
+
+The capital in I has grown from 6,000 to 6,500, or by 1/12. That of II
+has grown from 1,715 to 1,899, or by not quite 1/9.
+
+The reproduction on this basis in the second year brings the capital at
+the end of that year to
+
+I. (5,417c + 452s)c + (1,083v + 90s)v = 5,869c + 1,173v = 7,042
+
+II. (1,583c + 42s + 90s)c + (316v + 8s + 18s)v = 1,715c + 342v
+
+= 2,057.
+
+And at the end of the third year, we have a product of
+
+I. 5,869c + 1,173v + 1,173s
+
+II. 1,715c + 342v + 342s.
+
+If I accumulates one half of its surplus-value, as before, we find that
+I(v + &frac12;s) yields 1,173v + 587(&frac12;s), equal to 1,760, more than the entire 1,715 IIc, an excess of 45. This must again be balanced by transferring an equal amount of means of production to IIc, which thus grows by 45, necessitating an addition of one-fifth, or 9, to IIv. Furthermore, the capitalised 587 Is divide into five-sixths and one-sixth, i.e., 489c and 98v. The 98 imply in II a new addition of 98 to the constant capital, and this again an increase of variable capital II by one-fifth, or 20. Then we have:
+
+I. (5,869c + 489s)c + (1,173v + 98s)v = 6,358s + 1,271v = 7,629
+
+II. (1,715c + 45s + 98s)c + (342v + 9s + 20s)v = 1,858c + 371v = 2,229
+
+Total capital = 9,858.
+
+In three years of growing reproduction the total capital of I has
+increased from 6,000 to 7,629 and that of II from 1,715 to 2,229, the
+aggregate social capital from 7,715 to 9,858.
+
+3. Replacement of IIc in Accumulation
+
+In the exchange of I(v + s) for IIc we thus meet with various cases. In simple reproduction both of them must be equal and replace one
+another, since otherwise simple reproduction cannot proceed without
+disturbance, as we have seen above.
+
+In accumulation it is above all the rate of accumulation that must be
+considered. In the preceding cases we assumed that the rate of
+accumulation in I was equal to &frac12;s I, and also that it remained constant
+from year to year. We changed only the proportion in which this
+accumulated capital was divided into variable and constant capital. We
+then had three cases:
+
+1) I(v + &frac12;s) equals IIc, which is therefore smaller than I(v + s). This must always be so, otherwise I does not accumulate.
+
+2) I(v + &frac12;s) is greater than IIc. In this case the replacement is effected by adding a corresponding portion of IIs to IIc, so that this sum becomes equal to I(v + &frac12;s). Here the replacement for II is not a simple reproduction of its constant capital, but accumulation, an augmentation of its constant capital by that portion of its surplus-product which it exchanges for means of production of I. This augmentation implies at the same time a corresponding addition to variable capital II out of its own
+surplus-product.
+
+3) I(v + &frac12;s) is smaller than IIc. In this case II does not fully reproduce its constant capital by means of exchange and must make good the
+deficit by purchase from I. But this does not entail any further
+accumulation of variable capital II, since its constant capital is fully
+reproduced only by this operation. On the other hand that part of
+capitalists I who accumulate only additional money-capital, have already
+accomplished a portion of this accumulation by this transaction.
+
+The premise of simple reproduction, that I(v + s) is equal to IIc, is not only incompatible with capitalist production, although this does not exclude the possibility that in an industrial cycle of 10-11 years some
+year may show a smaller total production than the preceding year, so
+that not even simple reproduction takes place compared to the preceding
+year. Besides that, considering the natural annual increase in population
+simple reproduction could take place only to the extent that a
+correspondingly larger number of unproductive servants would partake of
+the 1,500 representing the aggregate surplus-value. But accumulation of
+capital, real capitalist production, would be impossible under such
+circumstances. The fact of capitalist accumulation therefore excludes the
+possibility of IIc being equal to I(v + s). Nevertheless it might occur even with capitalist accumulation that in consequence of the course taken by
+the processes of accumulation during a preceding series of periods of
+production IIc might become not only equal but even bigger than I(v + s). This would mean an over-production in II and could not be adjusted in
+any other way than by a great crash, in consequence of which some
+capital of II would get transferred to I.
+
+Nor does it alter the relation of I(v + s) to IIc if a portion of constant capital II reproduces itself, as happens for instance in the use of home-grown
+seeds in agriculture. This portion of IIc is no more to be taken into
+consideration in the exchange between I and II than is Ic. Nor does it
+change matters if a part of the products of II is capable of entering into I
+as means of production. It is covered by a part of the means of
+production supplied by I, and this portion must be deducted on both
+sides at the outset, if we wish to examine in pure and unobscured form
+the exchange between the two large classes of social production, the
+producers of means of production and the producers of articles of
+consumption.
+
+Hence under capitalist production I(v + s) cannot be equal to IIc, in other words, the two cannot balance in mutual exchange. On the other
+hand, if I(s/x) is taken as that portion of Is which is spent by capitalists I as revenue, I(v + s/x) may be equal to, larger, or smaller than, IIc. But I(v + s/x) must always be smaller than II(c + s) by as much as that portion of IIs which must be consumed under all circumstances by capitalist class II.
+
+It must be noted that in this exposition of accumulation the value of the constant capital is not presented accurately so far as that capital is a part of the value of the commodity-capital it helped to produce. The
+fixed portion of the newly accumulated constant capital enters into the
+commodity-capital only gradually and periodically, according to the
+different natures of these fixed elements. Therefore whenever raw
+materials, semi-finished goods, etc., enter in huge quantities into the
+production of commodities, the commodity-capital consists for the most
+part of replacements of the circulating constant components and of the
+variable capital. (On account of the specific turnover of the circulating
+component parts this way of presenting the matter may nevertheless be
+adopted. It is then assumed that the circulating portion together with the
+portion of value of the fixed capital transferred to it is turned over so
+often during the year that the aggregate sum of the commodities
+supplied is equal in value to all the capital entering into the annual
+production.) But wherever only auxiliary materials are used for
+mechanical industry, and no raw material, there the labour element,
+equal to v, must reappear in the commodity-capital as its larger
+constituent. While in the calculation of the rate of profit the surplus-value
+is figured on the total capital, regardless of whether the fixed
+components periodically transfer much or little value to the product, the
+fixed portion of constant capital is to be included in the calculation of the
+value of any periodically created commodity-capital only to the extent
+that on an average it yields value to the product on account of wear and
+tear.
+
+IV. Supplementary Remarks
+
+The original source of the money for II is v + s of the gold industry I
+exchanged for a part of IIc. The v + s of the producer of gold does not
+enter into II only to the extent that he accumulates surplus-value or
+converts it into means of production I, i.e., to the extent that he expands
+his production. On the other hand, since the accumulation of money on
+the part of the gold producer himself leads ultimately to reproduction on
+an extended scale, a portion of the surplus-value of gold production not
+spent as revenue passes as additional variable capital of the gold producer
+into II, promotes here the formation of new hoards or supplies new
+means with which to buy from I without selling to it direct. From the
+money derived from this I(v + s) of the production of gold that portion of the gold must be deducted which certain branches of production II need as
+raw material, etc., in short as an element for the replacement of their
+constant capital. An element for the preliminary formation of hoards ; for
+the purpose of future extended reproduction ; exists in the exchange
+between I and II: for I only if part of Is is sold one-sidedly, without a
+balancing purchase, to II and serves there as additional constant capital
+II; for II, when the same is the case on the part of I for additional
+variable capital; furthermore, if a part of the surplus-value spent by I as
+revenue is not covered by IIc, hence a part of IIs is bought with it and thus converted into money. If I(v + s/x) is greater than IIc, then IIc need not for its simple reproduction replace in commodities from I what I consumed out of IIs. The question arises to what extent hoarding can take place within the sphere of exchange of capitalists II among
+themselves, an exchange which can consist only of a mutual exchange
+of IIs. We know that direct accumulation takes place within II by the
+direct conversion of a portion of II s into variable capital (just as in I a
+portion of Is is directly converted into constant capital). In the various
+age categories of accumulation within the various lines of business of II,
+and for the individual capitalists in each line of business, the matter is
+explained mutatis mutandis in the same way as in I. Some are still in
+the stage of hoarding, and sell without buying; the others are on the
+point of actual expansion of reproduction, and buy without selling. The
+additional variable money-capital is, true enough, first invested in
+additional labour-power, but this buys means of subsistence from the
+hoarding owners of the additional articles of consumption entering into
+the consumption of the labourers. From these owners, pro rata to their
+hoard formation, the money does not return to its point of departure.
+They hoard it.
+
+Notes
+
+1.
+This puts an end, once and for all, to the feud over the accumulation of
+capital between James Mill and S. Bailey, which we have discussed from
+another point of view in Book I, Ch. XXIV, 5, Note, namely, the feud concerning
+the possibility of extending the operation of industrial capital without changing
+its magnitude. We shall revert to this later.

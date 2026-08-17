@@ -1,0 +1,66 @@
+IV. Reserve Fund
+
+In the form in which we have just discussed, the hoard, as which the
+surplus-value exists, is a fund for the accumulation of money, the money-form
+temporarily assumed by capital accumulation and to that extent a condition
+of this accumulation. However this accumulation-fund can also perform special
+services of a subordinate nature, that is to say can enter into capital's
+movement in circuits without this process assuming the form of P ... P',
+hence without an expansion of capitalist reproduction.
+
+If the process C' ; M' is prolonged beyond its normal duration,
+if therefore the commodity capital is abnormally delayed in its transformation
+into the money-form or if, for instance, after the completion of this transformation
+the price of the means of production into which the money-capital must
+be transformed has risen above the level prevailing at the beginning of
+the circuit, the hoard functioning as accumulation-fund can be used in
+the place of money-capital or of part of it. Thus the money-accumulation
+fund serves as a reserve fund for counter-balancing disturbances in the
+circuit.
+
+As such a reserve fund it differs from the fund of purchasing
+or paying media discussed in the circuit P ... P. These media are a part
+of functioning money-capital (hence forms of existence of a part of capital-value
+in general going through the process) whose parts enter upon their functions
+only at different times, successively. In the continuous process of production,
+reserve-money capital is always formed, since one day money is received
+and no payments have to be made until later, and another day large quantities
+of goods are sold while other large quantities are not due to be bought
+until a subsequent date. In these intervals a part of the circulating capital
+exists continuously in the form of money. A reserve fund on the other hand
+is not a part of constituent capital already performing its functions,
+or, to be more exact, of money-capital. It is rather a part of capital
+in a preliminary stage of its accumulation, of surplus-value not yet transformed
+into active capital. As for the rest, it needs no explaining that a capitalist
+in financial straits does not concern himself about what the particular
+functions of the money he has on hand are. He simply employs whatever money
+he has for the purpose of keeping his capital circulating. For instance
+in our illustration M is equal to &pound;422, M' to &pound;500. If a part
+of the capital of &pound;422 exists as a fund of means of payment and purchase,
+as a money reserve, it is intended, other conditions remaining the same,
+that it should enter wholly into the circuit, and besides should suffice
+for this purpose. The reserve fund however is a part of the &pound;78 of
+surplus-value. It can enter the circular course of the capital worth &pound;422
+only to the extent that this circuit takes place under conditions not remaining
+the same; for it is a part of the accumulation-fund, and figures here without
+any extension of the scale of reproduction.
+
+Money-accumulation fund implies the existence of latent money-capital,
+hence the transformation of money into money-capital.
+
+The following is the general formula for the circuit of productive
+capital. It combines simple reproduction and reproduction on a progressively
+increasing scale:
+
+If P equals P, then M in 2) equals M' minus m; if P equals P', then M in
+2) is greater than M' minus m; that is to say m has been completely or
+partially transformed into money-capital.
+
+The circuit of productive capital is the form in which classical
+Political Economy examines the circular movement of industrial capital.
+
+Notes
+
+6a The term "latent" is borrowed from the idea of latent heat in physics, which has now been almost replaced by the theory of the transformation of energy. Marx therefore uses in the third
+part (a later version), another term, borrowed from the idea of potential
+energy, viz.: "potential" or analogous to the virtual velocities of D'Alembert, "virtual capital." ; Ed.
