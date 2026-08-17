@@ -8,6 +8,7 @@ export interface Annotation {
   targetText: string;
   summary: string;
   context: string;
+  topics?: string[];
 }
 
 interface ChapterReaderProps {

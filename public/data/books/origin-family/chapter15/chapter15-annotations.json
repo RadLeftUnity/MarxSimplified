@@ -1,0 +1,51 @@
+[
+  {
+    "id": "origin-family-ch15-1",
+    "targetText": "It is the greatness, but also the limitation, of the gentile constitution that it has no place for ruler and ruled.",
+    "summary": "Early tribal clan society was naturally democratic because it possessed no specialized kings, police, lords, or exploited worker classes.",
+    "context": "Engels emphasizes that human beings lived without monarchs, police forces, or class division for tens of thousands of years. Early communalism was egalitarian, though constrained by low technological development.",
+    "topics": ["Kinship & Clan Society", "Historical Materialism"]
+  },
+  {
+    "id": "origin-family-ch15-2",
+    "targetText": "Pastoral tribes separated themselves from the mass of the rest of the barbarians: the first great social division of labor.",
+    "summary": "Domesticating livestock created the first major division of labor in human history, enabling herding tribes to produce a regular surplus of meat, milk, and textiles.",
+    "context": "Animal husbandry allowed pastoral communities to produce more than they consumed, creating the economic foundation for regular trade, wealth accumulation, and individual private property.",
+    "topics": ["Historical Materialism", "Division of Labor"]
+  },
+  {
+    "id": "origin-family-ch15-3",
+    "targetText": "cattle acquired a money function and already at this stage did the work of money",
+    "summary": "Herded livestock served as humanity's first universal currency standard long before metal coins were ever minted.",
+    "context": "Engels outlines the historical evolution of money. As trade grew between separate tribes, cattle became the universal equivalent against which all other traded goods were priced.",
+    "topics": ["Theory of Money", "Commodities & Value"]
+  },
+  {
+    "id": "origin-family-ch15-4",
+    "targetText": "The state is therefore by no means a power imposed on society from without",
+    "summary": "The state is not a neutral mediator above society. It is created when internal class divisions produce conflicts that cannot be peacefully resolved.",
+    "context": "Engels refutes idealist views (such as Hegel's) that claim the state represents ultimate moral reason. The state arises specifically because society splits into hostile economic classes with opposing interests.",
+    "topics": ["State & Revolution", "Class Struggle", "Historical Materialism"]
+  },
+  {
+    "id": "origin-family-ch15-5",
+    "targetText": "The second distinguishing characteristic is the institution of a public force which is no longer immediately identical with the people's own organization of themselves as an armed power.",
+    "summary": "Unlike tribal communities where all members armed themselves for collective defense, the state relies on a professional standing military and police force separate from the general public.",
+    "context": "Lenin cited this landmark passage in 'The State and Revolution'. A state requires specialized police forces and prisons to safeguard private property and suppress working-class revolts.",
+    "topics": ["State & Revolution", "Class Struggle"]
+  },
+  {
+    "id": "origin-family-ch15-6",
+    "targetText": "As the state arose from the need to keep class antagonisms in check, but also arose in the thick of the fight between the classes, it is normally the state of the most powerful, economically ruling class",
+    "summary": "Whichever social class controls economic production also commands state power, using legal, judicial, and police institutions to protect its wealth and exploit subordinate classes.",
+    "context": "Ancient states served slaveowners; feudal states served noble landlords; modern capitalist states serve corporate owners and financial capital.",
+    "topics": ["State & Revolution", "Class Struggle", "Capitalist Exploitation"]
+  },
+  {
+    "id": "origin-family-ch15-7",
+    "targetText": "The state, therefore, has not existed from all eternity.",
+    "summary": "Because the state arose at a specific economic stage alongside class divisions, it will inevitably wither away when class divisions and private property are abolished.",
+    "context": "Engels presents the Marxist vision of the withering away of the state. Once production is organized cooperatively and class oppression ends, standing police forces and state coercion become obsolete.",
+    "topics": ["State & Revolution", "Historical Materialism"]
+  }
+]
