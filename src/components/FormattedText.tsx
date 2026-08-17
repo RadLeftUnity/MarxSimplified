@@ -8,7 +8,7 @@ interface FormattedTextProps {
   highlightJargon?: boolean;
 }
 
-interface ParsedBlock {
+export interface ParsedBlock {
   type: 'paragraph' | 'ol' | 'ul';
   intro?: string;
   items?: Array<{ num?: string; text: string }>;

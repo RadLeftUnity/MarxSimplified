@@ -1,0 +1,12 @@
+[
+  {
+    "id": "das-kapital-vol-1-constant-capital-and-variable-capital-ann-1",
+    "targetText": "By our explanation of the different parts played by the various factors of the labour-process in the formation of the product's value, we have, in fact, disclosed the characters of the different functions allotted to the different elements of capital in the process of expanding its own value. The surplus of the total value of the product, over the sum of the values of its constituent factors, is the surplus of the expanded capital over the capital originally advanced. The means of production on the one hand, labour-power on the other, are merely the different modes of existence which the value of the original capital assumed when from being money it was transformed into the various factors of the labour-process. That part of capital then, which is represented by the means of production, by the raw material, auxiliary material and the instruments of labour does not, in the process of production, undergo any quantitative alteration of value. I therefore call it the constant part of capital, or, more shortly, constant capital.",
+    "explanation": "Constant Capital (c) includes raw materials, machinery, and equipment. They transfer their existing value into the final product without creating additional new value."
+  },
+  {
+    "id": "das-kapital-vol-1-constant-capital-and-variable-capital-ann-2",
+    "targetText": "On the other hand, that part of capital, represented by labour-power, does, in the process of production, undergo an alteration of value. It both reproduces the equivalent of its own value, and also produces an excess, a surplus-value, which may itself vary, may be more or less according to circumstances. This part of capital is continually being transformed from a constant into a variable magnitude. I therefore call it the variable part of capital, or, shortly, variable capital. The same elements of capital which, from the point of view of the labour-process, present themselves respectively as the objective and subjective factors, as means of production and labour-power, present themselves, from the point of view of the process of creating surplus-value, as constant and variable capital.",
+    "explanation": "Variable Capital (v) is human labor-power. It is variable because it reproduces its own cost (wages) plus an additional surplus value (s) for the owner."
+  }
+]

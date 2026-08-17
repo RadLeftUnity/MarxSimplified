@@ -1,0 +1,386 @@
+III. Third Stage. C' ; M'
+
+Commodities become commodity-capital as a functional form of
+existence ; stemming directly from the process of production itself ; 
+of capital-value which has already produced surplus-value. If the production
+of commodities were carried on capitalistically throughout society, all
+commodities would be elements of commodity-capital from the outset, whether
+they were crude iron, Brussels lace, sulphuric acid or cigars. The problem
+of what kinds of commodities, is one of the self-created lovely ills of
+scholastic political economy.
+
+Capital in the form of commodities has to perform the function
+of commodities. The articles of which capital is composed are produced
+especially for the market and must be sold, transformed into money, hence
+go through the process C ; M.
+
+Suppose the commodity of the capitalist to consist of 10,000 lbs.
+of cotton yarn. If &pound;372 represent the value of the means of production
+consumed in the spinning process, and new value to the amount of &pound;128
+has been created, the yarn has a value of &pound;500, which is expressed
+in its price of the same amount. Suppose further that this price is realised
+by the sale C ; M. What is it that makes of this simple act of all commodity
+circulation at the same time a capital-function? No change that takes place
+inside of it, neither in the use-character of the commodity ; for it passes
+into the hands of the buyer as an object of use ; nor in its value, for
+this value has not experienced any change of magnitude, but only of form.
+It first existed in the form of yarn, while now it exists in the form of
+money. Thus a substantial distinction is evident between the first stage
+M ; C and the last stage C ; M. There the advanced money functions as money-capital, because it is transformed by means of the circulation into commodities
+of a specific use-value. Here the commodities can serve as capital only
+to the extent that they bring this character with them in ready shape from
+the process of production before their circulation begins. During the spinning
+process, the spinners create yarn value to the amount of &pound;128. Of
+this sum, say &pound;50 represent to the capitalist merely an equivalent
+for his outlay for labour-power, while &pound;78 ; when the degree of
+exploitation of labour-power is 156 per cent ; form surplus-value. The
+value of the 10,000 lbs. of yarn therefore embodies first the value of
+the consumed productive capital P, the constant part of which amounts to
+
+&pound;372 and the variable to &pound;50, their sum being &pound;422, equal
+to 8,440 lbs. of yarn. Now the value of the productive capital P is equal
+to C, the value of its constituent elements, which in the stage M ; C confronted
+the capitalist as commodities in the hands of their sellers.
+
+In the second place, however, the value of the yarn contains a
+surplus-value of &pound;78, equal to 1,560 lbs. of yarn. C as an expression
+of the value of the 10,000 lbs. of yarn is therefore equal to C plus DC,
+or C plus an increment of C (equal to &pound;78), which we shall call c,
+since it exists in the same commodity-form as now the original value C.
+The value of the 10,000 lbs. of yarn, equal to &pound;500, is therefore
+represented by C + c = C'. What turns C, the expression of the value of
+10,000 lbs. of yarn, into C' is not the absolute magnitude of its value
+(&pound;500), for that is determined, as in the case of any other C standing
+for the expression of the value of some other sum of commodities, by the
+quantity of labour embodied in it. It is its relative value-magnitude,
+its value-magnitude as compared with that of capital P consumed in its
+production. This value is contained in it plus the surplus-value supplied
+by the productive capital. Its value is greater, exceeds that of the capital-value
+by this surplus-value c. The 10,000 lbs. of yarn are the bearers of the
+capital-value expanded, enriched by this surplus-value, and they are so
+by virtue of being the product of the capitalist process of production.
+C' expresses a value-relation, the relation of the value of the commodities
+produced to that of the capital spent on their production, in other words,
+expresses the fact that its value is composed of capital-value and surplus-value.
+The 10,000 lbs. of yarn represent commodity capital, C', only because they
+are a converted form of the productive capital P, hence in a connection
+which exists originally only in the circuit of this individual capital,
+or only for the capitalist who produced the yarn with the help of his capital.
+It is, so to say, only an internal, not an external relation that turns the 10,000 lbs. of yarn in their capacity of vehicles of value into a commodity-capital. They exhibit their capitalist birthmark not in the absolute magnitude of their value but in its relative magnitude, in the magnitude of their value as compared with that possessed by the productive capital embodied in them before it was transformed into commodities. If,
+then, these 10,000 lbs. of yarn are sold at their value of &pound;500,
+this act of circulation, considered by itself, is identical with C ; M,
+a mere transformation of an unchanging value from the form of a commodity
+into that of money. But as a special stage in the circuit of an individual
+capital, the same act is a realisation of the capital-value embodied in
+the commodity to the amount of &pound;422 plus the surplus-value, likewise
+embodied in it, of &pound;78. That is to say it represents C' ; M', the
+transformation of the commodity-capital from its commodity-form into the
+money form. [4]
+
+The function of C' is now that of all commodities, viz.: to transform
+itself into money, to be sold, to go through the circulation stage C ; M.
+So long as the capital, now expanded, remains in the form of commodity-capital,
+lies immovable in the market, the process of production is at rest. The
+commodity-capital acts neither as a creator of products nor as a creator
+of value. A given capital-value will serve, in widely different degrees,
+as a creator of products and value, and the scale of reproduction will
+be extended or reduced commensurate with the particular speed with which
+that capital throws off its commodity-form and assumes that of money, or
+with the rapidity of the sale. It was shown in Book I that the degree of
+efficiency of any given capital is conditional on the potentialities of
+the productive process, which to a certain extent are independent of the
+magnitude of its own value. [English edition: Karl Marx, Capital,
+Vol. I, pp. 602-08. ; Ed.] Here it appears that the process of
+circulation sets in motion new forces independent of the capital's magnitude
+of value and determining its degree of efficiency, its expansion and contraction.
+
+The mass of commodities C', being the depository of the expanded
+capital, must furthermore pass in its entirety through the metamorphosis
+C' ; M'. The quantity sold is here a main determinant. The individual commodity
+figures only as an integral part of the total mass. The &pound;500 worth
+of value exists in the 10,000 lbs. of yarn. If the capitalist succeeds
+in selling only 7,440 lbs. at their value of &pound;372, he has replaced
+only the value of his constant capital, the value of the expanded means
+of production. If he sells 8,440 lbs. he recovers only the value of the
+total capital advanced. He must sell more in order to realise some surplus-value,
+and he must sell the entire 10,000 lbs. in order to realise the surplus-value
+of &pound;78 (1,560 lbs. of yarn). In &pound;500 in money he receives merely
+an equivalent for the commodity sold. His transaction within the circulation
+is simply C ; M. If he had paid his labourers &pound;64 in wages instead
+of &pound;50 his surplus-value would only be &pound;64 instead of &pound;78,
+and the degree of exploitation would have been only 100 per cent instead
+of 156. But the value of the yarn would not change; only the relation between
+its component parts would be different. The circulation act C ; M would
+still represent the sale of 10,000 lbs. of yarn for &pound;500, their value.
+
+C' is equal to C + c (or &pound;422 at &pound;78). C equals the
+value of P, the productive capital, and this equals the value of M, the
+money advanced in M ; C, the purchase of the elements of production, amounting
+to &pound;422 in our example. If the mass of commodities is sold at its
+value, then C equals &pound;422 and c equals &pound;78, the value of the
+surplus-product of 1,560 lbs. of yarn. If we call c, expressed in money,
+m, then C' ; M' = (C + c) - (M + m), and the circuit M ; C ... P ... C' ; M', 
+in its expanded form, is therefore represented by 
+M ; C<LMP ... P ... (C + c) - (M + m).
+
+In the first stage the capitalist takes articles of consumption
+out of the commodity-market proper and the labour-market. In the third
+stage he throws commodities back, but only into one market, the commodity-market
+proper. However the fact that he extracts from the market, by means of
+his commodities, a greater value than he threw upon it originally is due
+only to the circumstance that he throws more commodity-value back upon
+it than he first drew out of it. He threw value M upon it and drew out
+of it the equivalent C; he throws C + c back upon it, and draws out of
+it the equivalent M + m.
+
+M was in our example equal to the value of 8,440 lbs. of yarn.
+But he throws 10,000 lbs. of yarn on the market, consequently he returns
+a greater value than he took from it. On the other hand he threw this increased
+value on the market only because through the exploitation of labour-power
+in the process of production he had created surplus-value (as an aliquot
+part of the product expressed in surplus-product). It is only by virtue
+of being the product of this process that the mass of commodities becomes
+commodity-capital, the bearer of the expanded capital-value. By performing
+C' ; M' the advanced capital-value as well as the surplus-value are realised.
+The realisation of both takes place simultaneously in a series of sales
+or in a lump sale of the entire mass of commodities which is expressed
+by C' ; M'. But the same circulation act C' ; M' is different for capital-value
+and surplus-value, as it expresses for each of them a different stage of
+their circulation, a different section of the series of metamorphoses through
+which they must pass in the sphere of circulation. The surplus-value c
+came into the world only during the process of production. It appeared
+for the first time in the commodity-market, in the form of commodities.
+This is its first form of circulation, hence the act c ; m is its first
+circulation act, or its first metamorphosis, which remains to be supplemented
+by the antithetical act of circulation, or the reverse metamorphosis, m ; c.
+[5]
+
+It is different with the circulation which the capital-value C
+performs in the same circulation act C' ; M', and which constitutes for
+the circulation act C ; M, in which C is equal to P, equal to the M originally
+advanced. Capital-value has opened its first circulation act in the form
+of M, money-capital, and returns through the act C ; M to the same form.
+It has therefore passed through the two antithetical stages of circulation,
+first M ; C, second C ; M, and finds itself once more in the form in which
+it can begin its circular movement anew. What for surplus-value constitutes
+the first transformation of the commodity-form into that of money, constitutes
+for capital-value in return, or retransformation, into its original money-form.
+
+By means of M ; C<LMP money capital is transformed into an equivalent mass of commodities, L and MP. These commodities no longer perform the function of commodities, of articles for sale. Their value is now in the hands of the capitalist who bought them; they represent
+the value of his productive capital P. And in the function of P, productive
+consumption, they are transformed into a kind of commodity differing materially
+from the means of production, into yarn, in which their value is not only
+preserved but increased, from &pound;422 to &pound;500. By means of this
+real metamorphosis, the commodities taken from the market in the first
+stage, M ; C, are replaced by commodities of different substance and value,
+which now must perform the function of commodities, must be transformed
+into money and sold. The process of production therefore appears to be
+only an interruption of the process of circulation of capital-value, of
+which up to that point only the first phase, M ; C, has been passed through.
+It passes through the second and concluding phase, C ; M, after C has been
+altered in substance and value. But so far as capital-value, considered
+by itself, is concerned, it has merely suffered an alteration of its use-form
+in the process of production. It existed in the form of &pound;422 worth
+of L and MP, while now it exists in the form of &pound;422 worth of, or
+8,440 lbs. of yarn. If we therefore consider merely the two circulation
+phases of capital-value, apart from its surplus-value, we find that it
+passes through 1) M ; C and 2) C ; M, in which the second C has a different
+use-form but the same value as the first C. Hence it passes through M ; C ; M, a form of circulation which, because the commodity here changes place twice and in the opposite direction ; transformation from money into commodities and from commodities into money ; necessitates the return of the value advanced in the form of money to its money-form ; its reconversion into money.
+
+The same circulation act C' ; M' that constitutes the second and
+concluding metamorphosis, a return to the money-form, for the capital-value
+advanced in money, represents for the surplus-value ; borne along by the
+commodity-capital and simultaneously realised by its change into the money-form
+; its first metamorphosis, its transformation from the commodity- to the
+money-form, C ; M, its first circulation phase.
+
+We have, then, two kinds of observations to make here. First,
+the ultimate reconversion of capital-value into its original money-form
+is a function of commodity-capital. Secondly, this function includes the
+first transformation of surplus-value from its original commodity-form
+to its money-form. The money-form, then, plays a double role here. On the
+one hand it is the form to which a value originally advanced in money returns,
+hence a return to the form of value which opened the process. On the other
+hand it is the first converted form of a value which originally enters
+the circulation in commodity-form. If the commodities composing the commodity-capital
+are sold at their values, as we assume, then C plus c is transformed into
+M plus m, its equivalent. The realised commodity-capital now exists in
+the hands of the capitalist in this form: M plus m (&pound;422 plus &pound;78 = &pound;500). Capital-value and surplus-value are now present in the form of money, the
+form of the universal equivalent.
+
+At the conclusion of the process capital-value has therefore resumed
+the form in which it entered it, and as money-capital can now open and
+go through a new process. Just because the initial and final forms of this
+process are those of money-capital, M, we call this form of the circulation
+process the circuit of money-capital. It is not the form but merely the
+magnitude of the advanced value that is changed at the close.
+
+M plus m is nothing but a sum of money of a definite magnitude,
+in this case &pound;500. But as a result of the circulation of capital,
+as realised commodity-capital, this sum of money contains the capital-value
+and the surplus-value. And these values are now no longer inseparably united
+as they were in the yarn; they now lie side by side. Their sale has given
+both of them an independent money-form; 211/250 of this money represent
+the capital-value of &pound;422 and 39/250 constitute the surplus-value
+of &pound;78. This separation, effected by the realisation of the commodity-capital,
+has not only the formal content to which we shall refer presently. It becomes
+important in the process of the reproduction of capital, depending on whether
+m is entirely or partially or not at all lumped together with M, i.e.,
+depending on whether or not it continues to function as a component part
+of the advanced capital-value. Both m and M may pass through quite different
+processes of circulation.
+
+In M' capital has returned to its original form M, to its money-form,
+a form however in which it is materialised as capital.
+
+There is in the first place a difference of quantity. It was M,
+&pound;422. It is now M', &pound;500, and this difference is expressed
+by M ... M', the quantitatively different extremes of the circuit, whose
+movement is indicated only by the three dots. M' > M, and M' - M = s, the
+surplus-value. But as a result of this circular movement M ... M' it is
+only M' which exists now; it is the product in which its process of formation
+has become extinct. M' now exists by itself, independently of the movement
+which brought it into existence. That movement is gone; M' is there in
+its place.
+
+But M', being M plus m, &pound;500, composed of &pound;422 advanced
+capital plus an increment of the same amounting to &pound;78, represents
+at the same time a qualitative relation, although this qualitative relation
+itself exists only as a relation between the parts of one and the same
+sum, hence as a quantitative relation. M, the advanced capital, which is
+now once more present in its original form (&pound;422), exists as realised
+capital. It has not only preserved itself but also realised itself as capital
+by being distinguished as such from m (&pound;78), to which it stands in
+the same relation as to an increase of its own, to a fruit of
+its own, to an increment to which it has given birth itself. It has
+been realised as capital because it has been realised as a value which
+has created value. M' exists as a capital-relation. M no longer appears
+as mere money, but expressly plays the part of money-capital, expressed
+as a self-expanded value, hence possessing the property of self-expansion,
+of hatching a higher value than it itself has. M became capital by virtue
+of its relation to the other part of M', which it has brought about, which
+has been effected by it as the cause, which is the consequence of it as
+the ground. Thus M' appears as the sum of values differentiated within
+itself, functionally (conceptually) distinguished within itself, expressing
+the capital-relation.
+
+But this is expressed only as a result, without the intervention
+of the process of which it is the result.
+
+Parts of value as such are not qualitatively different from one
+another, except in so far as they appear as values of different articles,
+of concrete things, hence in various use-forms and therefore as values
+of different commodities ; a difference which does not originate with
+them themselves as mere parts of value. In money all differences between
+commodities are extinguished, because it is the equivalent form common
+to all of them. A sum of money in the amount of &pound;500 consists solely
+of uniform elements of &pound;1 each. Since the intermediate links of its
+origin are obliterated in the simple existence of this sum of money and
+every trace has been lost of the specific difference between the different
+component parts of capital in the process of production, there exists now
+only the distinction between the conceptual form of a principal equal to &pound;422, the capital advanced, and an excess value of &pound;78. Let
+M' be equal to, say, &pound;110, of which &pound;100 may be equal to M,
+the principal, and 10 equal to s, the surplus-value. There is an absolute
+homogeneity, an absence of conceptual distinctions, between the two constituent
+parts of the sum of &pound;110. Any &pound;10 of this sum always constitute
+1/11 of the total sum of &pound;1/10, whether they are 1/10 of the advanced
+principal of &pound;100 or the excess of &pound;10 above it. Principal
+and excess sum, capital and surplus-sum, may therefore be expressed as
+fractional parts of the total sum. In our illustration, 10/11 form the
+principal, or the capital, and 1/11 the surplus sum. In its money-expression
+realised capital appears therefore at the end of its process as an irrational
+expression of the capital-relation.
+
+True, this applies also to C' (C plus c). But there is this difference:
+that C', of which C and c are only proportional value-parts of the same
+homogeneous mass of commodities, indicates its origin P, whose immediate
+product it is, while in M', a form derived directly from circulation, the
+direct relation to P is obliterated.
+
+The irrational distinction between the principal and the incremental
+sum, which is contained in M', so far as that expresses the result of the
+movement M ... M', disappears as soon as it once more functions actively
+as money-capital and is therefore not fixed as a money-expression of expanded
+industrial capital. The circuit of capital can never begin with M' (although
+M' now performs the function of M). It can begin only with M, that is to
+say it can never begin as an expression of the capital-relation, but only
+as a form of advance of capital-value. As soon as the &pound;500 are once
+more advanced as capital, in order again to produce s, they constitute
+a point of departure, not one of return. Instead of a capital of &pound;422,
+a capital of &pound;500 is now advanced. It is more money than before,
+more capital-value, but the relation between its two constituent parts
+has disappeared. In fact a sum of &pound;500 instead of the &pound;422
+might originally have served as capital.
+
+It is not an active function of money-capital to appear as M';
+to appear as M' is rather a function of C'. Even in the simple circulation
+of commodities, first in C1 ; M, secondly in M ; C2, money M does not figure actively until the second act, M ; C2. Its appearance in the form of M is only the result of the first act, by virtue of which it only then appears as a converted form of C1. True, the capital-relation contained in M', the relation of one of its
+parts as the capital-value to the other as its value increment, acquires
+functional importance in so far as, with the constantly repeated circuit
+M ... M', M' splits into two circulations, one of them a circulation of
+capital, the other of surplus-value. Consequently these two parts perform
+not only quantitatively but also qualitatively different functions, M others
+than m. But considered by itself, the form M ... M' does not include what
+the capitalist consumes, but explicitly only the self-expansion and accumulation,
+so far as the latter expresses itself above all as a periodical augmentation
+of ever renewed advances of money-capital.
+
+Although M', equal to M plus m, is the irrational form of capital,
+it is at the same time only money-capital in its realised form, in the
+form of money which has generated money. But this is different from the
+function of money-capital in the first stage, 
+M ; C<LMP.
+In the first stage, M circulates as money. It assumes the functions of
+money-capital because only in its money state can it perform a money-function,
+can it transform itself into the elements of P, into L and MP, which stand
+opposed to it as commodities. In this circulation act it functions only
+as money. But as this act is the first stage of capital-value in process,
+it is simultaneously a function of money-capital, by virtue of the specific
+use-form of the commodities L and MP which are bought. M' on the other
+hand, composed of M, the capital-value, and m, the surplus-value begotten
+of M, stands for self-expanded capital-value ; the purpose and the outcome,
+the function of the total circuit of capital. The fact that it expresses
+this outcome in the form of money, as realised money-capital, does not
+derive from its being the money-form of capital, money-capital,
+but on the contrary from its being money-capital, capital in the
+form of money, from capital having opened the process in this form, from
+its having been advanced in the money-form. Its reconversion into the money-form
+is, as we have seen, a function of commodity-capital C', not of money-capital.
+As for the difference between M and M', it (m) is simply the money-form
+of c, the increment of C. M' is composed of M plus m only because C' was
+composed of C plus c. In C' therefore this difference and the relation
+of the capital-value to the surplus-value generated by it is present and
+expressed before both of them are transformed into M', into a sum of money
+in which both parts of the value come face to face with each other independently
+and may, therefore, be employed in separate and distinct functions.
+
+M' is only the result of the realisation of C'. Both M' and C'
+are merely different forms of self-expanded capital-value, one of them
+the commodity-form, the other the money-form. Both of them have this in
+common: that they are self-expanded capital-value. Both of them are materialised
+capital, because capital-value as such exists here together with the surplus-value,
+the fruit obtained through it and differing from it, although this relation
+is expressed only in the irrational form of the relation between two parts
+of a sum of money or of a commodity-value. But as expressions of capital
+in relation and contradistinction to the surplus-value produced by it,
+hence as expressions of self-expanded value, M' and C' are the same and
+express the same thing, only in different forms. They do not differ as
+money-capital and commodity-capital but as money and commodities. In so
+far as they represent self-expanded value, capital acting as capital, they
+only express the result of the functioning of productive capital, the only
+function in which capital-value generates value. What they have in common
+is that both of them, money-capital as well as commodity-capital, are modes
+of existence of capital. The one is capital in money-form, the other in
+commodity-form. The specific functions that distinguish them cannot therefore
+be anything else but differences between the functions of money and of
+commodities. Commodity-capital, the direct product of the capitalist process
+of production, is reminiscent of its origin and is therefore more rational
+and less incomprehensible in form than money-capital, in which every trace
+of this process has vanished, as in general all special use-forms of commodities
+disappear in money. It is therefore only when M' itself functions as commodity-capital,
+when it is the direct product of a productive process instead of being
+the converted form of this product, that it loses its bizarre form, that
+is to say, in the production of the money material itself. In the production
+of gold for instance the formula would be M ; C<LMP ... P ... M' (M plus m), where M' would figure as a commodity product, because P furnishes more gold than was advanced for the elements of production of the gold in the first M, the money-capital. In this case the irrational
+nature of the expression M ... M' (M plus m) disappears. Here a part of
+a sum of money appears as the mother of another part of the same sum of money.

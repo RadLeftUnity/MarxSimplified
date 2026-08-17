@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Navbar } from './components/Navbar';
 import { Library } from './pages/Library';
 import { BookSummary } from './pages/BookSummary';
@@ -8,18 +8,47 @@ import { SimplifiedVersion } from './pages/SimplifiedVersion';
 import type { Book } from './components/BookCard';
 import { Glossary } from './pages/Glossary';
 import { Topics } from './pages/Topics';
+import { Search } from './pages/Search';
+import { Authors } from './pages/Authors';
 import { AccessibilityPanel, DEFAULT_A11Y_SETTINGS } from './components/AccessibilityPanel';
 import type { AccessibilitySettings, ReaderFontSize, Theme } from './components/AccessibilityPanel';
 import { Loader2, AlertTriangle } from 'lucide-react';
-import { fetchCachedJSON, prefetchBookSummaries, fetchCachedTopicIndex } from './utils/dataCache';
+import { fetchCachedJSON, prefetchBookSummaries, fetchCachedTopicIndex, fetchSearchIndex } from './utils/dataCache';
 
 export default function App() {
-  const [page, setPage] = useState<'library' | 'summary' | 'reading' | 'glossary' | 'simplified' | 'topics'>('library');
+  const [page, setPage] = useState<'library' | 'summary' | 'reading' | 'glossary' | 'simplified' | 'topics' | 'search' | 'authors'>('library');
   const [books, setBooks] = useState<Book[]>([]);
   const [selectedBookId, setSelectedBookId] = useState<string | null>(null);
   const [selectedBookDetail, setSelectedBookDetail] = useState<BookDetail | null>(null);
   const [selectedChapterId, setSelectedChapterId] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [previousView, setPreviousView] = useState<{
+    page: 'library' | 'summary' | 'reading' | 'simplified' | 'topics' | 'search' | 'authors';
+    bookId?: string | null;
+    bookTitle?: string;
+    chapterId?: string | null;
+  } | null>(null);
+  const currentViewRef = useRef<{
+    page: 'library' | 'summary' | 'reading' | 'simplified' | 'topics' | 'search' | 'authors';
+    bookId: string | null;
+    bookTitle?: string;
+    chapterId: string | null;
+  }>({
+    page: 'library',
+    bookId: null,
+    chapterId: null,
+  });
+
+  useEffect(() => {
+    if (page !== 'glossary') {
+      currentViewRef.current = {
+        page,
+        bookId: selectedBookId,
+        bookTitle: selectedBookDetail?.title,
+        chapterId: selectedChapterId,
+      };
+    }
+  }, [page, selectedBookId, selectedBookDetail, selectedChapterId]);
   
   const [loading, setLoading] = useState<boolean>(true);
   const [bookLoading, setBookLoading] = useState<boolean>(false);
@@ -90,9 +119,10 @@ export default function App() {
         const data = await fetchCachedJSON<{ books: Book[] }>('/data/manifest.json');
         setBooks(data.books);
         
-        // Background pre-fetch all book summaries and topic index in the catalog
+        // Background pre-fetch all book summaries, topic index, and search index in the catalog
         prefetchBookSummaries(data.books);
         fetchCachedTopicIndex().catch(() => {});
+        fetchSearchIndex().catch(() => {});
 
         // Load reading progress
         const stored = localStorage.getItem('marx_simplified_progress');
@@ -164,9 +194,14 @@ export default function App() {
     
     const handleNavToGlossary = (e: Event) => {
       const customEvent = e as CustomEvent;
+      const current = currentViewRef.current;
+      setPreviousView({
+        page: current.page,
+        bookId: current.bookId,
+        bookTitle: current.bookTitle,
+        chapterId: current.chapterId,
+      });
       setPage('glossary');
-      setSelectedBookId(null);
-      setSelectedChapterId(null);
       if (customEvent.detail?.slug) {
         window.location.hash = `term-${customEvent.detail.slug}`;
       }
@@ -329,9 +364,31 @@ export default function App() {
   };
 
   const handleGoToGlossary = () => {
+    const current = currentViewRef.current;
+    setPreviousView({
+      page: current.page,
+      bookId: current.bookId,
+      bookTitle: current.bookTitle,
+      chapterId: current.chapterId,
+    });
     setPage('glossary');
-    setSelectedBookId(null);
-    setSelectedChapterId(null);
+  };
+
+  const handleReturnFromGlossary = () => {
+    if (!previousView) {
+      setPage('library');
+      setSelectedBookId(null);
+      setSelectedChapterId(null);
+      return;
+    }
+    if (previousView.bookId) {
+      setSelectedBookId(previousView.bookId);
+    }
+    if (previousView.chapterId) {
+      setSelectedChapterId(previousView.chapterId);
+    }
+    setPage(previousView.page);
+    setPreviousView(null);
   };
 
   const handleGoToTopics = (topic?: string) => {
@@ -359,6 +416,46 @@ export default function App() {
     }
   };
 
+  const handleGoToSearch = () => {
+    setPage('search');
+  };
+
+  const handleGoToAuthors = () => {
+    setPage('authors');
+  };
+
+  const handleSelectMatchFromSearch = (
+    bookId: string,
+    chapterId: string,
+    annotationId?: string,
+    searchText?: string
+  ) => {
+    setSelectedBookId(bookId);
+    setSelectedChapterId(chapterId);
+    setPage('reading');
+
+    const params = new URLSearchParams(window.location.search);
+    params.set('book', bookId);
+    params.set('chapter', chapterId);
+    if (annotationId) {
+      params.set('ann', annotationId);
+    } else {
+      params.delete('ann');
+    }
+    if (searchText) {
+      params.set('q', searchText);
+    } else {
+      params.delete('q');
+    }
+    params.delete('view');
+    window.history.replaceState(null, '', `?${params.toString()}`);
+
+    if (progressMap[bookId] !== 'completed') {
+      const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [bookId]: 'reading' };
+      saveProgress(updated);
+    }
+  };
+
   const updateA11ySettings = (newPartial: Partial<AccessibilitySettings>) => {
     setA11ySettings((prev) => ({ ...prev, ...newPartial }));
   };
@@ -370,6 +467,8 @@ export default function App() {
         currentPage={page === 'simplified' ? 'summary' : page} 
         onGoToGlossary={handleGoToGlossary}
         onGoToTopics={() => handleGoToTopics()}
+        onGoToSearch={handleGoToSearch}
+        onGoToAuthors={handleGoToAuthors}
         theme={a11ySettings.theme}
         onThemeChange={(newTheme) => updateA11ySettings({ theme: newTheme })}
         onOpenA11y={() => setA11yOpen(true)}
@@ -431,13 +530,44 @@ export default function App() {
           )}
 
           {page === 'glossary' && (
-            <Glossary />
+            <Glossary 
+              onBack={previousView ? handleReturnFromGlossary : undefined}
+              previousViewLabel={
+                previousView ? (
+                  previousView.page === 'reading' || previousView.page === 'simplified' ? (
+                    `Back to Reading${previousView.bookTitle ? `: ${previousView.bookTitle}` : ''}`
+                  ) : previousView.page === 'summary' ? (
+                    `Back to Summary${previousView.bookTitle ? `: ${previousView.bookTitle}` : ''}`
+                  ) : (
+                    `Back to ${previousView.page.charAt(0).toUpperCase() + previousView.page.slice(1)}`
+                  )
+                ) : undefined
+              }
+            />
           )}
 
           {page === 'topics' && (
             <Topics
               initialTopic={selectedTopic}
               onSelectAnnotationInReader={handleSelectAnnotationFromTopics}
+            />
+          )}
+
+          {page === 'search' && (
+            <Search
+              books={books}
+              onSelectMatch={handleSelectMatchFromSearch}
+              onBack={handleGoHome}
+            />
+          )}
+
+          {page === 'authors' && (
+            <Authors
+              books={books}
+              onSelectBook={handleSelectBook}
+              onStartReading={handleStartReading}
+              onBack={handleGoHome}
+              progressMap={progressMap}
             />
           )}
           

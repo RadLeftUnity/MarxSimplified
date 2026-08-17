@@ -2,6 +2,7 @@ import React, { useMemo, useState, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { highlightJargon } from '../data/glossary';
 import { fuzzyFindInText } from '../utils/fuzzyMatch';
+import { parseFormattedBlocks, type ParsedBlock } from './FormattedText';
 
 export interface Annotation {
   id: string;
@@ -17,12 +18,97 @@ interface ChapterReaderProps {
   annotations: Annotation[];
   activeAnnotationId: string | null;
   onSelectAnnotation: (id: string | null) => void;
+  searchTerm?: string;
 }
 
 interface Segment {
   type: 'text' | 'highlight';
   text: string;
   annotationId?: string;
+}
+
+function renderSearchAndJargon(str: string, searchQuery?: string) {
+  if (!searchQuery || !searchQuery.trim()) {
+    return highlightJargon(str);
+  }
+  const q = searchQuery.trim();
+  const parts = str.split(new RegExp(`(${q.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')})`, 'gi'));
+  return parts.map((part, i) =>
+    part.toLowerCase() === q.toLowerCase() ? (
+      <mark key={i} className="search-highlight">
+        {part}
+      </mark>
+    ) : (
+      <React.Fragment key={i}>{highlightJargon(part)}</React.Fragment>
+    )
+  );
+}
+
+function parseSegmentsForText(rawText: string, annotations: Annotation[]): Segment[] {
+  if (!rawText) return [];
+  const matches: { start: number; end: number; annotation: Annotation }[] = [];
+
+  for (let idx = 0; idx < annotations.length; idx++) {
+    const ann = annotations[idx];
+    const result = fuzzyFindInText(rawText, ann.targetText);
+    if (result) {
+      const safeAnn = {
+        ...ann,
+        id: ann.id || `ann-${idx + 1}`,
+        summary: ann.summary || (ann as any).explanation || '',
+      };
+      matches.push({
+        start: result.start,
+        end: result.end,
+        annotation: safeAnn,
+      });
+    }
+  }
+
+  if (matches.length === 0) {
+    return [{ type: 'text', text: rawText }];
+  }
+
+  matches.sort((a, b) => {
+    if (a.start !== b.start) return a.start - b.start;
+    return (b.end - b.start) - (a.end - a.start);
+  });
+
+  const nonOverlappingMatches: typeof matches = [];
+  let lastEnd = 0;
+  for (const match of matches) {
+    if (match.start >= lastEnd) {
+      nonOverlappingMatches.push(match);
+      lastEnd = match.end;
+    }
+  }
+
+  const segments: Segment[] = [];
+  let currentPos = 0;
+
+  for (const match of nonOverlappingMatches) {
+    if (match.start > currentPos) {
+      segments.push({
+        type: 'text',
+        text: rawText.slice(currentPos, match.start),
+      });
+    }
+    segments.push({
+      type: 'highlight',
+      text: rawText.slice(match.start, match.end),
+      annotationId: match.annotation.id,
+    });
+    currentPos = match.end;
+  }
+
+  if (currentPos < rawText.length) {
+    segments.push({
+      type: 'text',
+      text: rawText.slice(currentPos),
+    });
+  }
+
+  return segments;
 }
 
 const AnnotationHighlightWord: React.FC<{
@@ -98,108 +184,133 @@ export const ChapterReader: React.FC<ChapterReaderProps> = ({
   annotations,
   activeAnnotationId,
   onSelectAnnotation,
+  searchTerm,
 }) => {
-  // Memoize paragraph parsing so regex & fuzzy matching only re-run when text or annotations change
-  const parsedParagraphs = useMemo(() => {
-    const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  const urlSearchTerm = new URLSearchParams(window.location.search).get('q') || undefined;
+  const activeSearchTerm = searchTerm || urlSearchTerm;
 
-    return paragraphs.map((paraText) => {
-      const matches: { start: number; end: number; annotation: Annotation }[] = [];
+  const parsedBlocks = useMemo(() => {
+    return parseFormattedBlocks(text);
+  }, [text]);
 
-      for (let idx = 0; idx < annotations.length; idx++) {
-        const ann = annotations[idx];
-        const result = fuzzyFindInText(paraText, ann.targetText);
-        if (result) {
-          const safeAnn = {
-            ...ann,
-            id: ann.id || `ann-${idx + 1}`,
-            summary: ann.summary || (ann as any).explanation || '',
-          };
-          matches.push({
-            start: result.start,
-            end: result.end,
-            annotation: safeAnn,
-          });
+  // Auto scroll to search highlight if present
+  React.useEffect(() => {
+    if (activeSearchTerm) {
+      const timer = setTimeout(() => {
+        const el = document.querySelector('mark.search-highlight');
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
+      }, 200);
+      return () => clearTimeout(timer);
+    }
+  }, [activeSearchTerm, text]);
+
+  const renderSegments = (segments: Segment[], isTitle: boolean = false) => {
+    const content = segments.map((seg, segIdx) => {
+      if (seg.type === 'highlight' && seg.annotationId) {
+        const isActive = activeAnnotationId === seg.annotationId;
+        const ann = annotations.find((a) => (a.id || '') === seg.annotationId);
+        const summaryText = ann ? (ann.summary || (ann as any).explanation || '') : '';
+        return (
+          <AnnotationHighlightWord
+            key={segIdx}
+            segmentText={seg.text}
+            annotationId={seg.annotationId}
+            summaryText={summaryText}
+            isActive={isActive}
+            onSelectAnnotation={onSelectAnnotation}
+          />
+        );
       }
-
-      if (matches.length === 0) {
-        return [{ type: 'text' as const, text: paraText }];
-      }
-
-      matches.sort((a, b) => {
-        if (a.start !== b.start) {
-          return a.start - b.start;
-        }
-        return (b.end - b.start) - (a.end - a.start);
-      });
-
-      const nonOverlappingMatches: typeof matches = [];
-      let lastEnd = 0;
-      for (const match of matches) {
-        if (match.start >= lastEnd) {
-          nonOverlappingMatches.push(match);
-          lastEnd = match.end;
-        }
-      }
-
-      const segments: Segment[] = [];
-      let currentPos = 0;
-
-      for (const match of nonOverlappingMatches) {
-        if (match.start > currentPos) {
-          segments.push({
-            type: 'text',
-            text: paraText.slice(currentPos, match.start),
-          });
-        }
-        segments.push({
-          type: 'highlight',
-          text: paraText.slice(match.start, match.end),
-          annotationId: match.annotation.id,
-        });
-        currentPos = match.end;
-      }
-
-      if (currentPos < paraText.length) {
-        segments.push({
-          type: 'text',
-          text: paraText.slice(currentPos),
-        });
-      }
-
-      return segments;
+      return <span key={segIdx}>{renderSearchAndJargon(seg.text, activeSearchTerm)}</span>;
     });
-  }, [text, annotations]);
+
+    if (isTitle) {
+      return <strong className="formatted-item-title">{content}</strong>;
+    }
+    return content;
+  };
+
+  const renderItemWithHighlights = (itemText: string) => {
+    const titleColonMatch = itemText.match(/^([^:]+:\s*)(.*)$/);
+    if (titleColonMatch) {
+      const titlePart = titleColonMatch[1];
+      const restPart = titleColonMatch[2];
+      const titleSegments = parseSegmentsForText(titlePart, annotations);
+      const restSegments = parseSegmentsForText(restPart, annotations);
+
+      return (
+        <>
+          {renderSegments(titleSegments, true)}
+          {renderSegments(restSegments, false)}
+        </>
+      );
+    }
+
+    const segments = parseSegmentsForText(itemText, annotations);
+    return renderSegments(segments, false);
+  };
 
   return (
     <div className="chapter-reader-container">
       <h2 className="chapter-title">{title}</h2>
       
       <article className="reader-article">
-        {parsedParagraphs.map((segments, paraIdx) => (
-          <p key={paraIdx} className="reader-paragraph">
-            {segments.map((seg, segIdx) => {
-              if (seg.type === 'highlight' && seg.annotationId) {
-                const isActive = activeAnnotationId === seg.annotationId;
-                const ann = annotations.find((a) => (a.id || '') === seg.annotationId);
-                const summaryText = ann ? (ann.summary || (ann as any).explanation || '') : '';
-                return (
-                  <AnnotationHighlightWord
-                    key={segIdx}
-                    segmentText={seg.text}
-                    annotationId={seg.annotationId}
-                    summaryText={summaryText}
-                    isActive={isActive}
-                    onSelectAnnotation={onSelectAnnotation}
-                  />
-                );
-              }
-              return <span key={segIdx}>{highlightJargon(seg.text)}</span>;
-            })}
-          </p>
-        ))}
+        {parsedBlocks.map((block: ParsedBlock, idx: number) => {
+          if (block.type === 'ol') {
+            return (
+              <div key={idx} className="formatted-list-wrapper">
+                {block.intro && (
+                  <p className="reader-paragraph formatted-intro">
+                    {renderSegments(parseSegmentsForText(block.intro, annotations))}
+                  </p>
+                )}
+                <ol className="formatted-list formatted-ol">
+                  {block.items?.map((item, itemIdx) => (
+                    <li key={itemIdx} className="formatted-list-item formatted-ol-item">
+                      <span className="formatted-ol-badge">{item.num || itemIdx + 1}</span>
+                      <div className="formatted-item-content">
+                        {renderItemWithHighlights(item.text)}
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            );
+          }
+
+          if (block.type === 'ul') {
+            return (
+              <div key={idx} className="formatted-list-wrapper">
+                {block.intro && (
+                  <p className="reader-paragraph formatted-intro">
+                    {renderSegments(parseSegmentsForText(block.intro, annotations))}
+                  </p>
+                )}
+                <ul className="formatted-list formatted-ul">
+                  {block.items?.map((item, itemIdx) => (
+                    <li key={itemIdx} className="formatted-list-item formatted-ul-item">
+                      <span className="formatted-ul-bullet">✦</span>
+                      <div className="formatted-item-content">
+                        {renderItemWithHighlights(item.text)}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          }
+
+          const paraSegments = parseSegmentsForText(block.paragraphText || '', annotations);
+          return (
+            <p key={idx} className="reader-paragraph">
+              {renderSegments(paraSegments)}
+            </p>
+          );
+        })}
       </article>
     </div>
   );
 };
+

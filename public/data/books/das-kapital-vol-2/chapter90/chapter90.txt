@@ -1,0 +1,228 @@
+1. First Illustration
+
+ A. Scheme of Simple Reproduction
+
+ I. 4,000c + 1,000v + 1,000s
+ = 6,000
+
+ II. 2,000c + 500v + 500s
+
+ =3,000
+
+ = 9,000 Total
+
+B. Initial Scheme for Reproduction
+on an Extended Scale
+
+I. 4,000c + 1,000v + 1,000s
+= 6,000
+
+II. 1,500c + 750v + 750s 
+= 3,000
+
+= 9,000 Total
+
+Assuming that in scheme B one half of surplus-value I, i.e., 500, is
+accumulated, we first receive (1,000v + 500s) I, or 1,500 I(v + s) to be replaced by 1,500 IIc. There then remains in I:4,000c and 500s, the latter having to be accumulated. The replacement of (1,000v + 500s) I by 1,500 IIc is a process of simple reproduction, which has been examined previously.
+
+Let us now assume that 400 of the 500 Is are to be converted into
+constant capital, and 100 into variable capital. The exchange within I of
+the 400s, which are thus to be capitalised, has already been discussed.
+They can therefore be annexed to Ic, without more ado and in that case
+we get for I:
+
+4,400c + 1,000v + 100s (the latter to be converted into 100v).
+
+II in turn buys from I for the purpose of accumulation the 100 Is
+(existing in means of production) which now form additional constant
+capital II, while the 100 in money which it pays for them are converted
+into the money-form of the additional variable capital of I. We then have
+for I a capital of 4,400c + 1,100v (the latter in money), equaling 5,500.
+
+II has now 1,600c for its constant capital. In order to put them to
+work, it must advance a further 50v in money for the purchase of new
+labour-power, so that its variable capital grows from 750 to 800. This
+expansion of the constant and variable capital of II by a total of 150 is
+supplied out of its surplus-value. Hence only 600s of the 750 IIs remain as a consumption-fund for capitalists II, whose annual product is now distributed as follows:
+
+II. 1,600c + 800v + 600s (consumption-fund), equal to 3,000.
+
+The 150s produced in articles of consumption, which have been
+converted here into (100c + 50v) II, go entirely in their bodily form for the consumption of the labourers, 100 being consumed by the labourers
+of I (100 Iv), and 50 by the labourers of II (50 IIv), as explained above. As a matter of fact in II, where its total product is prepared in a form
+suitable for accumulation, a part greater by 100 of the surplus-value in
+the form of necessary articles of consumption must be reproduced. If
+reproduction really starts on an extended scale, then the 100 of variable
+money-capital I flow back through the hands of its working-class to II,
+while II transfers 100s in commodity-supply to I and at the same time
+50 in commodity-supply to its own working-class.
+
+The arrangement changed for the purpose of accumulation is now as
+follows:
+
+ I. 4,400c + 1,100v + 500 consumption-fund
+ = 6,000
+
+II. 1,600c + 800v + 600 consumption-fund
+ = 3,000
+
+= 9,000 Total, as before
+
+Of these amounts, the following are capital:
+
+ I. 4,400c + 1,100v (money)
+= 5,500
+
+II. 1,600c + 800v (money)
+= 2,400 
+
+= 7,900
+
+while production started out with
+
+ I. 4,000c + 1,000v
+= 5,000
+
+II. 1,500c + 750v
+= 2,250 
+
+= 7,250
+
+Now, if actual accumulation takes place on this basis, that is to say,
+if production really goes on with this augmented capital, we obtain at
+the end of the following year:
+
+ I. 4,400c + 1,100v + 1,100s
+= 6,600
+
+II. 1,600c + 800v + 800v
+= 3,200 
+
+= 9,800
+
+Then let accumulation in I continue in the same proportion, so that
+550s are spent as revenue and 550s accumulated. In that case 1,100 Iv are first replaced by 1,100 IIc, and 550 Is must be realised in an equal amount of commodities of II, making a total of 1,650 I(v + s). But the constant capital II, which is to be replaced, is equal to only 1,600; hence the remaining 50 must be supplemented out of 800 IIs. Leaving aside the money aspect for the present, we have as a result of this
+transaction:
+
+I. 4,400c + 550s (to be capitalised); furthermore, realised in
+commodities IIc, the consumption-fund of the capitalists and labourers
+1,650(v + s).
+
+II. 1,650c (50 added from IIs as indicated above) + 800v + 750s (consumption-fund of the capitalists).
+
+But if the old ratio of v:c is maintained in II, then additional 25v must
+be laid out for 50c, and these are to be taken from the 750s. Then we have
+
+II. 1,650c + 825v + 725s.
+
+In I, 550s must be capitalised. If the former ratio is maintained, 440
+of this amount form constant capital and 110 variable capital. These
+110 might be taken out of the 725 IIs, i.e., articles of consumption to
+the value of 110 are consumed by labourers I instead of capitalists II,
+so that the latter are compelled to capitalise these 110s which they
+cannot consume. This leaves 615 IIs of the 725 IIs. But if II thus converts these 110 into additional constant capital, it requires an
+additional variable capital of 55. This again must be supplied by its
+surplus-value. Subtracting this amount from 615 IIs leaves 560 for the
+consumption of capitalists II, and we now obtain the following capital-value
+after accomplishing all actual and potential transfers:
+
+I. (4,400c + 440c) + (1,100v + 110v) = 4,840c + 1,210v = 6,050
+
+II. (1,600c + 50c + 110c) + (800v + 25v + 55v)
+
+= 1760c + 880v = 2,640/8,690
+
+If things are to proceed normally, accumulation in II must take place
+more rapidly than in I, because otherwise the portion I(v + s) which must
+be converted into commodities II will grow more rapidly than IIc, for
+which alone it can be exchanged.
+
+If reproduction is continued on this basis and conditions otherwise remain
+unchanged we obtain at the end of the succeeding year:
+
+ I. 4,840c + 1,210v + 1,210s
+= 7,260
+
+II. 1,760c + 880v + 880s
+= 3,520 
+
+= 10,780
+
+If the rate of division of the surplus-value remains unchanged, there is
+first to be expended as revenue by I: 1,210v and one half of s, or 605, a
+total of 1,815. This consumption-fund is again larger than IIc by 55.
+These 55 must be deducted from 880s, leaving 825. Furthermore, the
+conversion of 55 IIs into IIc implies another deduction from IIs for a corresponding variable capital of 27&frac12;, leaving for consumption 797&frac12;
+IIs.
+
+I has now to capitalise 605s. Of these 484 are constant and 121
+variable. The last named are to be deducted from IIs, which is still equal
+to 797&frac12;, leaving 676&frac12; IIs. II, then, converts another 121 into constant capital and requires another variable capital of 60&frac12; for it, which
+likewise comes out of 676&frac12;, leaving 616 for consumption.
+
+Then we have the following capitals:
+
+ I.
+
+Constant:
+4,840 + 484 = 5,324
+
+ Variable: 
+1,210 + 121 = 1,331
+
+II.
+Constant:
+
+1,760 + 55 + 121 = 1,936
+
+Variable:
+880 + 27&frac12; + 60&frac12; = 968
+
+ Totals:
+I. 5,324c + 1,331v 
+= 6,655
+
+ II. 1,936c + 968v
+
+= 2,904
+
+= 9,559
+
+And at the end of the year the product is
+
+ I. 5,324c + 1,331v + 1,331s
+
+= 7,986
+
+II. 1,936c + 968v + 968s
+= 3,872 
+
+= 11,858
+
+Repeating the same calculation and rounding off the fractions, we get
+at the end of the succeeding year the following product:
+
+ I. 5,856c + 1,464v + 1,464s
+= 8,784
+
+II. 2,129c + 1,065v + 1,065s
+= 4,259 
+
+= 13,043
+
+And at the end of the next succeeding year:
+
+ I. 6, 442c + 1,610v + 1,610s
+
+= 9,662
+
+II. 2,342c + 1,172v + 1,172s
+ = 4,686
+
+= 14,348
+
+In the course of five years of reproduction on an extended scale the
+aggregate capital of I and II has risen from 5,500c + 1,750v = 7,250 to 8,784c + 2,782v = 11,566; in other words in the ratio of 100:160. The total surplus-value was originally 1,750; it is now 2,782. The consumed
+surplus-value was originally 500 for I and 600 for II, a total of 1,100.
+The previous year it was 732 for I and 745 for II, a total of 1,477. It
+has therefore grown in the ratio of 100:134.

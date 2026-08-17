@@ -22,4 +22,12 @@ All book chapter text files should be sourced directly from marxists.org using t
 
 ## Glossary Variant Patterns
 
-When adding glossary terms in `src/data/glossary.tsx`, the `pattern` field should include all common spelling variants, plurals, and alternate forms of the term separated by `|`. For example: `"class interest|class interests"`, `"bourgeoisie|bourgeois|bourgeoise"`. This ensures the glossary highlight system catches all variations in the source texts.
+When adding glossary terms in `src/data/glossary/`, the `pattern` field should include all common spelling variants, plurals, and alternate forms of the term separated by `|`. For example: `"class interest|class interests"`, `"bourgeoisie|bourgeois|bourgeoise"`. This ensures the glossary highlight system catches all variations in the source texts.
+
+## Glossary Automated Verification
+
+Whenever creating, editing, or refactoring glossary terms or files in `src/data/glossary/`, you MUST run the automated glossary verification test suite:
+```bash
+node tools/check-glossary.js
+```
+The test checks for duplicate term names, slug collisions, overlapping regex pattern variants, missing mandatory fields, and em-dash rule violations across all 15+ glossary files. Always verify that `node tools/check-glossary.js` passes with exit code 0 before completing tasks.

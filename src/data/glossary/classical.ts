@@ -74,6 +74,30 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
+    "term": "Class Enemy",
+    "pattern": "class enemy|class enemies",
+    "definition": "In Marxist political analysis, an individual, organization, or social group whose objective economic interests and social role stand in direct structural opposition to the working class and the construction of socialism.",
+    "misconception": "A personal hatred or moral insult against individual people. Class enemy describes an objective socioeconomic role: those who own private capital, exploit labor, or actively enforce ruling-class dominance against working-class liberation.",
+    "dayToDayExample": "Monopoly capitalists who use private wealth to lobby for wage cuts, outlaw labor unions, and fund corporate political campaigns.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Class Traitor",
+    "pattern": "class traitor|class traitors|traitor to their class",
+    "definition": "An individual who acts against the political or economic interests of their own social class: either a working-class individual who aids capitalist exploitation (such as a strike-breaker or police officer) or a bourgeois individual who defects to support the working class (such as Friedrich Engels).",
+    "misconception": "That class origin permanently dictates a person's political allegiance. Individuals can choose to betray their class interests; Marx and Engels were born into wealthy families but committed themselves entirely to working-class revolution.",
+    "dayToDayExample": "A factory worker accepting extra pay to act as a scab breaking a union strike (working-class traitor) or a wealthy heir donating their fortune to fund revolutionary labor organizing (bourgeois traitor).",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Class Reconciliation",
+    "pattern": "class reconciliation|reconciliation of classes|harmonizing class interests",
+    "definition": "The reformist or social-democratic ideology claiming that the fundamental contradictions between capital and labor can be permanently eliminated through state arbitration, welfare regulations, and peaceful negotiation without abolishing private property.",
+    "misconception": "That capital and labor share identical long-term interests. Lenin demonstrated in 'State and Revolution' that the state arises precisely because class contradictions are irreconcilable.",
+    "dayToDayExample": "Government arbitration boards setting maximum wage caps to keep businesses profitable while asking workers to accept sacrifices for national economic health.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
     "term": "Surplus Value",
     "pattern": "surplus value|surplus-value",
     "definition": "The extra value created by workers above the cost of their own wages. This unpaid labor is the source of all capitalist profit.",
@@ -170,32 +194,8 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Feudalism",
-    "pattern": "feudalism|feudal|feudalist|feudal lords",
-    "definition": "The medieval economic system preceding capitalism, where landowning lords controlled society and peasant serfs were legally bound to work the land in exchange for physical protection and subsistence.",
-    "misconception": "That feudalism was identical to modern capitalism. Under feudalism, exploitative relations were transparent and enforced by physical obligation and legal status, whereas under capitalism they are mediated by wage contracts.",
-    "dayToDayExample": "A medieval lord claiming a fixed share of crops harvested by peasants working on the manorial estate.",
-    "theoryTags": ["Classical Marxism"]
-  },
-  {
-    "term": "Serfdom",
-    "pattern": "serfdom",
-    "definition": "The socio-economic system and legal status under feudalism where peasant workers were bound to land owned by a feudal lord, obligated to perform forced labor or surrender agricultural output.",
-    "misconception": "That serfdom was identical to chattel slavery. Serfs were legally bound to the land rather than owned as personal movable property.",
-    "dayToDayExample": "The medieval institutional structure requiring peasant families to farm the lord's estate three days a week before tending their own crops.",
-    "theoryTags": ["Classical Marxism"]
-  },
-  {
-    "term": "Serf",
-    "pattern": "serf|serfs",
-    "definition": "An unfree peasant worker under feudalism legally bound to a lord's estate, who cultivated land in exchange for physical protection and subsistence while surrendering surplus output to the lord.",
-    "misconception": "A free medieval farmhand who worked for wages. A serf could not legally leave the lord's land, change occupations, or marry without permission.",
-    "dayToDayExample": "A medieval peasant living on a manorial estate who handed over half their wheat harvest to the local baron.",
-    "theoryTags": ["Classical Marxism"]
-  },
-  {
-    "term": "Petty Bourgeoisie (Petite Bourgeoisie)",
-    "pattern": "petty bourgeoisie|petite bourgeoisie|petit bourgeoisie|petty bourgeois|petite bourgeois|petit bourgeois|small-bourgeois",
+    "term": "Petty Bourgeoisie",
+    "pattern": "petty-bourgois|petty-bourgoisie|petit-bourgeois|petite-bourgeoisie|petty bourgeoisie|petite bourgeoisie|petit bourgeoisie|petty bourgeois|petite bourgeois|petit bourgeois|small-bourgeois",
     "definition": "The social class of small business owners, self-employed proprietors, independent contractors, and shopkeepers who own some productive property but must also work themselves.",
     "misconception": "Regular office employees who make good salaries. The petty bourgeoisie specifically owns small-scale productive assets, placing them in an unstable position between big business owners and wage workers.",
     "dayToDayExample": "An independent bakery owner who works behind the counter every day alongside two hired employees.",
@@ -220,9 +220,9 @@ export const classicalTerms: GlossaryTerm[] = [
   {
     "term": "Base and Superstructure",
     "pattern": "base and superstructure|economic base|superstructure",
-    "definition": "The Marxist framework showing that society's economic base (relations and forces of production) shapes its cultural superstructure (laws, politics, media, education, and religion).",
-    "misconception": "That culture and laws operate completely independently from economic reality. The superstructure reflects and reinforces the dominant economic mode of production.",
-    "dayToDayExample": "A legal system prioritizing the defense of corporate contracts and private landlord rights because the economic base is capitalist.",
+    "definition": "A Marxist way of describing the relationship between how a society organizes its economic life and the institutions and ideas that develop around it. The 'base' is how people produce, own, and distribute things; the 'superstructure' includes laws, politics, education, media, religion, and culture. The idea is that the way a society organizes its economy strongly influences these institutions, while those institutions can also help maintain the existing economic system.",
+    "misconception": "That Marxism says economics automatically determines everything else. The argument is more that economic arrangements create pressures and incentives that shape institutions, ideas, and cultural norms, which can in turn reinforce or challenge those arrangements.",
+    "dayToDayExample": "In a society where businesses and private property are central to the economy, laws and political institutions are likely to place a strong emphasis on protecting contracts, property rights, and commercial activity. Those laws then help keep that economic system functioning.",
     "theoryTags": ["Classical Marxism"]
   },
   {
@@ -250,7 +250,7 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Value (Marxist Economics)",
+    "term": "Value",
     "pattern": "value of a commodity|labor theory of value|law of value|value",
     "definition": "In Marxist economics, the amount of socially necessary labor time embodied within a commodity, which regulates its exchange proportion in the market.",
     "misconception": "Value being purely subjective based on individual desire. While individual desire creates utility (use-value), economic value is rooted objectively in the average socially necessary labor time needed to produce the item.",
@@ -362,19 +362,59 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Industrial Reserve Army",
-    "pattern": "industrial reserve army|reserve army of labor|reserve army of labour|relative surplus population|surplus population",
+    "term": "Reserve Army of Labour",
+    "pattern": "industrial reserve army|reserve army of labor|reserve army of labour|relative surplus population|surplus population|reserve army",
     "definition": "The pool of unemployed or underemployed workers under capitalism that keeps wages in check by providing a constant threat of worker replacement.",
-    "misconception": "Unemployment being an accidental failure of capitalism. A reserve army of labor is structurally necessary for capitalism to discipline working-class wage demands.",
+    "misconception": "Unemployment being an accidental failure of capitalism. A reserve army of labor is structurally necessary for capitalism to discipline working-class wage demands and force workers to accept low pay.",
     "dayToDayExample": "Job listings receiving hundreds of desperate applications, which employers leverage to deny wage increases to current staff.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Relative Surplus Population",
+    "pattern": "floating surplus population|latent surplus population|stagnant surplus population|forms of surplus population",
+    "definition": "The three distinct forms of the industrial reserve army identified by Marx in Capital Vol. 1: 'Floating' (workers hired and fired as economic cycles fluctuate), 'Latent' (rural agricultural laborers displaced by industrial farming waiting to move to cities), and 'Stagnant' (workers with extremely irregular, poorly paid employment surviving on the margins of the formal labor market).",
+    "misconception": "That all unemployed workers are identical. Capital constantly shifts workers between these three tiers depending on technological changes, agricultural mechanization, and market demand.",
+    "dayToDayExample": "Factory workers laid off during a recession (floating), rural farm hands moving to urban areas for warehouse work (latent), and informal day laborers or temp workers (stagnant).",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Pauperism",
+    "pattern": "pauperism|pauper|paupers|absolute impoverishment",
+    "definition": "The lowest sediment of the relative surplus population in Marx's analysis: individuals who have been permanently broken, injured, or cast out of the active labor process due to industrial accidents, extreme age, sickness, or prolonged structural unemployment.",
+    "misconception": "A personal moral defect. Marx demonstrated that pauperism is the inevitable product of capitalist accumulation: as wealth accumulates at one pole, pauperism and misery accumulate at the opposite pole.",
+    "dayToDayExample": "Permanently disabled factory workers receiving no state support or workers rendered obsolete by automation leaving them without any source of livelihood.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Precariat",
+    "pattern": "precariat|precarious proletariat",
+    "definition": "A contemporary term (coined by Guy Standing and analyzed by Post-Marxists) describing a growing social class of workers characterized by insecure gig employment, zero-hour contracts, lack of labor rights, and absence of occupational identity.",
+    "misconception": "A completely separate non-working class. Classical Marxists point out that the precariat is a modern form of Marx's stagnant surplus population operating under neoliberal deregulation.",
+    "dayToDayExample": "Rideshare drivers and app-based delivery workers taking on multiple gig contracts without health benefits, paid leave, or job security.",
+    "theoryTags": ["Classical Marxism", "Neo-Marxism"]
+  },
+  {
+    "term": "Labor-Power Obsolescence",
+    "pattern": "labor-power obsolescence|labour-power obsolescence|technological displacement|technological unemployment",
+    "definition": "The process in capitalist accumulation where technological advances (automation, machinery, AI) devalue or eliminate entire categories of human labor-power, casting skilled workers into the reserve army of labor.",
+    "misconception": "Technological progress benefiting all workers equally. Under capitalism, labor-saving machinery is owned by capitalists, turning technological progress into a tool for displacing workers and lowering wages.",
+    "dayToDayExample": "Self-checkout kiosks replacing retail cashiers or automated software displacing data-entry clerks, forcing displaced workers to compete for lower-paying jobs.",
     "theoryTags": ["Classical Marxism"]
   },
   {
     "term": "Lumpenproletariat",
     "pattern": "lumpenproletariat|lumpen",
-    "definition": "The marginalized layer of society outside the regular wage-labor system, such as career criminals, panhandlers, and petty hustlers, who lack class consciousness and can be manipulated by reactionary forces.",
-    "misconception": "All poor or unemployed people. The lumpenproletariat refers specifically to those permanently detached from production and organized labor.",
-    "dayToDayExample": "Unorganized criminal gangs or mercenary enforcers hired by powerful figures to break up strike lines.",
+    "definition": "A Marxist term for people on the margins of the regular working economy and outside organized wage labor, often including people involved in begging, petty crime, hustling, or other irregular forms of survival. Marx and later Marxists generally viewed this group as lacking the collective organization and class interests associated with the working class, making it easier for powerful political forces to recruit or manipulate them.",
+    "misconception": "That the lumpenproletariat simply means poor people, unemployed people, homeless people, disabled people, or anyone without a stable job. None of these circumstances automatically makes someone lumpenproletarian. Marx sometimes included vagrants and other people living outside regular employment among the lumpenproletariat, but the concept is more specifically about being detached from regular production and organized working-class life. A homeless person can be a worker, a disabled person can be a worker, and an unemployed person can remain part of the working class even when they are temporarily or permanently unable to find work. Sometimes lumpen can be used as an insult by some people - that is not the intended usage of the term.",
+    "dayToDayExample": "A criminal gang, street hustlers, et cetera - operating outside regular employment and organized labor could be described as lumpenproletarian. Historically, Marxists have also used the term for people surviving through irregular or marginal activities, including some people described as vagrants. The important distinction is that homelessness, disability, or poverty by themselves are not what defines the category.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Lumpenbourgeoisie",
+    "pattern": "lumpenbourgeoisie|lumpen bourgeoisie",
+    "definition": "A Marxist term, especially associated with later Marxist and dependency-theory writing, for a section of the wealthy or business class whose position depends on parasitic, extractive, or externally dependent forms of wealth rather than developing productive industry. The term is often used for local elites who make money by acting as intermediaries for foreign capital or by profiting from activities such as speculation, resource extraction, corruption, or organized crime.",
+    "misconception": "That it simply means corrupt, greedy, criminal, or unpopular rich people. The point is not that a wealthy person is personally immoral, but that their economic position is seen as dependent on extracting wealth, controlling access, or serving more powerful economic interests rather than building an independent productive economy. A mafia boss, for example, might be described as lumpenbourgeois in some Marxist analyses because they accumulate substantial wealth through organized extraction, protection, trafficking, and control rather than through ordinary productive investment.",
+    "dayToDayExample": "A mafia organization that controls businesses, extorts local firms, launders money, and uses political connections to capture wealth could be described as a lumpenbourgeois formation. In a different context, a wealthy local elite that becomes rich by acting as an intermediary for foreign corporations (such as securing access to land or natural resources while taking a share of the profits) could also be described as lumpenbourgeois. The common idea is an elite that accumulates wealth through extraction, brokerage, or dependence rather than developing productive capacity on its own.",
     "theoryTags": ["Classical Marxism"]
   },
   {
@@ -402,14 +442,6 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Reification",
-    "pattern": "reification|reified",
-    "definition": "The mental process where dynamic human relationships and social institutions are perceived as rigid, unchangeable, natural physical objects beyond human control.",
-    "misconception": "Just abstract thinking. Reification makes social constructs like money, markets, and corporations seem as permanent and unalterable as gravity.",
-    "dayToDayExample": "Treating market recessions as natural disasters like earthquakes, rather than outcomes of human economic organization.",
-    "theoryTags": ["Classical Marxism"]
-  },
-  {
     "term": "Ideology",
     "pattern": "ideology|ideologies|ideological",
     "definition": "The system of ideas, representations, and cultural beliefs through which human beings make sense of their social existence and world.",
@@ -426,15 +458,7 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Ideological State Apparatus",
-    "pattern": "ideological state apparatus|ideological state apparatuses",
-    "definition": "Institutions such as schools, churches, family structures, and media outlets that maintain ruling-class power through cultural indoctrination rather than physical force.",
-    "misconception": "That state power is only enforced through police and military force. Ideological state apparatuses secure compliance voluntarily through learned social norms.",
-    "dayToDayExample": "School curricula that teach students to accept hierarchical authority and corporate work schedules as natural and unchangeable.",
-    "theoryTags": ["Classical Marxism"]
-  },
-  {
-    "term": "Hegemony (Cultural Hegemony)",
+    "term": "Cultural Hegemony",
     "pattern": "cultural hegemony|hegemony|hegemonic",
     "definition": "The leadership or dominance of a ruling class achieved by shaping cultural values, morals, and common sense so that subordinate classes accept the status quo voluntarily.",
     "misconception": "Dominance maintained purely through military control. Hegemony operates through media, education, and culture to make capitalist values seem like universal human values.",
@@ -498,6 +522,14 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
+    "term": "Collectivization",
+    "pattern": "collectivization|collectivize|collectivised|collectivizing|collective farming",
+    "definition": "The policy of consolidating individual smallholder farmsteads into large-scale, collectively managed agricultural cooperatives (kolkhozes) or state-owned farms (sovkhozes) utilizing modern machinery and shared infrastructure.",
+    "misconception": "That collectivization meant seizing personal household items or small family gardens. Collectivization targets agricultural land and heavy farm equipment to transition farming to large-scale social production.",
+    "dayToDayExample": "A group of small family farms pooling their land parcels, tractors, and irrigation systems to operate a large shared agricultural cooperative.",
+    "theoryTags": ["Marxism-Leninism"]
+  },
+  {
     "term": "Organic Composition of Capital",
     "pattern": "organic composition of capital",
     "definition": "The ratio of constant capital (machinery and raw materials) to variable capital (wages for labor). As capitalism develops, technological competition raises the organic composition of capital.",
@@ -554,7 +586,7 @@ export const classicalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Immiseration (Immiseration Thesis)",
+    "term": "Immiseration",
     "pattern": "immiseration|immiseration of the working class|pauperization",
     "definition": "The structural tendency under capitalism for the relative position of the working class to deteriorate as wealth concentrates in the hands of capital owners.",
     "misconception": "That workers always become completely destitute. Relative immiseration means workers receive a shrinking share of total wealth despite overall productivity growth.",
@@ -584,5 +616,103 @@ export const classicalTerms: GlossaryTerm[] = [
     "misconception": "That Marxism prioritizes endless factory output over nature. Marx's ecological writings highlight how capitalism disrupts the metabolic interaction between humanity and earth.",
     "dayToDayExample": "Promoting destructive industrial extraction programs while ignoring environmental degradation and community health.",
     "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Strike",
+    "pattern": "strike|strikes|striking|strike action",
+    "definition": "The collective stoppage of work by employees as a primary weapon of economic and political leverage against capitalist employers to force concessions or challenge state power.",
+    "misconception": "A minor economic dispute. For Marxists, a strike is a crucial school of class struggle where workers experience collective power against capital.",
+    "dayToDayExample": "Factory workers halting assembly lines and refusing to operate machinery until wage cuts are reversed.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Trade Union",
+    "pattern": "trade union|trade unions|labor union|labour union|unions",
+    "definition": "An association of workers formed to collectively bargain with employers over wages, working conditions, and benefits, and to defend worker interests against capitalist exploitation.",
+    "misconception": "That trade unions automatically create socialism. Lenin noted that unions fight for better terms within capitalism, requiring revolutionary political leadership to challenge state power.",
+    "dayToDayExample": "Hospital nurses organizing a collective bargaining committee to negotiate mandatory nurse-to-patient safety ratios.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "General Strike",
+    "pattern": "general strike|general strikes",
+    "definition": "A synchronized strike action across multiple key industries and sectors within a region or nation, halting the entire capitalist economy to demand major political or social changes.",
+    "misconception": "Just a large trade union dispute. A general strike directly challenges state authority by demonstrating that society cannot function without worker labor.",
+    "dayToDayExample": "Transit, factory, dock, and utility workers shutting down operations nationwide to defeat anti-labor legislation.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Anarcho-Communism"]
+  },
+  {
+    "term": "Marxism",
+    "pattern": "marxism|marxist|marxists",
+    "definition": "The scientific worldview, materialist philosophy, and economic method formulated by Karl Marx and Friedrich Engels, analyzing class struggle, historical development, and the overthrow of capitalism in favor of a communist society.",
+    "misconception": "A rigid dogma or moral opinion. Marxism is a dynamic scientific method (historical and dialectical materialism) for analyzing economic development and class forces.",
+    "dayToDayExample": "Analyzing housing price inflation not as personal landlord greed, but as the systematic commodification of shelter under capitalist property relations.",
+    "theoryTags": ["Classical Marxism"]
+  }, 
+  {
+    "term": "Critical Race Theory (Materialist)",
+    "pattern": "critical race theory (materialist)|materialist crt|materialist critical race theory|marxist crt|racial capitalism",
+    "definition": "The materialist branch of Critical Race Theory and Marxist analysis (Derrick Bell, Cedric Robinson, Oliver Cox) asserting that racism is an economic technology created by capitalism to justify colonial plunder, enslavement, land theft, and super-exploitation of minority labor.",
+    "misconception": "That racial division is natural or eternal. Materialist CRT demonstrates that racial hierarchies were historically constructed by ruling classes to divide working-class unity and extract superprofits.",
+    "dayToDayExample": "Capitalist employers using racial wage differentials and segregated job tiers to prevent white and Black workers from organizing a joint labor union.",
+    "theoryTags": ["Classical Marxism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Orthodox Marxism",
+    "pattern": "orthodox marxism|orthodox marxist|orthodox marxists",
+    "definition": "The theoretical school of Marxism emerging after the death of Marx and Engels (Karl Kautsky, August Bebel, Georgi Plekhanov, Rosa Luxemburg, V.I. Lenin) defending core materialist principles against revisionism, insisting that capitalism cannot be reformed into socialism and must be replaced through working-class revolution.",
+    "misconception": "Rigid, unthinking dogmatism. Orthodox Marxism was formed in direct opposition to Eduard Bernstein's reformism, asserting that scientific materialist analysis remains valid and revolutionary.",
+    "dayToDayExample": "Insisting that social welfare reforms under capitalism do not alter the fundamental law of surplus-value extraction.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Impossibilism",
+    "pattern": "impossibilism|impossibilist|impossibilists",
+    "definition": "A revolutionary socialist perspective (associated historically with the Socialist Party of Great Britain and Daniel De Leon) asserting that political action under capitalism should focus exclusively on raising class consciousness to achieve immediate full socialist revolution, rejecting all immediate reform demands ('palliatives') as useless or misleading.",
+    "misconception": "Utopian inaction. Impossibilists argue that campaigning for small reforms distracts the working class and bolsters capitalist state legitimacy, whereas Leninists advocate combining immediate reform struggles with revolutionary strategy.",
+    "dayToDayExample": "Refusing to campaign for minor wage-tax adjustments, insisting instead on building support for complete social abolition of wage labor.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Industrialization",
+    "pattern": "industrialization|industrialize|industrializing|industrialized",
+    "definition": "The historical transition from agrarian, handicraft-based economies to mechanized factory production, radically transforming productive forces and creating the modern working class (proletariat).",
+    "misconception": "That industrialization under capitalism is a purely neutral technological upgrade for general human welfare. Marxist Critique: Under capitalism, industrialization separates workers from their tools, subjects labor to intense factory discipline, and concentrates ownership in the hands of the bourgeoisie to maximize surplus value extraction; under socialism, industrialization serves to reduce work hours and satisfy human needs.",
+    "dayToDayExample": "Replacing manual handloom weaving with steam-powered or electric textile factories, concentrating hundreds of workers into single workplaces under strict shift supervisors.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Automation",
+    "pattern": "automation|automate|automated|automating|robotic automation|ai automation",
+    "definition": "The substitution of human mental and physical labor with automated machinery, robotics, and computer algorithms in the production process, increasing the organic composition of capital.",
+    "misconception": "That automation is inherently bad or causes poverty on its own. Marxist Critique: Automation under capitalism threatens workers with layoffs, wage suppression, and unemployment because technology is deployed for private profit; under socialism, automation is a liberating force that reduces the necessary work week for everyone while maintaining full access to societal goods.",
+    "dayToDayExample": "A factory installing automated robotic arms or an office deploying AI software, allowing one worker to monitor output that previously required twenty employees, while corporate management uses the efficiency gains to lay off staff rather than shorten working hours.",
+    "theoryTags": ["Classical Marxism", "Neo-Marxism"]
+  },
+  {
+    "term": "Post-Scarcity",
+    "pattern": "post-scarcity|post scarcity|postscarcity|post-scarcity society",
+    "definition": "A stage of socioeconomic development where advanced productive forces, automation, and communal resource allocation enable society to produce goods and services in sufficient abundance to meet all human basic needs without requiring compulsory wage labor or market pricing.",
+    "misconception": "A sci-fi fantasy where every material desire is infinite. Post-scarcity in Marxist theory means reaching a level of technological and social development where essential goods (food, shelter, healthcare, energy, education) are abundant enough to eliminate economic competition and class struggle.",
+    "dayToDayExample": "Public municipal utilities providing clean water, electricity, high-speed digital access, and public transit freely to all residents without fee meters or billing statements.",
+    "theoryTags": ["Classical Marxism", "Neo-Marxism"]
+  },
+  {
+    "term": "Artificial Scarcity",
+    "pattern": "artificial scarcity|artificially scarce|manufactured scarcity",
+    "definition": "The deliberate restriction of production, supply, distribution, or access to goods, land, or digital data by capitalists and state entities to inflate prices, enforce market dependency, and guarantee private corporate profit.",
+    "misconception": "Natural physical shortages. Under modern capitalism, artificial scarcity is manufactured through patents, paywalls, landlord vacancy hoarding, and agricultural destruction while productive capacity is already fully capable of meeting human need.",
+    "dayToDayExample": "Pharmaceutical companies using patent laws to block cheap generic drug manufacturing, or landlords leaving apartment units empty to keep city rental prices artificially high.",
+    "theoryTags": ["Classical Marxism", "Capitalist Theory"]
+  },
+  {
+    "term": "Planned Obsolescence",
+    "pattern": "planned obsolescence|built-in obsolescence|designed obsolescence",
+    "definition": "A capitalist business strategy of deliberately designing products with a limited lifespan, unrepairable parts, or artificial software locks to force consumers to repeatedly purchase replacement goods.",
+    "misconception": "Unavoidable wear and tear. Planned obsolescence is an economic mechanism of capital accumulation that wastes natural resources and human labor purely to maintain corporate sales volume.",
+    "dayToDayExample": "Smartphone manufacturers releasing software updates that intentionally slow down older models and gluing batteries into devices to prevent easy repair.",
+    "theoryTags": ["Capitalist Theory", "Neo-Marxism"]
   }
 ];
+
+

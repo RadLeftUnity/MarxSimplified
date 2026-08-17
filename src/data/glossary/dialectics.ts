@@ -74,7 +74,7 @@ export const dialecticalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Primitive (Historical Stage)",
+    "term": "Primitive Stage",
     "pattern": "primitive mode|primitive era|primitive society|primitive societies",
     "definition": "In Marxist historical analysis, the earliest stage of human social organization prior to the development of private property, class divisions, and the state.",
     "misconception": "An insulting term meaning crude or unintelligent. In historical materialism, primitive refers strictly to early communal hunter-gatherer societies where social surplus was minimal and property was shared.",
@@ -154,7 +154,7 @@ export const dialecticalTerms: GlossaryTerm[] = [
     "theoryTags": ["Classical Marxism"]
   },
   {
-    "term": "Abstract and Concrete (Method)",
+    "term": "Abstract and Concrete",
     "pattern": "abstract and concrete|ascent from the abstract to the concrete",
     "definition": "The dialectical method of scientific analysis moving from simple, isolated theoretical concepts (the abstract) to reconstructing complex real-world realities as a synthesis of multiple determinations (the concrete).",
     "misconception": "That concrete means physical objects and abstract means imaginary ideas. In Marxist philosophy, the concrete is the rich synthesis of all social and material relations.",

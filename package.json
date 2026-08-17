@@ -9,7 +9,8 @@
     "sync": "node tools/sync-manifest.js",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node scripts/verify-annotations.js"
+    "test": "node scripts/verify-annotations.js && node tools/check-glossary.js",
+    "test:glossary": "node tools/check-glossary.js"
   },
   "dependencies": {
     "lucide-react": "^1.31.0",

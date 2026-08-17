@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { buildSearchIndex } from './build-search-index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const workspaceRoot = path.join(__dirname, '..');
@@ -55,6 +56,9 @@ export function syncManifest() {
   const manifest = { books };
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2), 'utf8');
   console.log(`Successfully updated manifest.json with ${books.length} book(s).\n`);
+
+  // Build full-text search index across all books & chapters
+  buildSearchIndex();
 }
 
 // Run if called directly

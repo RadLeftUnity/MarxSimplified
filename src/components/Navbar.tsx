@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Moon, Sun, Sliders } from 'lucide-react';
+import { BookOpen, Moon, Sun, Sliders, Search, User } from 'lucide-react';
 
 export type Theme = 'dark' | 'sepia' | 'high-contrast' | 'gray' | 'light';
 
@@ -8,6 +8,8 @@ interface NavbarProps {
   currentPage: string;
   onGoToGlossary: () => void;
   onGoToTopics?: () => void;
+  onGoToSearch?: () => void;
+  onGoToAuthors?: () => void;
   theme: Theme;
   onThemeChange: (theme: Theme) => void;
   onOpenA11y: () => void;
@@ -18,6 +20,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   currentPage,
   onGoToGlossary,
   onGoToTopics,
+  onGoToSearch,
+  onGoToAuthors,
   theme,
   onThemeChange,
   onOpenA11y,
@@ -46,6 +50,14 @@ export const Navbar: React.FC<NavbarProps> = ({
           Library
         </button>
         <button
+          onClick={onGoToAuthors}
+          className={`nav-btn ${currentPage === 'authors' ? 'nav-btn-active' : ''}`}
+          id="nav-btn-authors"
+        >
+          <User className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
+          <span>Authors</span>
+        </button>
+        <button
           onClick={onGoToTopics}
           className={`nav-btn ${currentPage === 'topics' ? 'nav-btn-active' : ''}`}
           id="nav-btn-topics"
@@ -58,6 +70,15 @@ export const Navbar: React.FC<NavbarProps> = ({
           id="nav-btn-glossary"
         >
           Glossary
+        </button>
+        <button
+          onClick={onGoToSearch}
+          className={`nav-btn ${currentPage === 'search' ? 'nav-btn-active' : ''}`}
+          id="nav-btn-search"
+          title="Search full texts and annotations across all books"
+        >
+          <Search className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
+          <span>Search</span>
         </button>
 
         {/* Accessibility & Reading Options Button */}

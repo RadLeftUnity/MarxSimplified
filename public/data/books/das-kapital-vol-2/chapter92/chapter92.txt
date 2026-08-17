@@ -1,0 +1,77 @@
+3. Replacement of IIc in Accumulation
+
+In the exchange of I(v + s) for IIc we thus meet with various cases. In simple reproduction both of them must be equal and replace one
+another, since otherwise simple reproduction cannot proceed without
+disturbance, as we have seen above.
+
+In accumulation it is above all the rate of accumulation that must be
+considered. In the preceding cases we assumed that the rate of
+accumulation in I was equal to &frac12;s I, and also that it remained constant
+from year to year. We changed only the proportion in which this
+accumulated capital was divided into variable and constant capital. We
+then had three cases:
+
+1) I(v + &frac12;s) equals IIc, which is therefore smaller than I(v + s). This must always be so, otherwise I does not accumulate.
+
+2) I(v + &frac12;s) is greater than IIc. In this case the replacement is effected by adding a corresponding portion of IIs to IIc, so that this sum becomes equal to I(v + &frac12;s). Here the replacement for II is not a simple reproduction of its constant capital, but accumulation, an augmentation of its constant capital by that portion of its surplus-product which it exchanges for means of production of I. This augmentation implies at the same time a corresponding addition to variable capital II out of its own
+surplus-product.
+
+3) I(v + &frac12;s) is smaller than IIc. In this case II does not fully reproduce its constant capital by means of exchange and must make good the
+deficit by purchase from I. But this does not entail any further
+accumulation of variable capital II, since its constant capital is fully
+reproduced only by this operation. On the other hand that part of
+capitalists I who accumulate only additional money-capital, have already
+accomplished a portion of this accumulation by this transaction.
+
+The premise of simple reproduction, that I(v + s) is equal to IIc, is not only incompatible with capitalist production, although this does not exclude the possibility that in an industrial cycle of 10-11 years some
+year may show a smaller total production than the preceding year, so
+that not even simple reproduction takes place compared to the preceding
+year. Besides that, considering the natural annual increase in population
+simple reproduction could take place only to the extent that a
+correspondingly larger number of unproductive servants would partake of
+the 1,500 representing the aggregate surplus-value. But accumulation of
+capital, real capitalist production, would be impossible under such
+circumstances. The fact of capitalist accumulation therefore excludes the
+possibility of IIc being equal to I(v + s). Nevertheless it might occur even with capitalist accumulation that in consequence of the course taken by
+the processes of accumulation during a preceding series of periods of
+production IIc might become not only equal but even bigger than I(v + s). This would mean an over-production in II and could not be adjusted in
+any other way than by a great crash, in consequence of which some
+capital of II would get transferred to I.
+
+Nor does it alter the relation of I(v + s) to IIc if a portion of constant capital II reproduces itself, as happens for instance in the use of home-grown
+seeds in agriculture. This portion of IIc is no more to be taken into
+consideration in the exchange between I and II than is Ic. Nor does it
+change matters if a part of the products of II is capable of entering into I
+as means of production. It is covered by a part of the means of
+production supplied by I, and this portion must be deducted on both
+sides at the outset, if we wish to examine in pure and unobscured form
+the exchange between the two large classes of social production, the
+producers of means of production and the producers of articles of
+consumption.
+
+Hence under capitalist production I(v + s) cannot be equal to IIc, in other words, the two cannot balance in mutual exchange. On the other
+hand, if I(s/x) is taken as that portion of Is which is spent by capitalists I as revenue, I(v + s/x) may be equal to, larger, or smaller than, IIc. But I(v + s/x) must always be smaller than II(c + s) by as much as that portion of IIs which must be consumed under all circumstances by capitalist class II.
+
+It must be noted that in this exposition of accumulation the value of the constant capital is not presented accurately so far as that capital is a part of the value of the commodity-capital it helped to produce. The
+fixed portion of the newly accumulated constant capital enters into the
+commodity-capital only gradually and periodically, according to the
+different natures of these fixed elements. Therefore whenever raw
+materials, semi-finished goods, etc., enter in huge quantities into the
+production of commodities, the commodity-capital consists for the most
+part of replacements of the circulating constant components and of the
+variable capital. (On account of the specific turnover of the circulating
+component parts this way of presenting the matter may nevertheless be
+adopted. It is then assumed that the circulating portion together with the
+portion of value of the fixed capital transferred to it is turned over so
+often during the year that the aggregate sum of the commodities
+supplied is equal in value to all the capital entering into the annual
+production.) But wherever only auxiliary materials are used for
+mechanical industry, and no raw material, there the labour element,
+equal to v, must reappear in the commodity-capital as its larger
+constituent. While in the calculation of the rate of profit the surplus-value
+is figured on the total capital, regardless of whether the fixed
+components periodically transfer much or little value to the product, the
+fixed portion of constant capital is to be included in the calculation of the
+value of any periodically created commodity-capital only to the extent
+that on an average it yields value to the product on account of wear and
+tear.

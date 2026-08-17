@@ -1,0 +1,666 @@
+{
+  "id": "das-kapital-vol-2",
+  "title": "Capital: Volume 2 (The Process of Circulation of Capital)",
+  "author": "Karl Marx (ed. Friedrich Engels)",
+  "year": "1885",
+  "difficulty": "Hard",
+  "readingTime": "30.9 hours",
+  "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1885-c2/index.htm",
+  "context": "Compiled by Friedrich Engels from Marx's uncompleted manuscripts after his death, Volume 2 focuses on capital in motion: how capital transitions between money-capital, productive-capital, and commodity-capital, and how total social reproduction is maintained across production departments.",
+  "relatesToToday": "Understanding circulation periods, supply chain logistics, turnover rates, and reproduction schemes is essential for analyzing modern global trade delays, liquidity squeezes, financialized supply chains, and demand realization crises.",
+  "keyTakeaways": [
+    "Capital is not a static object but a continuous cycle passing through money, productive, and commodity forms.",
+    "Turnover time (production time plus circulation time) affects the rate and mass of annual profit.",
+    "Social reproduction requires proportionality between Department I (means of production) and Department II (means of consumption)."
+  ],
+  "chapters": [
+    {
+      "id": "the-circuit-of-money-capital",
+      "title": "The Circuit of Money-Capital",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "first-stage-m-c",
+      "title": "First Stage. M-C",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "second-stage-function-of-productive-capital",
+      "title": "Second Stage. Function of Productive Capital",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "third-stage-c-m",
+      "title": "Third Stage. C'-M'",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-circuit-as-a-whole",
+      "title": "The Circuit as a Whole",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "the-circuit-of-productive-capital",
+      "title": "The Circuit of Productive Capital",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "simple-reproduction",
+      "title": "Simple Reproduction",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "accumulation-and-reproduction-on-an-extended-scale",
+      "title": "Accumulation and Reproduction on an Extended Scale",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "accumulation-of-money",
+      "title": "Accumulation of Money",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "reserve-fund",
+      "title": "Reserve Fund",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "the-circuit-of-commodity-capital",
+      "title": "The Circuit of Commodity-Capital",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "the-three-formulas-of-the-circuit",
+      "title": "The Three Formulas of the Circuit",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "natural-money-and-credit-economy",
+      "title": "Natural, Money and Credit Economy",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "the-meeting-of-demand-and-supply",
+      "title": "The Meeting of Demand and Supply",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    },
+    {
+      "id": "the-time-of-circulation",
+      "title": "The Time of Circulation",
+      "textFile": "chapter17/chapter17.txt",
+      "annotationFile": "chapter17/chapter17-annotations.json",
+      "summaryFile": "chapter17/chapter17-summary.txt"
+    },
+    {
+      "id": "the-costs-of-circulation",
+      "title": "The Costs of Circulation",
+      "textFile": "chapter18/chapter18.txt",
+      "annotationFile": "chapter18/chapter18-annotations.json",
+      "summaryFile": "chapter18/chapter18-summary.txt"
+    },
+    {
+      "id": "genuine-costs-of-circulation",
+      "title": "Genuine Costs of Circulation",
+      "textFile": "chapter19/chapter19.txt",
+      "annotationFile": "chapter19/chapter19-annotations.json",
+      "summaryFile": "chapter19/chapter19-summary.txt"
+    },
+    {
+      "id": "the-time-of-purchase-and-sale",
+      "title": "The Time of Purchase and Sale",
+      "textFile": "chapter20/chapter20.txt",
+      "annotationFile": "chapter20/chapter20-annotations.json",
+      "summaryFile": "chapter20/chapter20-summary.txt"
+    },
+    {
+      "id": "book-keeping",
+      "title": "Book-keeping",
+      "textFile": "chapter21/chapter21.txt",
+      "annotationFile": "chapter21/chapter21-annotations.json",
+      "summaryFile": "chapter21/chapter21-summary.txt"
+    },
+    {
+      "id": "money",
+      "title": "Money",
+      "textFile": "chapter22/chapter22.txt",
+      "annotationFile": "chapter22/chapter22-annotations.json",
+      "summaryFile": "chapter22/chapter22-summary.txt"
+    },
+    {
+      "id": "costs-of-storage",
+      "title": "Costs of Storage",
+      "textFile": "chapter23/chapter23.txt",
+      "annotationFile": "chapter23/chapter23-annotations.json",
+      "summaryFile": "chapter23/chapter23-summary.txt"
+    },
+    {
+      "id": "formation-of-supply-in-general",
+      "title": "Formation of Supply in General",
+      "textFile": "chapter24/chapter24.txt",
+      "annotationFile": "chapter24/chapter24-annotations.json",
+      "summaryFile": "chapter24/chapter24-summary.txt"
+    },
+    {
+      "id": "the-commodity-supply-proper",
+      "title": "The Commodity-Supply Proper",
+      "textFile": "chapter25/chapter25.txt",
+      "annotationFile": "chapter25/chapter25-annotations.json",
+      "summaryFile": "chapter25/chapter25-summary.txt"
+    },
+    {
+      "id": "costs-of-transportation",
+      "title": "Costs of Transportation",
+      "textFile": "chapter26/chapter26.txt",
+      "annotationFile": "chapter26/chapter26-annotations.json",
+      "summaryFile": "chapter26/chapter26-summary.txt"
+    },
+    {
+      "id": "the-turnover-time-and-number-of-turnovers",
+      "title": "The Turnover Time and Number of Turnovers",
+      "textFile": "chapter27/chapter27.txt",
+      "annotationFile": "chapter27/chapter27-annotations.json",
+      "summaryFile": "chapter27/chapter27-summary.txt"
+    },
+    {
+      "id": "fixed-capital-and-circulating-capital",
+      "title": "Fixed Capital and Circulating Capital",
+      "textFile": "chapter28/chapter28.txt",
+      "annotationFile": "chapter28/chapter28-annotations.json",
+      "summaryFile": "chapter28/chapter28-summary.txt"
+    },
+    {
+      "id": "distinctions-of-form",
+      "title": "Distinctions of Form",
+      "textFile": "chapter29/chapter29.txt",
+      "annotationFile": "chapter29/chapter29-annotations.json",
+      "summaryFile": "chapter29/chapter29-summary.txt"
+    },
+    {
+      "id": "components-replacement-repair-and-accumulation-of-the-fixed-capital",
+      "title": "Components, Replacement, Repair and Accumulation of the Fixed Capital",
+      "textFile": "chapter30/chapter30.txt",
+      "annotationFile": "chapter30/chapter30-annotations.json",
+      "summaryFile": "chapter30/chapter30-summary.txt"
+    },
+    {
+      "id": "the-aggregate-turnover-of-the-capital-advanced-cycles-of-turnover",
+      "title": "The Aggregate Turnover of the Capital Advanced. Cycles of Turnover",
+      "textFile": "chapter31/chapter31.txt",
+      "annotationFile": "chapter31/chapter31-annotations.json",
+      "summaryFile": "chapter31/chapter31-summary.txt"
+    },
+    {
+      "id": "theories-of-fixed-and-circulating-capital",
+      "title": "Theories of Fixed and Circulating Capital",
+      "textFile": "chapter32/chapter32.txt",
+      "annotationFile": "chapter32/chapter32-annotations.json",
+      "summaryFile": "chapter32/chapter32-summary.txt"
+    },
+    {
+      "id": "theories-of-fixed-and-circulating-capital-ricardo",
+      "title": "Theories of Fixed and Circulating Capital. Ricardo",
+      "textFile": "chapter33/chapter33.txt",
+      "annotationFile": "chapter33/chapter33-annotations.json",
+      "summaryFile": "chapter33/chapter33-summary.txt"
+    },
+    {
+      "id": "the-working-period",
+      "title": "The Working Period",
+      "textFile": "chapter34/chapter34.txt",
+      "annotationFile": "chapter34/chapter34-annotations.json",
+      "summaryFile": "chapter34/chapter34-summary.txt"
+    },
+    {
+      "id": "the-time-of-production",
+      "title": "The Time of Production",
+      "textFile": "chapter35/chapter35.txt",
+      "annotationFile": "chapter35/chapter35-annotations.json",
+      "summaryFile": "chapter35/chapter35-summary.txt"
+    },
+    {
+      "id": "the-time-of-circulation",
+      "title": "The Time of Circulation",
+      "textFile": "chapter36/chapter36.txt",
+      "annotationFile": "chapter36/chapter36-annotations.json",
+      "summaryFile": "chapter36/chapter36-summary.txt"
+    },
+    {
+      "id": "effect-of-turnover-time-on-magnitude-of-advanced-capital",
+      "title": "Effect of Turnover Time on Magnitude of Advanced Capital",
+      "textFile": "chapter37/chapter37.txt",
+      "annotationFile": "chapter37/chapter37-annotations.json",
+      "summaryFile": "chapter37/chapter37-summary.txt"
+    },
+    {
+      "id": "the-working-period-equal-to-the-circulation-period",
+      "title": "The Working Period Equal to the Circulation Period",
+      "textFile": "chapter38/chapter38.txt",
+      "annotationFile": "chapter38/chapter38-annotations.json",
+      "summaryFile": "chapter38/chapter38-summary.txt"
+    },
+    {
+      "id": "the-working-period-greater-than-the-period-of-circulation",
+      "title": "The Working Period Greater Than the Period of Circulation",
+      "textFile": "chapter39/chapter39.txt",
+      "annotationFile": "chapter39/chapter39-annotations.json",
+      "summaryFile": "chapter39/chapter39-summary.txt"
+    },
+    {
+      "id": "the-working-period-smaller-than-the-circulation-period",
+      "title": "The Working Period Smaller Than the Circulation Period",
+      "textFile": "chapter40/chapter40.txt",
+      "annotationFile": "chapter40/chapter40-annotations.json",
+      "summaryFile": "chapter40/chapter40-summary.txt"
+    },
+    {
+      "id": "conclusions",
+      "title": "Conclusions",
+      "textFile": "chapter41/chapter41.txt",
+      "annotationFile": "chapter41/chapter41-annotations.json",
+      "summaryFile": "chapter41/chapter41-summary.txt"
+    },
+    {
+      "id": "the-effect-of-change-of-prices",
+      "title": "The Effect of Change of Prices",
+      "textFile": "chapter42/chapter42.txt",
+      "annotationFile": "chapter42/chapter42-annotations.json",
+      "summaryFile": "chapter42/chapter42-summary.txt"
+    },
+    {
+      "id": "the-turnover-of-variable-capital",
+      "title": "The Turnover of Variable Capital",
+      "textFile": "chapter43/chapter43.txt",
+      "annotationFile": "chapter43/chapter43-annotations.json",
+      "summaryFile": "chapter43/chapter43-summary.txt"
+    },
+    {
+      "id": "the-annual-rate-of-surplus-value",
+      "title": "The Annual Rate of Surplus-Value",
+      "textFile": "chapter44/chapter44.txt",
+      "annotationFile": "chapter44/chapter44-annotations.json",
+      "summaryFile": "chapter44/chapter44-summary.txt"
+    },
+    {
+      "id": "the-turnover-of-an-individual-variable-capital",
+      "title": "The Turnover of an Individual Variable Capital",
+      "textFile": "chapter45/chapter45.txt",
+      "annotationFile": "chapter45/chapter45-annotations.json",
+      "summaryFile": "chapter45/chapter45-summary.txt"
+    },
+    {
+      "id": "the-turnover-of-variable-capital-from-the-social-point-of-view",
+      "title": "The Turnover of Variable Capital from the Social Point of View",
+      "textFile": "chapter46/chapter46.txt",
+      "annotationFile": "chapter46/chapter46-annotations.json",
+      "summaryFile": "chapter46/chapter46-summary.txt"
+    },
+    {
+      "id": "the-circulation-of-surplus-value",
+      "title": "The Circulation of Surplus-Value",
+      "textFile": "chapter47/chapter47.txt",
+      "annotationFile": "chapter47/chapter47-annotations.json",
+      "summaryFile": "chapter47/chapter47-summary.txt"
+    },
+    {
+      "id": "simple-reproduction",
+      "title": "Simple Reproduction",
+      "textFile": "chapter48/chapter48.txt",
+      "annotationFile": "chapter48/chapter48-annotations.json",
+      "summaryFile": "chapter48/chapter48-summary.txt"
+    },
+    {
+      "id": "accumulation-and-reproduction-on-an-extended-scale",
+      "title": "Accumulation and Reproduction on an Extended Scale",
+      "textFile": "chapter49/chapter49.txt",
+      "annotationFile": "chapter49/chapter49-annotations.json",
+      "summaryFile": "chapter49/chapter49-summary.txt"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter50/chapter50.txt",
+      "annotationFile": "chapter50/chapter50-annotations.json",
+      "summaryFile": "chapter50/chapter50-summary.txt"
+    },
+    {
+      "id": "the-subject-investigated",
+      "title": "The Subject Investigated",
+      "textFile": "chapter51/chapter51.txt",
+      "annotationFile": "chapter51/chapter51-annotations.json",
+      "summaryFile": "chapter51/chapter51-summary.txt"
+    },
+    {
+      "id": "the-role-of-money-capital",
+      "title": "The Role of Money-Capital",
+      "textFile": "chapter52/chapter52.txt",
+      "annotationFile": "chapter52/chapter52-annotations.json",
+      "summaryFile": "chapter52/chapter52-summary.txt"
+    },
+    {
+      "id": "former-presentations-of-the-subject",
+      "title": "Former Presentations of the Subject",
+      "textFile": "chapter53/chapter53.txt",
+      "annotationFile": "chapter53/chapter53-annotations.json",
+      "summaryFile": "chapter53/chapter53-summary.txt"
+    },
+    {
+      "id": "the-physiocrats",
+      "title": "The Physiocrats",
+      "textFile": "chapter54/chapter54.txt",
+      "annotationFile": "chapter54/chapter54-annotations.json",
+      "summaryFile": "chapter54/chapter54-summary.txt"
+    },
+    {
+      "id": "adam-smith",
+      "title": "Adam Smith",
+      "textFile": "chapter55/chapter55.txt",
+      "annotationFile": "chapter55/chapter55-annotations.json",
+      "summaryFile": "chapter55/chapter55-summary.txt"
+    },
+    {
+      "id": "smith-s-general-points-of-view",
+      "title": "Smith's General Points of View",
+      "textFile": "chapter56/chapter56.txt",
+      "annotationFile": "chapter56/chapter56-annotations.json",
+      "summaryFile": "chapter56/chapter56-summary.txt"
+    },
+    {
+      "id": "adam-smith-resolves-exchange-value-into-v-s",
+      "title": "Adam Smith Resolves Exchange-Value into v+s",
+      "textFile": "chapter57/chapter57.txt",
+      "annotationFile": "chapter57/chapter57-annotations.json",
+      "summaryFile": "chapter57/chapter57-summary.txt"
+    },
+    {
+      "id": "the-constant-part-of-capital",
+      "title": "The Constant Part of Capital",
+      "textFile": "chapter58/chapter58.txt",
+      "annotationFile": "chapter58/chapter58-annotations.json",
+      "summaryFile": "chapter58/chapter58-summary.txt"
+    },
+    {
+      "id": "capital-and-revenue-in-adam-smith",
+      "title": "Capital and Revenue in Adam Smith",
+      "textFile": "chapter59/chapter59.txt",
+      "annotationFile": "chapter59/chapter59-annotations.json",
+      "summaryFile": "chapter59/chapter59-summary.txt"
+    },
+    {
+      "id": "recapitulation",
+      "title": "Recapitulation",
+      "textFile": "chapter60/chapter60.txt",
+      "annotationFile": "chapter60/chapter60-annotations.json",
+      "summaryFile": "chapter60/chapter60-summary.txt"
+    },
+    {
+      "id": "later-economists",
+      "title": "Later Economists",
+      "textFile": "chapter61/chapter61.txt",
+      "annotationFile": "chapter61/chapter61-annotations.json",
+      "summaryFile": "chapter61/chapter61-summary.txt"
+    },
+    {
+      "id": "simple-reproduction-part-1-of-4",
+      "title": "Simple Reproduction (Part 1 of 4)",
+      "textFile": "chapter62/chapter62.txt",
+      "annotationFile": "chapter62/chapter62-annotations.json",
+      "summaryFile": "chapter62/chapter62-summary.txt"
+    },
+    {
+      "id": "the-formulation-of-the-question",
+      "title": "The Formulation of the Question",
+      "textFile": "chapter63/chapter63.txt",
+      "annotationFile": "chapter63/chapter63-annotations.json",
+      "summaryFile": "chapter63/chapter63-summary.txt"
+    },
+    {
+      "id": "the-two-departments-of-social-production",
+      "title": "The Two Departments of Social Production",
+      "textFile": "chapter64/chapter64.txt",
+      "annotationFile": "chapter64/chapter64-annotations.json",
+      "summaryFile": "chapter64/chapter64-summary.txt"
+    },
+    {
+      "id": "exchange-between-the-two-departments-i-v-s-against-iic",
+      "title": "Exchange Between the Two Departments: I(v+s) against IIc",
+      "textFile": "chapter65/chapter65.txt",
+      "annotationFile": "chapter65/chapter65-annotations.json",
+      "summaryFile": "chapter65/chapter65-summary.txt"
+    },
+    {
+      "id": "exchange-within-department-ii-necessities-of-life-and-articles-of-luxury",
+      "title": "Exchange Within Department II. Necessities of Life and Articles of Luxury",
+      "textFile": "chapter66/chapter66.txt",
+      "annotationFile": "chapter66/chapter66-annotations.json",
+      "summaryFile": "chapter66/chapter66-summary.txt"
+    },
+    {
+      "id": "the-mediation-of-the-exchange-by-the-circulation-of-money",
+      "title": "The Mediation of the Exchange by the Circulation of Money",
+      "textFile": "chapter67/chapter67.txt",
+      "annotationFile": "chapter67/chapter67-annotations.json",
+      "summaryFile": "chapter67/chapter67-summary.txt"
+    },
+    {
+      "id": "simple-reproduction-part-2-of-4",
+      "title": "Simple Reproduction (Part 2 of 4)",
+      "textFile": "chapter68/chapter68.txt",
+      "annotationFile": "chapter68/chapter68-annotations.json",
+      "summaryFile": "chapter68/chapter68-summary.txt"
+    },
+    {
+      "id": "the-constant-capital-in-department-i",
+      "title": "The Constant Capital in Department I",
+      "textFile": "chapter69/chapter69.txt",
+      "annotationFile": "chapter69/chapter69-annotations.json",
+      "summaryFile": "chapter69/chapter69-summary.txt"
+    },
+    {
+      "id": "variable-capital-and-surplus-value-in-both-departments",
+      "title": "Variable Capital and Surplus-Value in Both Departments",
+      "textFile": "chapter70/chapter70.txt",
+      "annotationFile": "chapter70/chapter70-annotations.json",
+      "summaryFile": "chapter70/chapter70-summary.txt"
+    },
+    {
+      "id": "the-constant-capital-in-both-departments",
+      "title": "The Constant Capital in Both Departments",
+      "textFile": "chapter71/chapter71.txt",
+      "annotationFile": "chapter71/chapter71-annotations.json",
+      "summaryFile": "chapter71/chapter71-summary.txt"
+    },
+    {
+      "id": "a-retrospect-to-adam-smith-storch-and-ramsay",
+      "title": "A Retrospect to Adam Smith, Storch and Ramsay",
+      "textFile": "chapter72/chapter72.txt",
+      "annotationFile": "chapter72/chapter72-annotations.json",
+      "summaryFile": "chapter72/chapter72-summary.txt"
+    },
+    {
+      "id": "capital-and-revenue-variable-capital-and-wages",
+      "title": "Capital and Revenue: Variable Capital and Wages",
+      "textFile": "chapter73/chapter73.txt",
+      "annotationFile": "chapter73/chapter73-annotations.json",
+      "summaryFile": "chapter73/chapter73-summary.txt"
+    },
+    {
+      "id": "simple-reproduction-part-3-of-4",
+      "title": "Simple Reproduction (Part 3 of 4)",
+      "textFile": "chapter74/chapter74.txt",
+      "annotationFile": "chapter74/chapter74-annotations.json",
+      "summaryFile": "chapter74/chapter74-summary.txt"
+    },
+    {
+      "id": "replacement-of-the-fixed-capital",
+      "title": "Replacement of the Fixed Capital",
+      "textFile": "chapter75/chapter75.txt",
+      "annotationFile": "chapter75/chapter75-annotations.json",
+      "summaryFile": "chapter75/chapter75-summary.txt"
+    },
+    {
+      "id": "replacement-of-the-wear-and-tear-portion-of-the-value-in-the-form-of-money",
+      "title": "Replacement of the Wear and Tear Portion of the Value in the Form of Money",
+      "textFile": "chapter76/chapter76.txt",
+      "annotationFile": "chapter76/chapter76-annotations.json",
+      "summaryFile": "chapter76/chapter76-summary.txt"
+    },
+    {
+      "id": "replacement-of-fixed-capital-in-kind",
+      "title": "Replacement of Fixed Capital in Kind",
+      "textFile": "chapter77/chapter77.txt",
+      "annotationFile": "chapter77/chapter77-annotations.json",
+      "summaryFile": "chapter77/chapter77-summary.txt"
+    },
+    {
+      "id": "results",
+      "title": "Results",
+      "textFile": "chapter78/chapter78.txt",
+      "annotationFile": "chapter78/chapter78-annotations.json",
+      "summaryFile": "chapter78/chapter78-summary.txt"
+    },
+    {
+      "id": "simple-reproduction-part-4-of-4",
+      "title": "Simple Reproduction (Part 4 of 4)",
+      "textFile": "chapter79/chapter79.txt",
+      "annotationFile": "chapter79/chapter79-annotations.json",
+      "summaryFile": "chapter79/chapter79-summary.txt"
+    },
+    {
+      "id": "the-reproduction-of-the-money-material",
+      "title": "The Reproduction of the Money Material",
+      "textFile": "chapter80/chapter80.txt",
+      "annotationFile": "chapter80/chapter80-annotations.json",
+      "summaryFile": "chapter80/chapter80-summary.txt"
+    },
+    {
+      "id": "destutt-de-tracy-s-theory-of-reproduction",
+      "title": "Destutt de Tracy's Theory of Reproduction",
+      "textFile": "chapter81/chapter81.txt",
+      "annotationFile": "chapter81/chapter81-annotations.json",
+      "summaryFile": "chapter81/chapter81-summary.txt"
+    },
+    {
+      "id": "accumulation-and-reproduction-on-an-expanded-scale-part-1-of-2",
+      "title": "Accumulation and Reproduction on an Expanded Scale (part 1 of 2)",
+      "textFile": "chapter82/chapter82.txt",
+      "annotationFile": "chapter82/chapter82-annotations.json",
+      "summaryFile": "chapter82/chapter82-summary.txt"
+    },
+    {
+      "id": "accumulation-in-department-i",
+      "title": "Accumulation in Department I",
+      "textFile": "chapter83/chapter83.txt",
+      "annotationFile": "chapter83/chapter83-annotations.json",
+      "summaryFile": "chapter83/chapter83-summary.txt"
+    },
+    {
+      "id": "the-formation-of-a-hoard",
+      "title": "The Formation of a Hoard",
+      "textFile": "chapter84/chapter84.txt",
+      "annotationFile": "chapter84/chapter84-annotations.json",
+      "summaryFile": "chapter84/chapter84-summary.txt"
+    },
+    {
+      "id": "the-additional-constant-capital",
+      "title": "The Additional Constant Capital",
+      "textFile": "chapter85/chapter85.txt",
+      "annotationFile": "chapter85/chapter85-annotations.json",
+      "summaryFile": "chapter85/chapter85-summary.txt"
+    },
+    {
+      "id": "the-additional-variable-capital",
+      "title": "The Additional Variable Capital",
+      "textFile": "chapter86/chapter86.txt",
+      "annotationFile": "chapter86/chapter86-annotations.json",
+      "summaryFile": "chapter86/chapter86-summary.txt"
+    },
+    {
+      "id": "accumulation-in-department-ii",
+      "title": "Accumulation in Department II",
+      "textFile": "chapter87/chapter87.txt",
+      "annotationFile": "chapter87/chapter87-annotations.json",
+      "summaryFile": "chapter87/chapter87-summary.txt"
+    },
+    {
+      "id": "accumulation-and-reproduction-on-an-expanded-scale-part-2-of-2",
+      "title": "Accumulation and Reproduction on an Expanded Scale (part 2 of 2)",
+      "textFile": "chapter88/chapter88.txt",
+      "annotationFile": "chapter88/chapter88-annotations.json",
+      "summaryFile": "chapter88/chapter88-summary.txt"
+    },
+    {
+      "id": "schematic-presentation-of-accumulation",
+      "title": "Schematic Presentation of Accumulation",
+      "textFile": "chapter89/chapter89.txt",
+      "annotationFile": "chapter89/chapter89-annotations.json",
+      "summaryFile": "chapter89/chapter89-summary.txt"
+    },
+    {
+      "id": "first-illustration",
+      "title": "First Illustration",
+      "textFile": "chapter90/chapter90.txt",
+      "annotationFile": "chapter90/chapter90-annotations.json",
+      "summaryFile": "chapter90/chapter90-summary.txt"
+    },
+    {
+      "id": "second-illustration",
+      "title": "Second Illustration",
+      "textFile": "chapter91/chapter91.txt",
+      "annotationFile": "chapter91/chapter91-annotations.json",
+      "summaryFile": "chapter91/chapter91-summary.txt"
+    },
+    {
+      "id": "replacement-of-iic-in-accumulation",
+      "title": "Replacement of IIc, in Accumulation",
+      "textFile": "chapter92/chapter92.txt",
+      "annotationFile": "chapter92/chapter92-annotations.json",
+      "summaryFile": "chapter92/chapter92-summary.txt"
+    },
+    {
+      "id": "supplementary-remarks",
+      "title": "Supplementary Remarks",
+      "textFile": "chapter93/chapter93.txt",
+      "annotationFile": "chapter93/chapter93-annotations.json",
+      "summaryFile": "chapter93/chapter93-summary.txt"
+    }
+  ],
+  "shortDescription": "Edited by Friedrich Engels and published posthumously in 1885, Volume 2 examines the circulation of capital, turnover times, reproduction schemes, and macro-economic circuit dynamics.",
+  "subject": "Political Economy",
+  "tags": [
+    "Political Economy",
+    "Circulation",
+    "Reproduction Schemes",
+    "Macroeconomics",
+    "Karl Marx"
+  ],
+  "coverColor": "#2b2d42"
+}

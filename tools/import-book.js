@@ -105,14 +105,18 @@ async function main() {
   if (rawUrl.toLowerCase().endsWith('.htm') || rawUrl.toLowerCase().endsWith('.html')) {
     try {
       indexHtml = await fetchPage(rawUrl);
-      isSingleFile = true;
+      const filename = rawUrl.substring(rawUrl.lastIndexOf('/') + 1).toLowerCase();
+      if (!filename.startsWith('index.htm') && !filename.startsWith('index.html')) {
+        isSingleFile = true;
+      }
     } catch (err) {
       console.error(`Failed to fetch direct URL: ${err.message}`);
     }
   }
 
+  const baseUrl = rawUrl.substring(0, rawUrl.lastIndexOf('/') + 1);
+
   if (!indexHtml) {
-    const baseUrl = rawUrl.endsWith('/') ? rawUrl : rawUrl + '/';
     try {
       indexHtml = await fetchPage(baseUrl + 'index.htm');
     } catch (err) {
@@ -171,7 +175,6 @@ async function main() {
   console.log(`Parsed Metadata - Title: "${title}", Author: "${author}", Year: "${year}"`);
 
   let rawChapters = [];
-  const baseUrl = rawUrl.substring(0, rawUrl.lastIndexOf('/') + 1);
 
   if (isSingleFile) {
     // Check if the single file has H2 headers
@@ -242,10 +245,18 @@ async function main() {
       if (
         lowerHref.startsWith('index.htm') ||
         lowerHref.startsWith('index.html') ||
+        lowerHref.startsWith('index-l.htm') ||
         lowerHref.startsWith('guide.htm') ||
         lowerHref.startsWith('notes.htm') ||
         lowerHref.startsWith('study.htm') ||
-        lowerHref.includes('index.gif')
+        lowerHref.includes('index.gif') ||
+        lowerHref.endsWith('.pdf') ||
+        lowerHref.endsWith('.jpg') ||
+        lowerHref.endsWith('.jpeg') ||
+        lowerHref.endsWith('.png') ||
+        lowerHref.endsWith('.gif') ||
+        lowerHref.endsWith('.zip') ||
+        lowerHref.endsWith('.epub')
       ) {
         continue;
       }
