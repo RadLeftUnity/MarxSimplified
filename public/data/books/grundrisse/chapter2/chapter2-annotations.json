@@ -2,5 +2,13 @@
   {
     "targetText": "The quantity of discounted bills and the fluctuations in this quantity express the requirements of credit, whereas the quantity of money in circulation is determined by quite different influences.",
     "explanation": "Marx distinguishes between credit circulation and real money circulation, critiquing monetary reformist proposals that confuse credit requirements with general monetary supply."
+  },
+  {
+    "targetText": "Abolish money and don’t abolish money! Abolish the exclusive privilege possessed by gold and silver in virtue of their exclusive monetary role, but turn all commodities to money, i.e. give them all together equally a quality which no longer exists once its exclusiveness is gone.",
+    "explanation": "Marx critiques utopian socialists (like Proudhon) who wanted to eliminate gold money while preserving capitalist commodity exchange. Money exists because commodities need a single universal equivalent, so trying to make every product act directly as money creates a logical impossibility."
+  },
+  {
+    "targetText": "Can the existing relations of production and the relations of distribution which correspond to them be revolutionized by a change in the instrument of circulation, in the organization of circulation?",
+    "explanation": "Marx refutes monetary reformers who believe social inequality can be fixed by changing financial infrastructure or credit schemes. You cannot eliminate economic exploitation by tweaking currency while leaving private ownership intact."
   }
 ]

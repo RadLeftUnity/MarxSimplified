@@ -1,0 +1,84 @@
+{
+  "id": "what-is-to-be-done",
+  "title": "What Is To Be Done?",
+  "author": "V.I. Lenin",
+  "year": "1902",
+  "difficulty": "Medium-Hard",
+  "readingTime": "5.5 hours",
+  "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1901/witbd/",
+  "shortDescription": "Written by V.I. Lenin in late 1901 and published in 1902, this pivotal work argues for a disciplined, professional vanguard party to lead the working class beyond basic trade-union demands to full political consciousness.",
+  "context": "Published in early 1902 while Lenin was in exile, What Is To Be Done? responded to sharp debates within Russian Marxism. Lenin argued against 'Economism' (the idea that workers should focus only on economic wage demands) and advocated for a centralized, disciplined organization of professional revolutionaries capable of operating under secret police repression.",
+  "relatesToToday": "Lenin's insights remain central to modern political organizing and movement building:\n\n1. Spontaneity vs. Structure: Spontaneous protests can express outrage, but without long-term organization and political education, movements often fade without achieving lasting structural change.\n\n2. Single-Issue vs. Systemic Focus: Fighting only for small immediate reforms (like minor wage increases or individual policy tweaks) leaves the overall system intact unless connected to broader political transformation.\n\n3. Media as an Organizer: Lenin's idea of a nationwide newspaper as a 'collective organizer' maps directly onto modern digital media platforms and independent news outlets used to coordinate nationwide movements.",
+  "keyTakeaways": [
+    "Trade-union consciousness is not enough: Spontaneous worker struggles naturally focus on immediate economic gains (wages and working conditions), but political socialist consciousness must be developed through education and theory.",
+    "Without revolutionary theory, there can be no revolutionary movement: Sound theoretical understanding is essential to prevent movements from being co-opted by reformist compromises.",
+    "Need for professional organization: Operating against powerful state and corporate forces requires dedicated, disciplined organizers rather than loose, amateur circles.",
+    "The press as a collective organizer: An independent political publication serves as a scaffold that unifies local struggles into a coordinated national movement."
+  ],
+  "chapters": [
+    {
+      "id": "preface",
+      "title": "Preface",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "dogmatism-and-freedom-of-criticism",
+      "title": "Dogmatism And “Freedom of Criticism”",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-spontaneity-of-the-masses-and-the-consciousness-of-the-social-democrats",
+      "title": "The Spontaneity of the Masses and the Consciousness of the Social-Democrats",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "trade-unionist-politics-and-social-democratic-politics",
+      "title": "Trade-Unionist Politics And Social-Democratic Politics",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-primitiveness-of-the-economists-and-the-organization-of-the-revolutionaries",
+      "title": "The Primitiveness of the Economists and the Organization of the Revolutionaries",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-plan-for-an-all-russia-political-newspaper",
+      "title": "The “Plan” For an All-Russia Political Newspaper",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "appendix-the-attempt-to-unite-iskra-with-rabocheye-dyelo",
+      "title": "Appendix: The Attempt to Unite Iskra With Rabocheye Dyelo",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "correction-to-what-is-to-be-done",
+      "title": "Correction to What Is To Be Done?",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    }
+  ]
+}

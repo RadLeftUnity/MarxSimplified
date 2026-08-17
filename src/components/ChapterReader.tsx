@@ -1,4 +1,5 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { highlightJargon } from '../data/glossary';
 import { fuzzyFindInText } from '../utils/fuzzyMatch';
 
@@ -22,6 +23,73 @@ interface Segment {
   text: string;
   annotationId?: string;
 }
+
+const AnnotationHighlightWord: React.FC<{
+  segmentText: string;
+  annotationId: string;
+  summaryText: string;
+  isActive: boolean;
+  onSelectAnnotation: (id: string | null) => void;
+}> = ({ segmentText, annotationId, summaryText, isActive, onSelectAnnotation }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const [coords, setCoords] = useState<{ top: number; left: number; popDown: boolean } | null>(null);
+  const targetRef = useRef<HTMLSpanElement>(null);
+
+  const updatePosition = () => {
+    if (!targetRef.current) return;
+    const rect = targetRef.current.getBoundingClientRect();
+    const tooltipWidth = 300;
+    const halfWidth = tooltipWidth / 2;
+    const preferredLeft = rect.left + rect.width / 2;
+    const clampedLeft = Math.max(16 + halfWidth, Math.min(window.innerWidth - 16 - halfWidth, preferredLeft));
+
+    const popDown = rect.top < 220;
+    const top = popDown ? rect.bottom + 10 : rect.top - 10;
+
+    setCoords({ top, left: clampedLeft, popDown });
+  };
+
+  return (
+    <>
+      <span
+        ref={targetRef}
+        id={`annotation-highlight-${annotationId}`}
+        className={`annotation-highlight ${isActive ? 'active' : ''}`}
+        onClick={(e) => {
+          e.stopPropagation();
+          onSelectAnnotation(annotationId || null);
+        }}
+        onMouseEnter={() => {
+          updatePosition();
+          setIsHovered(true);
+        }}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {segmentText}
+      </span>
+      {isHovered && summaryText && coords && createPortal(
+        <div
+          className={`tooltip-balloon glass-panel portal-tooltip ${coords.popDown ? 'pop-down' : ''}`}
+          style={{
+            position: 'fixed',
+            top: coords.popDown ? `${coords.top}px` : 'auto',
+            bottom: !coords.popDown ? `${window.innerHeight - coords.top}px` : 'auto',
+            left: `${coords.left}px`,
+            transform: 'translateX(-50%)',
+            zIndex: 99999,
+            opacity: 1,
+            visibility: 'visible',
+            pointerEvents: 'none',
+          }}
+        >
+          <span className="tooltip-balloon-label">Meaning:</span>
+          {summaryText}
+        </div>,
+        document.body
+      )}
+    </>
+  );
+};
 
 export const ChapterReader: React.FC<ChapterReaderProps> = ({
   title,
@@ -116,34 +184,14 @@ export const ChapterReader: React.FC<ChapterReaderProps> = ({
                 const ann = annotations.find((a) => (a.id || '') === seg.annotationId);
                 const summaryText = ann ? (ann.summary || (ann as any).explanation || '') : '';
                 return (
-                  <span
+                  <AnnotationHighlightWord
                     key={segIdx}
-                    id={`annotation-highlight-${seg.annotationId}`}
-                    className={`annotation-highlight ${isActive ? 'active' : ''}`}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onSelectAnnotation(seg.annotationId || null);
-                    }}
-                    onMouseEnter={(e) => {
-                      const rect = e.currentTarget.getBoundingClientRect();
-                      const balloon = e.currentTarget.querySelector('.tooltip-balloon');
-                      if (balloon) {
-                        if (rect.top < 210) {
-                          balloon.classList.add('pop-down');
-                        } else {
-                          balloon.classList.remove('pop-down');
-                        }
-                      }
-                    }}
-                  >
-                    {seg.text}
-                    {summaryText && (
-                      <span className="tooltip-balloon">
-                        <span className="tooltip-balloon-label">Meaning:</span>
-                        {summaryText}
-                      </span>
-                    )}
-                  </span>
+                    segmentText={seg.text}
+                    annotationId={seg.annotationId}
+                    summaryText={summaryText}
+                    isActive={isActive}
+                    onSelectAnnotation={onSelectAnnotation}
+                  />
                 );
               }
               return <span key={segIdx}>{highlightJargon(seg.text)}</span>;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { glossary, getTermSlug } from '../data/glossary';
 import type { GlossaryTerm, TheoryTag } from '../data/glossary';
-import { Sparkles, HelpCircle, Lightbulb, BookOpen, Link as LinkIcon, Check, Tag } from 'lucide-react';
+import { Sparkles, HelpCircle, Lightbulb, BookOpen, Link as LinkIcon, Check, Tag, Search, X } from 'lucide-react';
 
 const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
   'All',
@@ -15,11 +15,24 @@ export const Glossary: React.FC = () => {
   const [targetSlug, setTargetSlug] = useState<string | null>(null);
   const [copiedSlug, setCopiedSlug] = useState<string | null>(null);
   const [selectedTheory, setSelectedTheory] = useState<'All' | TheoryTag>('All');
+  const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Filter glossary by selected theory
+  // Filter glossary by selected theory and search query
   const filteredGlossary = glossary.filter((item) => {
-    if (selectedTheory === 'All') return true;
-    return item.theoryTags?.includes(selectedTheory);
+    if (selectedTheory !== 'All' && !item.theoryTags?.includes(selectedTheory)) {
+      return false;
+    }
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      const matchTerm = item.term.toLowerCase().includes(q);
+      const matchDef = item.definition.toLowerCase().includes(q);
+      const matchEx = item.dayToDayExample.toLowerCase().includes(q);
+      const matchMisc = item.misconception?.toLowerCase().includes(q) ?? false;
+      const matchPattern = item.pattern.toLowerCase().includes(q);
+      const matchTags = item.theoryTags?.some((t) => t.toLowerCase().includes(q)) ?? false;
+      return matchTerm || matchDef || matchEx || matchMisc || matchPattern || matchTags;
+    }
+    return true;
   });
 
   // Sort glossary alphabetically by term
@@ -100,9 +113,30 @@ export const Glossary: React.FC = () => {
         </div>
       </section>
 
-      {/* Filter by Theory Sub-school */}
+      {/* Search & Filter Bar */}
       <section className="glossary-filter-bar glass-panel">
-        <div className="filter-bar-header">
+        <div className="glossary-search-box">
+          <Search className="library-search-icon" />
+          <input
+            type="text"
+            className="library-search-input"
+            placeholder="Search glossary by term, definition, example, or keywords..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            id="glossary-search-input"
+          />
+          {searchQuery && (
+            <button
+              className="glossary-search-clear-btn"
+              onClick={() => setSearchQuery('')}
+              title="Clear search"
+            >
+              <X className="btn-small-icon" />
+            </button>
+          )}
+        </div>
+
+        <div className="filter-bar-header" style={{ marginTop: '16px' }}>
           <Tag className="filter-icon" />
           <span>Filter by Theoretical Framework:</span>
         </div>
@@ -120,28 +154,40 @@ export const Glossary: React.FC = () => {
       </section>
 
       {/* Alphabet Jumping Menu */}
-      <nav className="glossary-alphabet-menu glass-panel">
-        <span className="alphabet-label">Jump to:</span>
-        <div className="alphabet-links">
-          {alphabet.map((letter) => (
-            <button
-              key={letter}
-              onClick={() => handleScrollToSection(letter)}
-              className="alphabet-link-btn"
-            >
-              {letter}
-            </button>
-          ))}
-        </div>
-      </nav>
+      {alphabet.length > 0 && (
+        <nav className="glossary-alphabet-menu glass-panel">
+          <span className="alphabet-label">Jump to:</span>
+          <div className="alphabet-links">
+            {alphabet.map((letter) => (
+              <button
+                key={letter}
+                onClick={() => handleScrollToSection(letter)}
+                className="alphabet-link-btn"
+              >
+                {letter}
+              </button>
+            ))}
+          </div>
+        </nav>
+      )}
 
       {/* Glossary List */}
       <main className="glossary-sections-container">
         {alphabet.length === 0 ? (
-          <div className="glossary-empty-state glass-panel">
-            <p>No terms found for the selected framework: "{selectedTheory}".</p>
-            <button className="reset-filter-btn" onClick={() => setSelectedTheory('All')}>
-              Show All Terms
+          <div className="glossary-empty-state glass-panel" style={{ textAlign: 'center', padding: '40px 20px' }}>
+            <h3>No matching glossary terms found</h3>
+            <p style={{ margin: '8px 0 16px', color: 'var(--text-secondary)' }}>
+              No terms match your current search "{searchQuery}" or active theoretical framework filter.
+            </p>
+            <button
+              className="nav-footer-btn"
+              onClick={() => {
+                setSearchQuery('');
+                setSelectedTheory('All');
+              }}
+              style={{ margin: '0 auto' }}
+            >
+              Reset Search & Filters
             </button>
           </div>
         ) : (

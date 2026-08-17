@@ -1,7 +1,7 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { BookCard } from '../components/BookCard';
 import type { Book } from '../components/BookCard';
-import { Search, BookOpen, GraduationCap, RotateCcw } from 'lucide-react';
+import { Search, BookOpen, GraduationCap, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface LibraryProps {
   books: Book[];
@@ -9,12 +9,15 @@ interface LibraryProps {
   progressMap: Record<string, 'not-started' | 'reading' | 'completed'>;
 }
 
+const BOOKS_PER_PAGE = 6;
+
 export const Library: React.FC<LibraryProps> = ({ books, onSelectBook, progressMap }) => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [filterAuthor, setFilterAuthor] = useState<string>('All');
   const [filterYear, setFilterYear] = useState<string>('All');
   const [filterTag, setFilterTag] = useState<string>('All');
   const [filterDifficulty, setFilterDifficulty] = useState<string>('All');
+  const [currentPage, setCurrentPage] = useState<number>(1);
 
   // Dynamically extract unique filter options
   const authors = useMemo(() => {
@@ -79,6 +82,18 @@ export const Library: React.FC<LibraryProps> = ({ books, onSelectBook, progressM
       return true;
     });
   }, [books, searchQuery, filterAuthor, filterYear, filterTag, filterDifficulty]);
+
+  // Reset to page 1 whenever any filter or search query changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, filterAuthor, filterYear, filterTag, filterDifficulty]);
+
+  const totalPages = Math.max(1, Math.ceil(filteredBooks.length / BOOKS_PER_PAGE));
+
+  const paginatedBooks = useMemo(() => {
+    const start = (currentPage - 1) * BOOKS_PER_PAGE;
+    return filteredBooks.slice(start, start + BOOKS_PER_PAGE);
+  }, [filteredBooks, currentPage]);
 
   const hasActiveFilters =
     searchQuery.trim() !== '' ||
@@ -228,16 +243,66 @@ export const Library: React.FC<LibraryProps> = ({ books, onSelectBook, progressM
             </button>
           </div>
         ) : (
-          <div className="library-grid">
-            {filteredBooks.map((book) => (
-              <BookCard
-                key={book.id}
-                book={book}
-                progress={progressMap[book.id] || 'not-started'}
-                onSelect={onSelectBook}
-              />
-            ))}
-          </div>
+          <>
+            <div className="library-grid">
+              {paginatedBooks.map((book) => (
+                <BookCard
+                  key={book.id}
+                  book={book}
+                  progress={progressMap[book.id] || 'not-started'}
+                  onSelect={onSelectBook}
+                />
+              ))}
+            </div>
+
+            {filteredBooks.length > BOOKS_PER_PAGE && (
+              <div className="pagination-wrapper glass-panel">
+                <span className="pagination-info">
+                  Showing <strong>{(currentPage - 1) * BOOKS_PER_PAGE + 1}</strong> – <strong>{Math.min(currentPage * BOOKS_PER_PAGE, filteredBooks.length)}</strong> of <strong>{filteredBooks.length}</strong> volumes
+                </span>
+                <div className="pagination-controls">
+                  <button
+                    className="pagination-btn nav-btn"
+                    disabled={currentPage === 1}
+                    onClick={() => {
+                      setCurrentPage((p) => Math.max(1, p - 1));
+                      window.scrollTo({ top: 250, behavior: 'smooth' });
+                    }}
+                    id="pagination-prev-btn"
+                  >
+                    <ChevronLeft className="btn-icon" /> Prev
+                  </button>
+
+                  <div className="pagination-pages">
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+                      <button
+                        key={pageNum}
+                        className={`pagination-num-btn ${currentPage === pageNum ? 'active' : ''}`}
+                        onClick={() => {
+                          setCurrentPage(pageNum);
+                          window.scrollTo({ top: 250, behavior: 'smooth' });
+                        }}
+                      >
+                        {pageNum}
+                      </button>
+                    ))}
+                  </div>
+
+                  <button
+                    className="pagination-btn nav-btn"
+                    disabled={currentPage === totalPages}
+                    onClick={() => {
+                      setCurrentPage((p) => Math.min(totalPages, p + 1));
+                      window.scrollTo({ top: 250, behavior: 'smooth' });
+                    }}
+                    id="pagination-next-btn"
+                  >
+                    Next <ChevronRight className="btn-icon" />
+                  </button>
+                </div>
+              </div>
+            )}
+          </>
         )}
       </main>
     </div>
