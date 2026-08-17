@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowLeft, BookOpen, Key, History, ChevronRight, ExternalLink, Sparkles } from 'lucide-react';
+import { FormattedText } from '../components/FormattedText';
 
 export interface Chapter {
   id: string;
@@ -99,7 +100,7 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
             <h3 className="card-section-title">
               <History className="card-section-icon text-crimson" /> Historical Context
             </h3>
-            <p className="context-text-paragraph">{book.context}</p>
+            <FormattedText text={book.context} paragraphClassName="context-text-paragraph" />
           </section>
 
           <section className="summary-card glass-panel">
@@ -110,7 +111,9 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
               {book.keyTakeaways.map((takeaway, idx) => (
                 <li key={idx} className="takeaway-item">
                   <span className="takeaway-bullet">✦</span>
-                  <span className="takeaway-text">{takeaway}</span>
+                  <div className="takeaway-text">
+                    <FormattedText text={takeaway} />
+                  </div>
                 </li>
               ))}
             </ul>
@@ -121,7 +124,7 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
               <h3 className="card-section-title">
                 <BookOpen className="card-section-icon" style={{ color: 'var(--accent)' }} /> How This Relates to Today
               </h3>
-              <p className="context-text-paragraph">{book.relatesToToday}</p>
+              <FormattedText text={book.relatesToToday} paragraphClassName="context-text-paragraph" />
             </section>
           )}
         </div>
