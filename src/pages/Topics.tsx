@@ -2,13 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Loader2 } from 'lucide-react';
 import { fetchCachedTopicIndex } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
-<<<<<<< Updated upstream
-import { highlightJargon } from '../data/glossary';
-=======
 import { FormattedText } from '../components/FormattedText';
 import { getAuthorImageUrl } from '../utils/authorImage';
-
->>>>>>> Stashed changes
 
 interface TopicsProps {
   initialTopic?: string | null;
@@ -207,21 +202,6 @@ export const Topics: React.FC<TopicsProps> = ({
                             </button>
                           </div>
 
-<<<<<<< Updated upstream
-                        <div className="topic-card-section summary-section">
-                          <span className="section-label summary-label">
-                            <Sparkles className="section-icon" /> Simplified Meaning
-                          </span>
-                          <p className="simplified-text">{highlightJargon(ann.summary)}</p>
-                        </div>
-
-                        {ann.context && (
-                          <div className="topic-card-section context-section">
-                            <span className="section-label context-label">
-                              <History className="section-icon" /> Historical Context
-                            </span>
-                            <p className="context-text">{highlightJargon(ann.context)}</p>
-=======
                           <div className="topic-card-section quote-section">
                             <span className="section-label">
                               <MessageCircle className="section-icon" /> Target Text
@@ -229,7 +209,6 @@ export const Topics: React.FC<TopicsProps> = ({
                             <blockquote className="original-quote">
                               {ann.targetText}
                             </blockquote>
->>>>>>> Stashed changes
                           </div>
 
                           <div className="topic-card-section summary-section">

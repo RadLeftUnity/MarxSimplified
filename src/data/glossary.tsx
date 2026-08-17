@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { HelpCircle, Sparkles, Lightbulb, Tag } from 'lucide-react';
+import { FormattedText } from '../components/FormattedText';
+
 
 export type TheoryTag = 
   | 'Classical Marxism' 
@@ -92,17 +94,17 @@ export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> 
             </div>
           )}
 
-          <p className="jargon-def-text">{matchingTerm.definition}</p>
+          <FormattedText text={matchingTerm.definition} paragraphClassName="jargon-def-text" highlightJargon={false} />
 
           <span className="jargon-example-label">
             <Lightbulb className="section-icon text-amber" /> Day-to-day Example
           </span>
-          <p className="jargon-example-text">{matchingTerm.dayToDayExample}</p>
+          <FormattedText text={matchingTerm.dayToDayExample} paragraphClassName="jargon-example-text" highlightJargon={false} />
 
           <span className="jargon-misconception-label">
             <HelpCircle className="section-icon text-crimson" /> Common Misconception
           </span>
-          <p className="jargon-misconception-text">{matchingTerm.misconception}</p>
+          <FormattedText text={matchingTerm.misconception} paragraphClassName="jargon-misconception-text" highlightJargon={false} />
         </div>,
         document.body
       )}
