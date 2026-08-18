@@ -248,9 +248,9 @@ In the older capitalist countries this "banking network" is
  than 400 branches each (from 447 to 689); four had more than
  200 branches each, and eleven more than 100 each.
 
-In France, three very big banks, Cr&eacute;dit
- Lyonnais, the Comptoir National and the Soci&eacute;t&eacute;
- G&eacute;n&eacute;rale extended their operations and their
+In France, three very big banks, Crédit
+ Lyonnais, the Comptoir National and the Société
+ Générale extended their operations and their
  network of branches in the following
 manner.[5]
 
@@ -314,7 +314,7 @@ dispatched
  533,102
  626,043
 
-The number of accounts of the big Paris bank, the Cr&eacute;dit
+The number of accounts of the big Paris bank, the Crédit
  Lyonnais, increased from 28,535 in 1875 to 633,539 in
 1912.[6]
 
@@ -718,9 +718,9 @@ etc.[19]
 
 We find the same system only in a slightly different form in
  French banking. For instance, one of the three biggest French
- banks, the Cr&eacute;dit Lyonnais, has organised a financial
- research service (service des &eacute;tudes
- financi&egrave;res), which permanently employs over fifty
+ banks, the Crédit Lyonnais, has organised a financial
+ research service (service des études
+ financières), which permanently employs over fifty
  engineers, statisticians, economists, lawyers, etc. This costs
  from six to seven hundred thousand francs annually. The service
  is in turn divided into eight departments: one specialises in
@@ -861,20 +861,20 @@ Notes
 [1]
 
 Alfred
- Lansburgh, "F&uuml;nf Jahre deutsches Bankwesen" in Die
+ Lansburgh, "Fünf Jahre deutsches Bankwesen" in Die
  Bank, 1913, No. 8.
 ; Lenin
 
 [2]
 
 Schulze-Gaevernitz, "Die deutsche Kreditbank" in "Grundriss
- der Sozial&ouml;konomik", T&uuml;bingen, 1915, 137.
+ der Sozialökonomik", Tübingen, 1915, 137.
 ; Lenin
 
 [3]
 
 R. Liefmann, Beteilgungs- und Finanzierungsgesellschaften.
- Eine Studie &uuml;ber den modernen Kapitalismus und das
+ Eine Studie über den modernen Kapitalismus und das
  Effektenwesen, I., Jena, 1909, 212.
 ; Lenin
 
@@ -888,14 +888,14 @@ Alfred
 [5]
 
 Eugen
- Kaufmann, Das franz&ouml;sische Bankwesen,
- T&uuml;bingen, 1911, 356 and 362
+ Kaufmann, Das französische Bankwesen,
+ Tübingen, 1911, 356 and 362
 ; Lenin
 
 [6]
 
 Jean
- Lescure, L'&eacute;pargne en France, Paris, 1914,
+ Lescure, L'épargne en France, Paris, 1914,
  p. 52.
 ; Lenin
 
@@ -935,7 +935,7 @@ Dr. Oscar Stillich, Geld- und Bankwesen, Berlin, 1907,
 [13]
 
 Schulze-Gaevernitz, "Die deutsche Kreditbank" in Grundriss
- der Sozial&ouml;konomik, T&uuml;bingen, 1915, S. 101
+ der Sozialökonomik, Tübingen, 1915, S. 101
 ; Lenin
 
 [14]
@@ -946,7 +946,7 @@ Riesser, op. cit., 4th ed., S 629.
 [15]
 
 Schulze-Gaevernitz, "Die deutsche Kreditbank" in Grundriss
- der Sozial&ouml;konomik, T&uuml;bingen, 1915, S. 151
+ der Sozialökonomik, Tübingen, 1915, S. 151
 ; Lenin
 
 [16]
@@ -1007,12 +1007,7 @@ I. CONCENTRATION OF PRODUCTION AND MONOPOLIES
 
 III. FINANCE CAPITAL AND THE FINANCIAL OLIGARCHY
 
- <
- backward
-
- Contents
-
- forward >
+ 
 
  Works
  Index | 

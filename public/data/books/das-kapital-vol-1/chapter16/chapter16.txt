@@ -243,11 +243,11 @@ pivot makers, planteur de finissage (puts the wheels and springs in the
 works), finisseur de barillet (cuts teeth in the wheels, makes the holes
 of the right size, &c.), escapement makers, cylinder makers for cylinder
 escapements, escapement wheel makers, balance wheel makers, raquette makers
-(apparatus for regulating the watch), the planteur d'&eacute;chappement
+(apparatus for regulating the watch), the planteur d'échappement
 (escapement maker proper); then the repasseur de barillet (finishes the
 box for the spring, &c.), steel polishers, wheel polishers, screw polishers,
 figure painters, dial enamellers (melt the enamel on the copper), fabricant
-de pendants (makes the ring by which the case is hung), finisseur de charni&egrave;re
+de pendants (makes the ring by which the case is hung), finisseur de charnière
 (puts the brass hinge in the cover, &c.), faiseur de secret (puts in
 the springs that open the case), graveur, ciseleur, polisseur de bo�te,
 &c., &c., and last of all the repasseur, who fits together the
@@ -259,7 +259,7 @@ diverse elements makes it, as well in this case as in the case of all similar
 finished articles, a matter of chance whether the detail labourers are
 brought together in one workshop or not. The detail operations may further
 be carried on like so many independent handicrafts, as they are in the
-Cantons of Vaud and Neufch&acirc;tel; while in Geneva there exist large
+Cantons of Vaud and Neufchâtel; while in Geneva there exist large
 watch manufactories where the detail labourers directly co-operate under
 the control of a single capitalist. And even in the latter case the dial, the springs, and the case, are seldom made in the factory itself. To carry
 on the trade as a manufacture, with concentration of workmen, is, in the
@@ -270,7 +270,7 @@ permits but little use of the instruments of labour in common, and the
 capitalist, by scattering the work, saves the outlay on workshops,
 &c. [7] Nevertheless the position of this detail
 labourer who, though he works at home, does so for a capitalist (manufacturer,
-&eacute;tablisseur), is very different from that of the independent artificer,
+établisseur), is very different from that of the independent artificer,
 who works for his own customers. [8]
 
 The second kind of manufacture, its perfected form, produces articles
@@ -945,17 +945,17 @@ same principle laid on the dominion of capital, fall away.
 
 Footnotes
 
-1. To give a more modern instance: The silk spinning and weaving of Lyon and N&icirc;mes "est toute patriarcale; elle
-emploie beaucoup de femmes et d'enfants, mais sans les &eacute;puiser ni
-les corrompre; elle les laisse dans leur belles valises de la Dr&ocirc;me,
-du Var, de l'Is&egrave;re, de Vaucluse, pour y &eacute;lever des vers et
-d&eacute;vider leurs cocons; jamais elle n'entre dans une v&eacute;ritable
-fabrique. Pour &ecirc;tre aussi bien observ� ... le principe de la division
-du travail s'y rev&ecirc;t d'un caract&egrave;re sp&eacute;cial. Il y a
-bien des d&eacute;videuses, des moulineurs, des teinturiers, des encolleurs,
-puis des tisserands; mais ils ne sont pas r&eacute;unis dans un m&ecirc;me
-&eacute;tablissement, ne d&eacute;pendent pas d'un m&ecirc;me ma&icirc;tre,
-tous ils sont ind&eacute;pendants" [... is entirely patriarchal; it employs a large number of women and children, but without exhausting or ruining them; it allows them to stay in their beautiful valleys of the Dr&ocirc;me, the Var, the Is&egrave;re, the Vaucluse, cultuvating their silkworms and unwinding their cocoons; it never becomes a true factory industry. However, the principle of the division of labour takes on a special character here. There do indeed exist winders, throwsters. dyers, sizers, and finally weavers; but they are not assembled in the same workshop, nor are they dependent on a single master; they are all independent] (A. Blanqui: "Cours, d'Econ. Industrielle." 
+1. To give a more modern instance: The silk spinning and weaving of Lyon and Nîmes "est toute patriarcale; elle
+emploie beaucoup de femmes et d'enfants, mais sans les épuiser ni
+les corrompre; elle les laisse dans leur belles valises de la Drôme,
+du Var, de l'Isère, de Vaucluse, pour y élever des vers et
+dévider leurs cocons; jamais elle n'entre dans une véritable
+fabrique. Pour être aussi bien observ� ... le principe de la division
+du travail s'y revêt d'un caractère spécial. Il y a
+bien des dévideuses, des moulineurs, des teinturiers, des encolleurs,
+puis des tisserands; mais ils ne sont pas réunis dans un même
+établissement, ne dépendent pas d'un même maître,
+tous ils sont indépendants" [... is entirely patriarchal; it employs a large number of women and children, but without exhausting or ruining them; it allows them to stay in their beautiful valleys of the Drôme, the Var, the Isère, the Vaucluse, cultuvating their silkworms and unwinding their cocoons; it never becomes a true factory industry. However, the principle of the division of labour takes on a special character here. There do indeed exist winders, throwsters. dyers, sizers, and finally weavers; but they are not assembled in the same workshop, nor are they dependent on a single master; they are all independent] (A. Blanqui: "Cours, d'Econ. Industrielle." 
 Recueilli par A. Blaise. Paris, 1838-39, p. 79.) Since Blanqui wrote this,
 the various independent labourers have, to some extent, been united in
 factories. [And since Marx wrote the above, the power-loom has invaded
@@ -995,7 +995,7 @@ may, on the whole, be of one shape; but an implement destined to be used
 exclusively in one way must have a different shape for every different
 use." 
 
-7. In the year 1854 Geneva produced 80,000 watches, which is not one-fifth of the production in the Canton of Neufch&acirc;tel. La Chaux-de-Fond alone, which we may look upon as a huge watch manufactory,
+7. In the year 1854 Geneva produced 80,000 watches, which is not one-fifth of the production in the Canton of Neufchâtel. La Chaux-de-Fond alone, which we may look upon as a huge watch manufactory,
 produces yearly twice as many as Geneva. From 1850-61 Geneva produced 720,000
 watches. See "Report from Geneva on the Watch Trade" in "Reports by H.
 M.'s Secretaries of Embassy and Legation on the Manufactures, Commerce,
@@ -1054,7 +1054,7 @@ and J. Vanderlint, not to mention others.
 
 18. The whole history of the development of machinery can be traced in the history of the corn mill. The factory
 in England is still a "mill." In German technological works of the first
-decade of this century, the term "M&uuml;hle" is still found in use, not
+decade of this century, the term "Mühle" is still found in use, not
 only for all machinery driven by the forces of Nature, but also for all
 manufactures where apparatus in the nature of machinery is applied.
 
@@ -1103,16 +1103,16 @@ of labour into degrees of skill," &c. (Ure, l.c., pp. 19-23 passim.)
 25. "Division of labour proceeds from the separation of professions the most widely different to that division,
 where several labourers divide between them the preparation of one and
 the same product, as in manufacture." (Storch: "Cours d'Econ. Pol.," Paris
-Edn. t. I., p. 173.) "Nous rencontrons chez les peuples parvenus &agrave;
-un certain degr&eacute; de civilisation trois genres de divisions d'industrie:
-la premi&egrave;re, que nous nommerons g&eacute;n&eacute;rale, am&egrave;ne
-la distinction des producteurs en agriculteurs, manufacturiers et commer&ccedil;ants,
+Edn. t. I., p. 173.) "Nous rencontrons chez les peuples parvenus à
+un certain degré de civilisation trois genres de divisions d'industrie:
+la première, que nous nommerons générale, amène
+la distinction des producteurs en agriculteurs, manufacturiers et commerçants,
 elle se rapporte aux trois principales branches d'industrie nationale;
-la seconde qu'on pourrait appeler sp&eacute;ciale, est la division de
-chaque genre d'industrie en esp&egrave;ces ... la troisi&egrave;me division
+la seconde qu'on pourrait appeler spéciale, est la division de
+chaque genre d'industrie en espèces ... la troisième division
 d'industrie, celle enfin qu'on devrait qualifier de division de la besogne
-on de travail proprement dit, est celle qui s'&eacute;tablit dans les arts
-et les m&eacute;tiers s&eacute;par&eacute;s ... qui s'&eacute;tablit dans
+on de travail proprement dit, est celle qui s'établit dans les arts
+et les métiers séparés ... qui s'établit dans
 la plupart des manufactures et des ateliers." [Among peoples which have reached a certain level of civilisation, we meet with three kinds of division of labour: the first, which we shall call general, brings about the division of the producers into agriculturalists, manufacturers, and traders, it corresponds to the three main branches of the nation's labour; the second, which one could call particular, is the division of labour of each branch into species. ... The third division of labour, which one could designate as a division of tasks, or of labour properly so called, is that which grows up in the individual crafts and trades ... which is established in the majority of the manufactories and workshops] (Skarbek, l.c., pp. 84,
 85.)
 
@@ -1146,7 +1146,7 @@ importation from another.
 particular places, where they are only or principally manufactured; fine
 cloths in Somersetshire, coarse in Yorkshire, long ells at Exeter, soies
 at Sudbury, crapes at Norwich, linseys at Kendal, blankets at Whitney,
-and so forth." (Berkeley: "The Querist," 1751, &sect; 520.)
+and so forth." (Berkeley: "The Querist," 1751, § 520.)
 
 32. A. Ferguson: "History of Civil Society." Edinburgh, 1767; Part iv, sect. ii., p. 285.
 
@@ -1189,8 +1189,8 @@ articles," a name they deserve, for being an assemblage of taxes. Thus
 the umbrella "assembles," first, 6% on the price of each of its elements,
 and a further 6% on its own total price.
 
-36. "On peut... &eacute;tablir en r&egrave;gle g&eacute;n&eacute;rale, que moins l'autorit&eacute; pr&eacute;side &agrave; la division du travail dans l'int&eacute;rieur de la soci&eacute;t&eacute;, plus la division du travail se d&eacute;veloppe dans l'int&eacute;rieur
-de l'atelier, et plus elle y est soumise &agrave; l'autorit&eacute; d'un seul. Ainsi l'autorit&eacute; dans l'atelier et celle dans la soci&eacute;t&eacute;, par rapport &agrave; la division du travail, sont en raison inverse l'une de l'autre." [It can ... be laid down as a general rule that the less authority presides over the division of labour inside society, the more the division of labour develops inside the workshop, and the more it is subjected there to the authority of a single person. Thus authority in the workshop and authority in society in relation to the division of labour, are in inverse ratio to each other] (Karl Marx, "Mis&egrave;re," &c., pp. 130-131.)
+36. "On peut... établir en règle générale, que moins l'autorité préside à la division du travail dans l'intérieur de la société, plus la division du travail se développe dans l'intérieur
+de l'atelier, et plus elle y est soumise à l'autorité d'un seul. Ainsi l'autorité dans l'atelier et celle dans la société, par rapport à la division du travail, sont en raison inverse l'une de l'autre." [It can ... be laid down as a general rule that the less authority presides over the division of labour inside society, the more the division of labour develops inside the workshop, and the more it is subjected there to the authority of a single person. Thus authority in the workshop and authority in society in relation to the division of labour, are in inverse ratio to each other] (Karl Marx, "Misère," &c., pp. 130-131.)
 
 37. Lieut.-Col. Mark Wilks: "Historical Sketches of the South of India." Lond., 1810-17, v. I., pp. 118-20. A good
 description of the various forms of the Indian communities is to be found
@@ -1215,15 +1215,15 @@ on a large scale.... The more the division increases, the more does the
 constant employment of a given number of labourers require a greater outlay
 of capital in tools, raw material, &c." (Storch: "Cours d'Econ. Polit." 
 Paris Ed., t. I., pp. 250, 251.) "La concentration des instruments de production
-et la division du travail sont aussi ins&eacute;parables l'une de l'autre
-que le sont, dans le r&eacute;gime politique, la concentration des pouvoirs
-publics et la division des int&eacute;r&ecirc;ts priv&eacute;s." [The concentration of the instruments of production and the division of labour are as inseparable one from the other, as are, in the political sphere, the concentration of public powers and the division of private interests.] (Karl Marx, l.c., p. 134.)
+et la division du travail sont aussi inséparables l'une de l'autre
+que le sont, dans le régime politique, la concentration des pouvoirs
+publics et la division des intérêts privés." [The concentration of the instruments of production and the division of labour are as inseparable one from the other, as are, in the political sphere, the concentration of public powers and the division of private interests.] (Karl Marx, l.c., p. 134.)
 
 40. Dugald Stewart calls manufacturing labourers "living automatons ... employed in the details of the work." (I. c., p. 318.)
 
 41. In corals, each individual is, in fact, the stomach of the whole group; but it supplies the group with nourishment, instead of, like the Roman patrician, withdrawing it.
 
-42. "L'ouvrier qui porte dans ses bras tout un m&eacute;tier, peut aller partout exercer son industrie et trouver des moyens de subsister: l'autre (the manufacturing labourer) n'est qu'un accessoire qui, s&eacute;par&eacute; de ses confr&egrave;res, n'a plus ni capacit&eacute;, ni ind&eacute;pendance, et qui se trouve force d'accepter la loi qu'on juge &agrave; propos de lui imposer." [The worker who is the master of a whole craft can work and find the means of subsistence anywhere; the other (the manufacturing labourer) is only an appendage who, when he is separated from his fellows, possesses neither capability nor independence, and finds himself forced to accept any law it is thought fit to impose] (Storch, l.c., Petersb. edit., 1815, t. I., p. 204.)
+42. "L'ouvrier qui porte dans ses bras tout un métier, peut aller partout exercer son industrie et trouver des moyens de subsister: l'autre (the manufacturing labourer) n'est qu'un accessoire qui, séparé de ses confrères, n'a plus ni capacité, ni indépendance, et qui se trouve force d'accepter la loi qu'on juge à propos de lui imposer." [The worker who is the master of a whole craft can work and find the means of subsistence anywhere; the other (the manufacturing labourer) is only an appendage who, when he is separated from his fellows, possesses neither capability nor independence, and finds himself forced to accept any law it is thought fit to impose] (Storch, l.c., Petersb. edit., 1815, t. I., p. 204.)
 
 43. A. Ferguson, l.c., p. 281: "The former may have gained what the other has lost." 
 
@@ -1244,7 +1244,7 @@ effects of division of labour, Adam Smith was perfectly clear on this point.
 In the introduction to his work, where he ex professo praises division
 of labour, he indicates only in a cursory manner that it is the source
 of social inequalities. It is not till the 5th Book, on the Revenue of
-the State, that he reproduces Ferguson. In my "Mis&egrave;re de la Philosophie," 
+the State, that he reproduces Ferguson. In my "Misère de la Philosophie," 
 I have sufficiently explained the historical connexion between Ferguson,
 A. Smith, Lemontey, and Say, as regards their criticisms of Division of
 Labour, and have shown, for the first time, that Division of Labour as
@@ -1257,13 +1257,13 @@ peculiar craft."
 49. G. Garnier, vol. V. of his translation of A. Smith, pp. 4-5.
 
 50. Ramazzini, professor of practical medicine at Padua, published in 1713 his work "De morbis artificum," which
-was translated into French 1781, reprinted 1841 in the "Encyclop&eacute;die
-des Sciences M&eacute;dicales. 7me Dis. Auteurs Classiques." The period
+was translated into French 1781, reprinted 1841 in the "Encyclopédie
+des Sciences Médicales. 7me Dis. Auteurs Classiques." The period
 of Modern Mechanical Industry has, of course, very much enlarged his catalogue
-of labour's diseases. See "Hygi&egrave;ne physique et morale de l'ouvrier
-dans les grandes villes en g&eacute;n&eacute;ral et dans la ville de Lyon
+of labour's diseases. See "Hygiène physique et morale de l'ouvrier
+dans les grandes villes en général et dans la ville de Lyon
 en particulier. Par le Dr. A. L. Fonteret, Paris, 1858," and "Die Krankheiten,
-welche verschiednen St&auml;nden, Altern und Geschlechtern eigenth&uuml;mlich
+welche verschiednen Ständen, Altern und Geschlechtern eigenthümlich
 sind. 6 Vols. Ulm, 1860," and others. In 1854 the Society of Arts appointed
 a Commission of Inquiry into industrial pathology. The list of documents
 collected by this commission is to be seen in the catalogue of the "Twickenham
@@ -1275,7 +1275,7 @@ See also Eduard Reich, M. D. "Ueber die Entartung des Menschen," Erlangen,
 In his "Rechtsphilosophie" he says: "By well educated men we understand
 in the first instance, those who can do everything that others do." 
 
-52. The simple belief in the inventive genius exercised a priori by the individual capitalist in division of labour, exists now-a-days only among German professors, of the stamp of Herr Roscher, who, to recompense the capitalist from whose Jovian head division of labour sprang ready formed, dedicates to him "various wages" (diverse Arbeitsl&ouml;hne). The more or less extensive application of division of labour depends on length of purse, not on greatness of genius.
+52. The simple belief in the inventive genius exercised a priori by the individual capitalist in division of labour, exists now-a-days only among German professors, of the stamp of Herr Roscher, who, to recompense the capitalist from whose Jovian head division of labour sprang ready formed, dedicates to him "various wages" (diverse Arbeitslöhne). The more or less extensive application of division of labour depends on length of purse, not on greatness of genius.
 
 53. The older writers, like Petty and the anonymous author of "Advantages of the East India Trade," bring out the capitalist character of division of labour as applied in manufacture more than A. Smith does.
 
@@ -1285,7 +1285,7 @@ Thus, Beccaria: "Ciascuno prova coll'esperienza, che applicando la mano
 e l'ingegno sempre allo stesso genere di opere e di produtte, egli pi&ugrave;
 facili, pi&ugrave; abbondanti e migliori ne traca risultati, di quello
 che se ciascuno isolatamente le cose tutte a se necessarie soltanto facesse....
-Dividendosi in tal maniera per la comune e privata utilit&agrave; gli uomini
+Dividendosi in tal maniera per la comune e privata utilità gli uomini
 in varie classi e condizioni." [Everyone knows from experience that if the hands and the intelligence are always applied to the same kind of work and the same products, these will be produced more easily, in greater abundance, and in higher quality, than if each individual makes for himself all the things he needs ... In this way, men are divided up into various classes and conditions, to their own advantage and to that of the commodity.](Cesare Beccaria: "Elementi di Econ: Pubblica," ed. Custodi, Parte Moderna, t. xi, p. 29.) James Harris, afterwards Earl
 of Malmesbury, celebrated for the "Diaries" of his embassy at St. Petersburg,
 says in a note to his "Dialogue Concerning Happiness," Lond., 1741, reprinted

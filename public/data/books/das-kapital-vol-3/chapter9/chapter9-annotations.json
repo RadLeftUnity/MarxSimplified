@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "What we want to show in this part is precisely the way in which a general rate of profit takes shape in any given country.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "In these circumstances we shall have to analyze: 1) the difference in the organic composition of capitals, and 2) the difference in their period of turnover.",
+    "explanation": "The organic composition of capital ($c/v$) reflects the ratio of dead labor (machinery and materials) to living labor-power employed in production."
+  }
+]

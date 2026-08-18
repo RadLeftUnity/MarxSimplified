@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "Within capitalist production merchant's capital is reduced from its former independent existence to a special phase in the investment of capital, and the levelling of profits reduces its rate of profit to the general average.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "The development of commerce and merchant's capital gives rise everywhere to the tendency towards production of exchange-values, increases its volume, multiplies it, makes it cosmopolitan, and develops money into world-money.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  },
+  {
+    "targetText": "III Part IV Conversion of Commodity-Capital and Money-Capital into Commercial Capital and Money-Dealing Capital (Merchant's Capital) Chapter 20.",
+    "explanation": "Commercial or merchant capital doesn’t create new surplus value directly, but collects a share of total social profit by speeding up the circulation and sale of goods."
+  }
+]

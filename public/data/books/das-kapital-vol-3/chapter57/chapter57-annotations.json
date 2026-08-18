@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "The problem of transformation of values into production prices, the decline of the rate of profit, crisis theory, the analysis of the credit system ; all these questions refer to parts of the third volume of Capital Soon the question was raised as to how strongly Engels intervened into Marx's text during the editing of the manuscript (e.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "Marx did not structure the third chapter of his manuscript, which deals with the \"Law of the Tendency of the Rate of Profit to Fall.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  },
+  {
+    "targetText": "Fictitious Capital\" (MEGA II.",
+    "explanation": "Fictitious capital refers to financial paper assets (stocks, bonds, debt obligations) whose value represents claims on future surplus value rather than active physical production."
+  }
+]

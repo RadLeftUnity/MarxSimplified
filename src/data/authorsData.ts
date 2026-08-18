@@ -90,4 +90,45 @@ export const authorsData: AuthorProfile[] = [
       'New Democratic Revolution',
     ],
   },
+  {
+    id: 'alexandra-kollontai',
+    name: 'Alexandra Kollontai',
+    years: '1872 – 1952',
+    role: 'Revolutionary Socialist, Marxist Feminist & Diplomat',
+    framework: 'Marxist Feminism & Bolshevik Leadership',
+    coverGradient: 'linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)',
+    avatarColor: '#a01a4e',
+    initials: 'AK',
+    imageUrl: '/images/authors/kollontai.jpg',
+    blurb:
+      'Alexandra Kollontai was a Russian Marxist revolutionary, Bolshevik leader, diplomat, and pioneering theorist of Marxist feminism. She served as the People’s Commissar for Social Welfare in the early Soviet government, making her the first woman in modern history to hold a cabinet-level post. Her theoretical works, including Communism and the Family and The Social Basis of the Woman Question, analyzed women’s oppression through historical materialism, advocating for the socialized reorganization of domestic labor, childcare, and women’s economic emancipation.',
+    keyConcepts: [
+      'Marxist Feminism & Women’s Emancipation',
+      'Socialization of Domestic Labor & Childcare',
+      'Abolition of the Bourgeois Family Unit',
+      'Economic Independence of Women',
+      'Working Women’s International Movement',
+    ],
+  },
+  {
+    id: 'rosa-luxemburg',
+    name: 'Rosa Luxemburg',
+    years: '1871 - 1919',
+    role: 'Marxist Economist, Anti-War Revolutionary & Co-Founder of Spartacist League',
+    framework: 'Classical Marxism & Anti-Imperialism',
+    coverGradient: 'linear-gradient(135deg, #9c27b0 0%, #4a148c 100%)',
+    avatarColor: '#9c27b0',
+    initials: 'RL',
+    imageUrl: '/images/authors/luxemburg.jpg',
+    blurb:
+      'Rosa Luxemburg was a Polish-German Marxist philosopher, economist, anti-war activist, and revolutionary socialist. Co-founder of the Anti-War Spartacist League and the Communist Party of Germany (KPD), Luxemburg made foundational contributions to Marxist economics and political strategy. Her works, including The Accumulation of Capital, Reform or Revolution, and Women’s Suffrage and Class Struggle, analyzed imperialist expansion, spontaneous mass strikes, and the necessity of working-class revolution over bourgeois reformism.',
+    keyConcepts: [
+      'Reform or Revolution',
+      'The Accumulation of Capital & Imperialism',
+      'Mass Strike & Working-Class Spontaneity',
+      'Proletarian Internationalism & Anti-Militarism',
+      'Working Women’s Suffrage & Class Struggle',
+    ],
+  },
+
 ];

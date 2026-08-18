@@ -1,0 +1,211 @@
+{
+  "id": "principles-of-communism",
+  "title": "The Principles of Communism",
+  "author": "Friedrich Engels",
+  "year": "1847",
+  "difficulty": "Easy-Medium",
+  "readingTime": "0.8 hours",
+  "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm",
+  "shortDescription": "Drafted by Friedrich Engels in 1847 as a 25-question catechism for the Communist League, this foundational work provides clear, accessible answers explaining the core principles of Marxism.",
+  "subject": "Classical Marxism",
+  "tags": [
+    "Classical Marxism",
+    "Proletariat",
+    "Industrial Revolution",
+    "Socialism",
+    "Friedrich Engels"
+  ],
+  "context": "Written in October to November 1847 as a draft program for the Communist League in Paris, 'The Principles of Communism' uses a simple question-and-answer format to explain the origins of the proletariat, the nature of industrial capitalism, and the necessity of socialist revolution. It served as the immediate structural foundation for Karl Marx and Friedrich Engels when writing 'The Communist Manifesto' a few months later.",
+  "relatesToToday": "Provides a straightforward Q&A guide to economic inequality today. It explains why automation and AI threaten job security under private ownership, but could drastically shorten the workweek and guarantee universal housing and healthcare if technology were run for public benefit.",
+  "keyTakeaways": [
+    "The proletariat is the modern working class created by the Industrial Revolution, living entirely by selling its labor-power under market competition.",
+    "Machine production constantly increases output capacity, leading to periodic crises of overproduction under capitalist private property.",
+    "Private property has become an obstacle to social development; communism replaces market anarchy with democratic, planned social production.",
+    "Proletarian revolution requires international coordination across industrial nations and progressive social measures (public education, taxation, socialized industry)."
+  ],
+  "chapters": [
+    {
+      "id": "1-what-is-communism",
+      "title": "1. What is Communism?",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "2-what-is-the-proletariat",
+      "title": "2. What is the Proletariat?",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "3-proletarians-then-have-not-always-existed",
+      "title": "3. Proletarians, Then, Have Not Always Existed?",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "4-how-did-the-proletariat-originate",
+      "title": "4. How Did the Proletariat Originate?",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "5-under-what-conditions-does-the-sale-of-the-labor-of-the-proletarians-to-the-bourgeoisie-take-place",
+      "title": "5. Under What Conditions Does the Sale of the Labor of the Proletarians to the Bourgeoisie Take Place?",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "6-what-working-classes-were-there-before-the-industrial-revolution",
+      "title": "6. What Working Classes Were There Before the Industrial Revolution?",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "7-in-what-way-do-proletarians-differ-from-slaves",
+      "title": "7. In What Way Do Proletarians Differ from Slaves?",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "8-in-what-way-do-proletarians-differ-from-serfs",
+      "title": "8. In What Way Do Proletarians Differ from Serfs?",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "9-in-what-way-do-proletarians-differ-from-handicraftsmen",
+      "title": "9. In What Way Do Proletarians Differ from Handicraftsmen?",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "10-in-what-way-do-proletarians-differ-from-manufacturing-workers",
+      "title": "10. In What Way Do Proletarians Differ from Manufacturing Workers?",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "11-what-were-the-immediate-consequences-of-the-industrial-revolution-and-of-the-division-of-society-into-bourgeoisie-and-proletariat",
+      "title": "11. What Were the Immediate Consequences of the Industrial Revolution and of the Division of Society Into Bourgeoisie and Proletariat?",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "12-what-were-the-further-consequences-of-the-industrial-revolution",
+      "title": "12. What Were the Further Consequences of the Industrial Revolution?",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "13-what-follows-from-these-periodic-commercial-crises",
+      "title": "13. What Follows from These Periodic Commercial Crises?",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "14-what-will-this-new-social-order-have-to-be-like",
+      "title": "14. What Will This New Social Order Have to Be Like?",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "15-was-not-the-abolition-of-private-property-possible-at-an-earlier-time",
+      "title": "15. Was Not the Abolition of Private Property Possible at an Earlier Time?",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "16-will-the-peaceful-abolition-of-private-property-be-possible",
+      "title": "16. Will the Peaceful Abolition of Private Property Be Possible?",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    },
+    {
+      "id": "17-will-it-be-possible-for-private-property-to-be-abolished-at-one-stroke",
+      "title": "17. Will It Be Possible for Private Property to Be Abolished at One Stroke?",
+      "textFile": "chapter17/chapter17.txt",
+      "annotationFile": "chapter17/chapter17-annotations.json",
+      "summaryFile": "chapter17/chapter17-summary.txt"
+    },
+    {
+      "id": "18-what-will-be-the-course-of-this-revolution",
+      "title": "18. What Will Be the Course of This Revolution?",
+      "textFile": "chapter18/chapter18.txt",
+      "annotationFile": "chapter18/chapter18-annotations.json",
+      "summaryFile": "chapter18/chapter18-summary.txt"
+    },
+    {
+      "id": "19-will-it-be-possible-for-this-revolution-to-take-place-in-one-country-alone",
+      "title": "19. Will It Be Possible for This Revolution to Take Place in One Country Alone?",
+      "textFile": "chapter19/chapter19.txt",
+      "annotationFile": "chapter19/chapter19-annotations.json",
+      "summaryFile": "chapter19/chapter19-summary.txt"
+    },
+    {
+      "id": "20-what-will-be-the-consequences-of-the-ultimate-disappearance-of-private-property",
+      "title": "20. What Will Be the Consequences of the Ultimate Disappearance of Private Property?",
+      "textFile": "chapter20/chapter20.txt",
+      "annotationFile": "chapter20/chapter20-annotations.json",
+      "summaryFile": "chapter20/chapter20-summary.txt"
+    },
+    {
+      "id": "21-what-will-be-the-influence-of-communist-society-on-the-family",
+      "title": "21. What Will Be the Influence of Communist Society on the Family?",
+      "textFile": "chapter21/chapter21.txt",
+      "annotationFile": "chapter21/chapter21-annotations.json",
+      "summaryFile": "chapter21/chapter21-summary.txt"
+    },
+    {
+      "id": "22-what-will-be-the-attitude-of-communism-to-existing-nationalities",
+      "title": "22. What Will Be the Attitude of Communism to Existing Nationalities?",
+      "textFile": "chapter22/chapter22.txt",
+      "annotationFile": "chapter22/chapter22-annotations.json",
+      "summaryFile": "chapter22/chapter22-summary.txt"
+    },
+    {
+      "id": "23-what-will-be-its-attitude-to-existing-religions",
+      "title": "23. What Will Be its Attitude to Existing Religions?",
+      "textFile": "chapter23/chapter23.txt",
+      "annotationFile": "chapter23/chapter23-annotations.json",
+      "summaryFile": "chapter23/chapter23-summary.txt"
+    },
+    {
+      "id": "24-how-do-communists-differ-from-socialists",
+      "title": "24. How Do Communists Differ from Socialists?",
+      "textFile": "chapter24/chapter24.txt",
+      "annotationFile": "chapter24/chapter24-annotations.json",
+      "summaryFile": "chapter24/chapter24-summary.txt"
+    },
+    {
+      "id": "25-what-is-the-attitude-of-the-communists-to-the-other-political-parties-of-our-time",
+      "title": "25. What is the Attitude of the Communists to the Other Political Parties of Our Time?",
+      "textFile": "chapter25/chapter25.txt",
+      "annotationFile": "chapter25/chapter25-annotations.json",
+      "summaryFile": "chapter25/chapter25-summary.txt"
+    },
+    {
+      "id": "footnotes",
+      "title": "Footnotes",
+      "textFile": "chapter26/chapter26.txt",
+      "annotationFile": "chapter26/chapter26-annotations.json",
+      "summaryFile": "chapter26/chapter26-summary.txt"
+    }
+  ]
+}

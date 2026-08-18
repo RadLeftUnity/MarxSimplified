@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "the different constituents of the fixed capital of a business have different periods of turnover, depending on their different durabilities and therefore on their different times of reproduction.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "on their different times of reproduction.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

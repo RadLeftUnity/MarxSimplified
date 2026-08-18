@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "If he buys and sells this quantity in the course of the year, and if the average annual rate of profit is 15%, he would add �15 to the �100, and 3s.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "If, under otherwise equal circumstances and particularly the same organic composition, the same industrial capital is turned over four times a year instead of twice, it produces twice as much surplus-value and, consequently, profit.",
+    "explanation": "The organic composition of capital ($c/v$) reflects the ratio of dead labor (machinery and materials) to living labor-power employed in production."
+  },
+  {
+    "targetText": "III Part IV Conversion of Commodity-Capital and Money-Capital into Commercial Capital and Money-Dealing Capital (Merchant's Capital) Chapter 18.",
+    "explanation": "Commercial or merchant capital doesn’t create new surplus value directly, but collects a share of total social profit by speeding up the circulation and sale of goods."
+  }
+]

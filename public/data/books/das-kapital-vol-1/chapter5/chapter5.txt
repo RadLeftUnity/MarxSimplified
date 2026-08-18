@@ -305,9 +305,9 @@ commodity offered for exchange, and were to refer him to the price of the
 iron as proof that it was already money, he would get the same answer as
 St. Peter gave in heaven to Dante, when the latter recited the creed ; 
 
- "Assai bene &egrave; trascorsa
+ "Assai bene è trascorsa
 
-d'esta moneta gi&agrave; la lega e 'l peso,
+d'esta moneta già la lega e 'l peso,
 
 ma dimmi se tu l'hai ne la tua borsa." 
 
@@ -1099,7 +1099,7 @@ independent of the metallic value of that gold. Therefore things that are
 relatively without value, such as paper notes, can serve as coins in its
 place. This purely symbolic character is to a certain extent masked in
 metal tokens. In paper money it stands out plainly. In fact, ce n'est que
-le premier pas qui co&ucirc;te.
+le premier pas qui coûte.
 
 We allude here only to inconvertible paper money issued by the
 State and having compulsory circulation. It has its immediate origin in
@@ -1683,7 +1683,7 @@ Scot, before the union, only 1-36th; the French livre, 1-74th; the Spanish
 maravedi, less than 1-1,000th; and the Portuguese rei a still smaller fraction.
 
 9. "Le monete le quali oggi sono ideal,
-sono le pi&ucirc; antiche d'ogni nazione, e tutte furono un tempo real, e perche erano reali con esse si contava" ["The coins which today are ideal are the oldest coins of every nation, and all of them were once real, and precisely because they were real they were used for calculation"] (Galiani: Della moneta, l.c., p. 153.)
+sono le piû antiche d'ogni nazione, e tutte furono un tempo real, e perche erano reali con esse si contava" ["The coins which today are ideal are the oldest coins of every nation, and all of them were once real, and precisely because they were real they were used for calculation"] (Galiani: Della moneta, l.c., p. 153.)
 
 10. David Urquhart remarks in his "Familiar Words" on the monstrosity (!) that now-a-days a pound (sterling), which
 is the unit of the English standard of money, is equal to about a quarter
@@ -1721,7 +1721,7 @@ dilute him. "If the wealth of a nation" he remarks, "could be decupled
 by a proclamation, it were strange that such proclamations have not long
 since been made by our Governors." (l.c., p. 36.)
 
-14. "Ou bien, il faut consentir &agrave; dire qu'une valeur d'un million en argent vaut plus qu'une valeur &eacute;gale en marchandises." ["Or indeed it must be admitted that a million in money is worth more than an equal value in commodities"] (Le Trosne, l.c., p. 919), which amounts to saying "qu'une valeur vaut plus qu'une valeur &eacute;gale." ["that one value is worth more than another value which is equal to it."]
+14. "Ou bien, il faut consentir à dire qu'une valeur d'un million en argent vaut plus qu'une valeur égale en marchandises." ["Or indeed it must be admitted that a million in money is worth more than an equal value in commodities"] (Le Trosne, l.c., p. 919), which amounts to saying "qu'une valeur vaut plus qu'une valeur égale." ["that one value is worth more than another value which is equal to it."]
 
 15. Jerome had to wrestle hard, not
 only in his youth with the bodily flesh, as is shown by his fight in the
@@ -1741,11 +1741,11 @@ on the whole number of yards." An analogous correction was made in a copy
 of the second German edition of the first volume of "Capital" belonging
 to Marx; however, not in his handwriting.
 
-18. "Toute vente est achat." ["Every sale is a purchase."] (Dr. Quesnay: "Dialogues sur le Commerce et les Travaux des Artisans." Physiocrates ed. Daire I. Partie, Paris, 1846, p. 170), or as Quesnay in his "Maximes g&eacute;n&eacute;rales" puts it, "Vendre est acheter." ["To sell is to buy."] 
+18. "Toute vente est achat." ["Every sale is a purchase."] (Dr. Quesnay: "Dialogues sur le Commerce et les Travaux des Artisans." Physiocrates ed. Daire I. Partie, Paris, 1846, p. 170), or as Quesnay in his "Maximes générales" puts it, "Vendre est acheter." ["To sell is to buy."] 
 
 19. "Le prix d'une marchandise ne pouvant
-&ecirc;tre pay&eacute; que par le prix d'une autre marchandise" (Mercier
-de la Rivi�re: "L'Ordre naturel et essentiel des soci&eacute;t&eacute;s
+être payé que par le prix d'une autre marchandise" (Mercier
+de la Rivi�re: "L'Ordre naturel et essentiel des sociétés
 politiques." ["The price of one commodity can only be paid by the price of another commodity"] Physiocrates, ed. Daire II. Partie, p. 554.)
 
 20. "Pour avoir cet argent, il faut
@@ -1755,7 +1755,7 @@ avoir vendu," ["In order to have this money, one must have made a sale,"] l.c., 
 of gold or silver forms an exception. He exchanges his product directly
 for another commodity, without having first sold it.
 
-22. "Si l'argent repr&eacute;sente, dans nos mains, les choses que nous pouvons d&eacute;sirer d'acheter, il y repr&eacute;sente aussi les choses que nous avons vendues pour cet argent." ["If money represents, in our hands, the things we can wish to buy, it also represents the things we have sold to obtain that money"] (Mercier de la Rivi&egrave;re, l.c., p. 586.)
+22. "Si l'argent représente, dans nos mains, les choses que nous pouvons désirer d'acheter, il y représente aussi les choses que nous avons vendues pour cet argent." ["If money represents, in our hands, the things we can wish to buy, it also represents the things we have sold to obtain that money"] (Mercier de la Rivière, l.c., p. 586.)
 
 23. "Il y a donc ... quatre termes et
 trois contractants, dont l'un intervient deux fois" ["There are therefore ... four terms and three contracting parties, one of whom intervenes twice"] (Le Trosne, l.c., p. 909.)
@@ -1792,13 +1792,13 @@ us, it falls, when definitely sold for the last time, out of the sphere
 of circulation into that of consumption, where it serves either as means
 of subsistence or means of production.
 
-28. "Il (l'argent) n'a d'autre mouvement que celui qui lui est imprim&eacute; par les productions." ["It" (money) "has no other motion than that imparted to it by the products"] (Le Trosne, l.c., p. 885.)
+28. "Il (l'argent) n'a d'autre mouvement que celui qui lui est imprimé par les productions." ["It" (money) "has no other motion than that imparted to it by the products"] (Le Trosne, l.c., p. 885.)
 
 29. "Ce sont les productions qui le
-(l'argent) mettent en mouvement et le font circuler ... La c&eacute;l&eacute;rit�
-de son mouvement (c. de l'argent) suppl&eacute;e &agrave; sa quantit&eacute;.
+(l'argent) mettent en mouvement et le font circuler ... La célérit�
+de son mouvement (c. de l'argent) supplée à sa quantité.
 Lorsqu'il en est besoin il ne fait que glisser d'une main dans l'autre
-sans s'arr&ecirc;ter un instant." ["It is products which set it" (money) "in motion and make it circulate ... The velocity of its" (money's) "motion supplements its quantity. When necessary, it does nothing but slide from hand to hand, without stopping for a moment"] (Le Trosne, l.c.. pp. 915, 916.)
+sans s'arrêter un instant." ["It is products which set it" (money) "in motion and make it circulate ... The velocity of its" (money's) "motion supplements its quantity. When necessary, it does nothing but slide from hand to hand, without stopping for a moment"] (Le Trosne, l.c.. pp. 915, 916.)
 
 30. "Money being ... the common measure
 of buying and selling, everybody who hath anything to sell, and cannot
@@ -1889,13 +1889,13 @@ result: The total commodity = x cwt. of gold; commodity A = an aliquot
 part of the total commodity = the same aliquot part of x cwt. of gold. This
 is stated in all seriousness by Montesquieu: "Si l'on compare la masse
 de l'or et de l'argent qui est dans le monde avec la somme des marchandises
-qui s'y vend il est certain que chaque denr&eacute;e ou marchandise, en particulier,
-pourra &ecirc;tre compar&eacute;e &agrave; une certaine portion de la masse
-enti&egrave;re. Supposons qu'il n'y ait qu'une seule denr&eacute;e ou marchandise
-dans le monde, ou qu'il n'y ait qu'une seule qui s'ach&egrave;te, et qu'elle se divise comme l'argent: Cette partie de cette marchandise r&eacute;pondra
-&agrave; une partie de la masse de l'argent; la moiti&eacute; du total
-de l'une � la moiti&eacute; du total de l'autre, &c.... L'&eacute;tablissement
-du prix des choses d&eacute;pend toujours fondamentalement de la raison
+qui s'y vend il est certain que chaque denrée ou marchandise, en particulier,
+pourra être comparée à une certaine portion de la masse
+entière. Supposons qu'il n'y ait qu'une seule denrée ou marchandise
+dans le monde, ou qu'il n'y ait qu'une seule qui s'achète, et qu'elle se divise comme l'argent: Cette partie de cette marchandise répondra
+à une partie de la masse de l'argent; la moitié du total
+de l'une � la moitié du total de l'autre, &c.... L'établissement
+du prix des choses dépend toujours fondamentalement de la raison
 du total des choses au total des signes." ["If one compares the amount of gold and silver in the world with the sum of the commodities available, it is certain that each product or commodity, taken in isolation, could be compared with a certain portion of the total amount of money. Let us suppose that there is only one product, or commodity, in the world, or only one that can be purchased, and that it can be divided in the same way as money: a certain part of this commodity would then correspond to a part of the total amount of money; half the total of the one would correspond to half the total of the other &c. ... the determination of the prices of things always depends, fundamentally, on the relation between the total amount of things and the total amount of their monetary symbols"] (Montesquieu, l.c. t. III, pp.
 12, 13.) As to the further development of this theory by Ricardo and his
 disciples, James Mill, Lord Overstone, and others, see "Zur Kritik, &c.,"
@@ -1957,7 +1957,7 @@ received the traditional drubbing with bamboos is not stated. The concluding
 part of the report is as follows: ; "The Committee has carefully examined
 his proposal and finds that it is entirely in favour of the merchants,
 and that no advantage will result to the crown." ("Arbeiten der Kaiserlich
-Russischen Gesandtschaft zu Peking &uuml;ber China." Aus dem Russischen
+Russischen Gesandtschaft zu Peking über China." Aus dem Russischen
 von Dr. K. Abel und F. A. Mecklenburg. Erster Band. Berlin, 1858, p. 47
 sq.) In his evidence before the Committee of the House of Lords on the
 Bank Acts, a governor of the Bank of England says, with regard to the abrasion
@@ -1991,7 +1991,7 @@ and grow lighter by often telling over... It is the denomination and currency
 of the money that men regard in bargaining, and not the quantity of silver...'Tis
 the public authority upon the metal that makes it money." (N. Barbon, l.c., pp. 29, 30, 25.)
 
-39. "Une richesse en argent n'est que ... richesse en productions, converties en argent." ["Monetary wealth is nothing but ... wealth in products, transformed into money"] (Mercier de la Rivi&egrave;re,
+39. "Une richesse en argent n'est que ... richesse en productions, converties en argent." ["Monetary wealth is nothing but ... wealth in products, transformed into money"] (Mercier de la Rivière,
 l.c.) "Une valeur en productions n'a fait que changer de forme." ["A value in the form of products, which has merely changed its form."] (Id., p. 486.)
 
 40. "'Tis by this practice' they keep all their goods and manufactures at such low rates." (Vanderlint, l.c.,
@@ -2182,9 +2182,9 @@ selling and paying, all the bargains ... are now stated upon the foot of
 a Price in money." ("An Essay upon Publick Credit." 3rd Ed. Lond., 1710,
 p. 8.)
 
-55. "L'argent ... est devenu le bourreau de toutes choses." Finance is the "alambic, qui a fait &eacute;vaporer
-une quantit&eacute; effroyable de biens et de denr�es pour faire ce fatal
-pr&eacute;cis." "L'argent d&eacute;clare la guerre &agrave; tout le genre
+55. "L'argent ... est devenu le bourreau de toutes choses." Finance is the "alambic, qui a fait évaporer
+une quantité effroyable de biens et de denr�es pour faire ce fatal
+précis." "L'argent déclare la guerre à tout le genre
 humain." ["Money ... has become the executioner of all things." Finance is the "alembic that evaporates a frightful quantity of goods and commodities in order to obtain this fatal extract." "Money [...] declares war [...] on the whole human race"] (Boisguillebert: "Dissertation sur la nature des richesses, de l'argent et des tributs." Edit. Daire. Economistes financiers. Paris, 1843, t. i., pp. 413, 419, 417.)
 
 56. "On Whitsuntide, 1824," says Mr. Craig before the Commons' Committee of 1826, "there was such an immense
@@ -2315,7 +2315,7 @@ example in the facility with which the same France was able in 1871-73
 to pay off within 30 months a forced contribution more than ten times as
 great, a considerable part of it likewise in specie. ; F. E.]
 
-63. "L'argent se partage entre les nations relativement au besoin qu'elles en ont ... &eacute;tant toujours attir&eacute;
+63. "L'argent se partage entre les nations relativement au besoin qu'elles en ont ... étant toujours attiré
 par les productions." ["Money is shared among the nations in accordance with their need for it ... as it is always attracted by the products"] (Le Trosne, l.c., p. 916.) "The mines which are continually giving gold and silver, do give sufficient to supply such a needful balance to every nation." (J. Vanderlint, l.c., p. 40.)
 
 64. "Exchanges rise and fall every week, and at some particular times in the year run high against a nation, and

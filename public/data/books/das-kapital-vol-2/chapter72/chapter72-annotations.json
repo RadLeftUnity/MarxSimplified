@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": ", plus that part of the value which the fixed capital, such as buildings, agricultural implements, etc.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "In the second place the constant capital of department I is replaced in kind, partly by exchange among capitalists I, partly by replacement in kind in each individual business.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  }
+]

@@ -35,7 +35,7 @@ export const leninistTerms: GlossaryTerm[] = [
   },
   {
     "term": "Bourgeois Democracy",
-    "pattern": "bourgeois democracy|bourgeois democracies",
+    "pattern": "bourgeois-democratic|bourgeois democratic|bourgeois democracy|bourgeois democracies",
     "definition": "A political system with elections and formal civil liberties that is fundamentally controlled by the capitalist class through campaign funding, lobbying, media control, and economic leverage.",
     "misconception": "That elections equal true democracy for all people. Under bourgeois democracy, voters choose between candidates who both preserve corporate property relations.",
     "dayToDayExample": "Elections where candidate campaigns rely on millions of dollars in corporate donations, ensuring policy aligns with big business.",

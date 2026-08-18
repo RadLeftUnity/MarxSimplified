@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "On the one hand Adam Smith has the distinction of the physiocrats in mind, on the other the different forms assumed by capital-value in its circuit.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "This also accounts for the annual period of turnover of one part of the capital, and the more than annual (decennial) period of the other part.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  }
+]

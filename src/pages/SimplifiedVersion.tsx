@@ -308,6 +308,18 @@ export const SimplifiedVersion: React.FC<SimplifiedVersionProps> = ({
                                   </blockquote>
                                 </div>
 
+                                {/* Detailed Analysis (if present) */}
+                                {ann.explanation && ann.explanation !== ann.summary && (
+                                  <div className="concept-context-block">
+                                    <span className="concept-label">
+                                      <BookOpen className="concept-label-icon text-gold" /> Detailed Analysis
+                                    </span>
+                                    <div className="concept-context-text">
+                                      <FormattedText text={ann.explanation} />
+                                    </div>
+                                  </div>
+                                )}
+
                                 {/* Historical Context (if present) */}
                                 {ann.context && (
                                   <div className="concept-context-block">

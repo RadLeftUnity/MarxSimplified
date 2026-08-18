@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "1: \"The whole value of the seed, too, is properly a fixed capital.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "The Physiocrats Quesnay's Tableau �conomique shows in a few broad outlines how the annual result of the national production, representing a definite value, is distributed by means of the circulation in such a way that, other things being equal, simple reproduction, i.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "But the commodity-value of 2,000, in which the latter exists, contains an element making good the depreciation in value of the fixed capital, which is not to be replaced immediately in kind but converted into money, which gradually accumulates into a sum total until the time for the renewal of the fixed capital in its bodily form arrives.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "But the money paying for this element of wear and tear incorporated in the commodity-value 2,000 IIc can come only from department I, since II cannot pay for itself but effects payment precisely by selling its goods, and since presumably I(v + s) buys the whole of the commodities 2,000 IIc.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "On examining annual reproduction, even on a simple scale, i.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

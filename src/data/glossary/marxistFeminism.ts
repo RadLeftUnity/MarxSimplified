@@ -13,7 +13,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "term": "Marxist Feminism",
     "pattern": "marxist feminism|socialist feminism|marxist feminist|socialist feminist|marxist feminists|socialist feminists",
     "definition": "The theoretical framework and political strategy analyzing women's oppression as structurally rooted in private property, capitalist class relations, and the unpaid social reproduction of labor-power.",
-    "misconception": "Viewing gender oppression as independent of capitalism or treating men as the primary class enemy. Marxist Feminism demonstrates that women's emancipation requires abolishing private property and socializing domestic labor alongside united working-class revolution.",
+    "misconception": "Assuming that Marxist critique of liberal feminism means opposing women's democratic rights or treating gender equality as secondary to class struggle. Marxist Feminism fully supports women's rights (such as equal pay, reproductive autonomy, and legal protections) while demonstrating that full emancipation requires abolishing private property and socializing domestic labor.",
     "dayToDayExample": "Analyzing gender wage gaps and unpaid domestic housework not as personal individual choices, but as a structural subsidy to corporate profit that lowers total working-class wage costs.",
     "theoryTags": ["Marxist Feminism", "Classical Marxism"]
   },
@@ -56,5 +56,13 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "misconception": "Demanding that women stay in the home for a check. The campaign was a political lever to expose how capital relies on free domestic labor and to demand public resources for social reproduction.",
     "dayToDayExample": "Demanding government stipends and public funding for stay-at-home caregivers to force capital to pay for the social reproduction of labor.",
     "theoryTags": ["Marxist Feminism", "Neo-Marxism"]
+  },
+  {
+    "term": "Bourgeois Feminism",
+    "pattern": "bourgeois feminism|bourgeois feminist|bourgeois feminists|equal righters|liberal feminism|liberal feminist|liberal feminists|lean-in feminism",
+    "definition": "A feminist movement and ideology (critiqued by Alexandra Kollontai, Clara Zetkin, and Eleanor Marx) that seeks equal legal, political, and professional privileges for women within the framework of capitalist class society, without challenging private property, wage exploitation, or class inequality.",
+    "misconception": "Thinking that Marxists oppose women's rights or female equality. Marxists fully support democratic rights for women (such as equal pay, voting rights, reproductive autonomy, and legal protections), but critique Bourgeois Feminism for limiting its vision to winning corporate executive seats and legal reforms for wealthy women while ignoring the economic exploitation, poverty wages, and unpaid domestic burdens of working-class women.",
+    "dayToDayExample": "Celebrating a woman becoming a CEO or military general while the female janitors, retail clerks, and care workers in the same organization earn poverty-level wages without paid family leave.",
+    "theoryTags": ["Marxist Feminism", "Classical Marxism", "Marxism-Leninism"]
   }
 ];

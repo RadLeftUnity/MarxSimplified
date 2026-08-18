@@ -1,7 +1,7 @@
 [
   {
     "id": "imperialism-chapter11-1",
-    "targetText": "like all monopoly, it inevitably\n engenders a tendency of stagnation and decay.",
+    "targetText": "rtheless, like all monopoly, it inevitably\r\n engenders a tendency of stagnation",
     "summary": "Once monopolies gain complete control over a market, their incentive to innovate or lower prices decreases, leading to economic stagnation and artificial suppression of new technology.",
     "context": "Monopolies often buy up and suppress competing patents to protect existing investments, demonstrating how monopoly power retards technical and social progress."
   },
@@ -9,12 +9,16 @@
     "id": "imperialism-chapter11-2",
     "targetText": "The rentier state is a state of parasitic, decaying capitalism,",
     "summary": "Wealthy nations evolve into 'rentier states', earning their living primarily by clipping coupons, collecting interest on foreign debts, and extracting financial dividends rather than producing goods.",
-    "context": "In a rentier state, the ruling class becomes entirely disconnected from production, living off foreign interest and dividends extracted from poorer countries."
+    "context": "In a rentier state, the ruling class becomes entirely disconnected from production, living off foreign interest and dividends extracted from poorer countries.",
+    "topics": [
+      "The State"
+    ]
   },
   {
     "id": "imperialism-chapter11-3",
-    "targetText": "The income of the rentiers is five times greater than\n the income obtained from the foreign trade",
+    "targetText": "The income of the rentiers is five times greater than\r\n the income obtained from the foreign trad",
     "summary": "Investor income from foreign debt and stocks vastly exceeds the profits made from shipping physical exports, proving that financial extraction eclipses manufacturing.",
-    "context": "Lenin cites British economic data showing that financial returns from overseas loans and investments dwarf traditional export trade revenues, highlighting the parasitic nature of mature capitalism."
+    "context": "Lenin cites British economic data showing that financial returns from overseas loans and investments dwarf traditional export trade revenues, highlighting the parasitic nature of mature capitalism.",
+    "topics": []
   }
 ]

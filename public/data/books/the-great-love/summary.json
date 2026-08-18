@@ -1,0 +1,62 @@
+{
+  "id": "the-great-love",
+  "title": "A Great Love",
+  "author": "Alexandra Kollontai",
+  "year": "1929",
+  "difficulty": "Medium",
+  "readingTime": "3.8 hours",
+  "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/1929/great/index.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Soviet Fiction",
+    "Women's Emancipation",
+    "Relationships"
+  ],
+  "context": "First published in 1929, A Great Love is Alexandra Kollontai's acclaimed collection of three novellas: A Great Love, Sisters, and The Loves of Three Generations. Through intimate narrative studies of Bolshevik revolutionaries, working mothers, and changing familial standards, Kollontai explores the psychological dilemmas facing women during the transition to socialism. The title story dramatizes the emotional friction between a devoted female organizer and her male comrade, while Sisters and Three Generations examine workplace exploitation, single motherhood, and the evolution of sexual morality across successive generations.",
+  "relatesToToday": "Explores the double standards faced by working mothers and female organizers. It connects directly to modern debates on single motherhood, workplace discrimination against caregivers, and how societal expectations unfairly burden women in relationships.",
+  "keyTakeaways": [
+    "Personal romantic fulfillment under socialism requires equal comradeship rather than emotional sacrifice or female subordination.",
+    "Caregiving burdens and single motherhood under economic hardship frequently trap working women in extreme poverty without state support.",
+    "Sexual ethics and relationship expectations evolve rapidly across generations alongside changing socio-economic structures.",
+    "A revolutionary woman's primary sense of identity rests upon her public contributions to society and political struggle."
+  ],
+  "chapters": [
+    {
+      "id": "a-great-love-part-1",
+      "title": "A Great Love: Part 1 (I - IV)",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "a-great-love-part-2",
+      "title": "A Great Love: Part 2 (V - IX)",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "a-great-love-part-3",
+      "title": "A Great Love: Part 3 (X - XV)",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "sisters",
+      "title": "Sisters",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-loves-of-three-generations",
+      "title": "The Loves of Three Generations",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

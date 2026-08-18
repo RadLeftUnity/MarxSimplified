@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "If the general rate of profit is given, this latter portion is determined by the rate of interest; and if the rate of interest is given, then by the general rate of profit.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "Stock companies in general ; developed with the credit system ; have an increasing tendency to separate this work of management as a function from the ownership of capital, be it self-owned or borrowed.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  },
+  {
+    "targetText": ", of the surplus-value, which the functioning capitalist, industrialist or merchant has to pay to the owner and lender of money-capital whenever he uses loaned capital instead of his own.",
+    "explanation": "Commercial or merchant capital doesn’t create new surplus value directly, but collects a share of total social profit by speeding up the circulation and sale of goods."
+  }
+]

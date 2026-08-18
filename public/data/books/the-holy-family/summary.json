@@ -1,0 +1,100 @@
+{
+  "id": "the-holy-family",
+  "title": "The Holy Family",
+  "subtitle": "Critique of Critical Critique",
+  "author": "Karl Marx & Friedrich Engels",
+  "year": "1845",
+  "difficulty": "Hard",
+  "readingTime": "6.0 hours",
+  "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1845/holy-family/index.htm",
+  "subject": "Marxist Philosophy & Historical Materialism",
+  "tags": [
+    "Historical Materialism",
+    "Critique of Idealism",
+    "Young Hegelians",
+    "Class Struggle",
+    "French Materialism"
+  ],
+  "context": "Published in 1845, The Holy Family, or Critique of Critical Critique was the first major collaborative work by Karl Marx and Friedrich Engels. Written as a polemic against Bruno Bauer and the Young Hegelian 'Critical Critics', the text marks a decisive turning point in the development of scientific socialism. Marx and Engels demolish speculative Hegelian idealism, formulate the historic mission of the proletariat to abolish private property, trace the philosophical roots of socialism to 18th-century French materialism, and establish Charles Fourier's principle that women's emancipation is the natural measure of general social freedom.",
+  "relatesToToday": "Exposes out-of-touch academic commentators and online influencers who lecture working people from ivory towers. Marx and Engels show that real social progress comes from the collective action of workers fighting for better wages and rights, not from armchair intellectual advice.",
+  "keyTakeaways": [
+    "Private property dialectically produces the proletariat as its own grave-digger; proletarian victory abolishes both private property and the proletariat itself.",
+    "The historic mission of the proletariat is determined not by subjective individual opinions, but by its objective structural position in capitalist production.",
+    "History is not an abstract teleological force; history is nothing but the activity of real living human beings pursuing their material interests.",
+    "Scientific socialism is logically derived from 18th-century French materialism, establishing that human character is shaped by material environmental conditions.",
+    "The degree of female emancipation is the natural measure of general social emancipation in any historical epoch."
+  ],
+  "chapters": [
+    {
+      "id": "foreword",
+      "title": "Foreword",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "chapter-1",
+      "title": "Chapter 1: \"Critical Criticism in the Form of a Master-Bookbinder\", or Critical Criticism as Herr Reichardt",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chapter 2: \"Critical Criticism\" as a \"Mill-Owner\", or Critical Criticism as Herr Jules Faucher",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "chapter-3",
+      "title": "Chapter 3: \"The Thoroughness of Critical Criticism\", or Critical Criticism as Herr J. (Jungnitz?)",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chapter 4: \"Critical Criticism\" as the Tranquility of Knowledge, or \"Critical Criticism\" as Herr Edgar",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chapter 5: \"Critical Criticism\" as a Mystery-Monger, or \"Critical Criticism\" as Herr Szeliga",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "chapter-6",
+      "title": "Chapter 6: Absolute Critical Criticism, or Critical Criticism as Herr Bruno",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "chapter-7",
+      "title": "Chapter 7: Critical Criticism's Correspondence",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "chapter-8",
+      "title": "Chapter 8: The Earthly Course and Transfiguration of \"Critical Criticism\", or \"Critical Criticism\" as Rudolph, Prince of Geroldstein",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "chapter-9",
+      "title": "Chapter 9: The Critical Last Judgement",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    }
+  ]
+}

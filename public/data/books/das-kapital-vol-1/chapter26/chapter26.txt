@@ -298,7 +298,7 @@ should pay him the value of his labour-power. "Both were still gainers:
 the worker because he was advanced the fruits of his labour" (should read:
 of the unpaid labour of other workers) "before the work was
 done" (should read: before his own labour had borne fruit); "the employer
-(le ma&icirc;tre), because the labour of this worker was worth more
+(le maître), because the labour of this worker was worth more
 than his wages" (should read: produced more value than the value of his
 wages). (Sismondi, l. c., p. 135.)
 
@@ -448,7 +448,7 @@ in the general change of places, in the circulation of the wealth of society;
 this dazes the sight, and propounds very complicated problems for solution.
 In the third part of Book II. I shall give the analysis of the real bearings
 of the facts. It is one of the great merits of the Physiocrats, that in
-their Tableau &eacute;conomique they were the first to attempt to
+their Tableau économique they were the first to attempt to
 depict the annual production in the shape in which it is presented to us
 after passing through the process of circulation. [18]
 
@@ -635,7 +635,7 @@ of the last hour of the twelve, he had announced to the world another discovery.
  "I substitute," he proudly says, "for the word capital, considered as an
 instrument of production, the word abstinence." 
 
- An unparalleled sample this, of the discoveries of vulgar economy! It substitutes for an economic category, a sycophantic phrase ; voil&agrave; tout. [that's all]
+ An unparalleled sample this, of the discoveries of vulgar economy! It substitutes for an economic category, a sycophantic phrase ; voilà tout. [that's all]
 
  "When the savage," says Senior, "makes bows, he exercises an industry, but he does not practise abstinence." [28]
 
@@ -1066,7 +1066,7 @@ of Pol. Econ " 2nd Ed., Lond.. 1836, p. 320.)
 
 2. We here
  take no account of export trade, by means of which a nation can change articles of luxury either
-into means of production or means of subsistence, and vice vers&agrave;.
+into means of production or means of subsistence, and vice versà.
 In order to examine the object of our investigation in its integrity,
 free from all disturbing subsidiary circumstances, we must treat the whole
 world as one nation, and assume that capitalist production is everywhere
@@ -1200,7 +1200,7 @@ Luther, l. c.)
 
 27. l. c., p. 59.
 
-28. (Senior, "Principes fondamentaux del'&Eacute;con. Pol." trad. Arrivabene. Paris, 1836, p. 308.) This was
+28. (Senior, "Principes fondamentaux del'Écon. Pol." trad. Arrivabene. Paris, 1836, p. 308.) This was
 rather too much for the adherents of the old classical school. "Mr. Senior
 has substituted for it" (the expression, labour and profit) "the expression
 labour and Abstinence. He who converts his revenue abstains from the enjoyment
@@ -1224,7 +1224,7 @@ his wine in a cellar for years, instead of consuming these things or their
 equivalent at once ... unless he expects to acquire additional value, &c." 
 (Scrope, "Polit. Econ.," edit. by A. Potter, New York, 1841, pp. 133-134.)
 
-31. "La privation que s'impose le capitalist�, en pr�tant [The deprivation the capitalist imposes on himself by lending ...] (this euphemism used, for the purpose of identifying, according to the approved method of vulgar economy, the labourer who is exploited, with the industrial capitalist who exploits, and to whom other capitalists lend money) ses instruments de production au travailleur, au lieu d'en consacrer la valeur � son propre usage, en la transforment en objets d'utilit&eacute;
+31. "La privation que s'impose le capitalist�, en pr�tant [The deprivation the capitalist imposes on himself by lending ...] (this euphemism used, for the purpose of identifying, according to the approved method of vulgar economy, the labourer who is exploited, with the industrial capitalist who exploits, and to whom other capitalists lend money) ses instruments de production au travailleur, au lieu d'en consacrer la valeur � son propre usage, en la transforment en objets d'utilité
 ou d'agr�ment." [his instruments of production to the worker, instead of devoting their value to his own consumption, by transforming them into objects of utility or pleasure] (G. de Molinari, l. c., p. 36.)
 
 32. "La conservation d'un capital exige ... un effort constant pour r�sister a la tentation de le consommer." (Courcelle-Seneuil, l. c., p. 57.)
@@ -1317,17 +1317,17 @@ in consequence of which the values of the products yielded may vary considerably
 Ricardo has, it may be noted in passing, tried in vain to make clear to
 J. B. Say, by that very example, the difference between use value (which
 he here calls wealth or material riches) and exchange-value. Say answers:
- "Quant &agrave; la difficult&eacute; qu'&eacute;l&egrave;ve Mr. Ricardo
-en disant que, par des proc&eacute;d&eacute;s mieux entendus un million
+ "Quant à la difficulté qu'élève Mr. Ricardo
+en disant que, par des procédés mieux entendus un million
 de personnes peuvent produire deux fois, trois fois autant de richesses,
-sans produire plus de valeurs, cette difficult&eacute; n'est pas une lorsque
-l'on consid&eacute;re, ainsi qu'on le doit, la production comme un &eacute;change
+sans produire plus de valeurs, cette difficulté n'est pas une lorsque
+l'on considére, ainsi qu'on le doit, la production comme un échange
 dans lequel on donne les services productifs de son travail, de sa terre,
 et de ses capitaux, pour obtenir des produits. C'est par le moyen de ces
-services productifs, que nous acqu&eacute;rons tous les produits qui sont
+services productifs, que nous acquérons tous les produits qui sont
 au monde. Or... nous sommes d'autant plus riches, nos services productifs
-ont d'autant plus de valeur qu'ils obtiennent dans l'&eacute;change appel&eacute;
-production une plus grande quantit&eacute; de choses utiles." [As for the difficulty raised by Ricardo when he says that, by using better methods of production, a million people can produce two or three times as much wealth, without producing any more value, this difficulty disappears when one bears in mind, as one should, that production is like an exchange in which a man contributes the productive services of his labour, his land, and his capital, in order to obtain products. It is by means of these productive services that we acquire all the products existing in the world. Therefore ... we are richer, our productive services have the more value, the greater the quantity of useful things they bring in through the exchange which is called production] (J. B. Say, "Lettres &agrave; M. Malthus," Paris, 1820, pp. 168, 169.) The "difficult&eacute;" 
+ont d'autant plus de valeur qu'ils obtiennent dans l'échange appelé
+production une plus grande quantité de choses utiles." [As for the difficulty raised by Ricardo when he says that, by using better methods of production, a million people can produce two or three times as much wealth, without producing any more value, this difficulty disappears when one bears in mind, as one should, that production is like an exchange in which a man contributes the productive services of his labour, his land, and his capital, in order to obtain products. It is by means of these productive services that we acquire all the products existing in the world. Therefore ... we are richer, our productive services have the more value, the greater the quantity of useful things they bring in through the exchange which is called production] (J. B. Say, "Lettres à M. Malthus," Paris, 1820, pp. 168, 169.) The "difficulté" 
 ; it exists for him, not for Ricardo ; that Say means to clear up is
 this: Why does not the exchange-value of the use values increase, when
 their quantity increases in consequence of increased productive power of
@@ -1348,8 +1348,8 @@ receives in return for a given equivalent two pairs of stockings instead
 of one as before. The result he arrives at, is precisely that proposition
 of Ricardo that he aimed at disproving. After this mighty effort of thought,
 he triumphantly apostrophises Malthus in the words: "Telle est, monsieur,
-la doctrine bien li&eacute;e, sans laquelle il est impossible, je le d&eacute;clare,
-d'expliquer les plus grandes difficult&eacute;s de l'&eacute;conomie politique,
+la doctrine bien liée, sans laquelle il est impossible, je le déclare,
+d'expliquer les plus grandes difficultés de l'économie politique,
 et notamment, comment il se peut qu'une nation soit plus riche lorsque
 ses produits diminuent de valeur, quoique la richesse soit de la valeur." 
  [This, Sir, is the well-founded doctrine without which it is impossible, I say, to explain the greatest difficulties in political economy, and, in particular, to explain why it is that a nation can be richer when its products fall in value, even though wealth is value] 
@@ -1358,7 +1358,7 @@ of the same nature that appear in Say's "Lettres": "Those affected ways
 of talking make up in general that which M. Say is pleased to call his
 doctrine and which he earnestly urges Malthus to teach at Hertford, as
 it is already taught 'dans plusieurs parties de l'Europe.' He says, 'Si
-vous trouvez une physionomie de paradoxe &agrave; toutes ces propositions,
+vous trouvez une physionomie de paradoxe à toutes ces propositions,
 voyez les choses qu'elles expriment, et j'ose croire qu'elles vous para�tront
 fort simples et fort raisonnables.' [in numerous parts of Europe ... If all those propositions appear paradoxical to you, look at the things they express, and I venture to believe that they will then appear very simple and very rational] Doubtless, and in consequence of the
 same process, they will appear everything else, except original." ("An
@@ -1367,20 +1367,20 @@ pp. 116, 110.)
 
 48. MacCulloch took out a patent for "wages of past labour," long before Senior did for "wages of abstinence." 
 
-49. Compare among others, Jeremy Bentham: "Th&eacute;orie des Peines et des R&eacute;compenses," traduct. d'Et. Dumont,
-3&egrave;me &eacute;dit. Paris, 1826, t. II, L. IV., ch. II.
+49. Compare among others, Jeremy Bentham: "Théorie des Peines et des Récompenses," traduct. d'Et. Dumont,
+3ème édit. Paris, 1826, t. II, L. IV., ch. II.
 
 50. Bentham is a purely English phenomenon. Not even excepting our philosopher, Christian Wolff, in no time and in
 no country has the most homespun commonplace ever strutted about in so
 self-satisfied a way. The principle of utility was no discovery of Bentham.
-He simply reproduced in his dull way what Helv&eacute;tius and other Frenchmen
+He simply reproduced in his dull way what Helvétius and other Frenchmen
 had said with esprit in the 18th century. To know what is useful for a
 dog, one must study dog-nature. This nature itself is not to be deduced
 from the principle of utility. Applying this to man, he that would criticise
 all human acts, movements, relations, etc., by the principle of utility,
 must first deal with human nature in general, and then with human nature
 as modified in each historical epoch. Bentham makes short work of it. With
-the driest naivet&eacute; he takes the modern shopkeeper, especially the
+the driest naiveté he takes the modern shopkeeper, especially the
 English shopkeeper, as the normal man. Whatever is useful to this queer
 normal man, and to his world, is absolutely useful. This yard-measure,
 then, he applies to past, present, and future. The Christian religion,

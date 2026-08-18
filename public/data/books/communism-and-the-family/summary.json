@@ -1,0 +1,48 @@
+{
+  "id": "communism-and-the-family",
+  "title": "Communism and the Family",
+  "author": "Alexandra Kollontai",
+  "year": "1920",
+  "difficulty": "Easy",
+  "readingTime": "25 mins",
+  "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/1920/communism-family.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Family",
+    "Women's Emancipation",
+    "Socialism"
+  ],
+  "context": "First published in 1920 during the Russian Civil War, Communism and the Family is Alexandra Kollontai's landmark pamphlet on Marxist feminism and social transformation. Kollontai demonstrates how industrial capitalism destroyed the self-contained domestic economy, pulling women into wage labor while leaving them burdened with unpaid housework. She outlines how a socialist society replaces private domestic isolation with collective kitchens, laundries, and communal childcare, liberating women to participate fully in economic and political life as equal human beings.",
+  "relatesToToday": "Highlights the crisis facing modern parents who struggle with astronomical childcare costs, expensive rent, and zero paid family leave. Kollontai's vision of universal free childcare centers, public dining halls, and equal parental rights shows how community support can free families from crushing financial strain.",
+  "keyTakeaways": [
+    "Industrial capitalism brought millions of women into socialized wage labor, breaking domestic isolation but doubling their workload.",
+    "Under socialism, domestic tasks (cooking, cleaning, mending) transition from private household burdens into public communal services.",
+    "Childcare and education become collective social responsibilities, liberating mothers from economic dependency and isolation.",
+    "Marriage evolves from an economic property contract based on financial dependency into a free, mutual union of equal comrades."
+  ],
+  "chapters": [
+    {
+      "id": "womens-role-in-production",
+      "title": "1. Women's Role in Production: Its Effect Upon the Family",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "housework-ceases-to-be-necessary",
+      "title": "2. Housework Ceases to Be Necessary",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-state-is-responsible-for-upbringing",
+      "title": "3. The State Is Responsible for the Upbringing of Children",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    }
+  ]
+}

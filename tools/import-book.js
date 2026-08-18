@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { syncManifest } from './sync-manifest.js';
+import { decodeAllHtmlEntities } from './clean-html-entities.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const workspaceRoot = path.join(__dirname, '..');
@@ -45,33 +46,8 @@ function cleanHtml(html) {
     .replace(/<li[^>]*>/gi, '\n- ')
     .replace(/<\/li>/gi, '\n');
 
-  // Strip remaining tags
-  let text = bodyContent.replace(/<[^>]*>/g, '');
-
-  // Decode common HTML entities (named and numeric)
-  text = text
-    .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"')
-    .replace(/&#8216;|&#8217;|&lsquo;|&rsquo;/g, "'")
-    .replace(/&#8211;|&#8212;|&ndash;|&mdash;/g, '; ')
-    .replace(/&#163;/g, '£')
-    .replace(/&#160;|&nbsp;/g, ' ')
-    .replace(/&#(\d+);/g, (_, code) => {
-      const num = parseInt(code, 10);
-      if (num === 8211 || num === 8212) return '; ';
-      if (num === 8220 || num === 8221) return '"';
-      if (num === 8216 || num === 8217) return "'";
-      return String.fromCharCode(num);
-    })
-    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => {
-      return String.fromCharCode(parseInt(hex, 16));
-    })
-    .replace(/&quot;/g, '"')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>');
-
-  // Replace em-dashes with semicolons to comply with workspace rule
-  text = text.replace(/—|--/g, '; ');
+  // Decode all HTML entities, strip remaining tags, and replace em-dashes
+  let text = decodeAllHtmlEntities(bodyContent);
 
   // Collapse spaces and excessive newlines
   text = text.replace(/[ \t]+/g, ' ');
@@ -177,8 +153,8 @@ async function main() {
   let rawChapters = [];
 
   if (isSingleFile) {
-    // Check if the single file has H2 headers
-    const h2Regex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+    // Check if the single file has H2, H3, or H4 headers
+    const h2Regex = /<h[2-4][^>]*>([\s\S]*?)<\/h[2-4]>/gi;
     const h2Matches = [];
     let h2Match;
     while ((h2Match = h2Regex.exec(indexHtml)) !== null) {

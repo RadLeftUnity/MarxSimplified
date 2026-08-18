@@ -83,7 +83,7 @@ export const antiColonialTerms: GlossaryTerm[] = [
   },
   {
     "term": "Third Worldism",
-    "pattern": "third worldism|third-worldism|third worldist|third-worldist|maoist-third worldism",
+    "pattern": "third worldism|third-worldism",
     "definition": "A political and economic framework within anti-imperialist Marxism asserting that the primary global contradiction lies between imperialist core nations (Global North) and exploited periphery nations (Global South), viewing the Global South working class and peasantry as the primary vanguard of global revolution.",
     "misconception": "Denying the existence of workers in wealthy nations. Third Worldism analyzes how imperialist superprofits bribe and pacify the majority of First World workers through higher living standards, creating a labor aristocracy.",
     "dayToDayExample": "Focusing revolutionary resources, solidarity, and organizing efforts on anti-imperialist land movements and labor struggles in developing nations rather than electoral campaigns in imperialist capitals.",
@@ -127,6 +127,46 @@ export const antiColonialTerms: GlossaryTerm[] = [
     "definition": "A form of irregular warfare conducted by small, mobile armed forces (often rural workers and peasants) using terrain knowledge, hit-and-run tactics, sabotage, and popular civilian support to fight a conventional military power.",
     "misconception": "Purely military tactics without politics. Mao Zedong, Che Guevara, and Amílcar Cabral emphasized that guerrilla warfare is a political struggle where the army relies entirely on the civilian population for intelligence, food, and concealment ('the people are to the army as water is to fish').",
     "dayToDayExample": "Mobile rural resistance units conducting surprise night raids on imperialist military outposts and dissolving back into local civilian communities.",
+    "theoryTags": ["Maoism", "Anti-Colonial Socialism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Maoist-Third Worldism",
+    "pattern": "maoist-third worldism|mtw|third worldist maoism",
+    "definition": "A specific anti-imperialist Marxist-Leninist-Maoist tendency asserting that there is no revolutionary proletariat in imperialist core nations due to imperialist superprofit distribution, and that world revolution will be waged exclusively by the exploited masses of the Third World through global encirclement.",
+    "misconception": "That Maoist-Third Worldism rejects Marxism. Theoretical Contention: While standard Marxism-Leninism and Maoism recognize the decisive revolutionary role of Global South anti-imperialist liberation struggles, traditional Marxists critique Maoist-Third Worldist defeatism toward First World workers, emphasizing that systemic capitalist crises, inflation, and austerity inevitably expose domestic workers to exploitation, necessitating international proletarian unity.",
+    "dayToDayExample": "Organizers focusing all theoretical and material support on Global South peasant land strikes, viewing organizing in Western capitals as futile until imperialist supply chains are severed.",
+    "theoryTags": ["Maoism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Imperialist Rent",
+    "pattern": "imperialist rent|first world privilege",
+    "definition": "The economic concept formulated by Samir Amin and Third Worldist economists describing the inflated purchasing power, high real wages, and social state welfare enjoyed by populations in imperialist core countries as a result of global superprofits and unequal exchange.",
+    "misconception": "That high First World living standards are earned purely through superior domestic labor productivity. Imperialist rent demonstrates that core living standards depend on the hyper-exploitation of Global South workers.",
+    "dayToDayExample": "Western consumers purchasing electronics and agricultural goods at prices far below their true labor value due to suppressed Global South wages.",
+    "theoryTags": ["Anti-Colonial Socialism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Global Primary Contradiction",
+    "pattern": "global primary contradiction|primary global contradiction",
+    "definition": "The Third Worldist thesis asserting that the primary contradiction driving world history today is the geopolitical and economic conflict between Western imperialist core nations and oppressed Global South nations, rather than internal class struggle within Western imperialist states.",
+    "misconception": "That domestic class struggle in wealthy nations is irrelevant. Anti-imperialists argue that breaking the imperialist grip on the Global South is the necessary prerequisite for dismantling global monopoly capital as a whole.",
+    "dayToDayExample": "Anti-imperialist movements prioritizing national sovereignty and debt cancellation for developing nations to weaken global finance capital.",
+    "theoryTags": ["Anti-Colonial Socialism", "Maoism"]
+  },
+  {
+    "term": "Imperialist Parasitism",
+    "pattern": "imperialist parasitism|parasite economy|parasitic capitalism",
+    "definition": "Lenin's description in 'Imperialism, the Highest Stage of Capitalism' of advanced imperialist nations whose economies rely primarily on exporting capital, harvesting foreign bond interest, and extracting superprofits from peripheral nations rather than domestic productive manufacturing.",
+    "misconception": "That service economies represent higher human progress. Imperialist parasitism transforms core nations into rentier states dependent on foreign labor extraction while domestic manufacturing is outsourced.",
+    "dayToDayExample": "A wealthy imperialist nation shifting from domestic steel and textile production to high-finance interest collection and patent licensing from Global South factories.",
+    "theoryTags": ["Marxism-Leninism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Comprador Bourgeoisie",
+    "pattern": "comprador bourgeoisie|comprador class|compradors|comprador",
+    "definition": "A section of the domestic capitalist class in colonized or peripheral nations (analyzed by Mao Zedong) that acts as an agent, broker, and local partner for foreign imperialist capital, deriving its wealth from facilitating the plunder of its own nation rather than developing independent national industry.",
+    "misconception": "That all capitalists in developing nations are anti-imperialist. Marxists contrast the comprador bourgeoisie (inherently counter-revolutionary and allied with imperialism) with the national bourgeoisie (which may temporarily oppose foreign imperialist domination during national liberation struggles).",
+    "dayToDayExample": "Local elites taking kickbacks from foreign oil companies to suppress local environmental protests and clear indigenous land.",
     "theoryTags": ["Maoism", "Anti-Colonial Socialism", "Marxism-Leninism"]
   }
 ];

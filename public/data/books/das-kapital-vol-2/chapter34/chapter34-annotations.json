@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "He can therefore repeat the same circuit anew with the same capital.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "The difference in the duration of the productive act must evidently give rise to a difference in the velocity of the turnover, if invested capitals are equal, in other words, must make a difference in the time for which a certain capital is advanced.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "At the end of the week, on delivery of the finished yarn, the spinning-mill owner recovers his outlay for circulating capital (leaving the surplus-value out of consideration), likewise the fixed capital's wear and tear incorporated in the value of the yarn.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "id": "gotha-programme",
+  "title": "Critique of the Gotha Programme",
+  "author": "Karl Marx",
+  "year": "1875",
+  "difficulty": "Medium-Hard",
+  "readingTime": "1.2 hours",
+  "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1875/gotha/",
+  "shortDescription": "Written by Karl Marx in 1875 as marginal notes on the draft program of the united German Social Democratic Workers' Party, this seminal text details the transition from capitalism to lower and higher phases of communist society.",
+  "subject": "Classical Marxism",
+  "tags": [
+    "Classical Marxism",
+    "Lower Phase of Communism",
+    "Dictatorship of the Proletariat",
+    "Lassalleanism",
+    "Karl Marx"
+  ],
+  "context": "Written in April–May 1875 and sent as a confidential letter to Wilhelm Bracke, 'Critique of the Gotha Programme' reacted sharply against opportunist compromises in the merger program between Marx's Eisenach followers and Ferdinand Lassalle's state-socialist supporters at Gotha. Left unpublished until Friedrich Engels released it in 1891, the text contains Marx's most explicit analysis of the political transition between capitalism and communism.",
+  "relatesToToday": "Critiques vague political promises like 'a fair day's pay for a fair day's work' or basic welfare reform. Marx outlines how a society transitions to true equality: 'from each according to their ability, to each according to their needs,' ensuring universal access to education, healthcare, and housing.",
+  "keyTakeaways": [
+    "Nature and human labor-power are twin sources of material wealth; labor power operates within natural material conditions.",
+    "Social production requires deductions before distribution: funds for replacement of capital, reserve funds, public administration, schools, healthcare, and disability relief.",
+    "In the lower phase of communism (socialism), distribution follows labor contributed; in the higher phase, society operates on: 'From each according to ability, to each according to needs!'",
+    "The political transition period between capitalist and communist society can be nothing but the revolutionary dictatorship of the proletariat."
+  ],
+  "chapters": [
+    {
+      "id": "foreword-by-friedrich-engels-1891",
+      "title": "Foreword by Friedrich Engels (1891)",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "part-i-critique-of-section-i-labor-distribution-phases-of-communist-society",
+      "title": "Part I: Critique of Section I (Labor, Distribution & Phases of Communist Society)",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "part-ii-critique-of-section-ii-the-iron-law-of-wages-state-criticism",
+      "title": "Part II: Critique of Section II (The Iron Law of Wages & State Criticism)",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "part-iii-critique-of-section-iii-state-aided-producers-co-operatives",
+      "title": "Part III: Critique of Section III (State-Aided Producers' Co-operatives)",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "part-iv-critique-of-section-iv-democracy-dictatorship-of-the-proletariat",
+      "title": "Part IV: Critique of Section IV (Democracy & Dictatorship of the Proletariat)",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "appendix-letter-to-wilhelm-bracke-supplementary-demands",
+      "title": "Appendix: Letter to Wilhelm Bracke & Supplementary Demands",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    }
+  ]
+}

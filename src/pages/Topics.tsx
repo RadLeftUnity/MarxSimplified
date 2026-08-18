@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Loader2 } from 'lucide-react';
-import { fetchCachedTopicIndex } from '../utils/dataCache';
+import { fetchCachedTopicIndex, clearTopicCache } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
 import { getAuthorImageUrl } from '../utils/authorImage';
@@ -23,6 +23,7 @@ export const Topics: React.FC<TopicsProps> = ({
   useEffect(() => {
     let isMounted = true;
     const loadTopics = async () => {
+      clearTopicCache();
       setLoading(true);
       try {
         const groups = await fetchCachedTopicIndex();
@@ -165,7 +166,7 @@ export const Topics: React.FC<TopicsProps> = ({
                     const authorImgUrl = getAuthorImageUrl(ref.bookAuthor || '');
 
                     return (
-                      <article key={`${ref.bookId}-${ref.chapterId}-${annId}`} className="topic-annotation-card glass-panel">
+                      <article key={`${currentGroup.topic}-${ref.bookId}-${ref.chapterId}-${annId}-${idx}`} className="topic-annotation-card glass-panel">
                         <div 
                           className="topic-card-book-cover-wrap"
                           onClick={() => onSelectAnnotationInReader(ref.bookId, ref.chapterId, annId)}

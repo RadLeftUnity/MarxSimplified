@@ -1,0 +1,34 @@
+{
+  "id": "womens-suffrage-and-class-struggle",
+  "title": "Women's Suffrage and Class Struggle",
+  "author": "Rosa Luxemburg",
+  "year": "1912",
+  "difficulty": "Easy",
+  "readingTime": "12 mins",
+  "coverGradient": "linear-gradient(135deg, #9c27b0 0%, #4a148c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/luxemburg/1912/05/12.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Women's Suffrage",
+    "Class Struggle",
+    "Anti-Imperialism"
+  ],
+  "context": "Delivered at the Second Social Democratic Women's Rally in Stuttgart, Germany on May 12, 1912, Women's Suffrage and Class Struggle is Rosa Luxemburg's classic speech demonstrating why working-class women's vote is a revolutionary threat to the capitalist state. Luxemburg contrasts working women—who create capitalist surplus value in factories and farms—with bourgeois women who act as co-consumers of surplus value, proving that the struggle for women's suffrage is an integral part of the proletarian revolution.",
+  "relatesToToday": "Explains why electoral politics and voting rights are worthless when isolated from mass working-class organization. Luxemburg demonstrates that corporate and upper-class women frequently vote to defend reactionary tax cuts, military budgets, and wealth privileges, showing why true gender liberation requires organizing working women in workplaces and community campaigns rather than relying on elite representation.",
+  "keyTakeaways": [
+    "Working-class women create capitalist profit in factories, farms, and offices, anchoring their claim to equal political rights in solid economic ground.",
+    "Bourgeois women do not participate in social production; as co-consumers of surplus value, they defend capitalist exploitation and vote for reactionary policies.",
+    "The capitalist state fears working women's suffrage because working women strengthen revolutionary working-class political parties against militarism, monarchy, and price-gouging taxes.",
+    "Charles Fourier's principle holds true: in any society, the degree of female emancipation is the natural measure of general human emancipation."
+  ],
+  "chapters": [
+    {
+      "id": "womens-suffrage-and-class-struggle",
+      "title": "Women's Suffrage and Class Struggle",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

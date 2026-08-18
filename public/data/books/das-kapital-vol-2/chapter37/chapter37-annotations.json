@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "Thus the turnover at the end of the year is as follows: &pound;600 have completed their circuit eight times, making &pound;4,800.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "Chapter 15: Effect of the Time of Turnover on the Magnitude of Advanced Capital In this chapter and in the next, the sixteenth, we shall treat of the influence of the time of turnover on the self-expansion of capital.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "Let us, for the time being, leave aside that portion of the value of the product which is added to it by the average wear and tear of the fixed capital, and also the surplus-value added to the product during the process of production.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  }
+]

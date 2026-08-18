@@ -1,0 +1,55 @@
+{
+  "id": "sexual-relations-and-the-class-struggle",
+  "title": "Sexual Relations and the Class Struggle",
+  "author": "Alexandra Kollontai",
+  "year": "1921",
+  "difficulty": "Medium",
+  "readingTime": "30 mins",
+  "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/1921/sex-class-struggle.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Sexual Morality",
+    "Class Struggle",
+    "Women's Emancipation"
+  ],
+  "context": "Written in 1921, Sexual Relations and the Class Struggle is Alexandra Kollontai's foundational theoretical essay applying historical materialism to sexual morality, marriage, and human psychology. Kollontai demonstrates how sexual ethics evolve alongside economic modes of production, tracing the transition from feudal tribalism to bourgeois individualistic possessiveness. She argues that capitalist atomization produces acute spiritual loneliness and possessive marital rights, urging the revolutionary working class to forge a new sexual code based on comradely solidarity, female independence, and collective class unity.",
+  "relatesToToday": "Addresses modern loneliness, dating burnout, and transactional relationships fostered by swipe-app culture. It demonstrates how capitalist individualism turns personal intimacy into a possessive commodity, advocating instead for relationships built on mutual respect and equal emotional partnership.",
+  "keyTakeaways": [
+    "Sexual codes and family structures are not fixed moral laws, but historical products of changing economic modes of production.",
+    "Capitalist atomization creates spiritual loneliness, prompting individuals to treat romantic partners as possessive property.",
+    "The double moral standard under capitalism evaluates women almost exclusively by sexual conduct while treating men as independent public actors.",
+    "Proletarian ethics replace marital possessiveness and isolated family egoism with comradely solidarity and female economic equality."
+  ],
+  "chapters": [
+    {
+      "id": "crisis-of-sexual-morality-across-history",
+      "title": "1. The Crisis of Sexual Morality Across History",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "psychology-of-bourgeois-individualism",
+      "title": "2. The Psychology of Bourgeois Individualism & Loneliness",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "property-rights-and-female-inequality",
+      "title": "3. Property Rights in Marriage and Female Inequality",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "proletarian-comradeship-and-new-morality",
+      "title": "4. Proletarian Comradeship and the New Morality",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "targetText": "We have seen that a money-supply must be accumulated at many points, hence money must be withdrawn from circulation, partly for the purpose of making it possible to form new money-capital in I, and partly to hold fast temporarily the value of the gradually depreciating fixed capital in the form of money.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "Accumulation in Department II We have hitherto assumed that A, A', A'' (I) sell their surplus-product to B, B', B'', etc.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "Accumulation in Department II We have hitherto assumed that A, A', A'' (I) sell their surplus-product to B, B', B'', etc.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "As far as this portion is concerned there is therefore an over-production, which, likewise as far as the same portion is concerned, clogs reproduction, even on the same scale.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

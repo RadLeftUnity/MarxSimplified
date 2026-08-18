@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "And the rate of profit under all circumstances has something to do with the market-price of the purchased commodities and with their supply and demand, but is determined by entirely different circumstances.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "Its Influence on the Interest Rate � \"In England there takes place a steady accumulation of additional wealth, which has a tendency ultimately to assume the form of money.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  },
+  {
+    "targetText": "An equal quantity of the circulation might still be held by individuals, but the deposits of merchants at their bankers, the balances of bankers with their money-broker, and the reserve in their till, will all be diminished, and the immediate result of this reduction in the amount of unemployed capital will be a rise in the rate of interest.",
+    "explanation": "Commercial or merchant capital doesn’t create new surplus value directly, but collects a share of total social profit by speeding up the circulation and sale of goods."
+  }
+]

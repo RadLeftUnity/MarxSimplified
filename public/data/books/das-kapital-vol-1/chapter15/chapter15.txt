@@ -450,7 +450,7 @@ I have stated; that is, that among such five men there will be one possessing
 all the qualifications of a good workman, one bad, and the other three
 middling, and approximating to the first, and the last. So that in so small
 a platoon as that of even five, you will find the full complement of all
-that five men can earn." (E. Burke, 1. c., pp. 15, 16.) Compare Qu&eacute;telet
+that five men can earn." (E. Burke, 1. c., pp. 15, 16.) Compare Quételet
 on the average individual.
 
 2. Professor Roscher claims to have discovered that one needlewoman employed by Mrs. Roscher during two days, does more
@@ -487,17 +487,17 @@ Present Price of Provisions and the Size of Farms." By a Farmer. London,
 ancient classical society as Franklin's definition of man, as a tool-making
 animal, is characteristic of Yankeedom.
 
-8. "On doit encore remarquer que cette division partielle de travail peut se faire quand m&ecirc;me les ouvriers
-sont occup�s d'une m&ecirc;me besogne. Des ma&ccedil;ons par exemple, occup&eacute;s
-&agrave; faire passer de mains en mains des briques &agrave; un &eacute;chafaudage
-sup&eacute;rieur, font tous la m&ecirc;me besogne, et pourtant il existe
-parmi eux une esp&egrave;ce de division de travail, qui consiste en ce
-que chacun d'eux fait passer la brique par un espace donn&eacute;, et que
-tous ensemble la font parvenir beaucoup plus promptement &agrave; l'endroit
-marqu� qu'ils ne le feraient si chacun d'eux portait sa brique s&eacute;par&eacute;ment
-jusqu'&agrave; l'&eacute;chafaudage sup&eacute;rieur." [It should be noted further that this partial division of labour can occur even when the workers are engaged in the same task. Masons, for example, engaged in passing bricks from hand to hand to a higher stage of the building, are all performing the same task, and yet there does exist amongst them a sort of division of labour. This consists in the fact that each of them passes the brick through a given space, and, taken together, they make it arrive much more quickly at the required spot than they would do if each of them carried his brick separately to the upper storey] (F. Skarbek: "Th&eacute;orie des richesses sociales." Paris, 1839, t. I, pp. 97, 98.)
+8. "On doit encore remarquer que cette division partielle de travail peut se faire quand même les ouvriers
+sont occup�s d'une même besogne. Des maçons par exemple, occupés
+à faire passer de mains en mains des briques à un échafaudage
+supérieur, font tous la même besogne, et pourtant il existe
+parmi eux une espèce de division de travail, qui consiste en ce
+que chacun d'eux fait passer la brique par un espace donné, et que
+tous ensemble la font parvenir beaucoup plus promptement à l'endroit
+marqu� qu'ils ne le feraient si chacun d'eux portait sa brique séparément
+jusqu'à l'échafaudage supérieur." [It should be noted further that this partial division of labour can occur even when the workers are engaged in the same task. Masons, for example, engaged in passing bricks from hand to hand to a higher stage of the building, are all performing the same task, and yet there does exist amongst them a sort of division of labour. This consists in the fact that each of them passes the brick through a given space, and, taken together, they make it arrive much more quickly at the required spot than they would do if each of them carried his brick separately to the upper storey] (F. Skarbek: "Théorie des richesses sociales." Paris, 1839, t. I, pp. 97, 98.)
 
-9. "Est-il question d'ex&eacute;cuter un travail compliqu&eacute;, plusieurs choses doivent &ecirc;tre faites simultan&eacute;ment. L'un en fait une pendant que l'autre en fait une autre, et tous contribuent &agrave; l'effet qu'un seul homme n'aurait pu produire. L'un rame pendant que l'autre tient le gouvernail, et qu'un troisi&egrave;me jette le filet on harponne le poisson, et la p&ecirc;che a un succ&egrave;s impossible sans ce concours." [Is it a question of undertaking a complex piece of labour? Many things must be done simultaneously. One person does one thing, while another does something else, and they all contribute to an effect that a single man would be unable to produce. One rows while the other holds the rudder, and a third casts the net or harpoons the fish; in this way fishing enjoys a success that would be impossible without this cooperation] (Destutt de Tracy, l.c.)
+9. "Est-il question d'exécuter un travail compliqué, plusieurs choses doivent être faites simultanément. L'un en fait une pendant que l'autre en fait une autre, et tous contribuent à l'effet qu'un seul homme n'aurait pu produire. L'un rame pendant que l'autre tient le gouvernail, et qu'un troisième jette le filet on harponne le poisson, et la pêche a un succès impossible sans ce concours." [Is it a question of undertaking a complex piece of labour? Many things must be done simultaneously. One person does one thing, while another does something else, and they all contribute to an effect that a single man would be unable to produce. One rows while the other holds the rudder, and a third casts the net or harpoons the fish; in this way fishing enjoys a success that would be impossible without this cooperation] (Destutt de Tracy, l.c.)
 
 10. "The doing of it (agricultural work) at the critical juncture is of so much the greater consequence." ("An Inquiry into the Connexion between the Present Price," &c., p. 9.) "In agriculture, there is no more important factor than that of time." (Liebig: "Ueber Theorie und Praxis in der Landwirtschaft." 1856, p. 23.)
 
@@ -519,7 +519,7 @@ the sphere of production formerly occupied or worked upon by one single
 independent agent of production." (R. Jones: "An Essay on the Distribution
 of Wealth," part I. On Rent. London, 1831. p. 191.)
 
-13. "La forza di ciascuno uomo &egrave; minima, ma la riunione delle minime forze forma una forza totale maggiore
+13. "La forza di ciascuno uomo è minima, ma la riunione delle minime forze forma una forza totale maggiore
 anche della somma delle forze medesime fino a che le forze per essere riunite
 possono diminuere il tempo ed accrescere lo spazio della loro azione." 
 (G. R. Carli, Note to P. Verri, l.c., t. xv., p. 196.)
@@ -554,7 +554,7 @@ same way that they have done in the case of the lords of capital.
 in London, and in other European capitals, make us eye-witnesses of the
 modes of carrying on that co-operative labour.
 
-20. Linguet is improbably right, when in his "Th&eacute;orie des Lois Civiles," he declares hunting to be the
+20. Linguet is improbably right, when in his "Théorie des Lois Civiles," he declares hunting to be the
 first form of co-operation, and man-hunting (war) one of the earliest forms
 of hunting.
 

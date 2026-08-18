@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "Consequently the length of the turnover period increases in proportion to the length of the production time that does not consist of working time.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "It is here not a question of interruptions of the labour-process necessitated by natural limitations of the labour-power itself, although we have seen to what extent the mere circumstance that fixed capital ; factory buildings, machinery, etc.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  }
+]

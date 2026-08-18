@@ -1,9 +1,12 @@
 [
   {
     "id": "origin-family-ch5-1",
-    "targetText": "The consanguine family is extinct. Even the most primitive peoples known to history provide no demonstrable instance of it. But that it must have existed, we are compelled to admit",
+    "targetText": "The consanguine family is extinct. Even the most primitive peoples known to\r\nhistory provide no demonstrable instance of it. But that it must have existed,\r\nwe are compelled to adm",
     "summary": "The consanguine (generation-based) family stage is no longer practiced anywhere today, but its historical existence is proven by ancient kinship naming systems preserved in language.",
     "context": "Engels shows how anthropologists deduce prehistoric social stages. Even after actual marriage customs change, old kinship terms linger in language, allowing historians to reconstruct earliest human family forms.",
-    "topics": ["Family & Patriarchy", "Historical Materialism"]
+    "topics": [
+      "Family & Patriarchy",
+      "Historical Materialism"
+    ]
   }
 ]

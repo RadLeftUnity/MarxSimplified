@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "targetText": "And the capitalist has absolutely gained £20, because he actually paid for the labour-power 20 per cent less than its value, or cut nominal wages 20 per cent by a circuitous route.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "It is repeated every year for a certain number of enterprises whose fixed capital is to be renewed in kind.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "The study of the exchange of newly produced gold within the constant capital of department I is not contained in the manuscript.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "The 3 remain in its hands as a gold hoard.",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "Chapter 20: Simple Reproduction Part 4 XII.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

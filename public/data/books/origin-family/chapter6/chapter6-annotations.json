@@ -1,9 +1,12 @@
 [
   {
     "id": "origin-family-ch6-1",
-    "targetText": "If the first advance in organization consisted in the exclusion of parents and children from sexual intercourse with one another, the second was the exclusion of sister and brother.",
+    "targetText": "If the first advance in organization consisted in the exclusion\r\nof parents and children from sexual intercourse with one another, the second\r\nwas the exclusion of sister and brothe",
     "summary": "Early human social organization evolved through successive taboos on inbreeding, first excluding parents and children, and then brothers and sisters from mating.",
     "context": "Engels traces the biological and social drivers of early family structures. As communities prohibited marriage between close relatives, tribal groups organized into distinct clans (gentes) that required marrying outside the clan.",
-    "topics": ["Family & Patriarchy", "Kinship & Clan Society"]
+    "topics": [
+      "Family & Patriarchy",
+      "Kinship & Clan Society"
+    ]
   }
 ]

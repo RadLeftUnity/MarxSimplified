@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "Conversely, the existence and concept of price of production and general rate of profit, which it implies, rest upon the fact that individual commodities are not sold at their value.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "The relation of the price of production of a commodity to its value is determined solely by the ratio of the variable part of the capital with which the commodity is produced to its constant part, or by the organic composition of the capital producing it.",
+    "explanation": "The organic composition of capital ($c/v$) reflects the ratio of dead labor (machinery and materials) to living labor-power employed in production."
+  },
+  {
+    "targetText": "It is the perpetual tendency of capitals to bring about through competition this equalisation in the distribution of surplus-value produced by the total capital, and to overcome all obstacles to this equalisation.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  }
+]

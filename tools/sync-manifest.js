@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { buildSearchIndex } from './build-search-index.js';
+import { buildTopicIndex } from './build-topic-index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const workspaceRoot = path.join(__dirname, '..');
@@ -59,6 +60,9 @@ export function syncManifest() {
 
   // Build full-text search index across all books & chapters
   buildSearchIndex();
+
+  // Build pre-compiled topics index across all books & chapters
+  buildTopicIndex();
 }
 
 // Run if called directly

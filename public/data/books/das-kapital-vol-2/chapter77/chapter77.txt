@@ -211,7 +211,7 @@ c) Section 1 has 200 in money and 200 in commodities. Section 2
 has 200 c (d) in commodities.
 
 On this supposition section 2 does not have any advance to make in
-money, because vis-&agrave;-vis I it no longer acts at all as buyer but only as
+money, because vis-à-vis I it no longer acts at all as buyer but only as
 seller, hence has to wait until someone buys from it.
 
 Section 1 advances &pound;400 in money: 200 for mutual commodity-exchange

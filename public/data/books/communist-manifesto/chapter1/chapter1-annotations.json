@@ -1,0 +1,32 @@
+[
+  {
+    "id": "manifesto-chapter1-1",
+    "targetText": "The Communist League, an international association of workers",
+    "summary": "The origin of the Communist Manifesto: commissioned by the Communist League in London in 1847.",
+    "explanation": "Marx and Engels drafted the Manifesto as the official theoretical program of the Communist League, an early international organization of revolutionary workers that united German, French, and British socialists."
+  },
+  {
+    "id": "manifesto-chapter1-2",
+    "targetText": "working class cannot simply lay hold of the ready-made state machinery, and wield it for its own purposes",
+    "summary": "Lessons from the Paris Commune of 1871: workers must smash the existing state apparatus.",
+    "explanation": "In the 1872 Preface, Marx and Engels highlight the main theoretical development since 1848: the Paris Commune proved that workers cannot take over the capitalist army, police, and bureaucracy, but must destroy the old state machine and build a new workers' state."
+  },
+  {
+    "id": "manifesto-chapter1-3",
+    "targetText": "Russia forms the vanguard of revolutionary action in Europe",
+    "summary": "Shift of revolutionary momentum to Russia: Marx and Engels foresee Russia as the vanguard of European revolution.",
+    "explanation": "In their 1882 Preface, Marx and Engels note that while Russia had served as the fortress of European reaction in 1848, by 1882 Russian revolutionary movements had transformed Russia into the epicenter of European social transformation."
+  },
+  {
+    "id": "manifesto-chapter1-4",
+    "targetText": "general principles laid down in the Manifesto are, on the whole, as correct today as ever",
+    "summary": "Enduring validity of Marxist principles: foundational scientific analysis of class struggle remains intact.",
+    "explanation": "Marx and Engels emphasize that while specific tactical demands vary with historical conditions, the core materialist analysis of class struggle, capital accumulation, and historical development remains universally valid."
+  },
+  {
+    "id": "manifesto-chapter1-5",
+    "targetText": "concentration of capital funds are developing for the first time in the industrial regions",
+    "summary": "Rise of American monopoly capitalism: rapid industrial growth transforming the United States.",
+    "explanation": "Marx and Engels analyze how rapid industrialization and mass European immigration in the late 19th century created a massive industrial working class and concentrated monopolies in North America, ending Britain's industrial monopoly."
+  }
+]

@@ -807,16 +807,7 @@ decreases.
 
 70c + 30v + 20s; s' = 66⅔%, p' = 10%
 
-50% : 66⅔% < 10% : 20%.
-
-3) p' rises or falls at a slower rate than s' if v/C changes inversely to
-s', but at a slower rate.
-
-80c + 20v + 10s; s' = 50%, p' = 10%
-
-90c + 10v + 15s; s' = 150%, p' = 15%
-
-50% : 150% > 10% : 15%.
+50% : 66⅔% 10% : 15%.
 
 4) p' rises while s' falls, or falls while s' rises if v/C changes inversely
 to, and at, a faster rate than, s'.

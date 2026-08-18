@@ -9,7 +9,10 @@ export interface Annotation {
   targetText: string;
   summary: string;
   context: string;
+  explanation?: string;
   topics?: string[];
+  excludeGlossaryTerms?: string[];
+  excludeGlossaryPhrases?: string[];
 }
 
 interface ChapterReaderProps {
@@ -19,6 +22,8 @@ interface ChapterReaderProps {
   activeAnnotationId: string | null;
   onSelectAnnotation: (id: string | null) => void;
   searchTerm?: string;
+  excludeGlossaryTerms?: string[];
+  excludeGlossaryPhrases?: string[];
 }
 
 interface Segment {
@@ -27,9 +32,13 @@ interface Segment {
   annotationId?: string;
 }
 
-function renderSearchAndJargon(str: string, searchQuery?: string) {
+function renderSearchAndJargon(
+  str: string,
+  searchQuery?: string,
+  glossaryOpts?: { excludeTerms?: string[]; excludePhrases?: string[] }
+) {
   if (!searchQuery || !searchQuery.trim()) {
-    return highlightJargon(str);
+    return highlightJargon(str, glossaryOpts);
   }
   const q = searchQuery.trim();
   const parts = str.split(new RegExp(`(${q.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')})`, 'gi'));
@@ -39,7 +48,7 @@ function renderSearchAndJargon(str: string, searchQuery?: string) {
         {part}
       </mark>
     ) : (
-      <React.Fragment key={i}>{highlightJargon(part)}</React.Fragment>
+      <React.Fragment key={i}>{highlightJargon(part, glossaryOpts)}</React.Fragment>
     )
   );
 }
@@ -185,9 +194,15 @@ export const ChapterReader: React.FC<ChapterReaderProps> = ({
   activeAnnotationId,
   onSelectAnnotation,
   searchTerm,
+  excludeGlossaryTerms,
+  excludeGlossaryPhrases,
 }) => {
   const urlSearchTerm = new URLSearchParams(window.location.search).get('q') || undefined;
   const activeSearchTerm = searchTerm || urlSearchTerm;
+  const glossaryOpts = useMemo(() => ({
+    excludeTerms: excludeGlossaryTerms,
+    excludePhrases: excludeGlossaryPhrases,
+  }), [excludeGlossaryTerms, excludeGlossaryPhrases]);
 
   const parsedBlocks = useMemo(() => {
     return parseFormattedBlocks(text);
@@ -223,7 +238,7 @@ export const ChapterReader: React.FC<ChapterReaderProps> = ({
           />
         );
       }
-      return <span key={segIdx}>{renderSearchAndJargon(seg.text, activeSearchTerm)}</span>;
+      return <span key={segIdx}>{renderSearchAndJargon(seg.text, activeSearchTerm, glossaryOpts)}</span>;
     });
 
     if (isTitle) {

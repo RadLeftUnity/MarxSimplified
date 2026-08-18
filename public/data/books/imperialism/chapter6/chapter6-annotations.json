@@ -4,20 +4,31 @@
     "targetText": "Paramount importance attaches to the \"holding system,\" already",
     "summary": "The holding system allows a parent financial corporation to control vast webs of subsidiary companies using only a small fraction of capital.",
     "context": "By buying controlling stakes (51% or less) in parent companies, which in turn control subsidiaries, financial magnates exercise leverage over entire industrial sectors while insulating themselves from losses.",
-    "topics": ["Finance Capital", "Financial Oligarchy", "Monopolies"]
+    "topics": [
+      "Finance Capital",
+      "Financial Oligarchy",
+      "Monopolies"
+    ]
   },
   {
     "id": "imperialism-chapter6-2",
-    "targetText": "monstrous rule of the\n financial oligarchy are so glaring",
+    "targetText": "monstrous rule of the\r\n financial oligarchy are so glarin",
     "summary": "A tiny financial elite of bankers, private investors, and corporate magnates rules the economy and shapes government policies.",
     "context": "Lenin details how financial concentration transforms formal democracy into a hidden rule by an oligarchy that influences government decisions, treasury loans, and state contracts.",
-    "topics": ["Finance Capital", "Financial Oligarchy", "State & Revolution"]
+    "topics": [
+      "Finance Capital",
+      "Financial Oligarchy",
+      "State & Revolution"
+    ]
   },
   {
     "id": "imperialism-chapter6-3",
     "targetText": "petty usury capital, is ending its development",
     "summary": "Capitalism evolves from small money-lending into massive financial extraction, where wealth is made through financial speculation, debt issuance, and stock manipulation.",
     "context": "In this stage, economic power shifts away from factory owners making physical goods to Wall Street and central bankers managing speculative debt and equity instruments.",
-    "topics": ["Finance Capital", "Monopolies"]
+    "topics": [
+      "Finance Capital",
+      "Monopolies"
+    ]
   }
 ]

@@ -1,6 +1,62 @@
 {
   "books": [
     {
+      "id": "civil-war-france",
+      "title": "The Civil War in France",
+      "author": "Karl Marx",
+      "year": "1871",
+      "difficulty": "Medium-Hard",
+      "readingTime": "2.5 hours",
+      "shortDescription": "Written by Karl Marx between April and May 1871 as an official address to the General Council of the International Workingmen's Association, The Civil War in France is Marx's seminal historical materialist analysis of the Paris Commune. Written while Communards were defending Paris against Versaillist troops, Marx synthesizes the lessons of the first working-class government in history, establishing the core Marxist proposition that the working class cannot simply lay hold of the ready-made state machinery and wield it for its own purposes, but must smash the bourgeois state apparatus and replace it with genuine proletarian democracy.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "State Theory & Dictatorship of the Proletariat",
+      "tags": [
+        "Dictatorship of the Proletariat",
+        "The State",
+        "Paris Commune",
+        "Class Struggle",
+        "Karl Marx"
+      ]
+    },
+    {
+      "id": "communism-and-the-family",
+      "title": "Communism and the Family",
+      "author": "Alexandra Kollontai",
+      "year": "1920",
+      "difficulty": "Easy",
+      "readingTime": "25 mins",
+      "shortDescription": "First published in 1920 during the Russian Civil War, Communism and the Family is Alexandra Kollontai's landmark pamphlet on Marxist feminism and social transformation. Kollontai demonstrates how industrial capitalism destroyed the self-contained domestic economy, pulling women into wage labor while leaving them burdened with unpaid housework. She outlines how a socialist society replaces private domestic isolation with collective kitchens, laundries, and communal childcare, liberating women to participate fully in economic and political life as equal human beings.",
+      "coverColor": "#a01a4e",
+      "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Family",
+        "Women's Emancipation",
+        "Socialism"
+      ]
+    },
+    {
+      "id": "communist-manifesto",
+      "title": "The Communist Manifesto",
+      "author": "Karl Marx & Friedrich Engels",
+      "year": "1848",
+      "difficulty": "Easy-Medium",
+      "readingTime": "1.5 hours",
+      "shortDescription": "Commissioned by the Communist League and published in London in February 1848, this pamphlet was written during a period of massive political unrest across Europe. It explains the class struggle and critiques capitalism, serving as a call to action for the working class.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "Class Struggle",
+      "tags": [
+        "Class Struggle",
+        "Historical Materialism",
+        "Bourgeoisie & Proletariat",
+        "Karl Marx",
+        "Friedrich Engels"
+      ]
+    },
+    {
       "id": "das-kapital-vol-1",
       "title": "Capital: Volume 1 (The Process of Production of Capital)",
       "author": "Karl Marx",
@@ -54,6 +110,25 @@
         "Rate of Profit",
         "Fictitious Capital",
         "Ground Rent",
+        "Karl Marx"
+      ]
+    },
+    {
+      "id": "gotha-programme",
+      "title": "Critique of the Gotha Programme",
+      "author": "Karl Marx",
+      "year": "1875",
+      "difficulty": "Medium-Hard",
+      "readingTime": "1.2 hours",
+      "shortDescription": "Written by Karl Marx in 1875 as marginal notes on the draft program of the united German Social Democratic Workers' Party, this seminal text details the transition from capitalism to lower and higher phases of communist society.",
+      "coverColor": "#4a154b",
+      "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+      "subject": "Classical Marxism",
+      "tags": [
+        "Classical Marxism",
+        "Lower Phase of Communism",
+        "Dictatorship of the Proletariat",
+        "Lassalleanism",
         "Karl Marx"
       ]
     },
@@ -115,22 +190,23 @@
       ]
     },
     {
-      "id": "manifesto",
-      "title": "The Communist Manifesto",
-      "author": "Karl Marx & Friedrich Engels",
-      "year": "1848",
-      "difficulty": "Easy-Medium",
-      "readingTime": "1.5 hours",
-      "shortDescription": "Commissioned by the Communist League and published in London in February 1848, this pamphlet was written during a period of massive political unrest across Europe. It explains the class struggle and critiques capitalism, serving as a call to action for the working class.",
-      "coverColor": "#8b0000",
-      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
-      "subject": "Class Struggle",
+      "id": "left-wing-communism",
+      "title": "“Left-Wing” Communism: an Infantile Disorder",
+      "author": "V.I. Lenin",
+      "year": "1920",
+      "difficulty": "Medium",
+      "readingTime": "3.7 hours",
+      "shortDescription": "Written in 1920 for the Second Congress of the Communist International, Lenin's classic treatise critiques sectarian 'left' radicalism and outlines pragmatic, principled revolutionary strategy and tactics.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Party Strategy & Tactics",
       "tags": [
-        "Class Struggle",
-        "Historical Materialism",
-        "Bourgeoisie & Proletariat",
-        "Karl Marx",
-        "Friedrich Engels"
+        "Party Strategy & Tactics",
+        "Revolutionary Tactics",
+        "Marxism-Leninism",
+        "Trade Unions",
+        "Parliamentarism",
+        "V.I. Lenin"
       ]
     },
     {
@@ -168,6 +244,189 @@
         "The State",
         "Patriarchy",
         "Friedrich Engels"
+      ]
+    },
+    {
+      "id": "principles-of-communism",
+      "title": "The Principles of Communism",
+      "author": "Friedrich Engels",
+      "year": "1847",
+      "difficulty": "Easy-Medium",
+      "readingTime": "0.8 hours",
+      "shortDescription": "Drafted by Friedrich Engels in 1847 as a 25-question catechism for the Communist League, this foundational work provides clear, accessible answers explaining the core principles of Marxism.",
+      "coverColor": "#1b263b",
+      "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+      "subject": "Classical Marxism",
+      "tags": [
+        "Classical Marxism",
+        "Proletariat",
+        "Industrial Revolution",
+        "Socialism",
+        "Friedrich Engels"
+      ]
+    },
+    {
+      "id": "prostitution-and-ways-of-fighting-it",
+      "title": "Prostitution and Ways of Fighting It",
+      "author": "Alexandra Kollontai",
+      "year": "1921",
+      "difficulty": "Easy",
+      "readingTime": "30 mins",
+      "shortDescription": "Delivered as a speech to the Third All-Russian Conference of Heads of Regional Women's Departments in 1921, Prostitution and Ways of Fighting It is Alexandra Kollontai's groundbreaking Marxist analysis of sex work and Soviet social policy. Kollontai argues that prostitution is rooted in capitalist poverty and female economic dependence, defining prostitutes not as criminals or fallen women, but as labor deserters alongside non-working kept wives. She outlines Soviet strategies to eradicate prostitution through vocational training, economic equality, public health, and free comradeship.",
+      "coverColor": "#a01a4e",
+      "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Women's Emancipation",
+        "Labour",
+        "Soviet Union"
+      ]
+    },
+    {
+      "id": "red-love",
+      "title": "Red Love",
+      "author": "Alexandra Kollontai",
+      "year": "1927",
+      "difficulty": "Medium",
+      "readingTime": "5.0 hours",
+      "shortDescription": "Published in 1927, Red Love (Vasilisa Malygina) is Alexandra Kollontai's pioneering revolutionary novel set during the New Economic Policy (NEP) in Soviet Russia. The novel dramatizes the conflict between the new communist morality of female economic independence and the revival of bourgeois careerism and possessiveness. Following Vasilisa, a devoted Bolshevik textile worker, the narrative explores the breakdown of her marriage to Volodya as he succumbs to NEP-era bureaucratization and bourgeois corruption, illustrating the necessity for working women to build self-reliance through socialized labor and revolutionary comradeship.",
+      "coverColor": "#a01a4e",
+      "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Soviet Fiction",
+        "Women's Emancipation",
+        "NEP Period"
+      ]
+    },
+    {
+      "id": "reform-or-revolution",
+      "title": "Reform or Revolution",
+      "author": "Rosa Luxemburg",
+      "year": "1900",
+      "difficulty": "Medium",
+      "readingTime": "2.1 hours",
+      "shortDescription": "First published in 1899-1900 as a polemic against Eduard Bernstein's revisionist reformism, Social Reform or Revolution is Rosa Luxemburg's masterwork defending scientific socialism. Luxemburg demonstrates that trade unions and legislative reforms cannot gradually dissolve capitalist exploitation, proving that reform and revolution are not optional pathways to the same goal, but fundamental choices between repairing capitalism or abolishing wage slavery.",
+      "coverColor": "#9c27b0",
+      "coverGradient": "linear-gradient(135deg, #9c27b0 0%, #4a148c 100%)",
+      "subject": "Marxist Political Economy",
+      "tags": [
+        "Reform vs Revolution",
+        "Anti-Revisionism",
+        "Class Struggle",
+        "Marxist Economics"
+      ]
+    },
+    {
+      "id": "sexual-relations-and-the-class-struggle",
+      "title": "Sexual Relations and the Class Struggle",
+      "author": "Alexandra Kollontai",
+      "year": "1921",
+      "difficulty": "Medium",
+      "readingTime": "30 mins",
+      "shortDescription": "Written in 1921, Sexual Relations and the Class Struggle is Alexandra Kollontai's foundational theoretical essay applying historical materialism to sexual morality, marriage, and human psychology. Kollontai demonstrates how sexual ethics evolve alongside economic modes of production, tracing the transition from feudal tribalism to bourgeois individualistic possessiveness. She argues that capitalist atomization produces acute spiritual loneliness and possessive marital rights, urging the revolutionary working class to forge a new sexual code based on comradely solidarity, female independence, and collective class unity.",
+      "coverColor": "#a01a4e",
+      "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Sexual Morality",
+        "Class Struggle",
+        "Women's Emancipation"
+      ]
+    },
+    {
+      "id": "social-basis-of-the-woman-question",
+      "title": "The Social Basis of the Woman Question",
+      "author": "Alexandra Kollontai",
+      "year": "1909",
+      "difficulty": "Medium",
+      "readingTime": "35 mins",
+      "shortDescription": "First published in 1909, The Social Basis of the Woman Question is Alexandra Kollontai's landmark text drawing a sharp materialist distinction between bourgeois feminism and proletarian women's liberation. Kollontai demonstrates that while bourgeois feminists seek equal privileges with men within the existing capitalist framework, working women seek to abolish economic slavery alongside male comrades through socialized labor, universal childcare, and revolutionary transformation.",
+      "coverColor": "#a01a4e",
+      "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Women's Emancipation",
+        "Class Struggle",
+        "Bourgeois Feminism"
+      ]
+    },
+    {
+      "id": "the-attitude-towards-religion",
+      "title": "The Attitude of the Workers' Party to Religion",
+      "author": "V.I. Lenin",
+      "year": "1909",
+      "difficulty": "Medium",
+      "readingTime": "25 mins",
+      "shortDescription": "Published in Proletary in May 1909 during a period of reaction following the defeat of the 1905 Russian Revolution, The Attitude of the Workers' Party to Religion is V.I. Lenin's classic treatise on dialectical materialism and religious policy. Lenin addresses debates in the Russian Duma and within the Bolshevik party, explaining why Marxists are absolute philosophical materialists yet oppose anarchistic declarations of war on religion, insisting that atheist education must be subordinated to the practical class struggle.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Marxist Philosophy & Party Strategy",
+      "tags": [
+        "Dialectical Materialism",
+        "Religion",
+        "Class Struggle",
+        "Marxism-Leninism",
+        "V.I. Lenin"
+      ]
+    },
+    {
+      "id": "the-great-love",
+      "title": "A Great Love",
+      "author": "Alexandra Kollontai",
+      "year": "1929",
+      "difficulty": "Medium",
+      "readingTime": "3.8 hours",
+      "shortDescription": "First published in 1929, A Great Love is Alexandra Kollontai's acclaimed collection of three novellas: A Great Love, Sisters, and The Loves of Three Generations. Through intimate narrative studies of Bolshevik revolutionaries, working mothers, and changing familial standards, Kollontai explores the psychological dilemmas facing women during the transition to socialism. The title story dramatizes the emotional friction between a devoted female organizer and her male comrade, while Sisters and Three Generations examine workplace exploitation, single motherhood, and the evolution of sexual morality across successive generations.",
+      "coverColor": "#a01a4e",
+      "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Soviet Fiction",
+        "Women's Emancipation",
+        "Relationships"
+      ]
+    },
+    {
+      "id": "the-holy-family",
+      "title": "The Holy Family",
+      "author": "Karl Marx & Friedrich Engels",
+      "year": "1845",
+      "difficulty": "Hard",
+      "readingTime": "6.0 hours",
+      "shortDescription": "Published in 1845, The Holy Family, or Critique of Critical Critique was the first major collaborative work by Karl Marx and Friedrich Engels. Written as a polemic against Bruno Bauer and the Young Hegelian 'Critical Critics', the text marks a decisive turning point in the development of scientific socialism. Marx and Engels demolish speculative Hegelian idealism, formulate the historic mission of the proletariat to abolish private property, trace the philosophical roots of socialism to 18th-century French materialism, and establish Charles Fourier's principle that women's emancipation is the natural measure of general social freedom.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "Marxist Philosophy & Historical Materialism",
+      "tags": [
+        "Historical Materialism",
+        "Critique of Idealism",
+        "Young Hegelians",
+        "Class Struggle",
+        "French Materialism"
+      ]
+    },
+    {
+      "id": "theses-on-communist-morality",
+      "title": "Theses on Communist Morality in the Sphere of Marital Relations",
+      "author": "Alexandra Kollontai",
+      "year": "1921",
+      "difficulty": "Medium",
+      "readingTime": "16 mins",
+      "shortDescription": "First published in Kommunistka (No. 12, 1921), Theses on Communist Morality in the Sphere of Marital Relations presents Alexandra Kollontai's definitive guidelines for revolutionary personal ethics. Kollontai demonstrates that as the workers' state assumes responsibility for public dining, laundries, and child welfare, human relationships are liberated from economic dependence, proprietary jealousy, and commercial marriage contracts, enabling true emotional solidarity.",
+      "coverColor": "#7b1fa2",
+      "coverGradient": "linear-gradient(135deg, #7b1fa2 0%, #311b92 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Communist Morality",
+        "Family & Marriage",
+        "Women's Emancipation"
       ]
     },
     {
@@ -225,6 +484,24 @@
         "Class Struggle",
         "Marxism-Leninism",
         "V.I. Lenin"
+      ]
+    },
+    {
+      "id": "womens-suffrage-and-class-struggle",
+      "title": "Women's Suffrage and Class Struggle",
+      "author": "Rosa Luxemburg",
+      "year": "1912",
+      "difficulty": "Easy",
+      "readingTime": "12 mins",
+      "shortDescription": "Delivered at the Second Social Democratic Women's Rally in Stuttgart, Germany on May 12, 1912, Women's Suffrage and Class Struggle is Rosa Luxemburg's classic speech demonstrating why working-class women's vote is a revolutionary threat to the capitalist state. Luxemburg contrasts working women—who create capitalist surplus value in factories and farms—with bourgeois women who act as co-consumers of surplus value, proving that the struggle for women's suffrage is an integral part of the proletarian revolution.",
+      "coverColor": "#9c27b0",
+      "coverGradient": "linear-gradient(135deg, #9c27b0 0%, #4a148c 100%)",
+      "subject": "Marxist Feminism",
+      "tags": [
+        "Marxist Feminism",
+        "Women's Suffrage",
+        "Class Struggle",
+        "Anti-Imperialism"
       ]
     }
   ]
