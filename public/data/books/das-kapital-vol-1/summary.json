@@ -8,7 +8,7 @@
   "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
   "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1867-c1/",
   "context": "Published in Hamburg in 1867, Volume 1 of Das Kapital is Karl Marx's foundational critique of political economy. It provides a detailed theoretical and historical examination of how capital extracts surplus value from wage labor, commodifies social relations, and drives systemic capitalist accumulation.",
-  "relatesToToday": "Marx's analysis of commodity fetishism, automated factory production, lengthening of the working day, and primitive accumulation remains vital for understanding modern platform capitalism, worker exploitation, global supply chains, and wealth inequality.",
+  "relatesToToday": "Explains why working harder or taking on a second gig economy job doesn't make workers richer. When tech platforms like Uber or Amazon increase worker productivity, the extra profit flows to shareholders while wages stay flat, illustrating how surplus value is extracted from human labor in modern workplaces.",
   "keyTakeaways": [
     "The dual nature of commodities (use-value and exchange-value) stems from the dual character of human labor.",
     "Surplus value is generated when workers produce more value than the cost of their labor-power (wages).",
@@ -62,7 +62,17 @@
       "title": "The Buying and Selling of Labour-Power",
       "textFile": "chapter8/chapter8.txt",
       "annotationFile": "chapter8/chapter8-annotations.json",
-      "summaryFile": "chapter8/chapter8-summary.txt"
+      "summaryFile": "chapter8/chapter8-summary.txt",
+      "excludeGlossaryTerms": [
+        "State"
+      ],
+      "excludeGlossaryPhrases": [
+        "normal state",
+        "state of health",
+        "state of development",
+        "state of preservation",
+        "latent state"
+      ]
     },
     {
       "id": "the-labour-process-and-the-process-of-producing-surplus-value",

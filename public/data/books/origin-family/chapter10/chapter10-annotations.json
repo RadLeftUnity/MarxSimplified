@@ -1,9 +1,13 @@
 [
   {
     "id": "origin-family-ch10-1",
-    "targetText": "Mother-right has given way to father-right; increasing private wealth has thus made its first breach in the gentile constitution.",
+    "targetText": " blurred. Mother-right has given way to\r\nfather-right; increasing private wealth has thus made its first breach in the\r\ngentile c",
     "summary": "In ancient Greece, the growth of private wealth led to the replacement of mother-right with father-right inheritance, weakening early clan equality.",
     "context": "Engels traces the early history of classical Greece. As private property accumulated in individual households, male-line inheritance replaced communal clan inheritance, marking the beginning of class division in Greek society.",
-    "topics": ["Private Property", "Family & Patriarchy", "Historical Materialism"]
+    "topics": [
+      "Private Property",
+      "Family & Patriarchy",
+      "Historical Materialism"
+    ]
   }
 ]

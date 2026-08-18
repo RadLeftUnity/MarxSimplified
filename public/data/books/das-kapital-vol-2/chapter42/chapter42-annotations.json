@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "Now let us suppose on the contrary an unaltered period of turnover and an unaltered scale of production, and on the other hand price changes, i.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "On the other hand the scale of production (apart from fixed capital) might be doubled.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  }
+]

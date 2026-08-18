@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "targetText": "] In the study of the turnover of the individual capital money-capital revealed two aspects.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "The same instruments of labour, and thus the same fixed capital, can be used more effectively by an extension of the time they are daily used and by a greater intensity of employment, without an additional outlay of money for fixed capital.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "But as for the money-value which functions partly as a medium of circulation, partly as a hoard, it is simply there, acquired, present alongside the labour-power, the produced means of production, and the natural sources of wealth.",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "There is, in that case, only a more rapid turnover of the fixed capital, but then the elements of its reproduction are supplied more rapidly.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

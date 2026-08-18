@@ -13,7 +13,7 @@ interface AuthorsProps {
   progressMap?: Record<string, 'not-started' | 'reading' | 'completed'>;
 }
 
-const AUTHORS_PER_PAGE = 4;
+const AUTHORS_PER_PAGE = 6;
 const BOOKS_PER_PAGE = 4;
 
 export const Authors: React.FC<AuthorsProps> = ({
@@ -50,6 +50,7 @@ export const Authors: React.FC<AuthorsProps> = ({
       if (aName === 'friedrich engels') return bAuthor.includes('engels');
       if (aName === 'v.i. lenin') return bAuthor.includes('lenin');
       if (aName === 'mao zedong') return bAuthor.includes('mao');
+      if (aName === 'alexandra kollontai') return bAuthor.includes('kollontai');
       return bAuthor.includes(aName);
     });
   }, [books, selectedAuthor]);

@@ -1,0 +1,55 @@
+{
+  "id": "social-basis-of-the-woman-question",
+  "title": "The Social Basis of the Woman Question",
+  "author": "Alexandra Kollontai",
+  "year": "1909",
+  "difficulty": "Medium",
+  "readingTime": "35 mins",
+  "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/1909/social-basis.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Women's Emancipation",
+    "Class Struggle",
+    "Bourgeois Feminism"
+  ],
+  "context": "First published in 1909, The Social Basis of the Woman Question is Alexandra Kollontai's landmark text drawing a sharp materialist distinction between bourgeois feminism and proletarian women's liberation. Kollontai demonstrates that while bourgeois feminists seek equal privileges with men within the existing capitalist framework, working women seek to abolish economic slavery alongside male comrades through socialized labor, universal childcare, and revolutionary transformation.",
+  "relatesToToday": "Exposes the limits of corporate 'lean-in' feminism and glass-ceiling politics. Kollontai demonstrates why appointing female CEOs or politicians doesn't liberate working-class women facing low wages, expensive childcare, and rent hikes, showing that true gender equality requires transforming economic structures rather than joining the corporate elite.",
+  "keyTakeaways": [
+    "The oppression of women is rooted in specific capitalist economic structures, not natural biological inferiority.",
+    "Bourgeois feminism seeks equal corporate privileges within capitalism, whereas proletarian feminism seeks to abolish economic exploitation altogether.",
+    "Working women view working men as comrades fighting shared capitalist chains, not as their primary enemy.",
+    "Abstract 'free love' or legal marriage reforms under capitalism leave women burdened by single motherhood unless backed by universal state childcare and financial independence."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-struggle-for-economic-independence",
+      "title": "The Struggle for Economic Independence",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "marriage-and-the-problem-of-the-family",
+      "title": "Marriage and the Problem of the Family",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "the-struggle-for-political-rights",
+      "title": "The Struggle for Political Rights",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    }
+  ]
+}

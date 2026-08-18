@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "targetText": "In the circuits M ; C .",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "Quite apart from particular circumstances, this is necessitated by the difference, if nothing else, in the periods of production, and thus of the turnovers, of the various commodity-capitals.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "These, again, are divided into fixed capital, such as machines, instruments of labour, buildings, labouring animals, etc.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "1) The 500v, representing wages of the labourers, and 500s, representing surplus-value of the capitalists, in department II, must be spent for articles of consumption.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "1) The 500v, representing wages of the labourers, and 500s, representing surplus-value of the capitalists, in department II, must be spent for articles of consumption.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "Chapter 20: Simple Reproduction Part 1 I.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

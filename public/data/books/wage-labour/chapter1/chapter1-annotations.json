@@ -1,6 +1,32 @@
 [
   {
-    "targetText": "Marx was the first to investigate thoroughly into the value-forming quality of labour and to discover that not all labour which is apparently, or even really, necessary to the production of a commodity, imparts under all circumstances to this commodity a magnitude of value corresponding to the quantity of labour used up.",
-    "explanation": "Engels credits Marx with the key innovation over earlier economists like Ricardo: only socially necessary labour time creates value. Inefficient or wasteful labour does not simply add more value; it adds nothing above the social average."
+    "id": "wage-labour-ch1-ann-1",
+    "targetText": "worker sells his labour for wages, which he receives from the capitalist; according to the present text, he sells his labour-power",
+    "summary": "Crucial distinction between labour and labour-power: workers do not sell their labor, but their capacity to work.",
+    "explanation": "Engels explains why Marx corrected his earlier 1849 terminology: workers sell their potential capacity to work (labour-power) for a specific time, not the actual concrete labour performed. This distinction resolves the contradictions of classical political economy."
+  },
+  {
+    "id": "wage-labour-ch1-ann-2",
+    "targetText": "Marx was the first to investigate thoroughly into the value-forming quality of labour and to discover that not all labour which is apparently, or even really, necessary to the production of a commodity, imparts under all circumstances to this commodity a magnitude of value corresponding to the quantity of labour used up",
+    "summary": "Socially necessary labour time: only socially average labor creates commodity value.",
+    "explanation": "Engels credits Marx with discovering that value is determined specifically by socially necessary labour time. Inefficient or wasteful labor above the social average creates no extra value."
+  },
+  {
+    "id": "wage-labour-ch1-ann-3",
+    "targetText": "as soon as the economists applied this determination of value by labour to the commodity \"labour\", they fell from one contradiction into another",
+    "summary": "The contradiction of classical economics: trying to measure the value of labor by labor itself.",
+    "explanation": "Classical economists like Adam Smith and David Ricardo ran into a circular contradiction by assuming workers sell 'labor.' Measuring the value of labor by the labor contained in it leads to a meaningless loop."
+  },
+  {
+    "id": "wage-labour-ch1-ann-4",
+    "targetText": "cost of production of labour-power: the cost required for maintaining the worker as a worker and of developing him into a worker",
+    "summary": "The cost of production of labor-power: the means of subsistence required to reproduce the worker.",
+    "explanation": "Marx defined the value of labor-power by the labor time required to produce the worker's means of subsistence, food, shelter, clothing, and training, necessary to maintain the worker and raise future generations of workers."
+  },
+  {
+    "id": "wage-labour-ch1-ann-5",
+    "targetText": "surplus-value: that part of the product created by the worker for which the capitalist pays no equivalent",
+    "summary": "The origin of surplus-value: unpaid worker labor appropriated by the capitalist class.",
+    "explanation": "Surplus-value represents the difference between the value created by the worker during the workday and the cost of the worker's labor-power. This unpaid surplus is the source of all capitalist profit, rent, and interest."
   }
 ]

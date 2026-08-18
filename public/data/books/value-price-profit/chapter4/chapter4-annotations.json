@@ -1,10 +1,10 @@
 [
   {
-    "targetText": "The amount or magnitude of national production changes continuously. It is not a constant but a variable magnitude, and apart from changes in population it must be so, because of the continuous change in the accumulation of capital and the productive powers of labour.",
+    "targetText": "The amount or magnitude of national production\nchanges continuously. It is not a constant but a variable magnitude, and apart\nfrom changes in population it must be so, because of the continuous change in\nthe accumulation of capital and the productive powers of labour.",
     "explanation": "Marx demolishes Weston's foundational premise: national output is not fixed. Capital accumulates, technology improves, and productivity rises, so the total economic pie grows. Wages rising does not mean someone else's slice automatically shrinks."
   },
   {
-    "targetText": "If profits were six and wages two, wages might increase to six and profits decrease to two, and still the total amount remain eight.",
+    "targetText": "If profits were six and wages two, wages might increase to six\nand profits decrease to two, and still the total amount remain eight.",
     "explanation": "Even if we accept a fixed total output, Marx shows that how that output is divided between wages and profits is not fixed at all. The division is a matter of power and struggle, not of natural law."
   }
 ]

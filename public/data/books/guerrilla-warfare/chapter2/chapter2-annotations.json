@@ -1,10 +1,10 @@
 [
   {
-    "targetText": "The strategy of guerrilla warfare is manifestly unlike that employed in orthodox operations, as the basic tactic of the former is constant activity and movement.",
+    "targetText": "The strategy of guerrilla warfare is manifestly unlike that employed in orthodox\noperations, as the basic tactic of the former is constant activity and movement.",
     "explanation": "Unlike conventional armies that fight fixed positional battles to defend geographical lines, guerrillas prioritize constant mobility, fluid movement, and hitting the enemy when they are unprepared."
   },
   {
-    "targetText": "while guerrillas do have bases, their primary field of activity is in the enemy's rear areas. They themselves have no rear.",
+    "targetText": "while guerrillas do have bases, their primary field of activity is\nin the enemy's rear areas. They themselves have no rear.",
     "explanation": "Guerrillas operate behind enemy lines where the invading army's supply routes, outposts, and communications are vulnerable, operating without traditional fixed frontlines."
   }
 ]

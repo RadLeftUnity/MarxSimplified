@@ -163,30 +163,104 @@ function escapeRegex(str: string): string {
 
 // Pre-build regex string with longest variants first
 const patternString = allVariants.map(v => escapeRegex(v.variant)).join('|');
-const jargonRegex = new RegExp(`\\b(${patternString})\\b`, 'gi');
+
+export interface GlossaryOptions {
+  excludeTerms?: string[];
+  excludePhrases?: string[];
+}
+
+interface ExcludedRange {
+  start: number;
+  end: number;
+  term?: GlossaryTerm;
+}
 
 // Highlight utility
-export const highlightJargon = (text: string): React.ReactNode[] => {
+export const highlightJargon = (text: string, options?: GlossaryOptions): React.ReactNode[] => {
   if (!text) return [];
 
-  const parts = text.split(jargonRegex);
-  if (parts.length <= 1) {
-    return [text];
+  const excludedTermsSet = new Set(
+    (options?.excludeTerms || []).map((t) => t.toLowerCase().trim())
+  );
+
+  const excludedRanges: ExcludedRange[] = [];
+
+  glossary.forEach((item) => {
+    if (item.excludePattern) {
+      const phrases = item.excludePattern.split('|').map((s) => s.trim()).filter(Boolean);
+      if (phrases.length > 0) {
+        const exRegex = new RegExp(`\\b(${phrases.map(escapeRegex).join('|')})\\b`, 'gi');
+        let match: RegExpExecArray | null;
+        while ((match = exRegex.exec(text)) !== null) {
+          excludedRanges.push({
+            start: match.index,
+            end: match.index + match[0].length,
+            term: item,
+          });
+        }
+      }
+    }
+  });
+
+  if (options?.excludePhrases && options.excludePhrases.length > 0) {
+    const customPhrases = options.excludePhrases.map((s) => s.trim()).filter(Boolean);
+    if (customPhrases.length > 0) {
+      const customExRegex = new RegExp(`\\b(${customPhrases.map(escapeRegex).join('|')})\\b`, 'gi');
+      let match: RegExpExecArray | null;
+      while ((match = customExRegex.exec(text)) !== null) {
+        excludedRanges.push({
+          start: match.index,
+          end: match.index + match[0].length,
+        });
+      }
+    }
   }
 
-  return parts.map((part, index) => {
-    if (!part) return null;
+  const nodes: React.ReactNode[] = [];
+  let lastIndex = 0;
 
-    const lowerPart = part.toLowerCase();
-    // Find matching variant (longest first guaranteed by allVariants sorting)
-    const matchedVariant = allVariants.find(v => v.variant.toLowerCase() === lowerPart);
+  const regex = new RegExp(`\\b(${patternString})\\b`, 'gi');
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(text)) !== null) {
+    const matchStart = match.index;
+    const matchEnd = match.index + match[0].length;
+    const matchedText = match[0];
+    const lowerText = matchedText.toLowerCase();
+
+    const matchedVariant = allVariants.find((v) => v.variant.toLowerCase() === lowerText);
 
     if (matchedVariant) {
-      return (
-        <JargonWord key={index} part={part} matchingTerm={matchedVariant.term} />
-      );
-    }
+      const isTermDisabled =
+        excludedTermsSet.has(matchedVariant.term.term.toLowerCase()) ||
+        excludedTermsSet.has(matchedVariant.variant.toLowerCase());
 
-    return part;
-  }).filter(Boolean) as React.ReactNode[];
+      if (isTermDisabled) {
+        continue;
+      }
+
+      const isExcluded = excludedRanges.some(
+        (ex) =>
+          (!ex.term || ex.term === matchedVariant.term) &&
+          matchStart >= ex.start &&
+          matchEnd <= ex.end
+      );
+
+      if (!isExcluded) {
+        if (matchStart > lastIndex) {
+          nodes.push(text.slice(lastIndex, matchStart));
+        }
+        nodes.push(
+          <JargonWord key={`jargon-${matchStart}`} part={matchedText} matchingTerm={matchedVariant.term} />
+        );
+        lastIndex = matchEnd;
+      }
+    }
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+
+  return nodes.length > 0 ? nodes : [text];
 };

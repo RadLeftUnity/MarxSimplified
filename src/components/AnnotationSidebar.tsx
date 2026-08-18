@@ -104,6 +104,15 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                   <FormattedText text={summaryText} className="simplified-text" />
                 </div>
 
+                {ann.explanation && ann.explanation !== ann.summary && (
+                  <div className="annotation-card-section context-section">
+                    <span className="section-label context-label">
+                      <BookOpen className="section-icon" /> Detailed Analysis
+                    </span>
+                    <FormattedText text={ann.explanation} className="context-text" />
+                  </div>
+                )}
+
                 {ann.context && (
                   <div className="annotation-card-section context-section">
                     <span className="section-label context-label">

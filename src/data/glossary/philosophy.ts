@@ -130,6 +130,14 @@ export const philosophyTerms: GlossaryTerm[] = [
     "theoryTags": ["Bourgeois Philosophy", "Neo-Marxism"]
   },
   {
+    "term": "Individualism",
+    "pattern": "individualism|individualist|individualists|bourgeois individualism",
+    "definition": "A social and philosophical ideology prioritizing the autonomous individual over the collective, asserting that personal independence, self-interest, and private autonomy are the primary values of human society.",
+    "misconception": "That individualism guarantees true human freedom for all. Theoretical Contention: Marx and Engels in 'The German Ideology' and Plekhanov in 'Anarchism and Socialism' demonstrate that under capitalism, individualism is the ideological expression of private property and commodity exchange ('bourgeois individualism'). By treating individuals as isolated units divorced from social class, individualism conceals capitalist exploitation, atomizes the working class, and opposes collective struggle.",
+    "dayToDayExample": "Promoting 'hustle culture' and personal branding, telling struggling workers that their poverty is purely due to lack of personal initiative rather than systemic capitalist exploitation.",
+    "theoryTags": ["Bourgeois Philosophy", "Classical Marxism"]
+  },
+  {
     "term": "Surplus Repression",
     "pattern": "surplus repression|surplus-repression|performance principle",
     "definition": "Herbert Marcuse's synthesis of Freud and Marx in 'Eros and Civilization': the extra layer of psychological repression imposed by capitalist class domination (under the 'Performance Principle') over and above the basic repression necessary for human social coexistence.",

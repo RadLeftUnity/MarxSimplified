@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "targetText": "Capital Preface', WIDTH, 250, ABOVE, true, OFFSETX, 1, BGCOLOR, '#F5FFC5', FONTSIZE, '9pt', FONTFACE, 'sans-serif', BORDERCOLOR, '#000030', SHADOW, true, SHADOWWIDTH, 3)\" onMouseOut=\"UnTip()\">",
+    "explanation": "Marx analyzes how invested capital transforms through production and circulation, expanding through the exploitation of surplus labor."
+  },
+  {
+    "targetText": "i.e., according to the labour-time required to produce the commodity', WIDTH, 250, ABOVE, true, OFFSETX, 1, BGCOLOR, '#F5FFC5', FONTSIZE, '9pt', FONTFACE, 'sans-serif', BORDERCOLOR, '#000030', SHADOW, true, SHADOWWIDTH, 3)\" onMouseOut=\"UnTip()\">",
+    "explanation": "Labor-power is the unique commodity capable of creating greater economic value than it costs to maintain."
+  },
+  {
+    "targetText": "Immediate Production of Capital Capital is withdrawn from circulation and commodities put back into circulation.",
+    "explanation": "Circulation time represents the period during which capital is converted between commodity form and money form."
+  },
+  {
+    "targetText": "Finance Capitalism Finance capitalists lend money at interest, without relinquishing ownership of the capital loaned', WIDTH, 250, ABOVE, true, OFFSETX, 1, BGCOLOR, '#F5FFC5', FONTSIZE, '9pt', FONTFACE, 'sans-serif', BORDERCOLOR, '#000030', SHADOW, true, SHADOWWIDTH, 3)\" onMouseOut=\"UnTip()\">",
+    "explanation": "Money acts as the universal equivalent, facilitating commodity exchange while enabling capital hoarding and financial credit."
+  },
+  {
+    "targetText": "Bourgeois Society Independent producers exchange Commodities at value.",
+    "explanation": "Exchange value represents the socially necessary labor-time embedded within a commodity."
+  }
+]

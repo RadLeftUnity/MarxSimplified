@@ -1,0 +1,55 @@
+{
+  "id": "prostitution-and-ways-of-fighting-it",
+  "title": "Prostitution and Ways of Fighting It",
+  "author": "Alexandra Kollontai",
+  "year": "1921",
+  "difficulty": "Easy",
+  "readingTime": "30 mins",
+  "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/1921/prostitution.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Women's Emancipation",
+    "Labour",
+    "Soviet Union"
+  ],
+  "context": "Delivered as a speech to the Third All-Russian Conference of Heads of Regional Women's Departments in 1921, Prostitution and Ways of Fighting It is Alexandra Kollontai's groundbreaking Marxist analysis of sex work and Soviet social policy. Kollontai argues that prostitution is rooted in capitalist poverty and female economic dependence, defining prostitutes not as criminals or fallen women, but as labor deserters alongside non-working kept wives. She outlines Soviet strategies to eradicate prostitution through vocational training, economic equality, public health, and free comradeship.",
+  "relatesToToday": "Connects directly to the rise of OnlyFans, sugar dating, and gig-based sex work driven by skyrocketing rent and poverty-level wages. Kollontai argues that economic security, free healthcare, and living wages—rather than police crackdowns or moral shaming—are the only true solutions to commercialized desperation.",
+  "keyTakeaways": [
+    "Prostitution is an economic phenomenon driven by capitalist poverty, wage inequality, and female economic dependence on men.",
+    "Soviet policy evaluates prostitution materialistically, treating prostitutes as labor deserters while rejecting criminalization or penal camps.",
+    "True elimination of commercialized sex requires economic independence for women, comprehensive sex education, and socialized care.",
+    "Socialist personal relationships replace financial bargaining with free, mutual unions of equal working comrades."
+  ],
+  "chapters": [
+    {
+      "id": "roots-of-prostitution-under-capitalism",
+      "title": "1. The Roots of Prostitution Under Capitalism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "prostitution-as-labour-desertion",
+      "title": "2. Prostitution as Labour Desertion",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "health-and-sex-education",
+      "title": "3. Venereal Disease, Health, and Sex Education",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "rebuilding-morality-and-the-collective",
+      "title": "4. Rebuilding Morality and the Collective",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    }
+  ]
+}

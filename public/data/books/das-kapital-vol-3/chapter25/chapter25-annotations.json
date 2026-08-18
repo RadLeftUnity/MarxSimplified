@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "[2] 2) As demonstrated in Part III of this book, the rate of profit decreases in proportion to the mounting accumulation of capital and the correspondingly increasing productivity of social labour, which is expressed precisely in the relative and progressive decrease of the variable as compared to the constant portion of capital.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "In merchant's capital, M ; C ; M', there is at least the general form of the capitalistic movement, although it confines itself solely to the sphere of circulation, so that profit appears merely as profit derived from alienation; but it is at least seen to be the product of a social relation, not the product of a mere thing.",
+    "explanation": "Commercial or merchant capital doesn’t create new surplus value directly, but collects a share of total social profit by speeding up the circulation and sale of goods."
+  }
+]

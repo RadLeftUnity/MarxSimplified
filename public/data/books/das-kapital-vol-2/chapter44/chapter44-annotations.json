@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "Let the period of turnover be 5 weeks: the working period 4 weeks, the period of circulation 1 week.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "What these two portions ; the variable and the constant part of the circulating capital ; have in common and what distinguishes them from the fixed capital is not that the value transferred from them to the product is circulated by the commodity-capital, i.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  }
+]

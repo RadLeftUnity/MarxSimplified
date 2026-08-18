@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "targetText": "This constant repetition of departure from and return to the starting-point, the pocket of the capitalist, does not add in any way to the money roving over this circuit.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "Or a part of II represented by necessities of life is directly converted into new variable capital within department II.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "Or a part of II represented by necessities of life is directly converted into new variable capital within department II.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "Where in II is the source of the money for this? It would rather seem that II is a very unprofitable field for the formation of new money-capital which accompanies actual accumulation and necessitates it under capitalist production, and which at first actually presents itself as simple hoarding.",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "Schematic Presentation of Accumulation We shall now study reproduction according to the following scheme.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods.",
+    "topics": [
+      "Phases of Socialism"
+    ]
+  }
+]

@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "(On account of the specific turnover of the circulating component parts this way of presenting the matter may nevertheless be adopted.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "It is then assumed that the circulating portion together with the portion of value of the fixed capital transferred to it is turned over so often during the year that the aggregate sum of the commodities supplied is equal in value to all the capital entering into the annual production.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "In simple reproduction both of them must be equal and replace one another, since otherwise simple reproduction cannot proceed without disturbance, as we have seen above.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

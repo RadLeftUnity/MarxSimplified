@@ -195,7 +195,7 @@ export const classicalTerms: GlossaryTerm[] = [
   },
   {
     "term": "Petty Bourgeoisie",
-    "pattern": "petty-bourgois|petty-bourgoisie|petit-bourgeois|petite-bourgeoisie|petty bourgeoisie|petite bourgeoisie|petit bourgeoisie|petty bourgeois|petite bourgeois|petit bourgeois|small-bourgeois",
+    "pattern": "petty-bourgeoisie|petty bourgeoisie|petite-bourgeoisie|petite bourgeoisie|petit-bourgeoisie|petit bourgeoisie|petty-bourgeoisies|petty bourgeoisies|petite-bourgeoisies|petite bourgeoisies|petty-bourgeois|petty bourgeois|petite-bourgeois|petite bourgeois|petit-bourgeois|petit bourgeois|small-bourgeoisie|small-bourgeoisies|small-bourgeois",
     "definition": "The social class of small business owners, self-employed proprietors, independent contractors, and shopkeepers who own some productive property but must also work themselves.",
     "misconception": "Regular office employees who make good salaries. The petty bourgeoisie specifically owns small-scale productive assets, placing them in an unstable position between big business owners and wage workers.",
     "dayToDayExample": "An independent bakery owner who works behind the counter every day alongside two hired employees.",

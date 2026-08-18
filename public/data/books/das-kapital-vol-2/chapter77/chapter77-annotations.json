@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "targetText": "Replacement of Fixed Capital in Kind Having disposed of the hypothesis considered above, only such possibilities remain as, besides replacing the wear-and-tear portion in money, include also the replacement in kind of the wholly defunct fixed capital.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "So far as the 200 in money are concerned, section 1 confronts department I only as buyer, but not later on as seller.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "This money, then, flows back to it (section 1 of department II) because it acts as a vendor of commodities directly after having acted as a buyer.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "Class II consists of capitalists whose fixed capital is in the most diverse stages of its reproduction.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

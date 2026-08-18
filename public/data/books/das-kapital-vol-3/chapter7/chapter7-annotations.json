@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "III Part I The Conversion of Surplus-Value into Profit and of the Rate of Surplus-Value into the Rate of Profit Chapter 6.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "Owing to this falling tendency, the other portion of the value representing raw material increases proportionally, unless this increase is counterbalanced by a proportionate decrease in the value of the raw material arising from the growing productivity of the labour employed in its own production.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  }
+]

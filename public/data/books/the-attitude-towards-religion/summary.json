@@ -1,0 +1,36 @@
+{
+  "id": "the-attitude-towards-religion",
+  "title": "The Attitude of the Workers' Party to Religion",
+  "author": "V.I. Lenin",
+  "year": "1909",
+  "difficulty": "Medium",
+  "readingTime": "25 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1909/may/13.htm",
+  "context": "Published in Proletary in May 1909 during a period of reaction following the defeat of the 1905 Russian Revolution, The Attitude of the Workers' Party to Religion is V.I. Lenin's classic treatise on dialectical materialism and religious policy. Lenin addresses debates in the Russian Duma and within the Bolshevik party, explaining why Marxists are absolute philosophical materialists yet oppose anarchistic declarations of war on religion, insisting that atheist education must be subordinated to the practical class struggle.",
+  "relatesToToday": "Provides essential guidance for modern socialists organizing working-class communities with diverse religious backgrounds. Lenin demonstrates why dividing workers into religious and atheist camps plays into the hands of ruling-class reactionaries, establishing that solidarity in practical economic and political struggles is the true path to class consciousness.",
+  "keyTakeaways": [
+    "Marxism is dialectical materialism, which regards religion as the opium of the people used by ruling classes to sanctify exploitation.",
+    "Declaring an explicit political war on religion is anarchistic phrase-mongering that reignites religious fanatical interest rather than undermining it.",
+    "Religion is a private matter in relation to the state (demanding religious freedom and secularization), but not in relation to the party or Marxist theory.",
+    "The deepest root of religion in modern society is the social insecurity, suffering, and helplessness of the working masses under capitalist wage slavery.",
+    "Atheist propaganda must always be subordinated to the basic task of developing the unified class struggle of workers against capitalists."
+  ],
+  "subject": "Marxist Philosophy & Party Strategy",
+  "tags": [
+    "Dialectical Materialism",
+    "Religion",
+    "Class Struggle",
+    "Marxism-Leninism",
+    "V.I. Lenin"
+  ],
+  "chapters": [
+    {
+      "id": "the-attitude-of-the-workers-party-to-religion",
+      "title": "The Attitude of the Workers' Party to Religion",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

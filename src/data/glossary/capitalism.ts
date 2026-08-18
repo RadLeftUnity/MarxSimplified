@@ -83,7 +83,7 @@ export const capitalistTerms: GlossaryTerm[] = [
   },
   {
     "term": "Social Democracy",
-    "pattern": "social democracy|social democrat|social democrats|social democratic",
+    "pattern": "social-democracy|social-democratic|social-democrats|social-democrat|social democracy|social democrat|social democrats|social democratic",
     "definition": "A political ideology advocating for a welfare state, progressive taxation, strong labor laws, and public services within the framework of a capitalist market economy.",
     "misconception": "That social democracy is a form of socialism. From a Marxist perspective, social democracy preserves capitalist property relations, relying on imperialist superprofits to fund domestic welfare while leaving corporate ownership intact.",
     "dayToDayExample": "A Western European nation providing state healthcare and subsidized university tuition while corporate private banks and multinationals own national industry.",

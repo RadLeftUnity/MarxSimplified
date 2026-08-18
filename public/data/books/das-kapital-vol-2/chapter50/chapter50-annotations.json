@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "targetText": ", the entire circuit which, as a periodic process ; a process which constantly repeats itself in definite periods ; constitutes the turnover of capital.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": ", the entire circuit which, as a periodic process ; a process which constantly repeats itself in definite periods ; constitutes the turnover of capital.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "The same instruments of labour, and thus the same fixed capital, can be used more effectively by an extension of the time they are daily used and by a greater intensity of employment, without an additional outlay of money for fixed capital.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "But as for the money-value which functions partly as a medium of circulation, partly as a hoard, it is simply there, acquired, present alongside the labour-power, the produced means of production, and the natural sources of wealth.",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "Part III: The Reproduction and Circulation of the Aggregate Social Capital Chapter 18: Introduction I.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

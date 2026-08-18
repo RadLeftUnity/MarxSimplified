@@ -197,7 +197,7 @@ all such master artificers (such as tailors, shoemakers, weavers) however
 is circulated, either in the wages of their workmen, or in the price of
 their materials, and to be repaid with a profit by the price of work." 
 
-Apart from the na&iuml;ve determination of the source of profit
+Apart from the naïve determination of the source of profit
 weakness and confusion become at once apparent from the following: To a
 machine manufacturer for example the machine is his product, which circulates
 as commodity-capital, or in Adam Smith's words, "is parted with, changes
@@ -278,7 +278,7 @@ other elements of the productive process, labour-power and auxiliary materials
 such as coal, water, etc., do not enter materially into the product, either.
 The coal is entirely consumed and only its value enters into the product,
 just as a part of the value of the machine, etc., enters into it. Finally,
-the labourer remains as independent vis-&agrave;-vis the product, the copper,
+the labourer remains as independent vis-à-vis the product, the copper,
 as the machine; except that the value which he produces by means of his
 labour is now a component part of the value of the copper. Hence in this
 illustration not a single constituent of productive capital changes "masters,"
@@ -564,7 +564,7 @@ distinct from the product they helped to turn out." (Buch I, Kap. VI, S.
 192.) [English edition: Volume I, Ch. VIII, p. 203. ; Ed.]
 
 These different ways in which means of production are consumed
-to form the product, some of them preserving their independent shape vis-&agrave;-vis
+to form the product, some of them preserving their independent shape vis-à-vis
 the product, others changing or losing it entirely ; this difference pertaining
 to the labour-process as such and therefore just as well to the labour-processes
 aimed at satisfying merely one's own needs, e.g., the needs of the patriarchal
@@ -1091,13 +1091,13 @@ has to be fully expended in the purchase of labour-power.
 Notes
 
 23 Cf. Quesnay, Analyse du Tableau Economique
-(Physiocrates, &egrave;d. Daire, 1. partie, Paris, 1846). There
+(Physiocrates, èd. Daire, 1. partie, Paris, 1846). There
 we read, for instance: "The annual advances consist of the expenses incurred
 annually for the labour of cultivation; these advances must be distinguished
 from the original advances, which form the fund for the establishment of
 the farming enterprise." (P. 59.) In the works of the later physiocrats
 these advances are sometimes termed directly capital: Capital ou avances
-Dupont de Nemours, Maximes du Docteur Quesnay, ou R&egrave;sum&egrave;
+Dupont de Nemours, Maximes du Docteur Quesnay, ou Rèsumè
 de ses Principes d'Economie Sociale (Daire, I, p. 391); furthermore
 Le Trosne writes: "As a result of the greater or smaller durability of
 the works of human labour, a nation possesses a substantial fund of wealth
@@ -1106,7 +1106,7 @@ accumulated over a long period and originally paid with products ; which
 is continually preserved and augmented." (Daire, II, pp. 928-29.) Turgot
 employs the term capital more regularly for avances, and identifies
 the avances of the manufacturers still more with those of the farmers.
-(Turgot, R&egrave;flexions surla Formation et la Distribution des Richesses,
+(Turgot, Rèflexions surla Formation et la Distribution des Richesses,
 1766.)
 
 24 To what extent Adam Smith has blocked

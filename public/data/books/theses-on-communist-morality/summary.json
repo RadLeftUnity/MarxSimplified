@@ -1,0 +1,34 @@
+{
+  "id": "theses-on-communist-morality",
+  "title": "Theses on Communist Morality in the Sphere of Marital Relations",
+  "author": "Alexandra Kollontai",
+  "year": "1921",
+  "difficulty": "Medium",
+  "readingTime": "16 mins",
+  "coverGradient": "linear-gradient(135deg, #7b1fa2 0%, #311b92 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/1921/theses-morality.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Communist Morality",
+    "Family & Marriage",
+    "Women's Emancipation"
+  ],
+  "context": "First published in Kommunistka (No. 12, 1921), Theses on Communist Morality in the Sphere of Marital Relations presents Alexandra Kollontai's definitive guidelines for revolutionary personal ethics. Kollontai demonstrates that as the workers' state assumes responsibility for public dining, laundries, and child welfare, human relationships are liberated from economic dependence, proprietary jealousy, and commercial marriage contracts, enabling true emotional solidarity.",
+  "relatesToToday": "Offers a practical ethic for modern relationships, rejecting financial dependency, possessive jealousy, and toxic control. It proposes an open, healthy model of human connection where personal freedom, mutual respect, and shared community support replace proprietary marriage contracts and economic coercion.",
+  "keyTakeaways": [
+    "The family and marriage are historical categories that evolve alongside economic modes of production.",
+    "Isolated domestic labor is economically wasteful; true female liberation requires socialized kitchens, municipal laundries, and public childcare.",
+    "Communist morality rejects the bourgeois double standard, replacing hypocrisy with single, equal standards of mutual respect.",
+    "Possessive jealousy treats romantic partners as private property; socialist ethics foster comradely affection and mutual freedom within collective solidarity."
+  ],
+  "chapters": [
+    {
+      "id": "theses-on-communist-morality-in-the-sphere-of-marital-relations",
+      "title": "Theses on Communist Morality in the Sphere of Marital Relations",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

@@ -1,9 +1,14 @@
 [
   {
     "id": "origin-family-ch11-1",
-    "targetText": "the true \"people in arms,\" organized for its self-defense in its gentes, phratries, and tribes, was replaced by an armed \"public force\" in the service of these state authorities",
+    "targetText": "le the true \"people in arms,\" organized for\r\nits self-defense in its gentes, phratries, and tribes, was replaced by an armed\r\n\"public force\" in the service of these state author",
     "summary": "In tribal democratic society, defence was managed by the whole armed community. As class divisions widened, ruling elites replaced this with a professional armed police and military under their control.",
     "context": "Engels identifies the birth of the state machine. The state does not represent the whole community; it creates specialized bodies of armed men (police, armed forces, prisons) to enforce property rights and suppress rebellions.",
-    "topics": ["State & Revolution", "Class Struggle", "Kinship & Clan Society"]
+    "topics": [
+      "State & Revolution",
+      "Class Struggle",
+      "Kinship & Clan Society",
+      "The State"
+    ]
   }
 ]

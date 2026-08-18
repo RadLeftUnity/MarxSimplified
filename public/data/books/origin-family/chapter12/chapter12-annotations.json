@@ -1,9 +1,14 @@
 [
   {
     "id": "origin-family-ch12-1",
-    "targetText": "the old order of society based on personal ties of blood was destroyed and in its place was set up a new and complete state constitution based on territorial division and difference of wealth.",
+    "targetText": "the\r\nold order of society based on personal ties of blood was destroyed and in its\r\nplace was set up a new and complete state constitution based on territorial\r\ndivision and difference of weal",
     "summary": "In ancient Rome, as in Greece, the traditional clan system based on shared bloodlines was replaced by a formal state structure organized around private property and territorial boundaries.",
     "context": "Engels demonstrates that the birth of the Roman state followed the universal materialist pattern. Tribal clan democracy was dismantled when private property created class inequalities between rich patricians and poor plebeians.",
-    "topics": ["State & Revolution", "Class Struggle", "Private Property"]
+    "topics": [
+      "State & Revolution",
+      "Class Struggle",
+      "Private Property",
+      "The State"
+    ]
   }
 ]

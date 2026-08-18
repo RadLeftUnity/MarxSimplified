@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "Exchange within Department II.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "Exchange within Department II.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "This question finds its answers on the one hand in the exchange of I(v + s) for IIc, and on the other hand in the investigation, to be made later, of the reproduction of I in the annual product of I.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

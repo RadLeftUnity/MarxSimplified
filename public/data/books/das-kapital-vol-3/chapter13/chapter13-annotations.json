@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "A change in the general rate of profit.",
+    "explanation": "The rate of profit ($p/C$) measures surplus value relative to total invested capital (constant plus variable), whereas the rate of surplus value ($s/v$) measures exploitation relative to labor costs alone."
+  },
+  {
+    "targetText": "This incessant outflow and inflow of capital between the different spheres of production creates trends of rise and fall in the rate of profit, which equalise one another more or less and thus have a tendency to reduce the rate of profit everywhere to the same common and general level.",
+    "explanation": "The tendential fall of the rate of profit occurs because technological progress increases constant capital faster than living labor power, shrinking the relative source of surplus value."
+  },
+  {
+    "targetText": "Merchant's capital is left out of consideration as it is irrelevant at this point, for we know from the sudden paroxysms of speculation appearing in certain popular articles that it can withdraw masses of capital from one line of business with extraordinary rapidity and throw them with equal rapidity into another.",
+    "explanation": "Commercial or merchant capital doesn’t create new surplus value directly, but collects a share of total social profit by speeding up the circulation and sale of goods."
+  }
+]

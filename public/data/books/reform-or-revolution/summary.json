@@ -1,0 +1,104 @@
+{
+  "id": "reform-or-revolution",
+  "title": "Reform or Revolution",
+  "author": "Rosa Luxemburg",
+  "year": "1900",
+  "difficulty": "Medium",
+  "readingTime": "2.1 hours",
+  "coverGradient": "linear-gradient(135deg, #9c27b0 0%, #4a148c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/luxemburg/1900/reform-revolution/index.htm",
+  "context": "First published in 1899-1900 as a polemic against Eduard Bernstein's revisionist reformism, Social Reform or Revolution is Rosa Luxemburg's masterwork defending scientific socialism. Luxemburg demonstrates that trade unions and legislative reforms cannot gradually dissolve capitalist exploitation, proving that reform and revolution are not optional pathways to the same goal, but fundamental choices between repairing capitalism or abolishing wage slavery.",
+  "relatesToToday": "Exposes the flaw in modern social-democratic and liberal reformist strategies that claim capitalism can be tamed through regulatory tweaks or progressive tax reform alone. Luxemburg demonstrates why workplace unions and electoral campaigns must be tied to a revolutionary transformation of ownership, showing that without overthrowing corporate profit motives, reforms are continuously eroded by economic crises and corporate lobbying.",
+  "keyTakeaways": [
+    "Trade unions and labor laws regulate the terms of exploitation, but cannot abolish wage slavery or the capitalist law of value.",
+    "Reform and revolution are not two different methods to reach the same destination; reformism seeks surface modifications of capitalism, whereas revolution replaces class rule.",
+    "Opportunism and revisionism represent petty-bourgeois tendencies attempting to strip socialism of its revolutionary character.",
+    "Capitalist credit and cartels do not eliminate economic crises; they merely postpone and aggravate systemic collapses on a global scale."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-opportunist-method",
+      "title": "The Opportunist Method",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-adaptation-of-capitalism",
+      "title": "The Adaptation of Capitalism",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "the-realisation-of-socialism-through-social-reforms",
+      "title": "The Realisation of Socialism through Social Reforms",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "capitalism-and-the-state",
+      "title": "Capitalism and the State",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-consequences-of-social-reformism-and-general-nature-of-reformism",
+      "title": "The Consequences of Social Reformism and General Nature of Reformism",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "economic-development-and-socialism",
+      "title": "Economic Development and Socialism",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "co-operatives-unions-democracy",
+      "title": "Co-operatives, Unions, Democracy",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "conquest-of-political-power",
+      "title": "Conquest of Political Power",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "collapse",
+      "title": "Collapse",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "opportunism-in-theory-and-practice",
+      "title": "Opportunism in Theory and Practice",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    }
+  ],
+  "subject": "Marxist Political Economy",
+  "tags": [
+    "Reform vs Revolution",
+    "Anti-Revisionism",
+    "Class Struggle",
+    "Marxist Economics"
+  ]
+}

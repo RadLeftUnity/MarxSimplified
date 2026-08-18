@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "targetText": "Let us consider the circuit, or turnover, of the capital invested in the production of precious metals first in the form of M ; C .",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "We have just seen that a difference in the period of turnover causes a difference in the annual rate of surplus-value, even if the mass of the annually produced surplus-value is the same.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "One portion of the productive capital, which it is difficult to classify namely the additional capital required for the repair and maintenance of the fixed capital, is now likewise seen in a new light.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "The simplest form in which the additional latent money-capital may be represented is that of a hoard.",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "] that accumulation, the conversion of surplus-value into capital, is essentially a process of reproduction on a progressively increasing scale, whether this expansion is expressed extensively in the form of an addition of new factories to the old, or intensively by the enlargement of the existing scale of operation.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

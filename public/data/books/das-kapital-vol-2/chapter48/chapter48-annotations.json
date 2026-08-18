@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "targetText": "Let us consider the circuit, or turnover, of the capital invested in the production of precious metals first in the form of M ; C .",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "Simple Reproduction In the case of simple reproduction the surplus-value produced and realised annually, or periodically, if there are several turnovers during the year, is consumed individually, that is to say, unproductively, by its owner, the capitalist.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "Finally the same applies also to that portion of the product of precious metals which is equal to the value of the periodically consumed constant capital, both the constant circulating and constant fixed capital consumed during the year.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "The proportion in which the existing quantity of money is split into a hoard and money in circulation varies continually, but the total quantity of money is always equal to the sum of the money hoarded and the money circulating.",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "Simple Reproduction In the case of simple reproduction the surplus-value produced and realised annually, or periodically, if there are several turnovers during the year, is consumed individually, that is to say, unproductively, by its owner, the capitalist.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "id": "red-love",
+  "title": "Red Love",
+  "author": "Alexandra Kollontai",
+  "year": "1927",
+  "difficulty": "Medium",
+  "readingTime": "5.0 hours",
+  "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kollonta/red-love/index.htm",
+  "context": "Published in 1927, Red Love (Vasilisa Malygina) is Alexandra Kollontai's pioneering revolutionary novel set during the New Economic Policy (NEP) in Soviet Russia. The novel dramatizes the conflict between the new communist morality of female economic independence and the revival of bourgeois careerism and possessiveness. Following Vasilisa, a devoted Bolshevik textile worker, the narrative explores the breakdown of her marriage to Volodya as he succumbs to NEP-era bureaucratization and bourgeois corruption, illustrating the necessity for working women to build self-reliance through socialized labor and revolutionary comradeship.",
+  "relatesToToday": "Dramatizes the struggle of modern women striving for financial independence while resisting partners who succumb to corporate careerism or demand domestic subservience. It speaks to anyone balancing personal relationships, career autonomy, and political values.",
+  "keyTakeaways": [
+    "Women's emancipation under socialism requires complete economic self-reliance rather than emotional or financial dependence on a spouse.",
+    "NEP-era market concessions created bourgeois careerism and bureaucratization that clashed with revolutionary working-class morality.",
+    "True socialist relationships are built on mutual respect and shared political commitment, not proprietary possessiveness.",
+    "A working woman's identity is defined by her active contribution to collective socialized production and revolutionary struggle."
+  ],
+  "chapters": [
+    {
+      "id": "foreword-to-the-english-edition",
+      "title": "Foreword to the English Edition",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "chapter-1",
+      "title": "Chapter 1",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chapter 2",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "chapter-3",
+      "title": "Chapter 3",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chapter 4",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chapter 5",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "chapter-6",
+      "title": "Chapter 6",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "chapter-7",
+      "title": "Chapter 7",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "chapter-8",
+      "title": "Chapter 8",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "chapter-9",
+      "title": "Chapter 9",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "chapter-10",
+      "title": "Chapter 10",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "chapter-11",
+      "title": "Chapter 11",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "chapter-12",
+      "title": "Chapter 12",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "chapter-13",
+      "title": "Chapter 13",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "chapter-14",
+      "title": "Chapter 14",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    }
+  ],
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Soviet Fiction",
+    "Women's Emancipation",
+    "NEP Period"
+  ]
+}

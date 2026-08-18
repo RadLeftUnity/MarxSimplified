@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "The Constant Capital of Department I It remains for us to analyse the constant capital of department I, amounting to 4,000c.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "One portion has been absorbed by the social consumption-fund, and another portion has to replace the constant capital of department II, which has already exchanged everything it could dispose of in an exchange with department I.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  }
+]

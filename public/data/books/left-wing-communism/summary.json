@@ -1,0 +1,143 @@
+{
+  "id": "left-wing-communism",
+  "title": "“Left-Wing” Communism: an Infantile Disorder",
+  "author": "V.I. Lenin",
+  "year": "1920",
+  "difficulty": "Medium",
+  "readingTime": "3.7 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1920/lwc/",
+  "shortDescription": "Written in 1920 for the Second Congress of the Communist International, Lenin's classic treatise critiques sectarian 'left' radicalism and outlines pragmatic, principled revolutionary strategy and tactics.",
+  "subject": "Party Strategy & Tactics",
+  "tags": [
+    "Party Strategy & Tactics",
+    "Revolutionary Tactics",
+    "Marxism-Leninism",
+    "Trade Unions",
+    "Parliamentarism",
+    "V.I. Lenin"
+  ],
+  "context": "Written in April to May 1920 in preparation for the Second Congress of the Communist International (Comintern), 'Left-Wing' Communism: An Infantile Disorder addressed young communist parties in Western Europe (especially Germany, Britain, Italy, and the Netherlands). Many newly radicalized activists rejected participation in reactionary trade unions and bourgeois parliaments, refusing all political compromises. Drawing on 17 years of Bolshevik history, Lenin demonstrated that uncompromising ultra-leftism isolates revolutionaries from the working class and leads to defeat.",
+  "relatesToToday": "Applies to modern political tactics: whether to boycott elections, work inside mainstream trade unions, or form coalitions. Lenin warns against purist, all-or-nothing posturing, arguing that effective organizers must meet working people where they are.",
+  "keyTakeaways": [
+    "Bolshevism succeeded through a synthesis of granite Marxist theory and 15 years of diverse, practical mass struggle.",
+    "Iron discipline and centralism in a vanguard party require deep connection with the working masses and proven tactical correctness.",
+    "Ultra-left sectarianism ('infantile disorder') mistakes one's own advanced consciousness for the consciousness of the working masses.",
+    "Revolutionaries must participate in reactionary trade unions and bourgeois parliaments whenever necessary to reach and educate the masses.",
+    "Compromises are unavoidable in real politics; the key is distinguishing tactical retreats that preserve strength from opportunist surrenders."
+  ],
+  "chapters": [
+    {
+      "id": "in-what-sense-we-can-speak-of-the-international-significance-of-the-russian-revolution",
+      "title": "In What Sense We Can Speak of the International Significance of the Russian Revolution",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "an-essential-condition-of-the-bolsheviks-success",
+      "title": "An Essential Condition of the Bolsheviks’ Success",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-principal-stages-in-the-history-of-bolshevism",
+      "title": "The Principal Stages in the History of Bolshevism",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "the-struggle-against-which-enemies-within-the-working-class-movement-helped-bolshevism-develop-gain-strength-and-become-steeled",
+      "title": "The Struggle Against Which Enemies Within the Working-Class Movement Helped Bolshevism Develop, Gain Strength, and Become Steeled",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses",
+      "title": "“Left-Wing” Communism in Germany: The Leaders, the Party, the Class, the Masses",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "should-revolutionaries-work-in-reactionary-trade-unions",
+      "title": "Should Revolutionaries Work in Reactionary Trade Unions?",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "should-we-participate-in-bourgeois-parliaments",
+      "title": "Should We Participate in Bourgeois Parliaments?",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "no-compromises",
+      "title": "No Compromises?",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "left-wing-communism-in-great-britain",
+      "title": "“Left-Wing” Communism in Great Britain",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "several-conclusions",
+      "title": "Several Conclusions",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "appendix",
+      "title": "Appendix",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "appendix-i-the-split-among-the-german-communists",
+      "title": "Appendix I: The Split Among the German Communists",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "appendix-ii-the-communists-and-the-independents-in-germany",
+      "title": "Appendix II: The Communists and the Independents in Germany",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "appendix-iii-turati-and-co-in-italy",
+      "title": "Appendix III: Turati and Co. in Italy",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "appendix-iv-false-conclusions-from-correct-premises",
+      "title": "Appendix IV: False Conclusions from Correct Premises",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "appendix-v-note-from-wijnkoop-june-30-1920",
+      "title": "Appendix V: Note from Wijnkoop, June 30, 1920",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    }
+  ]
+}

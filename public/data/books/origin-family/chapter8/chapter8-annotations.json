@@ -1,30 +1,45 @@
 [
   {
     "id": "origin-family-ch8-1",
-    "targetText": "It is based on the supremacy of the man, the express purpose being to produce children of undisputed paternity",
+    "targetText": "g. It is based on the supremacy of the man, the express\r\npurpose being to produce children of undisputed pater",
     "summary": "Monogamous marriage did not arise from romantic ideals, but as an economic system created so men could guarantee legitimate heirs to inherit their private wealth.",
     "context": "Engels analyzes the economic origins of patriarchal marriage. When individual men accumulated wealth (livestock, land, slaves), they demanded guaranteed paternity so their accumulated private property could pass directly to their biological offspring.",
-    "topics": ["Family & Patriarchy", "Private Property", "Historical Materialism"]
+    "topics": [
+      "Family & Patriarchy",
+      "Private Property",
+      "Historical Materialism"
+    ]
   },
   {
     "id": "origin-family-ch8-2",
-    "targetText": "It was the first form of the family to be based, not on natural, but on economic conditions",
+    "targetText": "e. \r\nIt was the first form of the family to be based, not on natural, but on\r\neconomic cond",
     "summary": "Monogamy was the first family structure driven primarily by property rights and economic inheritance rather than mutual affection or communal clan ties.",
     "context": "In early communal societies, resources and child-rearing were shared by the entire clan. Monogamous domestic units developed only after private property disrupted collective living.",
-    "topics": ["Family & Patriarchy", "Private Property", "Historical Materialism"]
+    "topics": [
+      "Family & Patriarchy",
+      "Private Property",
+      "Historical Materialism"
+    ]
   },
   {
     "id": "origin-family-ch8-3",
-    "targetText": "The first class opposition that appears in history coincides with the development of the antagonism between man and woman in monogamous marriage",
+    "targetText": "can add: The first class\r\nopposition that appears in history coincides with the development of\r\nthe antagonism between man and woman in monogamo",
     "summary": "The subjugation of women in patriarchal marriage was the earliest form of class oppression in human history, establishing the template for all subsequent economic exploitation.",
     "context": "Engels directly links gender oppression to class oppression. In early human history, women held respected positions in communal clans. The rise of private property restricted women to domestic isolation, transforming wives into dependent housekeepers.",
-    "topics": ["Family & Patriarchy", "Class Struggle", "Capitalist Exploitation"]
+    "topics": [
+      "Family & Patriarchy",
+      "Class Struggle",
+      "Capitalist Exploitation"
+    ]
   },
   {
     "id": "origin-family-ch8-4",
-    "targetText": "monogamy for the woman only, but not for the man",
+    "targetText": "th its specific character of monogamy for the wo",
     "summary": "Historically, strict marital fidelity was enforced upon women to safeguard property inheritance, while male infidelity was socially tolerated or institutionally accommodated.",
     "context": "Engels highlights the structural double standard of traditional monogamous marriage systems, where women were legally bound to domestic chastity while men had legal or social access to concubinage and prostitution.",
-    "topics": ["Family & Patriarchy", "Capitalist Exploitation"]
+    "topics": [
+      "Family & Patriarchy",
+      "Capitalist Exploitation"
+    ]
   }
 ]

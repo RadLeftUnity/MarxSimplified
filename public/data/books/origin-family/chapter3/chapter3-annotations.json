@@ -1,9 +1,12 @@
 [
   {
     "id": "origin-family-ch3-1",
-    "targetText": "the great epochs of human progress have been identified, more or less directly, with the enlargement of the sources of subsistence",
+    "targetText": "e that the great\r\n epochs of human progress have been identified, more or less\r\n directly, with the enlargement of the sources of ",
     "summary": "Major leaps in human development are defined by how humans improved their ability to produce food, tools, and materials necessary for survival.",
     "context": "Engels adopts Lewis H. Morgan's scientific categorization of early human history. Social progress is not measured by abstract moral ideas, but by advances in production tools (like hunting implements, pottery, agriculture, and metallurgy).",
-    "topics": ["Historical Materialism", "Division of Labor"]
+    "topics": [
+      "Historical Materialism",
+      "Division of Labor"
+    ]
   }
 ]

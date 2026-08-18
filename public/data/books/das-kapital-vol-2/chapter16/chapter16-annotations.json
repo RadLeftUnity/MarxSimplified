@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "targetText": "It still remains for us, incidentally, to investigate the problem of turnover.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "Suppose his fixed capital has to be renewed in 10 years.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "But this demand is equal to v and not one iota greater (if the labourer saves a part of his wages ; we necessarily discard here all credit relations ; he converts part of his wages into a hoard and to that extent does not act as a bidder, a purchaser).",
+    "explanation": "Hoarding money capital is a necessary phase under capitalism to accumulate sufficient reserves before purchasing large fixed assets or expanding production."
+  },
+  {
+    "targetText": "We now come to reproduction.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

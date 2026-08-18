@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "targetText": "But it nevertheless makes a difference whether the labourers buy their means of subsistence directly from the capitalist producers to whom they sell their labour-power or whether they buy them from capitalists of another category, through whose agency the money returns to the former only by a circuitous route.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "From the standpoint of society, two-thirds of the labour expended during the year have created new constant capital-value realised in the bodily form appropriate for department II.",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "From the standpoint of society, two-thirds of the labour expended during the year have created new constant capital-value realised in the bodily form appropriate for department II.",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "Capital and Revenue: Variable Capital and Wages The entire annual reproduction, the entire product of a year is the product of the useful labour of that year.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

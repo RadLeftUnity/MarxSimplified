@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "targetText": "The Working Period Smaller than the Circulation Period We begin by assuming once more a period of turnover of 9 weeks, of which 3 weeks are assigned to the working period with an available capital I of &pound;300.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "In this entire section we have discussed only the turnovers of the circulating capital, not those of the fixed, for the simple reason that the question at issue has nothing to do with fixed capital.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  }
+]

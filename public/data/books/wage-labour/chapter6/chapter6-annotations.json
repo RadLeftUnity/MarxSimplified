@@ -1,10 +1,10 @@
 [
   {
-    "targetText": "A cotton-spinning machine is a machine for spinning cotton. Only under certain conditions does it become capital.",
+    "targetText": "A\ncotton-spinning machine is a machine for spinning cotton. Only under certain\nconditions does it become capital.",
     "explanation": "Physical equipment or machinery is not inherently capital by itself. It becomes capital only when placed in social conditions where it is privately owned to employ wage labor for profit."
   },
   {
-    "targetText": "Capital also is a social relation of production. It is a bourgeois relation of production, a relation of production of bourgeois society.",
+    "targetText": "Capital also is a social relation of production. It is a bourgeois relation\nof production, a relation of production of bourgeois society.",
     "explanation": "Capital is not merely a collection of physical objects or money, but an overarching economic relationship between those who own wealth and those who work for wages."
   }
 ]

@@ -6,6 +6,8 @@ interface FormattedTextProps {
   className?: string;
   paragraphClassName?: string;
   highlightJargon?: boolean;
+  excludeGlossaryTerms?: string[];
+  excludeGlossaryPhrases?: string[];
 }
 
 export interface ParsedBlock {
@@ -98,11 +100,8 @@ export function parseFormattedBlocks(rawText: string): ParsedBlock[] {
       } else if (numInt === 1 || blocks.length > 0) {
         let intro: string | undefined = undefined;
         if (blocks.length > 0 && blocks[blocks.length - 1].type === 'paragraph') {
-          const prevPara = blocks[blocks.length - 1].paragraphText || '';
-          if (prevPara.trim().endsWith(':')) {
-            blocks.pop();
-            intro = prevPara;
-          }
+          const prevBlock = blocks.pop();
+          intro = prevBlock?.paragraphText;
         }
         currentOlBlock = { intro, items: [{ num, text: itemText }] };
         continue;
@@ -117,11 +116,8 @@ export function parseFormattedBlocks(rawText: string): ParsedBlock[] {
       } else {
         let intro: string | undefined = undefined;
         if (blocks.length > 0 && blocks[blocks.length - 1].type === 'paragraph') {
-          const prevPara = blocks[blocks.length - 1].paragraphText || '';
-          if (prevPara.trim().endsWith(':')) {
-            blocks.pop();
-            intro = prevPara;
-          }
+          const prevBlock = blocks.pop();
+          intro = prevBlock?.paragraphText;
         }
         currentUlBlock = { intro, items: [{ text: itemText }] };
         continue;
@@ -166,7 +162,7 @@ export function parseFormattedBlocks(rawText: string): ParsedBlock[] {
       }
     }
 
-    const ulMatches = Array.from(inlineText.matchAll(/(?:^|[\s:])([•✦\*\-\+])\s+/g));
+    const ulMatches = Array.from(inlineText.matchAll(/(?:^|[\s:])([•✦\*\-])\s+/g));
     if (ulMatches.length >= 2) {
       if (currentOlBlock) {
         blocks.push({ type: 'ol', intro: currentOlBlock.intro, items: currentOlBlock.items });

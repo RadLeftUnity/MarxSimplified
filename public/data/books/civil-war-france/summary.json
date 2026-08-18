@@ -1,0 +1,85 @@
+{
+  "id": "civil-war-france",
+  "title": "The Civil War in France",
+  "author": "Karl Marx",
+  "year": "1871",
+  "difficulty": "Medium-Hard",
+  "readingTime": "2.5 hours",
+  "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/",
+  "context": "Written by Karl Marx between April and May 1871 as an official address to the General Council of the International Workingmen's Association, The Civil War in France is Marx's seminal historical materialist analysis of the Paris Commune. Written while Communards were defending Paris against Versaillist troops, Marx synthesizes the lessons of the first working-class government in history, establishing the core Marxist proposition that the working class cannot simply lay hold of the ready-made state machinery and wield it for its own purposes, but must smash the bourgeois state apparatus and replace it with genuine proletarian democracy.",
+  "relatesToToday": "Provides essential theoretical clarity for contemporary movements seeking social transformation. Marx demonstrates why corporate state institutions, standing armies, and bureaucratic police forces cannot be reformed into instruments of working-class liberation. The political structure of the Commune (revocable delegates, equal wages for officials, combined executive-legislative functions, and democratic social control) remains the blueprint for socialist democracy and workers' self-governance today.",
+  "keyTakeaways": [
+    "The working class cannot simply lay hold of the ready-made state machinery and use it for its own ends; the coercive bourgeois state apparatus must be smashed.",
+    "The Paris Commune established the dictatorship of the proletariat as a working, not a parliamentary body, combining executive and legislative functions under direct democratic control.",
+    "Public servants and state officials were elected, subject to immediate recall by their electors, and paid standard working-class wages, abolishing careerism and financial privilege.",
+    "Standing armies and police forces were disbanded and replaced by the armed working class (the National Guard), eliminating specialized instruments of class suppression.",
+    "Socialist democracy reorganizes public services, education, and economic production under democratic workers' control while suppressing counter-revolutionary landlord and capitalist violence."
+  ],
+  "subject": "State Theory & Dictatorship of the Proletariat",
+  "tags": [
+    "Dictatorship of the Proletariat",
+    "The State",
+    "Paris Commune",
+    "Class Struggle",
+    "Karl Marx"
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "1891 Introduction by Frederick Engels",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-beginning-of-the-franco-prussian-war",
+      "title": "First Address: The Franco-Prussian War",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "prussian-occupation-of-france",
+      "title": "Second Address: Prussian Occupation of France",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "france-capitulates-and-the-government-of-thiers",
+      "title": "Section I: France Capitulates & the Government of Thiers",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "paris-workers-revolution-and-thiers-reactionary-massacres",
+      "title": "Section II: Paris Workers' Revolution & Reactionary Massacres",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-paris-commune",
+      "title": "Section III: The Paris Commune & Proletarian Democracy",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-fall-of-paris",
+      "title": "Section IV: The Fall of Paris & Bourgeois Vengeance",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "engels-1891-postscript",
+      "title": "Engels 1891 Postscript",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    }
+  ]
+}

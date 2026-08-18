@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "targetText": "Its turnover is not interrupted, as is that of fixed capital, but passes uninterruptedly through the entire circuit of its forms, so that these elements of productive capital are continually renewed in kind.",
+    "explanation": "The circuit of capital describes how value transforms from money capital into productive assets (machinery/labor) and commodity capital, returning as expanded money capital."
+  },
+  {
+    "targetText": "[21] The peculiar circulation of fixed capital results in a peculiar turnover.",
+    "explanation": "Capital turnover time consists of production time plus circulation time; reducing turnover time accelerates the annual rate of profit accumulation."
+  },
+  {
+    "targetText": "It is this peculiarity which gives to this portion of constant capital the form of fixed capital.",
+    "explanation": "Fixed capital transfers its value gradually over multiple production cycles (e.g. factory machinery), while circulating capital transfers its entire value in a single cycle (raw materials/wages)."
+  },
+  {
+    "targetText": "But its reconversion from the money-form into a use-form proceeds separately from the reconversion of the commodities into other elements of their production and is determined rather by its own period of reproduction, that is, by the time during which the instrument of labour wears out and must be replaced by another of the same kind.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]

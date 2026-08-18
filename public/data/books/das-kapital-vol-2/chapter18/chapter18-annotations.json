@@ -1,7 +1,10 @@
 [
   {
     "id": "das-kapital-vol-2-ch18-1",
-    "targetText": "[Since we have assumed that commodities are bought and sold at their values, these acts constitute merely the conversion of a certain value from one form into another, from the commodity-form into the money-form or from the money-form into the commodity-form ; a change in the state of being. If commodities are sold at their values, then the magnitudes of value in the hands of the buyer and seller remain unchanged. Only the form of existence of value is changed. If the commodities are not sold at their values, then the sum of the converted values remains unchanged; the plus on one side is a minus on the other.",
-    "explanation": "Pure circulation costs (buying, selling, bookkeeping) do not create new value. If commodities sell at their values, value simply changes form from commodity to money or vice versa; no new wealth is produced in the act of exchange itself."
+    "targetText": "[Since we have assumed that commodities are bought and sold at\ntheir values, these acts constitute merely the conversion of a certain\nvalue from one form into another, from the commodity-form into the money-form\nor from the money-form into the commodity-form ; a change in the state\nof being. If commodities are sold at their values, then the magnitudes\nof value in the hands of the buyer and seller remain unchanged. Only the\nform of existence of value is changed. If the commodities are not sold\nat their values, then the sum of the converted values remains unchanged;\nthe plus on one side is a minus on the other.",
+    "explanation": "Pure circulation costs (buying, selling, bookkeeping) do not create new value. If commodities sell at their values, value simply changes form from commodity to money or vice versa; no new wealth is produced in the act of exchange itself.",
+    "topics": [
+      "The State"
+    ]
   }
 ]

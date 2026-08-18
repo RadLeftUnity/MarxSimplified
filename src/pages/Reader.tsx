@@ -238,6 +238,8 @@ export const Reader: React.FC<ReaderProps> = ({
                 annotations={annotations}
                 activeAnnotationId={activeAnnotationId}
                 onSelectAnnotation={handleSelectAnnotation}
+                excludeGlossaryTerms={(currentChapter as any)?.excludeGlossaryTerms}
+                excludeGlossaryPhrases={(currentChapter as any)?.excludeGlossaryPhrases}
               />
             </div>
 

@@ -20,6 +20,7 @@ export type TheoryTag =
 export interface GlossaryTerm {
   term: string;
   pattern: string; // Pipe-separated regex pattern variants
+  excludePattern?: string; // Optional pipe-separated phrases to exclude from highlighting (e.g. "state of things|state of affairs")
   definition: string;
   misconception: string;
   dayToDayExample: string;

@@ -277,14 +277,14 @@ unity, and in which capital appears as money that begets money, is here imparted
 to it as its character, its designation, without any intermediary movement. And
 it is relinquished with this designation when loaned out as money-capital.
 
-A queer conception of the role of money-capital is held by Proudhon (Gratuit&eacute; du Cr&eacute;dit. Discussion entre M. F. Bastiat et M. Proudhon, Paris, 1850). Loaning seems an evil to Proudhon because it is not selling. Loaning for an interest is
+A queer conception of the role of money-capital is held by Proudhon (Gratuité du Crédit. Discussion entre M. F. Bastiat et M. Proudhon, Paris, 1850). Loaning seems an evil to Proudhon because it is not selling. Loaning for an interest is
 
 "the faculty of selling the same article over and over again, and of receiving its price again and again, without once relinquishing
 ownership of the object which is being sold" (p. 9). [The cited words
 belong to Cheve, one of the editors of the newspaper La Voix du peuple,
-and the author of the "first letter" in the book Gratuit&eacute;
+and the author of the "first letter" in the book Gratuité
 
-du Cr&eacute;dit. Discussion entre M. F. Bastiat et M. Proudhon, Paris,
+du Crédit. Discussion entre M. F. Bastiat et M. Proudhon, Paris,
 1850. ; Ed]
 
 The object ; money, a house, etc. ; does not change owners as in selling and buying. But Proudhon does not see that no equivalent is
@@ -419,7 +419,7 @@ To be sure, these transactions are really determined by the actual reproductive
 returns. But this is not evident in the transaction itself. Nor is it by any
 means always the case in practice. If the actual return does not take place in
 due time, the borrower must look for other resources to meet his obligations
-vis-&agrave;-vis the lender. The bare form of capital ; money
+vis-à-vis the lender. The bare form of capital ; money
 expended as a certain sum, A, which returns as sum A + 1/x A after a given lapse
 of time without any other intermediate act save this lapse of time ; is only
 a meaningless form of the actual movement of capital.
@@ -701,7 +701,7 @@ interest-bearing capital this likewise appears on the surface to mean that a
 definite interest is paid to the lender for a definite time span.
 
 With his usual insight into the internal connection of things, the romantic
-Adam M&uuml;ller says (Elemente der Staatskunst, Berlin, 1809, Dritter
+Adam Müller says (Elemente der Staatskunst, Berlin, 1809, Dritter
 Theil, S. 138);
 
 "In determining the prices of things, time is not

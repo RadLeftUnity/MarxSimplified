@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "targetText": "They are equal because the constant capital-value re-appearing in II is equal to the value newly produced by I (value of variable capital plus surplus-value); therefore I(v + s) can buy the part of the product of II which represents the constant capital-value for its producers (in department II).",
+    "explanation": "Department I represents the branch of production that manufactures means of production (machinery, raw materials, industrial equipment)."
+  },
+  {
+    "targetText": "They are equal because the constant capital-value re-appearing in II is equal to the value newly produced by I (value of variable capital plus surplus-value); therefore I(v + s) can buy the part of the product of II which represents the constant capital-value for its producers (in department II).",
+    "explanation": "Department II represents the branch of social production that produces consumer goods and means of individual consumption."
+  },
+  {
+    "targetText": "On the assumption of simple reproduction the total value of the annually produced articles of consumption is therefore equal to the annual value-product, i.",
+    "explanation": "Social reproduction requires continuous exchange between Department I and Department II to balance industrial equipment needs with consumer wage goods."
+  }
+]
