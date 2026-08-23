@@ -216,6 +216,24 @@ export function parseFormattedBlocks(rawText: string): ParsedBlock[] {
   return blocks;
 }
 
+function processMarkdownSpan(rawText: string, shouldHighlight: boolean): React.ReactNode {
+  if (!rawText) return null;
+
+  // Split by **bold** first
+  const parts = rawText.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+      const inner = part.slice(2, -2);
+      return (
+        <strong key={i} className="formatted-bold text-gold" style={{ fontWeight: 600 }}>
+          {shouldHighlight ? highlightJargon(inner) : inner}
+        </strong>
+      );
+    }
+    return shouldHighlight ? highlightJargon(part) : part;
+  });
+}
+
 function renderItemText(itemText: string, shouldHighlight: boolean) {
   // Check if item text has a title before a colon
   const titleColonMatch = itemText.match(/^([^:]+:\s*)(.*)$/);
@@ -225,14 +243,14 @@ function renderItemText(itemText: string, shouldHighlight: boolean) {
     return (
       <>
         <strong className="formatted-item-title">
-          {shouldHighlight ? highlightJargon(titlePart) : titlePart}
+          {processMarkdownSpan(titlePart, shouldHighlight)}
         </strong>
-        {shouldHighlight ? highlightJargon(restPart) : restPart}
+        {processMarkdownSpan(restPart, shouldHighlight)}
       </>
     );
   }
 
-  return shouldHighlight ? highlightJargon(itemText) : itemText;
+  return processMarkdownSpan(itemText, shouldHighlight);
 }
 
 export const FormattedText: React.FC<FormattedTextProps> = ({
@@ -253,7 +271,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
             <div key={idx} className="formatted-list-wrapper">
               {block.intro && (
                 <p className={`formatted-paragraph formatted-intro ${paragraphClassName}`.trim()}>
-                  {shouldHighlight ? highlightJargon(block.intro) : block.intro}
+                  {processMarkdownSpan(block.intro, shouldHighlight)}
                 </p>
               )}
               <ol className="formatted-list formatted-ol">
@@ -275,7 +293,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
             <div key={idx} className="formatted-list-wrapper">
               {block.intro && (
                 <p className={`formatted-paragraph formatted-intro ${paragraphClassName}`.trim()}>
-                  {shouldHighlight ? highlightJargon(block.intro) : block.intro}
+                  {processMarkdownSpan(block.intro, shouldHighlight)}
                 </p>
               )}
               <ul className="formatted-list formatted-ul">
@@ -294,7 +312,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
 
         return (
           <p key={idx} className={`formatted-paragraph ${paragraphClassName}`.trim()}>
-            {shouldHighlight ? highlightJargon(block.paragraphText || '') : block.paragraphText}
+            {processMarkdownSpan(block.paragraphText || '', shouldHighlight)}
           </p>
         );
       })}

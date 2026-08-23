@@ -128,21 +128,50 @@ const AnnotationHighlightWord: React.FC<{
   onSelectAnnotation: (id: string | null) => void;
 }> = ({ segmentText, annotationId, summaryText, isActive, onSelectAnnotation }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [coords, setCoords] = useState<{ top: number; left: number; popDown: boolean } | null>(null);
+  const [coords, setCoords] = useState<{ top: number; left: number; side: 'right' | 'left'; arrowY: number } | null>(null);
   const targetRef = useRef<HTMLSpanElement>(null);
 
   const updatePosition = () => {
     if (!targetRef.current) return;
     const rect = targetRef.current.getBoundingClientRect();
     const tooltipWidth = 300;
-    const halfWidth = tooltipWidth / 2;
-    const preferredLeft = rect.left + rect.width / 2;
-    const clampedLeft = Math.max(16 + halfWidth, Math.min(window.innerWidth - 16 - halfWidth, preferredLeft));
+    const estimatedHeight = 180;
+    const gap = 14;
 
-    const popDown = rect.top < 220;
-    const top = popDown ? rect.bottom + 10 : rect.top - 10;
+    const spaceOnRight = window.innerWidth - rect.right - gap - 16;
+    const spaceOnLeft = rect.left - gap - 16;
 
-    setCoords({ top, left: clampedLeft, popDown });
+    let side: 'right' | 'left';
+    if (spaceOnRight >= tooltipWidth) {
+      side = 'right';
+    } else if (spaceOnLeft >= tooltipWidth) {
+      side = 'left';
+    } else {
+      side = spaceOnRight >= spaceOnLeft ? 'right' : 'left';
+    }
+
+    let left: number;
+    if (side === 'right') {
+      left = rect.right + gap;
+      if (left + tooltipWidth > window.innerWidth - 12) {
+        left = Math.max(12, window.innerWidth - tooltipWidth - 12);
+      }
+    } else {
+      left = rect.left - tooltipWidth - gap;
+      if (left < 12) {
+        left = 12;
+      }
+    }
+
+    const wordCenterY = rect.top + rect.height / 2;
+    const preferredTop = wordCenterY - 40;
+    const maxTop = Math.max(16, window.innerHeight - estimatedHeight - 16);
+    const clampedTop = Math.max(16, Math.min(maxTop, preferredTop));
+
+    const rawArrowY = wordCenterY - clampedTop;
+    const arrowY = Math.max(16, Math.min(estimatedHeight - 16, rawArrowY));
+
+    setCoords({ top: clampedTop, left, side, arrowY });
   };
 
   return (
@@ -165,17 +194,20 @@ const AnnotationHighlightWord: React.FC<{
       </span>
       {isHovered && summaryText && coords && createPortal(
         <div
-          className={`tooltip-balloon glass-panel portal-tooltip ${coords.popDown ? 'pop-down' : ''}`}
+          className={`tooltip-balloon glass-panel portal-tooltip pop-side-${coords.side}`}
           style={{
             position: 'fixed',
-            top: coords.popDown ? `${coords.top}px` : 'auto',
-            bottom: !coords.popDown ? `${window.innerHeight - coords.top}px` : 'auto',
+            top: `${coords.top}px`,
             left: `${coords.left}px`,
-            transform: 'translateX(-50%)',
+            bottom: 'auto',
+            transform: 'none',
+            maxHeight: 'calc(100vh - 32px)',
+            overflowY: 'auto',
             zIndex: 99999,
             opacity: 1,
             visibility: 'visible',
             pointerEvents: 'none',
+            ['--arrow-y' as any]: `${coords.arrowY}px`,
           }}
         >
           <span className="tooltip-balloon-label">Meaning:</span>

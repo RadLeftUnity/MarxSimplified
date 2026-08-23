@@ -4,6 +4,17 @@ import type { Book } from '../components/BookCard';
 import { fetchSearchIndex, type SearchIndexData, type IndexedChapter } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
 
+// Parse a query string that may contain pipe-separated OR variants
+function parseQueryVariants(query: string): string[] {
+  return query.split('|').map((v) => v.trim()).filter(Boolean);
+}
+
+// Check if any variant matches in text (case-insensitive)
+function matchesAnyVariant(text: string, variants: string[]): boolean {
+  const lower = text.toLowerCase();
+  return variants.some((v) => lower.includes(v.toLowerCase()));
+}
+
 export interface SearchResultItem {
   id: string;
   bookId: string;
@@ -28,14 +39,28 @@ function extractMatchSnippet(text: string, query: string, maxLength: number = 24
   if (!text || !query.trim()) {
     return text.length > maxLength ? `${text.slice(0, maxLength)}...` : text;
   }
-  const q = query.trim().toLowerCase();
-  const index = text.toLowerCase().indexOf(q);
+
+  // For pipe-separated queries, find the first variant that appears in the text
+  const variants = parseQueryVariants(query);
+  const lower = text.toLowerCase();
+  let matchedVariant = '';
+  let index = -1;
+  for (const v of variants) {
+    const idx = lower.indexOf(v.toLowerCase());
+    if (idx !== -1) {
+      matchedVariant = v;
+      index = idx;
+      break;
+    }
+  }
+
   if (index === -1) {
     return text.length > maxLength ? `${text.slice(0, maxLength)}...` : text;
   }
 
+  const qLen = matchedVariant.length;
   let start = Math.max(0, index - 75);
-  let end = Math.min(text.length, index + q.length + 125);
+  let end = Math.min(text.length, index + qLen + 125);
 
   if (start > 0) {
     const spaceBefore = text.indexOf(' ', start);
@@ -46,7 +71,7 @@ function extractMatchSnippet(text: string, query: string, maxLength: number = 24
 
   if (end < text.length) {
     const spaceAfter = text.lastIndexOf(' ', end);
-    if (spaceAfter !== -1 && spaceAfter > index + q.length) {
+    if (spaceAfter !== -1 && spaceAfter > index + qLen) {
       end = spaceAfter;
     }
   }
@@ -102,13 +127,13 @@ export const Search: React.FC<SearchProps> = ({
     loadIndex();
   }, []);
 
-  // Compute search results based on activeQuery
+  // Compute search results based on activeQuery (supports pipe-separated OR variants)
   const results = useMemo(() => {
     if (!searchIndex || !activeQuery.trim() || activeQuery.trim().length < 2) {
       return [];
     }
 
-    const q = activeQuery.trim().toLowerCase();
+    const variants = parseQueryVariants(activeQuery);
     const rawResults: SearchResultItem[] = [];
 
     searchIndex.chapters.forEach((ch: IndexedChapter) => {
@@ -122,7 +147,7 @@ export const Search: React.FC<SearchProps> = ({
         ch.annotations.forEach((ann, idx) => {
           const targetStr = ann.targetText || '';
           const explStr = ann.explanation || ann.summary || '';
-          if (targetStr.toLowerCase().includes(q) || explStr.toLowerCase().includes(q)) {
+          if (matchesAnyVariant(targetStr, variants) || matchesAnyVariant(explStr, variants)) {
             rawResults.push({
               id: `${ch.bookId}-${ch.chapterId}-ann-${idx}`,
               bookId: ch.bookId,
@@ -141,7 +166,7 @@ export const Search: React.FC<SearchProps> = ({
 
       // 2. Search Chapter Overview Summaries
       if (selectedTypeFilter === 'all' || selectedTypeFilter === 'summary') {
-        if (ch.summaryText && ch.summaryText.toLowerCase().includes(q)) {
+        if (ch.summaryText && matchesAnyVariant(ch.summaryText, variants)) {
           rawResults.push({
             id: `${ch.bookId}-${ch.chapterId}-summary`,
             bookId: ch.bookId,
@@ -158,7 +183,7 @@ export const Search: React.FC<SearchProps> = ({
       // 3. Search Full Text Paragraphs
       if (selectedTypeFilter === 'all' || selectedTypeFilter === 'fulltext') {
         ch.paragraphs.forEach((p, pIdx) => {
-          if (p.toLowerCase().includes(q)) {
+          if (matchesAnyVariant(p, variants)) {
             rawResults.push({
               id: `${ch.bookId}-${ch.chapterId}-p-${pIdx}`,
               bookId: ch.bookId,
@@ -177,14 +202,22 @@ export const Search: React.FC<SearchProps> = ({
     return rawResults;
   }, [searchIndex, activeQuery, selectedBookFilter, selectedTypeFilter]);
 
-  // Helper to render text snippet with highlighted search terms
+  // Derived: whether the active query has multiple pipe-separated variants
+  const queryVariants = useMemo(() => parseQueryVariants(activeQuery), [activeQuery]);
+  const isMultiVariantQuery = queryVariants.length > 1;
+
+  // Helper to render text snippet with highlighted search terms (supports multi-variant OR)
   const renderHighlightedSnippet = (text: string, searchTerm: string) => {
     if (!searchTerm.trim()) return text;
-    const parts = text.split(new RegExp(`(${searchTerm.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')})`, 'gi'));
+    const variants = parseQueryVariants(searchTerm);
+    // Build a regex that matches any variant (escaped)
+    const escaped = variants.map((v) => v.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')).join('|');
+    const regex = new RegExp(`(${escaped})`, 'gi');
+    const parts = text.split(regex);
     return (
       <span>
         {parts.map((part, i) =>
-          part.toLowerCase() === searchTerm.toLowerCase() ? (
+          variants.some((v) => part.toLowerCase() === v.toLowerCase()) ? (
             <mark key={i} className="search-highlight">
               {part}
             </mark>
@@ -212,9 +245,9 @@ export const Search: React.FC<SearchProps> = ({
           <span className="hero-badge">
             <SearchIcon className="hero-badge-icon" /> Site-Wide Library Search
           </span>
-          <h2 className="hero-title">Universal Text & Annotation Search</h2>
+          <h2 className="hero-title">Universal Text &amp; Annotation Search</h2>
           <p className="hero-subtitle">
-            Type your query and click out of the search box (or press Enter) to search across all 12 works in the archive.
+            Type your query and click out of the search box (or press Enter) to search across all works in the archive.
           </p>
         </div>
 
@@ -308,7 +341,14 @@ export const Search: React.FC<SearchProps> = ({
           {activeQuery.trim().length >= 2 && (
             <div className="search-stats-bar">
               <span>
-                Found <strong>{results.length}</strong> matching passage(s) for "{activeQuery}"
+                Found <strong>{results.length}</strong> matching passage(s)
+                {isMultiVariantQuery ? (
+                  <> for any of: {queryVariants.map((v, i) => (
+                    <span key={i} className="search-variant-pill">{v}</span>
+                  ))}</>
+                ) : (
+                  <> for &ldquo;{activeQuery}&rdquo;</>
+                )}
               </span>
             </div>
           )}

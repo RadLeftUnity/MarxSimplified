@@ -45,7 +45,14 @@ function runGlossaryVerification() {
 
   console.log(`Loaded ${allTerms.length} terms across ${files.length} glossary files.`);
 
-  // 1. Check for Duplicate Exact Terms
+  // Load valid TheoryTags from types.ts
+  const typesFilePath = path.join(GLOSSARY_DIR, 'types.ts');
+  const typesContent = fs.readFileSync(typesFilePath, 'utf8');
+  const validTheoryTags = new Set(
+    Array.from(typesContent.matchAll(/\| '([^']+)'/g)).map((m) => m[1])
+  );
+
+  // 1. Check for Duplicate Exact Terms & Valid Fields/Tags
   const termMap = new Map();
   // 2. Check for Duplicate Slugs
   const slugMap = new Map();
@@ -65,6 +72,20 @@ function runGlossaryVerification() {
       if (t[prop] && emDashRegex.test(t[prop])) {
         errors.push(`EM-DASH VIOLATION in term "${t.term}" (${t._sourceFile}) field "${prop}": Contains em-dash ("—" or "--")`);
       }
+    }
+
+    // Check theoryTags validity
+    if (t.theoryTags && Array.isArray(t.theoryTags)) {
+      for (const tag of t.theoryTags) {
+        if (!validTheoryTags.has(tag)) {
+          errors.push(`INVALID THEORY TAG: "${tag}" in term "${t.term}" (${t._sourceFile}). Must match valid TheoryTag in src/data/glossary/types.ts`);
+        }
+      }
+    }
+
+    // Check for unnecessary '&' in term titles
+    if (t.term && t.term.includes('&')) {
+      warnings.push(`UNNECESSARY AMPERSAND: Term "${t.term}" (${t._sourceFile}) contains "&". Prefer clean, concise term titles (put aliases in definition).`);
     }
 
     // Check duplicate term name

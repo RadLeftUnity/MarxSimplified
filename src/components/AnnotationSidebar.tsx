@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import type { Annotation } from './ChapterReader';
-import { BookOpen, Sparkles, History, MessageCircle } from 'lucide-react';
+import { BookOpen, Sparkles, History, MessageCircle, HelpCircle } from 'lucide-react';
 import { FormattedText } from './FormattedText';
 
 
@@ -147,7 +147,7 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
 
         {activeTab === 'highlights' && annotations.length > 0 && !activeAnnotationId && (
           <div className="sidebar-guide-prompt glass-panel">
-            <span className="guide-prompt-icon">💡</span>
+            <HelpCircle className="btn-small-icon text-gold" />
             <p className="guide-prompt-text">
               Click any underlined sentence in the book text to jump directly to its summary.
             </p>

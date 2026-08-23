@@ -44,7 +44,51 @@ Marx Simplified is an interactive web application designed to make classic Marxi
 - `npm run build`: Compiles TypeScript and builds the production bundle.
 - `npm run preview`: Previews the local production build.
 - `npm run lint`: Runs Oxlint to check code quality.
-- `npm run test`: Runs the annotation verification script (`scripts/verify-annotations.js`).
+- `npm run test`: Runs annotation and glossary verification scripts (`scripts/verify-annotations.js` and `tools/check-glossary.js`).
+- `npm run test:glossary`: Runs the glossary verification test suite.
+- `npm run discord:wotd`: Sends a random glossary "Word of the Day" embed to your Discord Webhook.
+- `npm run discord:wotd:dry`: Tests the Discord "Word of the Day" payload locally without sending a POST request.
+
+## Discord Webhook Integration (Word of the Day)
+
+Marx Simplified includes an automated integration tool that selects a random term from the interactive glossary and posts a rich Discord embed to your server, complete with definitions, real-world examples, misconceptions, theory categories, and a button linking directly to the term on the website.
+
+### Local Setup & Environment File
+
+Webhook URLs are sensitive credentials and should never be committed to source control.
+
+1. Copy `.env.example` to create a local `.env` file (which is git-ignored):
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Open `.env` and add your Discord Webhook URL and site domain:
+   ```env
+   DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN
+   SITE_URL=https://marxsimplified.onrender.com
+   ```
+
+3. Test the payload locally in dry-run mode:
+   ```bash
+   npm run discord:wotd:dry
+   ```
+
+4. Send a test message to Discord:
+   ```bash
+   npm run discord:wotd
+   ```
+
+You can also filter by categories via command line flags:
+```bash
+# Filter by specific categories
+node discord/send-word-of-the-day.js --categories="Marxism-Leninism, Maoism, Marxist Feminism" --dry-run
+
+# Accept all categories except excluded ones
+node discord/send-word-of-the-day.js --categories="all" --exclude-categories="Capitalist Theory, Bourgeois Philosophy" --dry-run
+
+# Post a specific term directly
+node discord/send-word-of-the-day.js --term="Bourgeoisie"
+```
 
 ## Adding New Books
 
@@ -66,3 +110,4 @@ The script performs the following tasks:
 - Generates preliminary summary files and updates `public/data/manifest.json`.
 
 After importing a book, you can edit its metadata and add detailed annotations in `public/data/books/<book-id>/`.
+

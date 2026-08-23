@@ -5,6 +5,7 @@
 - **Avoid Em-dashes**: Do not use em-dashes (`—` or `--`) in any newly created chapter summaries, sentence annotations, code comments, or user-facing documentation.
 - **Alternatives**: Use colons (`:`), semicolons (`;`), parentheses (`( ... )`), or commas (`,`) instead of em-dashes to structure parenthetical thoughts or split sentences.
 - **Historical Text Citing**: If copying or citing historical source text that contains an em-dash, replace it with a colon or parentheses to maintain absolute typographical consistency across original texts and annotations.
+- **Avoid Heavy Use of Ampersands (`&`)**: Avoid unnecessary ampersands (`&` or `&amp;`) in UI labels, tab headers, section titles, country metadata, and prose annotations. Use the word `and` or concise rephrasing instead (e.g., `Timeline and History` instead of `Timeline & History`, `Primary Allies and Solidarity Partners` instead of `Primary Allies & Solidarity Partners`). Reserve `&` only for official proper names or established brand trademarks where indispensable.
 
 ## Book Import Technique
 
@@ -20,9 +21,28 @@ All book chapter text files should be sourced directly from marxists.org using t
 
 - **Special cases**: Some books on marxists.org have complex analytical contents lists with dozens of subsection anchors (e.g., the Grundrisse). For these, manual chapter organization is preferred over blind tool import, as the tool would create an impractical number of tiny chapters.
 
+## Mandatory Glossary Coverage for Organizations, Operations, and Events
+
+Whenever introducing or referencing specific political organizations (e.g., `People's Defence Force`, `Communist Party of Burma`, `National Endowment for Democracy`), covert imperialist operation codenames (e.g., `Operation Cyclone`, `Operation Yellowbird`, `Operation Gideon`, `Operation Paper`), or multilateral alliances and movements (e.g., `BRICS`, `Color Revolution`, `ETIM`) in country history modules, chapter annotations, or educational entries:
+
+- **Create Dedicated Glossary Entries**: Always ensure corresponding glossary entries exist in `src/data/glossary/` so that users can instantly hover/click to view definitions via the automated jargon-highlighting system.
+- **Pattern Variants**: Include all acronyms, common misspellings, and variant names separated by `|` in the `pattern` string.
+- **Zero Em-Dash Compliance**: Adhere strictly to the zero em-dash rule in all definitions, misconceptions, and examples.
+- **Verification**: Always run `node tools/check-glossary.js` and ensure it passes with exit code 0 before completing tasks.
+
 ## Glossary Variant Patterns
 
 When adding glossary terms in `src/data/glossary/`, the `pattern` field should include all common spelling variants, plurals, and alternate forms of the term separated by `|`. For example: `"class interest|class interests"`, `"bourgeoisie|bourgeois|bourgeoise"`. This ensures the glossary highlight system catches all variations in the source texts.
+
+## Concise Glossary Term Titles
+
+When creating or editing glossary terms in `src/data/glossary/`:
+- **Avoid Unnecessary Ampersands (`&`)**: Keep term titles concise and clean (e.g. `"United Fruit Company"` instead of `"United Fruit Company (UFCO) & Chiquita"`, `"COINTELPRO"` instead of `"FBI COINTELPRO & Domestic Counter-Subversion"`).
+- **Secondary Names & Aliases**: Include alternate names, acronyms, or secondary labels in the `pattern` string for matching, and mention them in the `definition` prose (e.g., "Also known as Chiquita Brands International..."). Use `/` sparingly only when indispensable.
+
+## Valid TheoryTags Requirement
+
+Every tag in a term's `theoryTags` array MUST strictly be an official `TheoryTag` value defined in `src/data/glossary/types.ts` (e.g., `'Classical Marxism'`, `'Marxism-Leninism'`, `'Anti-Colonial Socialism'`, `'Capitalist Theory'`, `'Fascism Analysis'`, `'Neo-Marxism'`, `'Western Marxism'`, etc.). Do NOT invent ad-hoc theory tags.
 
 ## Glossary Automated Verification
 
@@ -30,4 +50,5 @@ Whenever creating, editing, or refactoring glossary terms or files in `src/data/
 ```bash
 node tools/check-glossary.js
 ```
-The test checks for duplicate term names, slug collisions, overlapping regex pattern variants, missing mandatory fields, and em-dash rule violations across all 15+ glossary files. Always verify that `node tools/check-glossary.js` passes with exit code 0 before completing tasks.
+The test checks for duplicate term names, slug collisions, overlapping regex pattern variants, missing mandatory fields, invalid theory tags, and em-dash rule violations across all glossary files. Always verify that `node tools/check-glossary.js` passes with exit code 0 before completing tasks.
+

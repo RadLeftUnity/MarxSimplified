@@ -712,6 +712,22 @@ export const classicalTerms: GlossaryTerm[] = [
     "misconception": "Unavoidable wear and tear. Planned obsolescence is an economic mechanism of capital accumulation that wastes natural resources and human labor purely to maintain corporate sales volume.",
     "dayToDayExample": "Smartphone manufacturers releasing software updates that intentionally slow down older models and gluing batteries into devices to prevent easy repair.",
     "theoryTags": ["Capitalist Theory", "Neo-Marxism"]
+  },
+  {
+    "term": "Working Class",
+    "pattern": "working class|working-class|working classes|working-classes",
+    "definition": "In Marxist political economy, the social class (proletariat) comprised of individuals who do not own means of production and must sell their labor power for wages or salaries to survive. Colloquially, Western politicians and media often restrict the term to manual blue-collar workers or specific lower-income brackets. In Marxist analysis, the working class encompasses all wage-earners (from factory workers, nurses, and teachers to retail, tech, and service workers) whose labor creates surplus value appropriated by the capitalist class.",
+    "misconception": "Believing the working class only refers to manual industrial workers or high-school educated manual laborers, excluding white-collar office workers, healthcare professionals, or service employees who also depend on wages to live.",
+    "dayToDayExample": "A hospital nurse, a software developer, a bus driver, and a retail cashier all belonging to the working class because none of them own corporate enterprises and all must sell their labor power to pay rent and food bills.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Socialized",
+    "pattern": "socialized|socialization of production|socialized production|socialized labor|socialized property",
+    "definition": "The historical transformation of isolated individual production into an interconnected, collective social process under modern industrial development. In Marxist analysis, capitalism socializes labor by bringing thousands of workers together in complex global supply chains, yet private capitalists appropriate the social product. Socialism resolves this contradiction by bringing the socialized means of production under democratic public ownership for the collective benefit of society.",
+    "misconception": "Viewing socialized production as state welfare or government regulations within capitalism, rather than the collective industrial process that creates the material basis for socialism.",
+    "dayToDayExample": "Thousands of factory workers, engineers, and logistics specialists collectively manufacturing a medical device whose profits are privately claimed by Wall Street shareholders.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Capitalist Theory"]
   }
 ];
 

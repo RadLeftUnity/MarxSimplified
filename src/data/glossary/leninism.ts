@@ -280,5 +280,29 @@ export const leninistTerms: GlossaryTerm[] = [
     "misconception": "That socialist theory can only be evaluated against idealized, flawless abstractions. Marxist materialists analyze AES states within their real historical context of imperialist encirclement, economic sanctions, and material underdevelopment.",
     "dayToDayExample": "Analyzing real public housing, universal healthcare, literacy, and land reform achievements in Cuba or Vietnam rather than comparing them to ideal utopian models.",
     "theoryTags": ["Marxism-Leninism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Careerism",
+    "pattern": "careerism|careerist|careerists|opportunistic careerism",
+    "definition": "The practice of prioritizing personal advancement, individual prestige, bureaucratic promotion, or financial gain over political principles, working-class solidarity, and revolutionary goals. In Marxist analysis, careerism is a bourgeois deviation within labor unions, socialist political parties, and state institutions, where functionaries adapt their views to satisfy ruling-class norms, maintain institutional privileges, or secure personal status.",
+    "misconception": "Viewing careerism merely as healthy personal ambition or professional competence, ignoring how individual self-interest degrades collective revolutionary principles.",
+    "dayToDayExample": "A union official compromising working-class demands during contract negotiations to secure a permanent management position or political endorsement.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Capitalist Theory"]
+  },
+  {
+    "term": "Bureaucratization",
+    "pattern": "bureaucratization|bureaucratism|bureaucratic degeneration|bureaucratized",
+    "definition": "The process by which decision-making authority becomes concentrated in a self-serving, rigid administrative apparatus detached from rank-and-file working-class control. In Marxist theory, bureaucratization converts public administration into a managerial caste that prioritizes procedural self-preservation, administrative inertia, and elite privilege over mass democratic participation and socialist transformation.",
+    "misconception": "Believing bureaucratization is an inevitable flaw of state organization rather than a material outcome of concentrated authority and worker disenfranchisement.",
+    "dayToDayExample": "A party apparatus replacing elected worker councils with appointed managers who issue top-down directives without worker oversight.",
+    "theoryTags": ["Marxism-Leninism", "Trotskyism", "Classical Marxism"]
+  },
+  {
+    "term": "Revolutionary Struggle",
+    "pattern": "revolutionary struggle|revolutionary struggles|revolutionary class struggle",
+    "definition": "The organized political, economic, and ideological conflict waged by oppressed classes to overthrow exploitation, seize state power, and transform socio-economic relations. In Marxist theory, revolutionary struggle is not merely reformist bargaining within the capitalist framework, but the conscious material action of the working class and its allies to dismantle bourgeois state structures and build a socialist society.",
+    "misconception": "Viewing revolutionary struggle as random acts of violence or riots, rather than the organized, strategic mass mobilization of working people fighting for systemic liberation.",
+    "dayToDayExample": "Workers organizing general strikes, building rank-and-file committees, and establishing revolutionary parties to challenge corporate state power.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Anti-Colonial Socialism"]
   }
 ];
