@@ -8,6 +8,7 @@ const distDir = path.join(workspaceRoot, 'dist');
 const indexHtmlPath = path.join(distDir, 'index.html');
 const manifestPath = path.join(distDir, 'data', 'manifest.json');
 const historyDir = path.join(workspaceRoot, 'src', 'data', 'history', 'countries');
+const glossaryDir = path.join(workspaceRoot, 'src', 'data', 'glossary');
 
 function loadCountryData(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
@@ -20,6 +21,10 @@ function loadCountryData(filePath) {
   } catch (e) {
     return null;
   }
+}
+
+function getSlug(term) {
+  return term.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
 function prerenderPage(routePath, title, description, imagePath) {
@@ -60,7 +65,6 @@ function run() {
         const desc = book.shortDescription || `Study ${book.title} by ${book.author} on Marx Simplified.`;
         const img = `/og/books/${book.id}.png`;
 
-        // Direct routes: /books/:id and query alias /?book=:id
         prerenderPage(`books/${book.id}`, title, desc, img);
       }
       console.log(`✓ Pre-rendered static OG meta tags for ${manifest.books.length} books.`);
@@ -83,6 +87,35 @@ function run() {
       }
     }
     console.log(`✓ Pre-rendered static OG meta tags for ${hCount} history countries.`);
+  }
+
+  // 3. Pre-render Glossary Term Pages
+  if (fs.existsSync(glossaryDir)) {
+    const files = fs.readdirSync(glossaryDir).filter(
+      (f) => f.endsWith('.ts') && f !== 'types.ts' && f !== 'index.ts' && f !== 'index.tsx'
+    );
+    let gCount = 0;
+    for (const file of files) {
+      const filePath = path.join(glossaryDir, file);
+      const content = fs.readFileSync(filePath, 'utf8');
+      const jsonMatch = content.match(/export const \w+: GlossaryTerm\[\] = (\[[\s\S]*\]);?/);
+      if (jsonMatch) {
+        try {
+          const terms = JSON.parse(jsonMatch[1]);
+          for (const t of terms) {
+            const slug = getSlug(t.term);
+            const title = `${t.term} - Glossary`;
+            const desc = t.definition || `Learn about ${t.term} on Marx Simplified.`;
+            const imgPath = path.join(distDir, 'og', 'glossary', `${slug}.png`);
+            const img = fs.existsSync(imgPath) ? `/og/glossary/${slug}.png` : '/og/main.png';
+
+            prerenderPage(`glossary/${slug}`, title, desc, img);
+            gCount++;
+          }
+        } catch (e) {}
+      }
+    }
+    console.log(`✓ Pre-rendered static OG meta tags for ${gCount} glossary terms.`);
   }
 
   console.log('✓ All static OG meta HTML pages generated in dist/!\n');

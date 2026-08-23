@@ -74,9 +74,14 @@ export const Reader: React.FC<ReaderProps> = ({
         setAnnotations(bundle.annotations);
         setChapterSummary(bundle.chapterSummary);
 
-        // Check if there is a shared annotation in the URL parameter
+        // Check if there is a shared annotation in the URL parameter or path
         const params = new URLSearchParams(window.location.search);
-        const urlAnn = params.get('ann');
+        const pathParts = window.location.pathname.split('/').filter(Boolean);
+        let urlAnn = params.get('ann');
+        if (!urlAnn && pathParts.length >= 3 && pathParts[0] === 'books') {
+          urlAnn = pathParts[2];
+        }
+
         if (urlAnn && bundle.annotations.some((a: Annotation) => a.id === urlAnn)) {
           setActiveAnnotationId(urlAnn);
           if (isMobile) {
@@ -99,23 +104,24 @@ export const Reader: React.FC<ReaderProps> = ({
     fetchChapterData();
   }, [book.id, chapterId]);
 
-  // Update URL search parameters when activeAnnotationId changes
+  // Update URL parameters when activeAnnotationId changes
   useEffect(() => {
     if (loading) return;
-    const params = new URLSearchParams(window.location.search);
-    const currentAnn = params.get('ann');
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    const currentPathAnn = pathParts.length >= 3 && pathParts[0] === 'books' ? pathParts[2] : null;
+
     if (activeAnnotationId) {
-      if (currentAnn !== activeAnnotationId) {
-        params.set('ann', activeAnnotationId);
-        window.history.replaceState(null, '', `?${params.toString()}`);
+      const cleanPath = `/books/${book.id}/${chapterId}/${activeAnnotationId}`;
+      if (window.location.pathname !== cleanPath) {
+        window.history.replaceState(null, '', cleanPath);
       }
-    } else {
-      if (currentAnn) {
-        params.delete('ann');
-        window.history.replaceState(null, '', `?${params.toString()}`);
+    } else if (currentPathAnn) {
+      const cleanPath = `/books/${book.id}/${chapterId}`;
+      if (window.location.pathname !== cleanPath) {
+        window.history.replaceState(null, '', cleanPath);
       }
     }
-  }, [activeAnnotationId, loading]);
+  }, [activeAnnotationId, book.id, chapterId, loading]);
 
   // Scroll active annotation highlight and card into view
   useEffect(() => {

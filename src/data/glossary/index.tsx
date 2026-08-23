@@ -110,8 +110,7 @@ export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> 
         onClick={(e) => {
           e.stopPropagation();
           e.preventDefault();
-          const targetHash = `#term-${termSlug}`;
-          window.location.hash = targetHash;
+          window.history.pushState(null, '', `/glossary/${termSlug}`);
           window.dispatchEvent(new CustomEvent('navigate-to-glossary', { detail: { slug: termSlug } }));
         }}
         onMouseEnter={() => {

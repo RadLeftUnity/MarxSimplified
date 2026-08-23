@@ -736,6 +736,22 @@ export const classicalTerms: GlossaryTerm[] = [
     "misconception": "Viewing socialized production as state welfare or government regulations within capitalism, rather than the collective industrial process that creates the material basis for socialism.",
     "example": "Thousands of factory workers, engineers, and logistics specialists collectively manufacturing a medical device whose profits are privately claimed by Wall Street shareholders.",
     "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Capitalist Theory"]
+  },
+  {
+    "term": "Blanquism",
+    "pattern": "Blanquism|Blanquist|Blanquists",
+    "definition": "A revolutionary conception named after Louis-Auguste Blanqui, holding that social revolution should be carried out by a small, secretive conspiratorial elite rather than through mass working-class organization.",
+    "misconception": "That Marxism is identical to Blanquism. Marx and Engels explicitly rejected Blanquism, arguing that the emancipation of the working class must be the act of the working class itself through mass organization.",
+    "example": "A clandestine group planning to seize government buildings in a surprise armed coup without first building mass political support among the working class.",
+    "theoryTags": ["Classical Marxism"]
+  },
+  {
+    "term": "Bonapartism",
+    "pattern": "Bonapartism|Bonapartist|Bonapartists|Bonapartist state",
+    "definition": "A form of authoritarian political rule that arises when rival social classes reach a temporary deadlock, allowing an authoritarian military figure or executive state bureaucrat to balance between classes while preserving fundamental capitalist property relations.",
+    "misconception": "That Bonapartism is neutral or independent of class. While a Bonapartist regime appears to stand above competing classes, it ultimately acts as an executive guardian for capitalist property relations.",
+    "example": "An executive ruler seizing dictator-like powers during intense social unrest, presenting themselves as a neutral savior of order while protecting major corporate owners.",
+    "theoryTags": ["Classical Marxism"]
   }
 ];
 

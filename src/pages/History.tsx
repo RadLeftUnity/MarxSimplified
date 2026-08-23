@@ -99,29 +99,44 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
   const [sortBy, setSortBy] = useState<'name-asc' | 'name-desc' | 'ideology' | 'era'>('name-asc');
   const [mainTab, setMainTab] = useState<'timeline' | 'overview' | 'geopolitics' | 'contradictions' | 'sources'>('timeline');
 
-  // Handle URL hash navigation (e.g. #country-cuba)
+  // Handle URL navigation (e.g. /history/albania-modern, ?country=albania-modern, or #country-albania-modern)
   useEffect(() => {
-    const handleHashChange = () => {
+    const handleUrlChange = () => {
+      const pathname = window.location.pathname;
+      const search = window.location.search;
       const hash = window.location.hash.replace('#', '');
-      if (hash.startsWith('country-')) {
-        const countryId = hash.replace('country-', '');
+
+      let countryId = '';
+      if (pathname.startsWith('/history/') && pathname !== '/history') {
+        countryId = pathname.split('/history/')[1].split('/')[0];
+      } else if (search.includes('country=')) {
+        countryId = new URLSearchParams(search).get('country') || '';
+      } else if (hash.startsWith('country-')) {
+        countryId = hash.replace('country-', '');
+      }
+
+      if (countryId) {
         setSelectedCountryId(countryId);
       }
     };
 
-    handleHashChange();
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    handleUrlChange();
+    window.addEventListener('hashchange', handleUrlChange);
+    window.addEventListener('popstate', handleUrlChange);
+    return () => {
+      window.removeEventListener('hashchange', handleUrlChange);
+      window.removeEventListener('popstate', handleUrlChange);
+    };
   }, []);
 
   const handleSelectCountry = (id: string) => {
     setSelectedCountryId(id);
-    window.location.hash = `country-${id}`;
+    window.history.pushState(null, '', `/history/${id}`);
   };
 
   const handleClearCountry = () => {
     setSelectedCountryId(null);
-    window.location.hash = '';
+    window.history.pushState(null, '', '/history');
   };
 
   const handleResetAllFilters = () => {

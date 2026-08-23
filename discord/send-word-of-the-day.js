@@ -205,7 +205,7 @@ async function main() {
 
   const siteUrl = (process.env.SITE_URL || 'https://marxsimplified.onrender.com').replace(/\/$/, '');
   const slug = getTermSlug(selectedTerm.term);
-  const termUrl = `${siteUrl}/glossary#term-${slug}`;
+  const termUrl = `${siteUrl}/glossary/${slug}`;
 
   const fields = [
     {
