@@ -205,7 +205,7 @@ async function main() {
 
   const siteUrl = (process.env.SITE_URL || 'https://marxsimplified.onrender.com').replace(/\/$/, '');
   const slug = getTermSlug(selectedTerm.term);
-  const termUrl = `${siteUrl}/#/glossary#term-${slug}`;
+  const termUrl = `${siteUrl}/glossary#term-${slug}`;
 
   const fields = [
     {
@@ -215,10 +215,11 @@ async function main() {
     },
   ];
 
-  if (selectedTerm.dayToDayExample) {
+  const exampleText = selectedTerm.example || selectedTerm.dayToDayExample;
+  if (exampleText) {
     fields.push({
-      name: 'Day-to-Day Example',
-      value: truncateText(selectedTerm.dayToDayExample),
+      name: 'Example',
+      value: truncateText(exampleText),
       inline: false,
     });
   }

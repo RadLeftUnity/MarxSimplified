@@ -16,6 +16,7 @@ import { AccessibilityPanel, DEFAULT_A11Y_SETTINGS } from './components/Accessib
 import type { AccessibilitySettings, ReaderFontSize, Theme } from './components/AccessibilityPanel';
 import { Loader2, AlertTriangle } from 'lucide-react';
 import { fetchCachedJSON, prefetchBookSummaries, fetchCachedTopicIndex, fetchSearchIndex } from './utils/dataCache';
+import { DocumentHead } from './components/DocumentHead';
 
 export default function App() {
   const navigate = useNavigate();
@@ -491,8 +492,65 @@ export default function App() {
       ? 'summary'
       : 'library';
 
+  // Dynamic Head Metadata Calculation
+  let headTitle = 'Marx Simplified - Accessible Marxist Theory Reader';
+  let headDescription = 'Study classic Marxist theory books with modern translations, historical context guides, and simplified summaries.';
+  let headImage = '/og/main.png';
+
+  if (selectedBookDetail && (rootSubView === 'summary' || rootSubView === 'reading' || rootSubView === 'simplified')) {
+    const bId = selectedBookDetail.id;
+    if (selectedChapterId && (rootSubView === 'reading' || rootSubView === 'simplified')) {
+      headTitle = `${selectedBookDetail.title} - ${selectedChapterId}`;
+      headDescription = `Read ${selectedBookDetail.title} with modern paragraph-by-paragraph translations and simplified notes.`;
+      headImage = `/og/chapters/${bId}-${selectedChapterId}.png`;
+    } else {
+      headTitle = `${selectedBookDetail.title} by ${selectedBookDetail.author}`;
+      headDescription = selectedBookDetail.context || headDescription;
+      headImage = `/og/books/${bId}.png`;
+    }
+  } else if (location.pathname === '/glossary') {
+    const searchParams = new URLSearchParams(location.search);
+    const termParam = searchParams.get('term');
+    if (termParam) {
+      const termSlug = termParam.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      headTitle = `${termParam} - Marxist Glossary Entry`;
+      headDescription = `Definition and real-world day-to-day examples for ${termParam}.`;
+      headImage = `/og/glossary/${termSlug}.png`;
+    } else {
+      headTitle = 'Marxist Theory Glossary';
+      headDescription = 'Comprehensive dictionary of Marxist, socialist, anti-colonial, and political economy terminology.';
+      headImage = '/og/main.png';
+    }
+  } else if (location.pathname === '/topics') {
+    const searchParams = new URLSearchParams(location.search);
+    const topicParam = searchParams.get('topic');
+    if (topicParam) {
+      const tSlug = topicParam.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      headTitle = `${topicParam} - Theoretical Topic`;
+      headDescription = `Curated reading passages and analysis on ${topicParam}.`;
+      headImage = `/og/topics/${tSlug}.png`;
+    } else {
+      headTitle = 'Theoretical Topics Collection';
+      headDescription = 'Browse classic Marxist theory organized by core concepts and theoretical topics.';
+      headImage = '/og/main.png';
+    }
+  } else if (location.pathname === '/history') {
+    const searchParams = new URLSearchParams(location.search);
+    const countryParam = searchParams.get('country');
+    if (countryParam) {
+      headTitle = `${countryParam} - Socialist State History`;
+      headDescription = `Historical analysis and socio-economic overview of ${countryParam}.`;
+      headImage = `/og/history/${countryParam.toLowerCase()}.png`;
+    } else {
+      headTitle = 'Socialist State & Anti-Imperialist History';
+      headDescription = 'Explore country history modules, timeline analysis, and socio-economic accomplishments of socialist states.';
+      headImage = '/og/main.png';
+    }
+  }
+
   return (
     <div className="app-layout">
+      <DocumentHead title={headTitle} description={headDescription} image={headImage} />
       <Navbar
         onGoHome={handleGoHome}
         currentPage={currentPageName}
