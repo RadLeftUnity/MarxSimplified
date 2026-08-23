@@ -94,10 +94,16 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, o
 
   useEffect(() => {
     const scrollToTerm = () => {
-      const hash = window.location.hash.replace('#', '');
-      if (!hash) return;
+      const pathname = window.location.pathname;
+      let cleanSlug = '';
+      if (pathname.startsWith('/glossary/') && pathname !== '/glossary') {
+        cleanSlug = pathname.split('/glossary/')[1].split('/')[0];
+      }
+      if (!cleanSlug && window.location.hash) {
+        cleanSlug = window.location.hash.replace('#term-', '').replace('#', '');
+      }
 
-      const cleanSlug = hash.replace(/^term-/, '');
+      if (!cleanSlug) return;
       setTargetSlug(cleanSlug);
 
       // Attempt to scroll up to 5 times (100ms intervals) to handle DOM mount delay
@@ -126,8 +132,8 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, o
 
   const handleCopyLink = (term: string) => {
     const slug = getTermSlug(term);
-    const url = `${window.location.origin}${window.location.pathname}#term-${slug}`;
-    window.location.hash = `term-${slug}`;
+    const url = `${window.location.origin}/glossary/${slug}`;
+    window.history.pushState(null, '', `/glossary/${slug}`);
     navigator.clipboard.writeText(url);
     setCopiedSlug(slug);
     setTargetSlug(slug);

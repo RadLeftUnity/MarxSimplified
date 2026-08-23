@@ -304,5 +304,13 @@ export const leninistTerms: GlossaryTerm[] = [
     "misconception": "Viewing revolutionary struggle as random acts of violence or riots, rather than the organized, strategic mass mobilization of working people fighting for systemic liberation.",
     "example": "Workers organizing general strikes, building rank-and-file committees, and establishing revolutionary parties to challenge corporate state power.",
     "theoryTags": ["Classical Marxism", "Marxism-Leninism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Russian Civil War",
+    "pattern": "Russian Civil War|Russian civil war|Soviet Civil War",
+    "definition": "The multi-sided armed conflict (1917-1922) immediately following the October Revolution, in which the newly formed Red Army successfully defended the Soviet state against counter-revolutionary White armies supported by fourteen foreign imperialist interventionist nations.",
+    "misconception": "That the civil war was purely an internal Russian conflict. It involved extensive foreign military invasions and blockades by imperialist powers seeking to crush the socialist revolution.",
+    "example": "Foreign troops landing in Archangel and Vladivostok to supply arms and funding to White Guard forces fighting against Bolshevik workers' councils.",
+    "theoryTags": ["Marxism-Leninism"]
   }
 ];

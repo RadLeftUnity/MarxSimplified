@@ -152,28 +152,51 @@ export default function App() {
           localStorage.setItem('marx_simplified_progress', JSON.stringify(initialProgress));
         }
 
-        // Handle legacy URL query params or legacy hash links
+        // Handle clean path URLs (/books/id/chapter, /history/id, /glossary/slug) or legacy URL query params
+        const pathname = window.location.pathname;
         const params = new URLSearchParams(window.location.search);
         const urlPage = params.get('page');
         const urlTopic = params.get('topic');
+
+        let countryParam = params.get('country');
+        if (!countryParam && pathname.startsWith('/history/') && pathname !== '/history') {
+          countryParam = pathname.split('/history/')[1].split('/')[0];
+        }
+
+        let glossarySlug = '';
+        if (pathname.startsWith('/glossary/') && pathname !== '/glossary') {
+          glossarySlug = pathname.split('/glossary/')[1].split('/')[0];
+        }
 
         if (urlPage === 'topics' || urlTopic) {
           if (urlTopic) setSelectedTopic(urlTopic);
           navigate('/topics', { replace: true });
         } else if (urlPage === 'authors') {
           navigate('/authors', { replace: true });
-        } else if (urlPage === 'history' || params.get('country')) {
-          const countryParam = params.get('country');
+        } else if (urlPage === 'history' || countryParam || pathname.startsWith('/history')) {
           navigate(countryParam ? `/history?country=${countryParam}` : '/history', { replace: true });
-        } else if (urlPage === 'glossary' || window.location.hash.startsWith('#term-') || window.location.hash.startsWith('#glossary')) {
-          const hash = window.location.hash;
-          navigate(`/glossary${hash}`, { replace: true });
+        } else if (urlPage === 'glossary' || glossarySlug || window.location.hash.startsWith('#term-') || window.location.hash.startsWith('#glossary') || pathname.startsWith('/glossary')) {
+          const slug = glossarySlug || (window.location.hash ? window.location.hash.replace('#term-', '').replace('#', '') : '');
+          navigate(slug ? `/glossary/${slug}` : '/glossary', { replace: true });
         } else if (urlPage === 'search') {
           navigate('/search', { replace: true });
         } else {
-          const urlBook = params.get('book');
-          const urlChapter = params.get('chapter');
-          const urlView = params.get('view');
+          let urlBook = params.get('book');
+          let urlChapter = params.get('chapter');
+          let urlView = params.get('view');
+          if (!urlBook && pathname.startsWith('/books/') && pathname !== '/books') {
+            const parts = pathname.split('/books/')[1].split('/').filter(Boolean);
+            urlBook = parts[0];
+            if (parts[1] === 'simplified') {
+              urlView = 'simplified';
+              if (parts[2]) urlChapter = parts[2];
+            } else {
+              if (parts[1]) urlChapter = parts[1];
+              if (parts[2] === 'simplified') {
+                urlView = 'simplified';
+              }
+            }
+          }
 
           if (urlBook && data.books.some((b: Book) => b.id === urlBook)) {
             setSelectedBookId(urlBook);
@@ -209,7 +232,8 @@ export default function App() {
     const handleHashChange = () => {
       const hash = window.location.hash;
       if (hash.startsWith('#term-') || hash.startsWith('#glossary')) {
-        navigate(`/glossary${hash}`);
+        const slug = hash.replace('#term-', '').replace('#', '');
+        navigate(`/glossary/${slug}`);
         setSelectedBookId(null);
         setSelectedChapterId(null);
       }
@@ -225,8 +249,8 @@ export default function App() {
         chapterId: current.chapterId,
         subView: current.subView,
       });
-      const hashStr = customEvent.detail?.slug ? `#term-${customEvent.detail.slug}` : '';
-      navigate(`/glossary${hashStr}`);
+      const slug = customEvent.detail?.slug;
+      navigate(slug ? `/glossary/${slug}` : '/glossary');
     };
 
     window.addEventListener('hashchange', handleHashChange);
@@ -238,46 +262,34 @@ export default function App() {
     };
   }, []);
 
-  // Update URL query parameters when on root route ('/')
+  // Update URL parameters when on book or library routes
   useEffect(() => {
     if (loading) return;
-    if (location.pathname === '/') {
-      const params = new URLSearchParams(location.search);
-      params.delete('page');
-      params.delete('topic');
-
+    if (location.pathname === '/' || location.pathname.startsWith('/books')) {
       if (selectedBookId && rootSubView !== 'library') {
-        params.set('book', selectedBookId);
-      } else {
-        params.delete('book');
-      }
-
-      if (rootSubView === 'simplified') {
-        params.set('view', 'simplified');
-        if (selectedChapterId) {
-          params.set('chapter', selectedChapterId);
-        } else {
-          params.delete('chapter');
+        let cleanPath = `/books/${selectedBookId}`;
+        if (rootSubView === 'simplified') {
+          cleanPath = selectedChapterId
+            ? `/books/${selectedBookId}/simplified/${selectedChapterId}`
+            : `/books/${selectedBookId}/simplified`;
+        } else if (rootSubView === 'reading' && selectedChapterId) {
+          const parts = location.pathname.split('/').filter(Boolean);
+          const currentAnn = parts.length >= 4 && parts[0] === 'books' ? parts[3] : null;
+          cleanPath = currentAnn
+            ? `/books/${selectedBookId}/${selectedChapterId}/${currentAnn}`
+            : `/books/${selectedBookId}/${selectedChapterId}`;
         }
-      } else {
-        params.delete('view');
-        if (selectedChapterId && rootSubView === 'reading') {
-          params.set('chapter', selectedChapterId);
-        } else {
-          params.delete('chapter');
+
+        const hashStr = window.location.hash;
+        const newUrl = `${cleanPath}${hashStr}`;
+        if (`${location.pathname}${location.hash}` !== newUrl) {
+          window.history.replaceState(null, '', newUrl);
         }
+      } else if (rootSubView === 'library' && location.pathname !== '/') {
+        window.history.replaceState(null, '', '/');
       }
-
-      if (rootSubView !== 'reading') {
-        params.delete('ann');
-      }
-
-      const searchStr = params.toString();
-      const hashStr = window.location.hash;
-      const newUrl = (searchStr ? `/?${searchStr}` : '/') + hashStr;
-      window.history.replaceState(null, '', newUrl);
     }
-  }, [location.pathname, rootSubView, selectedBookId, selectedChapterId, loading]);
+  }, [location.pathname, location.hash, rootSubView, selectedBookId, selectedChapterId, loading]);
 
   // Save progress helper
   const saveProgress = (newProgress: typeof progressMap) => {
@@ -311,13 +323,17 @@ export default function App() {
   const handleSelectBook = (id: string) => {
     setSelectedBookId(id);
     setRootSubView('summary');
-    navigate('/');
+    navigate(`/books/${id}`);
   };
 
   const handleStartReading = (chapterId: string) => {
     setSelectedChapterId(chapterId);
     setRootSubView('reading');
-    navigate('/');
+    if (selectedBookId) {
+      navigate(`/books/${selectedBookId}?chapter=${chapterId}`);
+    } else {
+      navigate('/');
+    }
 
     if (selectedBookId && progressMap[selectedBookId] !== 'completed') {
       const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [selectedBookId]: 'reading' };
@@ -326,24 +342,25 @@ export default function App() {
   };
 
   const handleStartSimplifiedReading = (chapterId?: string) => {
-    if (chapterId) {
-      setSelectedChapterId(chapterId);
-    } else if (selectedBookDetail && selectedBookDetail.chapters.length > 0) {
-      setSelectedChapterId(selectedBookDetail.chapters[0].id);
+    const chId = chapterId || selectedBookDetail?.chapters[0]?.id;
+    if (chId) {
+      setSelectedChapterId(chId);
     }
     setRootSubView('simplified');
-    navigate('/');
+    if (selectedBookId) {
+      navigate(`/books/${selectedBookId}?view=simplified${chId ? `&chapter=${chId}` : ''}`);
+    } else {
+      navigate('/');
+    }
   };
 
   const handleSelectAnnotationInText = (chapterId: string, annotationId: string) => {
     setSelectedChapterId(chapterId);
     setRootSubView('reading');
 
-    const params = new URLSearchParams();
-    params.set('book', selectedBookId || '');
-    params.set('chapter', chapterId);
-    params.set('ann', annotationId);
-    navigate(`/?${params.toString()}`);
+    if (selectedBookId) {
+      navigate(`/books/${selectedBookId}/${chapterId}/${annotationId}`);
+    }
 
     if (selectedBookId && progressMap[selectedBookId] !== 'completed') {
       const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [selectedBookId]: 'reading' };
@@ -356,7 +373,11 @@ export default function App() {
       setSelectedChapterId(chapterId);
     }
     setRootSubView('reading');
-    navigate('/');
+    if (selectedBookId) {
+      navigate(`/books/${selectedBookId}${chapterId ? `/${chapterId}` : ''}`);
+    } else {
+      navigate('/');
+    }
   };
 
   const handleMarkCompleted = () => {
@@ -420,11 +441,7 @@ export default function App() {
     setSelectedChapterId(chapterId);
     setRootSubView('reading');
 
-    const params = new URLSearchParams();
-    params.set('book', bookId);
-    params.set('chapter', chapterId);
-    params.set('ann', annotationId);
-    navigate(`/?${params.toString()}`);
+    navigate(`/books/${bookId}/${chapterId}/${annotationId}`);
 
     if (progressMap[bookId] !== 'completed') {
       const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [bookId]: 'reading' };
@@ -618,6 +635,43 @@ export default function App() {
             />
 
             <Route
+              path="/books/*"
+              element={
+                rootSubView === 'summary' && selectedBookDetail ? (
+                  <BookSummary
+                    book={selectedBookDetail}
+                    onBack={handleGoHome}
+                    onStartReading={handleStartReading}
+                    onStartSimplifiedReading={handleStartSimplifiedReading}
+                  />
+                ) : rootSubView === 'reading' && selectedBookDetail && selectedChapterId ? (
+                  <Reader
+                    book={selectedBookDetail}
+                    chapterId={selectedChapterId}
+                    onBackToSummary={() => setRootSubView('summary')}
+                    onChapterChange={setSelectedChapterId}
+                    onMarkCompleted={handleMarkCompleted}
+                    isCompleted={progressMap[selectedBookId || ''] === 'completed'}
+                    onOpenA11y={() => setA11yOpen(true)}
+                    onSwitchToSimplified={() => setRootSubView('simplified')}
+                    onSelectTopicTag={handleGoToTopics}
+                  />
+                ) : rootSubView === 'simplified' && selectedBookDetail ? (
+                  <SimplifiedVersion
+                    book={selectedBookDetail}
+                    initialChapterId={selectedChapterId}
+                    onBackToSummary={() => setRootSubView('summary')}
+                    onSelectAnnotationInText={handleSelectAnnotationInText}
+                    onSwitchToFullText={handleSwitchToFullText}
+                    onOpenA11y={() => setA11yOpen(true)}
+                  />
+                ) : (
+                  <Library books={books} onSelectBook={handleSelectBook} progressMap={progressMap} />
+                )
+              }
+            />
+
+            <Route
               path="/authors"
               element={
                 <Authors
@@ -641,12 +695,12 @@ export default function App() {
             />
 
             <Route
-              path="/history"
+              path="/history/*"
               element={<History onBackToLibrary={handleGoHome} />}
             />
 
             <Route
-              path="/glossary"
+              path="/glossary/*"
               element={
                 <Glossary
                   onBack={previousView ? handleReturnFromGlossary : undefined}
