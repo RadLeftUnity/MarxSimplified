@@ -22,6 +22,9 @@ import { philosophyTerms } from './philosophy';
 import { feudalismTerms } from './feudalism';
 import { postmodernTerms } from './postmodernism';
 import { marxistFeministTerms } from './marxistFeminism';
+import { schoolsOfMarxismTerms } from './schoolsOfMarxism';
+import { proCapitalistOrganizationTerms } from './proCapitalistOrganizations';
+import { proSocialistOrganizationTerms } from './proSocialistOrganizations';
 
 export type { TheoryTag, GlossaryTerm };
 export { getTermSlug };
@@ -44,12 +47,15 @@ export const glossary: GlossaryTerm[] = [
   ...feudalismTerms,
   ...postmodernTerms,
   ...marxistFeministTerms,
+  ...schoolsOfMarxismTerms,
+  ...proCapitalistOrganizationTerms,
+  ...proSocialistOrganizationTerms,
 ];
 
 
 export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> = ({ part, matchingTerm }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [coords, setCoords] = useState<{ top: number; left: number; popDown: boolean } | null>(null);
+  const [coords, setCoords] = useState<{ top: number; left: number; side: 'right' | 'left'; arrowY: number } | null>(null);
   const targetRef = useRef<HTMLSpanElement>(null);
   const termSlug = getTermSlug(matchingTerm.term);
 
@@ -57,14 +63,43 @@ export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> 
     if (!targetRef.current) return;
     const rect = targetRef.current.getBoundingClientRect();
     const tooltipWidth = 340;
-    const halfWidth = tooltipWidth / 2;
-    const preferredLeft = rect.left + rect.width / 2;
-    const clampedLeft = Math.max(16 + halfWidth, Math.min(window.innerWidth - 16 - halfWidth, preferredLeft));
+    const estimatedHeight = 320;
+    const gap = 14;
 
-    const popDown = rect.top < 260;
-    const top = popDown ? rect.bottom + 10 : rect.top - 10;
+    const spaceOnRight = window.innerWidth - rect.right - gap - 16;
+    const spaceOnLeft = rect.left - gap - 16;
 
-    setCoords({ top, left: clampedLeft, popDown });
+    let side: 'right' | 'left';
+    if (spaceOnRight >= tooltipWidth) {
+      side = 'right';
+    } else if (spaceOnLeft >= tooltipWidth) {
+      side = 'left';
+    } else {
+      side = spaceOnRight >= spaceOnLeft ? 'right' : 'left';
+    }
+
+    let left: number;
+    if (side === 'right') {
+      left = rect.right + gap;
+      if (left + tooltipWidth > window.innerWidth - 12) {
+        left = Math.max(12, window.innerWidth - tooltipWidth - 12);
+      }
+    } else {
+      left = rect.left - tooltipWidth - gap;
+      if (left < 12) {
+        left = 12;
+      }
+    }
+
+    const wordCenterY = rect.top + rect.height / 2;
+    const preferredTop = wordCenterY - 60;
+    const maxTop = Math.max(16, window.innerHeight - estimatedHeight - 16);
+    const clampedTop = Math.max(16, Math.min(maxTop, preferredTop));
+
+    const rawArrowY = wordCenterY - clampedTop;
+    const arrowY = Math.max(20, Math.min(estimatedHeight - 20, rawArrowY));
+
+    setCoords({ top: clampedTop, left, side, arrowY });
   };
 
   return (
@@ -89,17 +124,20 @@ export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> 
       </span>
       {isHovered && coords && createPortal(
         <div
-          className={`tooltip-balloon jargon-tooltip glass-panel portal-tooltip ${coords.popDown ? 'pop-down' : ''}`}
+          className={`tooltip-balloon jargon-tooltip glass-panel portal-tooltip pop-side-${coords.side}`}
           style={{
             position: 'fixed',
-            top: coords.popDown ? `${coords.top}px` : 'auto',
-            bottom: !coords.popDown ? `${window.innerHeight - coords.top}px` : 'auto',
+            top: `${coords.top}px`,
             left: `${coords.left}px`,
-            transform: 'translateX(-50%)',
+            bottom: 'auto',
+            transform: 'none',
+            maxHeight: 'calc(100vh - 32px)',
+            overflowY: 'auto',
             zIndex: 99999,
             opacity: 1,
             visibility: 'visible',
             pointerEvents: 'auto',
+            ['--arrow-y' as any]: `${coords.arrowY}px`,
           }}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
@@ -144,12 +182,18 @@ interface VariantMatch {
 
 // Flatten all pattern variants into a sorted list by length descending so longer phrases match first
 const allVariants: VariantMatch[] = [];
+const variantMap = new Map<string, VariantMatch>();
+
 glossary.forEach(item => {
   const variants = item.pattern.split('|');
   variants.forEach(v => {
     const trimmed = v.trim();
     if (trimmed) {
-      allVariants.push({ variant: trimmed, term: item });
+      const match = { variant: trimmed, term: item };
+      allVariants.push(match);
+      if (!variantMap.has(trimmed.toLowerCase())) {
+        variantMap.set(trimmed.toLowerCase(), match);
+      }
     }
   });
 });
@@ -175,9 +219,17 @@ interface ExcludedRange {
   term?: GlossaryTerm;
 }
 
+// Global cache for highlighted jargon nodes to prevent re-parsing identical text snippets
+const highlightCache = new Map<string, React.ReactNode[]>();
+
 // Highlight utility
 export const highlightJargon = (text: string, options?: GlossaryOptions): React.ReactNode[] => {
   if (!text) return [];
+
+  const cacheKey = `${text.length}_${text.slice(0, 40)}_${text.slice(-40)}_${options?.excludeTerms?.join(',') || ''}_${options?.excludePhrases?.join(',') || ''}`;
+  if (highlightCache.has(cacheKey)) {
+    return highlightCache.get(cacheKey)!;
+  }
 
   const excludedTermsSet = new Set(
     (options?.excludeTerms || []).map((t) => t.toLowerCase().trim())
@@ -228,7 +280,7 @@ export const highlightJargon = (text: string, options?: GlossaryOptions): React.
     const matchedText = match[0];
     const lowerText = matchedText.toLowerCase();
 
-    const matchedVariant = allVariants.find((v) => v.variant.toLowerCase() === lowerText);
+    const matchedVariant = variantMap.get(lowerText) || allVariants.find((v) => v.variant.toLowerCase() === lowerText);
 
     if (matchedVariant) {
       const isTermDisabled =
@@ -262,5 +314,10 @@ export const highlightJargon = (text: string, options?: GlossaryOptions): React.
     nodes.push(text.slice(lastIndex));
   }
 
-  return nodes.length > 0 ? nodes : [text];
+  const result = nodes.length > 0 ? nodes : [text];
+  if (highlightCache.size > 500) {
+    highlightCache.clear();
+  }
+  highlightCache.set(cacheKey, result);
+  return result;
 };

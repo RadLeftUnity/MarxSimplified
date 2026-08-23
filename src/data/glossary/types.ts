@@ -15,7 +15,25 @@ export type TheoryTag =
   | 'Bourgeois Philosophy'
   | 'Pre-Capitalist Modes'
   | 'Postmodernism'
-  | 'Marxist Feminism';
+  | 'Marxist Feminism'
+  | 'Hoxhaism'
+  | 'Council Communism'
+  | 'Left Communism'
+  | 'Luxemburgism'
+  | 'Eurocommunism'
+  | 'Titoism'
+  | 'Bordigism'
+  | 'Guevarism'
+  | 'De Leonism'
+  | 'Eco-Marxism'
+  | 'Post-Marxism'
+  | 'Democratic Socialism'
+  | 'Market Socialism'
+  | 'Campism'
+  | 'Value-Form Theory'
+  | 'Autonomism'
+  | 'Situationism'
+  | 'Western Marxism';
 
 export interface GlossaryTerm {
   term: string;

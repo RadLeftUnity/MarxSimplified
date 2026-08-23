@@ -224,5 +224,45 @@ export const fascistTerms: GlossaryTerm[] = [
     "misconception": "The socialist New Man (which aims for fully realized human potential, education, and collective emancipation). The fascist New Man is trained to be an unthinking instrument of imperialist conquest and domestic suppression.",
     "dayToDayExample": "Youth organizations indoctrinating children with military drills, martial obedience, and anti-communist hatred rather than critical scientific education.",
     "theoryTags": ["Fascism Analysis"]
+  },
+  {
+    "term": "Racism",
+    "pattern": "racism|racist|racist ideology|racial oppression",
+    "definition": "An ideology and structural system of oppression created during the rise of merchant capitalism and colonialism to justify the transatlantic slave trade, colonial land theft, and super-exploitation of non-European working populations. From a Marxist-Leninist perspective, racism is not merely individual prejudice, but a material weapon of the capitalist ruling class designed to divide the working class and extract super-profits.",
+    "misconception": "That racism is an innate biological trait or purely moral defect in individual minds. Historical materialism shows racism was constructed historically to legitimize colonial expropriation and capitalist labor division.",
+    "dayToDayExample": "Employers paying migrant workers lower wages for identical labor while corporate media blames immigrants for falling living standards.",
+    "theoryTags": ["Marxism-Leninism", "Anti-Colonial Socialism", "Fascism Analysis"]
+  },
+  {
+    "term": "Race Science",
+    "pattern": "race science|scientific racism|biological determinism|phrenology",
+    "definition": "A 19th and 20th century pseudo-scientific ideology created by European bourgeois intellectuals (such as Francis Galton and Arthur de Gobineau) that fabricated biological hierarchies to justify imperialism, chattel slavery, and colonial conquest. Marxism-Leninism identifies scientific racism as a bourgeois ideological superstructure constructed to mask material class exploitation behind pseudoscience.",
+    "misconception": "That scientific racism was valid objective science later corrupted by politics. It was from its inception a class-driven myth engineered specifically to legitimize colonial atrocities and capitalist labor division.",
+    "dayToDayExample": "Bourgeois academics in the 19th century measuring skulls to claim colonized peoples were biologically unfit for self-determination.",
+    "theoryTags": ["Fascism Analysis", "Anti-Colonial Socialism", "Marxism-Leninism"]
+  },
+  {
+    "term": "White Supremacy",
+    "pattern": "white supremacy|white supremacist|white supremacists|white chauvinism",
+    "definition": "The systemic political, economic, and cultural dominance of white ruling classes established through settler-colonial genocide, chattel slavery, and global imperialism. Marxism-Leninism analyzes white supremacy as an essential structural pillar of global capitalism that divides the international proletariat and maintains imperialist core-periphery extraction.",
+    "misconception": "That white supremacy is confined to explicit hate groups like the KKK. In reality, it is embedded in the material institutions of global capitalism, from imperialist trade terms to discriminatory housing, policing, and labor markets.",
+    "dayToDayExample": "Imperialist powers bombing Global South nations for natural resource control while militarizing domestic borders against refugees created by those exact wars.",
+    "theoryTags": ["Anti-Colonial Socialism", "Marxism-Leninism", "Fascism Analysis"]
+  },
+  {
+    "term": "Eugenics",
+    "pattern": "eugenics|eugenicist|eugenicists|eugenic",
+    "definition": "A capitalist pseudo-scientific movement developed in the late 19th century that advocated selective breeding, forced sterilization, and extermination of 'unfit' working-class and colonized populations. Marxist analysis exposes eugenics as an extreme bourgeois attempt to blame poverty, disease, and social misery on genetic flaws rather than capitalist exploitation.",
+    "misconception": "That eugenics was invented solely by Nazi Germany. Western capitalist democracies (including the United States, Britain, and Sweden) pioneered forced sterilization laws targeting poor, disabled, and minority workers decades before the Third Reich.",
+    "dayToDayExample": "State authorities forcibly sterilizing poor and incarcerated women in government hospitals under the guise of public welfare management.",
+    "theoryTags": ["Fascism Analysis", "Marxism-Leninism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Great Replacement Theory",
+    "pattern": "great replacement theory|great replacement|white demographic replacement|replacement theory",
+    "definition": "A modern white supremacist conspiracy theory alleging that Western elites are intentionally replacing white populations with non-white immigrants to destroy Western civilization. Marxism-Leninism critiques this conspiracy as a classic fascist scapegoating mechanism that misdirects working-class anger away from capitalist austerity and imperialist destabilization.",
+    "misconception": "A legitimate concern over demographic shifts. The theory masks the reality that migration is driven by imperialist wars and economic plunder, weaponizing xenophobia to prevent united multi-racial working-class resistance against capital.",
+    "dayToDayExample": "Right-wing media personalities blaming refugees fleeing Western military interventions for local housing shortages rather than real estate speculation.",
+    "theoryTags": ["Fascism Analysis", "Marxism-Leninism"]
   }
 ];

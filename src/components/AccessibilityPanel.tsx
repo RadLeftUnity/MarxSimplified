@@ -219,7 +219,7 @@ export const AccessibilityPanel: React.FC<AccessibilityPanelProps> = ({
           </div>
 
           <div className="a11y-footer-note">
-            💡 Press <kbd>Alt</kbd> + <kbd>+</kbd> or <kbd>Alt</kbd> + <kbd>-</kbd> anywhere to quickly adjust text size while reading.
+            Press <kbd>Alt</kbd> + <kbd>+</kbd> or <kbd>Alt</kbd> + <kbd>-</kbd> anywhere to quickly adjust text size while reading.
           </div>
         </div>
       </div>

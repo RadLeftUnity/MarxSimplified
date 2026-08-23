@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { glossary, getTermSlug } from '../data/glossary';
 import type { GlossaryTerm, TheoryTag } from '../data/glossary';
-import { Sparkles, HelpCircle, Lightbulb, Link as LinkIcon, Check, Tag, Search, X, ArrowLeft } from 'lucide-react';
+import { Sparkles, HelpCircle, Lightbulb, Link as LinkIcon, Check, Tag, Search, X, ArrowLeft, BookOpen } from 'lucide-react';
 import { FormattedText } from '../components/FormattedText';
 
 const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
@@ -29,46 +29,61 @@ const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
 interface GlossaryProps {
   onBack?: () => void;
   previousViewLabel?: string;
+  onSearchTerm?: (pattern: string) => void;
 }
 
-export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel }) => {
+export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, onSearchTerm }) => {
   const [targetSlug, setTargetSlug] = useState<string | null>(null);
   const [copiedSlug, setCopiedSlug] = useState<string | null>(null);
   const [selectedTheory, setSelectedTheory] = useState<'All' | TheoryTag>('All');
-  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchInput, setSearchInput] = useState<string>('');
+  const [appliedSearchQuery, setAppliedSearchQuery] = useState<string>('');
 
-  // Filter glossary by selected theory and search query
-  const filteredGlossary = glossary.filter((item) => {
-    if (selectedTheory !== 'All' && !item.theoryTags?.includes(selectedTheory)) {
-      return false;
-    }
-    if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
-      const matchTerm = item.term.toLowerCase().includes(q);
-      const matchDef = item.definition.toLowerCase().includes(q);
-      const matchEx = item.dayToDayExample.toLowerCase().includes(q);
-      const matchMisc = item.misconception?.toLowerCase().includes(q) ?? false;
-      const matchPattern = item.pattern.toLowerCase().includes(q);
-      const matchTags = item.theoryTags?.some((t) => t.toLowerCase().includes(q)) ?? false;
-      return matchTerm || matchDef || matchEx || matchMisc || matchPattern || matchTags;
-    }
-    return true;
-  });
+  const handleExecuteSearch = () => {
+    setAppliedSearchQuery(searchInput.trim());
+  };
 
-  // Sort glossary alphabetically by term
-  const sortedGlossary = [...filteredGlossary].sort((a, b) => a.term.localeCompare(b.term));
+  const handleClearSearch = () => {
+    setSearchInput('');
+    setAppliedSearchQuery('');
+  };
 
-  // Group terms by first letter
-  const groupedTerms: Record<string, GlossaryTerm[]> = {};
-  sortedGlossary.forEach((item) => {
-    const firstLetter = item.term.charAt(0).toUpperCase();
-    if (!groupedTerms[firstLetter]) {
-      groupedTerms[firstLetter] = [];
-    }
-    groupedTerms[firstLetter].push(item);
-  });
+  // Cached filtering, sorting, and grouping via useMemo
+  const { sortedGlossary, groupedTerms, alphabet } = useMemo(() => {
+    const filtered = glossary.filter((item) => {
+      if (selectedTheory !== 'All' && !item.theoryTags?.includes(selectedTheory)) {
+        return false;
+      }
+      if (appliedSearchQuery) {
+        const q = appliedSearchQuery.toLowerCase();
+        const matchTerm = item.term.toLowerCase().includes(q);
+        const matchDef = item.definition.toLowerCase().includes(q);
+        const matchEx = item.dayToDayExample.toLowerCase().includes(q);
+        const matchMisc = item.misconception?.toLowerCase().includes(q) ?? false;
+        const matchPattern = item.pattern.toLowerCase().includes(q);
+        const matchTags = item.theoryTags?.some((t) => t.toLowerCase().includes(q)) ?? false;
+        return matchTerm || matchDef || matchEx || matchMisc || matchPattern || matchTags;
+      }
+      return true;
+    });
 
-  const alphabet = Object.keys(groupedTerms).sort();
+    const sorted = [...filtered].sort((a, b) => a.term.localeCompare(b.term));
+
+    const grouped: Record<string, GlossaryTerm[]> = {};
+    sorted.forEach((item) => {
+      const firstLetter = item.term.charAt(0).toUpperCase();
+      if (!grouped[firstLetter]) {
+        grouped[firstLetter] = [];
+      }
+      grouped[firstLetter].push(item);
+    });
+
+    return {
+      sortedGlossary: sorted,
+      groupedTerms: grouped,
+      alphabet: Object.keys(grouped).sort(),
+    };
+  }, [selectedTheory, appliedSearchQuery]);
 
   const handleScrollToSection = (letter: string) => {
     const element = document.getElementById(`glossary-section-${letter}`);
@@ -121,170 +136,228 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel })
 
   return (
     <div className="page-container glossary-page">
-      {onBack && (
-        <div className="glossary-back-nav">
-          <button className="glossary-back-btn glass-panel" onClick={onBack} id="glossary-back-btn">
-            <ArrowLeft className="btn-small-icon" />
-            <span>{previousViewLabel || 'Back to Previous Page'}</span>
-          </button>
-        </div>
-      )}
-
-      {/* Search & Filter Bar */}
-      <section className="glossary-filter-bar glass-panel">
-        <div className="glossary-search-box">
-          <Search className="library-search-icon" />
-          <input
-            type="text"
-            className="library-search-input"
-            placeholder="Search glossary by term, definition, example, or keywords..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            id="glossary-search-input"
-          />
-          {searchQuery && (
-            <button
-              className="glossary-search-clear-btn"
-              onClick={() => setSearchQuery('')}
-              title="Clear search"
-            >
-              <X className="btn-small-icon" />
-            </button>
-          )}
-        </div>
-
-        <div className="filter-bar-header" style={{ marginTop: '16px' }}>
-          <Tag className="filter-icon" />
-          <span>Filter by Theoretical Framework:</span>
-        </div>
-        <div className="filter-pills-row">
-          {THEORY_OPTIONS.map((theory) => (
-            <button
-              key={theory}
-              className={`filter-pill-btn ${selectedTheory === theory ? 'active' : ''}`}
-              onClick={() => setSelectedTheory(theory)}
-            >
-              {theory}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      {/* Alphabet Jumping Menu */}
-      {alphabet.length > 0 && (
-        <nav className="glossary-alphabet-menu glass-panel">
-          <span className="alphabet-label">Jump to:</span>
-          <div className="alphabet-links">
-            {alphabet.map((letter) => (
-              <button
-                key={letter}
-                onClick={() => handleScrollToSection(letter)}
-                className="alphabet-link-btn"
-              >
-                {letter}
+      <div className="glossary-layout-grid">
+        {/* Left Sticky Sidebar */}
+        <aside className="glossary-sidebar glass-panel">
+          {onBack && (
+            <div className="glossary-back-nav">
+              <button className="glossary-back-btn glass-panel" onClick={onBack} id="glossary-back-btn">
+                <ArrowLeft className="btn-small-icon" />
+                <span>{previousViewLabel || 'Back to Previous Page'}</span>
               </button>
-            ))}
-          </div>
-        </nav>
-      )}
+            </div>
+          )}
 
-      {/* Glossary List */}
-      <main className="glossary-sections-container">
-        {alphabet.length === 0 ? (
-          <div className="glossary-empty-state glass-panel" style={{ textAlign: 'center', padding: '40px 20px' }}>
-            <h3>No matching glossary terms found</h3>
-            <p style={{ margin: '8px 0 16px', color: 'var(--text-secondary)' }}>
-              No terms match your current search "{searchQuery}" or active theoretical framework filter.
-            </p>
-            <button
-              className="nav-footer-btn"
-              onClick={() => {
-                setSearchQuery('');
-                setSelectedTheory('All');
-              }}
-              style={{ margin: '0 auto' }}
-            >
-              Reset Search & Filters
-            </button>
+          {/* Search Box */}
+          <div className="sidebar-section">
+            <div className="glossary-search-box">
+              <Search className="library-search-icon" />
+              <input
+                type="text"
+                className="library-search-input"
+                placeholder="Search glossary terms..."
+                value={searchInput}
+                onChange={(e) => setSearchInput(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') handleExecuteSearch();
+                }}
+                id="glossary-search-input"
+              />
+              {searchInput && (
+                <button
+                  className="glossary-search-clear-btn"
+                  onClick={handleClearSearch}
+                  title="Clear search"
+                  type="button"
+                >
+                  <X className="btn-small-icon" />
+                </button>
+              )}
+              <button
+                className="glossary-search-btn"
+                onClick={handleExecuteSearch}
+                type="button"
+                id="glossary-search-btn"
+              >
+                Search
+              </button>
+            </div>
           </div>
-        ) : (
-          alphabet.map((letter) => (
-            <div key={letter} id={`glossary-section-${letter}`} className="glossary-section">
-              <h3 className="glossary-section-letter">{letter}</h3>
-              
-              <div className="glossary-cards-grid">
-                {groupedTerms[letter].map((item) => {
-                  const slug = getTermSlug(item.term);
-                  const isTarget = targetSlug === slug;
-                  const isCopied = copiedSlug === slug;
 
-                  return (
-                    <div 
-                      key={item.term} 
-                      id={`term-${slug}`} 
-                      className={`glossary-card glass-panel card-hover-effect ${isTarget ? 'target-highlight' : ''}`}
-                    >
-                      <div className="glossary-card-header">
-                        <div>
-                          <h4 className="glossary-card-term">{item.term}</h4>
-                          {item.theoryTags && item.theoryTags.length > 0 && (
-                            <div className="glossary-card-tags">
-                              {item.theoryTags.map((tag) => (
-                                <span key={tag} className="theory-tag-pill">
-                                  <Tag className="tag-icon" /> {tag}
-                                </span>
-                              ))}
+          {/* Alphabet Jumping Menu */}
+          {alphabet.length > 0 && (
+            <div className="sidebar-section alphabet-section">
+              <span className="alphabet-label">Jump to Letter:</span>
+              <div className="alphabet-links-grid">
+                {alphabet.map((letter) => (
+                  <button
+                    key={letter}
+                    onClick={() => handleScrollToSection(letter)}
+                    className="alphabet-link-btn"
+                  >
+                    {letter}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Theoretical Framework Filter */}
+          <div className="sidebar-section">
+            <div className="filter-bar-header">
+              <Tag className="filter-icon" />
+              <span>Theoretical Framework:</span>
+            </div>
+            <div className="filter-pills-row">
+              {THEORY_OPTIONS.map((theory) => (
+                <button
+                  key={theory}
+                  className={`filter-pill-btn ${selectedTheory === theory ? 'active' : ''}`}
+                  onClick={() => setSelectedTheory(theory)}
+                >
+                  {theory}
+                </button>
+              ))}
+            </div>
+          </div>
+        </aside>
+
+        {/* Right Main Content */}
+        <main className="glossary-main-content">
+          {/* Header Stats Bar */}
+          <div className="glossary-header-bar glass-panel">
+            <span className="glossary-count-badge">
+              Showing <strong>{sortedGlossary.length}</strong> term{sortedGlossary.length !== 1 ? 's' : ''}
+              {selectedTheory !== 'All' ? ` in ${selectedTheory}` : ''}
+              {appliedSearchQuery ? ` matching "${appliedSearchQuery}"` : ''}
+            </span>
+            {(appliedSearchQuery || selectedTheory !== 'All') && (
+              <button
+                className="glossary-reset-filters-btn"
+                onClick={() => {
+                  handleClearSearch();
+                  setSelectedTheory('All');
+                }}
+              >
+                Reset Filters
+              </button>
+            )}
+          </div>
+
+          {/* Glossary Sections List */}
+          <div className="glossary-sections-container">
+            {alphabet.length === 0 ? (
+              <div className="glossary-empty-state glass-panel" style={{ textAlign: 'center', padding: '40px 20px' }}>
+                <h3>No matching glossary terms found</h3>
+                <p style={{ margin: '8px 0 16px', color: 'var(--text-secondary)' }}>
+                  No terms match your current search "{appliedSearchQuery}" or active theoretical framework filter.
+                </p>
+                <button
+                  className="nav-footer-btn"
+                  onClick={() => {
+                    handleClearSearch();
+                    setSelectedTheory('All');
+                  }}
+                  style={{ margin: '0 auto' }}
+                >
+                  Reset Search &amp; Filters
+                </button>
+              </div>
+            ) : (
+              alphabet.map((letter) => (
+                <div key={letter} id={`glossary-section-${letter}`} className="glossary-section">
+                  <h3 className="glossary-section-letter">{letter}</h3>
+
+                  <div className="glossary-cards-grid">
+                    {groupedTerms[letter].map((item) => {
+                      const slug = getTermSlug(item.term);
+                      const isTarget = targetSlug === slug;
+                      const isCopied = copiedSlug === slug;
+
+                      return (
+                        <div
+                          key={item.term}
+                          id={`term-${slug}`}
+                          className={`glossary-card glass-panel card-hover-effect ${isTarget ? 'target-highlight' : ''}`}
+                        >
+                          <div className="glossary-card-header">
+                            <div>
+                              <h4 className="glossary-card-term">{item.term}</h4>
+                              {item.theoryTags && item.theoryTags.length > 0 && (
+                                <div className="glossary-card-tags">
+                                  {item.theoryTags.map((tag) => (
+                                    <span key={tag} className="theory-tag-pill">
+                                      <Tag className="tag-icon" /> {tag}
+                                    </span>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+
+                            <button
+                              className="glossary-card-share-btn"
+                              onClick={() => handleCopyLink(item.term)}
+                              title="Copy direct link to this term"
+                            >
+                              {isCopied ? (
+                                <>
+                                  <Check className="btn-small-icon text-gold" />
+                                  <span className="share-btn-text text-gold">Link Copied</span>
+                                </>
+                              ) : (
+                                <>
+                                  <LinkIcon className="btn-small-icon" />
+                                  <span className="share-btn-text">Share Link</span>
+                                </>
+                              )}
+                            </button>
+                          </div>
+
+                          <div className="glossary-card-section definition-section">
+                            <span className="section-label summary-label">
+                              <Sparkles className="section-icon text-gold" /> Simplified Meaning
+                            </span>
+                            <FormattedText text={item.definition} paragraphClassName="glossary-card-text" />
+                          </div>
+
+                          <div className="glossary-card-section example-section glass-panel">
+                            <span className="section-label example-label">
+                              <Lightbulb className="section-icon text-amber" /> Day-to-day Example
+                            </span>
+                            <FormattedText text={item.dayToDayExample} paragraphClassName="glossary-card-text" />
+                          </div>
+
+                          <div className="glossary-card-section misconception-section glass-panel">
+                            <span className="section-label context-label">
+                              <HelpCircle className="section-icon text-crimson" /> Common Misconception
+                            </span>
+                            <FormattedText text={item.misconception} paragraphClassName="glossary-card-text text-muted-style" />
+                          </div>
+
+                          {onSearchTerm && (
+                            <div className="glossary-card-footer">
+                              <button
+                                className="glossary-find-books-btn"
+                                onClick={() => onSearchTerm(item.pattern)}
+                                title={`Search all books for: ${item.pattern.split('|').join(', ')}`}
+                                id={`find-books-${slug}`}
+                              >
+                                <BookOpen className="btn-small-icon" />
+                                <span>Find in Books</span>
+                              </button>
                             </div>
                           )}
                         </div>
-
-                        <button
-                          className="glossary-card-share-btn"
-                          onClick={() => handleCopyLink(item.term)}
-                          title="Copy direct link to this term"
-                        >
-                          {isCopied ? (
-                            <>
-                              <Check className="btn-small-icon text-gold" />
-                              <span className="share-btn-text text-gold">Link Copied</span>
-                            </>
-                          ) : (
-                            <>
-                              <LinkIcon className="btn-small-icon" />
-                              <span className="share-btn-text">Share Link</span>
-                            </>
-                          )}
-                        </button>
-                      </div>
-                      
-                      <div className="glossary-card-section definition-section">
-                        <span className="section-label summary-label">
-                          <Sparkles className="section-icon text-gold" /> Simplified Meaning
-                        </span>
-                        <FormattedText text={item.definition} paragraphClassName="glossary-card-text" />
-                      </div>
-
-                      <div className="glossary-card-section example-section glass-panel">
-                        <span className="section-label example-label">
-                          <Lightbulb className="section-icon text-amber" /> Day-to-day Example
-                        </span>
-                        <FormattedText text={item.dayToDayExample} paragraphClassName="glossary-card-text" />
-                      </div>
-
-                      <div className="glossary-card-section misconception-section glass-panel">
-                        <span className="section-label context-label">
-                          <HelpCircle className="section-icon text-crimson" /> Common Misconception
-                        </span>
-                        <FormattedText text={item.misconception} paragraphClassName="glossary-card-text text-muted-style" />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          ))
-        )}
-      </main>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </main>
+      </div>
     </div>
   );
+
 };

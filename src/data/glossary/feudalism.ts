@@ -128,6 +128,14 @@ export const feudalismTerms: GlossaryTerm[] = [
     "misconception": "A sudden military battle. It was a gradual social revolution driven by the accumulation of private property (herds, land, slaves) in male hands, replacing matrilineal descent with patrilineal inheritance.",
     "dayToDayExample": "The historical shift where women lost independent tribal status and were legally subordinated to husbands to secure private land inheritance.",
     "theoryTags": ["Pre-Capitalist Modes", "Classical Marxism", "Marxist Feminism"]
+  },
+  {
+    "term": "Slavery",
+    "pattern": "slavery|chattel slavery|slave trade|slave plantation|slave plantations",
+    "definition": "A socio-economic mode of production and system of extreme labor exploitation in which individuals are legally owned as private property (chattel), bought, sold, and forced to work without remuneration. In Marxist historical materialist analysis, transatlantic chattel slavery was not an accidental moral failing but a foundational pillar of primary capital accumulation. The plunder of enslaved African labor and indigenous lands generated the immense primitive capital that fueled the European Industrial Revolution and funded Western commercial banking networks.",
+    "misconception": "Believing slavery was an outdated pre-capitalist anomaly unrelated to modern capitalism, rather than the violent primary engine of wealth accumulation that launched global capitalist industrialization.",
+    "dayToDayExample": "Eighteenth-century British merchant shipping cartels and sugar plantation owners accumulating massive profits from uncompensated enslaved labor, which was then invested in Lancashire textile factories and City of London banks.",
+    "theoryTags": ["Pre-Capitalist Modes", "Classical Marxism", "Anti-Colonial Socialism"]
   }
 ];
 
