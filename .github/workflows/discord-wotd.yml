@@ -1,0 +1,29 @@
+name: Discord Word of the Day Bot
+
+on:
+  schedule:
+    # Runs daily at 12:00 PM UTC (0 12 * * *)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  post-word-of-the-day:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Send Word of the Day to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SITE_URL: 'https://marxsimplified.onrender.com'
+          ALLOWED_CATEGORIES: 'Marxism-Leninism,Maoism,Marxist Feminism'
+        run: node discord/send-word-of-the-day.js

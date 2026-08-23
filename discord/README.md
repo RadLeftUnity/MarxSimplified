@@ -4,29 +4,28 @@ Automated Discord bot integration for Marx Simplified that posts a daily **Word 
 
 ---
 
-## 🚀 Render Deployment Options
+## ⚡ Option 1: GitHub Actions (100% Free & Recommended)
 
-### Option A: Render Cron Job (Recommended)
+Since Render Cron Jobs require a paid plan, **GitHub Actions** is 100% free (includes 2,000 free execution minutes per month) and will run your daily 12:00 PM UTC schedule reliably without needing a paid server.
 
-1. In your **Render Dashboard**, click **New +** -> **Cron Job**.
-2. Connect your `MarxSimplified` repository.
-3. Configure the settings:
-   - **Name**: `marx-simplified-discord-wotd`
-   - **Environment**: `Node`
-   - **Schedule**: `0 12 * * *` *(Runs once daily at 12:00 PM UTC)*
-   - **Command**: `node discord/send-word-of-the-day.js` (or `node discord/cron-runner.js`)
-4. Under **Environment Variables**, add:
-   - `DISCORD_WEBHOOK_URL`: `https://discord.com/api/webhooks/your-webhook-id/your-webhook-token`
-   - `SITE_URL`: `https://marxsimplified.onrender.com` (optional)
-   - `ALLOWED_CATEGORIES`: `Marxism-Leninism,Maoism,Marxist Feminism` (optional)
+### Setup Steps:
+1. Go to your GitHub repository: **Settings** -> **Secrets and variables** -> **Actions**.
+2. Click **New repository secret**.
+3. Name: `DISCORD_WEBHOOK_URL`
+4. Value: Paste your Discord Webhook URL (`https://discord.com/api/webhooks/...`).
+5. Commit `.github/workflows/discord-wotd.yml` to your repository.
+
+That's it! GitHub will automatically run `node discord/send-word-of-the-day.js` every day at 12:00 PM UTC. You can also manually trigger it anytime from the **Actions** tab on GitHub!
 
 ---
 
-### Option B: Render Background Worker Daemon
+## ⚙️ Option 2: Free Web Server Start Script (If running a Web Service)
 
-If running as a standing background worker process:
-1. Set **Command**: `node discord/cron-runner.js --daemon`
-2. The process stays active and automatically triggers `send-word-of-the-day.js` daily at 12:00 PM UTC.
+If you run a Node Web Service on Render, you can launch the daemon alongside your server in your Start Command:
+
+```bash
+node discord/cron-runner.js --daemon & npm run preview
+```
 
 ---
 
