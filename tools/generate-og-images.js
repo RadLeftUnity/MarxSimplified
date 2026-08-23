@@ -901,7 +901,16 @@ async function renderMainCard() {
 async function run() {
   await ensureAndRegisterFonts();
 
-  console.log(`=== Open Graph Card Generator (Mode: ${essentialOnly ? `Essential Cards + Samples (${targetBookId})` : forceAll ? 'Force All' : 'On-Demand Caching'}) ===`);
+  // Clean and recreate og folder on startup
+  if (fs.existsSync(ogDir)) {
+    fs.rmSync(ogDir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(ogDir, { recursive: true });
+  fs.mkdirSync(path.join(ogDir, 'books'), { recursive: true });
+  fs.mkdirSync(path.join(ogDir, 'history'), { recursive: true });
+  fs.mkdirSync(path.join(ogDir, 'glossary'), { recursive: true });
+
+  console.log('=== Open Graph Card Generator (Clean Startup Mode) ===');
 
   const manifestPath = path.join(publicDir, 'data', 'manifest.json');
   let books = [];
@@ -910,11 +919,10 @@ async function run() {
     books = manifest.books || [];
   }
 
-  // 1. Book Cards
+  // 1. Generate All Book Cards
   let bCount = 0;
   for (const book of books) {
     const bPath = path.join(ogDir, 'books', `${book.id}.png`);
-    if (shouldSkip(bPath)) continue;
 
     const canvas = createCanvas(WIDTH, HEIGHT);
     const ctx = canvas.getContext('2d');
@@ -1019,81 +1027,31 @@ async function run() {
     bCount++;
   }
 
-  // 2. Sample Annotation Cards for Grundrisse
-  const targetBook = books.find(b => b.id === targetBookId) || books[0];
-  let annCount = 0;
-
-  if (targetBook) {
-    const bookDir = path.join(publicDir, 'data', 'books', targetBook.id);
-    if (fs.existsSync(bookDir)) {
-      const subEntries = fs.readdirSync(bookDir, { withFileTypes: true });
-      for (const sub of subEntries) {
-        if (sub.isDirectory() && sub.name.startsWith('chapter')) {
-          const chId = sub.name;
-          const chDir = path.join(bookDir, chId);
-          const annFiles = fs.readdirSync(chDir).filter((f) => f.endsWith('-annotations.json'));
-
-          if (annFiles.length > 0) {
-            try {
-              const annData = JSON.parse(fs.readFileSync(path.join(chDir, annFiles[0]), 'utf8'));
-              if (Array.isArray(annData)) {
-                for (let aIdx = 0; aIdx < Math.min(annData.length, 4); aIdx++) {
-                  const item = annData[aIdx];
-                  if (item.targetText && item.explanation) {
-                    const annSlug = `${targetBook.id}-${chId}-a${aIdx + 1}`;
-                    const annPath = path.join(ogDir, 'annotations', `${annSlug}.png`);
-                    if (!shouldSkip(annPath)) {
-                      await renderAnnotationCard(targetBook, chId, item, annSlug);
-                      annCount++;
-                    }
-                  }
-                }
-              }
-            } catch (e) {}
-          }
-        }
-      }
-    }
-  }
-
-  // 3. Load Actual Glossary Terms from src/data/glossary/*.ts
+  // 2. Generate All Glossary Term Cards (Skipping annotations)
   const allRealGlossaryTerms = loadAllGlossaryTerms();
-  const sampleSlugs = ['lumpenproletariat', 'lumpenbourgeoisie', 'means-of-production', 'bourgeoisie'];
-
   let gCount = 0;
-  for (const slug of sampleSlugs) {
-    const termObj = allRealGlossaryTerms.find(t => getTermSlug(t.term) === slug);
-    if (termObj) {
-      const gPath = path.join(ogDir, 'glossary', `${slug}.png`);
-      if (!shouldSkip(gPath)) {
-        const firstTag = (termObj.theoryTags && termObj.theoryTags.length > 0) ? termObj.theoryTags[0] : 'Classical Marxism';
-        await renderGlossaryCard(termObj.term, firstTag, termObj.definition, termObj.misconception, termObj.example, slug);
-        gCount++;
-      }
-    }
+  for (const termObj of allRealGlossaryTerms) {
+    const slug = getTermSlug(termObj.term);
+    if (!slug) continue;
+    const firstTag = (termObj.theoryTags && termObj.theoryTags.length > 0) ? termObj.theoryTags[0] : 'Classical Marxism';
+    await renderGlossaryCard(termObj.term, firstTag, termObj.definition, termObj.misconception, termObj.example, slug);
+    gCount++;
   }
 
-  // 4. History Country Cards (Sample set in essential mode: cuba, ussr, china, burkinaFasoSankara)
+  // 3. Generate All History Country Cards
   const allCountries = loadAllHistoryCountries();
-  const sampleCountryIds = ['cuba', 'ussr', 'china', 'burkinaFasoSankara'];
   let hCount = 0;
 
   for (const country of allCountries) {
-    if (essentialOnly && !sampleCountryIds.includes(country.id)) continue;
-    const hPath = path.join(ogDir, 'history', `${country.id}.png`);
-    if (!shouldSkip(hPath)) {
-      await renderHistoryCard(country);
-      hCount++;
-    }
+    await renderHistoryCard(country);
+    hCount++;
   }
 
-  // 5. Main Site OG Card
+  // 4. Main Site OG Card
   const mainPath = path.join(ogDir, 'main.png');
-  if (!shouldSkip(mainPath)) {
-    await renderMainCard();
-  }
+  await renderMainCard();
 
-  console.log(`✓ Essential OG cards ready (generated main card, ${bCount} book cards, ${annCount} sample annotation cards, ${gCount} sample glossary cards, and ${hCount} history country cards).\n`);
+  console.log(`✓ Open Graph Cards generated (main card, ${bCount} books, ${hCount} history countries, ${gCount} glossary terms). Annotations skipped.\n`);
 }
 
 run().catch(console.error);

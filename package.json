@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node tools/sync-manifest.js && tsc -b && vite build && node tools/prerender-meta.js",
+    "build": "node tools/sync-manifest.js && tsc -b && vite build && node tools/generate-og-images.js && node tools/prerender-meta.js",
     "sync": "node tools/sync-manifest.js",
     "sync:og": "node tools/generate-og-images.js",
     "lint": "oxlint",
