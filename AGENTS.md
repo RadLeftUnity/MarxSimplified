@@ -52,3 +52,7 @@ node tools/check-glossary.js
 ```
 The test checks for duplicate term names, slug collisions, overlapping regex pattern variants, missing mandatory fields, invalid theory tags, and em-dash rule violations across all glossary files. Always verify that `node tools/check-glossary.js` passes with exit code 0 before completing tasks.
 
+## GitHub Actions and Git Pushes Rule
+
+- **Do Not Trigger or Create GitHub Actions**: Do not create, modify, or run GitHub Actions workflows, or execute `git push` commands, unless explicitly instructed by the user. All workflow modifications and remote git pushes must be requested by the user.
+
