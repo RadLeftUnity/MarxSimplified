@@ -46,12 +46,23 @@ function prerenderPage(routePath, title, description, imagePath) {
   const targetDir = path.join(distDir, routePath);
   fs.mkdirSync(targetDir, { recursive: true });
   fs.writeFileSync(path.join(targetDir, 'index.html'), html);
+
+  // Also write routePath.html for static servers that map /path to /path.html
+  const filePath = path.join(distDir, `${routePath}.html`);
+  const fileDir = path.dirname(filePath);
+  fs.mkdirSync(fileDir, { recursive: true });
+  fs.writeFileSync(filePath, html);
 }
 
 function run() {
   if (!fs.existsSync(distDir)) {
     console.log('Skipping prerender: dist/ directory not found. Run vite build first.');
     return;
+  }
+
+  // Create 404.html fallback for SPA client-side routing on Render
+  if (fs.existsSync(indexHtmlPath)) {
+    fs.copyFileSync(indexHtmlPath, path.join(distDir, '404.html'));
   }
 
   console.log('=== Pre-rendering Static OG HTML Meta Pages for Render Static Site ===');
