@@ -59,7 +59,7 @@ function runGlossaryVerification() {
 
   for (const t of allTerms) {
     // Check missing fields
-    const required = ['term', 'pattern', 'definition', 'misconception', 'dayToDayExample'];
+    const required = ['term', 'pattern', 'definition', 'misconception', 'example'];
     for (const req of required) {
       if (!t[req] || typeof t[req] !== 'string' || !t[req].trim()) {
         errors.push(`Missing or empty required field "${req}" in term "${t.term || 'UNKNOWN'}" (${t._sourceFile})`);

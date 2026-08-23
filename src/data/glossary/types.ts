@@ -41,7 +41,7 @@ export interface GlossaryTerm {
   excludePattern?: string; // Optional pipe-separated phrases to exclude from highlighting (e.g. "state of things|state of affairs")
   definition: string;
   misconception: string;
-  dayToDayExample: string;
+  example: string;
   theoryTags?: TheoryTag[];
 }
 

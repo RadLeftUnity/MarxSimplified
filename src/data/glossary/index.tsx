@@ -159,9 +159,9 @@ export const JargonWord: React.FC<{ part: string; matchingTerm: GlossaryTerm }> 
           <FormattedText text={matchingTerm.definition} paragraphClassName="jargon-def-text" highlightJargon={false} />
 
           <span className="jargon-example-label">
-            <Lightbulb className="section-icon text-amber" /> Day-to-day Example
+            <Lightbulb className="section-icon text-amber" /> Example
           </span>
-          <FormattedText text={matchingTerm.dayToDayExample} paragraphClassName="jargon-example-text" highlightJargon={false} />
+          <FormattedText text={matchingTerm.example} paragraphClassName="jargon-example-text" highlightJargon={false} />
 
           <span className="jargon-misconception-label">
             <HelpCircle className="section-icon text-crimson" /> Common Misconception

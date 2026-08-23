@@ -58,7 +58,7 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, o
         const q = appliedSearchQuery.toLowerCase();
         const matchTerm = item.term.toLowerCase().includes(q);
         const matchDef = item.definition.toLowerCase().includes(q);
-        const matchEx = item.dayToDayExample.toLowerCase().includes(q);
+        const matchEx = item.example.toLowerCase().includes(q);
         const matchMisc = item.misconception?.toLowerCase().includes(q) ?? false;
         const matchPattern = item.pattern.toLowerCase().includes(q);
         const matchTags = item.theoryTags?.some((t) => t.toLowerCase().includes(q)) ?? false;
@@ -322,9 +322,9 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, o
 
                           <div className="glossary-card-section example-section glass-panel">
                             <span className="section-label example-label">
-                              <Lightbulb className="section-icon text-amber" /> Day-to-day Example
+                              <Lightbulb className="section-icon text-amber" /> Example
                             </span>
-                            <FormattedText text={item.dayToDayExample} paragraphClassName="glossary-card-text" />
+                            <FormattedText text={item.example} paragraphClassName="glossary-card-text" />
                           </div>
 
                           <div className="glossary-card-section misconception-section glass-panel">

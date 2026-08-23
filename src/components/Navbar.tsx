@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Moon, Sun, Sliders, Search, User, Landmark } from 'lucide-react';
+import { Moon, Sun, Sliders, Search, User, Landmark } from 'lucide-react';
 
 export type Theme = 'dark' | 'sepia' | 'high-contrast' | 'gray' | 'light';
 
@@ -31,16 +31,11 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header className="navbar glass-header">
       <div className="navbar-logo-container" onClick={onGoHome}>
-        <div className="navbar-icon-wrapper">
-          <BookOpen className="navbar-icon" />
-          <span className="navbar-star">★</span>
-        </div>
-        <div className="navbar-text">
-          <span className="navbar-title">
-            Marx<span className="title-highlight">Simplified</span>
-          </span>
-          <span className="navbar-subtitle">Accessible Theory Reader</span>
-        </div>
+        <img
+          src="/images/logo/logo.png"
+          alt="Marx Simplified"
+          className="navbar-logo-img"
+        />
       </div>
 
       <nav className="navbar-nav" style={{ gap: '12px', display: 'flex', alignItems: 'center' }}>

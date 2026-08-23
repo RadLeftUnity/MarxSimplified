@@ -6,7 +6,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "zhenotdel|zhenotdel department|women's department|soviet women's department",
     "definition": "The Women's Department of the Russian Communist Party (established in 1919 by Alexandra Kollontai, Inessa Armand, and Nadezhda Krupskaya) dedicated to organizing working and peasant women, abolishing illiteracy, establishing public dining halls and nurseries, and expanding legal equality under early Soviet power.",
     "misconception": "A bourgeois liberal identity organization. Zhenotdel operated as a mass working-class movement designed to socialize domestic labor, emancipate women from feudal patriarchal subordination, and integrate women directly into social production and state governance.",
-    "dayToDayExample": "Establishing municipal public laundries, community kitchens, and workplace nurseries so women were freed from individual unpaid domestic labor to participate in political assemblies and higher education.",
+    "example": "Establishing municipal public laundries, community kitchens, and workplace nurseries so women were freed from individual unpaid domestic labor to participate in political assemblies and higher education.",
     "theoryTags": ["Marxist Feminism", "Marxism-Leninism"]
   },
   {
@@ -14,7 +14,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "marxist feminism|socialist feminism|marxist feminist|socialist feminist|marxist feminists|socialist feminists",
     "definition": "The theoretical framework and political strategy analyzing women's oppression as structurally rooted in private property, capitalist class relations, and the unpaid social reproduction of labor-power.",
     "misconception": "Assuming that Marxist critique of liberal feminism means opposing women's democratic rights or treating gender equality as secondary to class struggle. Marxist Feminism fully supports women's rights (such as equal pay, reproductive autonomy, and legal protections) while demonstrating that full emancipation requires abolishing private property and socializing domestic labor.",
-    "dayToDayExample": "Analyzing gender wage gaps and unpaid domestic housework not as personal individual choices, but as a structural subsidy to corporate profit that lowers total working-class wage costs.",
+    "example": "Analyzing gender wage gaps and unpaid domestic housework not as personal individual choices, but as a structural subsidy to corporate profit that lowers total working-class wage costs.",
     "theoryTags": ["Marxist Feminism", "Classical Marxism"]
   },
   {
@@ -22,7 +22,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "socialization of domestic labor|socialization of domestic labour|socialized housework|socializing domestic labor|socialized domestic labor",
     "definition": "The Marxist principle (formulated by Friedrich Engels and Alexandra Kollontai) that individual unpaid domestic chores (cooking, cleaning, childcare, eldercare) should be converted into public, socialized services operated by society as a whole.",
     "misconception": "Forcing families to abandon personal life. Socialization of domestic labor liberates individuals from hours of tedious, isolated unpaid household labor, transforming domestic chores into respected, public municipal occupations.",
-    "dayToDayExample": "Free public municipal cafeterias, neighborhood laundromats, and universal workplace childcare facilities replacing isolated private household labor.",
+    "example": "Free public municipal cafeterias, neighborhood laundromats, and universal workplace childcare facilities replacing isolated private household labor.",
     "theoryTags": ["Marxist Feminism", "Classical Marxism"]
   },
   {
@@ -30,7 +30,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "double burden|second shift|double day|double shift",
     "definition": "The dual workload experienced by working-class women under capitalism, who perform paid wage labor in the formal economy during the day and compulsory unpaid domestic labor (cooking, cleaning, caregiving) in the home at night.",
     "misconception": "A natural biological division of responsibilities. The double burden is a structural feature of capitalism that exploits women's unpaid domestic labor to reproduce working-class labor-power without compensating them.",
-    "dayToDayExample": "A working mother returning home from an 8-hour retail shift only to perform another 4 hours of uncompensated cooking, cleaning, and childcare.",
+    "example": "A working mother returning home from an 8-hour retail shift only to perform another 4 hours of uncompensated cooking, cleaning, and childcare.",
     "theoryTags": ["Marxist Feminism"]
   },
   {
@@ -38,7 +38,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "social reproduction theory|srt|lise vogel|tithi bhattacharya|reproduction of labor power",
     "definition": "A theoretical branch of Marxist Feminism (Lise Vogel, Tithi Bhattacharya, Fortunati) demonstrating that the production of commodities in factories relies directly on the daily and generational reproduction of human workers through unpaid domestic labor, healthcare, and education.",
     "misconception": "That economy only includes paid factory labor. Social Reproduction Theory highlights that without unpaid domestic work and public caregiving, workers could not return to work each day to generate capitalist surplus value.",
-    "dayToDayExample": "Recognizing that cooking dinner, caring for sick children, and maintaining a home are essential economic activities that sustain the working population for corporate employers.",
+    "example": "Recognizing that cooking dinner, caring for sick children, and maintaining a home are essential economic activities that sustain the working population for corporate employers.",
     "theoryTags": ["Marxist Feminism", "Neo-Marxism"]
   },
   {
@@ -46,7 +46,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "red love|winged eros|glass of water theory|kollontai's red love",
     "definition": "Alexandra Kollontai's theoretical writing on comrade love and revolutionary relationships, asserting that personal relationships under socialism should be based on mutual respect, emotional camaraderie, and freedom from economic dependence or property ownership.",
     "misconception": "Promiscuity or chaotic hedonism. Kollontai argued that genuine love requires freeing human relationships from capitalist financial coercion, commercial contract marriages, and patriarchal possession.",
-    "dayToDayExample": "A relationship where two partners remain together out of genuine affection and shared political values rather than financial necessity or housing lock-in.",
+    "example": "A relationship where two partners remain together out of genuine affection and shared political values rather than financial necessity or housing lock-in.",
     "theoryTags": ["Marxist Feminism", "Marxism-Leninism"]
   },
   {
@@ -54,7 +54,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "wages for housework|wages for housework movement",
     "definition": "A 1970s Marxist feminist movement and campaign (Silvia Federici, Mariarosa Dalla Costa, Selma James) demanding financial recognition and remuneration for domestic labor, exposing housework as a vital source of capitalist surplus value.",
     "misconception": "Demanding that women stay in the home for a check. The campaign was a political lever to expose how capital relies on free domestic labor and to demand public resources for social reproduction.",
-    "dayToDayExample": "Demanding government stipends and public funding for stay-at-home caregivers to force capital to pay for the social reproduction of labor.",
+    "example": "Demanding government stipends and public funding for stay-at-home caregivers to force capital to pay for the social reproduction of labor.",
     "theoryTags": ["Marxist Feminism", "Neo-Marxism"]
   },
   {
@@ -62,7 +62,7 @@ export const marxistFeministTerms: GlossaryTerm[] = [
     "pattern": "bourgeois feminism|bourgeois feminist|bourgeois feminists|equal righters|liberal feminism|liberal feminist|liberal feminists|lean-in feminism",
     "definition": "A feminist movement and ideology (critiqued by Alexandra Kollontai, Clara Zetkin, and Eleanor Marx) that seeks equal legal, political, and professional privileges for women within the framework of capitalist class society, without challenging private property, wage exploitation, or class inequality.",
     "misconception": "Thinking that Marxists oppose women's rights or female equality. Marxists fully support democratic rights for women (such as equal pay, voting rights, reproductive autonomy, and legal protections), but critique Bourgeois Feminism for limiting its vision to winning corporate executive seats and legal reforms for wealthy women while ignoring the economic exploitation, poverty wages, and unpaid domestic burdens of working-class women.",
-    "dayToDayExample": "Celebrating a woman becoming a CEO or military general while the female janitors, retail clerks, and care workers in the same organization earn poverty-level wages without paid family leave.",
+    "example": "Celebrating a woman becoming a CEO or military general while the female janitors, retail clerks, and care workers in the same organization earn poverty-level wages without paid family leave.",
     "theoryTags": ["Marxist Feminism", "Classical Marxism", "Marxism-Leninism"]
   }
 ];
