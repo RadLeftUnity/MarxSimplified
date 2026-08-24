@@ -83,16 +83,6 @@ function drawCoverAuthorImage(
   ctx.restore();
 }
 
-function cleanText(text?: string | null): string {
-  return (text || '')
-    .replace(/\[\d+\]/g, '')
-    .replace(/\([^)]*\)/g, '')
-    .replace(/[*_#]/g, '')
-    .replace(/[^\x00-\x7F\u00A0-\u00FF\u2010-\u2044]/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
 function cleanTextPreservingNewlines(text?: string | null): string {
   if (!text) return '';
   return text
@@ -257,44 +247,6 @@ function drawBackdrop(ctx: CanvasRenderingContext2D) {
   ctx.strokeStyle = '#222530';
   ctx.lineWidth = 1.5;
   ctx.strokeRect(25, 25, 1150, 580);
-}
-
-function drawCategoryPill(ctx: CanvasRenderingContext2D, rightX: number, text: string) {
-  ctx.font = 'bold 12px Outfit, sans-serif';
-  const tagWidth = ctx.measureText(text.toUpperCase()).width + 24;
-  const tagY = 55;
-  const tagH = 26;
-
-  ctx.fillStyle = 'rgba(212, 175, 55, 0.08)';
-  ctx.fillRect(rightX, tagY, tagWidth, tagH);
-  ctx.strokeStyle = 'rgba(212, 175, 55, 0.35)';
-  ctx.lineWidth = 1;
-  ctx.strokeRect(rightX, tagY, tagWidth, tagH);
-
-  ctx.fillStyle = '#d4af37';
-  ctx.textAlign = 'left';
-  ctx.fillText(text.toUpperCase(), rightX + 12, tagY + 17);
-}
-
-function drawQuoteBox(
-  ctx: CanvasRenderingContext2D,
-  rightX: number,
-  quoteY: number,
-  quoteH: number,
-  text: string,
-  maxLines: number = 4
-) {
-  ctx.fillStyle = '#171921';
-  ctx.fillRect(rightX, quoteY, 705, quoteH);
-
-  ctx.fillStyle = '#d4af37';
-  ctx.fillRect(rightX, quoteY, 3.5, quoteH);
-
-  drawDoubleQuoteIcon(ctx, rightX + 38, quoteY + 32, '#d4af37');
-
-  ctx.fillStyle = '#d8dcde';
-  ctx.font = 'italic 16px Lora, serif';
-  drawText(ctx, text, rightX + 72, quoteY + 30, 605, 23, maxLines);
 }
 
 async function loadWebImage(src: string): Promise<HTMLImageElement | null> {
@@ -713,7 +665,6 @@ export async function generateGlossaryCardCanvas(term: {
   const rawExample = cleanTextPreservingNewlines(term.example || '');
   const rawMisconception = cleanTextPreservingNewlines(term.misconception || '');
 
-  const maxRightH = 565 - quoteY;
   const maxRightW = 705;
 
   // Lock definition quote box font size to 14.5px Lora (1:1 with Book & Annotation cards)
