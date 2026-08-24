@@ -15,9 +15,9 @@ export const grenadaData: CountryData = {
   governingIdeology: 'Marxism-Leninism',
   isHistoricState: true,
 
-  overviewText: `On March 13, 1979, the New JEWEL Movement (Joint Endeavor for Welfare, Education, and Liberation) led by Maurice Bishop executed an almost bloodless socialist revolution in the Caribbean island nation of Grenada, overthrowing Eric Gairy's corrupt, US-backed dictatorship and his murderous "Mongoose Gang" secret police. The People's Revolutionary Government (PRG) established popular democracy, nationalized financial monopolies, slashed unemployment from 49% to 14%, guaranteed free healthcare and education, and constructed the Point Salines International Airport to develop sovereign tourism and trade.
+  overviewText: `Organized under British colonialism as a spice and cocoa monocrop plantation economy, Grenada suffered under centuries of sugar, nutmeg, and cocoa export exploitation that concentrated arable land in plantocracy estates and left the island dependent on Western commodity prices. On March 13, 1979, the New JEWEL Movement (Joint Endeavor for Welfare, Education, and Liberation) led by Maurice Bishop executed an almost bloodless socialist revolution, overthrowing Eric Gairy's corrupt, US-backed dictatorship and his murderous "Mongoose Gang" secret police. The People's Revolutionary Government (PRG) established popular democracy, nationalized financial monopolies, launched agro-industrial processing plants to break monocrop export dependency, slashed unemployment from 49% to 14%, guaranteed free healthcare and education, and constructed the Point Salines International Airport to develop sovereign tourism and trade.
 
-However, Grenada's socialist experiment was targeted by aggressive US imperialist hostility. US President Ronald Reagan declared Grenada a threat to US national security, alleging that the civilian international airport was a Soviet-Cuban military base. The CIA launched financial blockades, naval maneuvers, and propaganda campaigns against the PRG. In October 1983, acute internal ideological and organizational disputes within the NJM leadership led to Maurice Bishop's house arrest and tragical death during a crowd demonstration. Exploiting the internal crisis, the US military launched Operation Urgent Fury on October 25, 1983, invading Grenada with 7,000 troops, overthrowing the PRG, and restoring capitalist economic dependencies.`,
+However, Grenada's socialist experiment was targeted by aggressive US imperialist hostility. US President Ronald Reagan declared Grenada a threat to US national security, alleging that the civilian international airport was a Soviet-Cuban military base. The CIA launched financial blockades, naval maneuvers, and propaganda campaigns against the PRG. In October 1983, acute internal ideological and organizational disputes within the NJM leadership led to Maurice Bishop's house arrest and tragic death during a crowd demonstration. Exploiting the internal crisis, the US military launched Operation Urgent Fury on October 25, 1983, invading Grenada with 7,000 troops, overthrowing the PRG, and restoring capitalist economic dependencies.`,
 
   contradictions: [
     "Ideological and tactical rivalries between Maurice Bishop and Bernard Coard fractured the New JEWEL Movement in October 1983, leading to Bishop's tragic house arrest and execution.",
@@ -37,7 +37,7 @@ However, Grenada's socialist experiment was targeted by aggressive US imperialis
       },
     ],
     allies: ['Cuba', 'Soviet Union', 'Nicaragua (Sandinistas)', 'Jamaica (Manley Era)', 'Non-Aligned Movement'],
-    enemies: ['United States (CIA / Pentagon)', 'United Kingdom', 'OECS Conservative Regimes'],
+    enemies: ['United States (CIA and Pentagon)', 'United Kingdom', 'OECS Conservative Regimes'],
   },
 
   quickFacts: [
@@ -49,7 +49,7 @@ However, Grenada's socialist experiment was targeted by aggressive US imperialis
   timeline: [
     {
       id: 'grenada-1979-revolution-bishop',
-      title: '1. 1979: The March 13 Revolution & Proclamation of the PRG',
+      title: '1. 1979: The March 13 Revolution and Proclamation of the PRG',
       period: '1979 – 1980',
       categoryTag: 'revolution',
       summary: 'New JEWEL Movement overthrows Gairy; Maurice Bishop becomes Prime Minister; establishing popular democracy.',
@@ -73,27 +73,39 @@ With crucial technical aid from socialist Cuba—which sent 600 construction wor
     },
     {
       id: 'grenada-us-destabilization-internal-crisis',
-      title: '3. 1983: US Economic Warfare & The October Leadership Tragedy',
+      title: '3. 1983: US Economic Warfare and The October Leadership Tragedy',
       period: '1983',
       categoryTag: 'challenges',
       summary: 'Reagan\'s anti-Grenada propaganda; IMF loan blocking; internal NJM party crisis and October 19 tragedy.',
       details: `US President Ronald Reagan launched an aggressive campaign against Grenada, holding televised speeches displaying satellite photos of Point Salines Airport, claiming it was a "Soviet-Cuban military airbase." The US blocked IMF and World Bank loans, vetoed OAS hurricane disaster relief, and staged US Navy amphibious invasion rehearsals off Puerto Rico (Operation Amber and the Amberines).
 
-Compounding external aggression, an ideological division emerged within the NJM central committee between Maurice Bishop and Deputy Prime Minister Bernard Coard over party structure and pace of development. On October 13, 1983, the central committee placed Bishop under house arrest. On October 19, 1983, tens of thousands of Grenadians marched and freed Bishop, leading to a tragic confrontation at Fort Rupert where Maurice Bishop, Unison Whiteman, Jacqueline Creft, and trade union leaders were shot and killed. [2][3]`,
+Compounding external aggression, an ideological division emerged within the NJM central committee between Maurice Bishop and Deputy Prime Minister Bernard Coard over party structure and pace of development. On October 13, 1983, the central committee placed Bishop under house arrest. On October 19, 1983, tens of thousands of Grenadians marched and freed Bishop, leading to a tragic confrontation at Fort Rupert where Maurice Bishop, Unison Whiteman, Jacqueline Creft, and trade union leaders were killed. [2][3]`,
       keyFigures: ['Maurice Bishop', 'Bernard Coard', 'Hudson Austin', 'Ronald Reagan'],
       citationIds: [2, 3],
     },
     {
       id: 'grenada-1983-us-invasion-urgent-fury',
-      title: '4. 1983: Operation Urgent Fury & The US Military Occupation',
+      title: '4. 1983: Operation Urgent Fury and The US Military Occupation',
       period: '1983 – 1984',
       categoryTag: 'collapse-or-transition',
-      summary: 'Oct 25, 1983 US invasion; heroic Cuban & Grenadian resistance; capitalist privatization.',
+      summary: 'Oct 25, 1983 US invasion; heroic Cuban and Grenadian resistance; capitalist privatization.',
       details: `Exploiting the internal tragedy, US President Reagan ordered the full-scale invasion of Grenada on October 25, 1983 (Operation Urgent Fury). Over 7,000 US soldiers, Marines, and Special Forces landed by sea and air. A small force of 600 Cuban construction workers and Grenadian People's Revolutionary Army (PRA) soldiers mounted fierce resistance at Point Salines and Fort Frederick.
 
 The UN General Assembly voted overwhelmingly (108 to 9) to condemn the US invasion as a flagrant violation of international law. US forces occupied Grenada, disbanded popular Parish Councils, privatized state farms, and installed a pro-US conservative government that restored neo-colonial trade dependencies. [1][3]`,
       keyFigures: ['Ronald Reagan', 'Fidel Castro', 'Hudson Austin'],
       citationIds: [1, 3],
+    },
+    {
+      id: 'grenada-present-neoliberal-privatization-enclave-tourism',
+      title: '5. Present: Post-Invasion Neoliberal Privatization and Tourism Enclave Dependence',
+      period: 'Present',
+      categoryTag: 'challenges',
+      summary: 'Reversal of PRG social gains; foreign resort profit extraction; popular struggle to honor Maurice Bishop.',
+      details: `Following the 1983 US invasion, US USAID advisors and installed conservative administrations dismantled Maurice Bishop's agro-industrial state processing plants, state-owned cocoa cooperatives, and free public literacy programs, re-imposing a neoliberal free-market model.
+
+Today, Grenada relies heavily on foreign luxury resort enclaves and offshore medical universities (St. George's University). Transnational hotel cartels benefit from tax exemptions while repatriating profits overseas, leaving host communities vulnerable to low-wage seasonal employment and high food import costs. Furthermore, Category 5 hurricanes driven by Western carbon emissions force recurring debt borrowing from Western commercial banks. Popular progressive organizations and trade unions continue to honor the legacy of Maurice Bishop, demanding land reform, food sovereignty, and genuine anti-imperialist independence. [1][2][3]`,
+      keyFigures: ['Dickon Mitchell', 'Keith Mitchell', 'Maurice Bishop (Legacy)'],
+      citationIds: [1, 2, 3],
     },
   ],
 

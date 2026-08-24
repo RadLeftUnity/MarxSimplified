@@ -74,7 +74,7 @@ function run() {
       for (const book of manifest.books || []) {
         const title = book.title;
         const desc = book.shortDescription || `Study ${book.title} by ${book.author} on Marx Simplified.`;
-        const img = `/og/books/${book.id}.png`;
+        const img = '/og/main.png';
 
         prerenderPage(`books/${book.id}`, title, desc, img);
       }
@@ -91,7 +91,7 @@ function run() {
       if (country) {
         const title = `${country.shortName || country.name} - Revolutionary History`;
         const desc = `Explore the historical overview, social metrics, and economic transformation of ${country.shortName || country.name}.`;
-        const img = `/og/history/${country.id}.png`;
+        const img = '/og/main.png';
 
         prerenderPage(`history/${country.id}`, title, desc, img);
         hCount++;
@@ -117,8 +117,7 @@ function run() {
             const slug = getSlug(t.term);
             const title = `${t.term} - Glossary`;
             const desc = t.definition || `Learn about ${t.term} on Marx Simplified.`;
-            const imgPath = path.join(distDir, 'og', 'glossary', `${slug}.png`);
-            const img = fs.existsSync(imgPath) ? `/og/glossary/${slug}.png` : '/og/main.png';
+            const img = '/og/main.png';
 
             prerenderPage(`glossary/${slug}`, title, desc, img);
             gCount++;

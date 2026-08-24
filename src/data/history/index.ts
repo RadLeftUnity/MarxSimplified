@@ -55,7 +55,6 @@ import { afghanistanData } from './countries/afghanistan';
 import { palestineData } from './countries/palestine';
 import { irelandData } from './countries/ireland';
 import { burkinaFasoData } from './countries/burkinaFaso';
-import { burkinaFasoSankaraData } from './countries/burkinaFasoSankara';
 import { germanyData } from './countries/germany';
 import { franceData } from './countries/france';
 import { ukData } from './countries/uk';
@@ -83,20 +82,24 @@ import { southYemenData } from './countries/southYemen';
 import { grenadaData } from './countries/grenada';
 import { mongoliaData } from './countries/mongolia';
 import { cambodiaData } from './countries/cambodia';
-import { polandModernData } from './countries/polandModern';
 import { czechiaData } from './countries/czechia';
-import { hungaryModernData } from './countries/hungaryModern';
-import { romaniaModernData } from './countries/romaniaModern';
-import { albaniaModernData } from './countries/albaniaModern';
-import { bulgariaModernData } from './countries/bulgariaModern';
 import { yemenModernData } from './countries/yemenModern';
-import { mongoliaModernData } from './countries/mongoliaModern';
-import { cambodiaModernData } from './countries/cambodiaModern';
 import { parisCommuneData } from './countries/parisCommune';
 import { congoPRData } from './countries/congoPR';
 import { somaliaHistoricData } from './countries/somaliaHistoric';
+import { barbadosData } from './countries/barbados';
+import { trinidadAndTobagoData } from './countries/trinidadAndTobago';
+import { guyanaData } from './countries/guyana';
+import { surinameData } from './countries/suriname';
+import { belizeData } from './countries/belize';
+import { stKittsAndNevisData } from './countries/stKittsAndNevis';
+import { stLuciaData } from './countries/stLucia';
+import { stVincentAndTheGrenadinesData } from './countries/stVincentAndTheGrenadines';
+import { antiguaAndBarbudaData } from './countries/antiguaAndBarbuda';
+import { bahamasData } from './countries/bahamas';
 
 export * from './types';
+export * from './continents';
 
 export const allCountries: CountryData[] = [
   vietnamData,
@@ -105,25 +108,18 @@ export const allCountries: CountryData[] = [
   parisCommuneData,
   gdrData,
   albaniaData,
-  albaniaModernData,
   polandData,
-  polandModernData,
   czechoslovakiaData,
   czechiaData,
   hungaryData,
-  hungaryModernData,
   romaniaData,
-  romaniaModernData,
   southYemenData,
   yemenModernData,
   grenadaData,
   congoPRData,
   somaliaHistoricData,
   mongoliaData,
-  mongoliaModernData,
   cambodiaData,
-  cambodiaModernData,
-  bulgariaModernData,
   myanmarData,
   iranData,
   lebanonData,
@@ -141,6 +137,16 @@ export const allCountries: CountryData[] = [
   dominicaData,
   dominicanRepublicData,
   puertoRicoData,
+  barbadosData,
+  trinidadAndTobagoData,
+  guyanaData,
+  surinameData,
+  belizeData,
+  stKittsAndNevisData,
+  stLuciaData,
+  stVincentAndTheGrenadinesData,
+  antiguaAndBarbudaData,
+  bahamasData,
   hawaiiData,
   guatemalaData,
   hondurasData,
@@ -178,7 +184,6 @@ export const allCountries: CountryData[] = [
   germanyData,
   franceData,
   burkinaFasoData,
-  burkinaFasoSankaraData,
   ukData,
   usaData,
   saudiArabiaData,

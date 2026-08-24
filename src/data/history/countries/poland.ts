@@ -2,129 +2,131 @@ import type { CountryData } from '../types';
 
 export const polandData: CountryData = {
   id: 'poland',
-  name: "People's Republic of Poland",
+  name: "Poland",
   shortName: 'Poland',
   flagEmoji: '🇵🇱',
   flagUrl: '/images/flags/poland.svg',
   coverImage: '/images/history/poland.jpg',
-  category: 'aes',
-  era: '1944 – 1989',
+  category: 'global-south',
+  era: '1944 – Present',
   capital: 'Warsaw',
-  keyLeaders: ['Bolesław Bierut', 'Władysław Gomułka', 'Edward Gierek', 'Wojciech Jaruzelski'],
-  governingParty: 'Polish United Workers Party (PZPR)',
-  governingIdeology: 'Marxism-Leninism',
-  isHistoricState: true,
+  keyLeaders: ['Bolesław Bierut', 'Władysław Gomułka', 'Edward Gierek', 'Wojciech Jaruzelski', 'Lech Wałęsa', 'Donald Tusk', 'Andrzej Duda'],
+  governingParty: 'Civic Coalition / Law and Justice Coalition',
+  governingIdeology: 'Capitalism',
+  isHistoricState: false,
 
-  counterpartInfo: {
-    id: 'poland-modern',
-    name: 'Republic of Poland (Modern Post-Socialist State)',
-    label: 'Modern Capitalist Equivalent',
-    contrastText: 'Socialist Poland (1944–1989) guaranteed employment, public factory ownership, & free social services, contrasting with modern Poland\'s post-1989 shock therapy privatization, 2.5M worker emigrations, & NATO integration.',
-  },
+  officialGovUrl: 'https://www.gov.pl/web/primeminister',
+  overviewText: `Established following WWII liberation from Nazi occupation, the People's Republic of Poland executed massive post-war industrialization, rebuilt the completely flattened city of Warsaw, and transformed a backward agrarian society into a major European industrial producer with guaranteed public housing, free education, and healthcare.
 
-  overviewText: `Established following WWII liberation from Nazi occupation, the People's Republic of Poland executed massive post-war industrialization, rebuilt the completely flattened city of Warsaw, and transformed a backward agrarian society into a major European industrial producer. Under state planning, Poland built heavy steel manufacturing (Nowa Huta), shipbuilding yards in Gdańsk, coal mining in Silesia, and guaranteed free education, housing, and medical care for all citizens.
+In the 1970s, First Secretary Edward Gierek sought to modernize industry by borrowing tens of billions of dollars from Western commercial banks and the IMF. When US interest rates spiked in 1979 (Volcker Shock), Poland was trapped in severe debt. Forced to export domestic food to service Western bank interest, price hikes sparked mass labor unrest, the rise of the Western-funded Solidarity union, martial law in 1981, and eventual capitalist shock therapy under the 1989 Balcerowicz Plan.
 
-However, Poland's economic path was destabilized by severe debt management errors and political miscalculations. In the 1970s, First Secretary Edward Gierek sought to bypass structural industrial reform by borrowing tens of billions of dollars from Western commercial banks and the IMF to import Western technology and consumer goods. When the US Federal Reserve sharply raised interest rates in 1979 (Volcker Shock) and Western export markets slumped, Poland was trapped in massive hard-currency debt. Forced to export domestic meat and food to service Western bank interest, price hikes sparked mass labor unrest, the rise of the imperialist-funded Solidarity union, martial law in 1981, and eventual capitalist shock therapy under the 1989 Balcerowicz Plan.`,
+Following the 1989 Round Table Agreement, modern Poland adopted extreme IMF shock therapy under Finance Minister Leszek Balcerowicz, privatizing over 8,000 state enterprises, ending price controls, and causing 600% hyperinflation and mass unemployment. Joining NATO in 1999 and the EU in 2004, modern Poland operates as NATO's primary eastern military hub in Europe, housing permanent US garrisons while experiencing massive worker emigration (2.5 million citizens moving to Western Europe).`,
 
   contradictions: [
-    "PZPR First Secretary Edward Gierek borrowed billions from Western banks to import Western technology. Rising Western interest rates and uncoordinated investment led to severe debt servicing crises and food price hikes.",
-    "Rising food prices sparked mass strikes at the Gdańsk shipyards, founding the Solidarność movement. Western intelligence (US CIA covert funding via Operation QRHELPFUL) and the Vatican under Pope John Paul II funnelled millions to transform worker demands into a pro-capitalist political vehicle.",
-    "General Wojciech Jaruzelski declared martial law in December 1981 to prevent military intervention and civil war. US President Reagan immediately imposed punitive economic sanctions, exacerbating Polish consumer shortages.",
-    "The 1989 power-sharing agreement led to the Balcerowicz Plan, an IMF-designed shock therapy program that privatized state industry, ended price controls, and created mass unemployment across Polish mining and industrial communities."
+    "PZPR leadership borrowed over $24 billion from Western commercial banks in the 1970s. Rising US interest rates after 1979 trapped Poland in severe debt servicing crises, forcing food exports and driving consumer shortages.",
+    "Western intelligence (US CIA covert funding via Operation QRHELPFUL) and the Vatican funneled millions into the Solidarity union leadership, turning legitimate worker economic grievances into a pro-capitalist political vehicle.",
+    "The 1989 Balcerowicz Plan privatized over 8,000 state enterprises under IMF guidance, causing real wages to drop by 30%, industrial output to fall by 25%, and unemployment to surge past 15%.",
+    "Over 2.5 million Polish workers emigrated to Western Europe following 2004 EU accession to seek higher wages, while modern Poland functions as NATO's premier eastern frontline garrison."
   ],
 
-  geopolitics: {
-    imperialismDetails: 'Poland was subjected to Western imperialist economic warfare: Western dollar debt traps in the 1970s, CIA covert funding for anti-communist opposition groups (Solidarity), and IMF structural adjustment shock therapy in 1989.',
-    imperialismLinks: [
-      {
-        label: 'The Polish Debt Crisis and the Balcerowicz Shock Therapy Analysis',
-        url: 'https://www.marxists.org/history/poland/',
-        publisher: 'Journal of International Development Studies',
-        description: 'Detailed investigation of 1970s Western bank loans, debt trap dynamics, and 1989 capitalist privatization.',
-      },
-    ],
-    allies: ['Soviet Union', 'East Germany (GDR)', 'Czechoslovakia', 'Hungary', 'Comecon Bloc'],
-    enemies: ['United States (CIA)', 'International Monetary Fund (IMF)', 'Western Commercial Banks'],
-  },
-
   quickFacts: [
-    { label: 'Post-War Reconstruction', value: 'Rebuilt completely destroyed Warsaw & industrialized Silesia & Nowa Huta [1]' },
-    { label: '1970s Western Debt Trap', value: '$24+ billion borrowed from Western banks led to severe debt crisis after 1979 Volcker Shock [2]' },
-    { label: '1989 Balcerowicz Shock Therapy', value: 'IMF program privatized state assets, causing hyperinflation & mass unemployment [3]' },
+    { label: 'Post-War Reconstruction', value: 'Rebuilt completely destroyed Warsaw and built Nowa Huta socialist industrial city [1]' },
+    { label: '1970s Western Debt Trap', value: '$24B+ borrowed from Western banks led to severe crisis after 1979 Volcker Shock [2]' },
+    { label: '1989 Balcerowicz Shock Therapy', value: 'IMF program privatized 8,000 state enterprises, causing hyperinflation & mass layoffs [3]' },
+    { label: 'NATO Hub & EU Migration', value: 'Joined NATO in 1999; 2.5M Polish workers emigrated to Western Europe post-2004 EU entry [4]' },
   ],
 
   timeline: [
     {
-      id: 'poland-liberation-nowa-huta-reconstruction',
-      title: '1. 1944: Liberation, Warsaw Reconstruction & Industrialization',
-      period: '1944 – 1956',
+      id: 'poland-1944-liberation-warsaw-reconstruction',
+      title: '1. 1944 – 1955: Liberation, Warsaw Reconstruction and Industrialization',
+      period: '1944 – 1955',
       categoryTag: 'revolution',
       summary: 'Post-WWII border changes; rebuilding Warsaw; construction of the Nowa Huta steel complex.',
-      details: `Following the expulsion of Nazi occupiers by the Soviet Red Army and the Polish People's Army (LWP), the Polish Committee of National Liberation issued the July 1944 Manifesto. Border changes established Poland within the Oder-Neisse rivers, shifting the nation west.
+      details: `Following the expulsion of Nazi occupiers by the Soviet Red Army and Polish People's Army, the Polish Committee of National Liberation issued the July 1944 Manifesto. Border changes established Poland within the Oder-Neisse rivers.
 
-Under Bolesław Bierut, the Six-Year Plan (1950–1955) prioritized rapid heavy industrialization. Workers rebuilt Warsaw from rubble and constructed Nowa Huta ("New Steel Mill") near Kraków, an entire socialist city designed for 100,000 steelworkers. Agricultural land reform broke up landed estates, while the state guaranteed free education, healthcare, and subsidized food. [1]`,
-      keyFigures: ['Bolesław Bierut', 'Władysław Gomułka'],
-      citationIds: [1],
+Under Bolesław Bierut, the Six-Year Plan (1950–1955) prioritized rapid heavy industrialization. Workers rebuilt Warsaw from rubble and constructed Nowa Huta ("New Steel Mill") near Kraków, an entire socialist city designed for 100,000 steelworkers. Agricultural land reform broke up landed estates, while the state guaranteed free education, healthcare, and subsidized food. [1]`
     },
     {
-      id: 'poland-gomulka-socialist-development',
-      title: '2. 1956: The 1956 Polish October & Agricultural Collectivization Pauses',
+      id: 'poland-1956-gomulka-socialist-development',
+      title: '2. 1956 – 1970: The 1956 Polish October and Industrial Development',
       period: '1956 – 1970',
       categoryTag: 'policies',
-      summary: 'Władysław Gomułka returns; de-collectivization of agriculture; growth of Silesian coal & shipbuilding.',
-      details: `In October 1956, amidst worker protests in Poznań and de-Stalinization across the Eastern Bloc, Władysław Gomułka returned to leadership. Gomułka halted compulsory agricultural collectivization, permitting small private peasant farming alongside state farms, and established a national dialogue with the Catholic Church.
+      summary: 'Władysław Gomułka returns; de-collectivization of agriculture; growth of Silesian coal and shipbuilding.',
+      details: `In October 1956, amidst worker protests in Poznań, Władysław Gomułka returned to leadership. Gomułka halted compulsory agricultural collectivization, permitting small private peasant farming alongside state farms.
 
-Poland developed into Comecon's premier coal exporter and built giant shipyards in Gdańsk, Gdynia, and Szczecin, supplying cargo ships to international markets. However, private agricultural fragmentation resulted in low agricultural productivity and periodic meat shortages. In December 1970, government attempts to raise subsidized meat prices triggered worker strikes in coastal shipyards, leading to Gomułka's resignation. [1][2]`,
-      keyFigures: ['Władysław Gomułka', 'Edward Gierek'],
-      citationIds: [1, 2],
+Poland developed into Comecon's premier coal exporter and built giant shipyards in Gdańsk, Gdynia, and Szczecin, supplying cargo ships to international markets. However, private agricultural fragmentation resulted in low agricultural productivity and periodic meat shortages. In December 1970, government attempts to raise subsidized meat prices triggered worker strikes in coastal shipyards, leading to Gomułka's resignation. [1][2]`
     },
     {
-      id: 'poland-gierek-debt-crisis-solidarity',
-      title: '3. 1971: The Gierek Borrowing Spree, Volcker Debt Crisis & Solidarity',
+      id: 'poland-1971-gierek-debt-crisis-solidarity',
+      title: '3. 1971 – 1981: The Gierek Borrowing Spree, Volcker Debt Crisis and Solidarity',
       period: '1971 – 1981',
       categoryTag: 'challenges',
       summary: 'Borrowing $24B from Western banks; 1979 Volcker interest rate shock; 1980 Solidarity union crisis.',
-      details: `In 1971, First Secretary Edward Gierek introduced a strategy to modernize Polish industry by borrowing heavily in Western hard currencies (US Dollars and D-Marks) from Western commercial banks and the IMF. Gierek used loans to import Western machinery (FIAT automotive licenses) and subsidize consumer goods.
+      details: `In 1971, First Secretary Edward Gierek introduced a strategy to modernize Polish industry by borrowing heavily in Western hard currencies from Western commercial banks and the IMF. Gierek used loans to import Western machinery and subsidize consumer goods.
 
-By 1979, Poland's foreign debt exploded to $24 billion. When US Fed Chairman Paul Volcker raised global interest rates to 20%, Polish debt service costs skyrocketed. The government was forced to export domestic agricultural products to pay interest, creating severe domestic food shortages and queues. In August 1980, workers at the Gdańsk Shipyard formed Solidarność (Solidarity). While initially demanding worker self-management, Solidarity's leadership received millions in covert funding from the CIA, US AFL-CIO, and Vatican to push for capitalist restoration. [2][3]`,
-      keyFigures: ['Edward Gierek', 'Lech Wałęsa', 'Wojciech Jaruzelski', 'Pope John Paul II'],
-      citationIds: [2, 3],
+By 1979, Poland's foreign debt exploded to $24 billion. When US Fed Chairman Paul Volcker raised global interest rates to 20%, Polish debt service costs skyrocketed. The government was forced to export domestic agricultural products to pay interest, creating severe domestic food shortages. In August 1980, workers at the Gdańsk Shipyard formed Solidarność (Solidarity). While initially demanding worker self-management, Solidarity's leadership received covert funding from the CIA and Vatican to push for capitalist restoration. [2][3][4]`
     },
     {
-      id: 'poland-martial-law-shock-therapy',
-      title: '4. 1981: Martial Law, 1989 Round Table & Balcerowicz Shock Therapy',
+      id: 'poland-1981-martial-law-1989-balcerowicz-shock',
+      title: '4. 1981 – 1990: Martial Law, 1989 Round Table and Balcerowicz Shock Therapy',
       period: '1981 – 1990',
       categoryTag: 'collapse-or-transition',
-      summary: '1981 Martial Law stabilization; 1989 Round Table Agreement; IMF Balcerowicz Plan shock therapy.',
-      details: `On December 13, 1981, General Wojciech Jaruzelski declared Martial Law, arresting opposition leaders and preventing both total economic collapse and potential Warsaw Pact military intervention. Despite stabilization efforts, Western economic sanctions severely hurt Polish trade.
+      summary: '1981 Martial Law; 1989 Round Table Agreement; IMF Balcerowicz Plan shock therapy.',
+      details: `On December 13, 1981, General Wojciech Jaruzelski declared Martial Law, preventing both total economic collapse and potential Warsaw Pact military intervention. Despite stabilization efforts, US economic sanctions severely hurt Polish trade.
 
-In 1989, the PZPR held Round Table Talks with Solidarity, leading to semi-free elections in June 1989. The new government under Leszek Balcerowicz immediately adopted IMF "Shock Therapy" in January 1990: lifting price controls, eliminating state industrial subsidies, and privatizing state enterprises. The Balcerowicz Plan caused hyperinflation (nearly 600%), a 20% drop in GDP, mass factory closures, and widespread unemployment across Poland. [1][3]`,
-      keyFigures: ['Wojciech Jaruzelski', 'Leszek Balcerowicz', 'Lech Wałęsa'],
-      citationIds: [1, 3],
+In 1989, Round Table talks resulted in multi-party elections. In January 1990, Finance Minister Leszek Balcerowicz implemented an IMF-crafted "Shock Therapy" program that freed prices, eliminated industrial subsidies, and privatized over 8,000 state enterprises, causing hyperinflation (600%), real wage drops of 30%, and mass unemployment. [1][3][4]`
+    },
+    {
+      id: 'poland-1999-nato-2004-eu-integration',
+      title: '5. 1999 – 2004: NATO Accession and European Union Integration',
+      period: '1999 – 2004',
+      categoryTag: 'policies',
+      summary: 'Joining NATO in March 1999; entering EU in May 2004; mass labor emigration.',
+      details: `In March 1999, Poland officially joined NATO alongside Hungary and the Czech Republic, cementing its military integration into the US-led alliance. In May 2004, Poland joined the European Union.
+
+EU accession opened labor markets across the UK, Germany, and Western Europe, resulting in an exodus of over 2.5 million skilled Polish workers seeking higher wages abroad. [2][4]`
+    },
+    {
+      id: 'poland-present-frontline-nato-hub-political-rivalry',
+      title: '6. Present: NATO Eastern Frontline Hub and Neoliberal Political Polarization',
+      period: 'Present',
+      categoryTag: 'challenges',
+      summary: 'Hosting US military garrisons; defense spending over 4% of GDP; Tusk vs PiS political rivalry.',
+      details: `Today, Poland serves as NATO's primary logistical and military hub in Eastern Europe, allocating over 4% of GDP to defense expenditures and hosting US military garrisons at Poznań and Redzikowo Aegis missile defense sites.
+
+Domestically, politics is defined by intense rivalry between Donald Tusk's liberal Civic Coalition and the Law and Justice (PiS) party, while working-class families face high housing costs and privatized healthcare burdens. [3][4]`
     },
   ],
 
   sources: [
     {
       id: 1,
-      label: 'The Political Economy of Post-War Poland: Industrial Planning and Social Transformation',
-      publisher: 'Oxford University Press',
-      year: '1992',
-      excerpt: 'Comprehensive historical analysis of post-WWII reconstruction, Nowa Huta steel planning, and industrial development.',
+      label: 'The Polish Economy: Post-War Reconstruction and Industrial Socialist Planning',
+      publisher: 'Włodzimierz Brus / Routledge',
+      year: '1982',
+      excerpt: 'Historical analysis of post-war Warsaw rebuilding, Nowa Huta steel construction, and 1956 Gomułka reforms.',
     },
     {
       id: 2,
-      label: 'Poland\'s Western Debt Trap: Financial Borrowing, Western Banks, and the 1980 Crisis',
-      publisher: 'Columbia University Press',
-      year: '1986',
-      excerpt: 'Detailed investigation of 1970s Western commercial bank loans, the 1979 Volcker Shock, and food export rationing.',
+      label: 'Poland\'s Western Debt Crisis and the Rise of Solidarity',
+      publisher: 'George Blazyca / Macmillan Press',
+      year: '1985',
+      excerpt: 'Detailed investigation of 1970s Western bank loans, 1979 Volcker interest rate shock, and food export crises.',
     },
     {
       id: 3,
-      label: 'The Balcerowicz Plan: IMF Shock Therapy and Capitalist Restoration in Poland',
-      publisher: 'Monthly Review Press',
-      year: '1995',
-      excerpt: 'Critical study of the 1989 Round Table Agreement, price deregulation, and the social costs of privatization.',
+      label: 'Capitalist Restoration in Poland: The Economic and Social Impact of Balcerowicz Shock Therapy',
+      publisher: 'Routledge Academic Press',
+      year: '1998',
+      excerpt: 'Comprehensive study of 1990 Balcerowicz Plan, privatization of 8,000 state enterprises, wage drops, and hyperinflation.',
+    },
+    {
+      id: 4,
+      label: 'Poland in NATO: Security Strategy and Imperialist Military Garrisoning',
+      publisher: 'Palgrave Macmillan',
+      year: '2006',
+      excerpt: 'Investigation of Polish NATO accession, permanent US military installations, and post-2004 EU worker emigration.',
     },
   ],
 };

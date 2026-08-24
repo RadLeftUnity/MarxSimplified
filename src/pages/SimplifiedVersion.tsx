@@ -4,6 +4,9 @@ import type { BookDetail, Chapter } from './BookSummary';
 import type { Annotation } from '../components/ChapterReader';
 import { fetchCachedAnnotations, fetchCachedText } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
+import { CopyImageButton } from '../components/CopyImageButton';
+import { generateAnnotationCardCanvas } from '../utils/shareCardCanvas';
+import { getAuthorImageUrl } from '../utils/authorImage';
 
 
 interface SimplifiedVersionProps {
@@ -278,14 +281,30 @@ export const SimplifiedVersion: React.FC<SimplifiedVersionProps> = ({
                                   <span className="concept-index-badge">
                                     Concept #{annIdx + 1}
                                   </span>
-                                  <button
-                                    className="view-in-text-btn"
-                                    onClick={() => onSelectAnnotationInText(ch.id, annId)}
-                                    title="View this concept in the full original text context"
-                                  >
-                                    <ExternalLink className="btn-small-icon" />
-                                    <span>View Context in Actual Text</span>
-                                  </button>
+                                  <div className="concept-card-actions" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+                                    <CopyImageButton
+                                      className="view-in-text-btn"
+                                      id={`copy-simplified-${annId}`}
+                                      onGenerateCanvas={() =>
+                                        generateAnnotationCardCanvas({
+                                          bookTitle: book.title,
+                                          author: book.author,
+                                          targetText: ann.targetText,
+                                          explanation: ann.explanation || ann.summary || '',
+                                          coverGradient: book.coverGradient,
+                                          authorImageUrl: getAuthorImageUrl(book.author),
+                                        })
+                                      }
+                                    />
+                                    <button
+                                      className="view-in-text-btn"
+                                      onClick={() => onSelectAnnotationInText(ch.id, annId)}
+                                      title="View this concept in the full original text context"
+                                    >
+                                      <ExternalLink className="btn-small-icon" />
+                                      <span>View Context in Actual Text</span>
+                                    </button>
+                                  </div>
                                 </div>
 
                                 {/* Main Simplified Explanation */}

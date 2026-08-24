@@ -12,9 +12,11 @@
 All book chapter text files should be sourced directly from marxists.org using the automated import tool at `tools/import-book.js`.
 
 - **New books**: Always use the import tool to create new book entries. Run:
+
   ```
   node tools/import-book.js <book-id> <marxists-org-index-url>
   ```
+
   The tool will crawl the index page, extract chapter titles and links, fetch and clean the HTML, strip formatting, replace em-dashes, and write clean plain-text chapter files. It also generates `summary.json` and updates `public/data/manifest.json`.
 
 - **Existing books** (manifesto, wage-labour, grundrisse, value-price-profit): These were imported (or re-imported) using the same tool. After import, curated metadata (context, relatesToToday, keyTakeaways, coverGradient, difficulty, readingTime) and hand-written annotations and chapter summaries are restored manually.
@@ -37,6 +39,7 @@ When adding glossary terms in `src/data/glossary/`, the `pattern` field should i
 ## Concise Glossary Term Titles
 
 When creating or editing glossary terms in `src/data/glossary/`:
+
 - **Avoid Unnecessary Ampersands (`&`)**: Keep term titles concise and clean (e.g. `"United Fruit Company"` instead of `"United Fruit Company (UFCO) & Chiquita"`, `"COINTELPRO"` instead of `"FBI COINTELPRO & Domestic Counter-Subversion"`).
 - **Secondary Names & Aliases**: Include alternate names, acronyms, or secondary labels in the `pattern` string for matching, and mention them in the `definition` prose (e.g., "Also known as Chiquita Brands International..."). Use `/` sparingly only when indispensable.
 
@@ -47,12 +50,21 @@ Every tag in a term's `theoryTags` array MUST strictly be an official `TheoryTag
 ## Glossary Automated Verification
 
 Whenever creating, editing, or refactoring glossary terms or files in `src/data/glossary/`, you MUST run the automated glossary verification test suite:
+
 ```bash
 node tools/check-glossary.js
 ```
+
 The test checks for duplicate term names, slug collisions, overlapping regex pattern variants, missing mandatory fields, invalid theory tags, and em-dash rule violations across all glossary files. Always verify that `node tools/check-glossary.js` passes with exit code 0 before completing tasks.
 
 ## GitHub Actions and Git Pushes Rule
 
 - **Do Not Trigger or Create GitHub Actions**: Do not create, modify, or run GitHub Actions workflows, or execute `git push` commands, unless explicitly instructed by the user. All workflow modifications and remote git pushes must be requested by the user.
 
+## Country History Modules and Natural Language Requirements
+
+When creating, editing, or expanding country history data files in `src/data/history/countries/`:
+
+- **Natural English Prose**: Write all timeline phase details, overview texts, contradictions, and summaries in fluid, engaging, natural English paragraphs. Avoid raw markdown bullet points (`- ...`, `* ...`) or numbered lists (`1. ...`, `2. ...`) inside timeline card details to ensure clean, un-truncated rendering in the UI.
+- **Strict Zero Ampersand Rule**: Avoid `&` symbols in timeline event titles, period labels, section headers, metadata summaries, and prose details. Always spell out `and` or use concise rephrasing (e.g., `Industrialization and Collectivization` instead of `Industrialization & Collectivization`).
+- **Use Marxists Sources where Possible** - Ideally use sources from marxists.org or any Marxist authors who have documentated certain events. Avoid sources from anti-Marxists and western academics who promote capitalism, postmodernism or right wing ideologies.

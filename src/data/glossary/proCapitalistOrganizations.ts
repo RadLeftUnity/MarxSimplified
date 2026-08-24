@@ -136,5 +136,22 @@ export const proCapitalistOrganizationTerms: GlossaryTerm[] = [
     "misconception": "Viewing the Phalangists as a patriotic religious defense group rather than a fascist militia that actively collaborated with foreign imperialist forces and Zionist invaders to massacre anti-colonial refugees.",
     "example": "A far-right sectarian militia adopting fascist symbols and partnering with an invading foreign army to carry out ethnic cleansing in refugee camps.",
     "theoryTags": ["Capitalist Theory", "Anti-Colonial Socialism", "Fascism Analysis"]
+  },
+  {
+    "term": "Harvard Institute for International Development",
+    "pattern": "harvard institute for international development|hiid|harvard boys|jeffrey sachs",
+    "definition": "A US neoliberal research institute contracted by the US government and the IMF during the early 1990s to advise Boris Yeltsin's government on post-Soviet privatization. Led by economists Jeffrey Sachs, Andrei Shleifer, and Jonathan Hay, HIID drafted the mass voucher privatization program that transferred Soviet state enterprises to corrupt oligarchs and Western investors, culminating in a major US federal corruption lawsuit over insider self-dealing.",
+    "misconception": "That Western economic advisors provided neutral technical aid to Russia. HIID operated as an arm of US financial hegemony, designing shock therapy policies that dismantled Soviet socialist public property and impoverished millions.",
+    "example": "Western advisors drafting mass voucher laws that allowed corrupt insiders and foreign banks to buy state oil and mineral monopolies for a fraction of their real value.",
+    "theoryTags": ["Capitalist Theory"]
+  },
+  {
+    "term": "Nestlé",
+    "pattern": "nestle|nestlé|nestle infant formula|nestle boycott",
+    "definition": "A Swiss multinational food and beverage conglomerate and one of the largest corporate monopolies in global history. Nestlé has been involved in major imperialist scandals, including the aggressive marketing of infant milk formula across developing nations (1970s–1980s) using unaccredited sales representatives ('milk nurses'), which led to millions of infant deaths from contaminated water and sparked a worldwide boycott. Nestlé has also been widely documented exploiting child labor and forced labor in West African cocoa supply chains, depleting public aquifers for bottled water brands (Pure Life) in drought-stricken peripheral nations like Pakistan, and demanding millions in debt compensation from famine-stricken nations like Ethiopia.",
+    "misconception": "Believing consumer food conglomerates are benign neutral food providers, rather than aggressive transnational monopolies that extract raw resources, exploit Global South labor, and prioritize corporate profit over human life.",
+    "example": "A foreign multinational corporation aggressively marketing infant formula in developing countries without clean water access, forcing mothers to rely on diluted formula that causes infant malnutrition.",
+    "theoryTags": ["Capitalist Theory", "Anti-Colonial Socialism"]
   }
 ];
+

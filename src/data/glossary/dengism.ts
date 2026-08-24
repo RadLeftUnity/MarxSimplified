@@ -104,5 +104,38 @@ export const dengistTerms: GlossaryTerm[] = [
     "misconception": "That developed socialism means instant wealth equality without state planning. It represents a technologically advanced socialist economy capable of providing universal social welfare while guiding global innovation.",
     "example": "A socialist nation achieving complete automated green energy grids, high-tech universal healthcare, and zero poverty under state economic guidance.",
     "theoryTags": ["Dengism", "Xi Jinping Thought", "Marxism-Leninism"]
+  },
+  {
+    "term": "Four Political Trends",
+    "pattern": "four political trends|four broad political trends|chinese political spectrum",
+    "definition": "A theoretical classification in modern CPC political analysis (articulated under Xi Jinping Thought): (1) Ultra-left (upholds Mao era, rejects Dengism and SWCC; must be re-examined), (2) Left (upholds both Mao and Deng eras, Mao Zedong Thought, and SWCC; must be strongly promoted), (3) Right (rejects Mao, upholds Dengism; must be re-examined), and (4) Ultra-right (rejects both Mao and Deng eras, seeking capitalist restoration; must be firmly opposed). The CPC consensus promotes the Left synthesis while maintaining critical tolerance for Ultra-left and Right, but strictly opposing Ultra-right subversion.",
+    "misconception": "That Chinese political leadership is monolithic or purely pragmatic. CPC governance involves structured ideological debates where ultra-right capitalist restoration ('changing allegiance') is prohibited, while the core synthesis of Maoist foundations and Dengist productive force development is promoted.",
+    "example": "Party schools training cadres to reject historical nihilism against Mao Zedong while upholding Deng Xiaoping's economic reforms under Socialism with Chinese Characteristics.",
+    "theoryTags": ["Xi Jinping Thought", "Dengism", "Maoism"]
+  },
+  {
+    "term": "Historical Nihilism",
+    "pattern": "historical nihilism|historical nihilist|nihilism toward party history",
+    "definition": "In Chinese Marxist theory, ideological attempts by bourgeois or liberal critics to slander, distort, or deny the historical achievements of the CPC, the socialist revolution, and leaders like Mao Zedong and Deng Xiaoping, aimed at eroding party legitimacy and triggering ideological collapse.",
+    "misconception": "That opposing historical nihilism means denying historical errors. The CPC acknowledges past mistakes (such as administrative errors during the Great Leap Forward) while rejecting bad-faith Western propaganda that seeks to delegitimize the entire socialist project.",
+    "example": "Disciplining cadres who repeat Western intelligence narratives claiming the 1949 revolution was a historical mistake.",
+    "theoryTags": ["Xi Jinping Thought", "Dengism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Intermediate Stage of Socialism",
+    "pattern": "intermediate stage of socialism|intermediate stage of socialist development|intermediate stage|intermediate socialism",
+    "definition": "In CPC political economy (formulated by theoretical economists like Prof. Cheng Enfu), the transitional stage of socialist development following the Primary Stage (1978–2049) and preceding Advanced Socialism. Spanning 2050–2099, it shifts national strategy from 'common prosperity' to 'common development', expanding public, cooperative, and joint-stock ownership while phasing out private capital monopolies.",
+    "misconception": "That the Primary Stage of Socialism lasts indefinitely. Intermediate socialism represents a planned historical phase where productive forces enable higher social ownership and state-dominated planning with secondary market adjustments.",
+    "example": "Planning for the 2050–2099 era to transition from market-driven private incentives to social cooperative ownership across major manufacturing sectors.",
+    "theoryTags": ["Dengism", "Xi Jinping Thought", "Marxism-Leninism"]
+  },
+  {
+    "term": "Belt and Road Initiative",
+    "pattern": "belt and road initiative|belt and road|bri",
+    "definition": "A global infrastructure and economic development strategy launched by China in 2013 under Xi Jinping Thought, financing and constructing solar grids, railways, ports, hospitals, and industrial parks across over 150 Global South and Eurasian nations based on mutual benefit and non-interference in domestic politics.",
+    "misconception": "That it constitutes a Western-style 'debt trap'. Empirical studies by independent institutions show that Chinese BRI financing offers low-interest loans, debt relief restructuring, and physical industrial assets without IMF structural adjustment mandates or political austerity demands.",
+    "example": "Financing state-owned solar power plants, gold refineries, and agricultural modernization programs in Burkina Faso and the Alliance of Sahel States (AES) without forcing privatization.",
+    "theoryTags": ["Xi Jinping Thought", "Anti-Colonial Socialism", "Dengism"]
   }
 ];
+

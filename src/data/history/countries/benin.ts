@@ -92,27 +92,23 @@ On November 30, 1974, Kérékou delivered a landmark speech declaring **Marxism-
     },
     {
       id: 'benin-1975-peoples-republic-socialist-development',
-      title: '6. 1975 – 1988: The People\'s Republic of Benin (PRB) & Socialist Nationalization',
+      title: '6. 1975 – 1988: The People\'s Republic of Benin (PRB) and Socialist Nationalization',
       period: '1975 – 1988',
       categoryTag: 'successes',
-      summary: 'Nov 1975: Proclamation of People\'s Republic of Benin; People\'s Revolutionary Party (PRPB); literacy campaigns.',
-      details: `On November 30, 1975, the nation was renamed the **People's Republic of Benin (PRB)** under the leadership of the People's Revolutionary Party of Benin (PRPB).
+      summary: 'Nov 1975: Proclamation of People\'s Republic of Benin; PRPB party; nationalizing foreign cartels.',
+      details: `On November 30, 1975, the nation was renamed the People's Republic of Benin (PRB) under the leadership of the People's Revolutionary Party of Benin (PRPB).
 
-The socialist state expanded free primary education, launched mass literacy campaigns, established agricultural production cooperatives, and defeated a 1977 mercenary invasion at Cotonou airport led by French mercenary Bob Denard. [3]`,
-      keyFigures: ['Mathieu Kérékou', 'Bob Denard (French Mercenary Invader)'],
-      citationIds: [3],
+The socialist state expanded primary education, launched literacy campaigns, nationalized foreign banks and oil distribution, and defeated a 1977 mercenary invasion at Cotonou airport led by French mercenary Bob Denard. However, the declaration of Marxism-Leninism functioned in part pragmatically to secure Soviet and Chinese trade credits and arms. No radical land redistribution was carried out against rural petty producers or local trade cartels (*kulaks*), and Benin maintained its primary commodity export model (cotton, oil palm). [3]`
     },
     {
       id: 'benin-1989-national-conference-democracy',
-      title: '7. 1989 – 1991: Economic Crisis, The 1990 National Conference & Multi-Party Transition',
+      title: '7. 1989 – 1991: IMF Structural Adjustment, 1990 National Conference and Multi-Party Transition',
       period: '1989 – 1991',
       categoryTag: 'challenges',
-      summary: '1989 IMF financial blockade; Feb 1990 National Conference transitions Benin to multi-party democracy.',
-      details: `In the late 1980s, falling commodity export prices, loss of Soviet economic support, and an IMF banking blockade caused severe state insolvency.
+      summary: '1989 World Bank/IMF structural adjustment; Feb 1990 National Conference transitions Benin to multi-party democracy.',
+      details: `In the late 1980s, falling commodity export prices (cotton), loss of Soviet trade guarantees, and state financial insolvency led Kérékou's administration to initiate structural adjustment negotiations with the World Bank and IMF in 1989, prior to the formal political transition.
 
-In February 1990, Kérékou convened the historic National Conference of Active Forces of the Nation, surrendering single-party rule and holding multi-party elections in 1991, establishing a peaceful precedent for African constitutional transitions. [3][4]`,
-      keyFigures: ['Mathieu Kérékou', 'Nicéphore Soglo'],
-      citationIds: [3, 4],
+In February 1990, Kérékou convened the historic National Conference of Active Forces of the Nation, surrendering single-party rule and holding multi-party elections in 1991, establishing a peaceful precedent for African constitutional transitions. [3][4]`
     },
     {
       id: 'benin-present-port-infrastructure-commercial-capitalism',

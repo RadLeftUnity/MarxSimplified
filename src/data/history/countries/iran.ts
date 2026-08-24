@@ -20,26 +20,28 @@ export const iranData: CountryData = {
 
 For decades, British imperialist monopolies (Anglo-Persian Oil Company / BP) plundered Iranian oil wealth. In 1951, democratically elected Prime Minister Mohammad Mosaddegh nationalized Iranian oil with broad support from oil refinery workers and the Marxist Tudeh Party of Iran. In response, the US CIA and British MI6 orchestrated the 1953 Operation Ajax military coup, destroying Iranian democracy and installing the autocratic Pahlavi Shah dictatorship backed by the brutal SAVAK secret police.
 
-The 1979 Islamic Revolution overthrew the US puppet regime, nationalized resources, and expelled Western military bases. Iran commands strategic control over the Strait of Hormuz—the vital energy chokepoint transited by 20%+ of global oil—utilizing asymmetric naval power to counter US sanctions and Western oil seizures. Today, Iran anchors the regional Axis of Resistance against US military occupation and Israeli expansionism, while maintaining full membership in BRICS+ and the Shanghai Cooperation Organization (SCO). From a Marxist-Leninist perspective, Iran demonstrates both the strengths of sovereign anti-imperialist defense and internal social contradictions, where legitimate working-class and women's rights demands are frequently targeted by Western intelligence agencies attempting to co-opt domestic protests into color revolution regime-change operations.`,
+The 1979 Islamic Revolution overthrew the US puppet regime, nationalized resources, and expelled Western military bases. Iran commands strategic control over the Strait of Hormuz—the vital energy chokepoint transited by 20%+ of global oil—utilizing asymmetric naval power to counter US sanctions and Western oil seizures. Today, Iran anchors the regional Axis of Resistance against US military occupation and Israeli expansionism, while maintaining full membership in BRICS+ and the Shanghai Cooperation Organization (SCO). In 2026, Iran successfully repelled a joint US-Israeli military assault, exposing the deep complicity of European NATO states (the UK, France, Germany) that permitted 4,000 to 5,000 US combat sorties from European airbases such as Diego Garcia and RAF Fairford. From a Marxist-Leninist perspective, Iran demonstrates both the strengths of sovereign anti-imperialist defense and internal social contradictions, where legitimate working-class and women's rights demands are frequently targeted by Western intelligence agencies attempting to co-opt domestic protests into color revolution regime-change operations.`,
 
   contradictions: [
     "US imperialist maximum pressure sanctions and JCPOA withdrawal block Iranian oil exports and banking transactions, leading to currency inflation and medical supply shortages, which US Department of State strategists explicitly weaponize to manufacture internal discontent.",
     "Sovereign military defense against US and Israeli aggression unifies national resistance, yet domestic merchant capitalists (bazaari) and private financial institutions engage in currency speculation, exacerbating price hikes for working-class families.",
+    "While European state leaders publicly distance themselves from US-Israeli wars of aggression, NATO member states permitted 4,000 to 5,000 US combat aircraft sorties from European and overseas bases (such as Diego Garcia and RAF Fairford), exposing the structural complicity of European states in US imperialist militarism.",
     "Western intelligence apparatuses (US CIA, Israeli Mossad) and NED-funded media networks attempt to co-opt legitimate social protests and women's rights demonstrations into color revolution regime-change operations, seeking to install pro-Western comprador exiles.",
     "Signing 25-year strategic cooperation agreements with China, joining BRICS+ and SCO, and expanding military-industrial self-reliance provide crucial economic stability against Western blockades."
   ],
 
   quickFacts: [
-    { label: '1953 CIA Coup (Operation Ajax)', value: 'US CIA & MI6 overthrew democratically elected Mosaddegh after oil nationalization [1]' },
-    { label: '1979 Anti-Imperialist Revolution', value: 'Overthrew US-backed Shah dictatorship & expelled Western military bases [2]' },
+    { label: '1953 CIA Coup (Operation Ajax)', value: 'US CIA and MI6 overthrew democratically elected Mosaddegh after oil nationalization [1]' },
+    { label: '1979 Anti-Imperialist Revolution', value: 'Overthrew US-backed Shah dictatorship and expelled Western military bases [2]' },
     { label: 'Strait of Hormuz Deterrent', value: 'Controls 21-mile energy chokepoint (20%+ world oil) countering US naval sanctions [3]' },
-    { label: 'BRICS+ & SCO Full Member', value: 'Full accession to BRICS+ & Shanghai Cooperation Organization for multipolar trade [4]' },
+    { label: 'BRICS+ and SCO Full Member', value: 'Full accession to BRICS+ and Shanghai Cooperation Organization for multipolar trade [4]' },
+    { label: '2026 US-Israeli Attack Defense', value: 'Repelled 2026 aggression; exposed NATO airbase complicity (4,000+ US sorties) [6]' },
   ],
 
   timeline: [
     {
       id: 'iran-british-oil-plunder',
-      title: '1. Pre-1953: British Oil Plunder, Anglo-Persian Oil Company & Early Tudeh Party Mobilization',
+      title: '1. Pre-1953: British Oil Plunder, Anglo-Persian Oil Company and Early Tudeh Party Mobilization',
       period: 'Pre-1953',
       categoryTag: 'pre-revolution',
       summary: 'British monopoly plunder of oil; founding of Marxist Tudeh Party (1941); 1946 Abadan oil strikes.',
@@ -51,7 +53,7 @@ On September 29, 1941, Marxist cadres founded the Tudeh Party of Iran. Tudeh org
     },
     {
       id: 'iran-mosaddegh-operation-ajax',
-      title: '2. 1951 – 1953: Oil Nationalization under Mosaddegh & Defeating 1953 US CIA Operation Ajax Coup',
+      title: '2. 1951 – 1953: Oil Nationalization under Mosaddegh and Defeating 1953 US CIA Operation Ajax Coup',
       period: '1951 – 1953',
       categoryTag: 'revolution',
       summary: 'Mosaddegh nationalizes oil in 1951; 1953 US CIA Operation Ajax coup overthrows democratic government.',
@@ -63,7 +65,7 @@ In response, Britain imposed a naval embargo on Iranian oil exports. On August 1
     },
     {
       id: 'iran-shah-dictatorship-savak',
-      title: '3. 1953 – 1979: The US-Backed Shah Dictatorship & SAVAK Secret Police Repression',
+      title: '3. 1953 – 1979: The US-Backed Shah Dictatorship and SAVAK Secret Police Repression',
       period: '1953 – 1979',
       categoryTag: 'challenges',
       summary: '26 years of US puppet monarchy; SAVAK secret police torture; White Revolution feudal modernization.',
@@ -75,7 +77,7 @@ With assistance from the CIA and Israeli Mossad, the Shah created **SAVAK**—a 
     },
     {
       id: 'iran-1979-revolution',
-      title: '4. 1979: The 1979 Islamic Revolution: Overthrowing the Shah & Expelling US Imperialism',
+      title: '4. 1979: The 1979 Islamic Revolution: Overthrowing the Shah and Expelling US Imperialism',
       period: '1979',
       categoryTag: 'revolution',
       summary: 'Mass strikes by oil workers; overthrow of Shah in Feb 1979; December 1979 Islamic Republic referendum.',
@@ -87,7 +89,7 @@ On February 11, 1979, the Shah fled into exile and the monarchy collapsed. In De
     },
     {
       id: 'iran-iraq-war-sanctions',
-      title: '5. 1980 – 1988: Resisting the Imperialist-Backed Iran-Iraq War & Chemical Weapons Attacks',
+      title: '5. 1980 – 1988: Resisting the Imperialist-Backed Iran-Iraq War and Chemical Weapons Attacks',
       period: '1980 – 1988',
       categoryTag: 'challenges',
       summary: 'Saddam Hussein invades Iran with US/Western backing; 1M+ casualties; Iran repels Iraqi invasion.',
@@ -99,7 +101,7 @@ Western nations provided Iraq with satellite intelligence, financial credits, an
     },
     {
       id: 'iran-nuclear-sovereignty',
-      title: '6. 1989 – 2015: Post-War Reconstruction, Nuclear Energy Development & US Sanctions Siege',
+      title: '6. 1989 – 2015: Post-War Reconstruction, Nuclear Energy Development and US Sanctions Siege',
       period: '1989 – 2015',
       categoryTag: 'policies',
       summary: 'Indigenizing nuclear technology; US unilateral sanctions; 2015 JCPOA nuclear agreement.',
@@ -113,7 +115,7 @@ In July 2015, Iran signed the Joint Comprehensive Plan of Action (JCPOA) with th
     },
     {
       id: 'iran-jcpoa-sabotage-soleimani',
-      title: '7. 2016 – 2020: JCPOA Sabotage, US "Maximum Pressure" & Assassination of Qasem Soleimani',
+      title: '7. 2016 – 2020: JCPOA Sabotage, US "Maximum Pressure" and Assassination of Qasem Soleimani',
       period: '2016 – 2020',
       categoryTag: 'challenges',
       summary: 'Trump withdraws from JCPOA (2018); "Maximum Pressure" siege; Jan 3, 2020 US assassination of Qasem Soleimani.',
@@ -125,10 +127,10 @@ On January 3, 2020, the US military executed a drone strike at Baghdad Internati
     },
     {
       id: 'iran-strait-of-hormuz-axis-resistance-brics',
-      title: '8. Present: Axis of Resistance, SCO/BRICS+ & The Strait of Hormuz Deterrent',
-      period: 'Present',
+      title: '8. 2021 – 2025: Axis of Resistance, SCO/BRICS+ Integration and The Strait of Hormuz Deterrent',
+      period: '2021 – 2025',
       categoryTag: 'successes',
-      summary: 'Strait of Hormuz energy chokepoint deterrence; leading Axis of Resistance; full accession to SCO & BRICS+.',
+      summary: 'Strait of Hormuz energy chokepoint deterrence; leading Axis of Resistance; full accession to SCO and BRICS+.',
       details: `Iran controls the northern coast of the **Strait of Hormuz**—the narrow 21-mile-wide waterway between Iran, Oman, and the UAE transited by 20–21 million barrels of oil daily (over 20% of global petroleum consumption and 30% of seaborne crude trade) and 20% of global LNG (from Qatar). Major Gulf exporters (Saudi Arabia, Iraq, Kuwait, Qatar, UAE) and top global importers (China, India, Japan, South Korea, EU) rely on this chokepoint.
 
 To counter US Fifth Fleet naval encirclement and US DOJ oil tanker confiscations, Iran's IRGC Navy deploys asymmetric speedboats, sea mines, anti-ship cruise missiles, and drone networks. Reciprocal Iranian tanker interceptions serve as a potent anti-imperialist economic deterrent.
@@ -137,13 +139,27 @@ Operating in tandem with Ansar Allah in Yemen (Bab al-Mandab Strait), Iran leads
       keyFigures: ['Ayatollah Ali Khamenei', 'Ebrahim Raisi', 'Masoud Pezeshkian', 'Xi Jinping'],
       citationIds: [3, 4, 5],
     },
+    {
+      id: 'iran-2026-us-israeli-war-european-complicity',
+      title: '9. 2026: Repelling US-Israeli Military Aggression, European Airbase Complicity and Sovereign Defense',
+      period: '2026 – Present',
+      categoryTag: 'challenges',
+      summary: 'Iran repels 2026 US-Israeli attack; exposing European base complicity (4,000+ US sorties); retaliating against imperialist outposts.',
+      details: `In late February 2026, the United States and Israel launched a massive joint military assault against Iran, violating international law and triggering severe global energy market inflation. Despite public declarations from EU chief diplomat Kaja Kallas claiming neutrality, NATO Secretary General Mark Rutte revealed that European nations permitted between 4,000 and 5,000 US combat aircraft sorties from dozens of American military bases on European soil.
+
+UK Prime Minister Keir Starmer authorized the US military to launch heavy B-2 and B-52 bomber missions against Iranian infrastructure from the joint US-UK base at Diego Garcia in the Chagos Islands and RAF Fairford in Gloucestershire, while France allowed US support aircraft to land at Istres and Avord. In response, Iran designated all foreign military bases hosting US combat operations as legitimate targets, launching retaliatory missile and drone strikes against outposts hosting Western troops, including Diego Garcia, RAF Akrotiri in Cyprus, Camp de la Paix in Abu Dhabi, and US facilities in Qatar and Iraq.
+
+Conversely, Spain Prime Minister Pedro Sánchez took a courageous anti-war stance, closing Spanish airspace to US military planes and banning US forces from using the Rota naval base and Morón airbase, drawing threats of total trade embargos from Washington. Italy and France also blocked arms shipments to Israel. The 2026 conflict exposed the deep structural reliance of US imperialist aggression on European NATO airbase infrastructure, while cementing Iran's sovereign defense capabilities and popular anti-imperialist resistance across the Global South. [3][5][6]`,
+      keyFigures: ['Ayatollah Ali Khamenei', 'Masoud Pezeshkian', 'Keir Starmer', 'Pedro Sánchez', 'Emmanuel Macron'],
+      citationIds: [3, 5, 6],
+    },
   ],
 
   sources: [
     {
       id: 1,
       label: 'All the Shah\'s Men: An American Coup and the Roots of Middle East Terror',
-      publisher: 'Stephen Kinzer / John Wiley & Sons',
+      publisher: 'Stephen Kinzer / John Wiley and Sons',
       year: '2003',
       excerpt: 'Comprehensive historical account of the 1953 CIA Operation Ajax coup that overthrew Prime Minister Mohammad Mosaddegh.',
     },
@@ -164,17 +180,25 @@ Operating in tandem with Ansar Allah in Yemen (Bab al-Mandab Strait), Iran leads
     {
       id: 4,
       label: 'BRICS+ Accession and Multipolar Trade Networks',
-      publisher: 'New Development Bank & SCO Economic Research Bulletin',
+      publisher: 'New Development Bank and SCO Economic Research Bulletin',
       year: '2024',
       url: 'https://www.ndb.int/',
       excerpt: 'Official documentation of Iran\'s full accession to BRICS+ and the Shanghai Cooperation Organization for non-dollar bilateral trade.',
     },
     {
       id: 5,
-      label: 'Strait of Hormuz Maritime Security & Asymmetric Deterrence Analysis',
-      publisher: 'US Energy Information Administration (EIA) & Stockholm International Peace Research Institute (SIPRI)',
+      label: 'Strait of Hormuz Maritime Security and Asymmetric Deterrence Analysis',
+      publisher: 'US Energy Information Administration (EIA) and Stockholm International Peace Research Institute (SIPRI)',
       year: '2024',
       excerpt: 'Documentation of the 21-mile Strait of Hormuz chokepoint transiting 20%+ of global petroleum, IRGC Navy asymmetric defense capabilities, and tanker war economic deterrence.',
+    },
+    {
+      id: 6,
+      label: 'Have European Countries Been Involved in the US-Israeli War on Iran?',
+      publisher: 'Middle East Eye - Daniel Tester',
+      year: '2026',
+      url: 'https://www.middleeasteye.net/explainers/explainer-have-european-countries-been-involved-us-israeli-war-iran',
+      excerpt: 'Explainer detailing European military base complicity in the 2026 US-Israeli war on Iran, NATO permitting 4,000-5,000 US combat sorties, Diego Garcia bomber strikes, and Iranian retaliatory strikes on Western bases.',
     },
   ],
 };

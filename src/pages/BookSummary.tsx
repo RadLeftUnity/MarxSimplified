@@ -2,6 +2,8 @@ import React from 'react';
 import { ArrowLeft, BookOpen, Key, History, ChevronRight, ExternalLink, Sparkles } from 'lucide-react';
 import { FormattedText } from '../components/FormattedText';
 import { getAuthorImageUrl } from '../utils/authorImage';
+import { CopyImageButton } from '../components/CopyImageButton';
+import { generateBookCardCanvas } from '../utils/shareCardCanvas';
 
 export interface Chapter {
   id: string;
@@ -92,6 +94,24 @@ export const BookSummary: React.FC<BookSummaryProps> = ({
                 <Sparkles className="btn-small-icon text-gold" /> Simplified Version
               </button>
             )}
+            <CopyImageButton
+              className="summary-secondary-btn"
+              id="hero-copy-image-btn"
+              onGenerateCanvas={() =>
+                generateBookCardCanvas({
+                  title: book.title,
+                  author: book.author,
+                  year: book.year,
+                  difficulty: book.difficulty,
+                  readingTime: book.readingTime,
+                  subject: book.subject,
+                  context: book.context,
+                  keyTakeaways: book.keyTakeaways,
+                  coverGradient: book.coverGradient,
+                  authorImageUrl,
+                })
+              }
+            />
           </div>
 
           {book.marxistsOrgUrl && (

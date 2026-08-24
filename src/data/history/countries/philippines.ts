@@ -110,20 +110,20 @@ Faced with mass popular revolution and military defections, US President Ronald 
       citationIds: [3, 4],
     },
     {
-      id: 'philippines-1990-neoliberal-epz-ofw-remittances',
-      title: '7. 1990s – 2016: Neoliberal Processing Zones, OFW Remittances & Visiting Forces Agreement',
+      id: 'philippines-1990-neoliberal-epz-ofw-remittances-nestle',
+      title: '7. 1990s – 2016: Neoliberal Export Zones, Nestlé Union Repression and Labor Export',
       period: '1990s – 2016',
       categoryTag: 'challenges',
-      summary: '1991 US Senate rejects Subic/Clark base renewal; economy relies on 10M+ Overseas Foreign Workers (OFW).',
-      details: `In September 1991, anti-imperialist popular pressure forced the Philippine Senate to reject the renewal of the US military bases treaty, closing Subic Bay and Clark Air Base.
+      summary: '1991 US base rejection; economy relies on 10M+ OFWs; Nestlé milk nurses and Cabuyao union repression.',
+      details: `In September 1991, popular pressure forced the Philippine Senate to reject US military base treaty renewal, closing Subic Bay and Clark Air Base. However, successive neoliberal administrations (Ramos, Arroyo, Aquino III) signed the 1999 Visiting Forces Agreement (VFA) and transformed the economy into a labor-export market, forcing 10 million Overseas Foreign Workers (OFWs) abroad whose remittances account for 10%+ of GDP.
 
-However, successive neoliberal administrations (Ramos, Arroyo, Aquino III) signed the 1999 Visiting Forces Agreement (VFA) and transformed the economy into a labor-export market, forcing 10 million Overseas Foreign Workers (OFWs) abroad whose remittances account for 10%+ of GDP. [4]`,
-      keyFigures: ['Fidel Ramos', 'Gloria Macapagal Arroyo', 'Benigno Aquino III'],
-      citationIds: [4],
+Concurrently, Swiss corporate monopoly Nestlé targeted Philippine mothers with aggressive infant milk formula promotion using sales reps ("milk nurses") to disincentivize breastfeeding. When trade unionists at Nestlé's Cabuyao factory launched prolonged strikes in 2002 demanding fair wages and retirement benefits, state security forces violently suppressed the strike, assassinating Nestlé union president Diosdado Fortuna in September 2005 under government red-tagging programs. [3][4]`,
+      keyFigures: ['Fidel Ramos', 'Gloria Macapagal Arroyo', 'Benigno Aquino III', 'Diosdado Fortuna (Assassinated Union President)', 'Nestlé Executives'],
+      citationIds: [3, 4],
     },
     {
       id: 'philippines-present-marcos-jr-edsa-us-bases-npa',
-      title: '8. Present: Marcos Jr. Regime, US EDCA Military Base Expansion & Rural Agrarian War',
+      title: '8. Present: Marcos Jr. Regime, US EDCA Military Base Expansion and Rural Agrarian War',
       period: 'Present',
       categoryTag: 'challenges',
       summary: 'Marcos Jr. grants US 9 EDCA military sites; NPA continues rural agrarian revolution.',

@@ -61,15 +61,13 @@ The KSČ nationalized all manufacturing, mining, banking, and wholesale trade. U
     },
     {
       id: 'czechoslovakia-prague-spring-1968',
-      title: '2. 1968: The Prague Spring, Ota Šik Reforms & Warsaw Pact Intervention',
+      title: '2. 1968: The Prague Spring, Ota Šik Market Reforms and Warsaw Pact Intervention',
       period: '1965 – 1969',
       categoryTag: 'policies',
-      summary: '1965 Ota Šik economic reforms; Dubček\'s "Socialism with a Human Face"; August 1968 Warsaw Pact entry.',
-      details: `By the mid-1960s, central planning faced efficiency bottlenecks. Economist Ota Šik proposed market-socialist reforms introducing enterprise self-financing and price flexibility. In January 1968, Alexander Dubček became First Secretary, launching "Socialism with a Human Face" (the Prague Spring).
+      summary: 'Ota Šik market proposals; Dubček\'s "Socialism with a Human Face"; August 1968 Warsaw Pact entry.',
+      details: `By the mid-1960s, central planning faced administrative bottlenecks. Economist Ota Šik proposed market-socialist reforms introducing enterprise self-financing and price flexibility. In January 1968, Alexander Dubček became First Secretary, launching "Socialism with a Human Face" (the Prague Spring).
 
-While Dubček sought democratic socialist renewal, the political opening allowed right-wing anti-communist factions to demand Western alignment and complete marketization. Concerned over NATO strategic encirclement and the collapse of Comecon military unity, Soviet and Warsaw Pact troops entered Czechoslovakia on August 21, 1968, halting the reform program. [1][2]`,
-      keyFigures: ['Alexander Dubček', 'Ota Šik', 'Leonid Brezhnev'],
-      citationIds: [1, 2],
+While framed as democratic socialist renewal, Dubček's reforms sought to replace central physical planning with enterprise profit mechanics, market pricing, and Western trade opening. Marxist-Leninist critics (including Enver Hoxha's critique in *Imperialism and the Revolution*) analyzed the 1968 reform wave as social-democratic revisionism that opened the door to capitalist restoration. On August 21, 1968, Soviet and Warsaw Pact troops entered Czechoslovakia to halt Dubček's reforms, reflecting inter-revisionist geopolitical rivalry and fear of Comecon military disintegration. [1][2]`
     },
     {
       id: 'czechoslovakia-normalization-husak',

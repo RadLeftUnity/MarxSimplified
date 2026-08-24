@@ -17,9 +17,9 @@ export const southYemenData: CountryData = {
 
   counterpartInfo: {
     id: 'yemen-modern',
-    name: 'Republic of Yemen (Modern State & Resistance)',
+    name: 'Republic of Yemen (Modern State and Resistance)',
     label: 'Modern Equivalent',
-    contrastText: 'Socialist South Yemen (1967–1990) was the Arab world\'s only Marxist state, guaranteeing women\'s rights & nationalizing Aden port, whereas modern Yemen suffered 1994 Northern capitalist annexation & a 2015-present US-Saudi invasion war.',
+    contrastText: 'Socialist South Yemen (1967–1990) was the Arab world\'s only Marxist state, guaranteeing women\'s rights and nationalizing Aden port, whereas modern Yemen suffered 1994 Northern capitalist annexation and a 2015-present US-Saudi invasion war.',
   },
 
   overviewText: `The People's Democratic Republic of Yemen (PDRY / South Yemen) was the only Marxist-Leninist socialist state in the history of the Arab world. Born out of a fierce 1963–1967 armed national liberation struggle against British colonial occupation in Aden, South Yemen established a revolutionary worker-peasant state that abolished feudal tribal landlordism, nationalized foreign banks and port monopolies, and achieved unprecedented gender equality and literacy across the Arabian Peninsula.
@@ -28,7 +28,7 @@ However, South Yemen faced continuous imperialist encirclement and severe econom
 
   contradictions: [
     "Ideological and tribal factional rivalries between Abdul Fattah Ismail and Ali Nasser Muhammad erupted into tragic armed conflict in January 1986, killing thousands of veteran Marxist cadre and crippling state cohesion.",
-    "Oman) and CIA-funded infiltrators, South Yemen was forced to divert scarce national revenue into border defense rather than desert irrigation and industrial development.",
+    "Facing continuous imperialist aggression from surrounding feudal monarchies (Saudi Arabia and Oman) and CIA-funded infiltrators, South Yemen was forced to divert scarce national revenue into border defense rather than desert irrigation and industrial development.",
     "The collapse of the USSR deprived PDRY of its primary trade partner. In 1990, North Yemen annexed the South, and the 1994 civil war saw Northern reactionary forces purge Yemeni socialist cadre and privatize southern state land."
   ],
 
@@ -47,15 +47,15 @@ However, South Yemen faced continuous imperialist encirclement and severe econom
   },
 
   quickFacts: [
-    { label: 'Only Arab Marxist State', value: 'Eradicated tribal feudalism & enacted most progressive women\'s rights law in Arab history [1]' },
+    { label: 'Only Arab Marxist State', value: 'Eradicated tribal feudalism and enacted most progressive women\'s rights law in Arab history [1]' },
     { label: 'Aden Armed Liberation', value: 'Defeated British colonial forces in 1967 Aden Emergency liberation war [2]' },
-    { label: '1990 Unification & 1994 War', value: 'Merged with North Yemen in 1990; Northern capitalist military victory privatized PDRY assets in 1994 [3]' },
+    { label: '1990 Unification and 1994 War', value: 'Merged with North Yemen in 1990; Northern capitalist military victory privatized PDRY assets in 1994 [3][4]' },
   ],
 
   timeline: [
     {
       id: 'southYemen-aden-liberation-nlf',
-      title: '1. 1967: The Radfan Armed Uprising & Anti-British Liberation',
+      title: '1. 1967: The Radfan Armed Uprising and Anti-British Liberation',
       period: '1963 – 1969',
       categoryTag: 'revolution',
       summary: 'NLF armed struggle in Aden; defeat of British colonial forces; declaration of independence.',
@@ -67,31 +67,31 @@ Through urban guerrilla warfare in Aden and rural peasant mobilization, the NLF 
     },
     {
       id: 'southYemen-marxist-constitution-women-rights',
-      title: '2. 1970: Proclamation of the PDRY & Radical Social Reforms',
+      title: '2. 1970: Proclamation of the PDRY and Radical Social Reforms',
       period: '1970 – 1978',
       categoryTag: 'policies',
       summary: 'Adopting Marxism-Leninism; 1974 Family Law guaranteeing women\'s equality; nationalizing Aden port.',
       details: `In June 1969, the left wing of the NLF came to power ("The Corrective Move"). On November 30, 1970, a new Marxist-Leninist Constitution proclaimed the People's Democratic Republic of Yemen (PDRY). The state nationalized foreign banks, insurance companies, and oil bunkering facilities at Aden Port.
 
-The PDRY executed radical land reform, redistributing estate lands belonging to ex-sultans to peasant cooperatives. In 1974, South Yemen enacted the most progressive Family Law in the Arab world: outlawing polygamy, forced marriages, and bride-price extortion, while guaranteeing women equal rights to divorce, employment, and political office. [1][2]`,
-      keyFigures: ['Salim Rubai Ali (Salmin)', 'Abdul Fattah Ismail'],
-      citationIds: [1, 2],
+The PDRY executed radical land reform, redistributing estate lands belonging to ex-sultans to peasant cooperatives. In 1974, South Yemen enacted the most progressive Family Law in the Arab world: outlawing polygamy, forced marriages, and bride-price extortion, while guaranteeing women equal rights to divorce, employment, and political office. [1][2][4]`,
+      keyFigures: ['Salim Rubai Ali (Salmin)', 'Abdul Fattah Ismail', 'Fred Halliday'],
+      citationIds: [1, 2, 4],
     },
     {
       id: 'southYemen-ysp-encirclement-1986-crisis',
-      title: '3. 1978: The YSP Founding, Saudi Encirclement & The Jan 1986 Factional Crisis',
+      title: '3. 1978: The YSP Founding, Saudi Encirclement and The Jan 1986 Factional Crisis',
       period: '1978 – 1986',
       categoryTag: 'challenges',
       summary: 'Founding of Yemeni Socialist Party; Saudi border conflict; tragic Jan 1986 YSP leadership armed conflict.',
       details: `In October 1978, anti-imperialist groups merged into the Yemeni Socialist Party (YSP) under General Secretary Abdul Fattah Ismail. South Yemen provided crucial rear-base support to the Dhofar Liberation Front fighting the British-backed Sultan of Oman and supported Palestinian PLO freedom fighters.
 
-In response, Saudi Arabia and the US financed North Yemeni border raids and tribal insurgencies. In January 1986, long-standing political and regional tensions within the YSP leadership erupted into a tragic 12-day armed clash in Aden between factions supporting Ali Nasser Muhammad and Abdul Fattah Ismail, resulting in thousands of casualties and weakening the party's cadre base. [2][3]`,
+In response, Saudi Arabia and the US financed North Yemeni border raids and tribal insurgencies. In January 1986, long-standing political and regional tensions within the YSP leadership erupted into a tragic 12-day armed clash in Aden between factions supporting Ali Nasser Muhammad and Abdul Fattah Ismail, resulting in thousands of casualties and weakening the party's cadre base. [2][3][4]`,
       keyFigures: ['Abdul Fattah Ismail', 'Ali Nasser Muhammad', 'Ali Salem al-Beidh'],
-      citationIds: [2, 3],
+      citationIds: [2, 3, 4],
     },
     {
       id: 'southYemen-1990-unification-1994-civil-war',
-      title: '4. 1990: Unification with North Yemen & The 1994 Capitalist Civil War',
+      title: '4. 1990: Unification with North Yemen and The 1994 Capitalist Civil War',
       period: '1990 – 1994',
       categoryTag: 'collapse-or-transition',
       summary: 'May 1990 unification with YAR; 1994 Civil War; Northern military victory privatizing PDRY assets.',
@@ -124,6 +124,13 @@ However, the Northern conservative regime systematically marginalized Southern p
       publisher: 'Cambridge University Press',
       year: '1997',
       excerpt: 'Statistical study of 1990 unification terms, 1994 war devastation, and Northern capitalist privatization.',
+    },
+    {
+      id: 4,
+      label: 'Revolution and Foreign Policy: The Case of South Yemen 1967–1987',
+      publisher: 'Fred Halliday / Cambridge University Press',
+      year: '1990',
+      excerpt: 'Pioneering Marxist political analysis of the South Yemeni revolution, worker-peasant social transformation, anti-imperialist solidarity, and the external pressures imposed by British-US-Saudi imperialist encirclement.',
     },
   ],
 };

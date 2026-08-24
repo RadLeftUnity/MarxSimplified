@@ -98,23 +98,23 @@ Under **Operation Cyclone**, Washington and Saudi Arabia funneled billions throu
       citationIds: [2, 3],
     },
     {
-      id: 'pakistan-1988-benazir-bhutto-imf-austerity',
-      title: '6. 1988 – 2007: Benazir Bhutto, Nawaz Sharif, IMF Structural Adjustment & Musharraf Rule',
+      id: 'pakistan-1988-benazir-bhutto-imf-austerity-nestle-water',
+      title: '6. 1988 – 2007: Benazir Bhutto, IMF Structural Adjustment and Nestlé Water Extraction',
       period: '1988 – 2007',
       categoryTag: 'challenges',
-      summary: '1988 Benazir Bhutto elected 1st female Muslim PM; 1999 Musharraf coup; IMF austerity programs.',
-      details: `In November 1988, **Benazir Bhutto** was elected Prime Minister, becoming the first female leader of a Muslim-majority nation.
+      summary: '1988 Benazir Bhutto elected 1st female Muslim PM; 1999 Musharraf coup; IMF austerity and Nestlé groundwater extraction.',
+      details: `In November 1988, **Benazir Bhutto** was elected Prime Minister, becoming the first female leader of a Muslim-majority nation. During the 1990s, political instability between Bhutto and Nawaz Sharif allowed the IMF to impose structural adjustment, privatizing state banks. In October 1999, General Pervez Musharraf seized power in a coup, joining George W. Bush's "War on Terror" in 2001.
 
-During the 1990s, political instability between Bhutto and Nawaz Sharif allowed the IMF to impose structural adjustment, privatizing state banks. In October 1999, General Pervez Musharraf seized power in a coup, joining George W. Bush's "War on Terror" in 2001. [3]`,
-      keyFigures: ['Benazir Bhutto (Assassinated in 2007)', 'Nawaz Sharif', 'Pervez Musharraf'],
-      citationIds: [3],
+Concurrently, Swiss corporate monopoly Nestlé established deep groundwater extraction factories in Bhati Dilwan, Punjab, to bottle and export Nestlé Pure Life water. Pumping millions of gallons of groundwater daily caused regional water tables to collapse, drying up municipal wells and forcing impoverished Pakistani villagers to consume contaminated surface water while Nestlé sold bottled water back at inflated prices. Supreme Court public interest litigation exposed Nestlé for extracting public groundwater without paying state royalties. [3][4]`,
+      keyFigures: ['Benazir Bhutto (Assassinated in 2007)', 'Nawaz Sharif', 'Pervez Musharraf', 'Nestlé Executives'],
+      citationIds: [3, 4],
     },
     {
       id: 'pakistan-2013-china-cpec-megaproject-gwadar',
-      title: '7. 2013 – 2018: The $62B China-Pakistan Economic Corridor (CPEC) & Gwadar Port',
+      title: '7. 2013 – 2018: The $62B China-Pakistan Economic Corridor (CPEC) and Gwadar Port',
       period: '2013 – 2018',
       categoryTag: 'successes',
-      summary: '2013 launch of CPEC flagship BRI project; China builds Gwadar deep-sea port, highways & power plants.',
+      summary: '2013 launch of CPEC flagship BRI project; China builds Gwadar deep-sea port, highways and power plants.',
       details: `In 2013, Pakistan and China launched the flagship Belt and Road Initiative project: the **$62 billion China-Pakistan Economic Corridor (CPEC)**.
 
 Chinese state enterprises constructed the deep-water Gwadar Port, the Karakoram Highway expansion, coal/hydro power plants adding 10,000MW to the national grid, and the Lahore Orange Line Metro train. [3][4]`,
@@ -123,7 +123,7 @@ Chinese state enterprises constructed the deep-water Gwadar Port, the Karakoram 
     },
     {
       id: 'pakistan-present-imran-khan-ouster-cpec-working-class',
-      title: '8. Present: Imran Khan 2022 Ouster, IMF Debt Crisis & Working-Class Resistance',
+      title: '8. Present: Imran Khan 2022 Ouster, IMF Debt Crisis and Working-Class Resistance',
       period: 'Present',
       categoryTag: 'challenges',
       summary: 'April 2022: Imran Khan ousted in parliamentary vote; acute IMF inflation; CPEC expansion.',

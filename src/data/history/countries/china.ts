@@ -18,17 +18,34 @@ export const chinaData: CountryData = {
   officialGovUrl: 'https://english.www.gov.cn/',
   overviewText: `Founded on October 1, 1949 under the leadership of Mao Zedong and the Communist Party of China (CPC), the People's Republic of China ended over a century of colonial subjugation, feudal landlordism, and imperialist partition known as the "Century of Humiliation."
 
-China represents the largest socialist construction project in human history, governed by the theory of the **Primary Stage of Socialism (社会主义初级阶段)**. Grounded in historical materialism (*Critique of the Gotha Programme*), the CPC recognized that an underdeveloped agrarian society cannot jump directly into higher-stage communism without first developing advanced industrial productive forces. Under this framework, China utilizes state-guided market mechanisms while maintaining 100% CPC political vanguard control and state-owned enterprise (SOE) dominance over the "strategic heights" of the economy (energy, banking, transport, telecommunications, and heavy industry).
+China represents the largest socialist construction project in human history, governed by the theory of **Socialism with Chinese Characteristics (SWCC)** and the **Primary Stage of Socialism (社会主义初级阶段)**. Grounded in historical materialism (*Critique of the Gotha Programme*), the CPC recognized that an underdeveloped agrarian society cannot jump directly into higher-stage communism without first developing advanced industrial productive forces. Under this framework, China utilizes state-guided market mechanisms while maintaining 100% CPC political vanguard control and state-owned enterprise (SOE) dominance over the "strategic heights" of the economy (energy, banking, transport, telecommunications, and heavy industry).
+
+**Internal CPC Political Trends and Ideological Consensus**:
+According to party consensus articulated under Xi Jinping Thought, Chinese political discourse is evaluated across **Four Broad Political Trends**:
+1. **"Ultra-left"**: Upholds the Mao era and Mao Zedong Thought, but rejects Deng Xiaoping's economic reforms and SWCC. Position: Must be profoundly re-examined.
+2. **"Left"**: Synthesizes and upholds both the Mao and Deng eras, Mao Zedong Thought, and SWCC. Position: Must be strongly promoted as the core party line.
+3. **"Right"**: Rejects Mao and Mao Zedong Thought, but upholds Deng Xiaoping's economic reforms. Position: Must be profoundly re-examined.
+4. **"Ultra-right"**: Rejects both the Mao and Deng eras, seeking capitalist restoration and Western alignment ("changing allegiance"). Position: Must be firmly opposed.
+
+The CPC holds that both Mao and Deng committed leftist and rightist errors respectively, but their overall historical contributions to Chinese socialism are immense and embraced. Critical tolerance is extended to Ultra-left and Right positions, whereas Ultra-right capitalist subversion is strictly unacceptable. This synthesis guides party schools, cadre discipline, and anti-corruption campaigns.
+
+**Multi-Stage Roadmap toward Communism (Cheng Enfu Theoretical Framework)**:
+Under CPC consensus and theoretical formulations (such as Professor Cheng Enfu's political economy model), China's socialist development follows a multi-stage evolution:
+- **0th Stage (1949–1977)**: Early Socialist Construction (New Democracy, basic industrialization, doubling life expectancy).
+- **Primary Stage (1978–2049)**: Developing advanced productive forces, ending absolute poverty (2020), and building a modern socialist country (2049).
+- **Intermediate Stage (2050–2099)**: Shifting from "common prosperity" to "common development," eliminating private capital monopolies, expanding social cooperative ownership, and running a state-dominated planned economy with secondary market adjustments.
+- **Advanced Stage (2100+) and Communism**: Single public ownership, product-based distribution according to labor (overcoming the commodity form), progressing toward full distribution according to need.
 
 To advance toward higher-stage socialism by the 2049 PRC Centenary, China is executing master plans for **technological self-reliance**. The breakthrough of **DeepSeek** (the open-weights AI model developed at a fraction of US tech monopoly costs) shattered Silicon Valley assumptions of US technological hegemony, demonstrating how open-source innovation under state planning outperforms speculative capitalist AI monopolies. China is also pioneering **semiconductor sovereignty** (Huawei, SMIC), **quantum computing** (Jiuzhang), **nuclear fusion** (EAST Artificial Sun), and **solar energy** (producing 80%+ of global solar panels). 
 
-**ML Analysis of Xinjiang & Ecological Civilization**:
+**ML Analysis of Xinjiang and Ecological Civilization**:
 Western imperialist media and NED front groups construct narratives of "forced labor" and "cultural genocide" targeting Xinjiang's solar polysilicon and cotton industries. From an ML, Maoist, and Dengist perspective:
-1. **Xinjiang & National Minority Policy**: Mao established China as a unified multi-ethnic state with constitutional regional autonomy for minority nationalities (Uighur language on RMB banknotes, schools, and TV). Faced with US-backed ETIM terrorist violence, China rejected the US military bombing model (which killed 1M+ Muslims across Iraq/Afghanistan), deploying vocational education, deradicalization, and targeted poverty alleviation. Over 100 foreign delegations (including the Organization of Islamic Cooperation - OIC) visited Xinjiang, commending China's anti-terrorism and human rights achievements.
-2. **Ecological Civilization (生态文明) & Mining**: Marx analyzed the capitalist "metabolic rift" between society and nature. Recognizing environmental contradictions, Xi Jinping established *Ecological Civilization* ("Lucid waters and lush mountains are invaluable assets"). While solar panel and battery production requires mineral mining in the short term, China's rare earth mining is managed by public SOEs under strict environmental reclamation and closed-loop recycling mandates, converting industrial capacity into clean energy to heal the planetary metabolic rift.`,
+1. **Xinjiang and National Minority Policy**: Mao established China as a unified multi-ethnic state with constitutional regional autonomy for minority nationalities (Uighur language on RMB banknotes, schools, and TV). Faced with US-backed ETIM terrorist violence, China rejected the US military bombing model (which killed 1M+ Muslims across Iraq/Afghanistan), deploying vocational education, deradicalization, and targeted poverty alleviation. Over 100 foreign delegations (including the Organization of Islamic Cooperation: OIC) visited Xinjiang, commending China's anti-terrorism and human rights achievements.
+2. **Ecological Civilization (生态文明) and Mining**: Marx analyzed the capitalist "metabolic rift" between society and nature. Recognizing environmental contradictions, Xi Jinping established *Ecological Civilization* ("Lucid waters and lush mountains are invaluable assets"). While solar panel and battery production requires mineral mining in the short term, China's rare earth mining is managed by public SOEs under strict environmental reclamation and closed-loop recycling mandates, converting industrial capacity into clean energy to heal the planetary metabolic rift.`,
 
   contradictions: [
     "The introduction of market mechanisms and private enterprise under Deng Xiaoping accelerated productive force growth and lifted 800 million out of poverty, yet created real class stratification, regional wealth gaps, and emerging capitalist elements. Western imperialist entities leverage international trade dependencies to pressure Beijing for further financial deregulation.",
+    "Rapid market expansion during the Deng era allowed graft, resumé-hunting cadres, Western idolization, and historical nihilism to metastasize during the Jiang Zemin (Shanghai Clique) and Hu Jintao administrations. Under Xi Jinping, the CPC launched aggressive anti-corruption campaigns, neutralized CIA espionage networks inside the state apparatus, and purged liberal elements to restore ideologically committed, vanguard leadership.",
     "Rapid price deregulation in the late 1980s induced high inflation, leading to student and worker protests. US intelligence apparatuses (CIA Operation Yellowbird) actively infiltrated these demonstrations to transform legitimate anti-inflation protests into a pro-capitalist color revolution attempt aimed at overthrowing CPC leadership.",
     "Private capital expansion created powerful tech conglomerates (Alibaba, Tencent) and real estate monopolies (Evergrande). Under Xi Jinping, the CPC launched aggressive anti-monopoly campaigns and Common Prosperity regulations, leading Western financial media to accuse Beijing of authoritarian interference in private markets.",
     "US militarization across the Taiwan Strait and Indo-Pacific (AUKUS, Quad), alongside tech export blockades on semiconductors, attempts to choke Chinese industrial modernization. The CPC counters by expanding Belt and Road Initiative (BRI) infrastructure and Global South trade partnerships."
@@ -81,7 +98,7 @@ With Soviet technical assistance, China launched its First Five-Year Plan (1953�
       period: '1956 – 1976',
       categoryTag: 'challenges',
       summary: 'Establishing People\'s Communes; Sino-Soviet Split; 1966 Great Proletarian Cultural Revolution; nuclear defense capability.',
-      details: `Seeking rapid transition to communism, the CPC launched the Great Leap Forward in 1958, organizing rural populations into People's Communes. Severe weather coupled with administrative errors caused agricultural disruptions during 1959–1961. Following ideological disagreements with Khrushchev's revisionism, the Sino-Soviet Split occurred in 1960.
+      details: `Seeking rapid transition to communism, the CPC launched the Great Leap Forward in 1958, organizing rural populations into People's Communes. Severe weather coupled with administrative errors (such as local cadres over-reporting harvest yields under quota pressure, excessive state grain procurement based on inflated statistics, diverting agricultural labor to backyard steel furnaces during harvest, and campaign-style pest eradication) caused agricultural disruptions during 1959–1961. These difficulties were compounded when Khrushchev abruptly withdrew Soviet technical experts and economic aid in 1960 following the Sino-Soviet Split.
 
 In 1966, Mao launched the Great Proletarian Cultural Revolution to combat bureaucratic tendencies and prevent revisionist capitalist restoration inside the party. During this era, China successfully tested its first hydrogen bomb (1967), launched its first satellite (1970), and regained its lawful seat at the United Nations (1971).`,
       keyFigures: ['Mao Zedong', 'Lin Biao', 'Jiang Qing'],
@@ -125,8 +142,46 @@ The CPC deployed 3 million+ cadre volunteers into rural villages for "Targeted P
       citationIds: [1, 2],
     },
     {
+      id: 'china-anti-corruption-party-discipline',
+      title: '8. 2012 – Present: Party Discipline, Anti-Corruption Campaign & Purging Historical Nihilism',
+      period: '2012 – Present',
+      categoryTag: 'policies',
+      summary: 'Eliminating widespread graft; dismantling CIA spy networks; purging historical nihilism and liberal resumé-hunters.',
+      details: `Assuming CPC leadership in 2012, Xi Jinping launched the largest anti-corruption and party consolidation campaign in modern Chinese history. Decades of rapid market expansion during the Deng era had created room for graft, liberal opportunism, resumé-hunting cadres, and historical nihilism toward CPC achievements, particularly during the Jiang Zemin and Hu Jintao administrations.
+
+**Ideological and Institutional Cleansing**:
+1. **Eradicating Corruption**: The CPC investigated over 4.7 million party members, prosecuting high-ranking corrupt officials ("tigers") and local embezzlers ("flies") across regions like Shanxi, reclaiming state resources and enforcing strict cadre discipline.
+2. **Neutralizing Western Espionage**: Security organs completely dismantled CIA spy networks inside party and state institutions, eliminating asset recruitment and stopping Western intelligence infiltration.
+3. **Combating Historical Nihilism**: The party purged Western idolization, liberal defeatism, and historical nihilism that sought to slander the Mao and Deng eras. Ideological commitment was restored, prioritizing true believers who uphold vanguard socialist principles over Western-educated compradors. [1][4]`,
+      keyFigures: ['Xi Jinping', 'Wang Qishan', 'Zhao Leji'],
+      citationIds: [1, 4],
+    },
+    {
+      id: 'china-four-trends-socialist-stages',
+      title: '9. 2017 – Present: 19th CPC Congress, The Four Political Trends & Multi-Stage Socialist Roadmap',
+      period: '2017 – Present',
+      categoryTag: 'successes',
+      summary: '19th Congress declares New Era; Left consensus synthesis; 2021-2035 high-tech industrial transformation; intermediate stage 2050-2099.',
+      details: `At the 19th CPC National Congress in 2017, a New Era of Socialism with Chinese Characteristics was declared. Central to CPC ideological clarity is the formal recognition of **Four Broad Political Trends**:
+- **Ultra-left**: Upholds Mao and Mao Zedong Thought, but rejects Deng's reforms and SWCC. (Position: Must be profoundly re-examined).
+- **Left**: Synthesizes and upholds both the Mao and Deng eras, Mao Zedong Thought, and SWCC. (Position: Must be strongly promoted as party consensus).
+- **Right**: Rejects Mao and Mao Zedong Thought, but upholds Deng. (Position: Must be profoundly re-examined).
+- **Ultra-right**: Rejects both Mao and Deng, seeking capitalist restoration ("changing allegiance"). (Position: Must be firmly opposed).
+
+**The 2021–2035 High-Tech Industrial Plan**:
+To avoid the middle-income trap and resist US tech blockades, China's 2021–2035 strategy focuses on building a high-income, innovative, and self-reliant manufacturing economy (analogous to high-complexity industrial outputs in Germany and Japan rather than US/UK financialized deindustrialization).
+
+**Cheng Enfu Framework of Socialist Stages**:
+Chinese Marxist political economists (such as Prof. Cheng Enfu) define the theoretical trajectory:
+- **Primary Stage (1978–2049)**: Developing productive forces, achieving Xiaokang (2020), and building a modern socialist state by the 2049 PRC Centenary.
+- **Intermediate Stage (2050–2099)**: Transitioning from "common prosperity" to "common development," replacing private monopolies with state, cooperative, and joint-stock ownership, and operating a state-dominated planned economy with secondary market adjustments.
+- **Advanced Stage (2100+) and Communism**: Single public ownership, product-based distribution according to labor (abolishing the commodity form), and eventual transition to distribution according to need. [1][4]`,
+      keyFigures: ['Xi Jinping', 'Cheng Enfu', 'Wang Huning'],
+      citationIds: [1, 4],
+    },
+    {
       id: 'china-xinjiang-anti-imperialism',
-      title: '8. 2014 – Present: Xinjiang Anti-Terrorism (ETIM), National Minority Rights & Resisting US Sanctions',
+      title: '10. 2014 – Present: Xinjiang Anti-Terrorism (ETIM), National Minority Rights & Resisting US Sanctions',
       period: '2014 – Present',
       categoryTag: 'successes',
       summary: 'Deradicalization & targeted poverty alleviation vs ETIM terrorism & US "forced labor" hybrid warfare.',
@@ -143,7 +198,7 @@ The CPC deployed 3 million+ cadre volunteers into rural villages for "Targeted P
     },
     {
       id: 'china-deepseek-tech-race',
-      title: '9. 2021 – Present: DeepSeek AI Breakthrough, Quantum Computing & Ecological Civilization',
+      title: '11. 2021 – Present: DeepSeek AI Breakthrough, Quantum Computing & Ecological Civilization',
       period: '2021 – Present',
       categoryTag: 'successes',
       summary: 'DeepSeek open-weights AI model shatters US tech monopoly; semiconductor sovereignty & Ecological Civilization.',
@@ -158,7 +213,7 @@ Marx analyzed the capitalist "metabolic rift" between humanity and nature. Under
     },
     {
       id: 'china-anti-imperialist-solidarity',
-      title: '10. 2021 – Present: Belt & Road in Africa, South-South Anti-Imperialist Aid & Multipolarity',
+      title: '12. 2021 – Present: Belt & Road in Africa, South-South Anti-Imperialist Aid & Multipolarity',
       period: '2021 – Present',
       categoryTag: 'successes',
       summary: 'Direct aid to blockaded states (Cuba, Venezuela, DPRK); BRI across Africa; secondary contradictions vs primary anti-imperialist task.',
