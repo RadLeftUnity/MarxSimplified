@@ -136,6 +136,15 @@ export const feudalismTerms: GlossaryTerm[] = [
     "misconception": "Believing slavery was an outdated pre-capitalist anomaly unrelated to modern capitalism, rather than the violent primary engine of wealth accumulation that launched global capitalist industrialization.",
     "example": "Eighteenth-century British merchant shipping cartels and sugar plantation owners accumulating massive profits from uncompensated enslaved labor, which was then invested in Lancashire textile factories and City of London banks.",
     "theoryTags": ["Pre-Capitalist Modes", "Classical Marxism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Khodynka Tragedy",
+    "pattern": "khodynka tragedy|khodynka stampede|khodynka meadow|nicholas the bloody",
+    "definition": "A catastrophic stampede that occurred on May 18, 1896, at Khodynka Meadow near Moscow during the coronation celebrations of Tsar Nicholas II. Over 500,000 impoverised peasants and workers gathered expecting free food gifts, pretzels, and beer. Rumors of food shortages sparked a panicked crush in unpaved ditches, killing 1,389 people and injuring over 1,300. Tsar Nicholas II's callous decision to attend a lavish royal ball that evening earned him the nickname 'Nicholas the Bloody' and catalyzed widespread revolutionary anti-Tsarist sentiment.",
+    "misconception": "That the tragedy was an unpredictable accident. The event demonstrated the Tsarist autocracy's systemic negligence toward working-class lives and extreme poverty.",
+    "example": "Russian workers organizing anti-Tsarist strikes citing the Khodynka Meadow disaster and royal extravagance as proof of autocratic corruption.",
+    "theoryTags": ["Pre-Capitalist Modes", "Classical Marxism"]
   }
 ];
+
 

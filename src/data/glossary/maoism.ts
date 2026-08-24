@@ -48,5 +48,14 @@ export const maoistTerms: GlossaryTerm[] = [
     "misconception": "Capitalist democracy. New Democracy is an explicit anti-imperialist alliance led by the working class, not a permanent capitalist parliamentary state.",
     "example": "A national liberation front bringing small shopkeepers and agrarian peasants together under worker leadership to expel foreign corporate monopolies.",
     "theoryTags": ["Maoism"]
+  },
+  {
+    "term": "Great Leap Forward",
+    "pattern": "great leap forward|the great leap forward|great leap",
+    "definition": "Launched by the CPC in 1958 under Mao Zedong, an economic and social campaign intended to rapidly transform China from an agrarian society into an industrialized socialist economy through rural collectivization into People's Communes and mass labor mobilization. The campaign encountered severe agricultural disruptions during 1959–1961 caused by a combination of severe natural disasters (floods and droughts) and key administrative errors: competitive over-reporting of harvest yields by local cadres, excessive state grain procurements based on inflated statistics, diverting agricultural labor to backyard steel production during harvest season, ecological imbalances from campaign-style pest eradication, and the abrupt 1960 withdrawal of Soviet technical experts during the Sino-Soviet Split.",
+    "misconception": "That the 1959–1961 famine was an intentionally engineered genocide or an inherent failure of socialist economic planning, ignoring severe natural disasters, local bureaucratic reporting distortions, the abrupt rupture of Soviet aid, and the subsequent policy adjustments (such as devolving accounting units to production teams) that restored agricultural production.",
+    "example": "Analyzing the 1959–1961 agricultural crisis during the Great Leap Forward to understand how local cadre over-reporting and excessive state procurements misinformed central planning.",
+    "theoryTags": ["Maoism", "Marxism-Leninism"]
   }
 ];
+

@@ -18,9 +18,9 @@ export const dominicaData: CountryData = {
   officialGovUrl: 'https://dominica.gov.dm/',
   overviewText: `Dominica represents a resilient Caribbean island nation forged through indigenous Kalinago land defense, escaped slave Maroon resistance (Chief Jacko), anti-colonial labor struggles, and modern anti-imperialist Global South solidarity.
 
-Dominica's mountainous terrain allowed indigenous Kalinago populations to resist European colonization longer than on any other Caribbean island. Following British annexation in 1763, escaped enslaved Africans established autonomous mountain communities in the dense rainforests, led by Maroon leaders Chief Jacko and Balla, waging decades of armed resistance against British sugar planters. In 1932, Roseau hosted the historic West Indian Conference, demanding Caribbean self-determination and universal suffrage.
+Under British colonial rule, Dominica was exploited as a sugar and lime plantation economy, which was later converted into a banana monocrop economy ("Green Gold"). Controlled by British shipping cartels like the Geest Line, banana monocropping destroyed domestic food cultivation, creating severe vulnerability to global price shocks and US corporate banana wars under the World Trade Organization. Dominica's mountainous terrain enabled escaped enslaved Africans to establish autonomous mountain communities in dense rainforests, led by Maroon leaders Chief Jacko and Balla, who waged decades of armed resistance against British sugar planters. In 1932, Roseau hosted the historic West Indian Conference, demanding Caribbean self-determination and universal suffrage.
 
-Following full independence on November 3, 1978, Dominica defeated a bizarre 1981 US white supremacist mercenary coup plot (Operation Red Dog / Ku Klux Klan). Under Prime Minister Roosevelt Skerrit and the Dominica Labour Party (DLP), Dominica joined the Bolivarian Alliance for the Peoples of Our America (ALBA) in 2008, building anti-imperialist partnerships with Venezuela and Cuba, resisting US coercion, and developing eco-resilience against climate-induced hurricanes.`,
+Following full independence on November 3, 1978, Dominica defeated a bizarre 1981 US white supremacist mercenary coup plot (Operation Red Dog and Ku Klux Klan). Under Prime Minister Roosevelt Skerrit and the Dominica Labour Party (DLP), Dominica joined the Bolivarian Alliance for the Peoples of Our America (ALBA) in 2008, building anti-imperialist partnerships with Venezuela and Cuba, resisting US coercion, and developing eco-resilience against climate-induced hurricanes.`,
 
   contradictions: [
     "Joining the anti-imperialist ALBA alliance alongside Venezuela and Cuba expanded public housing and infrastructure aid, yet invited economic coercion and diplomatic pressure from US imperialist state agencies.",
@@ -31,27 +31,27 @@ Following full independence on November 3, 1978, Dominica defeated a bizarre 198
 
   quickFacts: [
     { label: 'Maroon Mountain Sovereignty', value: 'Chief Jacko led escaped slaves in decades of armed resistance against British sugar planters [1]' },
-    { label: '1932 Roseau West Indian Conference', value: 'Historic conference in Roseau demanding Caribbean self-determination & universal suffrage [2]' },
+    { label: '1932 Roseau West Indian Conference', value: 'Historic conference in Roseau demanding Caribbean self-determination and universal suffrage [2]' },
     { label: '1981 KKK Mercenary Coup Defeated', value: 'Defeated Operation Red Dog: a plot by US Ku Klux Klan mercenaries to overthrow the state [3]' },
-    { label: 'ALBA Anti-Imperialist Alliance', value: 'Joined ALBA in 2008, partnering with Venezuela & Cuba for regional sovereignty [4]' },
+    { label: 'ALBA Anti-Imperialist Alliance', value: 'Joined ALBA in 2008, partnering with Venezuela and Cuba for regional sovereignty [4]' },
   ],
 
   timeline: [
     {
       id: 'dominica-pre-1763-kalinago-indigenous-resistance',
-      title: '1. Pre-1763: Kalinago Indigenous Resistance & The Carib Territory Settlement',
+      title: '1. Pre-1763: Kalinago Indigenous Resistance and The Carib Territory Settlement',
       period: 'Pre-1763',
       categoryTag: 'pre-revolution',
-      summary: 'Indigenous Kalinago defend mountainous Waitukubuli against Spanish & French colonization.',
+      summary: 'Indigenous Kalinago defend mountainous Waitukubuli against Spanish and French colonization.',
       details: `Prior to European invasion, the island was called Waitukubuli ("Tall is her body") by the indigenous Kalinago people. Dominica's steep volcanic mountains and dense rainforests enabled the Kalinago to fiercely defend their land, forcing France and Britain to declare Dominica a "neutral island" in 1748.
 
-Although European diseases and military violence reduced their numbers, the Kalinago secured 3,700 acres of land on the windward coast (the Kalinago Territory), preserving indigenous communal land governance to this day. [1]` ,
+Although European diseases and military violence reduced their numbers, the Kalinago secured 3,700 acres of land on the windward coast (the Kalinago Territory), preserving indigenous communal land governance to this day. [1]`,
       keyFigures: ['Kalinago Chiefs', 'Chief Warner'],
       citationIds: [1],
     },
     {
       id: 'dominica-1763-british-sugar-maroon-jacko',
-      title: '2. 1763 – 1814: British Sugar Colonialism & Chief Jacko\'s Maroon Mountain Resistance',
+      title: '2. 1763 – 1814: British Sugar Plantation Monoculture and Chief Jacko\'s Maroon Mountain Resistance',
       period: '1763 – 1814',
       categoryTag: 'revolution',
       summary: 'British establish sugar plantations; Chief Jacko leads Maroon mountain communities against planters.',
@@ -123,13 +123,13 @@ During the 1990s, US-backed World Trade Organization (WTO) rulings dismantled pr
     },
     {
       id: 'dominica-present-skerrit-labour-alba-climate-resilience',
-      title: '8. Present: Roosevelt Skerrit Labour Government, ALBA Regional Integration & Climate Resilience',
+      title: '8. Present: Roosevelt Skerrit Labour Government, ALBA Regional Integration and Climate Resilience',
       period: 'Present',
       categoryTag: 'challenges',
-      summary: 'PM Roosevelt Skerrit joins ALBA (2008); alliance with Venezuela & Cuba; building climate-resilient state.',
-      details: `Since 2004, Prime Minister **Roosevelt Skerrit** and the Dominica Labour Party (DLP) have governed Dominica. In 2008, Dominica officially joined the **ALBA** alliance, securing Petrocaribe energy assistance, healthcare medical brigades from Cuba, and infrastructure aid from Venezuela and China.
+      summary: 'PM Roosevelt Skerrit joins ALBA (2008); alliance with Venezuela and Cuba; resisting climate debt traps.',
+      details: `Since 2004, Prime Minister **Roosevelt Skerrit** and the Dominica Labour Party (DLP) have governed Dominica. In 2008, Dominica officially joined the **ALBA** anti-imperialist alliance, securing Petrocaribe energy assistance, healthcare medical brigades from Cuba, and infrastructure development from Venezuela and China.
 
-Following the devastating impact of Category 5 Hurricane Maria in 2017 (which destroyed 226% of GDP), Skerrit pledged to build the world's first fully climate-resilient nation, maintaining an anti-imperialist foreign policy that opposes foreign interference in Latin America and the Caribbean. [4]`,
+However, Dominica remains severely impacted by climate imperialism and global trade destruction. The 1990s US corporate WTO banana rulings destroyed smallholder banana farming, driving rural poverty. In September 2017, Category 5 Hurricane Maria struck Dominica, destroying two hundred and twenty-six percent of national GDP in a single night. Rebuilding destroyed public infrastructure forced Dominica to incur heavy debt obligations to international commercial lenders, illustrating how small island states are trapped in climate-induced debt cycles caused by Western carbon emissions. Prime Minister Skerrit maintains an anti-imperialist foreign policy opposing foreign intervention, demanding global climate reparations and international financial reform. [4]`,
       keyFigures: ['Roosevelt Skerrit', 'Hugo Chávez', 'Fidel Castro'],
       citationIds: [4],
     },

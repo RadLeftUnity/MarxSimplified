@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import type { Annotation } from './ChapterReader';
 import { BookOpen, Sparkles, History, MessageCircle, HelpCircle } from 'lucide-react';
 import { FormattedText } from './FormattedText';
-
+import { CopyImageButton } from './CopyImageButton';
+import { generateAnnotationCardCanvas } from '../utils/shareCardCanvas';
 
 interface AnnotationSidebarProps {
   annotations: Annotation[];
@@ -10,6 +11,10 @@ interface AnnotationSidebarProps {
   onSelectAnnotation: (id: string | null) => void;
   chapterSummary?: string;
   onSelectTopicTag?: (topic: string) => void;
+  bookTitle?: string;
+  author?: string;
+  coverGradient?: string;
+  authorImageUrl?: string;
 }
 
 export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
@@ -18,6 +23,10 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
   onSelectAnnotation,
   chapterSummary,
   onSelectTopicTag,
+  bookTitle,
+  author,
+  coverGradient,
+  authorImageUrl,
 }) => {
   const [activeTab, setActiveTab] = useState<'highlights' | 'summary'>('highlights');
 
@@ -89,9 +98,24 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                 onClick={() => onSelectAnnotation(annId)}
               >
                 <div className="annotation-card-section quote-section">
-                  <span className="section-label">
-                    <MessageCircle className="section-icon" /> Original Text
-                  </span>
+                  <div className="annotation-card-header-flex" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
+                    <span className="section-label" style={{ marginBottom: 0 }}>
+                      <MessageCircle className="section-icon" /> Original Text
+                    </span>
+                    <CopyImageButton
+                      id={`copy-ann-${annId}`}
+                      onGenerateCanvas={() =>
+                        generateAnnotationCardCanvas({
+                          bookTitle: bookTitle || 'Marxist Reader',
+                          author: author || 'Karl Marx',
+                          targetText: ann.targetText,
+                          explanation: ann.explanation || ann.summary || '',
+                          coverGradient,
+                          authorImageUrl,
+                        })
+                      }
+                    />
+                  </div>
                   <blockquote className="original-quote">
                     {ann.targetText}
                   </blockquote>

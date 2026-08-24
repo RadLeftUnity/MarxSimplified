@@ -30,19 +30,19 @@ In recent decades, Nigeria has established major economic partnerships with Chin
   ],
 
   quickFacts: [
-    { label: 'Colonial Divide & Amalgamation (1914)', value: 'Lord Lugard merged distinct Northern, Western & Eastern regions for British profit [1]' },
-    { label: 'Biafran Civil War (1967-1970)', value: '1M+ deaths in civil war fueled by inter-ethnic elite rivalries & foreign oil cartels [2]' },
-    { label: 'China-Nigeria BRI & Currency Swap', value: '$1.5B Lekki Port, railways & Naira-Yuan currency swap to bypass US dollar [3]' },
-    { label: 'US "Save Christians" Geopolitical Push', value: 'Trump & US lobbies frame Sahelian land wars as religious crusade to counter China [4]' },
+    { label: 'Colonial Divide and Amalgamation (1914)', value: 'Lord Lugard merged distinct Northern, Western and Eastern regions for British profit [1]' },
+    { label: 'Biafran Civil War (1967-1970)', value: '1M+ deaths in civil war fueled by inter-ethnic elite rivalries and foreign oil cartels [2]' },
+    { label: 'China-Nigeria BRI and Currency Swap', value: '$1.5B Lekki Port, railways and Naira-Yuan currency swap to bypass US dollar [3]' },
+    { label: 'US "Save Christians" Geopolitical Push', value: 'Trump and US lobbies frame Sahelian land wars as religious crusade to counter China [4]' },
   ],
 
   timeline: [
     {
       id: 'nigeria-1897-benin-massacre-1914-amalgamation',
-      title: '1. 1897 – 1914: Royal Niger Company Monopoly, 1897 Benin Massacre & 1914 Amalgamation',
+      title: '1. 1897 – 1914: Royal Niger Company Monopoly, 1897 Benin Massacre and 1914 Amalgamation',
       period: '1897 – 1914',
       categoryTag: 'pre-revolution',
-      summary: '1897 British sacking of Benin; 1914 Lord Lugard amalgamates Northern, Western & Eastern regions.',
+      summary: '1897 British sacking of Benin; 1914 Lord Lugard amalgamates Northern, Western and Eastern regions.',
       details: `In 1897, a British naval expedition invaded the Kingdom of Benin, burning the city and looting thousands of sacred Benin Bronzes (which remain in Western museums).
 
 In 1914, British Governor-General Lord Frederick Lugard forcibly merged the Northern and Southern Protectorates into a single colony. Lugard instituted "Indirect Rule," preserving feudal emirate structures in the North while enforcing appointed Warrant Chiefs in the East, deliberately fostering regional and ethnic divisions to prevent unified anti-colonial class organizing. [1]`,
@@ -51,7 +51,7 @@ In 1914, British Governor-General Lord Frederick Lugard forcibly merged the Nort
     },
     {
       id: 'nigeria-1929-aba-women-1949-enugu-massacre',
-      title: '2. 1929 – 1949: The 1929 Aba Women\'s War & The 1949 Enugu Coal Miners\' Massacre',
+      title: '2. 1929 – 1949: The 1929 Aba Women\'s War and The 1949 Enugu Coal Miners\' Massacre',
       period: '1929 – 1949',
       categoryTag: 'revolution',
       summary: '1929 Aba Women\'s War destroys colonial tax offices; Nov 1949 colonial police shoot 21 Enugu miners.',
@@ -63,7 +63,7 @@ On November 18, 1949, colonial police shot dead 21 striking coal miners at the I
     },
     {
       id: 'nigeria-1960-independence-first-republic-ethnic-crisis',
-      title: '3. 1960 – 1966: October 1, 1960 Independence & Inter-Regional Bourgeois Contradictions',
+      title: '3. 1960 – 1966: October 1, 1960 Independence and Inter-Regional Bourgeois Contradictions',
       period: '1960 – 1966',
       categoryTag: 'policies',
       summary: 'Oct 1, 1960 Independence; regional political parties (NPC North, AG West, NCNC East) trigger 1966 coup.',
@@ -75,7 +75,7 @@ The British colonial legacy left a deeply fragmented political system dominated 
     },
     {
       id: 'nigeria-1967-biafran-civil-war-oil-rivalry',
-      title: '4. 1967 – 1970: The Devastating Biafran Civil War & Imperialist Oil Cartel Rivalry',
+      title: '4. 1967 – 1970: The Devastating Biafran Civil War and Imperialist Oil Cartel Rivalry',
       period: '1967 – 1970',
       categoryTag: 'challenges',
       summary: '1967-1970 Biafran War; imperialist powers (UK, USSR, France) back opposing sides for Niger Delta oil access.',
@@ -86,20 +86,20 @@ Imperialist powers intervened to secure Niger Delta petroleum concessions: Great
       citationIds: [2, 3],
     },
     {
-      id: 'nigeria-1970-shell-oil-boom-fela-kuti-resistance',
-      title: '5. 1970s – 1980s: Shell-BP Oil Boom, Military Rule & Fela Kuti\'s Anti-Imperialist Music',
+      id: 'nigeria-1970s-shell-oil-boom-nestle-milk-nurses',
+      title: '5. 1970s – 1980s: Shell Oil Extraction, Nestlé Milk Nurse Scandal and Anti-Imperialist Culture',
       period: '1970s – 1980s',
       categoryTag: 'policies',
-      summary: '1970s petro-dollar boom; Shell extracts Niger Delta oil; Fela Kuti organizes popular anti-imperialist culture.',
-      details: `During the 1970s oil boom, Nigeria joined OPEC, earning tens of billions in petro-dollars. However, revenue was embezzled by military regimes (Gowon, Obasanjo, Babangida) and foreign oil cartels (Shell, Chevron).
+      summary: '1970s petro-dollar boom; Shell extracts Niger Delta oil; Nestlé milk nurse infant formula scandal; Fela Kuti music.',
+      details: `During the 1970s oil boom, oil revenue was embezzled by military regimes and foreign energy cartels (Shell, Chevron). Concurrently, Swiss corporate monopoly Nestlé aggressively targeted Nigerian mothers with infant formula advertising using sales reps in medical uniforms ("milk nurses"). Free formula samples caused lactating mothers to lose breast milk, forcing them to buy formula. Diluting formula with unsterilized water due to lack of clean water infrastructure led to widespread infant diarrhea, severe malnutrition, and infant deaths, driving the global Nestlé boycott and the 1981 WHO Infant Formula Marketing Code.
 
-Afrobeat creator **Fela Kuti** used his Kalakuta Republic compound and music to expose Western imperialism, corporate corruption, and military brutality, suffering violent military raids (such as the 1977 destruction of Kalakuta and murder of his mother Funmilayo). [3]`,
-      keyFigures: ['Fela Kuti', 'Olusegun Obasanjo', 'Murtala Mohammed'],
+Afrobeat creator **Fela Kuti** used his Kalakuta Republic compound and music to expose Western imperialism, corporate monopolies, and military brutality, suffering violent military raids (including the 1977 destruction of Kalakuta). [3]`,
+      keyFigures: ['Fela Kuti', 'Olusegun Obasanjo', 'Murtala Mohammed', 'Nestlé Executives'],
       citationIds: [3],
     },
     {
       id: 'nigeria-1990-abacha-dictatorship-ken-saro-wiwa-ogoni',
-      title: '6. 1990 – 1995: Sani Abacha Dictatorship & Execution of Ken Saro-Wiwa (Ogoni 9)',
+      title: '6. 1990 – 1995: Sani Abacha Dictatorship and Execution of Ken Saro-Wiwa (Ogoni 9)',
       period: '1990 – 1995',
       categoryTag: 'challenges',
       summary: 'General Sani Abacha dictatorship; Nov 10, 1995 execution of Ken Saro-Wiwa to protect Shell oil profits.',
@@ -111,10 +111,10 @@ In the Niger Delta, writer **Ken Saro-Wiwa** led the Movement for the Survival o
     },
     {
       id: 'nigeria-2018-china-belt-and-road-lekki-currency-swap',
-      title: '7. 2018 – 2020: China Belt and Road Partnership, Lekki Port & The #EndSARS Uprising',
+      title: '7. 2018 – 2020: China Belt and Road Partnership, Lekki Port and The #EndSARS Uprising',
       period: '2018 – 2020',
       categoryTag: 'successes',
-      summary: 'Nigeria joins China\'s Belt and Road Initiative; $1.5B Lekki Port & Naira-Yuan currency swap; Oct 2020 #EndSARS.',
+      summary: 'Nigeria joins China\'s Belt and Road Initiative; $1.5B Lekki Port and Naira-Yuan currency swap; Oct 2020 #EndSARS.',
       details: `In 2018, Nigeria formally joined China's Belt and Road Initiative (BRI), signing major infrastructure pacts: the $1.5 billion Lekki Deep Sea Port, the Lagos-Ibadan standard gauge railway, and a $2.5 billion Naira-Yuan currency swap agreement with the People's Bank of China to bypass US dollar transaction fees.
 
 In October 2020, nationwide youth uprisings erupted under the banner **#EndSARS**, protesting police extrajudicial killings. On October 20, 2020, military forces opened fire on peaceful protesters at the Lekki Toll Gate in Lagos. [4]`,
@@ -123,10 +123,10 @@ In October 2020, nationwide youth uprisings erupted under the banner **#EndSARS*
     },
     {
       id: 'nigeria-present-us-trump-save-christians-farmer-herder',
-      title: '8. Present: US "Save Christians" Narrative vs China BRI & Working-Class Anti-Austerity',
+      title: '8. Present: US "Save Christians" Narrative vs China BRI and Working-Class Anti-Austerity',
       period: 'Present',
       categoryTag: 'challenges',
-      summary: 'Trump & US lobbies weaponize religious narrative over Sahel land wars; IMF fuel subsidy removal strikes.',
+      summary: 'Trump and US lobbies weaponize religious narrative over Sahel land wars; IMF fuel subsidy removal strikes.',
       details: `In response to expanding Chinese infrastructure partnerships in Nigeria, right-wing US political figures (led by Donald Trump and US evangelical lobbies) launched a "Save Nigerian Christians" crusade, threatening sanctions and placing Nigeria on the US "Country of Particular Concern" list.
 
 This Western religious narrative deliberately reframes complex farmer-herder resource conflicts (caused by Sahelian desertification and climate change) as a purely religious war. This framing serves as imperialist leverage to counter Chinese economic influence and justify US AFRICOM military involvement. Domestically, President Bola Tinubu implemented IMF-mandated fuel subsidy removals and currency floatation, sparking massive nationwide general strikes led by the Nigeria Labour Congress (NLC). [3][4]`,

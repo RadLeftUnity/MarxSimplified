@@ -86,20 +86,20 @@ The junta murdered Nkrumah's guards, suspended the constitution, outlawed the CP
       citationIds: [3],
     },
     {
-      id: 'ghana-1967-military-regimes-economic-crisis',
-      title: '5. 1967 – 1978: Military Regimes, Economic Dislocation & IMF Neoliberal Pressure',
+      id: 'ghana-1967-military-regimes-cocoa-monopsony-nestle',
+      title: '5. 1967 – 1978: Military Regimes, IMF Austerity and Nestlé Cocoa Monopsony',
       period: '1967 – 1978',
       categoryTag: 'challenges',
-      summary: 'Unstable military juntas (SMC); falling cocoa prices; severe food inflation & corruption.',
-      details: `Between 1967 and 1978, Ghana suffered under unstable military regimes (Kofi Busia, Ignatius Kutu Acheampong's Supreme Military Council).
+      summary: 'Unstable military juntas; falling cocoa prices; Nestlé monopsony purchasing power and IMF austerity.',
+      details: `Between 1967 and 1978, Ghana suffered under unstable military regimes (Kofi Busia, Ignatius Kutu Acheampong's Supreme Military Council). Following the 1966 overthrow of Kwame Nkrumah, Swiss corporate monopoly Nestlé and Western food cartels established dominant monopsony purchasing power over Ghanaian cocoa exports. Buying raw cocoa beans at depressed global prices while capturing billions in European chocolate manufacturing, Nestlé relied on supply chains where forced child labor and extreme peasant poverty were widespread, leaving Ghanaian farming communities impoverished.
 
-Collapse in world cocoa prices, coupled with corrupt hoarding ("kalabule") and IMF-forced currency devaluations, created hyperinflation, severe food shortages, and massive working-class impoverishment across Ghana. [3][4]`,
-      keyFigures: ['Ignatius Kutu Acheampong', 'Kofi Abrefa Busia', 'Fred Akuffo'],
-      citationIds: [3, 4],
+Collapse in world cocoa prices, coupled with corrupt hoarding ("kalabule") and IMF-forced currency devaluations, created hyperinflation and severe food shortages across Ghana. [2][3][4]`,
+      keyFigures: ['Ignatius Kutu Acheampong', 'Kofi Abrefa Busia', 'Fred Akuffo', 'Nestlé Executives'],
+      citationIds: [2, 3, 4],
     },
     {
       id: 'ghana-1979-rawlings-afrc-uprising',
-      title: '6. 1979 – 1981: Jerry Rawlings & The Armed Forces Revolutionary Council (AFRC) Uprising',
+      title: '6. 1979 – 1981: Jerry Rawlings and The Armed Forces Revolutionary Council (AFRC) Uprising',
       period: '1979 – 1981',
       categoryTag: 'revolution',
       summary: 'June 1979: Flight Lieutenant Jerry Rawlings leads junior officers uprising; executing corrupt generals.',
@@ -111,7 +111,7 @@ The AFRC executed corrupt military generals, confiscated hoarded goods, and held
     },
     {
       id: 'ghana-1982-pndc-neoliberal-structural-adjustment',
-      title: '7. 1982 – 1999: PNDC Era, Neoliberal Structural Adjustment & Return to Multi-Party Democracy',
+      title: '7. 1982 – 1999: PNDC Era, Neoliberal Structural Adjustment and Return to Multi-Party Democracy',
       period: '1982 – 1999',
       categoryTag: 'policies',
       summary: 'PNDC adopts IMF Economic Recovery Program (ERP); 1992 return to multi-party constitutional democracy.',
@@ -123,10 +123,10 @@ In 1992, Ghana adopted a new constitution, transitioning to multi-party democrac
     },
     {
       id: 'ghana-present-gold-extraction-imf-debt-nkrumaism',
-      title: '8. Present: Western Mining Cartel Extraction, IMF Debt Traps & Nkrumaist Resurgence',
+      title: '8. Present: Western Mining Cartel Extraction, IMF Debt Traps and Nkrumaist Resurgence',
       period: 'Present',
       categoryTag: 'challenges',
-      summary: '$3B+ IMF bailout (2023); gold & cocoa wealth extracted by foreign cartels; growing youth Nkrumaism.',
+      summary: '$3B+ IMF bailout (2023); gold and cocoa wealth extracted by foreign cartels; growing youth Nkrumaism.',
       details: `Today, despite being Africa's top gold producer and second-largest cocoa exporter, Ghana faces severe external debt crises, accepting a $3 billion IMF bailout in 2023 that enforced domestic tax hikes and utility price increases.
 
 Foreign mining multinationals (Newmont, Barrick Gold) extract Ghana's mineral wealth, while working-class youth and student movements ("Arise Ghana", Socialist Movement of Ghana) organize around Nkrumaist anti-imperialist principles demanding resource sovereignty. [3][4]`,

@@ -1,3 +1,6 @@
+import type { Continent } from './continents';
+export type { Continent };
+
 export type CountryCategory =
   | 'aes'           // Actually Existing Socialism / Historical Socialist States (Cuba, Vietnam, China, Laos, DPRK, USSR, Yugoslavia, etc.)
   | 'global-south'  // Global South / Periphery nations (Latin America, Africa, Asia, Middle East)
@@ -68,6 +71,7 @@ export interface CountryData {
   coverImage?: string;             // Card cover image path
   category: CountryCategory;       // Primary category
   categories?: CountryCategory[];  // Array of categories for countries with multi-faceted history
+  continent?: Continent;           // Continent classification (Africa, Asia, Europe, North America, South America, Oceania)
   era?: string;                    // Historical era range (e.g. "1917 – Present")
   capital: string;                 // e.g. "Moscow"
   keyLeaders: string[];            // e.g. ["V.I. Lenin", "J.V. Stalin"]

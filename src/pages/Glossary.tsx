@@ -3,6 +3,8 @@ import { glossary, getTermSlug } from '../data/glossary';
 import type { GlossaryTerm, TheoryTag } from '../data/glossary';
 import { Sparkles, HelpCircle, Lightbulb, Link as LinkIcon, Check, Tag, Search, X, ArrowLeft, BookOpen } from 'lucide-react';
 import { FormattedText } from '../components/FormattedText';
+import { CopyImageButton } from '../components/CopyImageButton';
+import { generateGlossaryCardCanvas } from '../utils/shareCardCanvas';
 
 const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
   'All',
@@ -300,23 +302,38 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, o
                               )}
                             </div>
 
-                            <button
-                              className="glossary-card-share-btn"
-                              onClick={() => handleCopyLink(item.term)}
-                              title="Copy direct link to this term"
-                            >
-                              {isCopied ? (
-                                <>
-                                  <Check className="btn-small-icon text-gold" />
-                                  <span className="share-btn-text text-gold">Link Copied</span>
-                                </>
-                              ) : (
-                                <>
-                                  <LinkIcon className="btn-small-icon" />
-                                  <span className="share-btn-text">Share Link</span>
-                                </>
-                              )}
-                            </button>
+                            <div className="glossary-card-action-btns">
+                              <CopyImageButton
+                                className="glossary-card-share-btn"
+                                id={`copy-img-${slug}`}
+                                onGenerateCanvas={() =>
+                                  generateGlossaryCardCanvas({
+                                    term: item.term,
+                                    definition: item.definition,
+                                    example: item.example,
+                                    misconception: item.misconception,
+                                    theoryTags: item.theoryTags,
+                                  })
+                                }
+                              />
+                              <button
+                                className="glossary-card-share-btn"
+                                onClick={() => handleCopyLink(item.term)}
+                                title="Copy direct link to this term"
+                              >
+                                {isCopied ? (
+                                  <>
+                                    <Check className="btn-small-icon text-gold" />
+                                    <span>Link Copied</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <LinkIcon className="btn-small-icon" />
+                                    <span>Share Link</span>
+                                  </>
+                                )}
+                              </button>
+                            </div>
                           </div>
 
                           <div className="glossary-card-section definition-section">

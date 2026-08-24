@@ -16,11 +16,11 @@ export const dominicanRepublicData: CountryData = {
   isHistoricState: false,
   
   officialGovUrl: 'https://presidencia.gob.do/',
-  overviewText: `The Dominican Republic represents a Caribbean nation shaped by European colonial plunder, Spanish re-annexation wars, a 31-year US-backed fascist dictatorship (Rafael Trujillo), and direct US military invasion (1965 Operation Power Pack) to suppress popular democratic revolution.
+  overviewText: `The Dominican Republic represents a Caribbean nation shaped by European colonial plunder, Spanish sugar plantation monoculture, a 31-year US-backed fascist dictatorship (Rafael Trujillo), and a direct US military invasion (1965 Operation Power Pack) to suppress popular democratic revolution.
 
-On February 27, 1844, Juan Pablo Duarte and the Trinitarios proclaimed Dominican independence. When conservative elites attempted to sell the country back to Spain, General Gregorio Luperón led the guerrilla War of Restoration (1861–1865), defeating Spanish colonial troops and securing sovereign republic status. In 1916, US Marines invaded, occupying the country until 1924 to enforce debt collection for Wall Street banks and expand sugar monopolies (South Porto Rico Sugar Company).
+Under Spanish rule and subsequent US economic penetration, Hispaniola was organized around sugar cane monocrop plantations. American sugar conglomerates like the South Porto Rico Sugar Company and Gulf and Western monopolized fertile agricultural land, driving rural dispossession and enforcing sugar monoculture dependency. On February 27, 1844, Juan Pablo Duarte and the Trinitarios proclaimed Dominican independence. When conservative elites attempted to sell the country back to Spain, General Gregorio Luperón led the guerrilla War of Restoration (1861–1865), defeating Spanish colonial troops. In 1916, US Marines invaded and occupied the country until 1924 to enforce Wall Street sugar monopolies and debt collection.
 
-US occupation installed military officer Rafael Trujillo, who ruled as a brutal dictator from 1930 to 1961, executing the 1937 Parsley Massacre of 20,000 Haitians. Following Trujillo's assassination, left-leaning reformer Juan Bosch won democratically in 1962, promising land reform. When a military coup ousted Bosch, a popular constitutionalist uprising led by Colonel Francisco Caamaño took up arms in April 1965. US President Lyndon B. Johnson launched a massive invasion, landing 42,000 US Marines to crush the constitutionalists and install US puppet Joaquín Balaguer. Today, the Dominican Republic operates as a tourism and free-trade export economy.`,
+US occupation installed military officer Rafael Trujillo, who ruled as a brutal dictator from 1930 to 1961, executing the 1937 Parsley Massacre of 20,000 Haitians and seizing total monopoly control over sugar plantations. Following Trujillo's assassination, left-leaning reformer Juan Bosch won democratically in 1962, promising land reform. When a military coup ousted Bosch, a popular constitutionalist uprising led by Colonel Francisco Caamaño took up arms in April 1965. US President Lyndon B. Johnson launched a massive invasion, landing 42,000 US Marines to crush the constitutionalists and install US puppet Joaquín Balaguer. Today, the Dominican Republic operates as a tourism and free-trade export economy.`,
 
   contradictions: [
     "The 1965 US military invasion (Operation Power Pack) crushed Colonel Francisco Caamaño's constitutionalist revolution, enforcing a neoliberal export economy dominated by US hotel monopolies and free-trade zone garment assembly.",
@@ -39,11 +39,11 @@ US occupation installed military officer Rafael Trujillo, who ruled as a brutal 
   timeline: [
     {
       id: 'dominican-republic-1492-taino-genocide-trinitarios-1844',
-      title: '1. 1492 – 1844: Spanish Colonial Enclosure, Taíno Extermination & Feb 27, 1844 Independence',
+      title: '1. 1492 – 1844: Spanish Colonial Enclosure, Taíno Extermination and Feb 27, 1844 Independence',
       period: '1492 – 1844',
       categoryTag: 'pre-revolution',
       summary: '1492 Columbus invasion; Taíno genocide; Feb 27, 1844 independence proclaimed by Juan Pablo Duarte.',
-      details: `In 1492, Christopher Columbus landed on Hispaniola, inaugurating Spanish colonial gold extraction and the near-total extermination of the native Taíno population.
+      details: `In 1492, Christopher Columbus landed on Hispaniola, inaugurating Spanish colonial gold extraction, sugar monocrop plantation enclosure, and the near-total extermination of the native Taíno population.
 
 On February 27, 1844, **Juan Pablo Duarte** and the secret patriotic organization *La Trinitaria* declared independent Dominican statehood, freeing Santo Domingo from Haitian governance. [1]`,
       keyFigures: ['Juan Pablo Duarte', 'Francisco del Rosario Sánchez', 'Matías Ramón Mella'],
@@ -123,13 +123,15 @@ In April 1984, popular anti-IMF food riots erupted across Santo Domingo against 
     },
     {
       id: 'dominican-republic-present-tourism-sweatshops-working-class',
-      title: '8. Present: Resort Tourism, Export Processing Zones & Working-Class Realities',
+      title: '8. Present: Resort Tourism, Export Processing Zones and Working-Class Realities',
       period: 'Present',
       categoryTag: 'challenges',
-      summary: 'Tourism mega-resorts; free-trade processing sweatshops; President Luis Abinader (PRM).',
-      details: `Today, under President Luis Abinader, the Dominican Republic relies heavily on foreign resort tourism, mining exports (Pueblo Viejo gold mine), and free-trade processing sweatshops.
+      summary: 'Tourism mega-resorts; free-trade processing sweatshops; Canadian gold mining extractions; popular worker resistance.',
+      details: `Today, under President Luis Abinader, the Dominican Republic is structured around a neoliberal enclave export economy. Foreign-owned luxury resort cartels and cruise line monopolies control coastal land, repatriating profits overseas while leaving local service workers with low seasonal wages and privatized beaches.
 
-Dominican working-class and peasant organizations continue organizing for labor rights, public healthcare funding, and anti-racist solidarity against state deportations of Haitian sugarcane cutters. [3][4]`,
+In free-trade export processing zones (EPZs), foreign garment and medical assembly corporations enjoy tax-free operations while exploiting low-wage Dominican labor. Simultaneously, foreign transnational mining conglomerates (such as Canadian-owned Barrick Gold at the Pueblo Viejo mine) extract billions in gold reserves, provoking intense environmental resistance from rural farming communities facing water contamination.
+
+To divide working-class unity and suppress union organizing on sugar cane plantations and construction sites, the Dominican ruling class regularly weaponizes state xenophobia and mass deportations against hyper-exploited Haitian migrant workers. Dominican labor unions, feminist organizations, and peasant collectives actively resist corporate land grabs and neoliberal austerity, fighting for public healthcare, fair wages, and anti-imperialist solidarity. [3][4]`,
       keyFigures: ['Luis Abinader', 'Leonel Fernández', 'Danilo Medina'],
       citationIds: [3, 4],
     },

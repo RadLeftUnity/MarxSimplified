@@ -16,11 +16,11 @@ export const puertoRicoData: CountryData = {
   isHistoricState: false,
   
   officialGovUrl: 'https://www.pr.gov/',
-  overviewText: `Puerto Rico represents an unceded Caribbean nation subjected to 400 years of Spanish colonial slavery and 128+ years of direct US imperialist military and financial colonial occupation (PROMESA), which has forged a profound tradition of anti-colonial revolutionary resistance.
+  overviewText: `Puerto Rico represents an unceded Caribbean nation subjected to four hundred years of Spanish colonial slavery and over one hundred and twenty-eight years of direct US imperialist military and financial colonial occupation (PROMESA), which has forged a profound tradition of anti-colonial revolutionary resistance.
 
-On September 23, 1868, anti-colonial leaders Ramón Emeterio Betances and Mariana Bracetti launched the Grito de Lares, proclaiming the Republic of Puerto Rico and outlawing slavery. In July 1898, during the Spanish-American War, US military forces invaded Guánica, turning Puerto Rico into an unceded US territorial colony. Under the 1900 Foraker Act and 1917 Jones Act, US sugar cartels (South Porto Rico Sugar Company) expropriated fertile agricultural valleys, turning independent peasant farmers into impoverished wage-laborers.
+Under Spanish rule and subsequent US occupation, Puerto Rico was systematically organized into a sugar cane monocrop plantation economy. Following the 1898 US military invasion, four massive American sugar cartels (including the South Porto Rico Sugar Company and Central Aguirre) expropriated fertile agricultural valleys. US trusts dismantled independent peasant coffee and food farming, converting local farmers into impoverished wage-laborers subject to seasonal dead-season unemployment and complete reliance on US food imports. On September 23, 1868, anti-colonial leaders Ramón Emeterio Betances and Mariana Bracetti launched the Grito de Lares, proclaiming the Republic of Puerto Rico and outlawing slavery.
 
-In the 1930s, Harvard-educated lawyer Pedro Albizu Campos led the Nationalist Party of Puerto Rico in an armed struggle for national liberation. US colonial authorities responded with brutal state terror, executing the 1937 Ponce Massacre and suppressing the 1950 Jayuya Uprising. To mask colonial subjugation, Washington created the Commonwealth (ELA) fraud in 1952. In 2016, the US Congress imposed the PROMESA law, placing Puerto Rico under an un-elected Wall Street Fiscal Control Board (La Junta) to enforce debt extraction. In July 2019, 1 million Puerto Ricans ousted colonial governor Ricky Rosselló in a historic popular uprising.`,
+In the 1930s, Harvard-educated lawyer Pedro Albizu Campos led the Nationalist Party of Puerto Rico in an armed struggle for national liberation. US colonial authorities responded with brutal state terror, executing the 1937 Ponce Massacre and suppressing the 1950 Jayuya Uprising. To mask colonial subjugation, Washington created the Commonwealth (ELA) fraud in 1952. In 2016, the US Congress imposed the PROMESA law, placing Puerto Rico under an un-elected Wall Street Fiscal Control Board (La Junta) to enforce debt extraction. In July 2019, one million Puerto Ricans ousted colonial governor Ricky Rosselló in a historic popular uprising.`,
 
   contradictions: [
     "US colonial rule since 1898 enforces economic subordination under the 1920 Jones Act, forcing all maritime commerce into expensive US monopoly shipping and inflating consumer prices for working families.",
@@ -30,7 +30,7 @@ In the 1930s, Harvard-educated lawyer Pedro Albizu Campos led the Nationalist Pa
   ],
 
   quickFacts: [
-    { label: 'Grito de Lares Uprising (1868)', value: 'Betances & Mariana Bracetti proclaimed republic & outlawed slavery against Spain [1]' },
+    { label: 'Grito de Lares Uprising (1868)', value: 'Betances and Mariana Bracetti proclaimed republic and outlawed slavery against Spain [1]' },
     { label: '1898 US Military Invasion', value: 'US army invaded Guanica, turning Puerto Rico into direct US sugar colony [2]' },
     { label: 'Pedro Albizu Campos & Nationalist Uprisings', value: 'Nationalist Party waged armed struggle; US executed 1937 Ponce Massacre [3]' },
     { label: 'PROMESA Wall Street Board (2016)', value: 'US imposed un-elected fiscal board to extract billions in Wall Street debt [4]' },
@@ -39,19 +39,19 @@ In the 1930s, Harvard-educated lawyer Pedro Albizu Campos led the Nationalist Pa
   timeline: [
     {
       id: 'puerto-rico-1493-taino-extermination-spanish-sugar-monopoly',
-      title: '1. 1493 – 1867: Spanish Colonial Enclosure, Taíno Genocide & African Slave Economy',
+      title: '1. 1493 – 1867: Spanish Colonial Enclosure, Taíno Genocide and African Slave Economy',
       period: '1493 – 1867',
       categoryTag: 'pre-revolution',
-      summary: '1493 Spanish invasion; Agüeybaná II Taíno rebellion; African slave plantation labor.',
+      summary: '1493 Spanish invasion; Agüeybaná II Taíno rebellion; African slave sugar plantation labor.',
       details: `In 1493, Christopher Columbus claimed Borikén (Puerto Rico) for Spain. Taíno cacique Agüeybaná II led an armed rebellion in 1511, but Spanish conquistadors crushed indigenous resistance with iron firearms.
 
-Spanish colonial authorities imported kidnapped African workers to build sugar and coffee plantations under brutal slave codes. [1]`,
+Spanish colonial authorities imported kidnapped African workers to build sugar and coffee monocrop plantations under brutal slave codes, establishing early plantation dependencies. [1]`,
       keyFigures: ['Agüeybaná II', 'Juan Ponce de León (Conquistador)'],
       citationIds: [1],
     },
     {
       id: 'puerto-rico-1868-grito-de-lares-betances-bracetti',
-      title: '2. 1868: The Grito de Lares Uprising: Ramón Emeterio Betances & Mariana Bracetti',
+      title: '2. 1868: The Grito de Lares Uprising: Ramón Emeterio Betances and Mariana Bracetti',
       period: '1868',
       categoryTag: 'revolution',
       summary: 'Sept 23, 1868: Anti-colonial revolutionaries capture Lares, proclaim republic & outlaw slavery.',
@@ -123,14 +123,16 @@ In September 2017, Hurricane Maria devastated the island, killing over 4,645 peo
     },
     {
       id: 'puerto-rico-present-summer-2019-uprising-act-60-sovereignty',
-      title: '8. Present: Summer 2019 Mass Uprising, Act 60 Gentrification & The Anti-Colonial Movement',
+      title: '8. Present: Summer 2019 Mass Uprising, Act 60 Gentrification and The Anti-Colonial Movement',
       period: 'Present',
       categoryTag: 'successes',
-      summary: 'July 2019: 1M people oust Governor Rosselló; fighting Act 60 wealthy US tax-evader gentrification.',
-      details: `In July 2019 (*Verano del 19*), 1 million Puerto Ricans (one-third of the population) flooded the highways of San Juan, ousting corrupt Governor Ricky Rosselló.
+      summary: 'July 2019 mass uprising ousts Governor Rosselló; fighting Act 60 tax gentrification, Jones Act shipping monopoly, and PROMESA debt extraction.',
+      details: `Today, Puerto Rico remains under direct US colonial and financial domination. Under the US 1920 Jones Act (Merchant Marine Act), all maritime trade between the United States and Puerto Rico must be conducted on expensive US-built, owned, and operated ships. This US shipping monopoly inflates basic food and consumer prices by over fifteen percent, extracting billions from Puerto Rican working families.
 
-Today, Puerto Ricans actively resist **Act 60**, a colonial tax-haven law attracting wealthy US speculators who buy up coastal land and displace local communities, while anti-colonial movements organize for full national sovereignty and self-determination. [3][4]`,
-      keyFigures: ['Ricky Rosselló (Ousted)', 'Jenniffer González', 'Juan Dalmau'],
+Furthermore, the 2016 US-imposed PROMESA law placed Puerto Rico under an unelected Wall Street Fiscal Control Board (*La Junta*). To guarantee debt payments to Western hedge funds and bondholders, *La Junta* shuttered over 400 public schools, slashed public university budgets, and privatized the electrical grid to US-Canadian conglomerate LUMA Energy, resulting in chronic power blackouts and rising electricity rates.
+
+Simultaneously, colonial tax laws (Act 22 and Act 60) offer 100% tax exemptions on capital gains to wealthy US real estate speculators and crypto-investors who move to the island. This has triggered hyper-gentrification, pushing rent prices beyond the reach of local workers and displacing working-class families from coastal communities. In July 2019 (*Verano del 19*), one million Puerto Ricans flooded San Juan highways, forcing the resignation of colonial Governor Ricky Rosselló. Today, popular anti-colonial organizations (such as PIP and MVC) fight against LUMA privatization, Act 60 land grabs, and PROMESA debt extraction, organizing for national independence and socialist transformation. [3][4]`,
+      keyFigures: ['Ricky Rosselló (Ousted)', 'Jenniffer González', 'Juan Dalmau', 'Eva Prados'],
       citationIds: [3, 4],
     },
   ],

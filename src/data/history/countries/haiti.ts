@@ -16,21 +16,21 @@ export const haitiData: CountryData = {
   isHistoricState: false,
   
   officialGovUrl: 'https://primature.gouv.ht/',
-  overviewText: `Haiti represents a world-historic anti-colonial victory that defeated European slave powers, which was subsequently subjected to two centuries of brutal imperialist punishment, financial debt extortion, and regime-change military interventions by France and the United States.
+  overviewText: `Haiti represents a world-historic anti-colonial victory that destroyed European slave power and chattel slavery, which was subsequently subjected to two centuries of imperialist punishment, financial debt extortion, and military interventions by France and the United States.
 
-Between 1791 and 1804, enslaved Africans in the French sugar colony of Saint-Domingue launched the Haitian Revolution, led by Toussaint Louverture and Jean-Jacques Dessalines. They defeated the combined imperial armies of Napoleonic France, Great Britain, and Spain, abolishing chattel slavery and establishing the world's first free Black republic in January 1804.
+Under French colonial rule, Saint-Domingue was organized as the most ruthless and profitable sugar and coffee monocrop plantation economy in the world. Driven by the brutal exploitation of over five hundred thousand enslaved Africans, the colony generated immense capital for the French bourgeoisie. Between 1791 and 1804, enslaved workers launched the Haitian Revolution, led by Toussaint Louverture and Jean-Jacques Dessalines. They defeated the combined imperial armies of Napoleonic France, Great Britain, and Spain, abolishing chattel slavery and establishing the world's first free Black republic in January 1804.
 
-To punish Haiti and prevent anti-slavery revolutions across the Americas, imperial powers imposed a diplomatic and naval blockade. In 1825, French King Charles X dispatched warships to enforce the Haitian Debt Indemnity, extorting 150 million gold francs to compensate former slave owners, saddling Haiti with a century of crippling debt to French and US banks (National City Bank / Citigroup). In 1915, US Marines invaded and occupied Haiti for 19 years (1915–1934), seizing national gold reserves and executing Cacos guerrilla leader Charlemagne Péralte. Washington subsequently supported the brutal anti-communist Duvalier dictatorships (1957–1986) and orchestrated two US military coups (1991 and 2004) against democratically elected liberation theologian Jean-Bertrand Aristide, transforming Haiti into an exploited sweatshop periphery.`,
+To punish Haiti for destroying the lucrative plantation economy and to prevent anti-slavery revolutions across the Americas, imperial powers imposed a diplomatic and naval blockade. In 1825, French King Charles X dispatched warships to enforce the Haitian Debt Indemnity, extorting 150 million gold francs to compensate former slave owners, saddling Haiti with a century of crippling debt to French and US banks (National City Bank and Citigroup). In 1915, US Marines invaded and occupied Haiti for 19 years (1915–1934), seizing national gold reserves and executing Cacos guerrilla leader Charlemagne Péralte. Washington subsequently supported the brutal anti-communist Duvalier dictatorships (1957–1986) and orchestrated two US military coups (1991 and 2004) against democratically elected liberation theologian Jean-Bertrand Aristide, transforming Haiti into an exploited sweatshop periphery.`,
 
   contradictions: [
     "US, French, and Canadian military forces orchestrated the 2004 military coup against democratically elected President Jean-Bertrand Aristide, forcibly deporting him and establishing a 15-year UN imperialist military occupation (MINUSTAH).",
-    "France forced Haiti to pay 150 million gold francs in 1825 to compensate former slaveholders, followed by the 1914 US invasion that seized Haitian gold reserves for Wall Street banks, crippling long-term national economic development.",
+    "France forced Haiti to pay 150 million gold francs in 1825 to compensate former slaveholders for lost plantation property, followed by the 1914 US invasion that seized Haitian gold reserves for Wall Street banks, crippling long-term national economic development.",
     "Domestic oligarchs (PHTK party) and foreign imperialist apparatuses (Core Group) weaponized armed gangs to suppress working-class Popular Base mobilization and delay democratic elections.",
     "Popular worker and peasant organizations continuously resist proposed US and Kenyan armed interventions, demanding an immediate end to foreign imperialist meddling and full national sovereignty."
   ],
 
   quickFacts: [
-    { label: 'Haitian Revolution Victory (1804)', value: 'World\'s 1st successful anti-colonial slave revolution defeated French, British & Spanish armies [1]' },
+    { label: 'Haitian Revolution Victory (1804)', value: 'World\'s 1st successful anti-colonial slave revolution defeated French, British and Spanish armies [1]' },
     { label: 'Predatory 1825 French Ransom', value: 'France extorted 150M gold francs to compensate slave owners, saddling Haiti with debt [2]' },
     { label: '19-Year US Military Occupation', value: 'US Marines occupied Haiti (1915-1934), executing 15,000+ Cacos resistance fighters [3]' },
     { label: '2004 US-French Coup on Aristide', value: 'US Special Forces kidnapped elected President Aristide, installing comprador rule [4]' },
@@ -39,19 +39,19 @@ To punish Haiti and prevent anti-slavery revolutions across the Americas, imperi
   timeline: [
     {
       id: 'haiti-1791-haitian-revolution-dessalines',
-      title: '1. 1791 – 1804: The Haitian Revolution: Defeating French, British & Spanish Slavery',
+      title: '1. 1791 – 1804: The Haitian Revolution: Defeating French, British and Spanish Slavery',
       period: '1791 – 1804',
       categoryTag: 'revolution',
-      summary: '1791-1804: Enslaved masses defeat Napoleon\'s army; founding 1st Black Republic on Jan 1, 1804.',
-      details: `In August 1791, enslaved workers in Saint-Domingue launched a mass insurrection at Bois Caïman. Led by Toussaint Louverture, the insurgent army organized disciplined military brigades, defeating Spanish and British invasion armies attempting to restore slavery.
+      summary: '1791-1804: Enslaved masses defeat Napoleon\'s army and end French plantation slavery; founding 1st Black Republic on Jan 1, 1804.',
+      details: `In August 1791, enslaved workers in Saint-Domingue launched a mass insurrection at Bois Caïman. Organised against the brutal French sugar and coffee monocrop plantation system, the insurgent army led by Toussaint Louverture organized disciplined military brigades, defeating Spanish and British invasion armies attempting to restore slavery.
 
-When Napoleon Bonaparte dispatched 40,000 troops under General Leclerc in 1802 to re-enslave the population and arrest Louverture, Jean-Jacques Dessalines led the revolutionary army to decisive victory at the Battle of Vertières. On January 1, 1804, Dessalines proclaimed the independent Republic of Haiti, abolishing slavery forever. [1]` ,
+When Napoleon Bonaparte dispatched 40,000 troops under General Leclerc in 1802 to re-enslave the population and re-establish plantation slavery, Jean-Jacques Dessalines led the revolutionary army to decisive victory at the Battle of Vertières. On January 1, 1804, Dessalines proclaimed the independent Republic of Haiti, abolishing chattel slavery and plantation servitude forever. [1]`,
       keyFigures: ['Toussaint Louverture', 'Jean-Jacques Dessalines', 'Dutty Boukman', 'Henri Christophe'],
       citationIds: [1],
     },
     {
       id: 'haiti-1804-dessalines-sovereignty-blockade',
-      title: '2. 1804 – 1824: Jean-Jacques Dessalines & Early Sovereign Statehood against Western Isolation',
+      title: '2. 1804 – 1824: Jean-Jacques Dessalines and Early Sovereign Statehood against Western Isolation',
       period: '1804 – 1824',
       categoryTag: 'pre-revolution',
       summary: 'Dessalines enacts anti-racist Constitution; Western slave powers impose diplomatic & trade blockade.',
@@ -123,13 +123,15 @@ US Special Forces entered Aristide's residence, forced him onto an unmarked airc
     },
     {
       id: 'haiti-present-core-group-ngo-subversion',
-      title: '8. Present: Core Group Imperialism, NGO Subversion, Core Financial Extraction & Popular Resistance',
+      title: '8. Present: Core Group Imperialism, NGO Subversion, Financial Extraction and Popular Resistance',
       period: 'Present',
       categoryTag: 'challenges',
-      summary: 'US-led "Core Group" dictates politics; 10,000+ foreign NGOs exploit periphery; popular anti-imperialist resistance.',
-      details: `Today, Haiti is governed by the "Core Group" (an unelected council of US, French, Canadian, and OAS ambassadors) that appoints comprador prime ministers without popular elections.
+      summary: 'US-led "Core Group" dictates politics; US agricultural dumping destroyed rice farming; 10,000+ foreign NGOs exploit periphery.',
+      details: `Today, Haiti remains trapped in severe structural impoverishment explicitly engineered by Western imperialist intervention. Political governance is dictated by the "Core Group" (an unelected council of US, French, Canadian, and OAS ambassadors) that appoints comprador prime ministers without democratic elections.
 
-Western imperialist institutions have transformed Haiti into an "NGO Republic", where over 10,000 foreign NGOs divert public funds, while US textile monopolies exploit ultra-cheap offshore sweatshop labor. Despite continuous imperial intervention and gang violence engineered by comprador elites, Haitian popular organizations continue fighting for full national sovereignty and social justice. [4]`,
+Economically, US neoliberal trade policies directly destroyed Haitian agricultural self-sufficiency. In the 1990s, US-mandated tariff reductions forced Haiti to permit massive dumping of heavily subsidized US agricultural exports ("Miami Rice"), bankrupting domestic Haitian rice farmers and forcing hundreds of thousands of rural peasants into urban shantytowns. Simultaneously, Western corporate apparel cartels exploit Caracol Industrial Park sweatshops, paying workers starvation wages under HOPE/HELP trade acts.
+
+Western institutions have turned Haiti into an "NGO Republic", where over ten thousand foreign non-governmental organizations siphon development funds away from public state institutions, while foreign-backed armed gangs suppress popular working-class Fanmi Lavalas organizations. Despite two centuries of military coups, debt extortion, and imperialist subversion, Haitian popular base movements continue fighting for national sovereignty and anti-imperialist liberation. [4]`,
       keyFigures: ['Jean-Bertrand Aristide', 'Jovenel Moïse', 'Ariel Henry'],
       citationIds: [4],
     },

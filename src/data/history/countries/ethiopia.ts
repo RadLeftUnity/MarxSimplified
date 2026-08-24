@@ -92,19 +92,19 @@ In July 1977, taking advantage of revolutionary disruption, Siad Barre's Somalia
     },
     {
       id: 'ethiopia-1991-eprdf-developmental-state-gerd-china',
-      title: '6. 1991 – 2017: EPRDF Coalition (Meles Zenawi), Developmental State & GERD Mega-Dam',
+      title: '6. 1991 – 2017: EPRDF Coalition (Meles Zenawi), GERD Dam and Resisting Nestlé Debt Demands',
       period: '1991 – 2017',
       categoryTag: 'policies',
-      summary: '1991 EPRDF victory; Meles Zenawi state-led developmentalism; 2011 start of GERD Blue Nile dam.',
-      details: `In May 1991, the Ethiopian People's Revolutionary Democratic Front (EPRDF), led by **Meles Zenawi** of the TPLF, captured Addis Ababa. Meles established ethnic federalism and a state-led "developmental state" model.
+      summary: '1991 EPRDF victory; Meles Zenawi developmental state; 2002 Nestlé debt crisis; 2011 GERD Blue Nile dam.',
+      details: `In May 1991, the Ethiopian People's Revolutionary Democratic Front (EPRDF), led by **Meles Zenawi**, captured Addis Ababa, establishing a state-led developmental state model. During the severe 2002 famine threatening 11 million Ethiopians, Swiss corporate monopoly Nestlé demanded 6 million dollars in cash compensation for a business nationalized by the Derg in 1975. International civil rights groups and global consumer boycotts condemned Nestlé for extracting public funds from a starving population, forcing Nestlé to drop its demand and donate the settlement money to Ethiopian famine relief.
 
-In 2011, Ethiopia began constructing the self-funded $4.8 billion **Grand Ethiopian Renaissance Dam (GERD)** on the Blue Nile to generate 5,000MW of hydroelectric power. China provided funding for the electrical transmission grid and built industrial manufacturing zones. [3][4]`,
-      keyFigures: ['Meles Zenawi', 'Hailemariam Desalegn'],
-      citationIds: [3, 4],
+In 2011, Ethiopia began constructing the self-funded $4.8 billion **Grand Ethiopian Renaissance Dam (GERD)** on the Blue Nile to generate 5,000MW of hydroelectric power. China provided funding for the electrical transmission grid and built industrial manufacturing zones. [2][3][4]`,
+      keyFigures: ['Meles Zenawi', 'Hailemariam Desalegn', 'Nestlé Executives'],
+      citationIds: [2, 3, 4],
     },
     {
       id: 'ethiopia-2018-abiy-ahmed-tigray-conflict-sanctions',
-      title: '7. 2018 – 2022: Abiy Ahmed, Tigray Conflict & Resisting Western Sanctions Leverage',
+      title: '7. 2018 – 2022: Abiy Ahmed, Tigray Conflict and Resisting Western Sanctions Leverage',
       period: '2018 – 2022',
       categoryTag: 'challenges',
       summary: 'PM Abiy Ahmed reforms; 2020-2022 Tigray civil war; resisting US AGOA trade sanctions.',
@@ -116,10 +116,10 @@ In November 2020, violent conflict erupted between the federal government and TP
     },
     {
       id: 'ethiopia-present-brics-china-bri-au-headquarters',
-      title: '8. Present: 2024 BRICS Entry, China BRI Infrastructure & African Union Leadership',
+      title: '8. Present: 2024 BRICS Entry, China BRI Infrastructure and African Union Leadership',
       period: 'Present',
       categoryTag: 'successes',
-      summary: 'Jan 1, 2024: Official entry into BRICS; China-built Addis-Djibouti electric railway & AU hub.',
+      summary: 'Jan 1, 2024: Official entry into BRICS; China-built Addis-Djibouti electric railway and AU hub.',
       details: `On January 1, 2024, Ethiopia officially joined the **BRICS** economic alliance alongside China, Russia, Brazil, India, and South Africa.
 
 China remains Ethiopia's primary infrastructure partner, operating the $4.5 billion electrified Addis Ababa-Djibouti Railway and investing in industrial parks. As permanent host of the African Union headquarters, Ethiopia continues to advocate for Global South non-alignment and sovereign African integration. [3][4]`,

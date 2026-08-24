@@ -4,23 +4,29 @@ import { FormattedText } from './FormattedText';
 import {
   ArrowDown,
   ArrowUp,
-  Clock,
-  ShieldAlert,
-  Sparkles,
-  CheckCircle2,
-  AlertCircle,
-  History as HistoryIcon,
   Users,
   ChevronUp,
   ChevronDown,
 } from 'lucide-react';
 
+import { CopyImageButton } from './CopyImageButton';
+import { generateTimelineEventCardCanvas } from '../utils/shareCardCanvas';
+
 interface TimelineViewProps {
   timeline: TimelinePhase[];
   sources?: Citation[];
+  countryName?: string;
+  flagUrl?: string;
+  coverImage?: string;
 }
 
-export const TimelineView: React.FC<TimelineViewProps> = ({ timeline, sources: _sources }) => {
+export const TimelineView: React.FC<TimelineViewProps> = ({
+  timeline,
+  sources: _sources,
+  countryName,
+  flagUrl,
+  coverImage,
+}) => {
   const [activeIdx, setActiveIdx] = useState(0);
   const [direction, setDirection] = useState<'next' | 'prev'>('next');
   const [, setIsAnimating] = useState(false);
@@ -55,10 +61,33 @@ export const TimelineView: React.FC<TimelineViewProps> = ({ timeline, sources: _
     if (pillEl) {
       pillEl.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
     }
+    // Reset internal card scroll position to top on era change
+    const cardEl = stageRef.current?.querySelector('.dynamic-node-card');
+    if (cardEl) {
+      cardEl.scrollTop = 0;
+    }
   }, [activeIdx]);
 
   // JS Wheel event interceptor with throttling (400ms cooldown)
   const handleWheel = (e: React.WheelEvent<HTMLDivElement>) => {
+    const cardEl = stageRef.current?.querySelector('.dynamic-node-card') as HTMLDivElement | null;
+    if (cardEl) {
+      const isScrollable = cardEl.scrollHeight > cardEl.clientHeight + 4;
+      if (isScrollable) {
+        const isAtBottom = cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 10;
+        const isAtTop = cardEl.scrollTop <= 10;
+
+        if (e.deltaY > 0 && !isAtBottom) {
+          // Allow internal scrolling down inside the card before changing era
+          return;
+        }
+        if (e.deltaY < 0 && !isAtTop) {
+          // Allow internal scrolling up inside the card before changing era
+          return;
+        }
+      }
+    }
+
     const now = Date.now();
     if (now - lastWheelTimeRef.current < 400) {
       return; // Throttled
@@ -107,23 +136,6 @@ export const TimelineView: React.FC<TimelineViewProps> = ({ timeline, sources: _
   }, [activeIdx, timeline.length]);
 
   const activePhase = timeline[activeIdx];
-
-  const getStageIcon = (tag: TimelinePhase['categoryTag']) => {
-    switch (tag) {
-      case 'pre-revolution':
-        return <Clock className="timeline-icon text-muted" />;
-      case 'revolution':
-        return <Sparkles className="timeline-icon text-gold" />;
-      case 'policies':
-        return <HistoryIcon className="timeline-icon text-amber" />;
-      case 'successes':
-        return <CheckCircle2 className="timeline-icon text-gold" />;
-      case 'challenges':
-        return <AlertCircle className="timeline-icon text-crimson" />;
-      case 'collapse-or-transition':
-        return <ShieldAlert className="timeline-icon text-crimson" />;
-    }
-  };
 
   return (
     <div
@@ -221,75 +233,87 @@ export const TimelineView: React.FC<TimelineViewProps> = ({ timeline, sources: _
         {/* Right Spawning Content Card Viewport */}
         <div className="dynamic-card-viewport">
           {activePhase && (
-            <div
-              key={`${activePhase.id}-${direction}`}
-              className={`dynamic-node-card glass-panel ${
-                direction === 'next' ? 'anim-spawn-next' : 'anim-spawn-prev'
-              }`}
-            >
-              {/* Card Header */}
-              <div className="node-card-header">
-                <div className="phase-badge-group">
-                  <span className="phase-stage-badge">
-                    {getStageIcon(activePhase.categoryTag)}
-                    <span className="stage-tag-text">{activePhase.categoryTag.replace(/-/g, ' ')}</span>
-                  </span>
-                  <span className="node-number-tag">
-                    Era {activeIdx + 1} of {timeline.length} ({activePhase.period})
-                  </span>
-                </div>
-
-                <h3 className="node-card-title">{activePhase.title}</h3>
-              </div>
-
-              {/* Summary Callout Box */}
-              <div className="node-card-summary glass-panel">
-                <FormattedText text={activePhase.summary} paragraphClassName="summary-text" />
-              </div>
-
-              {/* Narrative Analysis with Interactive Citations & Glossary Terms */}
-              <div className="node-card-details">
-                <h5 className="details-header-label">Historical Analysis &amp; Dialectics</h5>
-                <div className="details-text-wrapper">
-                  <FormattedText text={activePhase.details} paragraphClassName="details-paragraph" />
-                </div>
-              </div>
-
-              {/* Key Figures Tags */}
-              {activePhase.keyFigures && activePhase.keyFigures.length > 0 && (
-                <div className="phase-meta-footer glass-panel">
-                  <div className="meta-group">
-                    <span className="meta-label">
-                      <Users className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
-                      Key Figures:
-                    </span>
-                    <div className="meta-pills">
-                      {activePhase.keyFigures.map((f, i) => (
-                        <span key={i} className="meta-pill figure-pill">
-                          {f}
-                        </span>
-                      ))}
+            <>
+              <div
+                key={`${activePhase.id}-${direction}`}
+                className={`dynamic-node-card glass-panel ${
+                  direction === 'next' ? 'anim-spawn-next' : 'anim-spawn-prev'
+                }`}
+              >
+                {/* Card Header */}
+                <div className="node-card-header">
+                  <div className="node-card-header-top-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem' }}>
+                    <h3 className="node-card-title" style={{ flex: 1 }}>{activePhase.title}</h3>
+                    <CopyImageButton
+                      id={`copy-timeline-${activePhase.id}`}
+                      onGenerateCanvas={() =>
+                        generateTimelineEventCardCanvas({
+                          countryName: countryName || 'Socialist History',
+                          flagUrl,
+                          coverImage,
+                          title: activePhase.title,
+                          period: activePhase.period,
+                          summary: activePhase.summary,
+                          details: activePhase.details,
+                          keyFigures: activePhase.keyFigures,
+                          sources: _sources,
+                          citationIds: activePhase.citationIds,
+                        })
+                      }
+                    />
+                  </div>
+                  {activePhase.keyFigures && activePhase.keyFigures.length > 0 && (
+                    <div className="card-header-key-figures">
+                      <div className="compact-key-figures-inline">
+                        <Users className="btn-small-icon text-gold" style={{ flexShrink: 0 }} />
+                        <span className="compact-label">Key Figures:</span>
+                        <div className="card-key-figures-pills-wrap">
+                          {activePhase.keyFigures.map((f, i) => (
+                            <span key={i} className="meta-pill figure-pill">
+                              {f}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
                     </div>
+                  )}
+                </div>
+
+                {/* Summary Callout Box */}
+                <div className="node-card-summary glass-panel">
+                  <FormattedText text={activePhase.summary} paragraphClassName="summary-text" />
+                </div>
+
+                {/* Narrative Analysis with Interactive Citations & Glossary Terms */}
+                <div className="node-card-details">
+                  <h5 className="details-header-label">Historical Analysis and Dialectics</h5>
+                  <div className="details-text-wrapper">
+                    <FormattedText text={activePhase.details} paragraphClassName="details-paragraph" />
                   </div>
                 </div>
-              )}
+              </div>
 
-              {/* Scroll / Key Direction Prompt Banner */}
-              <div className="timeline-interactive-prompt">
-                <div className="prompt-action-hint">
+              {/* Dedicated Fixed Bottom Era Navigation Bar */}
+              <div className="timeline-compact-bottom-bar glass-panel">
+                <div className="compact-bar-nav-left">
                   {activeIdx > 0 && (
                     <button
-                      className="prompt-nav-link"
+                      className="compact-nav-btn"
                       onClick={() => goToIndex(activeIdx - 1)}
+                      title={`Scroll up to ${timeline[activeIdx - 1].period}`}
                     >
                       <ArrowUp className="btn-small-icon text-gold" />
                       <span>Scroll up for {timeline[activeIdx - 1].period}</span>
                     </button>
                   )}
+                </div>
+
+                <div className="compact-bar-nav-right">
                   {activeIdx < timeline.length - 1 && (
                     <button
-                      className="prompt-nav-link"
+                      className="compact-nav-btn"
                       onClick={() => goToIndex(activeIdx + 1)}
+                      title={`Scroll down to ${timeline[activeIdx + 1].period}`}
                     >
                       <span>Scroll down for {timeline[activeIdx + 1].period}</span>
                       <ArrowDown className="btn-small-icon text-gold" />
@@ -297,7 +321,7 @@ export const TimelineView: React.FC<TimelineViewProps> = ({ timeline, sources: _
                   )}
                 </div>
               </div>
-            </div>
+            </>
           )}
         </div>
       </div>

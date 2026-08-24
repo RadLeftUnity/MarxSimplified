@@ -16,11 +16,11 @@ export const jamaicaData: CountryData = {
   isHistoricState: false,
   
   officialGovUrl: 'https://opm.gov.jm/',
-  overviewText: `Jamaica represents a historic bastion of anti-colonial slave resistance and democratic socialist anti-imperialism that was subjected to British plantation slavery, US bauxite mining exploitation, and CIA political destabilization.
+  overviewText: `Jamaica represents a historic bastion of anti-colonial slave resistance and democratic socialist anti-imperialism that was subjected to British sugar plantation slavery, US bauxite mining exploitation, and CIA political destabilization.
 
-Following British conquest in 1655, Jamaica became the crown jewel of British sugar capital, driven by hyper-exploited enslaved African labor. Escaped slaves formed autonomous mountain communities led by **Nanny of the Maroons**, forcing the British Crown to sign the 1739 Maroon Treaty. Enslaved workers repeatedly launched armed rebellions, including Tacky's War (1760) and Sam Sharpe's 1831 Baptist War, which hastened slave emancipation in 1838. In 1865, **Paul Bogle** led the **Morant Bay Rebellion** against landlord dispossession, facing horrific British colonial massacres under Governor Eyre.
+Following British conquest in 1655, Jamaica was developed into the crown jewel of British sugar capital. Organized as a hyper-exploited sugar monocrop plantation economy, British plantocrats seized all fertile arable land, forcing hundreds of thousands of enslaved Africans to produce sugar for European export while importing basic foodstuffs at inflated prices. Escaped slaves formed autonomous mountain communities led by **Nanny of the Maroons**, forcing the British Crown to sign the 1739 Maroon Treaty. Enslaved workers repeatedly launched armed rebellions, including Tacky's War (1760) and Sam Sharpe's 1831 Baptist War, which hastened slave emancipation in 1838. Following emancipation, British corporations introduced banana monocrop exports under United Fruit Company monopolies, maintaining plantation dependency. In 1865, **Paul Bogle** led the **Morant Bay Rebellion** against landlord dispossession, facing horrific British colonial massacres.
 
-During the 1970s, Prime Minister **Michael Manley** and the People's National Party (PNP) declared a program of **Democratic Socialism**: nationalizing bauxite mining reserves, expanding public education and healthcare, establishing worker cooperatives, and building a close anti-imperialist alliance with Fidel Castro's Cuba and the Non-Aligned Movement. In response, Henry Kissinger's US State Department and the CIA engineered economic blockades, covert arms smuggling, and violent street warfare through Edward Seaga's JLP, forcing Jamaica into IMF debt subordination in 1980.`,
+During the 1970s, Prime Minister **Michael Manley** and the People's National Party (PNP) declared a program of **Democratic Socialism**: nationalizing bauxite mining reserves, expanding public education and healthcare, establishing agricultural worker cooperatives, and building a close anti-imperialist alliance with Fidel Castro's Cuba and the Non-Aligned Movement. In response, Henry Kissinger's US State Department and the CIA engineered economic blockades, covert arms smuggling, and violent street warfare through Edward Seaga's JLP, forcing Jamaica into IMF debt subordination in 1980.`,
 
   contradictions: [
     "Michael Manley's 1970s democratic socialist government expanded education and bauxite taxes, provoking US State Department destabilization and CIA covert weapons smuggling.",
@@ -32,26 +32,26 @@ During the 1970s, Prime Minister **Michael Manley** and the People's National Pa
   quickFacts: [
     { label: 'Maroon Anti-Colonial Victory', value: 'Nanny of the Maroons defeated British army forces, winning autonomous mountain land [1]' },
     { label: 'Morant Bay Revolt (1865)', value: 'Paul Bogle led agricultural workers against British colonial land dispossession [2]' },
-    { label: 'Michael Manley\'s Socialism (1970s)', value: 'Nationalized bauxite reserves, built worker co-ops & aligned with socialist Cuba [3]' },
-    { label: 'CIA Destabilization (1976-1980)', value: 'US intelligence funneled arms & financial blockades to break democratic socialism [4]' },
+    { label: 'Michael Manley\'s Socialism (1970s)', value: 'Nationalized bauxite reserves, built worker co-ops and aligned with socialist Cuba [3]' },
+    { label: 'CIA Destabilization (1976-1980)', value: 'US intelligence funneled arms and financial blockades to break democratic socialism [4]' },
   ],
 
   timeline: [
     {
       id: 'jamaica-1655-maroon-guerrilla-victory',
-      title: '1. 1655 – 1739: British Sugar Slavery & Nanny of the Maroons\' Anti-Colonial Victory',
+      title: '1. 1655 – 1739: British Sugar Monocrop Slavery and Nanny of the Maroons\' Anti-Colonial Victory',
       period: '1655 – 1739',
       categoryTag: 'pre-revolution',
-      summary: 'British seize Jamaica; sugar slave plantations; Nanny of the Maroons forces 1739 Peace Treaty.',
-      details: `In 1655, British forces seized Jamaica from Spain, transforming the island into a brutal sugar plantation economy fueled by enslaved African labor.
+      summary: 'British seize Jamaica; sugar plantation monoculture; Nanny of the Maroons forces 1739 Peace Treaty.',
+      details: `In 1655, British forces seized Jamaica from Spain, transforming the island into a brutal sugar monocrop plantation economy fueled by enslaved African labor. British plantocrats monopolized arable land, enforcing sugar monoculture and food import dependency.
 
-Escaped enslaved Africans fled into the Blue Mountains, organizing autonomous Maroon communities. Under the brilliant military leadership of **Nanny of the Maroons**, Maroon guerrillas ambushed British redcoats, using camouflage and horn signals (abeng). In 1739, after decades of unsuccessful war, the British Crown was forced to sign a peace treaty recognizing Maroon land autonomy. [1]` ,
+Escaped enslaved Africans fled into the Blue Mountains, organizing autonomous Maroon communities. Under the military leadership of **Nanny of the Maroons**, Maroon guerrillas ambushed British redcoats, using camouflage and horn signals (abeng). In 1739, after decades of unsuccessful war, the British Crown was forced to sign a peace treaty recognizing Maroon land autonomy. [1]`,
       keyFigures: ['Nanny of the Maroons', 'Cudjoe', 'Edward Trelawny'],
       citationIds: [1],
     },
     {
       id: 'jamaica-1760-tacky-sam-sharpe-baptist-war',
-      title: '2. 1760 – 1838: Tacky\'s Rebellion (1760), Sam Sharpe\'s 1831 Baptist War & Slavery Abolition',
+      title: '2. 1760 – 1838: Tacky\'s Rebellion (1760), Sam Sharpe\'s 1831 Baptist War and Slavery Abolition',
       period: '1760 – 1838',
       categoryTag: 'revolution',
       summary: '1760 Tacky\'s Rebellion; 1831 Sam Sharpe Baptist War (60,000 enslaved strike); 1838 Abolition.',
@@ -123,13 +123,13 @@ The IMF and World Bank imposed harsh Structural Adjustment Programs (SAPs), forc
     },
     {
       id: 'jamaica-present-tourism-debt-working-class-struggle',
-      title: '8. Present: Post-Colonial Debt Burden, Tourism Extraction & Popular Working-Class Struggle',
+      title: '8. Present: Post-Colonial Debt Burden, Tourism Extraction and Popular Working-Class Struggle',
       period: 'Present',
       categoryTag: 'challenges',
-      summary: 'High foreign debt burden; foreign hotel cartels extract tourism profits; working-class resistance.',
-      details: `Today, Jamaica remains trapped in high debt burdens, where foreign-owned resort cartels repatriate massive tourism profits abroad while local workers face low wages, high living costs, and crumbling infrastructure.
+      summary: 'Extreme foreign debt servicing; foreign hotel cartels repatriate tourism profits; popular working-class resistance.',
+      details: `Today, Jamaica remains structurally trapped in high foreign debt servicing that devours up to twenty-five percent of national government expenditure. Decades of IMF Structural Adjustment Programs (SAPs) forced the privatization of public utilities, currency devaluations, and severe spending cuts in public healthcare, education, and water infrastructure.
 
-Working-class Jamaicans continue to fight for land reform, full economic sovereignty, reparations for colonial slavery, and an end to foreign IMF debt exploitation. [3][4]`,
+Simultaneously, transnational resort cartels and cruise line monopolies extract massive profits from Jamaican beaches, benefiting from tax holidays while repatriating profits overseas. Local hospitality workers face low seasonal wages, while foreign-owned bauxite mining conglomerates leave behind toxic red mud lakes and environmental degradation. Working-class Jamaicans continue to fight for land reform, domestic food sovereignty, full economic independence, and reparations from Great Britain for colonial slavery. [3][4]`,
       keyFigures: ['Andrew Holness', 'Mark Golding'],
       citationIds: [3, 4],
     },

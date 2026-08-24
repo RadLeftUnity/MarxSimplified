@@ -1790,5 +1790,40 @@ export const antiColonialTerms: GlossaryTerm[] = [
       "Classical Marxism",
       "Anti-Colonial Socialism"
     ]
+  },
+  {
+    "term": "Plantation Economy / Monocrop Economy",
+    "pattern": "plantation economy|plantation economics|monocrop economy|monoculture economy|monocrop|monocropping|sugar monoculture|banana monoculture|cotton monoculture",
+    "definition": "An agrarian economic structure organized around the hyper-exploitation of land and labor to cultivate a single export cash crop (such as sugar cane, tobacco, bananas, coffee, or cotton) for European and American imperial markets. In Marxist dependency theory and anti-colonial analysis (developed by New World Group economists like Lloyd Best and George Beckford), colonial powers enforced plantation monoculture across the Caribbean, Latin America, and the Global South through violent land theft, transatlantic chattel slavery, and indentured labor. This specialized underdeveloped countries into raw material enclaves, preventing domestic industrialization, destroying food sovereignty, and leaving nations perpetually dependent on volatile global commodity prices and Western food imports.",
+    "misconception": "That monocrop agriculture was a natural comparative economic advantage chosen by developing nations. Monocrop plantation economies were artificially forced by colonial mercantilism and imperialist trade monopolies to enrich European metropoles while trapping colonized populations in structural poverty.",
+    "example": "Colonial sugar plantations in Barbados and Saint Kitts converting all arable land to sugar cane for British export, forcing islanders to import basic foodstuffs at inflated prices from Western cartels.",
+    "theoryTags": [
+      "Anti-Colonial Socialism",
+      "Classical Marxism",
+      "Pre-Capitalist Modes"
+    ]
+  },
+  {
+    "term": "Alliance of Sahel States (AES)",
+    "pattern": "alliance of sahel states|aes alliance|confederation of sahel states|liptako-gourma charter",
+    "definition": "A sovereign anti-imperialist confederation established in September 2023 by Burkina Faso, Mali, and Niger through the Liptako-Gourma Charter. The AES created a collective defense pact, a joint military force, unified economic infrastructure, and a shared strategic plan to withdraw from the French-controlled ECOWAS monetary bloc, abolish the CFA franc, and assert complete sovereign control over national mineral and energy resources.",
+    "misconception": "That the AES is merely an uncoordinated military junta coalition. The AES represents a popular anti-colonial movement supported by mass trade union and youth mobilization across West Africa aiming for regional socialist industrialization and food self-sufficiency.",
+    "example": "Burkina Faso, Mali, and Niger establishing a joint anti-terror military command and signing treaties for a unified central bank and regional solar energy grid.",
+    "theoryTags": [
+      "Anti-Colonial Socialism",
+      "Marxism-Leninism"
+    ]
+  },
+  {
+    "term": "CFA Franc",
+    "pattern": "cfa franc|cfa franc zone|francafrique currency",
+    "definition": "A neocolonial monetary framework created by France in 1945 that forces 14 West and Central African nations to deposit 50% of their foreign currency reserves directly into the French Treasury. Pegged to the Euro, the CFA franc grants Paris veto power over regional monetary policy, restricts domestic credit, and facilitates capital flight to European banks.",
+    "misconception": "That the CFA franc provides economic stability for African nations. Marxist political economy demonstrates that the currency functions as an instrument of monetary imperialism, stripping African sovereign states of central bank independence and subsidizing French industrial extraction.",
+    "example": "A West African nation being legally required to deposit national gold and trade revenues into French Treasury accounts while facing foreign exchange shortages.",
+    "theoryTags": [
+      "Anti-Colonial Socialism",
+      "Marxism-Leninism"
+    ]
   }
 ];
+

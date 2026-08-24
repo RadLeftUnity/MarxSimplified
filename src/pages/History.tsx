@@ -3,7 +3,10 @@ import {
   allCountries,
   getCountryById,
   CATEGORY_LABELS,
+  CONTINENT_LIST,
+  getCountryContinent,
   type CountryCategory,
+  type Continent,
 } from '../data/history';
 import { TimelineView } from '../components/TimelineView';
 import { FormattedText } from '../components/FormattedText';
@@ -27,7 +30,10 @@ import {
   ArrowRight,
   Clock,
   Zap,
+  Info,
 } from 'lucide-react';
+import { CopyImageButton } from '../components/CopyImageButton';
+import { generateHistoryCardCanvas } from '../utils/shareCardCanvas';
 
 interface HistoryProps {
   onBackToLibrary?: () => void;
@@ -93,6 +99,7 @@ function getFallbackContradictions(country: { category: CountryCategory; isHisto
 export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
   const [selectedCountryId, setSelectedCountryId] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<CountryCategory | 'all'>('all');
+  const [selectedContinent, setSelectedContinent] = useState<Continent | 'all'>('all');
   const [selectedIdeology, setSelectedIdeology] = useState<string>('all');
   const [stateStatusFilter, setStateStatusFilter] = useState<'all' | 'active' | 'historic'>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -142,6 +149,7 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
   const handleResetAllFilters = () => {
     setSearchQuery('');
     setSelectedCategory('all');
+    setSelectedContinent('all');
     setSelectedIdeology('all');
     setStateStatusFilter('all');
     setSortBy('name-asc');
@@ -159,6 +167,11 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
       if (selectedCategory !== 'all') {
         const categories = country.categories || [country.category];
         if (!categories.includes(selectedCategory)) return false;
+      }
+
+      // Continent Filter
+      if (selectedContinent !== 'all' && getCountryContinent(country) !== selectedContinent) {
+        return false;
       }
 
       // State Status Filter
@@ -242,6 +255,21 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
               <span className={`country-category-pill category-${activeCountry.category}`}>
                 {CATEGORY_LABELS[activeCountry.category]?.label || activeCountry.category}
               </span>
+              <CopyImageButton
+                className="compact-gov-link-pill"
+                id={`history-copy-img-${activeCountry.id}`}
+                onGenerateCanvas={() =>
+                  generateHistoryCardCanvas({
+                    name: activeCountry.name,
+                    shortName: activeCountry.shortName,
+                    flagUrl: activeCountry.flagUrl,
+                    coverImage: activeCountry.coverImage,
+                    era: activeCountry.era,
+                    governingIdeology: activeCountry.governingIdeology,
+                    overviewText: activeCountry.overviewText,
+                  })
+                }
+              />
               {activeCountry.officialGovUrl && (
                 <a
                   href={activeCountry.officialGovUrl}
@@ -305,9 +333,16 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
             {activeCountry.counterpartInfo && (
               <div className="counterpart-comparison-box">
                 <div className="counterpart-header">
-                  <RefreshCw className="btn-tiny-icon text-gold" />
-                  <span className="counterpart-label">{activeCountry.counterpartInfo.label}</span>
+                  <div className="counterpart-header-left">
+                    <RefreshCw className="btn-tiny-icon text-gold" />
+                    <span className="counterpart-label">{activeCountry.counterpartInfo.label}</span>
+                  </div>
+                  <span className="counterpart-hover-badge" title="Hover to view comparison analysis">
+                    <Info className="btn-tiny-icon" />
+                    <span>Info</span>
+                  </span>
                 </div>
+
                 <div className="counterpart-body">
                   <button
                     className="counterpart-link-btn"
@@ -316,7 +351,20 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
                     <span>{activeCountry.counterpartInfo.name}</span>
                     <ArrowRight className="btn-tiny-icon" />
                   </button>
-                  <p className="counterpart-contrast-text">
+                </div>
+
+                {/* Floating Rollover Hover Card */}
+                <div className="counterpart-rollover-card glass-panel">
+                  <div className="rollover-header">
+                    <RefreshCw className="btn-tiny-icon text-gold" />
+                    <span className="rollover-title">{activeCountry.counterpartInfo.label}</span>
+                  </div>
+                  <div className="rollover-subhead">
+                    <span>{activeCountry.name}</span>
+                    <span className="vs-tag">vs</span>
+                    <span>{activeCountry.counterpartInfo.name}</span>
+                  </div>
+                  <p className="rollover-contrast-text">
                     {activeCountry.counterpartInfo.contrastText}
                   </p>
                 </div>
@@ -375,9 +423,15 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
             </div>
 
             {/* Main Pane Viewport Content */}
-            <div className="main-pane-content-viewport">
+            <div className={`main-pane-content-viewport ${mainTab === 'timeline' ? 'has-timeline' : ''}`}>
               {mainTab === 'timeline' && (
-                <TimelineView timeline={activeCountry.timeline} sources={activeCountry.sources} />
+                <TimelineView
+                  timeline={activeCountry.timeline}
+                  sources={activeCountry.sources}
+                  countryName={activeCountry.name}
+                  flagUrl={activeCountry.flagUrl}
+                  coverImage={activeCountry.coverImage}
+                />
               )}
 
               {mainTab === 'overview' && (
@@ -592,90 +646,104 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
               </div>
             </div>
 
-            {/* Category Filter Pills */}
-            <div className="sidebar-section">
-              <span className="sidebar-section-label">Category / Region</span>
-              <div className="filter-pills-column">
-                {(Object.keys(CATEGORY_LABELS) as Array<CountryCategory | 'all'>).map((cat) => {
-                  const info = CATEGORY_LABELS[cat];
-                  return (
-                    <button
-                      key={cat}
-                      className={`filter-pill-btn ${selectedCategory === cat ? 'active' : ''}`}
-                      onClick={() => setSelectedCategory(cat)}
-                    >
-                      <span>{info.label}</span>
-                    </button>
-                  );
-                })}
+            {/* Compact 2-Column Grid Filters */}
+            <div className="sidebar-filter-grid">
+              {/* Category / Region */}
+              <div className="sidebar-field">
+                <label htmlFor="history-category-select" className="sidebar-section-label">Category</label>
+                <select
+                  id="history-category-select"
+                  className="history-filter-select"
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value as any)}
+                >
+                  <option value="all">All Categories</option>
+                  <option value="aes">AES / Socialist</option>
+                  <option value="global-south">Global South</option>
+                  <option value="global-north">Global North</option>
+                </select>
+              </div>
+
+              {/* Continent */}
+              <div className="sidebar-field">
+                <label htmlFor="history-continent-select" className="sidebar-section-label">Continent</label>
+                <select
+                  id="history-continent-select"
+                  className="history-filter-select"
+                  value={selectedContinent}
+                  onChange={(e) => setSelectedContinent(e.target.value as any)}
+                >
+                  <option value="all">All Continents ({allCountries.length})</option>
+                  {CONTINENT_LIST.map((cont) => {
+                    const count = allCountries.filter((c) => getCountryContinent(c) === cont).length;
+                    return (
+                      <option key={cont} value={cont}>
+                        {cont} ({count})
+                      </option>
+                    );
+                  })}
+                </select>
+              </div>
+
+              {/* State Status */}
+              <div className="sidebar-field">
+                <label htmlFor="history-status-select" className="sidebar-section-label">State Status</label>
+                <select
+                  id="history-status-select"
+                  className="history-filter-select"
+                  value={stateStatusFilter}
+                  onChange={(e) => setStateStatusFilter(e.target.value as any)}
+                >
+                  <option value="all">All States ({allCountries.length})</option>
+                  <option value="active">Active ({allCountries.filter((c) => !c.isHistoricState).length})</option>
+                  <option value="historic">Historic ({allCountries.filter((c) => c.isHistoricState).length})</option>
+                </select>
+              </div>
+
+              {/* Economic System */}
+              <div className="sidebar-field">
+                <label htmlFor="history-ideology-select" className="sidebar-section-label">Economic System</label>
+                <select
+                  id="history-ideology-select"
+                  className="history-filter-select"
+                  value={selectedIdeology}
+                  onChange={(e) => setSelectedIdeology(e.target.value)}
+                >
+                  <option value="all">All Systems</option>
+                  {availableIdeologies.map((ideo) => (
+                    <option key={ideo} value={ideo}>
+                      {ideo}
+                    </option>
+                  ))}
+                </select>
               </div>
             </div>
 
-            {/* State Status Filter */}
-            <div className="sidebar-section">
-              <span className="sidebar-section-label">State Status</span>
-              <div className="filter-pills-column">
-                <button
-                  className={`filter-pill-btn ${stateStatusFilter === 'all' ? 'active' : ''}`}
-                  onClick={() => setStateStatusFilter('all')}
+            {/* Sort Order and Reset Controls */}
+            <div className="sidebar-filter-grid">
+              <div className="sidebar-field" style={{ gridColumn: (selectedCategory !== 'all' || selectedContinent !== 'all' || selectedIdeology !== 'all' || stateStatusFilter !== 'all' || searchQuery || sortBy !== 'name-asc') ? 'span 1' : 'span 2' }}>
+                <label htmlFor="history-sort-select" className="sidebar-section-label">Sort Order</label>
+                <select
+                  id="history-sort-select"
+                  className="history-filter-select"
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value as any)}
                 >
-                  All Nations ({allCountries.length})
-                </button>
-                <button
-                  className={`filter-pill-btn ${stateStatusFilter === 'active' ? 'active' : ''}`}
-                  onClick={() => setStateStatusFilter('active')}
-                >
-                  Active States ({allCountries.filter((c) => !c.isHistoricState).length})
-                </button>
-                <button
-                  className={`filter-pill-btn ${stateStatusFilter === 'historic' ? 'active' : ''}`}
-                  onClick={() => setStateStatusFilter('historic')}
-                >
-                  Historic States ({allCountries.filter((c) => c.isHistoricState).length})
-                </button>
+                  <option value="name-asc">Name (A – Z)</option>
+                  <option value="name-desc">Name (Z – A)</option>
+                  <option value="ideology">Economic System</option>
+                  <option value="era">Historical Era</option>
+                </select>
               </div>
-            </div>
 
-            {/* Economic System Selector */}
-            <div className="sidebar-section">
-              <span className="sidebar-section-label">Economic System</span>
-              <select
-                className="history-filter-select"
-                value={selectedIdeology}
-                onChange={(e) => setSelectedIdeology(e.target.value)}
-                id="history-ideology-select"
-              >
-                <option value="all">All Economic Systems</option>
-                {availableIdeologies.map((ideo) => (
-                  <option key={ideo} value={ideo}>
-                    {ideo}
-                  </option>
-                ))}
-              </select>
+              {(selectedCategory !== 'all' || selectedContinent !== 'all' || selectedIdeology !== 'all' || stateStatusFilter !== 'all' || searchQuery || sortBy !== 'name-asc') && (
+                <div className="sidebar-field" style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end' }}>
+                  <button className="btn-back-library btn-reset-compact" onClick={handleResetAllFilters} style={{ width: '100%', height: '36px', justifyContent: 'center' }}>
+                    <X className="btn-small-icon" /> Reset
+                  </button>
+                </div>
+              )}
             </div>
-
-            {/* Sort Order */}
-            <div className="sidebar-section">
-              <span className="sidebar-section-label">Sort Order</span>
-              <select
-                className="history-filter-select"
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as any)}
-                id="history-sort-select"
-              >
-                <option value="name-asc">Sort: Name (A – Z)</option>
-                <option value="name-desc">Sort: Name (Z – A)</option>
-                <option value="ideology">Sort: Economic System</option>
-                <option value="era">Sort: Historical Era</option>
-              </select>
-            </div>
-
-            {/* Reset Filters */}
-            {(selectedCategory !== 'all' || selectedIdeology !== 'all' || stateStatusFilter !== 'all' || searchQuery || sortBy !== 'name-asc') && (
-              <button className="btn-back-library" onClick={handleResetAllFilters} style={{ width: '100%', justifyContent: 'center', marginTop: '8px' }}>
-                <X className="btn-small-icon" /> Reset All Filters
-              </button>
-            )}
           </aside>
 
           {/* Right Column: Cards Grid Header and Grid */}
@@ -684,6 +752,7 @@ export const History: React.FC<HistoryProps> = ({ onBackToLibrary }) => {
               <span className="history-stats-count">
                 Showing <strong>{filteredCountries.length}</strong> of {allCountries.length} nations
                 {selectedCategory !== 'all' && ` • Category: ${CATEGORY_LABELS[selectedCategory]?.label}`}
+                {selectedContinent !== 'all' && ` • Continent: ${selectedContinent}`}
                 {selectedIdeology !== 'all' && ` • Ideology: ${selectedIdeology}`}
                 {stateStatusFilter !== 'all' && ` • Status: ${stateStatusFilter}`}
                 {searchQuery && ` • Search: "${searchQuery}"`}

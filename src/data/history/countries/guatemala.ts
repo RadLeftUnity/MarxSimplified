@@ -106,7 +106,7 @@ US Green Berets trained Guatemalan military death squads, which executed scorche
       details: `In March 1982, US-backed evangelical General **Efraín Ríos Montt** seized power. Under the *Victoria 82* military campaign, Montt ordered the total destruction of 626 Ixil Mayan villages.
 
 Guatemalan soldiers slaughtered over 100,000 indigenous Mayans in two years, raping women and burning crops (a campaign formally designated as **Genocide** by the 1999 UN Truth Commission). [3]`,
-      keyFigures: ['Efraín Ríos Montt', 'Ronald Reagan (Praised Ríos Montt as "totally dedicated")'],
+      keyFigures: ['Efraín Ríos Montt', 'Ronald Reagan'],
       citationIds: [3],
     },
     {

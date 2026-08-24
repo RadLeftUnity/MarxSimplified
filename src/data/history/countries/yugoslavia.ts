@@ -19,7 +19,7 @@ export const yugoslaviaData: CountryData = {
     id: 'serbia',
     name: 'Republic of Serbia (Modern Post-Yugoslav State)',
     label: 'Modern Capitalist Equivalent',
-    contrastText: 'Socialist Yugoslavia (SFRY 1945–1992) pioneered Workers\' Self-Management, Non-Aligned Movement diplomacy, & equal federal republic rights, contrasting with post-1990 IMF debt destruction, 1999 NATO carpet-bombing, & modern post-socialist Balkan fragmentation.',
+    contrastText: 'Socialist Yugoslavia (SFRY 1945–1992) pioneered Workers\' Self-Management, Non-Aligned Movement diplomacy, and equal federal republic rights, contrasting with post-1990 IMF debt destruction, 1999 NATO carpet-bombing, and modern post-socialist Balkan fragmentation.',
   },
   
   overviewText: `The Socialist Federal Republic of Yugoslavia (SFRY) represents a historic experiment in self-managing socialism, anti-fascist national liberation, and Global South non-alignment that was ultimately dismantled through Western-backed debt restructuring and imperialist military intervention.
@@ -32,23 +32,23 @@ Following the 1948 Tito-Stalin split, Yugoslavia pioneered **Workers' Self-Manag
     "The diplomatic break between Josip Broz Tito and the Cominform led Yugoslavia to seek Western loans and trade agreements. Western imperialist financial institutions used this leverage to gradually introduce market mechanics and IMF loan conditions.",
     "While worker self-management decentralized factory control, it created market competition between enterprises and widened wealth gaps between wealthy northern republics (Slovenia, Croatia) and poorer southern regions (Kosovo, Macedonia), sparking nationalist friction.",
     "Severe foreign debt forced Belgrade to accept IMF austerity programs in the 1980s, requiring wage freezes, public spending cuts, and currency devaluation. This destroyed national economic cohesion and triggered soaring unemployment.",
-    "Germany) passed foreign assistance laws conditioning aid on republic-level independence elections, actively fueling ethnic chauvinism. In 1999, NATO launched a 78-day illegal bombing campaign to partition the remaining federal state and privatize its public enterprises."
+    "Germany passed foreign assistance laws conditioning aid on republic-level independence elections, actively fueling ethnic chauvinism. In 1999, NATO launched a 78-day illegal bombing campaign to partition the remaining federal state and privatize its public enterprises."
   ],
 
   quickFacts: [
     { label: 'Partisan Self-Liberation (1945)', value: 'Tito\'s Partisans liberated Yugoslavia without foreign military occupation [1]' },
     { label: 'Workers\' Self-Management (1950)', value: 'Pioneered direct workplace democracy through elected Workers\' Councils [2]' },
-    { label: 'Non-Aligned Movement Founder (1961)', value: 'Co-founded NAM in Belgrade with Egypt, India, Indonesia & Ghana [3]' },
+    { label: 'Non-Aligned Movement Founder (1961)', value: 'Co-founded NAM in Belgrade with Egypt, India, Indonesia, and Ghana [3]' },
     { label: '1999 NATO Bombing Destruction', value: '78-day illegal NATO bombardment destroyed public state infrastructure [4]' },
   ],
 
   timeline: [
     {
       id: 'yugoslavia-pre-1941-kingdom-kpj',
-      title: '1. Pre-1941: The Royalist Kingdom of Yugoslavia, Peasant Dispossession & 1920 Founding of KPJ',
+      title: '1. Pre-1941: The Royalist Kingdom of Yugoslavia, Peasant Dispossession and 1920 Founding of KPJ',
       period: 'Pre-1941',
       categoryTag: 'pre-revolution',
-      summary: '1918 Kingdom of Serbs, Croats & Slovenes; peasant poverty; 1920 founding & illegalization of KPJ.',
+      summary: '1918 Kingdom of Serbs, Croats, and Slovenes; peasant poverty; 1920 founding and illegalization of KPJ.',
       details: `Following World War I and the collapse of the Austro-Hungarian Empire, the Kingdom of Serbs, Croats, and Slovenes (later Kingdom of Yugoslavia) was established in 1918 under the Serbian Karađorđević monarchy. The state suffered from severe agrarian poverty, foreign French and British capital control over mines, and intense national chauvinism.
 
 In April 1919, revolutionary socialists founded the Communist Party of Yugoslavia (KPJ). After winning major victories in 1920 municipal elections, the royalist regime passed the draconian Obznana decree, illegalizing the KPJ, banning trade unions, and imprisoning Marxist leaders. [1]`,
@@ -57,7 +57,7 @@ In April 1919, revolutionary socialists founded the Communist Party of Yugoslavi
     },
     {
       id: 'yugoslavia-1941-nazi-invasion-partisans',
-      title: '2. 1941 – 1945: Axis Invasion, Ustaše Fascist Genocide (Jasenovac) & Tito\'s Partisan Liberation',
+      title: '2. 1941 – 1945: Axis Invasion, Ustaše Fascist Genocide (Jasenovac) and Tito\'s Partisan Liberation',
       period: '1941 – 1945',
       categoryTag: 'revolution',
       summary: '1941 Axis invasion; Ustaše commit Jasenovac genocide; Tito\'s Partisans liberate Yugoslavia.',
@@ -69,10 +69,10 @@ In response, Josip Broz Tito and the KPJ organized the National Liberation Army 
     },
     {
       id: 'yugoslavia-1945-founding-fpry-tito-stalin-split',
-      title: '3. 1945 – 1948: Proclamation of the Federal Republic & The 1948 Tito-Stalin Split',
+      title: '3. 1945 – 1948: Proclamation of the Federal Republic and The 1948 Tito-Stalin Split',
       period: '1945 – 1948',
       categoryTag: 'revolution',
-      summary: 'Nov 1945: Proclamation of FPRY; nationalizing industry & land reform; 1948 Tito-Stalin split.',
+      summary: 'Nov 1945: Proclamation of FPRY; nationalizing industry and land reform; 1948 Tito-Stalin split.',
       details: `On November 29, 1945, the Constituent Assembly formally abolished the monarchy and proclaimed the Federal People's Republic of Yugoslavia (FPRY), composed of six equal republics. The state nationalized foreign cartels, banks, and heavy industry, enacting radical land distribution.
 
 In June 1948, a severe rift erupted between Yugoslavia and the Soviet Union over independent Yugoslav foreign policy in the Balkans and Greece. Yugoslavia was expelled from the Cominform, leading Tito to chart an independent, non-aligned path to socialism. [1][3]`,
@@ -81,31 +81,27 @@ In June 1948, a severe rift erupted between Yugoslavia and the Soviet Union over
     },
     {
       id: 'yugoslavia-1950-workers-self-management-nam-1961',
-      title: '4. 1950 – 1964: Workers\' Self-Management (Samoupravljanje) & Founding of Non-Aligned Movement (1961)',
+      title: '4. 1950 – 1964: Workers\' Self-Management (Samoupravljanje) and Founding of Non-Aligned Movement (1961)',
       period: '1950 – 1964',
       categoryTag: 'policies',
       summary: '1950 Law on Workers\' Self-Management; 1961 Belgrade Conference co-founds Non-Aligned Movement (NAM).',
-      details: `In June 1950, Yugoslavia passed the historic Law on Management of Government Enterprises by Workers, establishing **Workers' Self-Management (Samoupravljanje)**. Enterprising power was transferred to elected Workers' Councils, allowing workers to decide production, wages, and social funds.
+      details: `In June 1950, Yugoslavia passed the historic Law on Management of Government Enterprises by Workers, establishing Workers' Self-Management (Samoupravljanje). Governance was transferred to elected Workers' Councils, allowing factory workers to decide enterprise production and wage distribution.
 
-In September 1961, Tito hosted the historic Belgrade Conference alongside Nasser (Egypt), Nehru (India), Sukarno (Indonesia), and Nkrumah (Ghana), founding the **Non-Aligned Movement (NAM)** to resist US imperialist military pacts and Cold War superpower division. [2][3]`,
-      keyFigures: ['Josip Broz Tito', 'Edvard Kardelj', 'Gamal Abdel Nasser', 'Jawaharlal Nehru'],
-      citationIds: [2, 3],
+In September 1961, Tito hosted the historic Belgrade Conference alongside Nasser (Egypt), Nehru (India), Sukarno (Indonesia), and Nkrumah (Ghana), founding the Non-Aligned Movement (NAM) to unite Global South nations against imperialist superpower military pacts. [2][3]`
     },
     {
       id: 'yugoslavia-1965-market-reforms-1974-constitution',
-      title: '5. 1965 – 1979: Market Socialist Reforms, 1974 Decentralized Constitution & High Living Standards',
+      title: '5. 1965 – 1979: Market Socialist Mechanics, Unemployment and Regional Economic Disparities',
       period: '1965 – 1979',
-      categoryTag: 'successes',
-      summary: '1965 economic reforms; 1974 Constitution expands republic autonomy; high social welfare & travel rights.',
-      details: `During the 1960s and 1970s, Yugoslavia enjoyed rapid industrial growth and high living standards. Citizens benefited from free universal healthcare, subsidized housing, 100% literacy, and visa-free global travel rights.
+      categoryTag: 'challenges',
+      summary: '1965 market reforms; rising unemployment (15-20%); labor migration (Gastarbeiter) and regional wealth gaps.',
+      details: `During the 1960s and 1970s, Yugoslavia maintained high social welfare, free universal healthcare, and 100% literacy. However, the introduction of market-socialist reforms in 1965 replaced centralized physical planning with enterprise market competition and profit retention.
 
-The 1974 Constitution devolved significant economic and political autonomy to the six republics and two autonomous provinces (Kosovo and Vojvodina). However, market socialist reforms increased regional economic disparities between prosperous northern Slovenia/Croatia and underdeveloped southern Kosovo/Macedonia. [2][4]`,
-      keyFigures: ['Josip Broz Tito', 'Edvard Kardelj', 'Džemal Bijedić'],
-      citationIds: [2, 4],
+Unlike centrally planned socialist economies that guaranteed 0% unemployment and full labor utilization, Yugoslavia's market mechanics generated high structural unemployment (reaching 15% to 20%+ in southern regions), widespread underemployment, and mass worker emigration to West Germany (*Gastarbeiter*). Furthermore, market forces widened regional wealth gaps between industrialized northern republics (Slovenia and Croatia) and underdeveloped southern territories (Kosovo and Macedonia), creating structural economic tensions that exploded when Western IMF debt hit in the 1980s. [2][4]`
     },
     {
       id: 'yugoslavia-1980-tito-death-imf-debt-crisis',
-      title: '6. 1980 – 1989: Death of Tito, Foreign IMF Debt Crisis & Rise of Ethno-Nationalist Sabotage',
+      title: '6. 1980 – 1989: Death of Tito, Foreign IMF Debt Crisis and Rise of Ethno-Nationalist Sabotage',
       period: '1980 – 1989',
       categoryTag: 'challenges',
       summary: 'May 1980: Death of Tito; IMF austerity forces wage freezes; nationalist politicians exploit economic misery.',
@@ -117,7 +113,7 @@ Mass unemployment and inflation shattered working-class solidarity. Opportunisti
     },
     {
       id: 'yugoslavia-1990-dissolution-nato-bombing-1999',
-      title: '7. 1990 – 1999: Western-Backed Violent Dissolution, 1999 NATO Bombing & Capitalist Restoration',
+      title: '7. 1990 – 1999: Western-Backed Violent Dissolution, 1999 NATO Bombing and Capitalist Restoration',
       period: '1990 – 1999',
       categoryTag: 'challenges',
       summary: '1991-1995 civil wars; Western powers recognize secessions; 1999 78-day NATO carpet-bombing destroys state assets.',
@@ -129,7 +125,7 @@ In March 1999, bypassing the UN Security Council, NATO launched a 78-day illegal
     },
     {
       id: 'yugoslavia-2000-bulldozer-revolution-color-revolution',
-      title: '8. 2000: The Bulldozer Revolution (US-Backed Color Revolution) & Fall of Milosevic',
+      title: '8. 2000: The Bulldozer Revolution (US-Backed Color Revolution) and Fall of Milosevic',
       period: '2000',
       categoryTag: 'challenges',
       summary: 'USAID/NED fund Otpor! youth org; October 5 Bulldozer Revolution deposes Milosevic; template for all future color revolutions.',
@@ -143,7 +139,7 @@ The US operation's success in Serbia became the **explicit export template**: Ot
     },
     {
       id: 'yugoslavia-present-post-yugoslav-peripheralization',
-      title: '9. Present: Post-Yugoslav Peripheralization, Privatization & Capitalist Hegemony in Balkans',
+      title: '9. Present: Post-Yugoslav Peripheralization, Privatization and Capitalist Hegemony in Balkans',
       period: 'Present',
       categoryTag: 'challenges',
       summary: 'Successor states converted into debt-ridden EU/NATO periphery; destruction of social property.',

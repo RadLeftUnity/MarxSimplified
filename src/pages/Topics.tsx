@@ -4,6 +4,8 @@ import { fetchCachedTopicIndex, clearTopicCache } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
 import { getAuthorImageUrl } from '../utils/authorImage';
+import { CopyImageButton } from '../components/CopyImageButton';
+import { generateAnnotationCardCanvas } from '../utils/shareCardCanvas';
 
 interface TopicsProps {
   initialTopic?: string | null;
@@ -193,14 +195,30 @@ export const Topics: React.FC<TopicsProps> = ({
                               <span className="source-separator">•</span>
                               <span className="source-chapter">{ref.chapterTitle}</span>
                             </div>
-                            <button
-                              id={`read-btn-${annId}`}
-                              className="read-in-book-btn"
-                              onClick={() => onSelectAnnotationInReader(ref.bookId, ref.chapterId, annId)}
-                            >
-                              <span>Read in Book</span>
-                              <ArrowRight className="btn-arrow-icon" />
-                            </button>
+                            <div className="card-source-actions" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+                              <CopyImageButton
+                                className="read-in-book-btn"
+                                id={`copy-topic-${annId}`}
+                                onGenerateCanvas={() =>
+                                  generateAnnotationCardCanvas({
+                                    bookTitle: ref.bookTitle || 'Marxist Theory Reader',
+                                    author: ref.bookAuthor || 'Karl Marx',
+                                    targetText: ann.targetText,
+                                    explanation: ann.explanation || ann.summary || '',
+                                    coverGradient: ref.coverGradient,
+                                    authorImageUrl: authorImgUrl,
+                                  })
+                                }
+                              />
+                              <button
+                                id={`read-btn-${annId}`}
+                                className="read-in-book-btn"
+                                onClick={() => onSelectAnnotationInReader(ref.bookId, ref.chapterId, annId)}
+                              >
+                                <span>Read in Book</span>
+                                <ArrowRight className="btn-arrow-icon" />
+                              </button>
+                            </div>
                           </div>
 
                           <div className="topic-card-section quote-section">

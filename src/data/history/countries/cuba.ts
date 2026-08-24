@@ -16,7 +16,7 @@ export const cubaData: CountryData = {
   isHistoricState: false,
   
   officialGovUrl: 'https://www.presidencia.gob.cu/',
-  overviewText: `The Cuban Revolution of 1959 overthrew Fulgencio Batista's U.S.-backed dictatorship, ending decades of neo-colonial exploitation where foreign corporations owned Cuba's land, sugar mills, and utilities. Under the leadership of Fidel Castro and the July 26th Movement, Cuba embarked on a socialist path that transformed the island's social structure.
+  overviewText: `The Cuban Revolution of 1959 overthrew Fulgencio Batista's U.S.-backed dictatorship, ending centuries of colonial and neo-colonial exploitation. Under Spanish rule and subsequent American domination, Cuba was forced into a rigid sugar monocrop plantation economy, where foreign corporations owned Cuba's most fertile soil, sugar mills, and public utilities. Under the leadership of Fidel Castro and the July 26th Movement, Cuba dismantled the plantation system through revolutionary agrarian reform and embarked on a socialist path that transformed the island's social structure.
 
 Despite enduring the longest illegal trade embargo (blockade) in modern history imposed by the United States, Cuba achieved world-renowned social metrics: complete eradication of illiteracy, a lower infant mortality rate than the United States, a 100% public healthcare system, and international medical brigades (Henry Reeve Contingent) sent to combat disasters and epidemics across the globe.
 
@@ -39,18 +39,18 @@ Understanding socialist Cuba requires looking beyond imperialist media narrative
   timeline: [
     {
       id: 'cuba-batista',
-      title: '1. Pre-Revolutionary Cuba: US Neo-Colonialism & Batista Dictatorship',
+      title: '1. Pre-Revolutionary Cuba: US Neo-Colonialism and the Sugar Monocrop Plantation Economy',
       period: 'Pre-1959',
       categoryTag: 'pre-revolution',
-      summary: 'Extreme land inequality, US corporate ownership of sugar and casinos, ruthless political suppression.',
-      details: `Before 1959, Cuba operated as a de facto economic colony of the United States. Over 75% of fertile agricultural land was held by US corporations and wealthy latifundistas, while rural peasants suffered from widespread malnutrition, seasonal unemployment, and lack of healthcare.
+      summary: 'Extreme sugar monoculture land inequality, US corporate ownership of sugar mills and casinos, ruthless political suppression.',
+      details: `Before 1959, Cuba operated as a classic monocrop plantation economy and de facto economic colony of the United States. Following Spanish colonial sugar domination, American monopolies like the United Fruit Company and the Cuban-American Sugar Company seized over seventy-five percent of fertile agricultural land. This enforced sugar monoculture stripped Cuba of food sovereignty, forcing the island to import basic foodstuffs from the United States at inflated prices while leaving rural agricultural workers suffering from severe seasonal unemployment during the dead season (tiempo muerto).
 
-Under U.S.-backed dictator Fulgencio Batista, Havana was turned into a playground for American mobsters and casinos, while secret police tortured political dissidents and trade unionists. [3]`,
+Under U.S.-backed dictator Fulgencio Batista, Havana was turned into a playground for American mobsters and corporate cartels, while secret police tortured political dissidents and trade unionists fighting against plantation dispossession. [3]`,
       citationIds: [3],
     },
     {
       id: 'cuba-revolution',
-      title: '2. The July 26th Movement & The Overthrow of Batista',
+      title: '2. The July 26th Movement and The Overthrow of Batista',
       period: '1953 – 1959',
       categoryTag: 'revolution',
       summary: 'Moncada barracks attack, Sierra Maestra guerrilla war, mass general strikes, and victory in 1959.',
@@ -116,18 +116,18 @@ The Henry Reeve International Medical Contingent deployed thousands of doctors t
       keyFigures: ['Fidel Castro', 'Raúl Castro', 'Concepción Campa'],
     },
     {
-      id: 'cuba-present',
-      title: '8. 2019 – Present: The 2019 Constitution, Resisting 2021 11J Color Revolution & COVID-19 Success',
+      id: 'cuba-present-constitution-family-code',
+      title: '8. 2019 – Present: The 2019 Constitution, Resisting US Blockade Power Grids Crises and International Solidarity',
       period: '2019 – Present',
       categoryTag: 'successes',
-      summary: 'Enacting progressive 2022 Family Code; developing 5 COVID vaccines; defeating USAID/NED 11J color revolution attempt.',
-      details: `In 2019, Cubans ratified a renewed socialist Constitution. In 2022, a public referendum approved the revolutionary Family Code, establishing landmark LGBTQ+ rights, equal marriage, and elder protections.
+      summary: '2022 Family Code victory; 5 COVID-19 vaccines; resisting US blockade-engineered energy grid blackouts with international solidarity.',
+      details: `In 2019, Cubans ratified a renewed socialist Constitution. In 2022, a public referendum approved the revolutionary Family Code, establishing landmark LGBTQ+ rights, equal marriage, and elder protections. During COVID-19, despite US sanctions blocking medical supplies, Cuban scientists developed five indigenous vaccines (Abdala and Soberana) and vaccinated over ninety percent of the population. Concurrently, Cuban workers mobilized en masse to defeat USAID and NED hybrid warfare soft-coup attempts (such as the July 2021 color revolution attempt).
 
-During COVID-19, despite US sanctions blocking medical supplies, Cuban scientists developed 5 indigenous vaccines (Abdala, Soberana) and vaccinated 90%+ of the population.
+In 2024, Cuba faced acute electrical power grid blackouts caused by sixty-plus years of the illegal US economic blockade. US President Donald Trump placed Cuba on the arbitrary US "State Sponsors of Terrorism" (SSOT) list, a coercive designation maintained by the Biden administration that blocks Cuba's access to international banking channels and imposes secondary sanctions on foreign oil tankers attempting to dock in Cuban ports. Starved of foreign currency reserves, state power utility Unión Eléctrica (UNE) was unable to purchase spare parts for aging thermoelectric power plants (such as the Antonio Guiteras facility) or secure sufficient heavy crude fuel. This vulnerable state was further battered by Category 3 Hurricane Oscar and Hurricane Rafael, which damaged high-voltage electrical towers.
 
-Concurrently, the US government intensified hybrid warfare, spending $20M+ annually through USAID and the National Endowment for Democracy (NED) on regime change front groups (Cuba Money Project, ADN Cuba). Investigations confirmed that USAID covertly built "ZunZuneo" (a Twitter clone app designed to trigger social unrest), funded the "San Isidro Movement," and launched the July 11, 2021 (11J) color revolution attempt using automated Miami bot farms to trend #SOSCuba. Cuban workers mobilized en masse to defend the revolution, defeating the soft-coup attempt. [1][2][4]`,
-      keyFigures: ['Miguel Díaz-Canel', 'Raúl Castro', 'Yuniol García (US Proxy)'],
-      citationIds: [1, 2, 4],
+In response to the imperialist siege, international solidarity from Global South allies proved crucial. Mexico dispatched technical repair crews and emergency fuel tankers, Russia delivered crude oil shipments, China supplied solar grid generators and electrical infrastructure equipment, and Venezuela maintained energy solidarity. Domestically, the socialist state deployed emergency electrical brigades to restore power to hospitals and water pumping stations while accelerating national solar power installation projects to build renewable energy sovereignty. [1][2][3][4]`,
+      keyFigures: ['Miguel Díaz-Canel', 'Raúl Castro', 'Concepción Campa'],
+      citationIds: [1, 2, 3, 4],
     },
   ],
 

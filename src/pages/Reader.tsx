@@ -6,6 +6,7 @@ import type { Annotation } from '../components/ChapterReader';
 import { AnnotationSidebar } from '../components/AnnotationSidebar';
 import { fetchChapterBundle, prefetchAdjacentChapters } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
+import { getAuthorImageUrl } from '../utils/authorImage';
 
 
 interface ReaderProps {
@@ -293,6 +294,10 @@ export const Reader: React.FC<ReaderProps> = ({
               onSelectAnnotation={handleSelectAnnotation}
               chapterSummary={chapterSummary}
               onSelectTopicTag={onSelectTopicTag}
+              bookTitle={book.title}
+              author={book.author}
+              coverGradient={book.coverGradient}
+              authorImageUrl={getAuthorImageUrl(book.author)}
             />
           )}
         </div>

@@ -216,21 +216,72 @@ export function parseFormattedBlocks(rawText: string): ParsedBlock[] {
   return blocks;
 }
 
-function processMarkdownSpan(rawText: string, shouldHighlight: boolean): React.ReactNode {
+function processItalic(rawText: string, shouldHighlight: boolean): React.ReactNode {
   if (!rawText) return null;
+  const italicParts = rawText.split(/(\*.*?\*|_.*?_)/g);
+  if (italicParts.length <= 1) {
+    return shouldHighlight ? highlightJargon(rawText) : rawText;
+  }
 
-  // Split by **bold** first
-  const parts = rawText.split(/(\*\*.*?\*\*)/g);
-  return parts.map((part, i) => {
-    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
-      const inner = part.slice(2, -2);
+  return italicParts.map((part, i) => {
+    if (
+      (part.startsWith('*') && part.endsWith('*') && part.length >= 3) ||
+      (part.startsWith('_') && part.endsWith('_') && part.length >= 3)
+    ) {
+      const inner = part.slice(1, -1);
       return (
-        <strong key={i} className="formatted-bold text-gold" style={{ fontWeight: 600 }}>
+        <em key={i} className="formatted-italic font-italic" style={{ fontStyle: 'italic' }}>
           {shouldHighlight ? highlightJargon(inner) : inner}
-        </strong>
+        </em>
       );
     }
     return shouldHighlight ? highlightJargon(part) : part;
+  });
+}
+
+function processBold(rawText: string, shouldHighlight: boolean): React.ReactNode {
+  if (!rawText) return null;
+  const boldParts = rawText.split(/(\*\*.*?\*\*|__.*?__)/g);
+  if (boldParts.length <= 1) {
+    return processItalic(rawText, shouldHighlight);
+  }
+
+  return boldParts.map((part, i) => {
+    if (
+      (part.startsWith('**') && part.endsWith('**') && part.length >= 4) ||
+      (part.startsWith('__') && part.endsWith('__') && part.length >= 4)
+    ) {
+      const inner = part.slice(2, -2);
+      return (
+        <strong key={i} className="formatted-bold text-gold" style={{ fontWeight: 600 }}>
+          {processItalic(inner, shouldHighlight)}
+        </strong>
+      );
+    }
+    return processItalic(part, shouldHighlight);
+  });
+}
+
+function processMarkdownSpan(rawText: string, shouldHighlight: boolean): React.ReactNode {
+  if (!rawText) return null;
+  const boldItalicParts = rawText.split(/(\*\*\*.*?\*\*\*|___.*?___)/g);
+  if (boldItalicParts.length <= 1) {
+    return processBold(rawText, shouldHighlight);
+  }
+
+  return boldItalicParts.map((part, i) => {
+    if (
+      (part.startsWith('***') && part.endsWith('***') && part.length >= 6) ||
+      (part.startsWith('___') && part.endsWith('___') && part.length >= 6)
+    ) {
+      const inner = part.slice(3, -3);
+      return (
+        <strong key={i} className="formatted-bold-italic text-gold" style={{ fontWeight: 600, fontStyle: 'italic' }}>
+          {processItalic(inner, shouldHighlight)}
+        </strong>
+      );
+    }
+    return processBold(part, shouldHighlight);
   });
 }
 

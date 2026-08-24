@@ -168,5 +168,32 @@ export const stalinistTerms: GlossaryTerm[] = [
     "misconception": "A complete departure from Marxism. Stalinism applied centralized state power to rapidly modernize Soviet productive forces to survive imperialist invasion.",
     "example": "Building massive industrial cities in Siberia through centralized state planning quotas to supply military resistance against Nazi invasion.",
     "theoryTags": ["Stalinism", "Marxism-Leninism"]
+  },
+  {
+    "term": "1932–1933 Soviet Famine",
+    "pattern": "1932-1933 famine|1932-1933 soviet famine|ukrainian famine myth|holodomor myth|holodomor propaganda",
+    "definition": "The 1932–1933 agricultural crisis across Ukraine, Kazakhstan, and the Kuban region resulting from a severe natural drought, plant disease, typhus epidemics, and widespread class sabotage by wealthy kulak landlords (who slaughtered millions of draft animals and destroyed grain stores to resist collectivization), compounded by local cadre procurement errors. As documented in Douglas Tottle's 'Fraud, Famine and Fascism' (1987), the claim of a deliberate 'man-made genocide' ('Holodomor') was originally fabricated by Nazi Propaganda Minister Joseph Goebbels and pro-Nazi US media publisher William Randolph Hearst, later popularized during the Cold War to delegitimize Soviet socialism.",
+    "misconception": "That the 1932–1933 famine was an intentionally planned extermination campaign organized by Stalin against Ukrainians. Declassified Soviet archives confirm that the Soviet central leadership dispatched over 500,000 tons of emergency relief grain to Ukraine and drastically reduced grain export quotas to feed starving regions.",
+    "example": "Marxist historians citing Douglas Tottle's investigative documentation of fake famine photographs (taken during the 1921 Volga famine or WWI) manufactured by fraudulent reporter Thomas Walker in Hearst newspapers to expose the Nazi origins of the genocide narrative.",
+    "theoryTags": ["Stalinism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Second Economy / Tsekhoviki",
+    "pattern": "second economy|tsekhoviki|shadow economy|underground capitalists|soviet black market",
+    "definition": "In post-Stalin Soviet economic history, the pervasive network of illegal and semi-legal shadow private enterprise, underground manufacturing workshops, and black-market trade networks. Operated by underground capitalists known as tsekhoviki, the second economy expanded rapidly following market-oriented reforms. As analyzed by Roger Keeran and Thomas Kenny in 'Socialism Betrayed', the second economy fostered an emergent petty-bourgeois class that accumulated illicit private capital, bribed corrupt party apparatchiks, and allied with Gorbachev's Perestroika to legally restore capitalism.",
+    "misconception": "That the second economy was an innocent grassroots effort to overcome central planning deficits. In reality, tsekhoviki siphoned state raw materials, sabotaged official distribution, and created an underground capitalist base dedicated to dismantling public property.",
+    "example": "Factory directors secretly running illegal second-shift factory operations using state raw materials to manufacture goods for private black-market sale.",
+    "theoryTags": ["Stalinism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Virgin Lands Campaign",
+    "pattern": "virgin lands campaign|virgin lands|tselina|kukuruzomania|khrushchev corn campaign",
+    "definition": "A massive agricultural initiative launched by Nikita Khrushchev in 1953–1954 to rapidly expand Soviet grain production by plowing over 40 million hectares of uncultivated steppe land in Northern Kazakhstan and Western Siberia. Mobilizing over 300,000 Komsomol youth volunteers, the campaign initially achieved record grain yields in 1956. However, poor administrative planning: mono-crop wheat planting without fallow periods, forcing corn planting in cold northern climates (Kukuruzomania), failure to build shelterbelts against dust storms, and diverting resources from Ukraine's black-earth region: caused catastrophic soil erosion and crop failures during the 1963 drought, forcing the USSR to import grain from Western nations.",
+    "misconception": "That the Virgin Lands campaign was a complete failure from day one. In reality, it initially supplied over half of Soviet grain in 1956, but long-term environmental neglect caused severe ecological and logistical collapse.",
+    "example": "Central planners ordering collective farms in Siberia to plant corn varieties suited for Iowa weather, resulting in frozen crop losses.",
+    "theoryTags": ["Stalinism", "Marxism-Leninism"]
   }
 ];
+
+
+
