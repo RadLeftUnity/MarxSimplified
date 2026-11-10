@@ -101,6 +101,22 @@ const TOPIC_RULES = [
     name: 'Religion',
     pattern: /religion|religious|atheis|clerical|church|parson|god-building|opium of the people/i,
   },
+  {
+    name: 'Fascism Analysis',
+    pattern: /fascis[mt]|mussolini|blackshirts?|bonapartis[mt]|white terror|united front against fascism/i,
+  },
+  {
+    name: 'Racial Equality',
+    pattern: /white skin|black skin|hunting of black-skins|negro slave|all races without any distinctions|racial equality|extirpation,\s*enslavement/i,
+  },
+  {
+    name: 'Ultra Leftism',
+    pattern: /ultra-left|infantile disorder|otzovist|recallist|boycotting parliamentary|abandon conservative trade unions|no compromises|communist labour party|blanquist/i,
+  },
+  {
+    name: 'Idealism',
+    pattern: /idealis[mt]|speculative philosophy|hegelian|metaphysical|critical criticism|eternal truths/i,
+  },
 ];
 
 function inferTopicsForAnnotation(ann, textContent) {
@@ -118,6 +134,13 @@ function inferTopicsForAnnotation(ann, textContent) {
   }
 
   return Array.from(inferred);
+}
+
+function getTopicSlug(topic) {
+  return String(topic)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
 }
 
 export function buildTopicIndex() {
@@ -192,6 +215,7 @@ export function buildTopicIndex() {
   const topicGroups = Array.from(topicMap.entries())
     .map(([topic, annotations]) => ({
       topic,
+      slug: getTopicSlug(topic),
       count: annotations.length,
       annotations
     }))

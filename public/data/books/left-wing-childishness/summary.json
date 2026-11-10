@@ -1,0 +1,56 @@
+{
+  "id": "left-wing-childishness",
+  "title": "“Left-Wing” Childishness and the Petty-Bourgeois Mentality",
+  "author": "V.I. Lenin",
+  "year": "1918",
+  "difficulty": "Medium",
+  "readingTime": "45 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1918/may/09.htm",
+  "context": "Written in May 1918 during the fierce debate over the Treaty of Brest-Litovsk and Soviet economic policy, V.I. Lenin replies to the 'Left Communist' faction (including Nikolai Bukharin, Valerian Osinsky, and Karl Radek) and their journal Kommunist. Lenin exposes how ultra-left revolutionary phrase-making masks petty-bourgeois vacillation and a failure to grasp the concrete material tasks of transitioning from capitalism to socialism.",
+  "relatesToToday": "Lenin's distinction between simple confiscation ('taking over' assets by decree) and genuine socialization (establishing nationwide accounting, disciplined organization, and mastery of large-scale production) remains essential for understanding how socialist states navigate transitional economies, state capitalism, and imperialist encirclement.",
+  "keyTakeaways": [
+    "Marxist strategy requires strictly calculating the objective balance of class and military forces rather than indulging in subjective 'Left' phrase-making.",
+    "Confiscation requires only political determination, whereas true socialization requires nationwide accounting, control, and organizational mastery.",
+    "In a predominantly small-peasant economy, petty-bourgeois profiteering and anarchy of small ownership are the primary internal enemies of socialism.",
+    "State capitalism under a proletarian Soviet state is not a betrayal of socialism, but a vital transitional rung toward large-scale socialist production.",
+    "A revolutionary proletarian state must not hesitate to employ and learn from bourgeois technical specialists under strict working-class supervision."
+  ],
+  "chapters": [
+    {
+      "id": "the-brest-peace-and-the-balance-of-forces",
+      "title": "I. The Brest Peace and the Balance of Forces",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "proletarian-defencism-and-revolutionary-phrase-making",
+      "title": "II. Proletarian Defencism and Revolutionary Phrase-Making",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "state-capitalism-and-the-transition-to-socialism",
+      "title": "III. State Capitalism and the Transition to Socialism",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "large-scale-engineering-and-national-accounting",
+      "title": "IV. Large-Scale Engineering and National Accounting",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "compromises-labour-discipline-and-socialist-construction",
+      "title": "V. Compromises, Labour Discipline, and Socialist Construction",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

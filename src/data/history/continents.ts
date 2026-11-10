@@ -86,6 +86,7 @@ export const COUNTRY_CONTINENT_MAP: Record<string, Continent> = {
   'russia': 'Europe',
   'scotland': 'Europe',
   'serbia': 'Europe',
+  'spain': 'Europe',
   'sweden': 'Europe',
   'uk': 'Europe',
   'ukraine': 'Europe',
@@ -122,6 +123,7 @@ export const COUNTRY_CONTINENT_MAP: Record<string, Continent> = {
   'guyana': 'South America',
   'suriname': 'South America',
   'venezuela': 'South America',
+  'venezuela-bolivarian': 'South America',
 
   // Oceania
   'hawaii': 'Oceania',

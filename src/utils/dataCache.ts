@@ -168,8 +168,16 @@ export interface TopicAnnotationRef {
 
 export interface TopicGroup {
   topic: string;
+  slug?: string;
   count: number;
   annotations: TopicAnnotationRef[];
+}
+
+export function getTopicSlug(topic: string): string {
+  return topic
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
 }
 
 
@@ -217,6 +225,8 @@ export interface IndexedChapter {
     targetText: string;
     explanation?: string;
     summary?: string;
+    context?: string;
+    topics?: string[];
   }>;
   paragraphs: string[];
 }

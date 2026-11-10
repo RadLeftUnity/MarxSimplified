@@ -109,7 +109,8 @@ export const AnnotationSidebar: React.FC<AnnotationSidebarProps> = ({
                           bookTitle: bookTitle || 'Marxist Reader',
                           author: author || 'Karl Marx',
                           targetText: ann.targetText,
-                          explanation: ann.explanation || ann.summary || '',
+                          summary: ann.summary || '',
+                          explanation: ann.explanation || (ann as any).context || '',
                           coverGradient,
                           authorImageUrl,
                         })

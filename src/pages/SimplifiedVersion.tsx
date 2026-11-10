@@ -290,7 +290,8 @@ export const SimplifiedVersion: React.FC<SimplifiedVersionProps> = ({
                                           bookTitle: book.title,
                                           author: book.author,
                                           targetText: ann.targetText,
-                                          explanation: ann.explanation || ann.summary || '',
+                                          summary: ann.summary || '',
+                                          explanation: ann.explanation || (ann as any).context || '',
                                           coverGradient: book.coverGradient,
                                           authorImageUrl: getAuthorImageUrl(book.author),
                                         })

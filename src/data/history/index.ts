@@ -33,6 +33,7 @@ import { pakistanData } from './countries/pakistan';
 import { bangladeshData } from './countries/bangladesh';
 import { nepalData } from './countries/nepal';
 import { italyData } from './countries/italy';
+import { spainData } from './countries/spain';
 import { greeceData } from './countries/greece';
 import { ghanaData } from './countries/ghana';
 import { nigeriaData } from './countries/nigeria';
@@ -50,6 +51,7 @@ import { southAfricaData } from './countries/southAfrica';
 import { tanzaniaData } from './countries/tanzania';
 import { dprkData } from './countries/dprk';
 import { venezuelaData } from './countries/venezuela';
+import { venezuelaBolivarianData } from './countries/venezuelaBolivarian';
 import { libyaData } from './countries/libya';
 import { afghanistanData } from './countries/afghanistan';
 import { palestineData } from './countries/palestine';
@@ -158,6 +160,7 @@ export const allCountries: CountryData[] = [
   bangladeshData,
   nepalData,
   italyData,
+  spainData,
   greeceData,
   ghanaData,
   nigeriaData,
@@ -177,6 +180,7 @@ export const allCountries: CountryData[] = [
   dprkData,
   palestineData,
   venezuelaData,
+  venezuelaBolivarianData,
   libyaData,
   afghanistanData,
   irelandData,

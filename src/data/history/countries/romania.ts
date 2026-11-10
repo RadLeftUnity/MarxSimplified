@@ -8,9 +8,9 @@ export const romaniaData: CountryData = {
   flagUrl: '/images/flags/romania.svg',
   coverImage: '/images/history/romania.jpg',
   category: 'global-south',
-  era: '1947 – Present',
+  era: '1947 to Present',
   capital: 'Bucharest',
-  keyLeaders: ['Gheorghe Gheorghiu-Dej', 'Nicolae Ceaușescu', 'Ion Iliescu', 'Emil Constantinescu', 'Traian Băsescu', 'Klaus Iohannis'],
+  keyLeaders: ['Gheorghe Gheorghiu-Dej', 'Nicolae Ceaușescu', 'Ion Iliescu', 'Emil Constantinescu', 'Traian Băsescu', 'Klaus Iohannis', 'Marcel Ciolacu'],
   governingParty: 'Social Democratic Party / National Liberal Party Coalition',
   governingIdeology: 'Capitalism',
   isHistoricState: false,
@@ -20,7 +20,7 @@ export const romaniaData: CountryData = {
 
 In the 1970s, Nicolae Ceaușescu borrowed over $10 billion from Western commercial banks and the IMF to fund petrochemical industrialization. When US interest rates spiked in 1979 (Volcker Shock), Ceaușescu decreed total debt repayment by exporting domestic food, livestock, and fuel. Throughout the 1980s, extreme food exports and energy rationing caused severe winter heating blackouts, food queues, and public suffering, culminating in the violent December 1989 revolution and Ceaușescu's execution.
 
-Following the 1989 revolution, modern Romania underwent rapid privatization guided by IMF structural adjustment programs, closing state mines and selling public enterprises. Joining NATO in 2004 and the EU in 2007, modern Romania operates as a central NATO Black Sea military hub (hosting permanent US bases and Deveselu Aegis Ashore missile installations) while experiencing the largest peaceful labor emigration in modern European history (over 4 million workers moving to Western Europe).`,
+Following the 1989 revolution, modern Romania underwent rapid privatization guided by IMF structural adjustment programs, closing state mines and selling public enterprises. Joining NATO in 2004 and the EU in 2007, modern Romania operates as a central NATO Black Sea military hub (hosting permanent US bases and Deveselu Aegis Ashore missile installations) while experiencing the largest peaceful labor emigration in modern European history (over 4 million workers moving to Western Europe) and intense 2024 to 2026 farmers' blockades, public sector strikes, and constitutional crises.`,
 
   contradictions: [
     "Nicolae Ceaușescu borrowed heavily from Western banks in the 1970s. When global interest rates spiked, Bucharest implemented draconian domestic export austerity to pay off $10 billion in debt by 1989, causing severe food and heating fuel rationing.",
@@ -30,17 +30,17 @@ Following the 1989 revolution, modern Romania underwent rapid privatization guid
   ],
 
   quickFacts: [
-    { label: 'Heavy Petrochemical Base', value: 'Nationalized Ploiești oil fields and built Dacia automotive & heavy industrial works [1]' },
-    { label: '1980s Extreme Export Austerity', value: 'Exported domestic food & fuel to pay off $10B IMF debt, achieving zero debt by 1989 [2]' },
-    { label: '1989 Revolution & Privatization', value: 'Dec 1989 uprising ended PCR rule; post-1990 IMF programs privatized state industries [3]' },
-    { label: 'NATO Hub & 4M Worker Emigration', value: 'Joined NATO in 2004; over 4M Romanian workers emigrated to Western Europe post-2007 [4]' },
+    { label: 'Heavy Petrochemical Base', value: 'Nationalized Ploiești oil fields and built Dacia automotive and heavy industrial works [1]' },
+    { label: '1980s Extreme Export Austerity', value: 'Exported domestic food and fuel to pay off $10B IMF debt, achieving zero debt by 1989 [2]' },
+    { label: '1989 Revolution and Privatization', value: 'Dec 1989 uprising ended PCR rule; post-1990 IMF programs privatized state industries [3]' },
+    { label: 'NATO Hub and 4M Emigration', value: 'Joined NATO in 2004; over 4M Romanian workers emigrated to Western Europe post-2007 [4]' },
   ],
 
   timeline: [
     {
       id: 'romania-1947-antonescu-overthrow-gheorghiu-dej',
-      title: '1. 1947 – 1964: Antonescu Overthrow and Post-War Industrialization',
-      period: '1947 – 1964',
+      title: '1. 1947 to 1964: Antonescu Overthrow and Post-War Industrialization',
+      period: '1947 to 1964',
       categoryTag: 'revolution',
       summary: 'Proclamation of the People\'s Republic; land reform; nationalizing Ploiești oil fields under Gheorghiu-Dej.',
       details: `On August 23, 1944, anti-fascist forces overthrew fascist dictator Ion Antonescu. On December 30, 1947, King Michael abdicated and the People's Republic of Romania was proclaimed.
@@ -49,8 +49,8 @@ Under General Secretary Gheorghe Gheorghiu-Dej, Romania executed radical agraria
     },
     {
       id: 'romania-1965-ceausescu-era-independent-policy',
-      title: '2. 1965 – 1975: The Ceaușescu Era and Heavy Industrial Growth',
-      period: '1965 – 1975',
+      title: '2. 1965 to 1975: The Ceaușescu Era and Heavy Industrial Growth',
+      period: '1965 to 1975',
       categoryTag: 'policies',
       summary: 'Nicolae Ceaușescu leadership; opposing 1968 Warsaw Pact intervention; rapid heavy industrial growth.',
       details: `In 1965, Nicolae Ceaușescu assumed leadership, renaming the state the Socialist Republic of Romania. Ceaușescu pursued an independent foreign policy, maintaining diplomatic ties with China and Global South non-aligned states. In August 1968, Ceaușescu famously denounced the Warsaw Pact military entry into Czechoslovakia.
@@ -59,18 +59,18 @@ Domestically, Romania established the Dacia automobile enterprise, tractor manuf
     },
     {
       id: 'romania-1976-imf-debt-1980s-extreme-austerity',
-      title: '3. 1976 – 1988: The IMF Debt Trap and Ceaușescu\'s Total Debt Repayment Austerity',
-      period: '1976 – 1988',
+      title: '3. 1976 to 1988: The IMF Debt Trap and Ceaușescu\'s Total Debt Repayment Austerity',
+      period: '1976 to 1988',
       categoryTag: 'challenges',
-      summary: 'Borrowing $10B from IMF/World Bank; 1979 Volcker Shock; draconian food export and energy rationing.',
+      summary: 'Borrowing $10B from IMF and World Bank; 1979 Volcker Shock; draconian food export and energy rationing.',
       details: `To expand oil refining and heavy industry, Ceaușescu borrowed over $10 billion from Western commercial banks, the IMF, and World Bank during the 1970s. When global interest rates spiked in 1979 (Volcker Shock), Romania's debt service payments exploded.
 
 Determined never again to be indebted to Western finance capital, Ceaușescu decreed that Romania must pay off all $10 billion in foreign debt by 1989. To generate hard currency, the state exported virtually all domestic agricultural produce (meat, butter, wheat) and refined oil. For Romanian citizens, the 1980s were marked by draconian austerity: strict ration cards for bread, cold apartment heating in winter, electric blackouts, and long food queues. By April 1989, Romania fully paid off its foreign debt. [2][3]`
     },
     {
       id: 'romania-1989-revolution-imf-privatization',
-      title: '4. 1989 – 1996: The December 1989 Revolution and Post-Socialist IMF Privatization',
-      period: '1989 – 1996',
+      title: '4. 1989 to 1996: The December 1989 Revolution and Post-Socialist IMF Privatization',
+      period: '1989 to 1996',
       categoryTag: 'collapse-or-transition',
       summary: 'Dec 1989 Timișoara and Bucharest uprising; trial and execution of Ceaușescu; National Salvation Front.',
       details: `In December 1989, popular protests against austerity in Timișoara quickly spread to Bucharest. On December 21, 1989, street clashes escalated as military forces joined the popular uprising, ending PCR rule.
@@ -79,19 +79,21 @@ The National Salvation Front (FSN) led by Ion Iliescu took power. Throughout the
     },
     {
       id: 'romania-2004-nato-2007-eu-integration',
-      title: '5. 2004 – 2007: NATO Accession and European Union Entry',
-      period: '2004 – 2007',
+      title: '5. 2004 to 2022: NATO Accession, European Union Entry and 4 Million Worker Emigration',
+      period: '2004 to 2022',
       categoryTag: 'policies',
-      summary: 'Joining NATO in March 2004; entering EU in January 2007; US military base construction.',
-      details: `Romania officially joined NATO in March 2004 and the European Union in January 2007. The US military constructed major base infrastructure at Mihail Kogălniceanu near Constanța and the Deveselu Aegis Ashore missile site. [2][4]`
+      summary: 'Joining NATO in March 2004; entering EU in January 2007; US military base construction and mass labor exodus.',
+      details: `Romania officially joined NATO in March 2004 and the European Union in January 2007. The US military constructed major base infrastructure at Mihail Kogălniceanu near Constanța and the Deveselu Aegis Ashore missile site, while post-2007 neoliberal deindustrialization drove over 4 million Romanian workers to emigrate to Italy, Spain, and Western Europe. [2][4]`
     },
     {
       id: 'romania-present-black-sea-nato-hub-mass-emigration',
-      title: '6. Present: Black Sea NATO Frontline Hub and Mass Worker Emigration',
-      period: 'Present',
+      title: '6. 2023 to Present: NATO Mega-Base Expansion, Farmers\' Blockades, Constitutional Crisis and Anti-Austerity Strikes',
+      period: '2023 to Present',
       categoryTag: 'challenges',
-      summary: 'Klaus Iohannis presidency; hosting NATO Black Sea outposts; 4M+ worker brain drain to Western Europe.',
-      details: `Today, Romania serves as a central NATO eastern flank outpost. Dacia manufacturing (under Renault ownership) remains a major exporter, but rural and provincial areas face depopulation due to 4+ million worker emigrations to Italy, Spain, and Western Europe. [3][4]`
+      summary: '2023 teachers\' strike; 2024 farmers\' and hauliers\' blockades; Dec 2024 annulled presidential election; 2025 to 2026 anti-austerity protests.',
+      details: `While expanding the Mihail Kogălniceanu airbase into NATO's largest military installation in Europe, the Romanian ruling coalition (PSD and PNL) has faced mounting working-class and agrarian unrest. Following a nationwide general education strike by 150,000 teachers in May and June 2023, thousands of Romanian farmers and truck drivers blockaded border crossings, highways, and the Port of Constanța in January 2024 to protest soaring diesel insurance costs and EU agricultural policies.
+
+In December 2024, Romania plunged into an unprecedented constitutional crisis when the Constitutional Court annulled the first round of the presidential election after independent candidate Călin Georgescu (who criticized NATO base expansion and Ukraine war escalation) finished in first place, sparking mass protests in Bucharest and the February 2025 resignation of President Klaus Iohannis. Throughout 2025 and 2026, trade unions including Cartel Alfa, BNS, and Metrorex transit workers staged recurring strikes and rallies outside Victoria Palace in Bucharest against the government's "Ordonanța Trenuleț" austerity decree, which froze public sector wages, pensions, and student railway subsidies to fund military spending and reduce the EU fiscal deficit. [3][4]`
     },
   ],
 

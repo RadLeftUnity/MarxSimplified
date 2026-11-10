@@ -7,6 +7,7 @@ const workspaceRoot = path.join(__dirname, '..');
 const distDir = path.join(workspaceRoot, 'dist');
 const indexHtmlPath = path.join(distDir, 'index.html');
 const manifestPath = path.join(distDir, 'data', 'manifest.json');
+const topicsIndexPath = path.join(distDir, 'data', 'topics-index.json');
 const historyDir = path.join(workspaceRoot, 'src', 'data', 'history', 'countries');
 const glossaryDir = path.join(workspaceRoot, 'src', 'data', 'glossary');
 
@@ -126,6 +127,24 @@ function run() {
       }
     }
     console.log(`✓ Pre-rendered static OG meta tags for ${gCount} glossary terms.`);
+  }
+
+  // 4. Pre-render Topic Category Pages
+  if (fs.existsSync(topicsIndexPath)) {
+    try {
+      const topicsIndex = JSON.parse(fs.readFileSync(topicsIndexPath, 'utf8'));
+      let tCount = 0;
+      for (const group of topicsIndex.topics || []) {
+        const slug = group.slug || getSlug(group.topic);
+        const title = `${group.topic} - Theoretical Topic`;
+        const desc = `Explore ${group.count} curated annotated passages across Marxist foundational texts on ${group.topic}.`;
+        const img = '/og/main.png';
+
+        prerenderPage(`topics/${slug}`, title, desc, img);
+        tCount++;
+      }
+      console.log(`✓ Pre-rendered static OG meta tags for ${tCount} topic categories.`);
+    } catch (e) {}
   }
 
   console.log('✓ All static OG meta HTML pages generated in dist/!\n');

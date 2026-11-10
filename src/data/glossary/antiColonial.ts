@@ -205,12 +205,13 @@ export const antiColonialTerms: GlossaryTerm[] = [
   },
   {
     "term": "Frankfurt School",
-    "pattern": "frankfurt school|adorno|horkheimer|marcuse|culture industry|one-dimensional man",
-    "definition": "The school of Western Marxist social theory established in Frankfurt, Germany (later exiled to the US at Columbia University during WWII), associated with Theodor Adorno, Max Horkheimer, and Herbert Marcuse. Their analysis of the 'Culture Industry' exposed how capitalist mass culture, advertising, and entertainment act as ideological pacifiers that absorb class consciousness, while Marcuse's 'One-Dimensional Man' analyzed how advanced industrial capitalism integrates working-class dissent into consumerist conformity.",
-    "misconception": "A conspiracy to destroy Western civilization ('Cultural Marxism'). The Frankfurt School was a critique of capitalist culture industry pacification, fascism, and consumerist alienation.",
-    "example": "Corporate media cartels bombarding workers with endless sensationalist entertainment to divert attention away from low wages and healthcare debt.",
+    "pattern": "adorno|horkheimer|marcuse|theodor adorno|max horkheimer|herbert marcuse",
+    "definition": "The Neo-Marxist school of academic social theory established in Frankfurt, Germany (and relocated to Columbia University in the US), associated with Theodor Adorno, Max Horkheimer, and Herbert Marcuse. While their writings on the 'Culture Industry' and 'One-Dimensional Man' examined capitalist mass media and consumerist conformity, the Frankfurt School abandoned historical materialism, Marxist political economy, and revolutionary working-class organization, dismissing the proletariat as integrated into capitalism while opposing real-world socialist states from the comfort of Western academia.",
+    "misconception": "Both the far-right conspiracy theory that the Frankfurt School was a communist plot to subvert the West and the academic claim that it advanced revolutionary Marxism are false. Classical Marxists and Marxist-Leninists critique the Frankfurt School as a domesticated Cold War Neo-Marxism that divorced theory from working-class praxis and anti-imperialist revolution.",
+    "example": "Academic theorists critiquing consumer culture in university seminars while rejecting communist party organization, labor militancy, and existing socialist revolutions.",
     "theoryTags": [
-      "Western Marxism"
+      "Western Marxism",
+      "Neo-Marxism"
     ]
   },
   {

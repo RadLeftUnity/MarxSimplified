@@ -1,10 +1,28 @@
 [
   {
     "targetText": "(The history of the British labour movement provides a very large number of instances of such treacherous compromises by British trade union leaders, but, in one form or another, almost all workers in all countries have witnessed the same sort of thing.",
-    "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located."
+    "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located.",
+    "topics": [
+      "Ultra Leftism",
+      "Trade Unionism"
+    ]
   },
   {
     "targetText": "No Compromises? In the quotation from the Frankfurt pamphlet, we have seen how emphatically the “Lefts” have advanced this slogan.",
-    "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership."
+    "summary": "Dogmatically rejecting all tactical compromises ties the hands of the revolutionary party in complex class struggles.",
+    "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
+    "topics": [
+      "Ultra Leftism",
+      "Revolutionary Strategy"
+    ]
+  },
+  {
+    "targetText": "“The German Communists are Communists because, through all the intermediate stations and all compromises created, not by them but by the course of historical development, they clearly perceive and constantly pursue the final aim; the abolition of classes and the creation of a society in which there will no longer be private ownership of land or of the means of production. The thirty-three Blanquists are Communists just because they imagine that, merely because they want to skip the intermediate stations and compromises, the matter is settled, and if ‘it begins’ in the next few days; which they take for granted; and they take over power, ‘communism will be introduced’ the day after tomorrow. If that is not immediately possible, they are not Communists.\n\n“What childish innocence it is to present one’s own impatience as a theoretically convincing argument!”",
+    "summary": "Engels and Lenin critique Blanquist ultra-leftism for mistaking revolutionary impatience for Marxist strategy.",
+    "explanation": "Quoting Engels against the Blanquist Communards, Lenin shows that dogmatically rejecting all intermediate steps and tactical compromises is childish impatience rather than scientific socialism.",
+    "topics": [
+      "Ultra Leftism",
+      "Revolutionary Strategy"
+    ]
   }
 ]

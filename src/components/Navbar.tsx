@@ -1,5 +1,5 @@
 import React from 'react';
-import { Moon, Sun, Sliders, Search, User, Landmark } from 'lucide-react';
+import { Moon, Sun, Sliders, Search, User, Landmark, BookOpen, Tag, BookMarked } from 'lucide-react';
 
 export type Theme = 'dark' | 'sepia' | 'high-contrast' | 'gray' | 'light';
 
@@ -44,7 +44,8 @@ export const Navbar: React.FC<NavbarProps> = ({
           className={`nav-btn ${currentPage === 'library' ? 'nav-btn-active' : ''}`}
           id="nav-btn-library"
         >
-          Library
+          <BookOpen className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
+          <span>Library</span>
         </button>
         <button
           onClick={onGoToAuthors}
@@ -59,14 +60,16 @@ export const Navbar: React.FC<NavbarProps> = ({
           className={`nav-btn ${currentPage === 'topics' ? 'nav-btn-active' : ''}`}
           id="nav-btn-topics"
         >
-          Topics
+          <Tag className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
+          <span>Topics</span>
         </button>
         <button
           onClick={onGoToGlossary}
           className={`nav-btn ${currentPage === 'glossary' ? 'nav-btn-active' : ''}`}
           id="nav-btn-glossary"
         >
-          Glossary
+          <BookMarked className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
+          <span>Glossary</span>
         </button>
         <button
           onClick={onGoToHistory}

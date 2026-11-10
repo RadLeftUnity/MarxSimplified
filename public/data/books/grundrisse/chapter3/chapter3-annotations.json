@@ -18,5 +18,15 @@
   {
     "targetText": "Capital itself is the moving contradiction, [in] that it presses to reduce labour time to a minimum, while it posits labour time, on the other side, as sole measure and source of wealth.",
     "explanation": "Capitalism contains a fundamental contradiction regarding technology: it uses automation to reduce the necessary labor time required to produce goods, yet continues to measure human worth and income strictly by hours worked."
+  },
+  {
+    "id": "grundrisse-ch3-ann-6",
+    "targetText": "The Times of November 1857 contains an utterly delightful cry of outrage on the part of a West-Indian plantation owner. This advocate analyses with great moral indignation , as a plea for the re-introduction of Negro slavery , how the Quashees (the free blacks of Jamaica) content themselves with producing only what is strictly necessary for their own consumption, and, alongside this ‘use value’, regard loafing (indulgence and idleness) as the real luxury good; how they do not care a damn for the sugar and the fixed capital invested in the plantations",
+    "summary": "Emancipated Black workers in Jamaica rejected plantation wage-slavery in favor of self-sufficient production and human leisure.",
+    "explanation": "Marx highlights the fury of British colonial planters when formerly enslaved Jamaicans refused to work at starvation wages to enrich sugar capitalists, exposing how colonial racism masks the drive for surplus value.",
+    "topics": [
+      "Racial Equality",
+      "Capitalist Exploitation"
+    ]
   }
 ]

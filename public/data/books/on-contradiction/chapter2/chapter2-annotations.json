@@ -1,7 +1,12 @@
 [
   {
     "targetText": "The metaphysical or vulgar evolutionist world outlook sees things as isolated,\nstatic and one-sided.",
-    "explanation": "Metaphysical thinking assumes things stay fixed and act independently. For example, treating a failing student as simply 'lazy' ignores their health, study environment, and home life, reducing a complex person to a single fixed trait."
+    "summary": "Metaphysical and idealist philosophy views things as isolated, static, and unchanged by internal contradictions.",
+    "explanation": "Metaphysical thinking assumes things stay fixed and act independently. For example, treating a failing student as simply 'lazy' ignores their health, study environment, and home life, reducing a complex person to a single fixed trait.",
+    "topics": [
+      "Idealism",
+      "Dialectics & Contradiction"
+    ]
   },
   {
     "targetText": "It holds that external causes are the condition of change and internal causes\nare the basis of change, and that external causes become operative through\ninternal causes.",

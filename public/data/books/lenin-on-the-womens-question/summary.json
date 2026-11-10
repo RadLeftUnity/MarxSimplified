@@ -1,0 +1,83 @@
+{
+  "id": "lenin-on-the-womens-question",
+  "title": "Lenin on the Women's Question",
+  "author": "Clara Zetkin",
+  "year": "1920",
+  "difficulty": "Easy",
+  "readingTime": "30 mins",
+  "coverGradient": "linear-gradient(135deg, #801336 0%, #2b0010 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/zetkin/1920/lenin/zetkin1.htm",
+  "subject": "Marxist Feminism",
+  "tags": [
+    "Marxist Feminism",
+    "Women's Emancipation",
+    "Vanguard Party",
+    "Clara Zetkin"
+  ],
+  "context": "Recorded by German Marxist theorist and communist leader Clara Zetkin in the autumn of 1920 in the Kremlin, Lenin on the Women's Question preserves her famous conversation with V.I. Lenin on the foundations of the international communist women's movement. Together they analyze why true female emancipation is inseparable from the abolition of private property, critique bourgeois feminism and individualistic sexual theories, and outline the material socialization of domestic housework and childcare in Soviet Russia.",
+  "relatesToToday": "Directly addresses modern debates over unpaid domestic care work, performative corporate feminism, and the division of household labor. Zetkin and Lenin show why legal equality on paper is hollow without public childcare, socialized support systems, and an active political struggle against both capitalist exploitation and male chauvinism in everyday life.",
+  "keyTakeaways": [
+    "Real freedom for women is impossible without abolishing private property in the means of production and socializing unpaid domestic housework and childcare.",
+    "Communist Parties must maintain dedicated working groups and methods of agitation to organize millions of industrial, domestic, and peasant women into the class struggle.",
+    "Marxism rejects both hypocritical bourgeois marriage laws and vulgar individualistic sexual theories (such as the \"glass of water\" theory), grounding human relationships in comrade solidarity and social responsibility.",
+    "Communist work among women requires equally determined educational work among men to uproot patriarchal \"master\" privileges in the home and the Party."
+  ],
+  "chapters": [
+    {
+      "id": "from-my-memorandum-book",
+      "title": "1. From My Memorandum Book",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "movement-of-working-women",
+      "title": "2. Movement of Working Women",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "sex-and-marriage",
+      "title": "3. Sex and Marriage",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "sexual-morality",
+      "title": "4. Sexual Morality",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "principles-of-organisation",
+      "title": "5. Principles of Organisation",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "immediate-demands",
+      "title": "6. Immediate Demands",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "what-about-the-men",
+      "title": "7. What About the Men?",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "millions-building-new-life",
+      "title": "8. Millions Building New Life",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    }
+  ]
+}

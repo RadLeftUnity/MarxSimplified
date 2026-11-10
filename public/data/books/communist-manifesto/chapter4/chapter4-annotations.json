@@ -10,5 +10,16 @@
     "targetText": "single sentence: Abolition of private property.",
     "summary": "Communism seeks to abolish private ownership of productive assets (factories, land, mines), not personal possessions.",
     "context": "Marx clarifies the difference between personal items (clothes, homes) and private capital used to exploit labor."
+  },
+  {
+    "id": "manifesto-chapter4-3",
+    "targetText": "Does it require deep intuition to comprehend that man's ideas, views,\nand conception, in one word, man's consciousness, changes with every change\nin the conditions of his material existence, in his social relations and\nin his social life?\n\nWhat else does the history of ideas prove, than that intellectual\nproduction changes its character in proportion as material production is\nchanged? The ruling ideas of each age have ever been the ideas of its ruling\nclass.",
+    "summary": "Refutation of philosophical idealism: human consciousness and ruling ideas are shaped by material production and class power.",
+    "explanation": "Against idealist philosophers who claim that eternal ideas drive history, Marx and Engels demonstrate that ideas evolve alongside material social relations, and that the dominant ideology of any epoch reflects the material interests of its ruling class.",
+    "topics": [
+      "Idealism",
+      "Historical Materialism",
+      "Philosophical Materialism"
+    ]
   }
 ]
