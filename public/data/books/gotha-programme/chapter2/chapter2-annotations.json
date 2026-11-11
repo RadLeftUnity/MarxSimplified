@@ -5,5 +5,27 @@
     "topics": [
       "Phases of Socialism"
     ]
+  },
+  {
+    "id": "gotha-programme-chapter2-ext-2",
+    "targetText": "only then can the narrow horizon of bourgeois right be crossed in its entirety and society inscribe on its banners: From each according to his ability, to each according to his needs!",
+    "summary": "Only after production and abundance have advanced far enough can society distribute according to need.",
+    "explanation": "Marx describes the higher phase of communism, when the enslaving subordination of individuals to the division of labour has vanished, work has become life's prime want, and the productive forces have grown so much that cooperative wealth flows abundantly.",
+    "context": "This is the best-known statement of the principle of distribution under full communism, contrasted with the lower phase based on labour contribution.",
+    "topics": [
+      "Socialist Transition",
+      "Political Economy"
+    ]
+  },
+  {
+    "id": "gotha-programme-chapter2-ext-3",
+    "targetText": "Labor is not the source of all wealth. Nature is just as much the source of use values",
+    "summary": "Labour is not the only source of wealth; nature is just as much the source of use values.",
+    "explanation": "Marx corrects the Gotha Programme's claim that labour is the source of all wealth. Treating labour as a supernatural creative power hides the fact that those who own the natural conditions of production control the labourer.",
+    "context": "The correction guards against the idea that workers receive 'the undiminished proceeds of labour' under capitalist property relations.",
+    "topics": [
+      "Political Economy",
+      "Historical Materialism"
+    ]
   }
 ]

@@ -1,10 +1,23 @@
 [
   {
+    "id": "das-kapital-vol-1-ch3-1",
     "targetText": "One use-value is not exchanged for the very same use-value.",
-    "explanation": "Key theoretical concept in Ch. 1 as per First German Edition: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "summary": "Qualitative difference required in exchange: two identical use-values are never traded for one another.",
+    "explanation": "Exchange occurs only because commodities differ qualitatively in their physical properties and use-values. A coat is exchanged for linen because the tailor needs linen and the weaver needs a coat; nobody trades a coat for an identical coat. Through exchange, qualitatively diverse useful labours are equated as abstract human labour.",
+    "context": "First German Edition Appendix: The Value-Form",
+    "topics": [
+      "Political Economy"
+    ]
   },
   {
+    "id": "das-kapital-vol-1-ch3-2",
     "targetText": "Social form of the commodity and value-form or form of exchangeability are thus one and the same thing.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "summary": "The social form of the commodity: the value-form expresses the social character of private labour.",
+    "explanation": "In a society of private producers, the social nature of individual labour can only manifest itself indirectly through the commodity form, specifically through its value-form or exchangeability. Value is therefore the objective social expression of private labour performed for a market.",
+    "context": "First German Edition Appendix: The Value-Form",
+    "topics": [
+      "Political Economy",
+      "Dialectics and Philosophy"
+    ]
   }
 ]

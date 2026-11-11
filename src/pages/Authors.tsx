@@ -186,7 +186,7 @@ export const Authors: React.FC<AuthorsProps> = ({
                 {/* Biography Blurb */}
                 <div className="detail-section bio-section">
                   <span className="detail-section-label">
-                    <User className="section-icon text-gold" /> Biography & Historical Overview
+                    <User className="section-icon text-gold" /> Biography and Historical Overview
                   </span>
                   <FormattedText text={selectedAuthor.blurb} paragraphClassName="author-bio-text" />
                 </div>

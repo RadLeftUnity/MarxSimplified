@@ -1,0 +1,44 @@
+{
+  "id": "on-the-correct-handling-of-contradictions-among-the-people",
+  "title": "On the Correct Handling of Contradictions Among the People",
+  "author": "Mao Zedong",
+  "year": "1957",
+  "difficulty": "Medium",
+  "readingTime": "1.5 hours",
+  "coverGradient": "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
+  "coverColor": "#991b1b",
+  "subject": "Dialectics and Socialist Construction",
+  "tags": [
+    "Dialectics",
+    "Socialism",
+    "People's Democratic Dictatorship",
+    "Maoism",
+    "Mao Zedong"
+  ],
+  "shortDescription": "Mao's landmark 1957 speech distinguishing antagonistic contradictions between the people and the enemy from non-antagonistic contradictions among the people under socialism.",
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/selected-works/volume-5/mswv5_58.htm",
+  "context": "Delivered on February 27, 1957, at the Eleventh Session of the Supreme State Conference and published in the People's Daily on June 19, 1957, this work addresses how contradictions persist after the socialist transformation of the ownership of the means of production. In the wake of the 20th Congress of the CPSU and the 1956 Hungarian crisis, Mao sought to formulate a dialectical method for governing socialist society without sliding into either bureaucratic repression or bourgeois restoration.",
+  "relatesToToday": "Mao's distinction between antagonistic contradictions (resolved through dictatorship against hostile class enemies) and non-antagonistic contradictions among the people (resolved through democratic persuasion, criticism, and education) remains foundational for analyzing governance, ideological struggle, and mass participation in socialist states.",
+  "keyTakeaways": [
+    "Contradictions do not vanish under socialism; they remain the driving force of social development and fall into two fundamentally different categories: those between ourselves and the enemy, and those among the people.",
+    "Antagonistic contradictions with enemies require dictatorship, whereas non-antagonistic contradictions among the people must be resolved democratically through the formula of 'unity, criticism, unity'.",
+    "Freedom and democracy are never abstract; they are part of the political superstructure serving a specific economic base, and under socialism they exist as democratic centralism combining broad popular democracy with socialist discipline.",
+    "Class struggle in the ideological sphere between the proletariat and the bourgeoisie remains protracted and tortuous even after socialist ownership is established, requiring active debate rather than crude administrative bans."
+  ],
+  "chapters": [
+    {
+      "id": "on-the-correct-handling-of-contradictions-among-the-people",
+      "title": "On the Correct Handling of Contradictions Among the People",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    }
+  ]
+}

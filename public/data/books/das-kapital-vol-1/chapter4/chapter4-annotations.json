@@ -2,6 +2,23 @@
   {
     "id": "das-kapital-vol-1-ch4-1",
     "targetText": "It is plain that commodities cannot go to market and\nmake exchanges of their own account. We must, therefore, have recourse\nto their guardians, who are also their owners. Commodities are things, and\ntherefore without power of resistance against man. If they are wanting\nin docility he can use force; in other words, he can take possession of\nthem. [1] In order that these objects may enter into\nrelation with each other as commodities, their guardians must place themselves\nin relation to one another, as persons whose will resides in those objects,\nand must behave in such a way that each does not appropriate the commodity\nof the other, and part with his own, except by means of an act done by\nmutual consent. They must therefore, mutually recognise in each other the\nrights of private proprietors. This juridical relation, which thus expresses\nitself in a contract, whether such contract be part of a developed legal\nsystem or not, is a relation between two wills, and is but the reflex of\nthe real economic relation between the two. It is this economic relation\nthat determines the subject-matter comprised in each such juridical act.\n[2]",
-    "explanation": "Marx makes a key legal point: commodities do not walk to market on their own. They require human owners who recognize each other as private proprietors willing to trade. The market therefore presupposes a legal framework of property rights."
+    "explanation": "Marx makes a key legal point: commodities do not walk to market on their own. They require human owners who recognize each other as private proprietors willing to trade. The market therefore presupposes a legal framework of property rights.",
+    "summary": "The legal contract as reflex of economic relations: juridical property rights reflect underlying commodity exchange.",
+    "topics": [
+      "Historical Materialism",
+      "Political Economy"
+    ],
+    "context": "Part I, Chapter 2: Exchange"
+  },
+  {
+    "id": "das-kapital-vol-1-ch4-2",
+    "targetText": "What appears to happen is, not that gold becomes money, in consequence of all other commodities expressing their values in it, but, on the contrary, that all other commodities universally express their values in gold, because it is money. The intermediate steps of the process vanish in the result and leave no trace behind. Commodities find their own value already completely represented, without any initiative on their part, in another commodity existing in company with them. These objects, gold and silver, just as they come out of the bowels of the earth, are forthwith the direct incarnation of all human labour. Hence the magic of money.",
+    "summary": "The magic and fetish of money: gold appears to possess value inherently, rather than as an incarnation of human labour.",
+    "explanation": "The historical emergence of money inverts reality in human consciousness. Instead of seeing that gold functions as money because all other commodities express their value in it, people believe commodities have prices because money has intrinsic magical value.",
+    "context": "Part I, Chapter 2: Exchange",
+    "topics": [
+      "Political Economy",
+      "Dialectics and Philosophy"
+    ]
   }
 ]

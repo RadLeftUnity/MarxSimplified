@@ -2,5 +2,16 @@
   {
     "targetText": "In all probability, the proletarian revolution will transform existing society gradually and will be able to abolish private property only when the means of production are available in sufficient quantity.",
     "explanation": "Social transformation requires a transition period to develop collective production facilities and reorganize social administration."
+  },
+  {
+    "id": "principles-of-communism-chapter17-ext-2",
+    "targetText": "No, no more than existing forces of production can at one stroke be multiplied to the extent necessary for the creation of a communal society. In all probability, the proletarian revolution will transform existing society gradually and will be able to abolish private property only when the means of production are available in sufficient quantity.",
+    "summary": "Private property cannot be abolished overnight because the productive forces must first be developed enough.",
+    "explanation": "Engels answers the question of abolition at one stroke by saying the proletarian revolution will transform society gradually and abolish private property only when the means of production exist in sufficient quantity.",
+    "context": "The answer anticipates the later distinction between lower and higher phases of communist society.",
+    "topics": [
+      "Socialist Transition",
+      "Political Economy"
+    ]
   }
 ]

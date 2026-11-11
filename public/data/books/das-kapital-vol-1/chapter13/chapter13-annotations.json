@@ -1,10 +1,22 @@
 [
   {
-    "targetText": "Diminution of the variable capital may therefore be compensated\nby a proportionate rise in the degree of exploitation of labour-power,\nor the decrease in the number of the labourers employed by a proportionate\nextension of the working day.",
-    "explanation": "Key theoretical concept in Rate and Mass of Surplus-Value: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "id": "das-kapital-vol-1-chapter13-ann-1",
+    "targetText": "the mass of the surplus-value produced is equal to the amount of the variable capital advanced, multiplied by the rate of surplus-value, in other words: it is determined by the compound ratio between the number of labour-powers exploited simultaneously by the same capitalist and the degree of exploitation of each individual labour-power.",
+    "summary": "The mass of surplus-value: determined by multiplying the variable capital by the rate of surplus-value.",
+    "explanation": "The total volume of surplus-value extracted depends on two factors: the number of workers employed simultaneously by a capitalist (variable capital) and the intensity with which each worker is exploited (rate of surplus-value s/v). A drop in one factor can be compensated only by an increase in the other.",
+    "context": "Part III, Chapter 11: Rate and Mass of Surplus-Value",
+    "topics": [
+      "Political Economy"
+    ]
   },
   {
-    "targetText": "It was not less active in the old-fashioned bakeries\nthan in the modern cotton factories.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "id": "das-kapital-vol-1-chapter13-ann-2",
+    "targetText": "The absolute limit of the average working day ; this being by nature always less than 24 hours ; sets an absolute limit to the compensation of a reduction of variable capital by a higher rate of surplus-value, or of the decrease of the number of labourers exploited by a higher degree of exploitation of labour-power.",
+    "summary": "Physical limits to exploitation: the 24-hour day imposes an insurmountable boundary on replacing workers with higher exploitation.",
+    "explanation": "Because the physical working day cannot exceed 24 hours, capital cannot indefinitely compensate for shedding living workers by simply increasing the rate of exploitation. This inherent boundary establishes the objective limits of surplus-value production under mechanical automation.",
+    "context": "Part III, Chapter 11: Rate and Mass of Surplus-Value",
+    "topics": [
+      "Political Economy"
+    ]
   }
 ]

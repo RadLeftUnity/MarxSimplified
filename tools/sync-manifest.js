@@ -41,7 +41,7 @@ export function syncManifest() {
             shortDescription: summaryData.shortDescription || summaryData.context || `A classic work by ${summaryData.author || 'Karl Marx'}.`,
             coverColor: coverColor,
             coverGradient: summaryData.coverGradient || 'linear-gradient(135deg, #8b0000 0%, #3a0000 100%)',
-            subject: summaryData.subject || 'Theory & Philosophy',
+            subject: summaryData.subject || 'Theory and Philosophy',
             tags: summaryData.tags || ['Theory', 'Philosophy']
           };
 

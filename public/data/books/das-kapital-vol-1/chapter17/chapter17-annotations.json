@@ -3,5 +3,51 @@
     "id": "das-kapital-vol-1-machinery-and-modern-industry-ann-1",
     "targetText": "The starting-point of modern industry is, as we have\nshown, the revolution in the instruments of labour, and this revolution\nattains its most highly developed form in the organised system of machinery\nin a factory. Before we inquire how human material is incorporated with\nthis objective organism, let us consider some general effects of this revolution\non the labourer himself.",
     "explanation": "Machinery automates human skills, transferring physical operations from the worker to the mechanism. Capital uses machinery to intensify work and subsume living labor."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter17-ext-2",
+    "targetText": "John Stuart Mill says in his \"Principles of Political Economy\": \"It is questionable if all the mechanical inventions yet made have lightened the day's toil of any human being.\" [1] That is, however, by no means the aim of the capitalistic application of machinery. Like every other increase in the productiveness of labour, machinery is intended to cheapen commodities, and, by shortening that portion of the working-day, in which the labourer works for himself, to lengthen the other portion that he gives, without an equivalent, to the capitalist. In short, it is a means for producing surplus-value.",
+    "summary": "The capitalist aim of machinery: not to ease human toil, but to cheapen commodities and maximize surplus-value.",
+    "explanation": "Refuting liberal technological optimism, Marx shows that under capitalism, machinery is introduced not to lighten human labour or reduce working hours, but to reduce the value of labour-power and maximize the unpaid surplus-value appropriated by capital.",
+    "context": "Part IV, Chapter 15: Machinery and Modern Industry (Section 1)",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter17-ext-3",
+    "targetText": "In so far as machinery dispenses with muscular power, it becomes a means of employing labourers of slight muscular strength, and those whose bodily development is incomplete, but whose limbs are all the more supple. The labour of women and children was, therefore, the first thing sought for by capitalists who used machinery. That mighty substitute for labour and labourers was forthwith changed into a means for increasing the number of wage-labourers by enrolling, under the direct sway of capital, every member of the workman's family, without distinction of age or sex.",
+    "summary": "Subjugation of the whole working family: machinery enables capital to enroll women and child labourers under its direct sway.",
+    "explanation": "By replacing physical muscular exertion with automated mechanisms, machinery allows capital to break craft barriers and employ women and children at depressed wage rates, devaluing adult male wages and subjecting the entire working-class household to factory exploitation.",
+    "context": "Part IV, Chapter 15: Machinery and Modern Industry (Section 3: The Proximate Effects of Machinery on the Workman)",
+    "topics": [
+      "Political Economy",
+      "Class Struggle",
+      "Family and Gender"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter17-ext-4",
+    "targetText": "In handicrafts and manufacture, the workman makes use of a tool, in the factory, the machine makes use of him. There the movements of the instrument of labour proceed from him, here it is the movements of the machine that he must follow. In manufacture the workmen are parts of a living mechanism. In the factory we have a lifeless mechanism independent of the workman, who becomes its mere living appendage.",
+    "summary": "The lifeless mechanism: in modern industry, the machine dominates the worker, who becomes a mere living appendage.",
+    "explanation": "Marx formulates the quintessential alienation of automated industry: while the craftsman wielded tools as instruments of human will, the factory worker is subordinated to an autonomous mechanical automaton. Dead labour commands and disciplines living labour.",
+    "context": "Part IV, Chapter 15: Machinery and Modern Industry (Section 4: The Factory)",
+    "topics": [
+      "Political Economy",
+      "Historical Materialism",
+      "Dialectics and Philosophy"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter17-ext-5",
+    "targetText": "It is the most powerful weapon for repressing strikes, those periodical revolts of the working-class against the autocracy of capital.",
+    "summary": "Machinery as a political weapon: technological automation is deployed by capital to smash workers strikes and resistance.",
+    "explanation": "New industrial inventions are not politically neutral technical advancements; capital repeatedly introduces machinery specifically to break strikes, bypass skilled trade union resistance, and impose the autocracy of capital upon factory floor discipline.",
+    "context": "Part IV, Chapter 15: Machinery and Modern Industry (Section 5: The Strife Between Workman and Machine)",
+    "topics": [
+      "Class Struggle",
+      "Political Economy"
+    ]
   }
 ]

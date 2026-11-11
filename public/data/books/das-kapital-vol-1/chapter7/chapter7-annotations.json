@@ -3,5 +3,16 @@
     "id": "das-kapital-vol-1-ch7-1",
     "targetText": "Turn and twist then as we may, the fact remains unaltered. If\nequivalents are exchanged, no surplus-value results, and if non-equivalents are\nexchanged, still no surplus-value. [18] Circulation,\nor the exchange of commodities, begets no value. [19]",
     "explanation": "Marx proves that trade alone cannot create net new value across society. If everyone buys low and sells high, gains and losses cancel out. Surplus value must therefore originate in production, not exchange."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter7-ext-2",
+    "targetText": "It must have its origin both in circulation and yet not in circulation. We have, therefore, got a double result. The conversion of money into capital has to be explained on the basis of the laws that regulate the exchange of commodities, in such a way that the starting-point is the exchange of equivalents.",
+    "summary": "The fundamental paradox of capital: surplus-value must originate both within circulation and outside circulation.",
+    "explanation": "If commodities exchange at their true values (exchange of equivalents), no net surplus-value is created in the market. Yet capital cannot expand outside of circulation either, since the capitalist must enter the market to buy and sell. The solution to this antinomy is that the capitalist must find in the market a unique commodity whose use-value is itself a source of value: human labour-power.",
+    "context": "Part II, Chapter 5: Contradictions in the General Formula of Capital",
+    "topics": [
+      "Political Economy",
+      "Dialectics and Philosophy"
+    ]
   }
 ]

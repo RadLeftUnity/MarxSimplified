@@ -119,17 +119,26 @@ const TOPIC_RULES = [
   },
 ];
 
+const CATEGORY_MAP = JSON.parse(
+  fs.readFileSync(path.join(workspaceRoot, 'src', 'data', 'topicCategories.json'), 'utf8')
+);
+
+function canonicalTopic(name) {
+  if (CATEGORY_MAP[name]) return CATEGORY_MAP[name];
+  return String(name).replace(/\s*&\s*/g, ' and ');
+}
+
 function inferTopicsForAnnotation(ann, textContent) {
   const inferred = new Set();
 
   if (Array.isArray(ann.topics) && ann.topics.length > 0) {
-    ann.topics.forEach((t) => inferred.add(t));
+    ann.topics.forEach((t) => inferred.add(canonicalTopic(t)));
   }
 
   for (const rule of TOPIC_RULES) {
     const textToTest = rule.excludePattern ? textContent.replace(rule.excludePattern, '') : textContent;
     if (rule.pattern.test(textToTest)) {
-      inferred.add(rule.name);
+      inferred.add(canonicalTopic(rule.name));
     }
   }
 

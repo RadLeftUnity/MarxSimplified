@@ -1,0 +1,42 @@
+[
+  {
+    "id": "contradictions-among-people-1",
+    "targetText": "We are confronted with two types of social contradictions : those between ourselves and the enemy and those among the people. The two are totally different in nature.",
+    "summary": "Socialist society faces two fundamentally different kinds of conflicts: antagonistic conflicts between the people and their enemies, and non-antagonistic conflicts among the people themselves.",
+    "explanation": "Mao introduces his central theoretical innovation for socialist governance: separating hostile class antagonisms against counter-revolutionaries from internal disagreements and structural tensions among the working masses and their allies.",
+    "context": "A socialist state must treat foreign-backed sabotage or armed counter-revolution differently from a workplace dispute or policy disagreement among ordinary workers.",
+    "topics": ["Dialectics", "Socialism", "People's Democratic Dictatorship", "Maoism"]
+  },
+  {
+    "id": "contradictions-among-people-2",
+    "targetText": "As a matter of fact, freedom and democracy exist not in the abstract, but only in the concrete. In a society where class struggle exists, if there is freedom for the exploiting classes to exploit the working people, there is no freedom for the working people not to be exploited.",
+    "summary": "Freedom and democracy are never abstract; in any class society, giving capitalists the freedom to exploit workers automatically denies workers the freedom from exploitation.",
+    "explanation": "Mao refutes Western liberal claims of universal, classless democracy, showing that democracy belongs to the political superstructure and always serves a specific economic base and class interest.",
+    "context": "In capitalist two-party systems, billionaires can freely fund campaigns and own media monopolies, while workers lack economic security and genuine political representation.",
+    "topics": ["Class Struggle", "Bourgeois Democracy", "People's Democratic Dictatorship", "Maoism"]
+  },
+  {
+    "id": "contradictions-among-people-3",
+    "targetText": "The only way to settle questions of an ideological nature or controversial issues among the people is by the democratic method, the method of discussion, criticism, persuasion and education, and not by the method of coercion or repression.",
+    "summary": "Ideological questions and debates among the people cannot be solved by force or administrative bans; they can only be resolved through open discussion, criticism, persuasion, and education.",
+    "explanation": "Because ideological beliefs and questions of right and wrong among the people cannot be forced by decree, Mao insists on patient reasoning, debate, and the 'unity : criticism : unity' method.",
+    "context": "Banning a mistaken viewpoint among workers without explaining why it is wrong only drives the idea underground, whereas open discussion builds genuine understanding.",
+    "topics": ["Dialectics", "Socialism", "Party Strategy", "Maoism"]
+  },
+  {
+    "id": "contradictions-among-people-4",
+    "targetText": "The class struggle between the proletariat and the bourgeoisie, the class struggle between the various political forces, and the class struggle between the proletariat and the bourgeoisie in the ideological field will still be protracted and tortuous and at times even very sharp.",
+    "summary": "Even after socialist ownership is established, the ideological and political struggle between the working class and the bourgeoisie remains long, complex, and at times intense.",
+    "explanation": "Even after private ownership of industry and land is largely socialized, bourgeois and petty-bourgeois worldviews persist for decades, requiring ongoing ideological struggle so capitalism is not restored.",
+    "context": "In socialist countries, old habits of individualism, careerism, and market mentality continue to influence culture and policy long after factories are nationalized.",
+    "topics": ["Class Struggle", "Socialism", "Dialectics", "Maoism"]
+  },
+  {
+    "id": "contradictions-among-people-5",
+    "targetText": "Revisionism, or Right opportunism, is a bourgeois trend of thought that is even more dangerous than dogmatism.",
+    "summary": "Revisionism is a bourgeois ideological trend inside the socialist movement that is even more dangerous than dogmatism because it hollows out the core of Marxism from within.",
+    "explanation": "Mao warns that while dogmatists apply Marxist phrases mechanically, revisionists pay lip-service to Marxism while attacking its core principles: materialist dialectics, party leadership, and the people's democratic dictatorship.",
+    "context": "Political factions that use socialist rhetoric while dismantling public ownership and weakening working-class state power pave the way for capitalist restoration.",
+    "topics": ["Revisionism", "Socialism", "Party Strategy", "Maoism"]
+  }
+]

@@ -3,5 +3,16 @@
     "id": "das-kapital-vol-1-the-rate-of-surplus-value-ann-1",
     "targetText": "The rate of surplus-value is therefore an exact expression for\nthe degree of exploitation of labour-power by capital, or of the labourer\nby the capitalist. [7]",
     "explanation": "The rate of surplus value (s / v) measures the degree of exploitation: the ratio of unpaid surplus labor time to paid necessary labor time."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter11-ext-2",
+    "targetText": "surplus-value bears the same ratio to variable capital, that surplus-labour does to necessary labour, or in other words, the rate of surplus-value, s/v = (surplus labour)/(necessary labour). Both ratios, s/v and (surplus labour)/(necessary labour), express the same thing in different ways; in the one case by reference to materialised, incorporated labour, in the other by reference to living, fluent labour.",
+    "summary": "The rate of surplus-value formula: the ratio of surplus-labour to necessary labour expressed in materialised and living form.",
+    "explanation": "Marx demonstrates that s/v is identical to the ratio of surplus labour-time to necessary labour-time. Whether measured in monetary value or in living hours worked, this fraction reveals the precise proportion of unpaid labour extracted from the working class.",
+    "context": "Part III, Chapter 9: The Rate of Surplus-Value",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
   }
 ]

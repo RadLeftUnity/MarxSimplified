@@ -1,10 +1,38 @@
 [
   {
     "targetText": "The strategy of guerrilla warfare is manifestly unlike that employed in orthodox\noperations, as the basic tactic of the former is constant activity and movement.",
-    "explanation": "Unlike conventional armies that fight fixed positional battles to defend geographical lines, guerrillas prioritize constant mobility, fluid movement, and hitting the enemy when they are unprepared."
+    "explanation": "Unlike conventional armies that fight fixed positional battles to defend geographical lines, guerrillas prioritize constant mobility, fluid movement, and hitting the enemy when they are unprepared.",
+    "topics": [
+      "Maoism and People's War"
+    ]
   },
   {
     "targetText": "while guerrillas do have bases, their primary field of activity is\nin the enemy's rear areas. They themselves have no rear.",
-    "explanation": "Guerrillas operate behind enemy lines where the invading army's supply routes, outposts, and communications are vulnerable, operating without traditional fixed frontlines."
+    "explanation": "Guerrillas operate behind enemy lines where the invading army's supply routes, outposts, and communications are vulnerable, operating without traditional fixed frontlines.",
+    "topics": [
+      "Maoism and People's War"
+    ]
+  },
+  {
+    "id": "guerrilla-warfare-chapter2-ext-3",
+    "targetText": "A primary feature of guerrilla operations is their dependence upon the people themselves to organize battalions and other units.",
+    "summary": "Guerrilla forces are organised by and from the local population.",
+    "explanation": "Unlike regular units, guerrilla organisation depends on local circumstances and on the people's own initiative, which is what makes them hard for an invader to destroy.",
+    "context": "This is the basis of the later slogan that the guerrilla moves among the people as fish in water.",
+    "topics": [
+      "Maoism and People's War",
+      "Revolutionary Strategy and Party"
+    ]
+  },
+  {
+    "id": "guerrilla-warfare-chapter2-ext-4",
+    "targetText": "These people will not admit the fundamental necessity for guerrilla bands that spring from the armed people.",
+    "summary": "Critics of corrupt guerrilla bands fail to see that real guerrilla forces must arise from the armed population.",
+    "explanation": "Mao answers those who judge guerrilla warfare by undisciplined units that were used as cover for bribery and corruption, saying proper guerrilla bands spring from the people and must be given proper political leadership.",
+    "context": "Discipline and political education are treated as conditions for a guerrilla force to keep the people's support.",
+    "topics": [
+      "Maoism and People's War",
+      "Revolutionary Strategy and Party"
+    ]
   }
 ]

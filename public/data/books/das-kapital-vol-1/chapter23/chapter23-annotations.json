@@ -1,10 +1,24 @@
 [
   {
-    "targetText": "By practice it is known how much\nis the average product of one hour.",
-    "explanation": "Key theoretical concept in Piece-Wages: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "id": "das-kapital-vol-1-chapter23-ann-2",
+    "targetText": "Given piece-wage, it is naturally the personal interest of the labourer to strain his labour-power as intensely as possible; this enables the capitalist to raise more easily the normal degree of intensity of labour. [8] It is moreover now the personal interest of the labourer to lengthen the working-day, since with it his daily or weekly wages rise.",
+    "summary": "Self-intensification of exploitation under piece-wages: workers are driven to lengthen their own working day.",
+    "explanation": "Under piece-work, workers are pressured by low rates to intensify their own effort and work excessive overtime. Once high output becomes normal, the capitalist cuts the piece-rate, compelling workers to produce even more units merely to maintain their original income.",
+    "context": "Part VI, Chapter 21: Piece-Wages",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
   },
   {
-    "targetText": "tends directly to encourage the young potter greatly to over-work\nhimself during the four or five years during which he is employed in the\npiece-work system, but at low wages....",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "id": "das-kapital-vol-1-chapter23-ann-2",
+    "targetText": "piece-wage is the form of wages most in harmony with the capitalist mode of production. Although by no means new ; it figures side by side with time-wages officially in the French and English labour statutes of the 14th century ; it only conquers a larger field for action during the period of manufacture, properly so-called.",
+    "summary": "Piece-wages: the form of wages most in harmony with the capitalist mode of production.",
+    "explanation": "Piece-wages convert payment into a piece-rate incentive structure. This form allows capital to dispense with extensive supervisory oversight, since workers discipline themselves to maximize output, while quality control is weaponized to make wage deductions.",
+    "context": "Part VI, Chapter 21: Piece-Wages",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
   }
 ]

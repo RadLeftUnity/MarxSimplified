@@ -8,5 +8,15 @@
     "id": "das-kapital-vol-1-the-general-formula-for-capital-ann-2",
     "targetText": "The simplest form of the circulation of commodities is C; M; C,\nthe transformation of commodities into money, and the change of the money\nback again into commodities; or selling in order to buy. But alongside\nof this form we find another specifically different form: M; C; M, the transformation\nof money into commodities, and the change of commodities back again into\nmoney; or buying in order to sell. Money that circulates in the latter\nmanner is thereby transformed into, becomes capital, and is already potentially\ncapital.",
     "explanation": "M-C-M (Money-Commodity-Money) is the capitalist circuit. The capitalist starts with money, buys commodities, and resells them to end up with more money (M-C-M')."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter6-ext-3",
+    "targetText": "The circuit M; C; M, on the contrary, commences with money and ends with money. Its leading motive, and the goal that attracts it, is therefore mere exchange-value. In the simple circulation of commodities, the two extremes of the circuit have the same economic form. They are both commodities, and commodities of equal value. But they are also use-values differing in their qualities, as, for example, corn and clothes. The exchange of products, of the different materials in which the labour of society is embodied, forms here the basis of the movement. It is otherwise in the circulation M; C; M, which at first sight appears purposeless, because tautological. Both extremes have the same economic form. They are both money, and therefore are not qualitatively different use-values; for money is but the converted form of commodities, in which their particular use-values vanish. To exchange &pound;100 for cotton, and then this same cotton again for &pound;100, is merely a roundabout way of exchanging money for money, the same for the same, and appears to be an operation just as purposeless as it is absurd. [4] One sum of money is distinguishable from another only by its amount. The character and tendency of the process M; C; M, is therefore not due to any qualitative difference between its extremes, both being money, but solely to their quantitative difference. More money is withdrawn from circulation at the finish than was thrown into it at the start. The cotton that was bought for &pound;100 is perhaps resold for &pound;100 + &pound;10 or &pound;110. The exact form of this process is therefore M; C; M&prime;, where M&prime; = M + ∆ M = the original sum advanced, plus an increment.",
+    "summary": "The general formula for capital: M-C-M-prime, where surplus-value is the sole driving motive and end goal.",
+    "explanation": "No capitalist buys goods to sell them for the identical sum of money. The whole rationale of the circuit M-C-M is to end with more money than was advanced: M-prime equals M plus delta-M. This surplus value (delta-M) is the lifeblood and defining purpose of capital.",
+    "context": "Part II, Chapter 4: The General Formula for Capital",
+    "topics": [
+      "Political Economy"
+    ]
   }
 ]

@@ -10,5 +10,36 @@
     "targetText": "the spontaneous struggle of the proletariat will not become its genuine “class struggle” until this struggle is led by a strong organisation of revolutionaries.",
     "summary": "Spontaneous worker protests are essential, but they cannot achieve systemic transformation without an organized, disciplined political leadership.",
     "context": "Lenin refutes Economists who worshipped spontaneity, arguing that relying purely on unorganized mass anger leaves movements vulnerable to demagogues and police suppression."
+  },
+  {
+    "id": "what-is-to-be-done-chapter5-ext-3",
+    "targetText": "Give us an organisation of revolutionaries, and we will overturn Russia",
+    "summary": "A small, disciplined organisation of revolutionaries can do what a large amateur movement cannot.",
+    "explanation": "Lenin laments that the movement was acting as amateurs when it might have been led by a compact group of trained revolutionaries. Organisation, not mass numbers alone, determines whether a movement can survive repression and strike decisively.",
+    "context": "The line became a standard summary of the Bolshevik view of the vanguard party.",
+    "topics": [
+      "Revolutionary Strategy and Party"
+    ]
+  },
+  {
+    "id": "what-is-to-be-done-chapter5-ext-4",
+    "targetText": "in Party organisation, amidst the gloom of the autocracy and the domination of gendarmerie, is nothing more than a useless and harmful toy.",
+    "summary": "Under a police autocracy, open and fully elective organisation is a useless and harmful toy for a revolutionary party.",
+    "explanation": "Lenin answers the demand for 'broad democracy' by pointing to conditions of secrecy. Without political freedom, publicity and mass election would only expose activists to the gendarmerie, so the party must rely on trusted, centralised leadership.",
+    "context": "He later stressed that the same democratic principles apply fully only once conditions of freedom make them possible, which is the origin of the debate on democratic centralism.",
+    "topics": [
+      "Revolutionary Strategy and Party",
+      "Democracy and Elections"
+    ]
+  },
+  {
+    "id": "what-is-to-be-done-chapter5-ext-5",
+    "targetText": "an organization that will consist of professional revolutionaries and be led by the real political leaders of the entire people.",
+    "summary": "The party needs full-time revolutionaries who act as the political leaders of the whole people.",
+    "explanation": "Lenin ties the character of an organisation to the content of its work. A party meant to conduct nationwide political struggle against autocracy cannot be an occasional circle; it requires trained professionals who lead every protest and expose every injustice.",
+    "context": "Critics have called this elitist, while defenders note that it was designed for conditions of illegality.",
+    "topics": [
+      "Revolutionary Strategy and Party"
+    ]
   }
 ]

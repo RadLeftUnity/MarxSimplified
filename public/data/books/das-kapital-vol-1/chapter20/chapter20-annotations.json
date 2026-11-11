@@ -1,10 +1,22 @@
 [
   {
-    "targetText": "If they are to be treated as direct expressions of the degree\nof self-expansion of capital, the following erroneous law would hold good:\nSurplus-labour or surplus-value can never reach 100%.",
-    "explanation": "Key theoretical concept in Various Formula for the Rate of Surplus-Value: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "id": "das-kapital-vol-1-chapter20-ann-1",
+    "targetText": "The two first of these formulae represent, as a ratio of values, that which, in the third, is represented as a ratio of the times during which those values are produced.",
+    "summary": "The rate of surplus-value as a ratio of times: s/v is identical to surplus labour-time divided by necessary labour-time.",
+    "explanation": "Marx demonstrates that the monetary ratio of surplus-value to variable capital is identical to the temporal ratio between the unpaid hours worked for the employer and the paid hours needed for workers subsistence.",
+    "context": "Part V, Chapter 18: Various Formula for the Rate of Surplus-Value",
+    "topics": [
+      "Political Economy"
+    ]
   },
   {
-    "targetText": "Widerlegung der Ricardo'schen Lehre von der Grundrente und\nBegrundung einer neuen Rententheorie\".",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "id": "das-kapital-vol-1-chapter20-ann-2",
+    "targetText": "If they are to be treated as direct expressions of the degree of self-expansion of capital, the following erroneous law would hold good: Surplus-labour or surplus-value can never reach 100%.",
+    "summary": "Exposing bourgeois formulas: dividing surplus-value by total working-day disguises the true rate of exploitation.",
+    "explanation": "Vulgar economists divide surplus-value by the entire working day rather than variable capital, pretending that exploitation can never reach 100 percent. Marx shows that the actual degree of exploitation is measured by s/v: if necessary labour is 6 hours and surplus labour is 6 hours, the rate of exploitation is 100 percent.",
+    "context": "Part V, Chapter 18: Various Formula for the Rate of Surplus-Value",
+    "topics": [
+      "Political Economy"
+    ]
   }
 ]

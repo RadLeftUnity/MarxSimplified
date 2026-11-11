@@ -3,5 +3,17 @@
     "id": "das-kapital-vol-1-ch21-1",
     "targetText": "On the surface of bourgeois society the wage of the\nlabourer appears as the price of labour, a certain quantity of money that\nis paid for a certain quantity of labour. Thus people speak of the value\nof labour and call its expression in money its necessary or natural price.\nOn the other hand they speak of the market-prices of labour, i.e., prices\noscillating above or below its natural price.",
     "explanation": "Wages appear to be the \"price of labor\" itself, as if the worker sells their actual labor. Marx reveals this is an illusion: workers sell their labor-power (capacity to work), not the labor itself. This disguises the fact that part of the working day is unpaid."
+  },
+  {
+    "id": "das-kapital-vol-1-ch21-2",
+    "targetText": "The wage form thus extinguishes every trace of the division of the working-day into necessary labour and surplus-labour, into paid and unpaid labour. All labour appears as paid labour. In the corvée, the labour of the worker for himself, and his compulsory labour for his lord, differ in space and time in the clearest possible way. In slave labour, even that part of the working-day in which the slave is only replacing the value of his own means of existence, in which, therefore, in fact, he works for himself alone, appears as labour for his master. All the slave's labour appears as unpaid labour. [8] In wage labour, on the contrary, even surplus-labour, or unpaid labour, appears as paid. There the property-relation conceals the labour of the slave for himself; here the money-relation conceals the unrequited labour of the wage labourer.",
+    "summary": "The wage-form obscures exploitation: comparing corvée, chattel slavery, and wage labour.",
+    "explanation": "Under feudal corvée, compulsory unpaid labour for the lord is visibly separated in space and time from labour on one own plot. Under slavery, all labour appears unpaid, concealing the time the slave works for their own subsistence. Under wage labour, the money-relation creates the opposite mystification: all labour appears paid, concealing the unpaid surplus labour extracted by the capitalist.",
+    "context": "Part VI, Chapter 19: The Transformation of the Value of Labour-Power into Wages",
+    "topics": [
+      "Political Economy",
+      "Class Struggle",
+      "Historical Materialism"
+    ]
   }
 ]

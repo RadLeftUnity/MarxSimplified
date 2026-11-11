@@ -18,5 +18,62 @@
     "id": "das-kapital-vol-1-commodities-ann-4",
     "targetText": "A commodity appears, at first sight, a very trivial thing, and easily understood. Its analysis shows that it is, in reality, a very queer thing, abounding in metaphysical subtleties and theological niceties. So far as it is a value in use, there is nothing mysterious about it, whether we consider it from the point of view that by its properties it is capable of satisfying human wants, or from the point that those properties are the product of human labour. It is as clear as noon-day, that man, by his industry, changes the forms of the materials furnished by Nature, in such a way as to make them useful to him. The form of wood, for instance, is altered, by making a table out of it. Yet, for all that, the table continues to be that common, every-day thing, wood. But, so soon as it steps forth as a commodity, it is changed into something transcendent. It not only stands with its feet on the ground, but, in relation to all other commodities, it stands on its head, and evolves out of its wooden brain grotesque ideas, far more wonderful than \"table-turning\" ever was. [26a]",
     "explanation": "Marx introduces \"Commodity Fetishism\": under capitalism, social relations between people performing labor appear as objective, quantitative relationships between things (money and prices) on the market."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter2-ext-5",
+    "targetText": "The religious reflex of the real world can, in any case, only then finally vanish, when the practical relations of every-day life offer to man none but perfectly intelligible and reasonable relations with regard to his fellowmen and to Nature.",
+    "summary": "Religion fades only when everyday social relations become transparent and rational, not by decree.",
+    "explanation": "Marx treats religion as a reflection of real alienated social life. As long as the relations between people appear as relations between things governed by market forces, mystical forms of thought persist, so changing material relations is the real route to ending religious illusion.",
+    "context": "The passage sits in the section on commodity fetishism and is often paired with the 'opium of the people' line as Marx's theory of religion.",
+    "topics": [
+      "Religion",
+      "Historical Materialism",
+      "Dialectics and Philosophy"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter2-ext-6",
+    "targetText": "On the one hand all labour is, speaking physiologically, an expenditure of human labour power, and in its character of identical abstract human labour, it creates and forms the value of commodities.",
+    "summary": "Abstract human labour: all productive work reduces physiologically to human labour in the abstract, the substance of value.",
+    "explanation": "Value is not an intrinsic physical property of goods, but socially crystallised abstract labour. When products are exchanged, society abstracts from the specific physical forms of work and treats all labour as uniform, interchangeable fractions of total social labour-time.",
+    "context": "Part I, Chapter 1 (Section 2: Two-fold Character of the Labour Embodied in Commodities)",
+    "topics": [
+      "Political Economy",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter2-ext-7",
+    "targetText": "There it is a definite social relation between men, that assumes, in their eyes, the fantastic form of a relation between things. In order, therefore, to find an analogy, we must have recourse to the mist-enveloped regions of the religious world.",
+    "summary": "Commodity fetishism: relations between human producers appear as relations between inanimate objects in the marketplace.",
+    "explanation": "Under capitalism, producers interact only through the exchange of goods. Consequently, the social character of their mutual interdependence appears inverted: not as direct cooperation between people, but as mysterious market forces and fluctuating price relationships between things.",
+    "context": "Part I, Chapter 1 (Section 4: The Fetishism of Commodities and the Secret Thereof)",
+    "topics": [
+      "Political Economy",
+      "Dialectics and Philosophy",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter2-ext-8",
+    "targetText": "At first sight a commodity presented itself to us as a complex of two things ; use value and exchange value. Later on, we saw also that labour, too, possesses the same two-fold nature; for, so far as it finds expression in value, it does not possess the same characteristics that belong to it as a creator of use values.",
+    "summary": "The two-fold nature of labour in commodities: concrete labour creates use-value, while abstract human labour creates exchange-value.",
+    "explanation": "Marx identifies the two-fold character of labour embodied in commodities as the pivot around which political economy revolves. Concrete, specific labour (tailoring, weaving) creates the qualitative use-value of an object, while abstract human labour (expenditure of physiological human energy in general, regardless of trade) forms quantitative value.",
+    "context": "Part I, Chapter 1 (Section 2: Two-fold Character of the Labour Embodied in Commodities)",
+    "topics": [
+      "Political Economy",
+      "Dialectics and Philosophy"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter2-ext-9",
+    "targetText": "Every product of labour is, in all states of society, a use value; but it is only at a definite historical epoch in a society's development that such a product becomes a commodity, viz., at the epoch when the labour spent on the production of a useful article becomes expressed as one of the objective qualities of that article, i.e., as its value.",
+    "summary": "Historical specificity of the commodity form: value is not eternal, but arises only in societies based on generalized commodity production.",
+    "explanation": "Bourgeois economists treat value and commodities as eternal laws of nature. Marx emphasizes historical materialism: while all human societies produce useful goods (use-values), goods only take the form of commodities with exchange-values during a specific historical stage where social production is mediated through market exchange.",
+    "context": "Part I, Chapter 1 (Section 3: The Form of Value)",
+    "topics": [
+      "Historical Materialism",
+      "Political Economy"
+    ]
   }
 ]

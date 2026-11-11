@@ -1,17 +1,26 @@
 [
   {
-    "targetText": "All persons have the right to take\naway the children of the vagabonds and to keep them as\napprentices, the young men until the 24th year, the girls\nuntil the 20th.",
-    "explanation": "Key theoretical concept in Bloody Legislation against the Expropriated, from the End of the 15th Century. Forcing down of Wages by Acts of Parliament: Marxists analyze how structural economic conditions determine political and social relations under capitalism.",
+    "id": "das-kapital-vol-1-chapter30-ann-1",
+    "targetText": "the whole of the 16th century, throughout Western Europe a bloody legislation against vagabondage. The fathers of the present working class were chastised for their enforced transformation into vagabonds and paupers. Legislation treated them as \"voluntary\" criminals, and assumed that it depended on their own good will to go on working under the old conditions that no longer existed.",
+    "summary": "Bloody legislation against vagabondage: the state criminalizes the dispossessed peasantry to enforce wage labour.",
+    "explanation": "Peasants driven from the land could not be absorbed into early manufactures quickly enough. The state stepped in with savage criminal statutes: whipping, branding with hot irons, and enslavement for vagrancy: coercing displaced rural populations into the brutal discipline required by emerging capital.",
+    "context": "Part VIII, Chapter 28: Bloody Legislation against the Expropriated",
     "topics": [
-      "Elections"
+      "Class Struggle",
+      "The State and Dictatorship of the Proletariat",
+      "Historical Materialism"
     ]
   },
   {
-    "targetText": "But an act of Parliament of the same date\n(an act to amend the criminal law relating to violence,\nthreats, and molestation), re-established, in point of fact,\nthe former state of things in a new shape.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements.",
+    "id": "das-kapital-vol-1-chapter30-ann-2",
+    "targetText": "The bourgeoisie, at its rise, wants and uses the power of the state to \"regulate\" wages, i.e., to force them within the limits suitable for surplus-value making, to lengthen the working-day and to keep the labourer himself in the normal degree of dependence. This is an essential element of the so-called primitive accumulation.",
+    "summary": "State regulation of wages: the rising bourgeoisie deploys state power to cap wages and prolong the working day.",
+    "explanation": "Far from believing in free-market wage setting, the early capitalist class relied on state legislation to impose wage ceilings and penalize workers who demanded higher pay, ensuring a high rate of surplus-value extraction.",
+    "context": "Part VIII, Chapter 28: Bloody Legislation against the Expropriated",
     "topics": [
-      "The State",
-      "Elections"
+      "Class Struggle",
+      "The State and Dictatorship of the Proletariat",
+      "Political Economy"
     ]
   }
 ]

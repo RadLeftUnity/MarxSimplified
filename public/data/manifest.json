@@ -1,6 +1,25 @@
 {
   "books": [
     {
+      "id": "analysis-of-the-classes-in-chinese-society",
+      "title": "Analysis of the Classes in Chinese Society",
+      "author": "Mao Zedong",
+      "year": "1926",
+      "difficulty": "Easy-Medium",
+      "readingTime": "21 mins",
+      "shortDescription": "Written in March 1926 as the opening essay of Volume I of the Selected Works of Mao Zedong, Analysis of the Classes in Chinese Society poses the famous strategic question: 'Who are our enemies? Who are our friends?' Written to combat both Chen Duxiu's Right opportunism and Zhang Guotao's 'Left' opportunism, Mao conducts a concrete materialist class analysis of semi-colonial, semi-feudal China, identifying the industrial proletariat as the leading force and the vast semi-proletarian peasantry as its closest revolutionary ally.",
+      "coverColor": "#4e1a3b",
+      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+      "subject": "Class Struggle",
+      "tags": [
+        "Class Struggle",
+        "Anti-Imperialism",
+        "Peasant Question",
+        "Maoism",
+        "Mao Zedong"
+      ]
+    },
+    {
       "id": "civil-war-france",
       "title": "The Civil War in France",
       "author": "Karl Marx",
@@ -10,7 +29,7 @@
       "shortDescription": "Written by Karl Marx between April and May 1871 as an official address to the General Council of the International Workingmen's Association, The Civil War in France is Marx's seminal historical materialist analysis of the Paris Commune. Written while Communards were defending Paris against Versaillist troops, Marx synthesizes the lessons of the first working-class government in history, establishing the core Marxist proposition that the working class cannot simply lay hold of the ready-made state machinery and wield it for its own purposes, but must smash the bourgeois state apparatus and replace it with genuine proletarian democracy.",
       "coverColor": "#8b0000",
       "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
-      "subject": "State Theory & Dictatorship of the Proletariat",
+      "subject": "State Theory and Dictatorship of the Proletariat",
       "tags": [
         "Dictatorship of the Proletariat",
         "The State",
@@ -199,7 +218,7 @@
       "shortDescription": "Written in 1915 during World War I with an introduction by V.I. Lenin and published in 1917, Imperialism and World Economy is Nikolai Bukharin's landmark Marxist study of global monopoly capitalism. Bukharin analyzes the dual dialectical process of the internationalization of economic life and the nationalization (statification) of capital into competing 'state-capitalist trusts', demonstrating why monopoly competition inevitably escalates from protective tariffs and capital export into militarism and world war.",
       "coverColor": "#2b4c7e",
       "coverGradient": "linear-gradient(135deg, #2b4c7e 0%, #10203a 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
         "Philosophy"
@@ -215,7 +234,7 @@
       "shortDescription": "Written in May 1918 during the fierce debate over the Treaty of Brest-Litovsk and Soviet economic policy, V.I. Lenin replies to the 'Left Communist' faction (including Nikolai Bukharin, Valerian Osinsky, and Karl Radek) and their journal Kommunist. Lenin exposes how ultra-left revolutionary phrase-making masks petty-bourgeois vacillation and a failure to grasp the concrete material tasks of transitioning from capitalism to socialism.",
       "coverColor": "#8c1c1c",
       "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
         "Philosophy"
@@ -231,7 +250,7 @@
       "shortDescription": "Written in 1920 for the Second Congress of the Communist International, Lenin's classic treatise critiques sectarian 'left' radicalism and outlines pragmatic, principled revolutionary strategy and tactics.",
       "coverColor": "#8c1c1c",
       "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
-      "subject": "Party Strategy & Tactics",
+      "subject": "Party Strategy and Tactics",
       "tags": [
         "Party Strategy & Tactics",
         "Revolutionary Tactics",
@@ -273,6 +292,64 @@
       "tags": [
         "Dialectics",
         "Philosophy",
+        "Maoism",
+        "Mao Zedong"
+      ]
+    },
+    {
+      "id": "on-practice",
+      "title": "On Practice",
+      "author": "Mao Zedong",
+      "year": "1937",
+      "difficulty": "Easy-Medium",
+      "readingTime": "31 mins",
+      "shortDescription": "Delivered in July 1937 as a lecture at the Anti-Japanese Military and Political College in Yan'an alongside On Contradiction, On Practice: On the Relation Between Knowledge and Practice, Between Knowing and Doing is Mao Zedong's classic treatise on the Marxist theory of knowledge (epistemology). Written to combat both dogmatism and empiricism inside the Communist Party, Mao explains how human knowledge arises from social practice (production, class struggle, and scientific experiment), leaps from perceptual to rational knowledge, and returns to revolutionary practice to change the world.",
+      "coverColor": "#4e1a3b",
+      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+      "subject": "Dialectical Materialism",
+      "tags": [
+        "Dialectics",
+        "Idealism",
+        "Ultra Leftism",
+        "Philosophy",
+        "Maoism",
+        "Mao Zedong"
+      ]
+    },
+    {
+      "id": "on-protracted-war",
+      "title": "On Protracted War",
+      "author": "Mao Zedong",
+      "year": "1938",
+      "difficulty": "Medium",
+      "readingTime": "3.0 hours",
+      "shortDescription": "Mao's classic 1938 lectures applying materialist dialectics to the War of Resistance Against Japan, refuting both defeatism and quick-victory illusions while outlining the three stages of protracted people's war.",
+      "coverColor": "#9f1239",
+      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+      "subject": "Anti-Imperialism and Military Strategy",
+      "tags": [
+        "Anti-Imperialism",
+        "People's War",
+        "Dialectics",
+        "Maoism",
+        "Mao Zedong"
+      ]
+    },
+    {
+      "id": "on-the-correct-handling-of-contradictions-among-the-people",
+      "title": "On the Correct Handling of Contradictions Among the People",
+      "author": "Mao Zedong",
+      "year": "1957",
+      "difficulty": "Medium",
+      "readingTime": "1.5 hours",
+      "shortDescription": "Mao's landmark 1957 speech distinguishing antagonistic contradictions between the people and the enemy from non-antagonistic contradictions among the people under socialism.",
+      "coverColor": "#991b1b",
+      "coverGradient": "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
+      "subject": "Dialectics and Socialist Construction",
+      "tags": [
+        "Dialectics",
+        "Socialism",
+        "People's Democratic Dictatorship",
         "Maoism",
         "Mao Zedong"
       ]
@@ -415,7 +492,7 @@
       "shortDescription": "Published as a standalone edition of Part III ('The Socialisation of Society') of August Bebel's classic Woman and Socialism (1879), Society of the Future presents one of the most detailed and inspiring Marxist visions of how a post-capitalist socialist commonwealth will organize production, agriculture, education, art, domestic life, and international relations.",
       "coverColor": "#6b2d5c",
       "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
         "Philosophy"
@@ -431,7 +508,7 @@
       "shortDescription": "Published in Proletary in May 1909 during a period of reaction following the defeat of the 1905 Russian Revolution, The Attitude of the Workers' Party to Religion is V.I. Lenin's classic treatise on dialectical materialism and religious policy. Lenin addresses debates in the Russian Duma and within the Bolshevik party, explaining why Marxists are absolute philosophical materialists yet oppose anarchistic declarations of war on religion, insisting that atheist education must be subordinated to the practical class struggle.",
       "coverColor": "#8c1c1c",
       "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
-      "subject": "Marxist Philosophy & Party Strategy",
+      "subject": "Marxist Philosophy and Party Strategy",
       "tags": [
         "Dialectical Materialism",
         "Religion",
@@ -468,7 +545,7 @@
       "shortDescription": "Published in 1845, The Holy Family, or Critique of Critical Critique was the first major collaborative work by Karl Marx and Friedrich Engels. Written as a polemic against Bruno Bauer and the Young Hegelian 'Critical Critics', the text marks a decisive turning point in the development of scientific socialism. Marx and Engels demolish speculative Hegelian idealism, formulate the historic mission of the proletariat to abolish private property, trace the philosophical roots of socialism to 18th-century French materialism, and establish Charles Fourier's principle that women's emancipation is the natural measure of general social freedom.",
       "coverColor": "#8b0000",
       "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
-      "subject": "Marxist Philosophy & Historical Materialism",
+      "subject": "Marxist Philosophy and Historical Materialism",
       "tags": [
         "Historical Materialism",
         "Critique of Idealism",
@@ -580,7 +657,7 @@
       "shortDescription": "First published illegally in 1879 under Bismarck's Anti-Socialist Laws and expanded through fifty editions, Woman and Socialism by August Bebel was the foundational Marxist text on women's liberation and socialist reconstruction. Structured in three parts (Woman in the Past, Woman at the Present Day, and The Socialisation of Society), Bebel applies historical materialism to trace women's oppression from the overthrow of primeval maternal law through modern capitalism, demonstrating that the emancipation of women is inseparable from the overthrow of wage slavery.",
       "coverColor": "#6b2d5c",
       "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
-      "subject": "Theory & Philosophy",
+      "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
         "Philosophy"

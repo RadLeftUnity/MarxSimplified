@@ -1,10 +1,23 @@
 [
   {
-    "targetText": "The same quantity, 1 shilling or 2 hours,\nis added in one case and subtracted in the other.",
-    "explanation": "Key theoretical concept in Changes of Magnitude in the Price of Labour-Power and in Surplus-Value: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "id": "das-kapital-vol-1-chapter19-ann-2",
+    "targetText": "Surplus-value and the value of labour-power vary in opposite directions. A variation in the productiveness of labour, its increase or diminution, causes a variation in the opposite direction in the value of labour-power, and in the same direction in surplus-value.",
+    "summary": "Inverse variation of surplus-value and wages: productivity gains in wage goods reduce the value of labour-power and raise surplus-value.",
+    "explanation": "When productivity rises in industries producing food, clothing, and shelter, the value of labour-power falls. Consequently, the capitalist extracts a larger proportion of surplus-value even if the real material standard of living of the worker remains unchanged or rises slightly.",
+    "context": "Part V, Chapter 17: Changes of Magnitude in the Price of Labour-Power and in Surplus-Value (Section 1)",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
   },
   {
-    "targetText": "The price of labour-power and\nthe degree of its exploitation cease to be commensurable quantities.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "id": "das-kapital-vol-1-chapter19-ann-2",
+    "targetText": "price of labour-power are determined by three circumstances; (1) the length of the working-day, or the extensive magnitude of labour; (2) the normal intensity of labour, its intensive magnitude, whereby a given quantity of labour is expended in a given time; (3) the productiveness of labour, whereby the same quantum of labour yields, in a given time, a greater or less quantum of product, dependent on the degree of development in the conditions of production.",
+    "summary": "The three determinants of value of labour-power and surplus-value: length of day, labour intensity, and productivity.",
+    "explanation": "Marx identifies the three fundamental variables governing how value is divided between capital and wages: (1) how long the worker labours, (2) how intensely they work per hour, and (3) technological productivity, which alters the value of basic consumer goods.",
+    "context": "Part V, Chapter 17: Changes of Magnitude in the Price of Labour-Power and in Surplus-Value",
+    "topics": [
+      "Political Economy"
+    ]
   }
 ]
