@@ -768,7 +768,9 @@ export async function generateAnnotationCardCanvas(data: {
   bookTitle: string;
   author: string;
   targetText: string;
-  explanation: string;
+  summary?: string;
+  explanation?: string;
+  context?: string;
   coverGradient?: string;
   authorImageUrl?: string | null;
 }): Promise<HTMLCanvasElement> {
@@ -860,101 +862,167 @@ export async function generateAnnotationCardCanvas(data: {
   ctx.fillRect(coverX, coverY, 22, coverH);
 
   const rightX = 435;
+  const maxRightW = 705;
+
+  let rawSummary = cleanTextPreservingNewlines(data.summary || '');
+  const rawTargetText = cleanTextPreservingNewlines(data.targetText || '');
+  let rawExplanation = cleanTextPreservingNewlines(data.explanation || data.context || '');
+
+  if (rawExplanation === rawSummary) {
+    rawExplanation = '';
+  }
+  if (!rawSummary && rawExplanation) {
+    rawSummary = rawExplanation;
+    rawExplanation = '';
+  }
 
   ctx.fillStyle = '#ffffff';
-  ctx.font = 'bold 36px Lora, serif';
+  let mainTitleFontSize = 30;
+  if (data.bookTitle.length > 30) mainTitleFontSize = 25;
+  if (data.bookTitle.length > 45) mainTitleFontSize = 21;
+  ctx.font = `bold ${mainTitleFontSize}px Lora, serif`;
   ctx.textAlign = 'left';
-  ctx.fillText('Quote', rightX, 75);
+  const titleLinesCount = drawText(ctx, data.bookTitle, rightX, 60, maxRightW, mainTitleFontSize + 8, 2);
 
-  const authorY = 108;
+  const authorY = 60 + titleLinesCount * (mainTitleFontSize + 8) + 4;
   ctx.fillStyle = '#8e96a2';
-  ctx.font = '15px Inter, sans-serif';
+  ctx.font = '14px Inter, sans-serif';
   ctx.fillText('By ', rightX, authorY);
 
   const byWidth = ctx.measureText('By ').width;
   ctx.fillStyle = '#d4af37';
-  ctx.font = 'italic 17px Lora, serif';
+  ctx.font = 'italic 16px Lora, serif';
   ctx.fillText(data.author, rightX + byWidth, authorY);
 
-  const dividerY = authorY + 14;
-  ctx.strokeStyle = 'rgba(255, 255, 255, 0.06)';
+  const dividerY = authorY + 12;
+  ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
   ctx.lineWidth = 1;
   ctx.beginPath();
   ctx.moveTo(rightX, dividerY);
-  ctx.lineTo(rightX + 705, dividerY);
+  ctx.lineTo(rightX + maxRightW, dividerY);
   ctx.stroke();
 
-  const quoteY = dividerY + 14;
-  const maxRightW = 705;
+  const startY = dividerY + 14;
+  const availableH = 565 - startY;
 
-  let formattedQuote = cleanTextPreservingNewlines(data.targetText);
-  if (!formattedQuote.startsWith('“') && !formattedQuote.startsWith('"')) {
-    formattedQuote = `“${formattedQuote}”`;
-  }
-  const rawExplanation = cleanTextPreservingNewlines(data.explanation);
-
-  // Lock quote box font size to 14.5px Lora (1:1 with Book Preview cards)
-  const chosenQuoteFs = 14.5;
-  const qLh = 22;
-  ctx.font = `italic ${chosenQuoteFs}px Lora, serif`;
-
-  const chosenQuoteLines = wrapText(ctx, formattedQuote, maxRightW - 68);
-  const quoteH = chosenQuoteLines.length * qLh + 32;
-
-  // Evaluate CONTEXT/MEANING explanation font size starting at 14.5px down to 9px
-  const explY = quoteY + quoteH + 16;
-  const availableExplH = 565 - explY - 32;
-
-  const candidateExplFontSizes = [14.5, 13.5, 12.5, 11.5, 10.5, 9.5, 9];
-  let chosenExplFs = 13.5;
+  const candidateSubFontSizes = [16.5, 15.5, 14.5, 13.5, 12.5, 11.5, 10.5, 9.5, 9];
+  let chosenFs = 16.5;
+  let chosenQuoteFs = 19.5;
+  let chosenSummaryLines: string[] = [];
+  let chosenQuoteLines: string[] = [];
   let chosenExplLines: string[] = [];
 
-  for (const subFs of candidateExplFontSizes) {
-    ctx.font = `${subFs}px Inter, sans-serif`;
-    const eLines = wrapText(ctx, rawExplanation, maxRightW - 25);
-    const eLh = Math.round(subFs * 1.42);
+  let formattedQuote = rawTargetText;
+  if (formattedQuote && !formattedQuote.startsWith('“') && !formattedQuote.startsWith('"')) {
+    formattedQuote = `“${formattedQuote}”`;
+  }
 
-    const neededH = eLines.length * eLh;
-    if (neededH <= availableExplH || subFs === 9) {
-      chosenExplFs = subFs;
+  const labelGap = 30;
+  const interSectionGap = 20;
+
+  for (const subFs of candidateSubFontSizes) {
+    const qFs = Math.max(subFs + 2.5, Math.round(subFs * 1.15));
+    const lhBody = Math.round(subFs * 1.4);
+    const lhQuote = Math.round(qFs * 1.42);
+
+    ctx.font = `${subFs}px Inter, sans-serif`;
+    const sLines = rawSummary ? wrapText(ctx, rawSummary, maxRightW - 25) : [];
+    const eLines = rawExplanation ? wrapText(ctx, rawExplanation, maxRightW - 25) : [];
+
+    ctx.font = `italic ${qFs}px Lora, serif`;
+    const qLines = formattedQuote ? wrapText(ctx, formattedQuote, maxRightW - 68) : [];
+
+    const quoteH = qLines.length > 0 ? (24 + qLines.length * lhQuote + 28) : 0;
+    const summaryH = sLines.length > 0 ? (labelGap + sLines.length * lhBody) : 0;
+    const explH = eLines.length > 0 ? (labelGap + eLines.length * lhBody) : 0;
+
+    let activeCount = 0;
+    if (qLines.length > 0) activeCount++;
+    if (sLines.length > 0) activeCount++;
+    if (eLines.length > 0) activeCount++;
+
+    const gaps = activeCount > 1 ? (activeCount - 1) * interSectionGap : 0;
+    const totalNeededH = quoteH + summaryH + explH + gaps;
+
+    if (totalNeededH <= availableH || subFs === 9) {
+      chosenFs = subFs;
+      chosenQuoteFs = qFs;
+      chosenSummaryLines = sLines;
+      chosenQuoteLines = qLines;
       chosenExplLines = eLines;
       break;
     }
   }
 
-  const eLh = Math.round(chosenExplFs * 1.42);
+  const lhBody = Math.round(chosenFs * 1.4);
+  const lhQuote = Math.round(chosenQuoteFs * 1.42);
 
-  // 1. Draw Quote Box (1:1 with Book Preview cards)
-  ctx.fillStyle = '#171921';
-  ctx.fillRect(rightX, quoteY, maxRightW, quoteH);
+  let curY = startY;
 
-  ctx.fillStyle = '#d4af37';
-  ctx.fillRect(rightX, quoteY, 4, quoteH);
+  // 1. ORIGINAL EXCERPT (Quote at top)
+  if (chosenQuoteLines.length > 0) {
+    ctx.fillStyle = '#d4af37';
+    ctx.font = 'bold 11px Inter, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('ORIGINAL EXCERPT', rightX, curY + 11);
 
-  drawDoubleQuoteIcon(ctx, rightX + 24, quoteY + 22, '#d4af37');
+    curY += 24;
+    const qBoxH = chosenQuoteLines.length * lhQuote + 28;
 
-  ctx.fillStyle = '#d8dcde';
-  ctx.font = `italic ${chosenQuoteFs}px Lora, serif`;
-  ctx.textAlign = 'left';
+    ctx.fillStyle = '#171921';
+    ctx.fillRect(rightX, curY, maxRightW, qBoxH);
 
-  for (let i = 0; i < chosenQuoteLines.length; i++) {
-    ctx.fillText(chosenQuoteLines[i], rightX + 56, quoteY + 22 + i * qLh);
+    ctx.fillStyle = '#d4af37';
+    ctx.fillRect(rightX, curY, 4, qBoxH);
+
+    drawDoubleQuoteIcon(ctx, rightX + 24, curY + 22, '#d4af37');
+
+    ctx.fillStyle = '#d8dcde';
+    ctx.font = `italic ${chosenQuoteFs}px Lora, serif`;
+    ctx.textAlign = 'left';
+
+    for (let i = 0; i < chosenQuoteLines.length; i++) {
+      ctx.fillText(chosenQuoteLines[i], rightX + 56, curY + 22 + i * lhQuote);
+    }
+
+    curY += qBoxH + interSectionGap;
   }
 
-  // 2. Draw Context/Meaning Section (Clean layout with generous label spacing)
-  ctx.fillStyle = '#d4af37';
-  ctx.font = 'bold 11px Inter, sans-serif';
-  ctx.fillText('CONTEXT/MEANING', rightX, explY + 10);
+  // 2. SIMPLIFIED MEANING (Below quote, above detailed analysis)
+  if (chosenSummaryLines.length > 0) {
+    ctx.fillStyle = '#d4af37';
+    ctx.font = 'bold 11px Inter, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('SIMPLIFIED MEANING', rightX, curY + 11);
 
-  let curY = explY + 30;
-  ctx.font = `${chosenExplFs}px Inter, sans-serif`;
+    curY += labelGap;
+    ctx.font = `${chosenFs}px Inter, sans-serif`;
+    ctx.fillStyle = '#d4af37';
+    ctx.fillText('•', rightX, curY);
 
-  ctx.fillStyle = '#d4af37';
-  ctx.fillText('•', rightX, curY);
+    ctx.fillStyle = '#f0f4f8';
+    for (let i = 0; i < chosenSummaryLines.length; i++) {
+      ctx.fillText(chosenSummaryLines[i], rightX + 18, curY + i * lhBody);
+    }
+    curY += (chosenSummaryLines.length - 1) * lhBody + interSectionGap + 4;
+  }
 
-  ctx.fillStyle = '#cbd3df';
-  for (let i = 0; i < chosenExplLines.length; i++) {
-    ctx.fillText(chosenExplLines[i], rightX + 18, curY + i * eLh);
+  // 3. DETAILED ANALYSIS (Below simplified meaning)
+  if (chosenExplLines.length > 0) {
+    ctx.fillStyle = '#60a5fa';
+    ctx.font = 'bold 11px Inter, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('DETAILED ANALYSIS', rightX, curY + 11);
+
+    curY += labelGap;
+    ctx.font = `${chosenFs}px Inter, sans-serif`;
+    ctx.fillStyle = '#60a5fa';
+    ctx.fillText('•', rightX, curY);
+
+    ctx.fillStyle = '#cbd3df';
+    for (let i = 0; i < chosenExplLines.length; i++) {
+      ctx.fillText(chosenExplLines[i], rightX + 18, curY + i * lhBody);
+    }
   }
 
   return canvas;

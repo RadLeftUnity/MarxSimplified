@@ -10,5 +10,16 @@
     "targetText": "The Communists disdain to conceal their views and aims. They openly",
     "summary": "Working-class revolutionaries openly state their goals: transforming economic structures to end class exploitation.",
     "context": "The Manifesto rejects secret conspiracies in favor of open mass working-class politics."
+  },
+  {
+    "id": "communist-manifesto-chapter6-ext-3",
+    "targetText": "The proletarians have nothing to lose but their chains. They have a world to win.",
+    "summary": "The closing call states that workers have no property interest in the present order and everything to gain from overturning it.",
+    "explanation": "The ending contrasts the ruling classes trembling at a communist revolution with a working class that risks only its chains. It fuses the open declaration of aims with the demand for the forcible overthrow of existing social conditions.",
+    "context": "Combined with the final slogan 'Working Men of All Countries, Unite!', it became the most reproduced line of the socialist movement.",
+    "topics": [
+      "Class Struggle",
+      "Revolutionary Strategy and Party"
+    ]
   }
 ]

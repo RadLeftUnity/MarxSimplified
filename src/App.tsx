@@ -15,7 +15,7 @@ import { History } from './pages/History';
 import { AccessibilityPanel, DEFAULT_A11Y_SETTINGS } from './components/AccessibilityPanel';
 import type { AccessibilitySettings, ReaderFontSize, Theme } from './components/AccessibilityPanel';
 import { Loader2, AlertTriangle } from 'lucide-react';
-import { fetchCachedJSON, prefetchBookSummaries, fetchCachedTopicIndex, fetchSearchIndex } from './utils/dataCache';
+import { fetchCachedJSON, prefetchBookSummaries, fetchCachedTopicIndex, fetchSearchIndex, getTopicSlug } from './utils/dataCache';
 import { DocumentHead } from './components/DocumentHead';
 
 export default function App() {
@@ -28,6 +28,7 @@ export default function App() {
   const [selectedChapterId, setSelectedChapterId] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchTypeFilter, setSearchTypeFilter] = useState<'all' | 'fulltext' | 'annotation' | 'summary'>('all');
 
   // Sub-view on root route ('library' | 'summary' | 'reading' | 'simplified')
   const [rootSubView, setRootSubView] = useState<'library' | 'summary' | 'reading' | 'simplified'>('library');
@@ -168,9 +169,16 @@ export default function App() {
           glossarySlug = pathname.split('/glossary/')[1].split('/')[0];
         }
 
-        if (urlPage === 'topics' || urlTopic) {
-          if (urlTopic) setSelectedTopic(urlTopic);
-          navigate('/topics', { replace: true });
+        let topicSlug = '';
+        if (pathname.startsWith('/topics/') && pathname !== '/topics') {
+          topicSlug = decodeURIComponent(pathname.split('/topics/')[1].split('/')[0]);
+        }
+
+        if (urlPage === 'topics' || urlTopic || topicSlug || pathname.startsWith('/topics')) {
+          const initialTopicOrSlug = topicSlug || urlTopic;
+          if (initialTopicOrSlug) setSelectedTopic(initialTopicOrSlug);
+          const slug = initialTopicOrSlug ? getTopicSlug(initialTopicOrSlug) : '';
+          navigate(slug ? `/topics/${slug}` : '/topics', { replace: true });
         } else if (urlPage === 'authors') {
           navigate('/authors', { replace: true });
         } else if (urlPage === 'history' || countryParam || pathname.startsWith('/history')) {
@@ -281,8 +289,11 @@ export default function App() {
         }
 
         const hashStr = window.location.hash;
-        const newUrl = `${cleanPath}${hashStr}`;
-        if (`${location.pathname}${location.hash}` !== newUrl) {
+        const params = new URLSearchParams(window.location.search);
+        const qParam = params.get('q');
+        const searchStr = qParam ? `?q=${encodeURIComponent(qParam)}` : '';
+        const newUrl = `${cleanPath}${searchStr}${hashStr}`;
+        if (`${location.pathname}${window.location.search}${location.hash}` !== newUrl) {
           window.history.replaceState(null, '', newUrl);
         }
       } else if (rootSubView === 'library' && location.pathname !== '/') {
@@ -428,8 +439,10 @@ export default function App() {
   const handleGoToTopics = (topic?: string) => {
     if (topic) {
       setSelectedTopic(topic);
+      navigate(`/topics/${getTopicSlug(topic)}`);
+    } else {
+      navigate('/topics');
     }
-    navigate('/topics');
   };
 
   const handleGoToHistory = () => {
@@ -453,8 +466,12 @@ export default function App() {
     navigate('/search');
   };
 
-  const handleSearchTerm = (pattern: string) => {
+  const handleSearchTerm = (
+    pattern: string,
+    filterType: 'all' | 'fulltext' | 'annotation' | 'summary' = 'all'
+  ) => {
     setSearchQuery(pattern);
+    setSearchTypeFilter(filterType);
     navigate('/search');
   };
 
@@ -472,16 +489,11 @@ export default function App() {
     setSelectedChapterId(chapterId);
     setRootSubView('reading');
 
-    const params = new URLSearchParams();
-    params.set('book', bookId);
-    params.set('chapter', chapterId);
-    if (annotationId) {
-      params.set('ann', annotationId);
-    }
-    if (searchText) {
-      params.set('q', searchText);
-    }
-    navigate(`/?${params.toString()}`);
+    const basePath = annotationId
+      ? `/books/${bookId}/${chapterId}/${annotationId}`
+      : `/books/${bookId}/${chapterId}`;
+    const queryStr = searchText ? `?q=${encodeURIComponent(searchText)}` : '';
+    navigate(`${basePath}${queryStr}`);
 
     if (progressMap[bookId] !== 'completed') {
       const updated: Record<string, 'not-started' | 'reading' | 'completed'> = { ...progressMap, [bookId]: 'reading' };
@@ -497,11 +509,11 @@ export default function App() {
   const currentPageName =
     location.pathname === '/authors'
       ? 'authors'
-      : location.pathname === '/topics'
+      : location.pathname.startsWith('/topics')
       ? 'topics'
-      : location.pathname === '/history'
+      : location.pathname.startsWith('/history')
       ? 'history'
-      : location.pathname === '/glossary'
+      : location.pathname.startsWith('/glossary')
       ? 'glossary'
       : location.pathname === '/search'
       ? 'search'
@@ -522,7 +534,7 @@ export default function App() {
       headTitle = `${selectedBookDetail.title} by ${selectedBookDetail.author}`;
       headDescription = selectedBookDetail.context || headDescription;
     }
-  } else if (location.pathname === '/glossary') {
+  } else if (location.pathname.startsWith('/glossary')) {
     const searchParams = new URLSearchParams(location.search);
     const termParam = searchParams.get('term');
     if (termParam) {
@@ -532,9 +544,13 @@ export default function App() {
       headTitle = 'Marxist Theory Glossary';
       headDescription = 'Comprehensive dictionary of Marxist, socialist, anti-colonial, and political economy terminology.';
     }
-  } else if (location.pathname === '/topics') {
+  } else if (location.pathname.startsWith('/topics')) {
+    const slugFromPath =
+      location.pathname.startsWith('/topics/') && location.pathname !== '/topics'
+        ? decodeURIComponent(location.pathname.split('/topics/')[1].split('/')[0])
+        : null;
     const searchParams = new URLSearchParams(location.search);
-    const topicParam = searchParams.get('topic');
+    const topicParam = selectedTopic || searchParams.get('topic') || slugFromPath;
     if (topicParam) {
       headTitle = `${topicParam} - Theoretical Topic`;
       headDescription = `Curated reading passages and analysis on ${topicParam}.`;
@@ -542,7 +558,7 @@ export default function App() {
       headTitle = 'Theoretical Topics Collection';
       headDescription = 'Browse classic Marxist theory organized by core concepts and theoretical topics.';
     }
-  } else if (location.pathname === '/history') {
+  } else if (location.pathname.startsWith('/history')) {
     const searchParams = new URLSearchParams(location.search);
     const countryParam = searchParams.get('country');
     if (countryParam) {
@@ -674,7 +690,7 @@ export default function App() {
             />
 
             <Route
-              path="/topics"
+              path="/topics/*"
               element={
                 <Topics
                   initialTopic={selectedTopic}
@@ -715,6 +731,7 @@ export default function App() {
                 <Search
                   books={books}
                   initialQuery={searchQuery}
+                  initialTypeFilter={searchTypeFilter}
                   onSelectMatch={handleSelectMatchFromSearch}
                   onBack={handleGoHome}
                 />

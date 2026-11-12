@@ -1,10 +1,67 @@
 [
   {
+    "id": "das-kapital-vol-1-ch33-1",
     "targetText": "The employés\nthemselves fixed the price and plundered at will the unhappy Hindus.",
-    "explanation": "Key theoretical concept in Genesis of the Industrial Capitalist: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "summary": "Colonial plunder by commercial monopolies: the English East India Company plunders the Indian subcontinent.",
+    "explanation": "Marx documents how European chartered trading monopolies, such as the English East India Company, wielded political conquest to establish private trade monopolies over essential goods (salt, opium, grain), generating vast fortunes through extortion and devastating famine among the Indian population.",
+    "context": "Part VIII, Chapter 31: Genesis of the Industrial Capitalist",
+    "topics": [
+      "Imperialism and Colonialism",
+      "Political Economy"
+    ]
   },
   {
+    "id": "das-kapital-vol-1-ch33-2",
     "targetText": "The nations bragged cynically of every infamy that served\nthem as a means to capitalistic accumulation.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "summary": "Cynical celebration of colonial brutality: European states brag of atrocities that fuel capital accumulation.",
+    "explanation": "Marx observes that with the rise of modern capitalism, bourgeois public opinion discarded all moral pretenses, openly boasting of imperialist piracy, treaty violations, and violent subjugation of colonized peoples because these actions expanded domestic capital accumulation.",
+    "context": "Part VIII, Chapter 31: Genesis of the Industrial Capitalist",
+    "topics": [
+      "Imperialism and Colonialism",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-ch33-3",
+    "targetText": "The discovery of gold and silver in America, the extirpation,\nenslavement and entombment in mines of the aboriginal population, the beginning\nof the conquest and looting of the East Indies, the turning of Africa into\na warren for the commercial hunting of black-skins, signalised the rosy\ndawn of the era of capitalist production. These idyllic proceedings are\nthe chief momenta of primitive accumulation.",
+    "summary": "The birth of capitalism (\"primitive accumulation\") was built directly on Indigenous genocide, colonial plunder, and the transatlantic slave trade.",
+    "explanation": "Marx refutes the bourgeois myth that capitalism arose from peaceful thrift, showing that European industrial wealth was accumulated through Indigenous dispossession in the Americas, colonial looting in India, and the enslavement of Africans.",
+    "topics": [
+      "Imperialism and Colonialism",
+      "Class Struggle",
+      "Political Economy"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-ch33-4",
+    "targetText": "Those sober virtuosi of Protestantism, the Puritans of New England, in\n1703, by decrees of their assembly set a premium of &pound;40 on every\nIndian scalp and every captured red-skin: in 1720 a premium of &pound;100\non every scalp; in 1744, after Massachusetts-Bay had proclaimed a certain\ntribe as rebels, the following prices: for a male scalp of 12 years and\nupwards &pound;100 (new currency), for a male prisoner &pound;105, for\nwomen and children prisoners &pound;50, for scalps of women and children\n&pound;50.",
+    "summary": "Settler-colonial primitive accumulation: colonial legislatures placed state bounties on the scalps and capture of Indigenous men, women, and children.",
+    "explanation": "Marx documents how settler-colonial governments in North America used state-sanctioned racial terror and bounties to exterminate Indigenous nations and expropriate their land.",
+    "topics": [
+      "Imperialism and Colonialism",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-ch33-5",
+    "targetText": "Whilst the cotton industry introduced child-slavery in England,\nit gave in the United States a stimulus to the transformation of the earlier,\nmore or less patriarchal slavery, into a system of commercial exploitation.\nIn fact, the veiled slavery of the wage workers in Europe needed, for its\npedestal, slavery pure and simple in the new world.",
+    "summary": "European industrial wage-labor stood on the pedestal of racial chattel slavery in the Americas.",
+    "explanation": "Marx shows that British textile mills and industrial capitalism depended directly on cotton produced by enslaved Black labor in the American South, linking anti-racist abolitionism to the emancipation of wage workers.",
+    "topics": [
+      "Imperialism and Colonialism",
+      "Class Struggle",
+      "Political Economy"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter33-ext-6",
+    "targetText": "capital comes dripping from head to foot, from every pore, with blood and dirt.",
+    "summary": "Capital entered the world soaked in blood and dirt from every pore.",
+    "explanation": "Marx closes his survey of the colonial system, the national debt and the modern tax system with this image to stress that capitalist accumulation relied on state violence, plunder and slave trading.",
+    "context": "The line summarises the historical argument that violence was the midwife of the new mode of production.",
+    "topics": [
+      "Imperialism and Colonialism",
+      "Political Economy"
+    ]
   }
 ]

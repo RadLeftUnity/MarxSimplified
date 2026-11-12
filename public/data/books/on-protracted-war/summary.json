@@ -1,0 +1,191 @@
+{
+  "id": "on-protracted-war",
+  "title": "On Protracted War",
+  "author": "Mao Zedong",
+  "year": "1938",
+  "difficulty": "Medium",
+  "readingTime": "3.0 hours",
+  "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+  "coverColor": "#9f1239",
+  "subject": "Anti-Imperialism and Military Strategy",
+  "tags": [
+    "Anti-Imperialism",
+    "People's War",
+    "Dialectics",
+    "Maoism",
+    "Mao Zedong"
+  ],
+  "shortDescription": "Mao's classic 1938 lectures applying materialist dialectics to the War of Resistance Against Japan, refuting both defeatism and quick-victory illusions while outlining the three stages of protracted people's war.",
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_09.htm",
+  "context": "Delivered as a series of lectures from May 26 to June 3, 1938, at the Yenan Association for the Study of the War of Resistance Against Japan, this work was written ten months into full-scale war with Imperial Japan. Mao confronted two dangerous errors inside China: the defeatist 'theory of national subjugation' promoted by capitulationists, and the impetuous 'theory of quick victory' that underestimated Japan's military strength.",
+  "relatesToToday": "Mao's dialectical analysis of asymmetric warfare, showing how a militarily weaker but politically mobilized nation fighting a just war of liberation can exhaust and defeat a technologically superior imperialist aggressor through protracted struggle, remains a cornerstone of anti-colonial and strategic theory.",
+  "keyTakeaways": [
+    "Both the defeatist theory of national subjugation and the impetuous theory of quick victory are subjective and unscientific; China's War of Resistance is necessarily protracted, yet final victory belongs to China.",
+    "The war is a contest between four mutually contradictory characteristics: Japan's strong military power versus its reactionary, barbarous nature, limited manpower and resources, and international isolation; China's military weakness versus its progressive, just cause, vast territory and population, and broad international support.",
+    "Protracted war unfolds through three strategic stages: first, the enemy's strategic offensive and China's strategic defensive; second, strategic stalemate and preparation for the counter-offensive; and third, China's strategic counter-offensive and Japan's retreat.",
+    "War is politics with bloodshed, and the richest source of power to wage war lies in the political mobilization and unity of the army and the masses of the people."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "statement-of-the-problem",
+      "title": "Statement of the Problem",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-basis-of-the-problem",
+      "title": "The Basis of the Problem",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "refutation-of-the-theory-of-national-subjugation",
+      "title": "Refutation of the Theory of National Subjugation",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "compromise-or-resistance-corruption-or-progress",
+      "title": "Compromise or Resistance? Corruption or Progress?",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-theory-of-national-subjugation-is-wrong-and-the-theory-of-quick-victory-is-likewise-wrong",
+      "title": "The Theory of National Subjugation Is Wrong and the Theory of Quick Victory Is Likewise Wrong",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "why-a-protracted-war",
+      "title": "Why a Protracted War?",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "the-three-stages-of-the-protracted-war",
+      "title": "The Three Stages of the Protracted War",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "a-war-of-jig-saw-pattern",
+      "title": "A War of Jig-Saw Pattern",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "fighting-for-perpetual-peace",
+      "title": "Fighting for Perpetual Peace",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "man-s-dynamic-role-in-war",
+      "title": "Man's Dynamic Role in War",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "war-and-politics",
+      "title": "War and Politics",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "political-mobilization-for-the-war-of-resistance",
+      "title": "Political Mobilization for the War of Resistance",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "the-object-of-war",
+      "title": "The Object of War",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "offence-within-defence-quick-decisions-within-a-protracted-war-exterior-lines-within-interior-lines",
+      "title": "Offence Within Defence, Quick Decisions Within a Protracted War, Exterior Lines Within Interior Lines",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "initiative-flexibility-and-planning",
+      "title": "Initiative, Flexibility and Planning",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    },
+    {
+      "id": "mobile-warfare-guerrilla-warfare-and-positional-warfare",
+      "title": "Mobile Warfare, Guerrilla Warfare and Positional Warfare",
+      "textFile": "chapter17/chapter17.txt",
+      "annotationFile": "chapter17/chapter17-annotations.json",
+      "summaryFile": "chapter17/chapter17-summary.txt"
+    },
+    {
+      "id": "war-of-attrition-and-war-of-annihilation",
+      "title": "War of Attrition and War of Annihilation",
+      "textFile": "chapter18/chapter18.txt",
+      "annotationFile": "chapter18/chapter18-annotations.json",
+      "summaryFile": "chapter18/chapter18-summary.txt"
+    },
+    {
+      "id": "the-possibilities-of-exploiting-the-enemy-s-mistakes",
+      "title": "The Possibilities of Exploiting the Enemy's Mistakes",
+      "textFile": "chapter19/chapter19.txt",
+      "annotationFile": "chapter19/chapter19-annotations.json",
+      "summaryFile": "chapter19/chapter19-summary.txt"
+    },
+    {
+      "id": "the-question-of-decisive-engagements-in-the-anti-japanese-war",
+      "title": "The Question of Decisive Engagements in the Anti-Japanese War",
+      "textFile": "chapter20/chapter20.txt",
+      "annotationFile": "chapter20/chapter20-annotations.json",
+      "summaryFile": "chapter20/chapter20-summary.txt"
+    },
+    {
+      "id": "the-army-and-the-people-are-the-foundation-of-victory",
+      "title": "The Army and the People Are the Foundation of Victory",
+      "textFile": "chapter21/chapter21.txt",
+      "annotationFile": "chapter21/chapter21-annotations.json",
+      "summaryFile": "chapter21/chapter21-summary.txt"
+    },
+    {
+      "id": "conclusions",
+      "title": "Conclusions",
+      "textFile": "chapter22/chapter22.txt",
+      "annotationFile": "chapter22/chapter22-annotations.json",
+      "summaryFile": "chapter22/chapter22-summary.txt"
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "textFile": "chapter23/chapter23.txt",
+      "annotationFile": "chapter23/chapter23-annotations.json",
+      "summaryFile": "chapter23/chapter23-summary.txt"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "on-practice",
+  "title": "On Practice",
+  "author": "Mao Zedong",
+  "year": "1937",
+  "difficulty": "Easy-Medium",
+  "readingTime": "31 mins",
+  "coverColor": "#4e1a3b",
+  "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+  "subject": "Dialectical Materialism",
+  "tags": [
+    "Dialectics",
+    "Idealism",
+    "Ultra Leftism",
+    "Philosophy",
+    "Maoism",
+    "Mao Zedong"
+  ],
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_16.htm",
+  "shortDescription": "Delivered in July 1937 as a lecture at the Anti-Japanese Military and Political College in Yan'an alongside On Contradiction, On Practice: On the Relation Between Knowledge and Practice, Between Knowing and Doing is Mao Zedong's classic treatise on the Marxist theory of knowledge (epistemology). Written to combat both dogmatism and empiricism inside the Communist Party, Mao explains how human knowledge arises from social practice (production, class struggle, and scientific experiment), leaps from perceptual to rational knowledge, and returns to revolutionary practice to change the world.",
+  "context": "Delivered in July 1937 at the Anti-Japanese Military and Political College in Yan'an, Mao wrote On Practice to expose two subjectivist errors inside the Communist Party of China: dogmatism (which tore Marxist quotes out of context while ignoring the concrete reality of the Chinese revolution, causing grave losses from 1931 to 1934) and empiricism (which restricted itself to fragmentary local experience while neglecting revolutionary theory).",
+  "relatesToToday": "Mao's formula ('Practice, knowledge, again practice, and again knowledge') provides a clear materialist method for testing political strategies, refuting both armchair academic dogmatism and directionless activism.",
+  "keyTakeaways": [
+    "Social practice (material production, class struggle, and scientific experiment) is the primary source of human knowledge and the sole objective criterion of truth.",
+    "Dialectical materialism has two outstanding characteristics: its class nature (openly serving the proletariat) and its practicality (theory is based on practice and in turn guides practice).",
+    "Cognition moves through two unified stages: first from external sense impressions (perceptual knowledge) to concepts, judgements, and laws grasping internal essence (rational knowledge), and second, a still more vital leap from rational theory back into revolutionary practice to change reality.",
+    "Idealism, mechanical materialism, Right opportunism (whose thinking lags behind changing reality), and 'Left' phrase-mongering (whose fantasies outstrip objective conditions) all share one root error: splitting the subjective from the objective and separating knowledge from practice."
+  ],
+  "chapters": [
+    {
+      "id": "on-the-relation-between-knowledge-and-practice-between-knowing-and-doing",
+      "title": "On the Relation Between Knowledge and Practice, Between Knowing and Doing",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "notes",
+      "title": "Philosophical Notes",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    }
+  ]
+}

@@ -51,6 +51,9 @@ export const Authors: React.FC<AuthorsProps> = ({
       if (aName === 'v.i. lenin') return bAuthor.includes('lenin');
       if (aName === 'mao zedong') return bAuthor.includes('mao');
       if (aName === 'alexandra kollontai') return bAuthor.includes('kollontai');
+      if (aName === 'clara zetkin') return bAuthor.includes('zetkin');
+      if (aName === 'nikolai bukharin') return bAuthor.includes('bukharin');
+      if (aName === 'august bebel') return bAuthor.includes('bebel');
       return bAuthor.includes(aName);
     });
   }, [books, selectedAuthor]);
@@ -183,7 +186,7 @@ export const Authors: React.FC<AuthorsProps> = ({
                 {/* Biography Blurb */}
                 <div className="detail-section bio-section">
                   <span className="detail-section-label">
-                    <User className="section-icon text-gold" /> Biography & Historical Overview
+                    <User className="section-icon text-gold" /> Biography and Historical Overview
                   </span>
                   <FormattedText text={selectedAuthor.blurb} paragraphClassName="author-bio-text" />
                 </div>

@@ -1,17 +1,35 @@
 [
   {
     "targetText": "Should Revolutionaries Work in Reactionary Trade Unions?",
-    "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located."
+    "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located.",
+    "topics": [
+      "Ultra Leftism",
+      "Trade Unionism"
+    ]
   },
   {
     "targetText": "Should We Participate in Bourgeois Parliaments? It is with the utmost contempt; and the utmost levity; that the German “Left” Communists reply to this question in the negative.",
+    "summary": "Boycotting bourgeois parliaments out of sectarian contempt isolates revolutionaries from workers who still have electoral illusions.",
     "explanation": "Boycotting parliamentary elections is only effective during active revolutionary uprisings; otherwise, parliament must be used as a public platform to educate workers.",
     "topics": [
+      "Ultra Leftism",
+      "Elections"
+    ]
+  },
+  {
+    "targetText": "Parliamentarianism is of course “politically obsolete” to the Communists in Germany; but; and that is the whole point; we must not regard what is obsolete to us as something obsolete to a class, to the masses.",
+    "summary": "Ultra-leftists mistake their own subjective revolutionary convictions for the objective readiness of the working masses.",
+    "explanation": "Lenin warns that just because the communist vanguard has seen through bourgeois parliamentarism does not mean millions of workers have; revolutionaries must work where the masses still have illusions in order to educate them.",
+    "topics": [
+      "Ultra Leftism",
       "Elections"
     ]
   },
   {
     "targetText": "Should Revolutionaries Work in Reactionary Trade Unions? | No Compromises?",
-    "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership."
+    "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
+    "topics": [
+      "Ultra Leftism"
+    ]
   }
 ]

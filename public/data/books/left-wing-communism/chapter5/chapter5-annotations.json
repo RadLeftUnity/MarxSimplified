@@ -5,12 +5,19 @@
   },
   {
     "targetText": "This should unite all workers who follow the slogan: ‘Get out of the trade unions!’ It is here that the militant proletariat musters its ranks for battle.",
-    "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located."
+    "summary": "Lenin refutes the ultra-left slogan 'Get out of the trade unions!' as sectarian isolation from the working masses.",
+    "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located.",
+    "topics": [
+      "Ultra Leftism",
+      "Trade Unionism"
+    ]
   },
   {
     "targetText": "Accordingly, all compromise with other parties, all reversion to parliamentary forms of struggle which have become historically and politically obsolete, and any policy of manoeuvring and compromise must be emphatically rejected.",
+    "summary": "Ultra-left dogmatism rejects all tactical maneuvering and parliamentary struggle on abstract principle.",
     "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
     "topics": [
+      "Ultra Leftism",
       "Elections"
     ]
   }

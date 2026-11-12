@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Loader2 } from 'lucide-react';
-import { fetchCachedTopicIndex, clearTopicCache } from '../utils/dataCache';
+import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Loader2, Link as LinkIcon, Check } from 'lucide-react';
+import { fetchCachedTopicIndex, clearTopicCache, getTopicSlug } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
 import { getAuthorImageUrl } from '../utils/authorImage';
@@ -13,6 +13,23 @@ interface TopicsProps {
   onSelectTopicTag?: (topic: string) => void;
 }
 
+function extractUrlTopicOrSlug(): string {
+  const pathname = window.location.pathname;
+  if (pathname.startsWith('/topics/') && pathname !== '/topics') {
+    return decodeURIComponent(pathname.split('/topics/')[1].split('/')[0]);
+  }
+  const params = new URLSearchParams(window.location.search);
+  return params.get('topic') || '';
+}
+
+function findMatchingGroup(groups: TopicGroup[], target: string | null | undefined): TopicGroup | undefined {
+  if (!target) return undefined;
+  const targetSlug = getTopicSlug(target);
+  return groups.find(
+    (g) => g.topic === target || (g.slug || getTopicSlug(g.topic)) === targetSlug
+  );
+}
+
 export const Topics: React.FC<TopicsProps> = ({
   initialTopic,
   onSelectAnnotationInReader,
@@ -21,6 +38,7 @@ export const Topics: React.FC<TopicsProps> = ({
   const [selectedTopic, setSelectedTopic] = useState<string | null>(initialTopic || null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(true);
+  const [copiedSlug, setCopiedSlug] = useState<string | null>(null);
 
   useEffect(() => {
     let isMounted = true;
@@ -32,10 +50,17 @@ export const Topics: React.FC<TopicsProps> = ({
         if (isMounted) {
           setTopicGroups(groups);
           if (groups.length > 0) {
-            if (initialTopic && groups.some((g) => g.topic === initialTopic)) {
-              setSelectedTopic(initialTopic);
-            } else if (!selectedTopic) {
-              setSelectedTopic(groups[0].topic);
+            const urlTarget = extractUrlTopicOrSlug();
+            const matched =
+              findMatchingGroup(groups, urlTarget) ||
+              findMatchingGroup(groups, initialTopic) ||
+              findMatchingGroup(groups, selectedTopic) ||
+              groups[0];
+
+            setSelectedTopic(matched.topic);
+            const activeSlug = matched.slug || getTopicSlug(matched.topic);
+            if (window.location.pathname.startsWith('/topics')) {
+              window.history.replaceState(null, '', `/topics/${activeSlug}`);
             }
           }
         }
@@ -52,6 +77,35 @@ export const Topics: React.FC<TopicsProps> = ({
       isMounted = false;
     };
   }, [initialTopic]);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      if (topicGroups.length === 0) return;
+      const urlTarget = extractUrlTopicOrSlug();
+      const matched = findMatchingGroup(topicGroups, urlTarget);
+      if (matched) {
+        setSelectedTopic(matched.topic);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [topicGroups]);
+
+  const handleSelectTopicCategory = (topic: string) => {
+    setSelectedTopic(topic);
+    const slug = getTopicSlug(topic);
+    window.history.pushState(null, '', `/topics/${slug}`);
+  };
+
+  const handleCopyTopicLink = (group: TopicGroup) => {
+    const slug = group.slug || getTopicSlug(group.topic);
+    const url = `${window.location.origin}/topics/${slug}`;
+    window.history.replaceState(null, '', `/topics/${slug}`);
+    navigator.clipboard.writeText(url);
+    setCopiedSlug(slug);
+    setTimeout(() => setCopiedSlug(null), 2500);
+  };
 
   const filteredGroups = useMemo(() => {
     if (!searchQuery.trim()) return topicGroups;
@@ -82,7 +136,7 @@ export const Topics: React.FC<TopicsProps> = ({
             <span>Theoretical Concepts</span>
           </div>
           <h1 className="topics-main-title">
-            Topics & <span className="title-highlight">Themes</span>
+            Topics and <span className="title-highlight">Themes</span>
           </h1>
           <p className="topics-subtitle">
             Explore annotations across all foundational texts organized by key Marxist concepts, economic theories, and political strategies.
@@ -133,12 +187,13 @@ export const Topics: React.FC<TopicsProps> = ({
             <nav className="topics-tag-list vertical-scroll">
               {filteredGroups.map((group) => {
                 const isActive = currentGroup?.topic === group.topic;
+                const slug = group.slug || getTopicSlug(group.topic);
                 return (
                   <button
                     key={group.topic}
-                    id={`topic-tag-btn-${group.topic.toLowerCase().replace(/\s+/g, '-')}`}
+                    id={`topic-tag-btn-${slug}`}
                     className={`topic-tag-item ${isActive ? 'active' : ''}`}
-                    onClick={() => setSelectedTopic(group.topic)}
+                    onClick={() => handleSelectTopicCategory(group.topic)}
                   >
                     <span className="tag-name">{group.topic}</span>
                     <span className="tag-count-badge">{group.count}</span>
@@ -152,13 +207,30 @@ export const Topics: React.FC<TopicsProps> = ({
           <main className="topics-content-area">
             {currentGroup ? (
               <div className="topic-group-detail">
-                <div className="topic-detail-banner glass-panel">
+                <div className="topic-detail-banner glass-panel" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.75rem' }}>
                   <div className="banner-left">
                     <h2 className="topic-title-active">{currentGroup.topic}</h2>
                     <span className="topic-count-summary">
                       {currentGroup.annotations.length} annotated passage{currentGroup.annotations.length !== 1 ? 's' : ''} across library
                     </span>
                   </div>
+                  <button
+                    className="read-in-book-btn"
+                    onClick={() => handleCopyTopicLink(currentGroup)}
+                    title={`Copy direct link to ${currentGroup.topic}`}
+                  >
+                    {copiedSlug === (currentGroup.slug || getTopicSlug(currentGroup.topic)) ? (
+                      <>
+                        <Check className="btn-arrow-icon" />
+                        <span>Copied Link</span>
+                      </>
+                    ) : (
+                      <>
+                        <LinkIcon className="btn-arrow-icon" />
+                        <span>Copy Topic Link</span>
+                      </>
+                    )}
+                  </button>
                 </div>
 
                 <div className="topic-annotations-grid">
@@ -204,7 +276,8 @@ export const Topics: React.FC<TopicsProps> = ({
                                     bookTitle: ref.bookTitle || 'Marxist Theory Reader',
                                     author: ref.bookAuthor || 'Karl Marx',
                                     targetText: ann.targetText,
-                                    explanation: ann.explanation || ann.summary || '',
+                                    summary: ann.summary || '',
+                                    explanation: ann.explanation || (ann as any).context || '',
                                     coverGradient: ref.coverGradient,
                                     authorImageUrl: authorImgUrl,
                                   })
@@ -252,7 +325,7 @@ export const Topics: React.FC<TopicsProps> = ({
                                 <span
                                   key={t}
                                   className={`topic-pill ${t === currentGroup.topic ? 'active' : ''}`}
-                                  onClick={() => setSelectedTopic(t)}
+                                  onClick={() => handleSelectTopicCategory(t)}
                                 >
                                   #{t}
                                 </span>

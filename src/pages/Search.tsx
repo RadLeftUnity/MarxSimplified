@@ -26,10 +26,13 @@ export interface SearchResultItem {
   matchText: string;
   annotationId?: string;
   explanation?: string;
+  context?: string;
+  topics?: string[];
 }
 
 interface SearchProps {
   initialQuery?: string;
+  initialTypeFilter?: 'all' | 'fulltext' | 'annotation' | 'summary';
   books: Book[];
   onSelectMatch: (bookId: string, chapterId: string, annotationId?: string, searchText?: string) => void;
   onBack: () => void;
@@ -85,6 +88,7 @@ function extractMatchSnippet(text: string, query: string, maxLength: number = 24
 
 export const Search: React.FC<SearchProps> = ({
   initialQuery = '',
+  initialTypeFilter = 'all',
   books,
   onSelectMatch,
   onBack,
@@ -97,7 +101,16 @@ export const Search: React.FC<SearchProps> = ({
 
   // Filters
   const [selectedBookFilter, setSelectedBookFilter] = useState<string>('all');
-  const [selectedTypeFilter, setSelectedTypeFilter] = useState<'all' | 'fulltext' | 'annotation' | 'summary'>('all');
+  const [selectedTypeFilter, setSelectedTypeFilter] = useState<'all' | 'fulltext' | 'annotation' | 'summary'>(initialTypeFilter);
+
+  useEffect(() => {
+    setInputValue(initialQuery);
+    setActiveQuery(initialQuery);
+  }, [initialQuery]);
+
+  useEffect(() => {
+    setSelectedTypeFilter(initialTypeFilter);
+  }, [initialTypeFilter]);
 
   // Trigger search execution
   const handleTriggerSearch = () => {
@@ -146,8 +159,18 @@ export const Search: React.FC<SearchProps> = ({
       if (selectedTypeFilter === 'all' || selectedTypeFilter === 'annotation') {
         ch.annotations.forEach((ann, idx) => {
           const targetStr = ann.targetText || '';
-          const explStr = ann.explanation || ann.summary || '';
-          if (matchesAnyVariant(targetStr, variants) || matchesAnyVariant(explStr, variants)) {
+          const summaryStr = ann.summary || '';
+          const explOnlyStr = ann.explanation || '';
+          const explStr = summaryStr || explOnlyStr;
+          const contextStr = ann.context || '';
+          const topicsStr = Array.isArray(ann.topics) ? ann.topics.join(' ') : '';
+          if (
+            matchesAnyVariant(targetStr, variants) ||
+            matchesAnyVariant(summaryStr, variants) ||
+            matchesAnyVariant(explOnlyStr, variants) ||
+            matchesAnyVariant(contextStr, variants) ||
+            matchesAnyVariant(topicsStr, variants)
+          ) {
             rawResults.push({
               id: `${ch.bookId}-${ch.chapterId}-ann-${idx}`,
               bookId: ch.bookId,
@@ -157,8 +180,10 @@ export const Search: React.FC<SearchProps> = ({
               chapterTitle: ch.chapterTitle,
               type: 'annotation',
               matchText: targetStr,
-              annotationId: ann.id,
+              annotationId: ann.id || `${ch.chapterId}-ann-${idx + 1}`,
               explanation: explStr,
+              context: contextStr,
+              topics: ann.topics,
             });
           }
         });
@@ -245,7 +270,7 @@ export const Search: React.FC<SearchProps> = ({
           <span className="hero-badge">
             <SearchIcon className="hero-badge-icon" /> Site-Wide Library Search
           </span>
-          <h2 className="hero-title">Universal Text &amp; Annotation Search</h2>
+          <h2 className="hero-title">Universal Text and Annotation Search</h2>
           <p className="hero-subtitle">
             Type your query and click out of the search box (or press Enter) to search across all works in the archive.
           </p>
@@ -313,7 +338,7 @@ export const Search: React.FC<SearchProps> = ({
             >
               <option value="all">All Content Types</option>
               <option value="fulltext">Full Text Passages</option>
-              <option value="annotation">Annotations & Concepts</option>
+              <option value="annotation">Annotations and Concepts</option>
               <option value="summary">Chapter Overviews</option>
             </select>
           </div>
@@ -406,6 +431,12 @@ export const Search: React.FC<SearchProps> = ({
                     <div className="result-annotation-explanation glass-panel">
                       <span className="explanation-label">Simplified Explanation:</span>
                       <FormattedText text={item.explanation} paragraphClassName="explanation-text" />
+                    </div>
+                  )}
+                  {item.context && (
+                    <div className="result-annotation-explanation glass-panel" style={{ marginTop: '8px' }}>
+                      <span className="explanation-label">Historical Context:</span>
+                      <FormattedText text={item.context} paragraphClassName="explanation-text" />
                     </div>
                   )}
                 </div>

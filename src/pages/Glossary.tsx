@@ -31,7 +31,7 @@ const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
 interface GlossaryProps {
   onBack?: () => void;
   previousViewLabel?: string;
-  onSearchTerm?: (pattern: string) => void;
+  onSearchTerm?: (pattern: string, filterType?: 'all' | 'fulltext' | 'annotation' | 'summary') => void;
 }
 
 export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, onSearchTerm }) => {
@@ -361,12 +361,21 @@ export const Glossary: React.FC<GlossaryProps> = ({ onBack, previousViewLabel, o
                             <div className="glossary-card-footer">
                               <button
                                 className="glossary-find-books-btn"
-                                onClick={() => onSearchTerm(item.pattern)}
+                                onClick={() => onSearchTerm(item.pattern, 'fulltext')}
                                 title={`Search all books for: ${item.pattern.split('|').join(', ')}`}
                                 id={`find-books-${slug}`}
                               >
                                 <BookOpen className="btn-small-icon" />
                                 <span>Find in Books</span>
+                              </button>
+                              <button
+                                className="glossary-find-books-btn glossary-find-annotations-btn"
+                                onClick={() => onSearchTerm(item.pattern, 'annotation')}
+                                title={`Search all annotations for: ${item.pattern.split('|').join(', ')}`}
+                                id={`find-annotations-${slug}`}
+                              >
+                                <Sparkles className="btn-small-icon" />
+                                <span>Find in Annotations</span>
                               </button>
                             </div>
                           )}

@@ -3,5 +3,27 @@
     "id": "das-kapital-vol-1-the-labour-process-and-the-process-of-producing-surplus-value-ann-1",
     "targetText": "The labour-process, turned into the process by which the capitalist\nconsumes labour-power, exhibits two characteristic phenomena. First, the\nlabourer works under the control of the capitalist to whom his labour belongs;\nthe capitalist taking good care that the work is done in a proper manner,\nand that the means of production are used with intelligence, so that there\nis no unnecessary waste of raw material, and no wear and tear of the implements\nbeyond what is necessarily caused by the work.",
     "explanation": "Under the capitalist labor process, the employer controls worker actions, owns the tools and raw materials, and claims full ownership of the final product."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter9-ext-2",
+    "targetText": "A spider conducts operations that resemble those of a weaver, and a bee puts to shame many an architect in the construction of her cells. But what distinguishes the worst architect from the best of bees is this, that the architect raises his structure in imagination before he erects it in reality.",
+    "summary": "Conscious human labour versus instinctual animal activity: the human architect plans in imagination before constructing in reality.",
+    "explanation": "Marx distinguishes human labour from instinctual animal work. Even the most complex web woven by a spider or honeycomb built by a bee occurs by biological instinct, whereas human labour is purposeful, creative, and guided by a conceptual plan conceived in advance.",
+    "context": "Part III, Chapter 7 (Section 1: The Labour-Process)",
+    "topics": [
+      "Dialectics and Philosophy",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter9-ext-3",
+    "targetText": "The fact that half a day's labour is necessary to keep the labourer alive during 24 hours, does not in any way prevent him from working a whole day. Therefore, the value of labour-power, and the value which that labour-power creates in the labour-process, are two entirely different magnitudes; and this difference of the two values was what the capitalist had in view, when he was purchasing the labour-power.",
+    "summary": "The origin of surplus-value: the difference between the value of labour-power and the new value created by working the full day.",
+    "explanation": "Here Marx solves the central riddle of capitalist exploitation. The worker needs only, say, 4 or 6 hours of labour to reproduce the value of daily wages. But the capitalist buys the capacity to work for the whole 8, 10, or 12 hour day. The excess hours constitute unpaid surplus labour, which crystallizes into surplus-value pocketed by the capitalist.",
+    "context": "Part III, Chapter 7 (Section 2: The Production of Surplus-Value)",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
   }
 ]

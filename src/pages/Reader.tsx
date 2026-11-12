@@ -79,8 +79,8 @@ export const Reader: React.FC<ReaderProps> = ({
         const params = new URLSearchParams(window.location.search);
         const pathParts = window.location.pathname.split('/').filter(Boolean);
         let urlAnn = params.get('ann');
-        if (!urlAnn && pathParts.length >= 3 && pathParts[0] === 'books') {
-          urlAnn = pathParts[2];
+        if (!urlAnn && pathParts.length >= 4 && pathParts[0] === 'books') {
+          urlAnn = pathParts[3];
         }
 
         if (urlAnn && bundle.annotations.some((a: Annotation) => a.id === urlAnn)) {
@@ -109,7 +109,7 @@ export const Reader: React.FC<ReaderProps> = ({
   useEffect(() => {
     if (loading) return;
     const pathParts = window.location.pathname.split('/').filter(Boolean);
-    const currentPathAnn = pathParts.length >= 3 && pathParts[0] === 'books' ? pathParts[2] : null;
+    const currentPathAnn = pathParts.length >= 4 && pathParts[0] === 'books' ? pathParts[3] : null;
 
     if (activeAnnotationId) {
       const cleanPath = `/books/${book.id}/${chapterId}/${activeAnnotationId}`;

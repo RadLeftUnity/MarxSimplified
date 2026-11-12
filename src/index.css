@@ -2233,13 +2233,15 @@ body {
   font-size: 11px;
 }
 
-/* Glossary Card: Find in Books footer button */
+/* Glossary Card: Find in Books and Find in Annotations footer buttons */
 .glossary-card-footer {
   border-top: 1px solid var(--border-subtle);
   padding-top: 14px;
   margin-top: 4px;
   display: flex;
   justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .glossary-find-books-btn {

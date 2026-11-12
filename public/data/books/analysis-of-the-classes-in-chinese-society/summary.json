@@ -1,0 +1,44 @@
+{
+  "id": "analysis-of-the-classes-in-chinese-society",
+  "title": "Analysis of the Classes in Chinese Society",
+  "author": "Mao Zedong",
+  "year": "1926",
+  "difficulty": "Easy-Medium",
+  "readingTime": "21 mins",
+  "coverColor": "#4e1a3b",
+  "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+  "subject": "Class Struggle",
+  "tags": [
+    "Class Struggle",
+    "Anti-Imperialism",
+    "Peasant Question",
+    "Maoism",
+    "Mao Zedong"
+  ],
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_1.htm",
+  "shortDescription": "Written in March 1926 as the opening essay of Volume I of the Selected Works of Mao Zedong, Analysis of the Classes in Chinese Society poses the famous strategic question: 'Who are our enemies? Who are our friends?' Written to combat both Chen Duxiu's Right opportunism and Zhang Guotao's 'Left' opportunism, Mao conducts a concrete materialist class analysis of semi-colonial, semi-feudal China, identifying the industrial proletariat as the leading force and the vast semi-proletarian peasantry as its closest revolutionary ally.",
+  "context": "Written in March 1926 during the First Revolutionary Civil War (1924 to 1927), Mao Zedong wrote this foundational text to oppose two deviations inside the Communist Party of China: Chen Duxiu's Right opportunism, which focused solely on bourgeois cooperation with the Kuomintang while ignoring the peasantry, and Zhang Guotao's 'Left' opportunism, which focused exclusively on urban trade unions while likewise neglecting the hundreds of millions of Chinese peasants.",
+  "relatesToToday": "Mao's concrete breakdown of the comprador bourgeoisie, the vacillating national bourgeoisie, the three strata of the petty bourgeoisie, the semi-proletariat, and the industrial and rural proletariat remains the classic model for analyzing class structures in Global South and neo-colonial nations today.",
+  "keyTakeaways": [
+    "Distinguishing real friends from real enemies through concrete materialist class analysis is the question of first importance for any revolutionary movement.",
+    "In semi-colonial, economically backward countries, the landlord and comprador classes are direct appendages of international imperialism and constitute the primary domestic enemies of the revolution.",
+    "The national (middle) bourgeoisie has a dual, vacillating character: oppressed by imperialism and warlords yet terrified of proletarian militancy, its dream of independent bourgeois rule is an illusion.",
+    "While the concentrated industrial proletariat is the leading vanguard force of the revolution, the vast semi-proletariat and poor peasantry form its staunchest and largest mass ally."
+  ],
+  "chapters": [
+    {
+      "id": "analysis-of-the-classes-in-chinese-society",
+      "title": "Analysis of the Classes in Chinese Society",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "notes",
+      "title": "Historical Notes",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    }
+  ]
+}

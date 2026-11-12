@@ -28,9 +28,9 @@ export const schoolsOfMarxismTerms: GlossaryTerm[] = [
   {
     "term": "Western Marxism",
     "pattern": "western marxism|western marxist|western marxists",
-    "definition": "A broad intellectual current of European Marxist theory (Georg Lukács, Antonio Gramsci, Frankfurt School, Louis Althusser, Jean-Paul Sartre) that emerged after the defeat of the 1919 revolutions and shifted emphasis from political economy and party organization toward philosophy, aesthetics, culture, ideology, and superstructural analysis.",
-    "misconception": "That Western Marxism simply means Marxism practiced in Western countries. It is a specific intellectual tradition characterized by its shift away from mass political organization and into academic philosophy and cultural theory.",
-    "example": "A university professor analyzing how television advertising constructs capitalist ideology rather than organizing workers in a trade union.",
+    "definition": "An academic intellectual current in Western Europe and North America (including the Frankfurt School, Louis Althusser, and Jean-Paul Sartre) that emerged after the defeat of the post-1917 Western European revolutions and retreated from Marxist political economy, working-class party organization, and state power into university philosophy, aesthetics, psychoanalysis, and cultural criticism. Western Marxism is widely critiqued by Marxist-Leninists for divorcing theory from working-class praxis while adopting a hostile posture toward actual socialist construction in the Soviet Union and the anti-colonial world.",
+    "misconception": "That Western Marxism simply means Marxism practiced in Western countries, or a more sophisticated version of Marxism. In reality, revolutionary communists in Western countries who organize workers and uphold Marxism-Leninism reject Western Marxism as an academic, defeatist revisionism that relocated socialism from the factory floor and party cell into university seminar rooms.",
+    "example": "A tenured university professor writing dense books on bourgeois aesthetics and pessimistic cultural theory while refusing to join a communist party or support real-world socialist states.",
     "theoryTags": ["Western Marxism", "Neo-Marxism"]
   },
   {
@@ -84,17 +84,17 @@ export const schoolsOfMarxismTerms: GlossaryTerm[] = [
   {
     "term": "Cultural Marxism",
     "pattern": "cultural marxism|cultural marxist|cultural marxists",
-    "definition": "In academic Marxist usage: a strand of critical theory (Frankfurt School, Gramsci, Stuart Hall) that analyzes how capitalist ideological hegemony is reproduced through culture, media, education, and everyday social practices. Note: the term has been weaponized as an antisemitic far-right conspiracy theory falsely claiming that Marxists deliberately plot to subvert 'Western culture.'",
-    "misconception": "The far-right conspiracy theory version of 'Cultural Marxism' is false and antisemitic, invented to smear academic critical theory by falsely associating it with a hidden Jewish cultural subversion agenda. Legitimate cultural Marxist analysis focuses on how ruling-class ideology is reproduced through mass media, education, and consumerism.",
-    "example": "Gramsci's analysis of how bourgeois newspapers, schools, and churches shape workers to accept capitalist inequality as natural common sense.",
+    "definition": "A term with two distinct uses: (1) an antisemitic far-right conspiracy theory falsely claiming that Frankfurt School theorists plotted to subvert 'Western civilization' through progressive social movements, and (2) in theoretical discussion, academic Neo-Marxist cultural studies that replaced materialist political economy and class struggle with the study of media, consumer identity, and cultural discourse.",
+    "misconception": "That 'Cultural Marxism' is what Karl Marx or revolutionary communists actually advocate. Far-right ideologues use the label to smear liberal corporate diversity programs as 'Marxist,' while Classical Marxists and Marxist-Leninists point out that retreating from workplace organizing and the struggle over the means of production into purely cultural commentary is a Neo-Marxist revision of scientific socialism.",
+    "example": "Academic cultural theorists treating media representation and consumer subcultures as the primary site of politics while ignoring ownership of industry, imperialism, and working-class organization.",
     "theoryTags": ["Western Marxism", "Neo-Marxism"]
   },
   {
     "term": "Frankfurt School Marxism",
     "pattern": "frankfurt school|frankfurt school marxism|critical theory school|institute for social research|critical theorist|critical theorists",
-    "definition": "A school of critical theory founded at the Institute for Social Research in Frankfurt (1923), including Max Horkheimer, Theodor Adorno, Herbert Marcuse, Walter Benjamin, and later Jürgen Habermas, which applied Marxist categories to analyze fascism, authoritarianism, mass culture, and the culture industry under advanced capitalism.",
-    "misconception": "That the Frankfurt School replaced Marxist class analysis with pure cultural criticism. The Frankfurt School maintained Marxist critique of capitalism but argued that the working class had been partially integrated by mass consumer culture, requiring new cultural and psychoanalytic tools of analysis.",
-    "example": "Adorno and Horkheimer's analysis of Hollywood film formulas standardizing popular taste to prevent genuine critical thinking and sustain passive consumerism.",
+    "definition": "An academic Neo-Marxist school founded at the Institute for Social Research in Frankfurt (1923), associated with Max Horkheimer, Theodor Adorno, Herbert Marcuse, and later Jürgen Habermas, that retreated from Marxist political economy, class struggle, and vanguard party organization into cultural criticism, Freudian psychoanalysis, and philosophical pessimism. Rather than organizing the working class to overthrow capitalism, the Frankfurt School declared the proletariat pacified by mass consumerism, remained hostile to actual socialist construction in the Soviet Union, and turned Marxism into a detached academic discipline safely housed within Western capitalist universities.",
+    "misconception": "That the Frankfurt School represents authentic revolutionary Marxism or an deepening of historical materialism. From a Classical Marxist and Marxist-Leninist standpoint, Frankfurt School Neo-Marxism is a revisionist academic retreat that substitutes idealist cultural commentary and psychological speculation for materialist class analysis, workplace organizing, and the struggle for proletarian state power.",
+    "example": "University theorists publishing dense philosophical critiques of Hollywood movies and consumer advertising while dismissing trade unions, revolutionary communist parties, and existing socialist states as 'authoritarian.'",
     "theoryTags": ["Western Marxism", "Neo-Marxism"]
   },
   {
@@ -130,6 +130,30 @@ export const schoolsOfMarxismTerms: GlossaryTerm[] = [
     "theoryTags": ["Left Communism", "Council Communism"]
   },
   {
+    "term": "Communist Workers' Party of Germany",
+    "pattern": "communist workers' party of germany|communist labour party|german communist labour party|kapd",
+    "definition": "Also known as the Communist Labour Party or KAPD (Kommunistische Arbeiter-Partei Deutschlands). A left-communist party founded in April 1920 after splitting from the Communist Party of Germany (KPD). The KAPD rejected parliamentary participation, refused to work inside traditional reformist trade unions, and opposed centralized Leninist party discipline in favor of factory organizations and workers' councils.",
+    "misconception": "That the KAPD was expelled simply for radicalism. While Lenin respected the revolutionary militancy of rank-and-file KAPD workers, he critiqued their leaders in 'Left-Wing Communism: An Infantile Disorder' and in his conversations with Clara Zetkin for substituting abstract dogmatic 'pure principle' for patient mass work among the majority of workers.",
+    "example": "Calling on militant workers to withdraw from mainstream trade unions and boycott elections, which isolated revolutionary workers from the broader working masses.",
+    "theoryTags": ["Left Communism", "Council Communism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Otzovism",
+    "pattern": "otzovism|otzovist|otzovists|recallism|recallist|recallists",
+    "definition": "Also known as Recallism. An ultra-left faction within the Bolshevik Party (led by Alexander Bogdanov, Anatoly Lunacharsky, and Mikhail Pokrovsky) that emerged after the defeat of the 1905 Russian Revolution. The Otzovists demanded the immediate recall of Bolshevik deputies from the reactionary Tsarist State Duma and rejected all legal and parliamentary forms of struggle.",
+    "misconception": "That boycotting a reactionary parliament is always the most revolutionary stance. Lenin fought the Otzovists as 'liquidators from the left,' demonstrating that during a period of counter-revolutionary retreat, revolutionaries must combine illegal underground work with legal platforms like the Duma to agitate and educate the working masses.",
+    "example": "Demanding that socialist representatives resign from a reactionary legislature during a lull in mass struggle, thereby surrendering a legal megaphone to reach millions of workers.",
+    "theoryTags": ["Marxism-Leninism", "Left Communism"]
+  },
+  {
+    "term": "Left Socialist-Revolutionaries",
+    "pattern": "left socialist-revolutionaries|left socialist-revolutionary|left socialist revolutionaries|left srs|left sr",
+    "definition": "A petty-bourgeois populist party in Russia that split from the main Socialist-Revolutionary Party in late 1917 and briefly entered a coalition government with the Bolsheviks. In March 1918, the Left Socialist-Revolutionaries resigned from the Soviet government in opposition to the Treaty of Brest-Litovsk, opposed state grain monopolies and accounting, and launched an armed uprising against Bolshevik rule in July 1918.",
+    "misconception": "That the Left Socialist-Revolutionaries were consistent proletarian revolutionaries. Lenin analyzed them as the classic expression of frenzied petty-bourgeois radicalism: vacillating wildly between ultra-left calls for 'revolutionary war' against Germany and defense of small-proprietor grain speculation against socialist state control.",
+    "example": "Assassinating the German ambassador Count Mirbach in July 1918 in a failed attempt to provoke a renewed war between Germany and Soviet Russia.",
+    "theoryTags": ["Marxism-Leninism"]
+  },
+  {
     "term": "Eurocommunism",
     "pattern": "eurocommunism|eurocommunist|eurocommunists|eurocommunist parties|historic compromise|berlinguer|carrillo|marchais",
     "definition": "A political tendency of Western European communist parties (notably the Italian PCI under Enrico Berlinguer, the Spanish PCE under Santiago Carrillo, and the French PCF under Georges Marchais) in the 1970s to 1980s, which argued that socialism in advanced capitalist democracies should be achieved through parliamentary coalition government, full respect for bourgeois democratic institutions, ideological independence from the Soviet Union, and an alliance with social democratic and centrist forces rather than through vanguard party organization and revolutionary rupture.",
@@ -148,9 +172,9 @@ export const schoolsOfMarxismTerms: GlossaryTerm[] = [
   {
     "term": "Situationism",
     "pattern": "situationism|situationist|situationists|situationist international|debord|guy debord|derive|détournement",
-    "definition": "A revolutionary current of the Situationist International (Guy Debord, Raoul Vaneigem, 1957 to 1972) combining Marxist political economy with avant-garde art and cultural critique, analyzing advanced capitalism's transformation of all lived experience into 'the Spectacle' of alienated images, and proposing radical cultural and political subversion through 'dérive' and 'détournement.'",
-    "misconception": "That Situationism is merely an artistic or cultural movement. The Situationist International was a revolutionary political organization that produced sharp economic and political analyses, directly influenced the 1968 student and worker uprisings in France, and developed the theory of the Spectacle as the most advanced critique of consumer capitalist alienation.",
-    "example": "Subverting a corporate advertisement billboard by altering its text to reveal the exploitative working conditions behind the product being sold.",
+    "definition": "A Neo-Marxist and avant-garde artistic current of the Situationist International (Guy Debord, Raoul Vaneigem, 1957 to 1972) that analyzed advanced capitalism primarily as 'the Spectacle' of alienated consumer images and proposed cultural subversion ('dérive' and 'détournement') alongside spontaneous councilism while harshly rejecting Leninist vanguard parties and existing socialist states.",
+    "misconception": "That Situationism offers a viable revolutionary strategy for overthrowing capitalism. While influential among 1968 student radicals in France, Marxist-Leninists critique Situationism as an aestheticized petty-bourgeois ultra-leftism that substituted artistic provocation and spontaneous street gestures for disciplined working-class organization and the seizure of state power.",
+    "example": "Altering corporate advertising slogans as an avant-garde political prank while denouncing organized communist parties and trade unions as part of 'the Spectacle.'",
     "theoryTags": ["Situationism", "Western Marxism", "Neo-Marxism"]
   },
   {
@@ -180,9 +204,9 @@ export const schoolsOfMarxismTerms: GlossaryTerm[] = [
   {
     "term": "Althusserianism",
     "pattern": "althusserianism|althusserian|althusserians|louis althusser",
-    "definition": "The theoretical school associated with French philosopher Louis Althusser (1918 to 1990), combining Spinozist philosophy with Marxism to argue for a structural 'symptomatic reading' of Marx, an 'epistemological break' between the young 'humanist' Marx and the mature 'scientific' Marx, and the theory of Ideological State Apparatuses reproducing capitalist social relations.",
-    "misconception": "That Althusser simply updated Marxism with structuralism as a neutral philosophical tool. His critics (E.P. Thompson, Raymond Williams) argued that Althusserian structuralism evacuated history, class agency, and human experience from Marxist theory, replacing them with an abstract theoretical machinery disconnected from real class struggles.",
-    "example": "Analyzing how university admissions criteria, grading standards, and academic credentials function as an Ideological State Apparatus selecting and reproducing workers suitable for different positions in the capitalist division of labor.",
+    "definition": "The French academic Neo-Marxist school associated with Louis Althusser (1918 to 1990), which merged structuralist philosophy with Marxism to posit a rigid 'epistemological break' in Marx's writings, replace concrete historical materialism with abstract structural levels, and treat human beings as passive bearers of Ideological State Apparatuses.",
+    "misconception": "That Althusserianism rescued scientific Marxism from humanism. Critics from both Classical Marxist and Marxist-Leninist perspectives point out that Althusser's structuralism stripped Marxism of historical agency, class struggle, and practical revolutionary politics, turning it into a sterile university methodology that paved the way for post-structuralism and postmodernism.",
+    "example": "Writing abstract academic treatises on 'structural causality' and 'ideological interpellation' in a Paris university while remaining detached from actual working-class struggles.",
     "theoryTags": ["Western Marxism", "Neo-Marxism"]
   },
   {

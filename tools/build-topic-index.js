@@ -101,23 +101,55 @@ const TOPIC_RULES = [
     name: 'Religion',
     pattern: /religion|religious|atheis|clerical|church|parson|god-building|opium of the people/i,
   },
+  {
+    name: 'Fascism Analysis',
+    pattern: /fascis[mt]|mussolini|blackshirts?|bonapartis[mt]|white terror|united front against fascism/i,
+  },
+  {
+    name: 'Racial Equality',
+    pattern: /white skin|black skin|hunting of black-skins|negro slave|all races without any distinctions|racial equality|extirpation,\s*enslavement/i,
+  },
+  {
+    name: 'Ultra Leftism',
+    pattern: /ultra-left|infantile disorder|otzovist|recallist|boycotting parliamentary|abandon conservative trade unions|no compromises|communist labour party|blanquist/i,
+  },
+  {
+    name: 'Idealism',
+    pattern: /idealis[mt]|speculative philosophy|hegelian|metaphysical|critical criticism|eternal truths/i,
+  },
 ];
+
+const CATEGORY_MAP = JSON.parse(
+  fs.readFileSync(path.join(workspaceRoot, 'src', 'data', 'topicCategories.json'), 'utf8')
+);
+
+function canonicalTopic(name) {
+  if (CATEGORY_MAP[name]) return CATEGORY_MAP[name];
+  return String(name).replace(/\s*&\s*/g, ' and ');
+}
 
 function inferTopicsForAnnotation(ann, textContent) {
   const inferred = new Set();
 
   if (Array.isArray(ann.topics) && ann.topics.length > 0) {
-    ann.topics.forEach((t) => inferred.add(t));
+    ann.topics.forEach((t) => inferred.add(canonicalTopic(t)));
   }
 
   for (const rule of TOPIC_RULES) {
     const textToTest = rule.excludePattern ? textContent.replace(rule.excludePattern, '') : textContent;
     if (rule.pattern.test(textToTest)) {
-      inferred.add(rule.name);
+      inferred.add(canonicalTopic(rule.name));
     }
   }
 
   return Array.from(inferred);
+}
+
+function getTopicSlug(topic) {
+  return String(topic)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
 }
 
 export function buildTopicIndex() {
@@ -192,6 +224,7 @@ export function buildTopicIndex() {
   const topicGroups = Array.from(topicMap.entries())
     .map(([topic, annotations]) => ({
       topic,
+      slug: getTopicSlug(topic),
       count: annotations.length,
       annotations
     }))

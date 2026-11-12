@@ -1,10 +1,14 @@
 [
   {
-    "targetText": "By a social contract of a quite original kind.",
-    "explanation": "Key theoretical concept in The Modern Theory of Colonisation: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
-  },
-  {
-    "targetText": "In certain circumstances\nhe becomes a slave.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "id": "das-kapital-vol-1-chapter35-ann-1",
+    "targetText": "He discovered that capital is not a thing, but a social relation between persons, established by the instrumentality of things. [4] Mr. Peel, he moans, took with him from England to Swan River, West Australia, means of subsistence and of production to the amount of &pound;50,000. Mr. Peel had the foresight to bring with him, besides, 300 persons of the working class, men, women, and children. Once arrived at his destination, \"Mr. Peel was left without a servant to make his bed or fetch him water from the river.",
+    "summary": "Capital is a social relation, not a thing: Wakefield discovery that means of production are useless to capital without propertyless wage-workers.",
+    "explanation": "Marx recounts Edward Gibbon Wakefield observation in Australia: Mr. Peel brought machinery, seeds, and 3,000 workers to the Swan River colony, but the workers immediately dispersed to claim free land of their own, leaving Peel stranded without servants. This demonstrated that money and machines only function as capital when workers are structurally deprived of independent access to land and tools.",
+    "context": "Part VIII, Chapter 33: The Modern Theory of Colonisation",
+    "topics": [
+      "Political Economy",
+      "Historical Materialism",
+      "Imperialism and Colonialism"
+    ]
   }
 ]

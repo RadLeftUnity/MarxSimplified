@@ -13,5 +13,39 @@
     "topics": [
       "The State"
     ]
+  },
+  {
+    "id": "gotha-programme-chapter5-ext-3",
+    "targetText": "It is by no means the aim of the workers, who have got rid of the narrow mentality of humble subjects, to set the state free.",
+    "summary": "The goal of workers is not to make the state free but to subordinate it to society.",
+    "explanation": "Marx mocks the demand for a 'free state'. In an empire that is almost as unfree as Russia, freedom consists in converting the state from an organ standing above society into one completely subordinate to it.",
+    "context": "The passage feeds into the later theory of the workers' state and its eventual withering away.",
+    "topics": [
+      "The State and Dictatorship of the Proletariat",
+      "Democracy and Elections"
+    ]
+  },
+  {
+    "id": "gotha-programme-chapter5-ext-4",
+    "targetText": "Everyone should be able to attend his religious as well as his bodily needs without the police sticking their noses in.",
+    "summary": "Marx wants religion treated as a private matter that the state leaves alone, not as an official party doctrine.",
+    "explanation": "Writing during the Kulturkampf, Marx says liberal 'freedom of conscience' should simply mean freedom from police interference in matters of belief, while the workers' party should show it wants to free conscience from religious delusion.",
+    "context": "Lenin used this passage to argue that religion is a private matter as far as the state is concerned, but not as far as the party is concerned.",
+    "topics": [
+      "Religion",
+      "Democracy and Elections"
+    ]
+  },
+  {
+    "id": "gotha-programme-chapter5-ext-5",
+    "targetText": "Its political demands contain nothing beyond the old democratic litany familiar to all: universal suffrage, direct legislation, popular rights, a people's militia, etc.",
+    "summary": "The programme's political demands are just the standard bourgeois democratic demands, with no analysis of the transition to communism.",
+    "explanation": "Marx criticises the draft for ignoring the revolutionary transformation between capitalism and communism. Universal suffrage, direct legislation and a militia are old liberal slogans that do not address the question of what kind of state the proletariat needs.",
+    "context": "The critique stresses that between capitalist and communist society lies a political transition period in which the state can be nothing but the revolutionary dictatorship of the proletariat.",
+    "topics": [
+      "Democracy and Elections",
+      "The State and Dictatorship of the Proletariat",
+      "Reform and Revisionism"
+    ]
   }
 ]

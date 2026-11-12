@@ -8,7 +8,7 @@ export const franceData: CountryData = {
   flagUrl: '/images/flags/france.svg',
   coverImage: '/images/history/france.jpg',
   category: 'global-north',
-  era: '1789 – Present',
+  era: '1789 to Present',
   capital: 'Paris',
   keyLeaders: ['Maximilien Robespierre', 'Gracchus Babeuf', 'Louis-Auguste Blanqui', 'Louise Michel', 'Charles de Gaulle'],
   governingParty: "Renaissance",
@@ -16,21 +16,21 @@ export const franceData: CountryData = {
   isHistoricState: false,
   
   officialGovUrl: 'https://www.gouvernement.fr/en',
-  overviewText: `France occupies a legendary position in revolutionary history as the laboratory of class struggle, the birthplace of the 1871 Paris Commune—the world's first dictatorship of the proletariat—and a major global imperialist power.
+  overviewText: `France occupies a legendary position in revolutionary history as the laboratory of class struggle, the birthplace of the 1871 Paris Commune (the world's first dictatorship of the proletariat), and a major global imperialist power.
 
-The Great French Revolution of 1789 shattered feudal absolutism, elevating the bourgeoisie to power while giving rise to Gracchus Babeuf's 1796 Conspiracy of the Equals, recognized by Marx as the first modern communist vanguard organization. In March 1871, working-class Parisians seized power and established the Paris Commune for 72 heroic days. The Commune abolished the standing army, replaced it with armed workers, capped official salaries at average worker wages, and collectivized abandoned factories—providing Karl Marx and V.I. Lenin with the concrete model for the socialist state (*The Civil War in France* and *The State and Revolution*).
+The Great French Revolution of 1789 shattered feudal absolutism, elevating the bourgeoisie to power while giving rise to Gracchus Babeuf's 1796 Conspiracy of the Equals, recognized by Marx as the first modern communist vanguard organization. In March 1871, working-class Parisians seized power and established the Paris Commune for 72 heroic days. The Commune abolished the standing army, replaced it with armed workers, capped official salaries at average worker wages, and collectivized abandoned factories, providing Karl Marx and V.I. Lenin with the concrete model for the socialist state (*The Civil War in France* and *The State and Revolution*).
 
-In the 20th century, France constructed a vast colonial empire across West Africa and Indochina. Following devastating defeats in Vietnam (Dien Bien Phu, 1954) and Algeria (1962), French capital restructured its empire through neocolonial financial mechanisms like the CFA franc. Domestically, France maintains a militant working-class tradition, demonstrated by the May 1968 general strike of 10 million workers and contemporary mass strikes against neoliberal pension cuts.`,
+In the 20th century, France constructed a vast colonial empire across West Africa and Indochina. Following devastating defeats in Vietnam (Dien Bien Phu, 1954) and Algeria (1962), French capital restructured its empire through neocolonial financial mechanisms like the CFA franc. Domestically, France maintains a militant working-class tradition, demonstrated by the May 1968 general strike of 10 million workers and the 2023 to 2026 wave of mass general strikes, youth blockades, and anti-colonial uprisings in Kanaky (New Caledonia) against President Emmanuel Macron's neoliberal austerity regime.`,
 
   contradictions: [
-    "President Emmanuel Macron pushed through pension age increases and labor deregulation despite mass general strikes led by the CGT trade union, demonstrating the priority of capital accumulation over worker rights.",
-    "Known as Francafrique, relied on the CFA franc currency and military deployments to extract gold and uranium until recent anti-colonial revolutions in Mali, Burkina Faso, and Niger.",
-    "Right-wing political factions and media networks promote anti-Muslim and anti-immigrant legislation to fracture working-class unity and suppress suburban worker resistance.",
-    "French state energy monopolies depend on foreign mineral extraction while enforcing domestic price hikes on working-class households."
+    "President Emmanuel Macron pushed through pension age increases, public service cuts, and unpopular minority governments despite the left-wing New Popular Front winning the most seats in the 2024 snap elections, sparking nationwide strikes and blockades.",
+    "Known as Francafrique, French imperialism relied on the CFA franc currency and military deployments to extract gold and uranium until anti-colonial governments in Mali, Burkina Faso, and Niger expelled French troops, while indigenous Kanak protesters rose up against French colonial rule in New Caledonia (Kanaky) in 2024.",
+    "Right-wing political factions and billionaire-owned media networks promote anti-Muslim and anti-immigrant legislation to fracture working-class unity and suppress suburban worker resistance.",
+    "French state energy and industrial monopolies extract super-profits abroad while enforcing domestic utility price hikes and school and hospital budget cuts on working-class households."
   ],
 
   quickFacts: [
-    { label: 'World\'s First Workers\' State', value: 'Paris Commune (1871) for 72 days abolished standing army & set worker wages [1]' },
+    { label: 'World\'s First Workers\' State', value: 'Paris Commune (1871) for 72 days abolished standing army and set worker wages [1]' },
     { label: 'Largest European Strike', value: 'May 1968 general strike mobilized 10 million workers (two-thirds of workforce) [2]' },
     { label: 'Haitian Slave Liberation', value: '1791 Haitian Revolution defeated Napoleon\'s imperial army to win freedom [3]' },
     { label: 'Neocolonial Currency Control', value: 'CFA Franc mechanism controls reserves of 14 African sovereign nations [4]' },
@@ -39,20 +39,20 @@ In the 20th century, France constructed a vast colonial empire across West Afric
   timeline: [
     {
       id: 'france-1789-babeuf',
-      title: '1. 1789 – 1799: The Great French Revolution, Jacobin Radicalism & Babeuf\'s Conspiracy',
-      period: '1789 – 1799',
+      title: '1. 1789 to 1799: The Great French Revolution, Jacobin Radicalism and Babeuf\'s Conspiracy',
+      period: '1789 to 1799',
       categoryTag: 'revolution',
       summary: 'Storming of the Bastille in 1789; Jacobin radical phase; Gracchus Babeuf founds Conspiracy of Equals (1796).',
       details: `The 1789 French Revolution destroyed feudalism in continental Europe. Driven forward by the urban working poor (Sans-culottes), the radical Jacobin government led by Maximilien Robespierre executed King Louis XVI and mobilized mass defense against counter-revolutionary European monarchies.
 
-Following the bourgeois Thermidorian reaction in 1794, Gracchus Babeuf and Sylvain Maréchal organized the 1796 "Conspiracy of the Equals"—advocating the abolition of private property and collective agrarian production. Marx identified Babeuf's movement as the historical origin of modern communist organization. [1]`,
+Following the bourgeois Thermidorian reaction in 1794, Gracchus Babeuf and Sylvain Maréchal organized the 1796 "Conspiracy of the Equals," advocating the abolition of private property and collective agrarian production. Marx identified Babeuf's movement as the historical origin of modern communist organization. [1]`,
       keyFigures: ['Maximilien Robespierre', 'Jean-Paul Marat', 'Gracchus Babeuf'],
       citationIds: [1],
     },
     {
       id: 'france-haiti-1848',
-      title: '2. 1804 – 1848: Haitian Revolution Victory, Empire & The 1848 June Days Uprising',
-      period: '1804 – 1848',
+      title: '2. 1804 to 1848: Haitian Revolution Victory, Empire and The 1848 June Days Uprising',
+      period: '1804 to 1848',
       categoryTag: 'challenges',
       summary: 'Haitian slave revolution defeats Napoleon (1804); 1848 June Days working-class insurrection in Paris.',
       details: `In Saint-Domingue (Haiti), enslaved Africans led by Toussaint Louverture and Jean-Jacques Dessalines launched the 1791 Haitian Revolution, defeating Napoleon Bonaparte's imperial expeditionary force in 1804 to establish the world's first free Black republic.
@@ -69,14 +69,14 @@ In June 1848, Paris workers rose in armed insurrection after the bourgeois gover
       summary: 'March 18, 1871 seizure of power; Communards establish 72-day working-class government under Red Flag.',
       details: `Following France's humiliating defeat in the Franco-Prussian War, Paris workers refused to disarm. On March 18, 1871, the National Guard and working women stopped government troops from seizing their cannons, driving Adolphe Thiers' reactionary government to Versailles.
 
-The Paris Commune was proclaimed on March 28 under the Red Flag. Over 72 days, the Commune implemented revolutionary democracy: replacing the standing army with armed workers, capping elected representative salaries at average worker pay, revoking recallable mandates, separating church and state, turning abandoned factories over to worker co-operatives, and banning night work for bakers. Marx hailed the Commune as "the political form at last discovered under which to work out the economical emancipation of labor." [1]`,
+The Paris Commune was proclaimed on March 28 under the Red Flag. Over 72 days, the Commune implemented revolutionary democracy: replacing the standing army with armed workers, capping elected representative salaries at average worker pay, enforcing recallable mandates, separating church and state, turning abandoned factories over to worker co-operatives, and banning night work for bakers. Marx hailed the Commune as "the political form at last discovered under which to work out the economical emancipation of labor." [1]`,
       keyFigures: ['Louise Michel', 'Eugène Varlin', 'Leo Frankel', 'Jarosław Dąbrowski'],
       citationIds: [1],
     },
     {
       id: 'france-semaine-sanglante',
-      title: '4. 1871 – 1914: The Bloody Week (Semaine Sanglante), Syndicalism & Imperial Expansion',
-      period: '1871 – 1914',
+      title: '4. 1871 to 1914: The Bloody Week (Semaine Sanglante), Syndicalism and Imperial Expansion',
+      period: '1871 to 1914',
       categoryTag: 'challenges',
       summary: 'Versailles army massacres 30,000 Communards in May 1871; growth of revolutionary syndicalism (CGT); African conquests.',
       details: `In May 1871, Versailles troops backed by Bismarck invaded Paris during "The Bloody Week" (Semaine Sanglante), executing over 30,000 Communard men, women, and children and deporting thousands more to New Caledonia penal colonies.
@@ -87,8 +87,8 @@ Despite severe repression, French workers rebuilt their movement, founding the G
     },
     {
       id: 'france-wwi-pcf',
-      title: '5. 1914 – 1935: WWI Imperialist Slaughter, Founding of the PCF (1920) & Colonial Rule',
-      period: '1914 – 1935',
+      title: '5. 1914 to 1935: WWI Imperialist Slaughter, Founding of the PCF (1920) and Colonial Rule',
+      period: '1914 to 1935',
       categoryTag: 'challenges',
       summary: 'WWI imperialist war kills 1.4M French soldiers; 1920 Congress of Tours founds French Communist Party (PCF).',
       details: `World War I resulted in 1.4 million French military deaths and widespread devastation across northern France. In December 1920, at the Congress of Tours, the majority of the socialist party voted to join Lenin's Communist International (Comintern), founding the French Communist Party (PCF).
@@ -99,10 +99,10 @@ The PCF actively organized against French imperialist wars, including the 1925 R
     },
     {
       id: 'france-popular-front-resistance',
-      title: '6. 1936 – 1944: The 1936 Popular Front, Anti-Fascist Resistance (FTP/Maquis) & WWII Liberation',
-      period: '1936 – 1944',
+      title: '6. 1936 to 1944: The 1936 Popular Front, Anti-Fascist Resistance (FTP/Maquis) and WWII Liberation',
+      period: '1936 to 1944',
       categoryTag: 'successes',
-      summary: '1936 Popular Front general strike wins paid vacation & 40-hour week; PCF leads armed WWII anti-fascist resistance.',
+      summary: '1936 Popular Front general strike wins paid vacation and 40-hour week; PCF leads armed WWII anti-fascist resistance.',
       details: `In May 1936, the victory of the anti-fascist Popular Front electoral alliance triggered a massive spontaneous general strike of 2 million workers occupying factories. The strikes forced employers to sign the Matignon Accords, securing paid annual vacation, a 40-hour workweek, and wage increases.
 
 Following the 1940 Nazi invasion and the establishment of the collaborationist Vichy regime, the PCF organized the Francs-Tireurs et Partisans (FTP) communist resistance networks, playing a decisive role in the liberation of Paris in August 1944. [2][4]`,
@@ -111,10 +111,10 @@ Following the 1940 Nazi invasion and the establishment of the collaborationist V
     },
     {
       id: 'france-colonial-wars',
-      title: '7. 1945 – 1962: Imperial Wars of Reconquest: Defeats in Indochina & Algeria',
-      period: '1945 – 1962',
+      title: '7. 1945 to 1962: Imperial Wars of Reconquest: Defeats in Indochina and Algeria',
+      period: '1945 to 1962',
       categoryTag: 'challenges',
-      summary: 'French military defeated at Dien Bien Phu (1954); Algerian War of Independence (1954-1962); fall of Fourth Republic.',
+      summary: 'French military defeated at Dien Bien Phu (1954); Algerian War of Independence (1954 to 1962); fall of Fourth Republic.',
       details: `Following WWII, French imperial capital attempted to reconquer its Asian and African colonies by force. In Vietnam, the anti-imperialist Viet Minh led by Ho Chi Minh inflicted a catastrophic defeat on French forces at Dien Bien Phu in May 1954.
 
 In Algeria, the National Liberation Front (FLN) launched an armed revolution in November 1954. The French military deployed torture, internment camps, and extrajudicial executions, killing over 1 million Algerians. The crisis brought down the French Fourth Republic, returning General Charles de Gaulle to power to negotiate the 1962 Évian Accords granting Algerian independence. [3][4]`,
@@ -123,11 +123,11 @@ In Algeria, the National Liberation Front (FLN) launched an armed revolution in 
     },
     {
       id: 'france-may-1968',
-      title: '8. 1968: May 1968: Worker-Student Uprising & 10-Million Strong General Strike',
+      title: '8. 1968: May 1968: Worker-Student Uprising and 10-Million Strong General Strike',
       period: '1968',
       categoryTag: 'revolution',
       summary: 'Student protests spark spontaneous general strike of 10 million workers; factory occupations shut down France.',
-      details: `In May 1968, police repression of student demonstrations in Paris sparked a revolutionary explosion. Workers across France spontaneously occupied factories, red flags were raised over factories, railways, and shipyards, and 10 million workers joined the general strike—the largest general strike in European history.
+      details: `In May 1968, police repression of student demonstrations in Paris sparked a revolutionary explosion. Workers across France spontaneously occupied factories, red flags were raised over factories, railways, and shipyards, and 10 million workers joined the general strike, the largest general strike in European history.
 
 The uprising brought de Gaulle's government to the brink of collapse, forcing the ruling class to sign the Grenelle Accords, granting a 35% increase in the minimum wage before the reformist trade union leadership negotiated an end to factory occupations. [2]`,
       keyFigures: ['Daniel Cohn-Bendit', 'Georges Séguy'],
@@ -135,8 +135,8 @@ The uprising brought de Gaulle's government to the brink of collapse, forcing th
     },
     {
       id: 'france-mitterrand-neocolonialism',
-      title: '9. 1981 – 2000s: Mitterrand\'s Austerity Pivot, Neoliberal Restructuring & CFA Franc Control',
-      period: '1981 – 2000s',
+      title: '9. 1981 to 2017: Mitterrand\'s Austerity Pivot, Neoliberal Restructuring and CFA Franc Control',
+      period: '1981 to 2017',
       categoryTag: 'challenges',
       summary: '1981 Mitterrand election; 1983 austerity pivot (Tournant de la rigueur); CFA franc neocolonial monetary dominance.',
       details: `Elected in 1981 on a radical socialist platform, François Mitterrand initially nationalized banks and major industrial groups. However, under flight-of-capital pressure by international finance, Mitterrand executed the 1983 "Tournant de la rigueur" (Austerity Pivot), adopting neoliberal deregulation and privatization.
@@ -147,14 +147,26 @@ Internationally, France maintained its neocolonial grip over 14 West and Central
     },
     {
       id: 'france-gilets-jaunes-sahel',
-      title: '10. 2018 – Present: Yellow Vests (Gilets Jaunes), Pension Reform Strikes & Anti-Colonial Sahel Revolt',
-      period: '2018 – Present',
+      title: '10. 2018 to 2023: Yellow Vests (Gilets Jaunes), Pension Reform Strikes and Anti-Colonial Sahel Revolt',
+      period: '2018 to 2023',
       categoryTag: 'challenges',
       summary: '2018 Gilets Jaunes working-class uprising; 2023 pension reform general strikes; Sahel anti-colonial expulsion.',
-      details: `In November 2018, fuel tax increases sparked the Yellow Vests (Gilets Jaunes) working-class movement, with weekly protests occupying roundabouts and battling militarized police across France. In 2023, President Emmanuel Macron bypassed parliament to raise the retirement age, triggering massive multi-million worker general strikes.
+      details: `In November 2018, regressive fuel tax increases alongside tax cuts for the ultra-wealthy sparked the Yellow Vests (Gilets Jaunes) working-class movement, with weekly protests occupying roundabouts and battling militarized police across France. In early 2023, President Emmanuel Macron invoked Article 49.3 of the Constitution to bypass a parliamentary vote and raise the national retirement age from 62 to 64, triggering months of multi-million worker general strikes led by the CGT.
 
-Internationally, anti-colonial military governments in Mali, Burkina Faso, and Niger expelled French military forces and revoked colonial mining concessions, marking the historic collapse of French neocolonial "Françafrique" dominance in the Sahel. [2][4]`,
-      keyFigures: ['Emmanuel Macron', 'Jean-Luc Mélenchon'],
+Internationally, anti-colonial military governments in Mali, Burkina Faso, and Niger (united in the Alliance of Sahel States) expelled French military forces and revoked colonial uranium and gold mining concessions, marking the historic collapse of French neocolonial "Françafrique" dominance in the Sahel. [2][4]`,
+      keyFigures: ['Emmanuel Macron', 'Jean-Luc Mélenchon', 'Sophie Binet (CGT Leader)'],
+      citationIds: [2, 4],
+    },
+    {
+      id: 'france-2024-present-kanaky-nfp-austerity-strikes',
+      title: '11. 2024 to Present: Kanaky Uprising, Snap Election Crisis and Mass Anti-Austerity Strikes',
+      period: '2024 to Present',
+      categoryTag: 'challenges',
+      summary: 'May 2024 Kanaky anti-colonial revolt; Macron blocks New Popular Front election victory; 2025 to 2026 general strikes.',
+      details: `In May 2024, an anti-colonial uprising erupted in the French Pacific territory of New Caledonia (Kanaky) after Paris moved to unfreeze electoral rolls to dilute the indigenous Kanak independence vote. Macron declared a state of emergency and deployed thousands of military and police forces, resulting in over a dozen deaths and mass arrests of Kanak independence activists.
+
+In June 2024, Macron dissolved the National Assembly and called snap legislative elections. The left-wing New Popular Front (NFP) coalition, uniting La France Insoumise (LFI), the French Communist Party (PCF), Greens, and Socialists, won the largest bloc of parliamentary seats on a program of repealing the pension age hike and taxing super-profits. Macron refused to appoint an NFP prime minister, instead installing conservative Michel Barnier in September 2024 and triggering mass "denial of democracy" street demonstrations. After Barnier's government was toppled in a historic December 2024 no-confidence vote over austerity cuts, successor cabinets under François Bayrou and Sébastien Lecornu attempted to force through €40 billion to €60 billion in public spending cuts. Throughout 2025 and 2026, a convergence of CGT trade union general strikes, farmers' highway blockades, high school and university occupations, and grassroots "Bloquons tout" (Block Everything) mobilizations paralyzed French transport and cities against austerity, school and hospital decay, and soaring living costs, confronting deployments of over 70,000 riot police. [2][4]`,
+      keyFigures: ['Emmanuel Macron', 'Jean-Luc Mélenchon', 'Fabien Roussel (PCF)', 'Michel Barnier', 'François Bayrou'],
       citationIds: [2, 4],
     },
   ],
@@ -184,7 +196,7 @@ Internationally, anti-colonial military governments in Mali, Burkina Faso, and N
     {
       id: 4,
       label: 'A History of the French Communist Party',
-      publisher: 'Edward Mortimer / Faber & Faber',
+      publisher: 'Edward Mortimer / Faber and Faber',
       year: '1984',
       excerpt: 'Comprehensive study of the PCF from its 1920 founding through the Popular Front, anti-fascist Resistance, and post-war struggles.',
     },

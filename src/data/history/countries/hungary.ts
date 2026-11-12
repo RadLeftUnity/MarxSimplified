@@ -8,7 +8,7 @@ export const hungaryData: CountryData = {
   flagUrl: '/images/flags/hungary.svg',
   coverImage: '/images/history/hungary.jpg',
   category: 'global-south',
-  era: '1949 – Present',
+  era: '1949 to Present',
   capital: 'Budapest',
   keyLeaders: ['Mátyás Rákosi', 'Imre Nagy', 'János Kádár', 'József Antall', 'Gyula Horn', 'Viktor Orbán'],
   governingParty: 'Fidesz Coalition',
@@ -20,7 +20,7 @@ export const hungaryData: CountryData = {
 
 Following the 1956 armed crisis, General Secretary János Kádár established "Goulash Communism" (Gulyáskommunizmus), prioritizing elevated consumer living standards, voluntary agricultural co-ops, and vibrant retail availability. In 1968, Hungary introduced the New Economic Mechanism (NEM), expanding enterprise decentralization. However, to maintain consumer subsidies during the 1970s OPEC oil shocks, Hungary borrowed heavily in Western hard currencies. In 1982, Hungary joined the IMF to service its $20 billion Western debts, leading to IMF structural adjustments and the 1989 capitalist restoration.
 
-Following the 1989 transition, modern Hungary underwent rapid privatization under IMF guidance. State manufacturing powerhouses (including the Ikarus bus factory and Csepel industrial works) were liquidated or sold off to Western conglomerates. Hungary joined NATO in 1999 and the EU in 2004. Under Prime Minister Viktor Orbán since 2010, Hungary operates an illiberal right-wing state model combining flat taxes and corporate incentives for foreign automotive assembly plants (Audi, Mercedes, BYD) with conservative nationalism.`,
+Following the 1989 transition, modern Hungary underwent rapid privatization under IMF guidance. State manufacturing powerhouses (including the Ikarus bus factory and Csepel industrial works) were liquidated or sold off to Western conglomerates. Hungary joined NATO in 1999 and the EU in 2004. Under Prime Minister Viktor Orbán since 2010, Hungary operates an illiberal right-wing state model combining flat taxes, "Slave Law" overtime deregulation, and corporate incentives for foreign automotive assembly plants (Audi, Mercedes, BMW, BYD, CATL) with conservative nationalism, sparking major teachers' strikes, anti-battery plant protests, and mass Budapest demonstrations in 2024 to 2026.`,
 
   contradictions: [
     "Hungary introduced the New Economic Mechanism (NEM) in 1968, expanding enterprise self-financing and market incentives. While boosting consumer retail goods, it introduced domestic income inequality and created severe Western hard-currency debt dependency.",
@@ -30,8 +30,8 @@ Following the 1989 transition, modern Hungary underwent rapid privatization unde
   ],
 
   quickFacts: [
-    { label: 'Goulash Communism Model', value: 'High consumer living standards, Ikarus bus manufacturing & universal social security [1]' },
-    { label: '1968 New Economic Mechanism', value: 'Decentralized planning introducing market incentives & private agricultural co-op plots [2]' },
+    { label: 'Goulash Communism Model', value: 'High consumer living standards, Ikarus bus manufacturing, and universal social security [1]' },
+    { label: '1968 New Economic Mechanism', value: 'Decentralized planning introducing market incentives and private agricultural co-op plots [2]' },
     { label: '1982 IMF Debt Accession', value: 'Accumulated $20B+ Western debt, leading to 1982 IMF entry and structural adjustment [3]' },
     { label: 'Post-1990 De-Industrialization', value: 'Privatized state industries, turning economy into foreign auto assembly subcontracting hub [4]' },
   ],
@@ -39,18 +39,18 @@ Following the 1989 transition, modern Hungary underwent rapid privatization unde
   timeline: [
     {
       id: 'hungary-1949-postwar-reconstruction-rakosi',
-      title: '1. 1949 – 1955: Post-War Reconstruction and Industrialization under Rákosi',
-      period: '1949 – 1955',
+      title: '1. 1949 to 1955: Post-War Reconstruction and Industrialization under Rákosi',
+      period: '1949 to 1955',
       categoryTag: 'revolution',
       summary: 'Proclamation of the People\'s Republic; land reform abolishing feudal estates; building Sztálinváros.',
       details: `In August 1949, the Hungarian People's Republic was officially proclaimed under Mátyás Rákosi and the Hungarian Working People's Party (MDP). The state executed comprehensive agrarian reform, redistributing 3.2 million hectares of feudal landlord estates to 640,000 peasant families.
 
-Under the First Five-Year Plan (1950–1954), Hungary industrialized rapidly, building Dunai Vasmű (Danube Iron Works) and the industrial socialist city of Sztálinváros (Dunaújváros). However, excessive industrial target rigidity and forced agricultural requisitions created serious economic tension. [1]`
+Under the First Five-Year Plan (1950 to 1954), Hungary industrialized rapidly, building Dunai Vasmű (Danube Iron Works) and the industrial socialist city of Sztálinváros (Dunaújváros). However, excessive industrial target rigidity and forced agricultural requisitions created serious economic tension. [1]`
     },
     {
       id: 'hungary-1956-crisis-kadar-goulash-communism',
-      title: '2. 1956 – 1967: The 1956 Crisis and The Rise of "Goulash Communism"',
-      period: '1956 – 1967',
+      title: '2. 1956 to 1967: The 1956 Crisis and The Rise of "Goulash Communism"',
+      period: '1956 to 1967',
       categoryTag: 'policies',
       summary: 'October 1956 armed uprising; Soviet intervention; János Kádár\'s consumer-focused socialist model.',
       details: `In October 1956, mass peaceful demonstrations demanding democratic reforms turned violent as right-wing anti-communist insurgents and CIA-backed Radio Free Europe broadcasts pushed for NATO alignment. As documented by Herbert Aptheker (*The Truth About Hungary*), armed anti-communist groups launched violent pogroms against state workers before Soviet forces intervened in November 1956 to stabilize the state.
@@ -59,8 +59,8 @@ János Kádár assumed leadership of the Hungarian Socialist Workers' Party (MSZ
     },
     {
       id: 'hungary-1968-nem-western-debt-imf',
-      title: '3. 1968 – 1982: The New Economic Mechanism and The Western Hard-Currency Debt Trap',
-      period: '1968 – 1982',
+      title: '3. 1968 to 1982: The New Economic Mechanism and The Western Hard-Currency Debt Trap',
+      period: '1968 to 1982',
       categoryTag: 'challenges',
       summary: '1968 NEM market reforms; borrowing $20B from Western banks; 1982 IMF accession.',
       details: `In 1968, Hungary launched the New Economic Mechanism (NEM), replacing detailed central plan directives with enterprise self-financing, flexible pricing, and profit incentives. Hungary became Comecon's premier bus exporter (Ikarus buses) and food producer.
@@ -69,8 +69,8 @@ However, to fund NEM consumer imports during the 1970s OPEC oil shocks, Hungary 
     },
     {
       id: 'hungary-1989-border-opening-capitalist-transition',
-      title: '4. 1989 – 1990: Border Opening, Multi-Party Transition and Capitalist Restoration',
-      period: '1989 – 1990',
+      title: '4. 1989 to 1990: Border Opening, Multi-Party Transition and Capitalist Restoration',
+      period: '1989 to 1990',
       categoryTag: 'collapse-or-transition',
       summary: 'May 1989 opening of the Austrian border; Round Table talks; dismantling the People\'s Republic.',
       details: `By 1988, IMF-mandated spending cuts and debt interest payments caused domestic living standard declines. In May 1989, Hungary removed border fences with Austria.
@@ -79,19 +79,21 @@ In October 1989, the MSZMP dissolved itself, and multi-party elections in 1990 b
     },
     {
       id: 'hungary-1999-nato-2004-eu-integration',
-      title: '5. 1999 – 2004: NATO Accession and European Union Integration',
-      period: '1999 – 2004',
+      title: '5. 1999 to 2004: NATO Accession and European Union Integration',
+      period: '1999 to 2004',
       categoryTag: 'policies',
       summary: 'Joining NATO in March 1999; entering EU in May 2004; expanding foreign auto assembly.',
       details: `Hungary joined NATO in March 1999, providing airbase logistics for NATO military operations in the Balkans. In May 2004, Hungary entered the European Union, facilitating Western European corporate acquisition of retail and manufacturing sectors. [3][4]`
     },
     {
       id: 'hungary-present-orban-era-automotive-subcontracting',
-      title: '6. Present: Viktor Orbán Era and Foreign Automotive Subcontracting',
-      period: 'Present',
-      categoryTag: 'policies',
-      summary: 'Fidesz governance; 15% flat tax; foreign German and Chinese automotive battery factory investments.',
-      details: `Under Viktor Orbán and Fidesz, Hungary has enforced a 15% flat income tax and 9% corporate tax rate to attract German automakers (Audi, Mercedes) and Chinese electric vehicle battery manufacturers (CATL, BYD), creating an economy dependent on foreign export assembly. [3][4]`
+      title: '6. 2010 to Present: Viktor Orbán Era, Foreign Auto Subcontracting and 2024 to 2026 Mass Protests',
+      period: '2010 to Present',
+      categoryTag: 'challenges',
+      summary: 'Fidesz flat tax and "Slave Law" overtime rules; teachers\' strikes; Feb 2024 presidential resignation and 2024 to 2026 mass Budapest protests.',
+      details: `Under Viktor Orbán and Fidesz since 2010, Hungary has enforced Europe's lowest corporate tax rate (9 percent), a 15 percent flat income tax, and the 2018 overtime deregulation law (dubbed the "Slave Law" by Hungarian trade unions, allowing employers to demand up to 400 hours of overtime per year) to serve German automakers (Audi, Mercedes-Benz, BMW) and Asian electric vehicle and battery giants (CATL in Debrecen and BYD in Szeged).
+
+While multinational corporations receive billions in state subsidies, chronic underfunding of public services and the 2023 "Status Law" (which stripped teachers of public servant status and restricted strike rights) provoked nationwide teachers' and students' demonstrations across Budapest. In February 2024, a presidential pardon scandal forced the resignation of President Katalin Novák and former Justice Minister Judit Varga, triggering massive demonstrations of over 100,000 protesters at Kossuth Square in Budapest in spring 2024. Throughout 2024 to 2026, Hungarian automotive workers at Audi in Győr and Suzuki, healthcare staff, and local communities in Debrecen and Göd organized strikes and demonstrations over cumulative inflation, hospital ward closures, and industrial groundwater contamination. [3][4]`
     },
   ],
 

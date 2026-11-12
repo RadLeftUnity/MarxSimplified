@@ -13,5 +13,50 @@
     "topics": [
       "The State"
     ]
+  },
+  {
+    "id": "communist-manifesto-chapter3-ext-3",
+    "targetText": "The history of all hitherto existing society(2) is the history of class struggles.",
+    "summary": "All recorded history is driven by struggle between oppressor and oppressed classes, not by great individuals or ideas.",
+    "explanation": "This is the opening thesis of the Manifesto and the core of historical materialism: freeman and slave, lord and serf, guild-master and journeyman all stood in open or hidden conflict, and each epoch ended either in revolutionary reconstruction of society or in the common ruin of the contending classes.",
+    "context": "Marx and Engels did not claim class struggle was a new discovery; they argued that it explains the transitions between modes of production and that capitalism simplifies society into two great camps.",
+    "topics": [
+      "Class Struggle",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter3-ext-4",
+    "targetText": "The bourgeoisie, historically, has played a most revolutionary part.",
+    "summary": "Capitalism destroyed feudal ties and transformed production on a world scale, which is why Marx treats it as a progressive but temporary stage.",
+    "explanation": "Far from being a simple denunciation of capitalism, the Manifesto praises its historical achievements: it swept away feudal, patriarchal relations and created productive forces larger than all previous generations combined. That same dynamism creates the conditions for its own overthrow.",
+    "context": "This is the basis of the Marxist view that socialism grows out of the contradictions of developed capitalism rather than replacing a pre-capitalist society directly.",
+    "topics": [
+      "Historical Materialism",
+      "Political Economy"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter3-ext-5",
+    "targetText": "What the bourgeoisie therefore produces, above all, are its own grave-diggers. Its fall and the victory of the proletariat are equally inevitable.",
+    "summary": "By building large industry and a concentrated working class, capitalism creates the force that will overthrow it.",
+    "explanation": "The proletariat is not an outside enemy of capitalism but its own product. Factory production gathers workers together, organises them and teaches them to act collectively, so the growth of capital is simultaneously the growth of its grave-diggers.",
+    "context": "Later Marxists such as Lenin and Luxemburg used this passage to argue that organisation and political consciousness, not spontaneous misery alone, turn the working class into a revolutionary force.",
+    "topics": [
+      "Class Struggle",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter3-ext-6",
+    "targetText": "Law, morality, religion, are to him so many bourgeois prejudices, behind which lurk in ambush just as many bourgeois interests.",
+    "summary": "For the modern worker, law, morality and religion are not neutral truths but disguises for the interests of the ruling class.",
+    "explanation": "Marx and Engels describe how wage labour strips the worker of illusions: daily experience shows that bourgeois law protects property, bourgeois morality excuses exploitation, and religion often sanctifies the existing order.",
+    "context": "This is an early statement of the Marxist theory of ideology, which later became central to analyses of religion and the superstructure.",
+    "topics": [
+      "Religion",
+      "Class Struggle",
+      "Historical Materialism"
+    ]
   }
 ]

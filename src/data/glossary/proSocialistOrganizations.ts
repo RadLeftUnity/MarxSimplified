@@ -120,5 +120,53 @@ export const proSocialistOrganizationTerms: GlossaryTerm[] = [
     "misconception": "Believing the Warsaw Pact initiated military confrontation in Europe, ignoring that it was created six years after NATO as a defensive response to Western rearmament.",
     "example": "Socialist states combining military command structures to deter potential imperialist military incursions along their borders.",
     "theoryTags": ["Marxism-Leninism"]
+  },
+  {
+    "term": "New Popular Front",
+    "pattern": "new popular front|nouveau front populaire|nfp",
+    "definition": "Also known as the Nouveau Front Populaire (NFP). A French left-wing electoral alliance formed in June 2024 uniting La France Insoumise (LFI), the French Communist Party (PCF), the Socialist Party, and the Ecologists on a shared program to block the far-right National Rally, repeal Emmanuel Macron's retirement age increase, and tax corporate super-profits.",
+    "misconception": "That winning the most parliamentary seats automatically grants governing power in a bourgeois republic. Despite the NFP winning the largest bloc of seats in the July 2024 snap elections, President Macron refused to appoint an NFP government and instead installed right-wing minority prime ministers to continue austerity.",
+    "example": "Left-wing parties withdrawing competing candidates in runoff elections to defeat far-right contenders and win a parliamentary plurality.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "All-Workers Militant Front",
+    "pattern": "all-workers militant front|pame",
+    "definition": "Also known by its Greek acronym PAME (Panergatiko Agonistiko Metopo). The militant class-oriented trade union coordination center in Greece founded in 1999 by unionists affiliated with the Communist Party of Greece (KKE), rejecting class collaboration and organizing nationwide general strikes against EU austerity, privatization, and NATO war logistics.",
+    "misconception": "That trade unions must limit themselves to narrow workplace negotiations. PAME combines militant industrial strikes over wages and the six-day workweek with political blockades against privatized railway neglect (such as the Tempi train disaster) and imperialist arms shipments.",
+    "example": "Dockworkers and railway unions shutting down Greek ports and train lines during a 24-hour general strike while blocking NATO munitions convoys.",
+    "theoryTags": ["Marxism-Leninism", "Classical Marxism"]
+  },
+  {
+    "term": "Communist Party of Spain",
+    "pattern": "communist party of spain|partido comunista de españa|pce",
+    "definition": "Also known as the Partido Comunista de España (PCE). Founded in 1921, the PCE led the anti-fascist defense of the Second Spanish Republic during the 1936 to 1939 Spanish Civil War under José Díaz and Dolores Ibárruri ('La Pasionaria') and organized decades of underground guerrilla and labor resistance against Francisco Franco's fascist dictatorship.",
+    "misconception": "That the Spanish Republic was defended solely by spontaneous militias. The PCE organized the disciplined Fifth Regiment and worked with Soviet military advisors and the Comintern's International Brigades to build the Republican People's Army that held Madrid for nearly three years.",
+    "example": "Underground communist cadres organizing clandestine workplace strikes and printing illegal anti-fascist newspapers under threat of execution during Franco's dictatorship.",
+    "theoryTags": ["Marxism-Leninism", "Classical Marxism"]
+  },
+  {
+    "term": "Workers' Commissions",
+    "pattern": "workers' commissions|comisiones obreras|ccoo",
+    "definition": "Also known as Comisiones Obreras (CCOO). The Spanish trade union confederation originally organized in the 1960s by Communist Party of Spain (PCE) militants led by Marcelino Camacho as clandestine workplace committees that infiltrated and paralyzed Francoist vertical syndicates through illegal strikes before becoming Spain's largest union confederation.",
+    "misconception": "That labor organizing is impossible under open fascist repression. The Workers' Commissions combined illegal shop-floor strikes with clever use of legal workplace delegate elections to build a mass working-class movement inside Francoist Spain.",
+    "example": "Asturian coal miners and Madrid metalworkers electing underground strike committees to coordinate nationwide walkouts against the Franco regime.",
+    "theoryTags": ["Marxism-Leninism", "Classical Marxism"]
+  },
+  {
+    "term": "Italian General Confederation of Labour",
+    "pattern": "italian general confederation of labour|confederazione generale italiana del lavoro|cgil|unione sindacale di base|usb",
+    "definition": "Italy's largest trade union confederation (Confederazione Generale Italiana del Lavoro, CGIL), historically linked to the Italian Communist and Socialist parties, alongside militant grassroots unions such as the Unione Sindacale di Base (USB), which organize national general strikes in defense of wages, workplace safety, and constitutional rights.",
+    "misconception": "That Italian labor militancy ended after the 1970s. Between 2024 and 2026, CGIL and USB mobilized hundreds of thousands of workers in repeated national general strikes against Giorgia Meloni's austerity budgets, the DDL 1660 anti-protest law, and weapons shipments.",
+    "example": "Metalworkers, transport employees, and dockworkers staging a coordinated 24-hour national general strike across Italian cities against austerity and anti-strike legislation.",
+    "theoryTags": ["Classical Marxism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Korean Confederation of Trade Unions",
+    "pattern": "korean confederation of trade unions|kctu|minjunochong",
+    "definition": "Also known as Minjunochong (KCTU). The militant democratic trade union federation in South Korea founded in 1995 out of the underground labor struggles against US-backed military dictatorships and Chaebol monopoly conglomerates, representing over one million industrial, transport, and public-sector workers.",
+    "misconception": "That South Korea's economic growth benefitted workers peacefully. The KCTU has faced decades of police raids and imprisonment of its leaders while organizing general strikes against IMF austerity, 69-hour workweek proposals, and Yoon Suk-yeol's December 2024 martial law coup.",
+    "example": "Unionized autoworkers, truckers, and rail workers launching an indefinite general strike and marching on the National Assembly in Seoul to overturn a presidential martial law decree.",
+    "theoryTags": ["Classical Marxism", "Anti-Colonial Socialism"]
   }
 ];

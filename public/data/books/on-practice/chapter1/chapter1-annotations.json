@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ann-on-practice-two-characteristics",
+    "targetText": "The Marxist philosophy of dialectical materialism has two outstanding characteristics. One is its class nature: it openly avows that dialectical materialism is in the service of the proletariat. The other is its practicality: it emphasizes the dependence of theory on practice, emphasizes that theory is based on practice and in turn serves practice.",
+    "summary": "Marxist dialectical materialism is defined by two core features: its open class allegiance to the working class, and its practical foundation where theory arises from and guides practice.",
+    "explanation": "Unlike bourgeois academic philosophy, which pretends to stand neutrally above classes while defending capitalist social relations, Marxist dialectical materialism openly declares its partisan class standpoint on behalf of the working class and insists that philosophical truth is measured by its practical capacity to emancipate humanity.",
+    "context": "Western Neo-Marxist academic departments deliberately severed Marxist theory from working-class political organization, turning it into neutral university seminar commentary divorced from practical struggle.",
+    "topics": ["Dialectics", "Class Struggle", "Idealism", "Maoism"]
+  },
+  {
+    "id": "ann-on-practice-pear-taste",
+    "targetText": "If you want knowledge, you must take part in the practice of changing reality. If you want to know the taste of a pear, you must change the pear by eating it yourself.",
+    "summary": "Genuine knowledge cannot be gained by passive observation; you can only discover the true nature of reality by actively participating in changing it.",
+    "explanation": "Using one of his most famous everyday metaphors, Mao illustrates the materialist principle that genuine knowledge cannot be gained through passive contemplation or armchair speculation; one can only uncover the internal properties and laws of an object by actively interacting with and transforming it.",
+    "context": "Labor organizers cannot understand the concrete contradictions of a workplace merely by reading sociological reports; they uncover the real power dynamics only by organizing alongside workers on the shop floor.",
+    "topics": ["Dialectics", "Idealism", "Maoism"]
+  },
+  {
+    "id": "ann-on-practice-idealism-rationalism",
+    "targetText": "Anyone who thinks that rational knowledge need not be derived from perceptual knowledge is an idealist. In the history of philosophy there is the \"rationalist\" school that admits the reality only of reason and not of experience, believing that reason alone is reliable while perceptual experience is not; this school errs by turning things upside down.",
+    "summary": "Theories and rational concepts do not drop from the sky; they must be grounded in direct practical experience and concrete investigation, or else they fall into philosophical idealism.",
+    "explanation": "Mao critiques philosophical idealism and dogmatic rationalism for treating abstract concepts as self-generated truths independent of material sense experience. Without concrete investigation of material conditions, abstract theories become 'water without a source, a tree without roots.'",
+    "context": "Dogmatic sectarians who attempt to apply memorized formulas from another century without investigating current economic data or working-class conditions fall into idealist rationalism.",
+    "topics": ["Idealism", "Dialectics", "Maoism"]
+  },
+  {
+    "id": "ann-on-practice-left-phrase-mongering",
+    "targetText": "We are also opposed to \"Left\" phrase-mongering. The thinking of \"Leftists\" outstrips a given stage of development of the objective process; some regard their fantasies as truth, while others strain to realize in the present an ideal which can only be realized in the future. They alienate themselves from the current practice of the majority of the people and from the realities of the day, and show themselves adventurist in their actions.",
+    "summary": "Ultra-leftism detaches revolutionary desires from current material conditions and mass consciousness, mistaking wishful fantasies for immediate reality and leading to reckless adventurism.",
+    "explanation": "Mao provides a sharp epistemological diagnosis of ultra-leftism: whereas Right opportunists lag behind objective reality, ultra-leftists detach their subjective desires from the actual material stage of development and the consciousness of the masses, substituting revolutionary-sounding slogans and reckless adventurism for patient mass organization.",
+    "context": "Small ultra-left sects that reject united-front coalitions or trade union struggles because those struggles do not immediately abolish capitalism isolate themselves from the working class.",
+    "topics": ["Ultra Leftism", "Idealism", "Party Strategy", "Maoism"]
+  },
+  {
+    "id": "ann-on-practice-endless-cycle",
+    "targetText": "Discover the truth through practice, and again through practice verify and develop the truth. Start from perceptual knowledge and actively develop it into rational knowledge; then start from rational knowledge and actively guide revolutionary practice to change both the subjective and the objective world. Practice, knowledge, again practice, and again knowledge.",
+    "summary": "Human knowledge develops in an endless upward spiral: starting from practical experience, rising to rational theory, and returning to revolutionary practice to test and deepen truth.",
+    "explanation": "Mao's concluding synthesis encapsulates the entire Marxist-Leninist theory of knowledge. Truth is not a static dogma achieved once and for all, but a continuous, upward-spiraling cycle in which practical struggle generates theoretical insight, and theoretical insight guides higher levels of revolutionary practice.",
+    "context": "In socialist economic planning and community organizing, policies are formulated from concrete surveys, tested in pilot programs, evaluated against real-world outcomes, and refined for broader implementation.",
+    "topics": ["Dialectics", "Maoism", "Party Strategy"]
+  }
+]

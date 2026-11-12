@@ -64,7 +64,12 @@ async function fetchPage(url) {
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: status ${res.status}`);
   }
-  return await res.text();
+  const buffer = await res.arrayBuffer();
+  try {
+    return new TextDecoder('utf-8', { fatal: true }).decode(buffer);
+  } catch {
+    return new TextDecoder('windows-1252').decode(buffer);
+  }
 }
 
 async function main() {

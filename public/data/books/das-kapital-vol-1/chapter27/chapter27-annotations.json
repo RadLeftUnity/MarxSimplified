@@ -3,5 +3,38 @@
     "id": "das-kapital-vol-1-the-general-law-of-capitalist-accumulation-ann-1",
     "targetText": "Section 3 - Progressive Production of a Relative surplus\npopulation or Industrial Reserve Army",
     "explanation": "Marx introduces the \"Industrial Reserve Army\". As capitalists automate to cut costs, displaced workers form a pool of unemployed labor that keeps wages low."
+  },
+  {
+    "id": "das-kapital-vol-1-chapter27-ext-2",
+    "targetText": "To express this, I call the value composition of capital, in so far as it is determined by its technical composition and mirrors the changes of the latter, the organic composition of capital.",
+    "summary": "The organic composition of capital: the relationship between constant capital (means of production) and variable capital (labour-power).",
+    "explanation": "Marx defines the organic composition of capital (c:v) as the value ratio of constant capital (machinery and raw materials) to variable capital (wages), mirroring the technical ratio of physical means of production to living workers. Over time, accumulation tends to raise the organic composition as dead machinery outstrips living labour.",
+    "context": "Part VII, Chapter 25: The General Law of Capitalist Accumulation (Section 1)",
+    "topics": [
+      "Political Economy"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter27-ext-3",
+    "targetText": "It forms a disposable industrial reserve army, that belongs to capital quite as absolutely as if the latter had bred it at its own cost. Independently of the limits of the actual increase of population, it creates, for the changing needs of the self-expansion of capital, a mass of human material always ready for exploitation.",
+    "summary": "The industrial reserve army: capitalism necessarily creates and requires a pool of unemployed workers to regulate wages and discipline labour.",
+    "explanation": "Unemployment is not an accidental market imperfection, but a systemic necessity for capitalist accumulation. The industrial reserve army provides an elastic reservoir of disposable labour that expands during boom times, contracts during crises, and holds down wage demands through competitive desperation.",
+    "context": "Part VII, Chapter 25: The General Law of Capitalist Accumulation (Section 3)",
+    "topics": [
+      "Political Economy",
+      "Class Struggle"
+    ]
+  },
+  {
+    "id": "das-kapital-vol-1-chapter27-ext-4",
+    "targetText": "Accumulation of wealth at one pole is, therefore, at the same time accumulation of misery, agony of toil slavery, ignorance, brutality, mental degradation, at the opposite pole, i.e., on the side of the class that produces its own product in the form of capital.",
+    "summary": "The absolute general law of capitalist accumulation: polarization of wealth at one pole and misery, toil, and degradation at the other.",
+    "explanation": "Marx formulates the culminating contradiction of capitalist accumulation. The more social wealth and capital expand, the deeper the relative misery, insecurity, and subordination inflicted upon the working class whose collective labour generates that very wealth.",
+    "context": "Part VII, Chapter 25: The General Law of Capitalist Accumulation (Section 4)",
+    "topics": [
+      "Political Economy",
+      "Class Struggle",
+      "Historical Materialism"
+    ]
   }
 ]

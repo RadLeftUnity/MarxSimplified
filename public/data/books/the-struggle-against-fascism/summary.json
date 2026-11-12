@@ -1,0 +1,34 @@
+{
+  "id": "the-struggle-against-fascism",
+  "title": "Fascism",
+  "author": "Clara Zetkin",
+  "year": "1923",
+  "difficulty": "Medium",
+  "readingTime": "19 mins",
+  "coverGradient": "linear-gradient(135deg, #801336 0%, #2b0010 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/zetkin/1923/08/fascism.htm",
+  "subject": "Fascism Analysis",
+  "tags": [
+    "Fascism Analysis",
+    "Class Struggle",
+    "United Front",
+    "Clara Zetkin"
+  ],
+  "context": "Published in Labour Monthly in August 1923 following her landmark June 1923 address to the Enlarged Executive Committee of the Communist International, Fascism is Clara Zetkin's foundational materialist analysis of the rise of Italian and German fascism. Written less than a year after Mussolini's March on Rome, Zetkin dissects how decaying capitalism and social-democratic betrayal enabled fascism to mobilize ruined petty-bourgeois layers and disillusioned workers behind pseudo-revolutionary demagogy while serving heavy industry and finance capital.",
+  "relatesToToday": "Provides an indispensable framework for understanding how modern far-right movements weaponize economic despair and anti-establishment rhetoric while enacting corporate tax cuts, union-busting, and austerity once in power. Zetkin shows why fascism cannot be defeated through passive parliamentary appeals alone, requiring both ideological outreach to ruined middle and rural strata and a united working-class front of organized self-defense.",
+  "keyTakeaways": [
+    "Fascism is not a sign of capitalist strength, but a symptom of capitalist economic decay, bourgeois state dissolution, and the betrayal of socialist revolution by reformist leaders.",
+    "Unlike narrow military dictatorships, fascism builds a mass base among ruined petty-bourgeois strata and disillusioned workers using pseudo-revolutionary anti-capitalist demagogy.",
+    "Once in power, fascism immediately betrays its social promises to the masses, smashing unions, slashing wages by up to 60 percent, privatizing state enterprises, and abolishing taxes on big capital.",
+    "Overthrowing fascism requires winning over ruined intellectual and peasant strata through the struggle for a Workers' and Peasants' Government, combined with a proletarian United Front and organized workplace self-defense."
+  ],
+  "chapters": [
+    {
+      "id": "fascism-august-1923",
+      "title": "Fascism (August 1923)",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

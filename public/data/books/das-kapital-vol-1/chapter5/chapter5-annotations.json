@@ -1,10 +1,22 @@
 [
   {
-    "targetText": "But suppose\nhis product turn out a real use-value, and thereby attracts money?",
-    "explanation": "Key theoretical concept in Money, or the Circulation of Commodities: Marxists analyze how structural economic conditions determine political and social relations under capitalism."
+    "id": "das-kapital-vol-1-chapter5-ann-1",
+    "targetText": "The first chief function of money is to supply commodities with the material for the expression of their values, or to represent their values as magnitudes of the same denomination, qualitatively equal, and quantitatively comparable. It thus serves as a universal measure of value. And only by virtue of this function does gold, the equivalent commodity par excellence, become money. It is not money that renders commodities commensurable. Just the contrary. It is because all commodities, as values, are realised human labour, and therefore commensurable, that their values can be measured by one and the same special commodity, and the latter be converted into the common measure of their values, i.e., into money.",
+    "summary": "Money as the universal measure of value: commodities are commensurable because they are products of abstract human labour.",
+    "explanation": "Money does not magically create value or render goods exchangeable. Rather, because all commodities already embody socially necessary abstract human labour, their values can be expressed through a single universal equivalent commodity.",
+    "context": "Part I, Chapter 3: Money, or the Circulation of Commodities (Section 1)",
+    "topics": [
+      "Political Economy"
+    ]
   },
   {
-    "targetText": "If the foreign trade,\nforced upon Japan by Europeans, should lead to the substitution of money\nrents for rents in kind, it will be all up with the exemplary agriculture\nof that country.",
-    "explanation": "Modern relevance: understanding these underlying systemic dynamics helps clarify contemporary economic policies and labor movements."
+    "id": "das-kapital-vol-1-chapter5-ann-2",
+    "targetText": "No one can sell unless some one else purchases. But no one is forthwith bound to purchase, because he has just sold. Circulation bursts through all restrictions as to time, place, and individuals, imposed by direct barter, and this it effects by splitting up, into the antithesis of a sale and a purchase, the direct identity that in barter does exist between the alienation of one's own and the acquisition of some other man's product. To say that these two independent and antithetical acts have an intrinsic unity, are essentially one, is the same as to say that this intrinsic oneness expresses itself in an external antithesis. If the interval in time between the two complementary phases of the complete metamorphosis of a commodity become too great, if the split between the sale and the purchase become too pronounced, the intimate connexion between them, their oneness, asserts itself by producing ; a crisis.",
+    "summary": "The possibility of crisis: monetary circulation splits purchase from sale, creating the structural potential for overproduction.",
+    "explanation": "Unlike barter where selling simultaneously means buying, money splits exchange into two independent acts separated in time and space. If sellers hoard money rather than purchasing other commodities, the circuit breaks down, unleashing a crisis of unsold goods.",
+    "context": "Part I, Chapter 3: Money, or the Circulation of Commodities (Section 2: The Medium of Circulation)",
+    "topics": [
+      "Political Economy"
+    ]
   }
 ]

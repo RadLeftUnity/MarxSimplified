@@ -1,0 +1,245 @@
+{
+  "id": "woman-and-socialism",
+  "title": "Woman and Socialism",
+  "author": "August Bebel",
+  "year": "1879",
+  "difficulty": "Medium",
+  "readingTime": "14.5 hours",
+  "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/bebel/1879/woman-socialism/index.htm",
+  "context": "First published illegally in 1879 under Bismarck's Anti-Socialist Laws and expanded through fifty editions, Woman and Socialism by August Bebel was the foundational Marxist text on women's liberation and socialist reconstruction. Structured in three parts (Woman in the Past, Woman at the Present Day, and The Socialisation of Society), Bebel applies historical materialism to trace women's oppression from the overthrow of primeval maternal law through modern capitalism, demonstrating that the emancipation of women is inseparable from the overthrow of wage slavery.",
+  "relatesToToday": "Bebel's analysis of working women's double burden, the commercialization of marriage and domestic life, the industrialization of housework, and the link between reproductive freedom and economic security anticipates modern Marxist feminism and struggles for socialized childcare and healthcare.",
+  "keyTakeaways": [
+    "Woman was the first human being to taste bondage: her subordination began with the rise of private property and the overthrow of maternal clan society.",
+    "Bourgeois marriage is rooted in private property and economic compulsion, finding its necessary complement in prostitution and domestic servitude.",
+    "Modern industry draws millions of women into wage labor, subjecting them to intense exploitation while breaking down patriarchal isolation and uniting them in class struggle.",
+    "True emancipation requires socializing domestic labor through public kitchens, mechanized laundries, and communal childcare alongside full economic independence.",
+    "In the socialist society of the future, the state withers away into a democratic administration of things, and woman becomes socially and economically free as an equal member of society."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-position-of-woman-in-primeval-society",
+      "title": "Ch. I: The Position of Woman in Primeval Society",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "conflict-between-matriarchate-and-patriarchate",
+      "title": "Ch. II: Conflict Between Matriarchate and Patriarchate",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "christianity",
+      "title": "Ch. III: Christianity",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "woman-in-the-mediaeval-age",
+      "title": "Ch. IV: Woman in the Mediaeval Age",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-reformation",
+      "title": "Ch. V: The Reformation",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-eighteenth-century",
+      "title": "Ch. VI: The Eighteenth Century",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "woman-as-a-sex-being",
+      "title": "Ch. VII: Woman as a Sex Being",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "modern-marriage",
+      "title": "Ch. VIII: Modern Marriage",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "disruption-of-the-family",
+      "title": "Ch. IX: Disruption of the Family",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "marriage-as-a-means-of-support",
+      "title": "Ch. X: Marriage as a Means of Support",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "the-chances-of-matrimony",
+      "title": "Ch. XI: The Chances of Matrimony",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "prostitution-a-necessary-social-institution-of-bourgeois-society",
+      "title": "Ch. XII: Prostitution a Necessary Social Institution of Bourgeois Society",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "woman-in-industry",
+      "title": "Ch. XIII: Woman in Industry",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "the-struggle-of-women-for-education",
+      "title": "Ch. XIV: The Struggle of Women for Education",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "the-legal-status-of-women",
+      "title": "Ch. XV: The Legal Status of Women",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    },
+    {
+      "id": "the-class-state-and-the-modern-proletariat",
+      "title": "Ch. XVI: The Class-State and the Modern Proletariat",
+      "textFile": "chapter17/chapter17.txt",
+      "annotationFile": "chapter17/chapter17-annotations.json",
+      "summaryFile": "chapter17/chapter17-summary.txt"
+    },
+    {
+      "id": "the-process-of-concentration-in-capitalistic-industry",
+      "title": "Ch. XVII: The Process of Concentration in Capitalistic Industry",
+      "textFile": "chapter18/chapter18.txt",
+      "annotationFile": "chapter18/chapter18-annotations.json",
+      "summaryFile": "chapter18/chapter18-summary.txt"
+    },
+    {
+      "id": "crisis-and-competition",
+      "title": "Ch. XVIII: Crisis and Competition",
+      "textFile": "chapter19/chapter19.txt",
+      "annotationFile": "chapter19/chapter19-annotations.json",
+      "summaryFile": "chapter19/chapter19-summary.txt"
+    },
+    {
+      "id": "the-revolution-in-agriculture",
+      "title": "Ch. XIX: The Revolution in Agriculture",
+      "textFile": "chapter20/chapter20.txt",
+      "annotationFile": "chapter20/chapter20-annotations.json",
+      "summaryFile": "chapter20/chapter20-summary.txt"
+    },
+    {
+      "id": "the-social-revolution",
+      "title": "Ch. XX: The Social Revolution",
+      "textFile": "chapter21/chapter21.txt",
+      "annotationFile": "chapter21/chapter21-annotations.json",
+      "summaryFile": "chapter21/chapter21-summary.txt"
+    },
+    {
+      "id": "fundamental-laws-of-socialistic-society",
+      "title": "Ch. XXI: Fundamental Laws of Socialistic Society",
+      "textFile": "chapter22/chapter22.txt",
+      "annotationFile": "chapter22/chapter22-annotations.json",
+      "summaryFile": "chapter22/chapter22-summary.txt"
+    },
+    {
+      "id": "socialism-and-agriculture",
+      "title": "Ch. XXII: Socialism and Agriculture",
+      "textFile": "chapter23/chapter23.txt",
+      "annotationFile": "chapter23/chapter23-annotations.json",
+      "summaryFile": "chapter23/chapter23-summary.txt"
+    },
+    {
+      "id": "abolition-of-the-state",
+      "title": "Ch. XXIII: Abolition of the State",
+      "textFile": "chapter24/chapter24.txt",
+      "annotationFile": "chapter24/chapter24-annotations.json",
+      "summaryFile": "chapter24/chapter24-summary.txt"
+    },
+    {
+      "id": "the-future-of-religion",
+      "title": "Ch. XXIV: The Future of Religion",
+      "textFile": "chapter25/chapter25.txt",
+      "annotationFile": "chapter25/chapter25-annotations.json",
+      "summaryFile": "chapter25/chapter25-summary.txt"
+    },
+    {
+      "id": "the-socialist-system-of-education",
+      "title": "Ch. XXV: The Socialist System of Education",
+      "textFile": "chapter26/chapter26.txt",
+      "annotationFile": "chapter26/chapter26-annotations.json",
+      "summaryFile": "chapter26/chapter26-summary.txt"
+    },
+    {
+      "id": "literature-and-art-in-socialistic-society",
+      "title": "Ch. XXVI: Literature and Art in Socialistic Society",
+      "textFile": "chapter27/chapter27.txt",
+      "annotationFile": "chapter27/chapter27-annotations.json",
+      "summaryFile": "chapter27/chapter27-summary.txt"
+    },
+    {
+      "id": "free-development-of-individuality",
+      "title": "Ch. XXVII: Free Development of Individuality",
+      "textFile": "chapter28/chapter28.txt",
+      "annotationFile": "chapter28/chapter28-annotations.json",
+      "summaryFile": "chapter28/chapter28-summary.txt"
+    },
+    {
+      "id": "woman-in-the-future",
+      "title": "Ch. XXVIII: Woman in the Future",
+      "textFile": "chapter29/chapter29.txt",
+      "annotationFile": "chapter29/chapter29-annotations.json",
+      "summaryFile": "chapter29/chapter29-summary.txt"
+    },
+    {
+      "id": "internationality",
+      "title": "Ch. XXIX: Internationality",
+      "textFile": "chapter30/chapter30.txt",
+      "annotationFile": "chapter30/chapter30-annotations.json",
+      "summaryFile": "chapter30/chapter30-summary.txt"
+    },
+    {
+      "id": "the-question-of-population-and-socialism",
+      "title": "Ch. XXX: The Question of Population and Socialism",
+      "textFile": "chapter31/chapter31.txt",
+      "annotationFile": "chapter31/chapter31-annotations.json",
+      "summaryFile": "chapter31/chapter31-summary.txt"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "textFile": "chapter32/chapter32.txt",
+      "annotationFile": "chapter32/chapter32-annotations.json",
+      "summaryFile": "chapter32/chapter32-summary.txt"
+    }
+  ]
+}

@@ -10,5 +10,84 @@
     "targetText": "single sentence: Abolition of private property.",
     "summary": "Communism seeks to abolish private ownership of productive assets (factories, land, mines), not personal possessions.",
     "context": "Marx clarifies the difference between personal items (clothes, homes) and private capital used to exploit labor."
+  },
+  {
+    "id": "manifesto-chapter4-3",
+    "targetText": "Does it require deep intuition to comprehend that man's ideas, views,\nand conception, in one word, man's consciousness, changes with every change\nin the conditions of his material existence, in his social relations and\nin his social life?\n\nWhat else does the history of ideas prove, than that intellectual\nproduction changes its character in proportion as material production is\nchanged? The ruling ideas of each age have ever been the ideas of its ruling\nclass.",
+    "summary": "Refutation of philosophical idealism: human consciousness and ruling ideas are shaped by material production and class power.",
+    "explanation": "Against idealist philosophers who claim that eternal ideas drive history, Marx and Engels demonstrate that ideas evolve alongside material social relations, and that the dominant ideology of any epoch reflects the material interests of its ruling class.",
+    "topics": [
+      "Idealism",
+      "Historical Materialism",
+      "Philosophical Materialism"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter4-ext-4",
+    "targetText": "Political power, properly so called, is merely the organised power of one class for oppressing another.",
+    "summary": "Political power is by definition one class organised to suppress another, and it loses that character once classes disappear.",
+    "explanation": "Marx and Engels define the state through its class function. When class distinctions vanish and production is concentrated in the hands of the associated nation, public power loses its political character, anticipating the later idea of the withering away of the state.",
+    "context": "Lenin quoted this passage in The State and Revolution to argue that a workers' state is a transitional form that prepares its own disappearance.",
+    "topics": [
+      "The State and Dictatorship of the Proletariat",
+      "Socialist Transition"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter4-ext-5",
+    "targetText": "In place of the old bourgeois society, with its classes and class antagonisms, we shall have an association, in which the free development of each is the condition for the free development of all.",
+    "summary": "Communist society replaces class antagonism with an association where each person's freedom depends on the freedom of everyone.",
+    "explanation": "This sentence states the humanist goal of the whole programme. Abolishing private ownership of the means of production is not an end in itself but the precondition for individual development that is no longer bought at the expense of other classes.",
+    "context": "It is frequently cited against the claim that Marxism seeks to submerge the individual in the collective.",
+    "topics": [
+      "Socialist Transition",
+      "Class Struggle"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter4-ext-6",
+    "targetText": "The working men have no country. We cannot take from them what they have not got.",
+    "summary": "Because workers hold no property in the nation, their interests cross borders and nationalism cannot unite them with their own employers.",
+    "explanation": "The line answers the charge that communists want to abolish countries. Marx and Engels argue that the working class is already stripped of national character by capitalism and that its political supremacy must first be won inside each nation before it can become international.",
+    "context": "The slogan underlies the internationalist position that Lenin later used against social chauvinism during the First World War.",
+    "topics": [
+      "Class Struggle",
+      "Imperialism and Colonialism",
+      "Revolutionary Strategy and Party"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter4-ext-7",
+    "targetText": "The ideas of religious liberty and freedom of conscience merely gave expression to the sway of free competition within the domain of knowledge.",
+    "summary": "Even religious freedom is treated as an expression of capitalist free competition applied to ideas.",
+    "explanation": "Marx and Engels argue that ideas change with material conditions. The rise of the bourgeoisie produced demands for religious toleration and freedom of conscience, which mirror free competition in the market, and a different economic base will produce different ideas.",
+    "context": "The passage belongs to a longer reply to critics who charge communism with abolishing eternal truths, religion and morality.",
+    "topics": [
+      "Religion",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter4-ext-8",
+    "targetText": "But Communism abolishes eternal truths, it abolishes all religion, and all morality, instead of constituting them on a new basis; it therefore acts in contradiction to all past historical experience.",
+    "summary": "The charge that communism destroys religion and morality is answered by pointing out that all past ideas were shaped by class antagonism.",
+    "explanation": "Marx and Engels turn the accusation around: since all past society moved through class antagonisms, the ideas of every age share common forms. Communism breaks with traditional property relations and therefore with traditional ideas.",
+    "context": "This is one of the clearest statements that Marxism treats morality and religion as historical products rather than timeless absolutes.",
+    "topics": [
+      "Religion",
+      "Historical Materialism"
+    ]
+  },
+  {
+    "id": "communist-manifesto-chapter4-ext-9",
+    "targetText": "first step in the revolution by the working class is to raise the proletariat to the position of ruling class, to win the battle of democracy. The proletariat will use its political supremacy to wrest, by degrees, all capital from the bourgeoisie, to centralise all instruments of production in the hands of the State, i.e., of the proletariat organised as the ruling class;",
+    "summary": "The first task of a workers' revolution is to win political power as a class and use the state to take over the means of production.",
+    "explanation": "Here the Manifesto links democracy with proletarian rule: winning the battle of democracy means the majority class organised as the ruling class, then centralising capital in its hands. This is the seed of the later theory of the dictatorship of the proletariat.",
+    "context": "The passage directly shapes later debates about whether socialism is reached through elections, insurrection, or a combination of the two.",
+    "topics": [
+      "The State and Dictatorship of the Proletariat",
+      "Democracy and Elections",
+      "Socialist Transition"
+    ]
   }
 ]

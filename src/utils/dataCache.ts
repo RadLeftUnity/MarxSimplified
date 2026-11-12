@@ -7,6 +7,16 @@
 
 import type { Annotation } from '../components/ChapterReader';
 import type { BookDetail } from '../pages/BookSummary';
+import topicCategories from '../data/topicCategories.json';
+
+const topicCategoryMap = topicCategories as Record<string, string>;
+
+/**
+ * Map a raw annotation topic tag onto its consolidated category name.
+ */
+export function canonicalTopic(name: string): string {
+  return topicCategoryMap[name] || name.replace(/\s*&\s*/g, ' and ');
+}
 
 const textCache = new Map<string, string>();
 const jsonCache = new Map<string, any>();
@@ -88,7 +98,9 @@ export async function fetchCachedAnnotations(
       summary: ann.summary || ann.explanation || '',
       explanation: ann.explanation || ann.summary || '',
       context: ann.context || '',
-      topics: Array.isArray(ann.topics) ? ann.topics : undefined,
+      topics: Array.isArray(ann.topics)
+        ? Array.from(new Set<string>(ann.topics.map((t: string) => canonicalTopic(t))))
+        : undefined,
     })
   );
 
@@ -168,8 +180,16 @@ export interface TopicAnnotationRef {
 
 export interface TopicGroup {
   topic: string;
+  slug?: string;
   count: number;
   annotations: TopicAnnotationRef[];
+}
+
+export function getTopicSlug(topic: string): string {
+  return topic
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
 }
 
 
@@ -217,6 +237,8 @@ export interface IndexedChapter {
     targetText: string;
     explanation?: string;
     summary?: string;
+    context?: string;
+    topics?: string[];
   }>;
   paragraphs: string[];
 }
