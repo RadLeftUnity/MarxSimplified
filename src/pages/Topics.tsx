@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Tag, BookOpen, Search, Sparkles, History, MessageCircle, ArrowRight, Loader2, Link as LinkIcon, Check } from 'lucide-react';
-import { fetchCachedTopicIndex, clearTopicCache, getTopicSlug } from '../utils/dataCache';
+import { fetchCachedTopicIndex, clearTopicCache, getTopicSlug, canonicalTopic } from '../utils/dataCache';
 import type { TopicGroup } from '../utils/dataCache';
 import { FormattedText } from '../components/FormattedText';
 import { getAuthorImageUrl } from '../utils/authorImage';
@@ -25,9 +25,22 @@ function extractUrlTopicOrSlug(): string {
 function findMatchingGroup(groups: TopicGroup[], target: string | null | undefined): TopicGroup | undefined {
   if (!target) return undefined;
   const targetSlug = getTopicSlug(target);
-  return groups.find(
-    (g) => g.topic === target || (g.slug || getTopicSlug(g.topic)) === targetSlug
-  );
+  const canonical = canonicalTopic(target);
+  const canonicalSlug = getTopicSlug(canonical);
+  const unhyphenatedCanonical = canonicalTopic(target.replace(/-/g, ' '));
+  const unhyphenatedSlug = getTopicSlug(unhyphenatedCanonical);
+
+  return groups.find((g) => {
+    const gSlug = g.slug || getTopicSlug(g.topic);
+    return (
+      g.topic === target ||
+      g.topic === canonical ||
+      g.topic === unhyphenatedCanonical ||
+      gSlug === targetSlug ||
+      gSlug === canonicalSlug ||
+      gSlug === unhyphenatedSlug
+    );
+  });
 }
 
 export const Topics: React.FC<TopicsProps> = ({
