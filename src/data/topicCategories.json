@@ -66,6 +66,25 @@
 
   "Religion": "Religion",
 
+  "Individualism": "Individualism",
+  "Bourgeois Individualism": "Individualism",
+  "Individualism and Collectivism": "Individualism",
+  "Petty-Bourgeois Individualism": "Individualism",
+
+  "Human Nature": "Human Nature",
+  "Bourgeois Human Nature": "Human Nature",
+  "Species-Being": "Human Nature",
+  "Human Essence": "Human Nature",
+  "Essence of Man": "Human Nature",
+
+  "Petty Bourgeoisie": "Petty Bourgeoisie",
+  "Petty Bourgeoise": "Petty Bourgeoisie",
+  "Petty-Bourgeoisie": "Petty Bourgeoisie",
+  "Petty Bourgeois": "Petty Bourgeoisie",
+  "Petty-Bourgeois": "Petty Bourgeoisie",
+  "Petty-Bourgeois Mentality": "Petty Bourgeoisie",
+  "Petty-Bourgeois Socialism": "Petty Bourgeoisie",
+
   "Fascism Analysis": "Fascism"
 }
 

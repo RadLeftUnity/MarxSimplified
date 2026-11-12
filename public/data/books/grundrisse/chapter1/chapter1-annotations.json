@@ -1,7 +1,15 @@
 [
   {
     "targetText": "The human being is in the most literal sense a ζῶον πολιτιχόν, [3] not merely a gregarious animal, but an animal which can individuate itself only in the midst of society.",
-    "explanation": "Marx rejects the bourgeois economic myth of isolated individuals (Robinsonades) and emphasizes that human individuality and production exist purely through social relations."
+    "explanation": "Marx rejects the bourgeois economic myth of isolated individuals (Robinsonades) and emphasizes that human individuality and production exist purely through social relations.",
+    "id": "grundrisse-ch1-ann-1",
+    "summary": "Man as a social animal: human beings can individuate themselves only in the midst of society.",
+    "topics": [
+      "Human Nature",
+      "Historical Materialism",
+      "Individualism",
+      "Dialectics and Philosophy"
+    ]
   },
   {
     "targetText": "All production is appropriation of nature on the part of an individual within and through a specific form of society.",
@@ -14,5 +22,18 @@
   {
     "targetText": "All the bourgeois economists are aware of is that production can be carried on better under the modern police than e.g. on the principle of might makes right. They forget only that this principle is also a legal relation, and that the right of the stronger prevails in their ‘constitutional republics’ as well, only in another form.",
     "explanation": "Marx critiques bourgeois legal philosophy, showing that legal protections and police forces do not abolish the rule of power; they simply formalize property rights so that economic power operates legally as the right of the stronger."
+  },
+  {
+    "id": "grundrisse-ch1-ann-5",
+    "targetText": "The individual and isolated hunter and fisherman, with whom Smith and Ricardo begin, belongs among the unimaginative conceits of the eighteenth-century Robinsonades, [1] which in no way express merely a reaction against over-sophistication and a return to a misunderstood natural life, as cultural historians imagine. As little as Rousseau’s contrat social, which brings naturally independent, autonomous subjects into relation and connection by contract, rests on such naturalism. This is the semblance, the merely aesthetic semblance, of the Robinsonades, great and small. It is, rather, the anticipation of ‘civil society’, in preparation since the sixteenth century and making giant strides towards maturity in the eighteenth. In this society of free competition, the individual appears detached from the natural bonds etc. which in earlier historical periods make him the accessory of a definite and limited human conglomerate. Smith and Ricardo still stand with both feet on the shoulders of the eighteenth-century prophets, in whose imaginations this eighteenth-century individual, the product on one side of the dissolution of the feudal forms of society, on the other side of the new forces of production developed since the sixteenth century, appears as an ideal, whose existence they project into the past. Not as a historic result but as history’s point of departure. As the Natural Individual appropriate to their notion of human nature, not arising historically, but posited by nature. This illusion has been common to each new epoch to this day.",
+    "summary": "The Robinsonade myth of human nature: bourgeois economists project isolated capitalist individuals onto ancient history.",
+    "explanation": "Classical political economy falsely assumes the isolated individual hunter or fisherman as the starting point of human history, treating bourgeois individualism as eternal human nature. Marx shows that humans are social beings from the outset; the isolated individual is a late historical product of generalized commodity exchange, not nature point of departure.",
+    "context": "Introduction: Production, Consumption, Distribution, Exchange (Section 1: Production)",
+    "topics": [
+      "Human Nature",
+      "Historical Materialism",
+      "Dialectics and Philosophy",
+      "Individualism"
+    ]
   }
 ]
