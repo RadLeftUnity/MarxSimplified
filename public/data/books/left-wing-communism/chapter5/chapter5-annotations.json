@@ -1,14 +1,31 @@
 [
   {
+    "id": "left-wing-communism-ch5-ann-0",
+    "targetText": "They surround the proletariat on every side with a petty-bourgeois atmosphere, which permeates and corrupts the proletariat, and constantly causes among the proletariat relapses into petty-bourgeois spinelessness, disunity, individualism, and alternating moods of exaltation and dejection. The strictest centralisation and discipline are required within the political party of the proletariat in order to counteract this, in order that the organisational role of the proletariat (and that is its principal role) may be exercised correctly, successfully and victoriously.",
+    "summary": "Overcoming petty-bourgeois individualism: centralisation and iron discipline combat the disintegrating habits of petty proprietors.",
+    "explanation": "Lenin warns that surrounding petty-bourgeois elements constantly infect the working class with individualism, indiscipline, and instability. Only an iron-disciplined revolutionary party capable of rallying the masses can counteract this atomizing individualism and fulfill its organizational historical mission.",
+    "context": "Chapter 5: Left-Wing Communism in Germany. The Leaders, the Party, the Class, the Masses",
+    "topics": [
+      "Individualism",
+      "Revolutionary Strategy and Party"
+    ]
+  },
+  {
     "targetText": "Whoever brings about even the slightest weakening of the iron discipline of the party of the proletariat (especially during its dictatorship), is actually aiding the bourgeoisie against the proletariat.",
-    "explanation": "Bolshevik party discipline was not maintained through blind obedience, but through vanguard class-consciousness, deep ties to working people, and practical tactical success."
+    "explanation": "Bolshevik party discipline was not maintained through blind obedience, but through vanguard class-consciousness, deep ties to working people, and practical tactical success.",
+    "id": "left-wing-communism-ch5-ann-1",
+    "summary": "Iron discipline of the proletarian party: weakening discipline objectively aids the bourgeois enemy.",
+    "topics": [
+      "Revolutionary Strategy and Party",
+      "The State and Dictatorship of the Proletariat"
+    ]
   },
   {
     "targetText": "This should unite all workers who follow the slogan: ‘Get out of the trade unions!’ It is here that the militant proletariat musters its ranks for battle.",
     "summary": "Lenin refutes the ultra-left slogan 'Get out of the trade unions!' as sectarian isolation from the working masses.",
     "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located.",
     "topics": [
-      "Ultra Leftism",
+      "Ultra Leftism and Anarchism",
       "Trade Unionism"
     ]
   },
@@ -17,8 +34,8 @@
     "summary": "Ultra-left dogmatism rejects all tactical maneuvering and parliamentary struggle on abstract principle.",
     "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
     "topics": [
-      "Ultra Leftism",
-      "Elections"
+      "Ultra Leftism and Anarchism",
+      "Democracy and Elections"
     ]
   }
 ]

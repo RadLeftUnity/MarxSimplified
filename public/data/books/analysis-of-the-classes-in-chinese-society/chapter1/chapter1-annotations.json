@@ -5,7 +5,12 @@
     "summary": "Revolutionary strategy begins with concrete class analysis to distinguish true allies from class enemies.",
     "explanation": "Mao opens Volume I of his Selected Works by establishing that revolutionary strategy begins with concrete class analysis. Without accurately identifying which social classes have a material interest in overthrowing imperialism and feudalism and which classes benefit from maintaining exploitation, a revolutionary party inevitably isolates itself or surrenders leadership to vacillating bourgeois allies.",
     "context": "In anti-colonial struggles across the Global South, movements that failed to distinguish between national-popular allies and foreign-backed comprador elites were repeatedly betrayed from within once formal independence was achieved.",
-    "topics": ["Class Struggle", "Party Strategy", "Maoism", "Anti-Imperialism"]
+    "topics": [
+      "Class Struggle",
+      "Party Strategy",
+      "Maoism",
+      "Anti-Imperialism"
+    ]
   },
   {
     "id": "ann-classes-comprador-landlord",
@@ -13,7 +18,12 @@
     "summary": "In semi-colonial countries, domestic landlords and comprador capitalists are direct appendages of foreign imperialism.",
     "explanation": "Mao defines the comprador bourgeoisie and feudal landlord class as structural extensions of foreign monopoly capital inside an oppressed nation. Unlike an independent industrial bourgeoisie, compradors act as commercial and financial middlemen extracting wealth from domestic workers and peasants on behalf of foreign imperialist powers.",
     "context": "Modern comprador elites in Latin America, Africa, and Asia manage local subsidiaries, export enclaves, and privatized utilities for Western multinationals while relying on foreign military aid to suppress domestic labor unions.",
-    "topics": ["Anti-Imperialism", "Class Struggle", "Colonialism", "Maoism"]
+    "topics": [
+      "Anti-Imperialism",
+      "Class Struggle",
+      "Colonialism",
+      "Maoism"
+    ]
   },
   {
     "id": "ann-classes-national-bourgeoisie",
@@ -21,7 +31,12 @@
     "summary": "The national bourgeoisie in semi-colonial nations is caught in a contradiction: it resents foreign imperialist domination but fears working-class militancy.",
     "explanation": "Mao formulates the classic Marxist analysis of the dual character of the national bourgeoisie in semi-colonial countries. Because foreign monopolies restrict their domestic market, national capitalists intermittently support anti-imperialist struggles; however, because they themselves exploit wage labor, they panic whenever working-class and peasant organization threatens private property, causing their right wing to defect to imperialism (as Chiang Kai-shek did in the 1927 Shanghai massacre).",
     "context": "Domestic manufacturing owners in developing countries often support state tariffs against foreign imports, yet quickly ally with right-wing coups or IMF austerity programs when domestic workers strike for higher wages.",
-    "topics": ["Class Struggle", "Anti-Imperialism", "Bourgeoisie", "Maoism"]
+    "topics": [
+      "Class Struggle",
+      "Anti-Imperialism",
+      "Bourgeoisie",
+      "Maoism"
+    ]
   },
   {
     "id": "ann-classes-industrial-proletariat",
@@ -29,6 +44,23 @@
     "summary": "Despite its smaller size in an agrarian country, the industrial working class is the vanguard leader of the revolution due to its concentration in modern industry and total lack of private property.",
     "explanation": "Refuting mechanical determinists who argued that China's industrial working class was too small to lead a revolution, Mao explains why the proletariat exercises vanguard leadership: first, its high concentration in large-scale modern enterprises (railways, mines, shipping, and textiles), and second, its complete deprivation of means of production under triple oppression by imperialists, warlords, and capitalists.",
     "context": "During the 1922 to 1926 Hong Kong-Canton, railway, and Shanghai general strikes, China's two million industrial workers paralyzed foreign imperialist commerce and spearheaded the national liberation movement.",
-    "topics": ["Proletariat", "Class Struggle", "Labor Movement", "Maoism"]
+    "topics": [
+      "Proletariat",
+      "Class Struggle",
+      "Labor Movement",
+      "Maoism"
+    ]
+  },
+  {
+    "id": "ann-classes-petty-bourgeoisie",
+    "targetText": "The petty bourgeoisie. Included in this category are the owner-peasants, [7] the master handicraftsmen, the lower levels of the intellectuals: students, primary and secondary school teachers, lower government functionaries, office clerks, small lawyers: and the small traders. Both because of its size and class character, this class deserves very close attention.",
+    "summary": "The petty bourgeoisie: small-scale producers and urban intermediate strata situated between capital and wage labour.",
+    "explanation": "Mao provides a concrete class breakdown of the petty bourgeoisie (owner-peasants, small shopkeepers, master craftspeople, and lower intellectuals). Divided into strata based on economic stability, this class is buffeted by market pressure and foreign capital, making its left wing and middle strata vital allies of the proletariat in the anti-imperialist united front.",
+    "context": "Section on The Petty Bourgeoisie in Analysis of the Classes in Chinese Society",
+    "topics": [
+      "Petty Bourgeoisie",
+      "Class Struggle",
+      "Maoism and People's War"
+    ]
   }
 ]

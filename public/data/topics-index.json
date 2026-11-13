@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-13T16:18:42.023Z",
+  "updatedAt": "2026-11-13T20:17:48.238Z",
   "totalTopics": 19,
-  "totalIndexedAnnotations": 1269,
+  "totalIndexedAnnotations": 1278,
   "topics": [
     {
       "topic": "Political Economy",
       "slug": "political-economy",
-      "count": 209,
+      "count": 212,
       "annotations": [
         {
           "annotation": {
@@ -331,6 +331,29 @@
           "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
           "chapterId": "proletarians-communists",
           "chapterTitle": "II. Proletarians and Communists"
+        },
+        {
+          "annotation": {
+            "id": "manifesto-chapter5-2",
+            "targetText": "B. Petty-Bourgeois Socialism The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie. In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.",
+            "summary": "Petty-bourgeois socialism: the fluctuating intermediate class seeks to restore pre-industrial property relations.",
+            "explanation": "Marx and Engels dissect petty-bourgeois socialism. Squeezed between giant monopolies and the growing working class, the petty bourgeoisie vacillates constantly. Their utopian critique seeks either to restore old pre-industrial guild crafts and patriarchal peasant farming, or to cramp modern mechanized forces within obsolete private property frameworks.",
+            "context": "Section III: Socialist and Communist Literature (Subsection 1: Reactionary Socialism)",
+            "topics": [
+              "Petty Bourgeoisie",
+              "Socialist Transition",
+              "Class Struggle",
+              "Monopoly and Finance Capital",
+              "Political Economy",
+              "Family and Gender"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "socialist-communist-literature",
+          "chapterTitle": "III. Socialist and Communist Literature"
         },
         {
           "annotation": {
@@ -2405,6 +2428,29 @@
         },
         {
           "annotation": {
+            "id": "on-contradiction-ch2-ann-4",
+            "targetText": "In their opinion, capitalist exploitation, capitalist competition, the individualist ideology of capitalist society, and so on, can all be found in ancient slave society, or even in primitive society, and will exist for ever unchanged. They ascribe the causes of social development to factors external to society, such as geography and climate.",
+            "summary": "The myth of eternal capitalist individualism: bourgeois metaphysics falsely projects competitive individualism onto all human history.",
+            "explanation": "Mao explains how reactionary and metaphysical thinkers treat capitalist competition and individualist ideology as immutable biological traits that have allegedly always existed and will exist forever. Dialectical materialism proves that human consciousness and social psychology are shaped by historical modes of production, not fixed eternal human nature.",
+            "context": "Section I: The Two World Outlooks",
+            "topics": [
+              "Individualism",
+              "Dialectics and Philosophy",
+              "Historical Materialism",
+              "Maoism and People's War",
+              "Human Nature",
+              "Political Economy"
+            ]
+          },
+          "bookId": "on-contradiction",
+          "bookTitle": "On Contradiction",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+          "chapterId": "i-the-two-world-outlooks",
+          "chapterTitle": "I. THE TWO WORLD OUTLOOKS"
+        },
+        {
+          "annotation": {
             "id": "origin-family-ch1-2",
             "targetText": "the more the social order is found to be dominated by kinship groups",
             "summary": "In early human history when technology and stored wealth were minimal, society was organized around tribal clan bloodlines rather than states or private wealth.",
@@ -2821,6 +2867,26 @@
         },
         {
           "annotation": {
+            "id": "principles-of-communism-ch13-ann-2",
+            "targetText": "for big industry, competition and generally the individualistic organization of production have become a fetter which it must and will shatter; that so long as big industry remains on its present footing, it can be maintained only through the general chaos of every seven years, each time threatening the whole of civilization and not only plunging the proletarians into misery but also ruining large sections of the bourgeoisie; hence either that big industry must itself be given up, which is an absolute impossibility, or that it makes unavoidably necessary an entirely new organization of society in which production is no longer directed by mutually competing individual industrialists but rather by the whole society operating according to a definite plan and according to the needs of all.",
+            "summary": "The individualistic organization of production has become a fetter: replacing competitive chaos with societal planning.",
+            "explanation": "Engels explains that large-scale mechanized industry cannot function sustainably under the anarchy of individualistic competition and private ownership, which repeatedly produces devastating periodic crises. Industry unavoidably requires replacing individualistic direction with collective social planning for the needs of all.",
+            "context": "Question 13: What were the consequences of the industrial revolution and dividing society into bourgeoisie and proletariat?",
+            "topics": [
+              "Individualism",
+              "Political Economy",
+              "Socialist Transition"
+            ]
+          },
+          "bookId": "principles-of-communism",
+          "bookTitle": "The Principles of Communism",
+          "bookAuthor": "Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "13-what-follows-from-these-periodic-commercial-crises",
+          "chapterTitle": "13. What Follows from These Periodic Commercial Crises?"
+        },
+        {
+          "annotation": {
             "id": "17-will-it-be-possible-for-private-property-to-be-abolished-at-one-stroke-ann-1",
             "targetText": "In all probability, the proletarian revolution will transform existing society gradually and will be able to abolish private property only when the means of production are available in sufficient quantity.",
             "summary": "Social transformation requires a transition period to develop collective production facilities and reorganize social administration.",
@@ -2981,7 +3047,8 @@
             "context": "",
             "topics": [
               "Family and Gender",
-              "Political Economy"
+              "Political Economy",
+              "Individualism"
             ]
           },
           "bookId": "red-love",
@@ -3098,8 +3165,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "Political Economy",
-              "Individualism"
+              "Individualism",
+              "Political Economy"
             ]
           },
           "bookId": "sexual-relations-and-the-class-struggle",
@@ -3118,6 +3185,7 @@
             "context": "",
             "topics": [
               "Family and Gender",
+              "Individualism",
               "Political Economy"
             ]
           },
@@ -3288,15 +3356,16 @@
         },
         {
           "annotation": {
-            "id": "bebel-sof-ch2-ann-1",
-            "targetText": "As soon as society is in possession of all means of production the duty of all able-bodied people, irrespective of sex, to work becomes the basic law of socialised society.",
-            "summary": "In the first chapter of 'The Socialisation of Society', Bebel outlines the fundamental laws of socialist society: the universal duty of all able-bodied persons to work, democratic workplace administration, the replacement of money and commodity trade with labor certificates, and the drastic reduction of the working day through advanced technology and the abolition of parasitic labor.",
-            "explanation": "In the first chapter of 'The Socialisation of Society', Bebel outlines the fundamental laws of socialist society: the universal duty of all able-bodied persons to work, democratic workplace administration, the replacement of money and commodity trade with labor certificates, and the drastic reduction of the working day through advanced technology and the abolition of parasitic labor.",
-            "context": "",
+            "id": "bebel-sof-ch2-ann-2",
+            "targetText": "A need deeply implanted in human nature is to be free to choose an occupation and to change it at will. Just as constant repetition makes the choicest dish repulsive, so does the treadmill of a repetitive occupation day in day out render the mind dull and slack. Man works only mechanically, does what he has to do without any higher inspiration and enjoyment. In every man there are latent abilities and inclinations which only need to be awakened and developed to produce the most beautiful results. Only then will man become full man.",
+            "summary": "Human nature and the division of labour: varied activity unlocks all-round human potential under socialism.",
+            "explanation": "Bebel argues that human nature naturally craves variety and freedom of choice, which capitalist lifelong division of labour deadens through mechanical repetition. By drastically reducing working hours and eliminating class specialization, socialist society enables every person to awaken their latent abilities across multiple fields.",
+            "context": "Section 2: Harmonious Development of Mental and Physical Labour",
             "topics": [
-              "Political Economy",
+              "Human Nature",
               "Socialist Transition",
-              "Historical Materialism"
+              "Historical Materialism",
+              "Political Economy"
             ]
           },
           "bookId": "society-of-the-future",
@@ -4069,7 +4138,7 @@
     {
       "topic": "Dialectics and Philosophy",
       "slug": "dialectics-and-philosophy",
-      "count": 166,
+      "count": 171,
       "annotations": [
         {
           "annotation": {
@@ -4539,6 +4608,26 @@
         },
         {
           "annotation": {
+            "id": "das-kapital-vol-1-chapter26-ann-3",
+            "targetText": "To know what is useful for a dog, one must study dog-nature. This nature itself is not to be deduced from the principle of utility. Applying this to man, he that would criticise all human acts, movements, relations, etc., by the principle of utility, must first deal with human nature in general, and then with human nature as modified in each historical epoch. Bentham makes short work of it. With the driest naiveté he takes the modern shopkeeper, especially the English shopkeeper, as the normal man. Whatever is useful to this queer normal man, and to his world, is absolutely useful.",
+            "summary": "Critique of bourgeois human nature: Jeremy Bentham mistakes the 19th-century English shopkeeper for universal human nature.",
+            "explanation": "Marx satirizes utilitarian philosophy for projecting temporary capitalist social relations onto universal humanity. To determine what is useful for human beings, one must analyze human nature as modified in each historical epoch, rather than declaring the modern bourgeois shopkeeper to be the timeless model of all human nature.",
+            "context": "Part VII, Chapter 24: Conversion of Surplus-Value into Capital (Section 5)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-1",
+          "bookTitle": "Capital: Volume 1 (The Process of Production of Capital)",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "conversion-of-surplus-value-into-capital",
+          "chapterTitle": "Conversion of Surplus-Value into Capital"
+        },
+        {
+          "annotation": {
             "id": "das-kapital-vol-1-chapter27-ext-4",
             "targetText": "Accumulation of wealth at one pole is, therefore, at the same time accumulation of misery, agony of toil slavery, ignorance, brutality, mental degradation, at the opposite pole, i.e., on the side of the class that produces its own product in the form of capital.",
             "summary": "The absolute general law of capitalist accumulation: polarization of wealth at one pole and misery, toil, and degradation at the other.",
@@ -4617,6 +4706,27 @@
           "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
           "chapterId": "the-value-form",
           "chapterTitle": "The Value-Form"
+        },
+        {
+          "annotation": {
+            "id": "das-kapital-vol-3-ch49-ann-3",
+            "targetText": "In fact, the realm of freedom actually begins only where labour which is determined by necessity and mundane considerations ceases; thus in the very nature of things it lies beyond the sphere of actual material production. Just as the savage must wrestle with Nature to satisfy his wants, to maintain and reproduce life, so must civilised man, and he must do so in all social formations and under all possible modes of production. With his development this realm of physical necessity expands as a result of his wants; but, at the same time, the forces of production which satisfy these wants also increase. Freedom in this field can only consist in socialised man, the associated producers, rationally regulating their interchange with Nature, bringing it under their common control, instead of being ruled by it as by the blind forces of Nature; and achieving this with the least expenditure of energy and under conditions most favourable to, and worthy of, their human nature. But it nonetheless still remains a realm of necessity. Beyond it begins that development of human energy which is an end in itself, the true realm of freedom, which, however, can blossom forth only with this realm of necessity as its basis. The shortening of the working-day is its basic prerequisite.",
+            "summary": "The realm of freedom and human nature: true human development begins beyond necessary material production.",
+            "explanation": "Freedom within necessary material production means associated producers rationally regulating their metabolism with nature under conditions worthy of human nature. But genuine human self-development as an end in itself begins beyond necessity, in the true realm of freedom, whose foundation is the shortening of the working day.",
+            "context": "Part VII, Chapter 48: The Trinity Formula",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-3",
+          "bookTitle": "Capital: Volume 3 (The Process of Capitalist Production as a Whole)",
+          "bookAuthor": "Karl Marx (ed. Friedrich Engels)",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "the-trinity-formula",
+          "chapterTitle": "The Trinity Formula"
         },
         {
           "annotation": {
@@ -4756,6 +4866,48 @@
           "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
           "chapterId": "theory",
           "chapterTitle": "III. Theory"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-1",
+            "targetText": "The human being is in the most literal sense a ζῶον πολιτιχόν, [3] not merely a gregarious animal, but an animal which can individuate itself only in the midst of society.",
+            "summary": "Man as a social animal: human beings can individuate themselves only in the midst of society.",
+            "explanation": "Marx rejects the bourgeois economic myth of isolated individuals (Robinsonades) and emphasizes that human individuality and production exist purely through social relations.",
+            "context": "",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Individualism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-5",
+            "targetText": "The individual and isolated hunter and fisherman, with whom Smith and Ricardo begin, belongs among the unimaginative conceits of the eighteenth-century Robinsonades, [1] which in no way express merely a reaction against over-sophistication and a return to a misunderstood natural life, as cultural historians imagine. As little as Rousseau’s contrat social, which brings naturally independent, autonomous subjects into relation and connection by contract, rests on such naturalism. This is the semblance, the merely aesthetic semblance, of the Robinsonades, great and small. It is, rather, the anticipation of ‘civil society’, in preparation since the sixteenth century and making giant strides towards maturity in the eighteenth. In this society of free competition, the individual appears detached from the natural bonds etc. which in earlier historical periods make him the accessory of a definite and limited human conglomerate. Smith and Ricardo still stand with both feet on the shoulders of the eighteenth-century prophets, in whose imaginations this eighteenth-century individual, the product on one side of the dissolution of the feudal forms of society, on the other side of the new forces of production developed since the sixteenth century, appears as an ideal, whose existence they project into the past. Not as a historic result but as history’s point of departure. As the Natural Individual appropriate to their notion of human nature, not arising historically, but posited by nature. This illusion has been common to each new epoch to this day.",
+            "summary": "The Robinsonade myth of human nature: bourgeois economists project isolated capitalist individuals onto ancient history.",
+            "explanation": "Classical political economy falsely assumes the isolated individual hunter or fisherman as the starting point of human history, treating bourgeois individualism as eternal human nature. Marx shows that humans are social beings from the outset; the isolated individual is a late historical product of generalized commodity exchange, not nature point of departure.",
+            "context": "Introduction: Production, Consumption, Distribution, Exchange (Section 1: Production)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy",
+              "Individualism"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
         },
         {
           "annotation": {
@@ -5579,6 +5731,29 @@
             "topics": [
               "Dialectics and Philosophy",
               "Maoism and People's War"
+            ]
+          },
+          "bookId": "on-contradiction",
+          "bookTitle": "On Contradiction",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+          "chapterId": "i-the-two-world-outlooks",
+          "chapterTitle": "I. THE TWO WORLD OUTLOOKS"
+        },
+        {
+          "annotation": {
+            "id": "on-contradiction-ch2-ann-4",
+            "targetText": "In their opinion, capitalist exploitation, capitalist competition, the individualist ideology of capitalist society, and so on, can all be found in ancient slave society, or even in primitive society, and will exist for ever unchanged. They ascribe the causes of social development to factors external to society, such as geography and climate.",
+            "summary": "The myth of eternal capitalist individualism: bourgeois metaphysics falsely projects competitive individualism onto all human history.",
+            "explanation": "Mao explains how reactionary and metaphysical thinkers treat capitalist competition and individualist ideology as immutable biological traits that have allegedly always existed and will exist forever. Dialectical materialism proves that human consciousness and social psychology are shaped by historical modes of production, not fixed eternal human nature.",
+            "context": "Section I: The Two World Outlooks",
+            "topics": [
+              "Individualism",
+              "Dialectics and Philosophy",
+              "Historical Materialism",
+              "Maoism and People's War",
+              "Human Nature",
+              "Political Economy"
             ]
           },
           "bookId": "on-contradiction",
@@ -7281,7 +7456,7 @@
     {
       "topic": "Class Struggle",
       "slug": "class-struggle",
-      "count": 156,
+      "count": 159,
       "annotations": [
         {
           "annotation": {
@@ -7355,6 +7530,27 @@
             "explanation": "Refuting mechanical determinists who argued that China's industrial working class was too small to lead a revolution, Mao explains why the proletariat exercises vanguard leadership: first, its high concentration in large-scale modern enterprises (railways, mines, shipping, and textiles), and second, its complete deprivation of means of production under triple oppression by imperialists, warlords, and capitalists.",
             "context": "During the 1922 to 1926 Hong Kong-Canton, railway, and Shanghai general strikes, China's two million industrial workers paralyzed foreign imperialist commerce and spearheaded the national liberation movement.",
             "topics": [
+              "Class Struggle",
+              "Maoism and People's War",
+              "Imperialism and Colonialism"
+            ]
+          },
+          "bookId": "analysis-of-the-classes-in-chinese-society",
+          "bookTitle": "Analysis of the Classes in Chinese Society",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+          "chapterId": "analysis-of-the-classes-in-chinese-society",
+          "chapterTitle": "Analysis of the Classes in Chinese Society"
+        },
+        {
+          "annotation": {
+            "id": "ann-classes-petty-bourgeoisie",
+            "targetText": "The petty bourgeoisie. Included in this category are the owner-peasants, [7] the master handicraftsmen, the lower levels of the intellectuals: students, primary and secondary school teachers, lower government functionaries, office clerks, small lawyers: and the small traders. Both because of its size and class character, this class deserves very close attention.",
+            "summary": "The petty bourgeoisie: small-scale producers and urban intermediate strata situated between capital and wage labour.",
+            "explanation": "Mao provides a concrete class breakdown of the petty bourgeoisie (owner-peasants, small shopkeepers, master craftspeople, and lower intellectuals). Divided into strata based on economic stability, this class is buffeted by market pressure and foreign capital, making its left wing and middle strata vital allies of the proletariat in the anti-imperialist united front.",
+            "context": "Section on The Petty Bourgeoisie in Analysis of the Classes in Chinese Society",
+            "topics": [
+              "Petty Bourgeoisie",
               "Class Struggle",
               "Maoism and People's War",
               "Imperialism and Colonialism"
@@ -7623,6 +7819,50 @@
           "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
           "chapterId": "proletarians-communists",
           "chapterTitle": "II. Proletarians and Communists"
+        },
+        {
+          "annotation": {
+            "id": "communist-manifesto-chapter4-ext-10",
+            "targetText": "From the moment when labour can no longer be converted into capital, money, or rent, into a social power capable of being monopolised, i.e., from the moment when individual property can no longer be transformed into bourgeois property, into capital, from that moment, you say, individuality vanishes. You must, therefore, confess that by \"individual\" you mean no other person than the bourgeois, than the middle-class owner of property. This person must, indeed, be swept out of the way, and made impossible.",
+            "summary": "Critique of bourgeois individuality: capitalist society equates human individuality strictly with middle-class property ownership.",
+            "explanation": "Marx and Engels expose the class bias within liberal notions of the individual. Under capitalism, individuality is treated as vanishing the moment private productive capital can no longer be monopolised. Bourgeois individuality is therefore merely the liberty of the propertied class to exploit others, which communism seeks to abolish so that all people can develop genuine personal individuality.",
+            "context": "Section II: Proletarians and Communists",
+            "topics": [
+              "Individualism",
+              "Class Struggle",
+              "Historical Materialism",
+              "Monopoly and Finance Capital"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "proletarians-communists",
+          "chapterTitle": "II. Proletarians and Communists"
+        },
+        {
+          "annotation": {
+            "id": "manifesto-chapter5-2",
+            "targetText": "B. Petty-Bourgeois Socialism The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie. In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.",
+            "summary": "Petty-bourgeois socialism: the fluctuating intermediate class seeks to restore pre-industrial property relations.",
+            "explanation": "Marx and Engels dissect petty-bourgeois socialism. Squeezed between giant monopolies and the growing working class, the petty bourgeoisie vacillates constantly. Their utopian critique seeks either to restore old pre-industrial guild crafts and patriarchal peasant farming, or to cramp modern mechanized forces within obsolete private property frameworks.",
+            "context": "Section III: Socialist and Communist Literature (Subsection 1: Reactionary Socialism)",
+            "topics": [
+              "Petty Bourgeoisie",
+              "Socialist Transition",
+              "Class Struggle",
+              "Monopoly and Finance Capital",
+              "Political Economy",
+              "Family and Gender"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "socialist-communist-literature",
+          "chapterTitle": "III. Socialist and Communist Literature"
         },
         {
           "annotation": {
@@ -8498,7 +8738,7 @@
         },
         {
           "annotation": {
-            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-2",
+            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-3",
             "targetText": "This should unite all workers who follow the slogan: ‘Get out of the trade unions!’ It is here that the militant proletariat musters its ranks for battle.",
             "summary": "Lenin refutes the ultra-left slogan 'Get out of the trade unions!' as sectarian isolation from the working masses.",
             "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located.",
@@ -10368,7 +10608,7 @@
     {
       "topic": "Family and Gender",
       "slug": "family-and-gender",
-      "count": 151,
+      "count": 152,
       "annotations": [
         {
           "annotation": {
@@ -10597,6 +10837,29 @@
           "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
           "chapterId": "bourgeois-proletarians",
           "chapterTitle": "I. Bourgeois and Proletarians"
+        },
+        {
+          "annotation": {
+            "id": "manifesto-chapter5-2",
+            "targetText": "B. Petty-Bourgeois Socialism The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie. In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.",
+            "summary": "Petty-bourgeois socialism: the fluctuating intermediate class seeks to restore pre-industrial property relations.",
+            "explanation": "Marx and Engels dissect petty-bourgeois socialism. Squeezed between giant monopolies and the growing working class, the petty bourgeoisie vacillates constantly. Their utopian critique seeks either to restore old pre-industrial guild crafts and patriarchal peasant farming, or to cramp modern mechanized forces within obsolete private property frameworks.",
+            "context": "Section III: Socialist and Communist Literature (Subsection 1: Reactionary Socialism)",
+            "topics": [
+              "Petty Bourgeoisie",
+              "Socialist Transition",
+              "Class Struggle",
+              "Monopoly and Finance Capital",
+              "Political Economy",
+              "Family and Gender"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "socialist-communist-literature",
+          "chapterTitle": "III. Socialist and Communist Literature"
         },
         {
           "annotation": {
@@ -11149,9 +11412,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "The State and Dictatorship of the Proletariat",
-              "Religion",
-              "Human Nature"
+              "Human Nature",
+              "Religion"
             ]
           },
           "bookId": "origin-family",
@@ -12068,7 +12330,8 @@
             "context": "",
             "topics": [
               "Family and Gender",
-              "Political Economy"
+              "Political Economy",
+              "Individualism"
             ]
           },
           "bookId": "red-love",
@@ -12124,8 +12387,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "Political Economy",
-              "Individualism"
+              "Individualism",
+              "Political Economy"
             ]
           },
           "bookId": "sexual-relations-and-the-class-struggle",
@@ -12201,6 +12464,7 @@
             "context": "",
             "topics": [
               "Family and Gender",
+              "Individualism",
               "Political Economy"
             ]
           },
@@ -13253,7 +13517,7 @@
     {
       "topic": "Historical Materialism",
       "slug": "historical-materialism",
-      "count": 136,
+      "count": 143,
       "annotations": [
         {
           "annotation": {
@@ -13524,6 +13788,27 @@
               "Historical Materialism",
               "Class Struggle",
               "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "proletarians-communists",
+          "chapterTitle": "II. Proletarians and Communists"
+        },
+        {
+          "annotation": {
+            "id": "communist-manifesto-chapter4-ext-10",
+            "targetText": "From the moment when labour can no longer be converted into capital, money, or rent, into a social power capable of being monopolised, i.e., from the moment when individual property can no longer be transformed into bourgeois property, into capital, from that moment, you say, individuality vanishes. You must, therefore, confess that by \"individual\" you mean no other person than the bourgeois, than the middle-class owner of property. This person must, indeed, be swept out of the way, and made impossible.",
+            "summary": "Critique of bourgeois individuality: capitalist society equates human individuality strictly with middle-class property ownership.",
+            "explanation": "Marx and Engels expose the class bias within liberal notions of the individual. Under capitalism, individuality is treated as vanishing the moment private productive capital can no longer be monopolised. Bourgeois individuality is therefore merely the liberty of the propertied class to exploit others, which communism seeks to abolish so that all people can develop genuine personal individuality.",
+            "context": "Section II: Proletarians and Communists",
+            "topics": [
+              "Individualism",
+              "Class Struggle",
+              "Historical Materialism",
+              "Monopoly and Finance Capital"
             ]
           },
           "bookId": "communist-manifesto",
@@ -13830,6 +14115,26 @@
         },
         {
           "annotation": {
+            "id": "das-kapital-vol-1-chapter26-ann-3",
+            "targetText": "To know what is useful for a dog, one must study dog-nature. This nature itself is not to be deduced from the principle of utility. Applying this to man, he that would criticise all human acts, movements, relations, etc., by the principle of utility, must first deal with human nature in general, and then with human nature as modified in each historical epoch. Bentham makes short work of it. With the driest naiveté he takes the modern shopkeeper, especially the English shopkeeper, as the normal man. Whatever is useful to this queer normal man, and to his world, is absolutely useful.",
+            "summary": "Critique of bourgeois human nature: Jeremy Bentham mistakes the 19th-century English shopkeeper for universal human nature.",
+            "explanation": "Marx satirizes utilitarian philosophy for projecting temporary capitalist social relations onto universal humanity. To determine what is useful for human beings, one must analyze human nature as modified in each historical epoch, rather than declaring the modern bourgeois shopkeeper to be the timeless model of all human nature.",
+            "context": "Part VII, Chapter 24: Conversion of Surplus-Value into Capital (Section 5)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-1",
+          "bookTitle": "Capital: Volume 1 (The Process of Production of Capital)",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "conversion-of-surplus-value-into-capital",
+          "chapterTitle": "Conversion of Surplus-Value into Capital"
+        },
+        {
+          "annotation": {
             "id": "das-kapital-vol-1-chapter27-ext-4",
             "targetText": "Accumulation of wealth at one pole is, therefore, at the same time accumulation of misery, agony of toil slavery, ignorance, brutality, mental degradation, at the opposite pole, i.e., on the side of the class that produces its own product in the form of capital.",
             "summary": "The absolute general law of capitalist accumulation: polarization of wealth at one pole and misery, toil, and degradation at the other.",
@@ -14091,6 +14396,27 @@
         },
         {
           "annotation": {
+            "id": "das-kapital-vol-3-ch49-ann-3",
+            "targetText": "In fact, the realm of freedom actually begins only where labour which is determined by necessity and mundane considerations ceases; thus in the very nature of things it lies beyond the sphere of actual material production. Just as the savage must wrestle with Nature to satisfy his wants, to maintain and reproduce life, so must civilised man, and he must do so in all social formations and under all possible modes of production. With his development this realm of physical necessity expands as a result of his wants; but, at the same time, the forces of production which satisfy these wants also increase. Freedom in this field can only consist in socialised man, the associated producers, rationally regulating their interchange with Nature, bringing it under their common control, instead of being ruled by it as by the blind forces of Nature; and achieving this with the least expenditure of energy and under conditions most favourable to, and worthy of, their human nature. But it nonetheless still remains a realm of necessity. Beyond it begins that development of human energy which is an end in itself, the true realm of freedom, which, however, can blossom forth only with this realm of necessity as its basis. The shortening of the working-day is its basic prerequisite.",
+            "summary": "The realm of freedom and human nature: true human development begins beyond necessary material production.",
+            "explanation": "Freedom within necessary material production means associated producers rationally regulating their metabolism with nature under conditions worthy of human nature. But genuine human self-development as an end in itself begins beyond necessity, in the true realm of freedom, whose foundation is the shortening of the working day.",
+            "context": "Part VII, Chapter 48: The Trinity Formula",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-3",
+          "bookTitle": "Capital: Volume 3 (The Process of Capitalist Production as a Whole)",
+          "bookAuthor": "Karl Marx (ed. Friedrich Engels)",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "the-trinity-formula",
+          "chapterTitle": "The Trinity Formula"
+        },
+        {
+          "annotation": {
             "id": "foundations-leninism-ch1-ann-2",
             "targetText": "Some say that Leninism is the application of Marxism to the conditions that are peculiar to the situation in Russia. This definition contains a particle of truth, but not the whole truth by any means. Lenin, indeed, applied Marxism to Russian conditions, and applied it in a masterly way. But if Leninism were only the application of Marxism to the conditions that are peculiar to Russia it would be a purely national and only a national, a purely Russian and only a Russian, phenomenon. We know, however, that Leninism is not merely a Russian, but an international phenomenon rooted in the whole of international development.",
             "summary": "Leninism is an international theoretical system rooted in global imperialist development.",
@@ -14148,6 +14474,48 @@
           "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
           "chapterId": "part-i-critique-of-section-i-labor-distribution-phases-of-communist-society",
           "chapterTitle": "Part I: Critique of Section I (Labor, Distribution & Phases of Communist Society)"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-1",
+            "targetText": "The human being is in the most literal sense a ζῶον πολιτιχόν, [3] not merely a gregarious animal, but an animal which can individuate itself only in the midst of society.",
+            "summary": "Man as a social animal: human beings can individuate themselves only in the midst of society.",
+            "explanation": "Marx rejects the bourgeois economic myth of isolated individuals (Robinsonades) and emphasizes that human individuality and production exist purely through social relations.",
+            "context": "",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Individualism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-5",
+            "targetText": "The individual and isolated hunter and fisherman, with whom Smith and Ricardo begin, belongs among the unimaginative conceits of the eighteenth-century Robinsonades, [1] which in no way express merely a reaction against over-sophistication and a return to a misunderstood natural life, as cultural historians imagine. As little as Rousseau’s contrat social, which brings naturally independent, autonomous subjects into relation and connection by contract, rests on such naturalism. This is the semblance, the merely aesthetic semblance, of the Robinsonades, great and small. It is, rather, the anticipation of ‘civil society’, in preparation since the sixteenth century and making giant strides towards maturity in the eighteenth. In this society of free competition, the individual appears detached from the natural bonds etc. which in earlier historical periods make him the accessory of a definite and limited human conglomerate. Smith and Ricardo still stand with both feet on the shoulders of the eighteenth-century prophets, in whose imaginations this eighteenth-century individual, the product on one side of the dissolution of the feudal forms of society, on the other side of the new forces of production developed since the sixteenth century, appears as an ideal, whose existence they project into the past. Not as a historic result but as history’s point of departure. As the Natural Individual appropriate to their notion of human nature, not arising historically, but posited by nature. This illusion has been common to each new epoch to this day.",
+            "summary": "The Robinsonade myth of human nature: bourgeois economists project isolated capitalist individuals onto ancient history.",
+            "explanation": "Classical political economy falsely assumes the isolated individual hunter or fisherman as the starting point of human history, treating bourgeois individualism as eternal human nature. Marx shows that humans are social beings from the outset; the isolated individual is a late historical product of generalized commodity exchange, not nature point of departure.",
+            "context": "Introduction: Production, Consumption, Distribution, Exchange (Section 1: Production)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy",
+              "Individualism"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
         },
         {
           "annotation": {
@@ -14471,6 +14839,29 @@
         },
         {
           "annotation": {
+            "id": "on-contradiction-ch2-ann-4",
+            "targetText": "In their opinion, capitalist exploitation, capitalist competition, the individualist ideology of capitalist society, and so on, can all be found in ancient slave society, or even in primitive society, and will exist for ever unchanged. They ascribe the causes of social development to factors external to society, such as geography and climate.",
+            "summary": "The myth of eternal capitalist individualism: bourgeois metaphysics falsely projects competitive individualism onto all human history.",
+            "explanation": "Mao explains how reactionary and metaphysical thinkers treat capitalist competition and individualist ideology as immutable biological traits that have allegedly always existed and will exist forever. Dialectical materialism proves that human consciousness and social psychology are shaped by historical modes of production, not fixed eternal human nature.",
+            "context": "Section I: The Two World Outlooks",
+            "topics": [
+              "Individualism",
+              "Dialectics and Philosophy",
+              "Historical Materialism",
+              "Maoism and People's War",
+              "Human Nature",
+              "Political Economy"
+            ]
+          },
+          "bookId": "on-contradiction",
+          "bookTitle": "On Contradiction",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+          "chapterId": "i-the-two-world-outlooks",
+          "chapterTitle": "I. THE TWO WORLD OUTLOOKS"
+        },
+        {
+          "annotation": {
             "id": "protracted-war-ch4-1",
             "targetText": "Our enemy, Japan, is first of all a moribund imperialist power; she is already in her era of decline and is not only different from Britain at the time of the subjugation of India, when British capitalism was still in the era of its ascendancy, but also different from what she herself was at the time of World War I twenty years ago.",
             "summary": "Japan cannot repeat Britain's past conquest of India because world imperialism is now in decline while China has a Communist Party, a revolutionary army, and global support.",
@@ -14539,9 +14930,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "The State and Dictatorship of the Proletariat",
-              "Religion",
-              "Human Nature"
+              "Human Nature",
+              "Religion"
             ]
           },
           "bookId": "origin-family",
@@ -14914,8 +15304,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "Political Economy",
-              "Individualism"
+              "Individualism",
+              "Political Economy"
             ]
           },
           "bookId": "sexual-relations-and-the-class-struggle",
@@ -15032,9 +15422,29 @@
             "explanation": "In the first chapter of 'The Socialisation of Society', Bebel outlines the fundamental laws of socialist society: the universal duty of all able-bodied persons to work, democratic workplace administration, the replacement of money and commodity trade with labor certificates, and the drastic reduction of the working day through advanced technology and the abolition of parasitic labor.",
             "context": "",
             "topics": [
-              "Political Economy",
               "Socialist Transition",
               "Historical Materialism"
+            ]
+          },
+          "bookId": "society-of-the-future",
+          "bookTitle": "Society of the Future",
+          "bookAuthor": "August Bebel",
+          "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
+          "chapterId": "i-basic-laws-of-socialist-society",
+          "chapterTitle": "I. Basic Laws of Socialist Society"
+        },
+        {
+          "annotation": {
+            "id": "bebel-sof-ch2-ann-2",
+            "targetText": "A need deeply implanted in human nature is to be free to choose an occupation and to change it at will. Just as constant repetition makes the choicest dish repulsive, so does the treadmill of a repetitive occupation day in day out render the mind dull and slack. Man works only mechanically, does what he has to do without any higher inspiration and enjoyment. In every man there are latent abilities and inclinations which only need to be awakened and developed to produce the most beautiful results. Only then will man become full man.",
+            "summary": "Human nature and the division of labour: varied activity unlocks all-round human potential under socialism.",
+            "explanation": "Bebel argues that human nature naturally craves variety and freedom of choice, which capitalist lifelong division of labour deadens through mechanical repetition. By drastically reducing working hours and eliminating class specialization, socialist society enables every person to awaken their latent abilities across multiple fields.",
+            "context": "Section 2: Harmonious Development of Mental and Physical Labour",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Political Economy"
             ]
           },
           "bookId": "society-of-the-future",
@@ -15962,7 +16372,7 @@
     {
       "topic": "Imperialism and Colonialism",
       "slug": "imperialism-and-colonialism",
-      "count": 118,
+      "count": 119,
       "annotations": [
         {
           "annotation": {
@@ -16243,6 +16653,27 @@
             "explanation": "Refuting mechanical determinists who argued that China's industrial working class was too small to lead a revolution, Mao explains why the proletariat exercises vanguard leadership: first, its high concentration in large-scale modern enterprises (railways, mines, shipping, and textiles), and second, its complete deprivation of means of production under triple oppression by imperialists, warlords, and capitalists.",
             "context": "During the 1922 to 1926 Hong Kong-Canton, railway, and Shanghai general strikes, China's two million industrial workers paralyzed foreign imperialist commerce and spearheaded the national liberation movement.",
             "topics": [
+              "Class Struggle",
+              "Maoism and People's War",
+              "Imperialism and Colonialism"
+            ]
+          },
+          "bookId": "analysis-of-the-classes-in-chinese-society",
+          "bookTitle": "Analysis of the Classes in Chinese Society",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+          "chapterId": "analysis-of-the-classes-in-chinese-society",
+          "chapterTitle": "Analysis of the Classes in Chinese Society"
+        },
+        {
+          "annotation": {
+            "id": "ann-classes-petty-bourgeoisie",
+            "targetText": "The petty bourgeoisie. Included in this category are the owner-peasants, [7] the master handicraftsmen, the lower levels of the intellectuals: students, primary and secondary school teachers, lower government functionaries, office clerks, small lawyers: and the small traders. Both because of its size and class character, this class deserves very close attention.",
+            "summary": "The petty bourgeoisie: small-scale producers and urban intermediate strata situated between capital and wage labour.",
+            "explanation": "Mao provides a concrete class breakdown of the petty bourgeoisie (owner-peasants, small shopkeepers, master craftspeople, and lower intellectuals). Divided into strata based on economic stability, this class is buffeted by market pressure and foreign capital, making its left wing and middle strata vital allies of the proletariat in the anti-imperialist united front.",
+            "context": "Section on The Petty Bourgeoisie in Analysis of the Classes in Chinese Society",
+            "topics": [
+              "Petty Bourgeoisie",
               "Class Struggle",
               "Maoism and People's War",
               "Imperialism and Colonialism"
@@ -19402,6 +19833,25 @@
         },
         {
           "annotation": {
+            "id": "left-wing-communism-ch5-ann-1",
+            "targetText": "Whoever brings about even the slightest weakening of the iron discipline of the party of the proletariat (especially during its dictatorship), is actually aiding the bourgeoisie against the proletariat.",
+            "summary": "Iron discipline of the proletarian party: weakening discipline objectively aids the bourgeois enemy.",
+            "explanation": "Bolshevik party discipline was not maintained through blind obedience, but through vanguard class-consciousness, deep ties to working people, and practical tactical success.",
+            "context": "",
+            "topics": [
+              "Revolutionary Strategy and Party",
+              "The State and Dictatorship of the Proletariat"
+            ]
+          },
+          "bookId": "left-wing-communism",
+          "bookTitle": "“Left-Wing” Communism: an Infantile Disorder",
+          "bookAuthor": "V.I. Lenin",
+          "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+          "chapterId": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses",
+          "chapterTitle": "“Left-Wing” Communism in Germany: The Leaders, the Party, the Class, the Masses"
+        },
+        {
+          "annotation": {
             "id": "left-wing-communism-in-great-britain-ann-1",
             "targetText": "The article outlines the progress of the negotiations between the four organisations mentioned, for the formation of a united Communist Party, on the basis of affiliation to the Third International, the recognition of the Soviet system instead of parliamentarianism, and the recognition of the dictatorship of the proletariat.",
             "summary": "Boycotting parliamentary elections is only effective during active revolutionary uprisings; otherwise, parliament must be used as a public platform to educate workers.",
@@ -19602,28 +20052,6 @@
           "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
           "chapterId": "preface-to-the-first-edition",
           "chapterTitle": "Preface to the First Edition"
-        },
-        {
-          "annotation": {
-            "id": "origin-family-ch2-1",
-            "targetText": "[Mother-right, matriarchate ; Ed.] In this\r\nwork the author advances the following propositions: \r\n\r\n(1) That originally man lived in a state of sexual\r\npromiscuity, to describe which Bachofen uses the mistaken term\r\n\"hetaerism\"; \r\n\r\n(2) that such promiscuity excludes any certainty of\r\npaternity, and that descent could therefore be reckoned only in the female\r\nline, according to mother-right, and that this was originally the case amongst\r\nall the peoples of antiquity; \r\n\r\n(3) that since women, as mothers, were the only parents of\r\nthe younger generation that were known with certainty, they held a position of\r\nsuch high respect and honor that it became the foundation, in Bachofen's\r\nconception, of a regular rule of women (gynaecocracy); \r\n\r\n(4) that the transition to monogamy, where the woman belonged\r\nto one man exclusively, involved a violation of a primitive religious law (that\r\nis, actually a violation of the traditional right of the other men to this\r\nwoman), and that in order to expiate this violation or to purchase indulgence\r\nfor it the woman had to surrender herself for a limited period.",
-            "summary": "19th-century scholars falsely assumed that the modern patriarchal family had existed unchanged throughout human history, treating temporary capitalist marriage norms as eternal human nature.",
-            "explanation": "19th-century scholars falsely assumed that the modern patriarchal family had existed unchanged throughout human history, treating temporary capitalist marriage norms as eternal human nature.",
-            "context": "Engels critiques bourgeois ideology for projecting modern capitalist family structures backward into prehistory. In reality, human family systems evolved dramatically across different economic stages.",
-            "topics": [
-              "Family and Gender",
-              "Historical Materialism",
-              "The State and Dictatorship of the Proletariat",
-              "Religion",
-              "Human Nature"
-            ]
-          },
-          "bookId": "origin-family",
-          "bookTitle": "The Origin of the Family, Private Property and the State",
-          "bookAuthor": "Friedrich Engels",
-          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
-          "chapterId": "preface-to-the-fourth-edition",
-          "chapterTitle": "Preface to the Fourth Edition"
         },
         {
           "annotation": {
@@ -20545,7 +20973,7 @@
     {
       "topic": "Maoism and People's War",
       "slug": "maoism-and-people-s-war",
-      "count": 79,
+      "count": 81,
       "annotations": [
         {
           "annotation": {
@@ -20619,6 +21047,27 @@
             "explanation": "Refuting mechanical determinists who argued that China's industrial working class was too small to lead a revolution, Mao explains why the proletariat exercises vanguard leadership: first, its high concentration in large-scale modern enterprises (railways, mines, shipping, and textiles), and second, its complete deprivation of means of production under triple oppression by imperialists, warlords, and capitalists.",
             "context": "During the 1922 to 1926 Hong Kong-Canton, railway, and Shanghai general strikes, China's two million industrial workers paralyzed foreign imperialist commerce and spearheaded the national liberation movement.",
             "topics": [
+              "Class Struggle",
+              "Maoism and People's War",
+              "Imperialism and Colonialism"
+            ]
+          },
+          "bookId": "analysis-of-the-classes-in-chinese-society",
+          "bookTitle": "Analysis of the Classes in Chinese Society",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+          "chapterId": "analysis-of-the-classes-in-chinese-society",
+          "chapterTitle": "Analysis of the Classes in Chinese Society"
+        },
+        {
+          "annotation": {
+            "id": "ann-classes-petty-bourgeoisie",
+            "targetText": "The petty bourgeoisie. Included in this category are the owner-peasants, [7] the master handicraftsmen, the lower levels of the intellectuals: students, primary and secondary school teachers, lower government functionaries, office clerks, small lawyers: and the small traders. Both because of its size and class character, this class deserves very close attention.",
+            "summary": "The petty bourgeoisie: small-scale producers and urban intermediate strata situated between capital and wage labour.",
+            "explanation": "Mao provides a concrete class breakdown of the petty bourgeoisie (owner-peasants, small shopkeepers, master craftspeople, and lower intellectuals). Divided into strata based on economic stability, this class is buffeted by market pressure and foreign capital, making its left wing and middle strata vital allies of the proletariat in the anti-imperialist united front.",
+            "context": "Section on The Petty Bourgeoisie in Analysis of the Classes in Chinese Society",
+            "topics": [
+              "Petty Bourgeoisie",
               "Class Struggle",
               "Maoism and People's War",
               "Imperialism and Colonialism"
@@ -21083,6 +21532,29 @@
             "context": "",
             "topics": [
               "Maoism and People's War"
+            ]
+          },
+          "bookId": "on-contradiction",
+          "bookTitle": "On Contradiction",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+          "chapterId": "i-the-two-world-outlooks",
+          "chapterTitle": "I. THE TWO WORLD OUTLOOKS"
+        },
+        {
+          "annotation": {
+            "id": "on-contradiction-ch2-ann-4",
+            "targetText": "In their opinion, capitalist exploitation, capitalist competition, the individualist ideology of capitalist society, and so on, can all be found in ancient slave society, or even in primitive society, and will exist for ever unchanged. They ascribe the causes of social development to factors external to society, such as geography and climate.",
+            "summary": "The myth of eternal capitalist individualism: bourgeois metaphysics falsely projects competitive individualism onto all human history.",
+            "explanation": "Mao explains how reactionary and metaphysical thinkers treat capitalist competition and individualist ideology as immutable biological traits that have allegedly always existed and will exist forever. Dialectical materialism proves that human consciousness and social psychology are shaped by historical modes of production, not fixed eternal human nature.",
+            "context": "Section I: The Two World Outlooks",
+            "topics": [
+              "Individualism",
+              "Dialectics and Philosophy",
+              "Historical Materialism",
+              "Maoism and People's War",
+              "Human Nature",
+              "Political Economy"
             ]
           },
           "bookId": "on-contradiction",
@@ -22072,7 +22544,7 @@
     {
       "topic": "Revolutionary Strategy and Party",
       "slug": "revolutionary-strategy-and-party",
-      "count": 73,
+      "count": 74,
       "annotations": [
         {
           "annotation": {
@@ -22731,13 +23203,34 @@
         },
         {
           "annotation": {
-            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-1",
+            "id": "left-wing-communism-ch5-ann-0",
+            "targetText": "They surround the proletariat on every side with a petty-bourgeois atmosphere, which permeates and corrupts the proletariat, and constantly causes among the proletariat relapses into petty-bourgeois spinelessness, disunity, individualism, and alternating moods of exaltation and dejection. The strictest centralisation and discipline are required within the political party of the proletariat in order to counteract this, in order that the organisational role of the proletariat (and that is its principal role) may be exercised correctly, successfully and victoriously.",
+            "summary": "Overcoming petty-bourgeois individualism: centralisation and iron discipline combat the disintegrating habits of petty proprietors.",
+            "explanation": "Lenin warns that surrounding petty-bourgeois elements constantly infect the working class with individualism, indiscipline, and instability. Only an iron-disciplined revolutionary party capable of rallying the masses can counteract this atomizing individualism and fulfill its organizational historical mission.",
+            "context": "Chapter 5: Left-Wing Communism in Germany. The Leaders, the Party, the Class, the Masses",
+            "topics": [
+              "Individualism",
+              "Revolutionary Strategy and Party",
+              "Petty Bourgeoisie"
+            ]
+          },
+          "bookId": "left-wing-communism",
+          "bookTitle": "“Left-Wing” Communism: an Infantile Disorder",
+          "bookAuthor": "V.I. Lenin",
+          "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+          "chapterId": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses",
+          "chapterTitle": "“Left-Wing” Communism in Germany: The Leaders, the Party, the Class, the Masses"
+        },
+        {
+          "annotation": {
+            "id": "left-wing-communism-ch5-ann-1",
             "targetText": "Whoever brings about even the slightest weakening of the iron discipline of the party of the proletariat (especially during its dictatorship), is actually aiding the bourgeoisie against the proletariat.",
-            "summary": "Bolshevik party discipline was not maintained through blind obedience, but through vanguard class-consciousness, deep ties to working people, and practical tactical success.",
+            "summary": "Iron discipline of the proletarian party: weakening discipline objectively aids the bourgeois enemy.",
             "explanation": "Bolshevik party discipline was not maintained through blind obedience, but through vanguard class-consciousness, deep ties to working people, and practical tactical success.",
             "context": "",
             "topics": [
-              "Revolutionary Strategy and Party"
+              "Revolutionary Strategy and Party",
+              "The State and Dictatorship of the Proletariat"
             ]
           },
           "bookId": "left-wing-communism",
@@ -23522,7 +24015,7 @@
     {
       "topic": "Monopoly and Finance Capital",
       "slug": "monopoly-and-finance-capital",
-      "count": 62,
+      "count": 64,
       "annotations": [
         {
           "annotation": {
@@ -23683,6 +24176,50 @@
           "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
           "chapterId": "preface",
           "chapterTitle": "Preface"
+        },
+        {
+          "annotation": {
+            "id": "communist-manifesto-chapter4-ext-10",
+            "targetText": "From the moment when labour can no longer be converted into capital, money, or rent, into a social power capable of being monopolised, i.e., from the moment when individual property can no longer be transformed into bourgeois property, into capital, from that moment, you say, individuality vanishes. You must, therefore, confess that by \"individual\" you mean no other person than the bourgeois, than the middle-class owner of property. This person must, indeed, be swept out of the way, and made impossible.",
+            "summary": "Critique of bourgeois individuality: capitalist society equates human individuality strictly with middle-class property ownership.",
+            "explanation": "Marx and Engels expose the class bias within liberal notions of the individual. Under capitalism, individuality is treated as vanishing the moment private productive capital can no longer be monopolised. Bourgeois individuality is therefore merely the liberty of the propertied class to exploit others, which communism seeks to abolish so that all people can develop genuine personal individuality.",
+            "context": "Section II: Proletarians and Communists",
+            "topics": [
+              "Individualism",
+              "Class Struggle",
+              "Historical Materialism",
+              "Monopoly and Finance Capital"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "proletarians-communists",
+          "chapterTitle": "II. Proletarians and Communists"
+        },
+        {
+          "annotation": {
+            "id": "manifesto-chapter5-2",
+            "targetText": "B. Petty-Bourgeois Socialism The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie. In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.",
+            "summary": "Petty-bourgeois socialism: the fluctuating intermediate class seeks to restore pre-industrial property relations.",
+            "explanation": "Marx and Engels dissect petty-bourgeois socialism. Squeezed between giant monopolies and the growing working class, the petty bourgeoisie vacillates constantly. Their utopian critique seeks either to restore old pre-industrial guild crafts and patriarchal peasant farming, or to cramp modern mechanized forces within obsolete private property frameworks.",
+            "context": "Section III: Socialist and Communist Literature (Subsection 1: Reactionary Socialism)",
+            "topics": [
+              "Petty Bourgeoisie",
+              "Socialist Transition",
+              "Class Struggle",
+              "Monopoly and Finance Capital",
+              "Political Economy",
+              "Family and Gender"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "socialist-communist-literature",
+          "chapterTitle": "III. Socialist and Communist Literature"
         },
         {
           "annotation": {
@@ -25162,7 +25699,7 @@
         },
         {
           "annotation": {
-            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-3",
+            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-4",
             "targetText": "Accordingly, all compromise with other parties, all reversion to parliamentary forms of struggle which have become historically and politically obsolete, and any policy of manoeuvring and compromise must be emphatically rejected.",
             "summary": "Ultra-left dogmatism rejects all tactical maneuvering and parliamentary struggle on abstract principle.",
             "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
@@ -26218,7 +26755,7 @@
         },
         {
           "annotation": {
-            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-3",
+            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-4",
             "targetText": "Accordingly, all compromise with other parties, all reversion to parliamentary forms of struggle which have become historically and politically obsolete, and any policy of manoeuvring and compromise must be emphatically rejected.",
             "summary": "Ultra-left dogmatism rejects all tactical maneuvering and parliamentary struggle on abstract principle.",
             "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
@@ -27354,7 +27891,7 @@
         },
         {
           "annotation": {
-            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-2",
+            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-3",
             "targetText": "This should unite all workers who follow the slogan: ‘Get out of the trade unions!’ It is here that the militant proletariat musters its ranks for battle.",
             "summary": "Lenin refutes the ultra-left slogan 'Get out of the trade unions!' as sectarian isolation from the working masses.",
             "explanation": "Lenin refutes ultra-leftists who wanted to abandon conservative trade unions. Revolutionaries must work inside flawed mass institutions where real workers are located.",
@@ -27373,7 +27910,7 @@
         },
         {
           "annotation": {
-            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-3",
+            "id": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses-ann-4",
             "targetText": "Accordingly, all compromise with other parties, all reversion to parliamentary forms of struggle which have become historically and politically obsolete, and any policy of manoeuvring and compromise must be emphatically rejected.",
             "summary": "Ultra-left dogmatism rejects all tactical maneuvering and parliamentary struggle on abstract principle.",
             "explanation": "Distinguishing between necessary tactical compromises that preserve organizational strength vs. opportunist surrenders of principle is essential for political leadership.",
@@ -28287,9 +28824,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "The State and Dictatorship of the Proletariat",
-              "Religion",
-              "Human Nature"
+              "Human Nature",
+              "Religion"
             ]
           },
           "bookId": "origin-family",
@@ -28841,7 +29377,7 @@
     {
       "topic": "Socialist Transition",
       "slug": "socialist-transition",
-      "count": 32,
+      "count": 36,
       "annotations": [
         {
           "annotation": {
@@ -28922,6 +29458,29 @@
         },
         {
           "annotation": {
+            "id": "manifesto-chapter5-2",
+            "targetText": "B. Petty-Bourgeois Socialism The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie. In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.",
+            "summary": "Petty-bourgeois socialism: the fluctuating intermediate class seeks to restore pre-industrial property relations.",
+            "explanation": "Marx and Engels dissect petty-bourgeois socialism. Squeezed between giant monopolies and the growing working class, the petty bourgeoisie vacillates constantly. Their utopian critique seeks either to restore old pre-industrial guild crafts and patriarchal peasant farming, or to cramp modern mechanized forces within obsolete private property frameworks.",
+            "context": "Section III: Socialist and Communist Literature (Subsection 1: Reactionary Socialism)",
+            "topics": [
+              "Petty Bourgeoisie",
+              "Socialist Transition",
+              "Class Struggle",
+              "Monopoly and Finance Capital",
+              "Political Economy",
+              "Family and Gender"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "socialist-communist-literature",
+          "chapterTitle": "III. Socialist and Communist Literature"
+        },
+        {
+          "annotation": {
             "id": "das-kapital-vol-1-chapter15-ext-2",
             "targetText": "Just as the offensive power of a squadron of cavalry, or the defensive power of a regiment of infantry is essentially different from the sum of the offensive or defensive powers of the individual cavalry or infantry soldiers taken separately, so the sum total of the mechanical forces exerted by isolated workmen differs from the social force that is developed, when many hands take part simultaneously in one and the same undivided operation, such as raising a heavy weight, turning a winch, or removing an obstacle.",
             "summary": "The collective social power of cooperation: combined labour produces a social force greater than the sum of isolated workers.",
@@ -28999,6 +29558,27 @@
           "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
           "chapterId": "schematic-presentation-of-accumulation",
           "chapterTitle": "Schematic Presentation of Accumulation"
+        },
+        {
+          "annotation": {
+            "id": "das-kapital-vol-3-ch49-ann-3",
+            "targetText": "In fact, the realm of freedom actually begins only where labour which is determined by necessity and mundane considerations ceases; thus in the very nature of things it lies beyond the sphere of actual material production. Just as the savage must wrestle with Nature to satisfy his wants, to maintain and reproduce life, so must civilised man, and he must do so in all social formations and under all possible modes of production. With his development this realm of physical necessity expands as a result of his wants; but, at the same time, the forces of production which satisfy these wants also increase. Freedom in this field can only consist in socialised man, the associated producers, rationally regulating their interchange with Nature, bringing it under their common control, instead of being ruled by it as by the blind forces of Nature; and achieving this with the least expenditure of energy and under conditions most favourable to, and worthy of, their human nature. But it nonetheless still remains a realm of necessity. Beyond it begins that development of human energy which is an end in itself, the true realm of freedom, which, however, can blossom forth only with this realm of necessity as its basis. The shortening of the working-day is its basic prerequisite.",
+            "summary": "The realm of freedom and human nature: true human development begins beyond necessary material production.",
+            "explanation": "Freedom within necessary material production means associated producers rationally regulating their metabolism with nature under conditions worthy of human nature. But genuine human self-development as an end in itself begins beyond necessity, in the true realm of freedom, whose foundation is the shortening of the working day.",
+            "context": "Part VII, Chapter 48: The Trinity Formula",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-3",
+          "bookTitle": "Capital: Volume 3 (The Process of Capitalist Production as a Whole)",
+          "bookAuthor": "Karl Marx (ed. Friedrich Engels)",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "the-trinity-formula",
+          "chapterTitle": "The Trinity Formula"
         },
         {
           "annotation": {
@@ -29189,6 +29769,26 @@
         },
         {
           "annotation": {
+            "id": "principles-of-communism-ch13-ann-2",
+            "targetText": "for big industry, competition and generally the individualistic organization of production have become a fetter which it must and will shatter; that so long as big industry remains on its present footing, it can be maintained only through the general chaos of every seven years, each time threatening the whole of civilization and not only plunging the proletarians into misery but also ruining large sections of the bourgeoisie; hence either that big industry must itself be given up, which is an absolute impossibility, or that it makes unavoidably necessary an entirely new organization of society in which production is no longer directed by mutually competing individual industrialists but rather by the whole society operating according to a definite plan and according to the needs of all.",
+            "summary": "The individualistic organization of production has become a fetter: replacing competitive chaos with societal planning.",
+            "explanation": "Engels explains that large-scale mechanized industry cannot function sustainably under the anarchy of individualistic competition and private ownership, which repeatedly produces devastating periodic crises. Industry unavoidably requires replacing individualistic direction with collective social planning for the needs of all.",
+            "context": "Question 13: What were the consequences of the industrial revolution and dividing society into bourgeoisie and proletariat?",
+            "topics": [
+              "Individualism",
+              "Political Economy",
+              "Socialist Transition"
+            ]
+          },
+          "bookId": "principles-of-communism",
+          "bookTitle": "The Principles of Communism",
+          "bookAuthor": "Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "13-what-follows-from-these-periodic-commercial-crises",
+          "chapterTitle": "13. What Follows from These Periodic Commercial Crises?"
+        },
+        {
+          "annotation": {
             "id": "principles-of-communism-chapter17-ext-2",
             "targetText": "No, no more than existing forces of production can at one stroke be multiplied to the extent necessary for the creation of a communal society. In all probability, the proletarian revolution will transform existing society gradually and will be able to abolish private property only when the means of production are available in sufficient quantity.",
             "summary": "Private property cannot be abolished overnight because the productive forces must first be developed enough.",
@@ -29256,9 +29856,29 @@
             "explanation": "In the first chapter of 'The Socialisation of Society', Bebel outlines the fundamental laws of socialist society: the universal duty of all able-bodied persons to work, democratic workplace administration, the replacement of money and commodity trade with labor certificates, and the drastic reduction of the working day through advanced technology and the abolition of parasitic labor.",
             "context": "",
             "topics": [
-              "Political Economy",
               "Socialist Transition",
               "Historical Materialism"
+            ]
+          },
+          "bookId": "society-of-the-future",
+          "bookTitle": "Society of the Future",
+          "bookAuthor": "August Bebel",
+          "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
+          "chapterId": "i-basic-laws-of-socialist-society",
+          "chapterTitle": "I. Basic Laws of Socialist Society"
+        },
+        {
+          "annotation": {
+            "id": "bebel-sof-ch2-ann-2",
+            "targetText": "A need deeply implanted in human nature is to be free to choose an occupation and to change it at will. Just as constant repetition makes the choicest dish repulsive, so does the treadmill of a repetitive occupation day in day out render the mind dull and slack. Man works only mechanically, does what he has to do without any higher inspiration and enjoyment. In every man there are latent abilities and inclinations which only need to be awakened and developed to produce the most beautiful results. Only then will man become full man.",
+            "summary": "Human nature and the division of labour: varied activity unlocks all-round human potential under socialism.",
+            "explanation": "Bebel argues that human nature naturally craves variety and freedom of choice, which capitalist lifelong division of labour deadens through mechanical repetition. By drastically reducing working hours and eliminating class specialization, socialist society enables every person to awaken their latent abilities across multiple fields.",
+            "context": "Section 2: Harmonious Development of Mental and Physical Labour",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Political Economy"
             ]
           },
           "bookId": "society-of-the-future",
@@ -29490,7 +30110,7 @@
     {
       "topic": "Petty Bourgeoisie",
       "slug": "petty-bourgeoisie",
-      "count": 19,
+      "count": 21,
       "annotations": [
         {
           "annotation": {
@@ -29511,6 +30131,27 @@
           "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
           "chapterId": "the-reactionary-character-of-romanticism",
           "chapterTitle": "Chapter 17: The Reactionary Character of Romanticism"
+        },
+        {
+          "annotation": {
+            "id": "ann-classes-petty-bourgeoisie",
+            "targetText": "The petty bourgeoisie. Included in this category are the owner-peasants, [7] the master handicraftsmen, the lower levels of the intellectuals: students, primary and secondary school teachers, lower government functionaries, office clerks, small lawyers: and the small traders. Both because of its size and class character, this class deserves very close attention.",
+            "summary": "The petty bourgeoisie: small-scale producers and urban intermediate strata situated between capital and wage labour.",
+            "explanation": "Mao provides a concrete class breakdown of the petty bourgeoisie (owner-peasants, small shopkeepers, master craftspeople, and lower intellectuals). Divided into strata based on economic stability, this class is buffeted by market pressure and foreign capital, making its left wing and middle strata vital allies of the proletariat in the anti-imperialist united front.",
+            "context": "Section on The Petty Bourgeoisie in Analysis of the Classes in Chinese Society",
+            "topics": [
+              "Petty Bourgeoisie",
+              "Class Struggle",
+              "Maoism and People's War",
+              "Imperialism and Colonialism"
+            ]
+          },
+          "bookId": "analysis-of-the-classes-in-chinese-society",
+          "bookTitle": "Analysis of the Classes in Chinese Society",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+          "chapterId": "analysis-of-the-classes-in-chinese-society",
+          "chapterTitle": "Analysis of the Classes in Chinese Society"
         },
         {
           "annotation": {
@@ -29573,12 +30214,17 @@
         {
           "annotation": {
             "id": "manifesto-chapter5-2",
-            "targetText": "B. Petty-Bourgeois Socialism",
-            "summary": "Small business owners criticize big corporations, wanting to turn back the clock to pre-industrial craftsmanship.",
-            "explanation": "Small business owners criticize big corporations, wanting to turn back the clock to pre-industrial craftsmanship.",
-            "context": "Marx argues that returning to small-scale pre-industrial work is an impossible fantasy.",
+            "targetText": "B. Petty-Bourgeois Socialism The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie. In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.",
+            "summary": "Petty-bourgeois socialism: the fluctuating intermediate class seeks to restore pre-industrial property relations.",
+            "explanation": "Marx and Engels dissect petty-bourgeois socialism. Squeezed between giant monopolies and the growing working class, the petty bourgeoisie vacillates constantly. Their utopian critique seeks either to restore old pre-industrial guild crafts and patriarchal peasant farming, or to cramp modern mechanized forces within obsolete private property frameworks.",
+            "context": "Section III: Socialist and Communist Literature (Subsection 1: Reactionary Socialism)",
             "topics": [
-              "Petty Bourgeoisie"
+              "Petty Bourgeoisie",
+              "Socialist Transition",
+              "Class Struggle",
+              "Monopoly and Finance Capital",
+              "Political Economy",
+              "Family and Gender"
             ]
           },
           "bookId": "communist-manifesto",
@@ -29691,6 +30337,26 @@
           "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
           "chapterId": "compromises-labour-discipline-and-socialist-construction",
           "chapterTitle": "V. Compromises, Labour Discipline, and Socialist Construction"
+        },
+        {
+          "annotation": {
+            "id": "left-wing-communism-ch5-ann-0",
+            "targetText": "They surround the proletariat on every side with a petty-bourgeois atmosphere, which permeates and corrupts the proletariat, and constantly causes among the proletariat relapses into petty-bourgeois spinelessness, disunity, individualism, and alternating moods of exaltation and dejection. The strictest centralisation and discipline are required within the political party of the proletariat in order to counteract this, in order that the organisational role of the proletariat (and that is its principal role) may be exercised correctly, successfully and victoriously.",
+            "summary": "Overcoming petty-bourgeois individualism: centralisation and iron discipline combat the disintegrating habits of petty proprietors.",
+            "explanation": "Lenin warns that surrounding petty-bourgeois elements constantly infect the working class with individualism, indiscipline, and instability. Only an iron-disciplined revolutionary party capable of rallying the masses can counteract this atomizing individualism and fulfill its organizational historical mission.",
+            "context": "Chapter 5: Left-Wing Communism in Germany. The Leaders, the Party, the Class, the Masses",
+            "topics": [
+              "Individualism",
+              "Revolutionary Strategy and Party",
+              "Petty Bourgeoisie"
+            ]
+          },
+          "bookId": "left-wing-communism",
+          "bookTitle": "“Left-Wing” Communism: an Infantile Disorder",
+          "bookAuthor": "V.I. Lenin",
+          "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+          "chapterId": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses",
+          "chapterTitle": "“Left-Wing” Communism in Germany: The Leaders, the Party, the Class, the Masses"
         },
         {
           "annotation": {
@@ -29872,6 +30538,344 @@
           "coverGradient": "linear-gradient(135deg, #801336 0%, #2b0010 100%)",
           "chapterId": "fascism-august-1923",
           "chapterTitle": "Fascism (August 1923)"
+        }
+      ]
+    },
+    {
+      "topic": "Individualism",
+      "slug": "individualism",
+      "count": 16,
+      "annotations": [
+        {
+          "annotation": {
+            "id": "anarchism-socialism-ch1-ann-1",
+            "targetText": "The cornerstone of anarchism is the individual, whose emancipation, \naccording to its tenets, is the principal condition for the emancipation of the \nmasses, the collective body. According to the tenets of anarchism, the emancipation \nof the masses is impossible until the individual is emancipated. Accordingly, its \nslogan is: \"Everything for the individual.\" The cornerstone of Marxism, however, \nis the masses, whose emancipation, according to its tenets, is the principal condition \nfor the emancipation of the individual. That is to say, according to the tenets \nof Marxism, the emancipation of the individual is impossible until the masses are \nemancipated. Accordingly, its slogan is: \"Everything for the masses.\"",
+            "summary": "Contrasts the individualist premise of anarchism with the collective foundation of scientific socialism.",
+            "explanation": "Anarchism places the isolated individual at its center, asserting that social emancipation occurs only after individual liberation. Marxism inverts this premise: individual freedom is materially impossible so long as the mass of humanity remains bound by capitalist exploitation. Genuine individual emancipation requires collective class liberation.",
+            "context": "Written in Tiflis between late 1906 and early 1907 during the reactionary aftermath of the 1905 Russian Revolution, when Georgian anarchist groups under V. Cherkezishvili were winning influence among Caucasian workers.",
+            "topics": [
+              "Individualism",
+              "Ultra Leftism and Anarchism",
+              "Class Struggle",
+              "Political Economy"
+            ]
+          },
+          "bookId": "anarchism-or-socialism",
+          "bookTitle": "Anarchism or Socialism?",
+          "bookAuthor": "Joseph Stalin",
+          "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "Introduction"
+        },
+        {
+          "annotation": {
+            "id": "anarchism-socialism-ch1-ann-2",
+            "targetText": "Socialism is divided into three main trends : reformism, anarchism and Marxism.\n\nReformism (Bernstein and others), which regards socialism as a remote goal and \nnothing more, reformism, which actually repudiates the socialist revolution and \naims at establishing socialism by peaceful means, reformism, which advocates not \nclass struggle but class collaboration : this reformism is decaying day by day, is \nday by day losing all semblance of socialism and, in our opinion, it is totally \nunnecessary to examine it in these articles when defining socialism.\n\nIt is altogether different with Marxism and anarchism: both are at the present \ntime recognised as socialist trends, they are waging a fierce struggle against each \nother, both are trying to present themselves to the proletariat as genuinely socialist \ndoctrines, and, of course, a study and comparison of the two will be far more interesting \nfor the reader.\n\nWe are not the kind of people who, when the word \"anarchism\" is mentioned, turn \naway contemptuously and say with a supercilious wave of the hand: \"Why waste time \non that, it's not worth talking about!\" We think that such cheap \"criticism\" is \nundignified and useless.\n\nNor are we the kind of people who console themselves with the thought that the \nAnarchists \"have no masses behind them and, therefore, are not so dangerous.\" It \nis not who has a larger or smaller \"mass\" following today, but the essence of the \ndoctrine that matters. If the \"doctrine\" of the Anarchists expresses the truth, \nthen it goes without saying that it will certainly hew a path for itself and will \nrally the masses around itself. If, however, it is unsound and built up on a false \nfoundation, it will not last long and will remain suspended in mid-air. But the \nunsoundness of anarchism must be proved.\n\nSome people believe that Marxism and anarchism are based on the same principles \nand that the disagreements between them concern only tactics, so that, in the opinion \nof these people, it is quite impossible to draw a contrast between these two trends.\n\nThis is a great mistake.\n\nWe believe that the Anarchists are real enemies of Marxism. Accordingly, we also \nhold that a real struggle must be waged against real enemies. Therefore, it is necessary \nto examine the \"doctrine\" of the Anarchists from beginning to end and weigh it up \nthoroughly from all aspects.",
+            "summary": "Distinguishes Marxism from both bourgeois reformism and petty-bourgeois anarchism.",
+            "explanation": "Categorizes modern socialism into three distinct currents: reformism (class collaboration and denial of revolution), anarchism (individualist repudiation of the state and class discipline), and Marxism (scientific class struggle culminating in the dictatorship of the proletariat).",
+            "context": "",
+            "topics": [
+              "Reform and Revisionism",
+              "Ultra Leftism and Anarchism",
+              "Historical Materialism",
+              "The State and Dictatorship of the Proletariat",
+              "Class Struggle",
+              "Individualism"
+            ]
+          },
+          "bookId": "anarchism-or-socialism",
+          "bookTitle": "Anarchism or Socialism?",
+          "bookAuthor": "Joseph Stalin",
+          "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "Introduction"
+        },
+        {
+          "annotation": {
+            "id": "communist-manifesto-chapter4-ext-10",
+            "targetText": "From the moment when labour can no longer be converted into capital, money, or rent, into a social power capable of being monopolised, i.e., from the moment when individual property can no longer be transformed into bourgeois property, into capital, from that moment, you say, individuality vanishes. You must, therefore, confess that by \"individual\" you mean no other person than the bourgeois, than the middle-class owner of property. This person must, indeed, be swept out of the way, and made impossible.",
+            "summary": "Critique of bourgeois individuality: capitalist society equates human individuality strictly with middle-class property ownership.",
+            "explanation": "Marx and Engels expose the class bias within liberal notions of the individual. Under capitalism, individuality is treated as vanishing the moment private productive capital can no longer be monopolised. Bourgeois individuality is therefore merely the liberty of the propertied class to exploit others, which communism seeks to abolish so that all people can develop genuine personal individuality.",
+            "context": "Section II: Proletarians and Communists",
+            "topics": [
+              "Individualism",
+              "Class Struggle",
+              "Historical Materialism",
+              "Monopoly and Finance Capital"
+            ]
+          },
+          "bookId": "communist-manifesto",
+          "bookTitle": "The Communist Manifesto",
+          "bookAuthor": "Karl Marx & Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "proletarians-communists",
+          "chapterTitle": "II. Proletarians and Communists"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-1",
+            "targetText": "The human being is in the most literal sense a ζῶον πολιτιχόν, [3] not merely a gregarious animal, but an animal which can individuate itself only in the midst of society.",
+            "summary": "Man as a social animal: human beings can individuate themselves only in the midst of society.",
+            "explanation": "Marx rejects the bourgeois economic myth of isolated individuals (Robinsonades) and emphasizes that human individuality and production exist purely through social relations.",
+            "context": "",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Individualism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-5",
+            "targetText": "The individual and isolated hunter and fisherman, with whom Smith and Ricardo begin, belongs among the unimaginative conceits of the eighteenth-century Robinsonades, [1] which in no way express merely a reaction against over-sophistication and a return to a misunderstood natural life, as cultural historians imagine. As little as Rousseau’s contrat social, which brings naturally independent, autonomous subjects into relation and connection by contract, rests on such naturalism. This is the semblance, the merely aesthetic semblance, of the Robinsonades, great and small. It is, rather, the anticipation of ‘civil society’, in preparation since the sixteenth century and making giant strides towards maturity in the eighteenth. In this society of free competition, the individual appears detached from the natural bonds etc. which in earlier historical periods make him the accessory of a definite and limited human conglomerate. Smith and Ricardo still stand with both feet on the shoulders of the eighteenth-century prophets, in whose imaginations this eighteenth-century individual, the product on one side of the dissolution of the feudal forms of society, on the other side of the new forces of production developed since the sixteenth century, appears as an ideal, whose existence they project into the past. Not as a historic result but as history’s point of departure. As the Natural Individual appropriate to their notion of human nature, not arising historically, but posited by nature. This illusion has been common to each new epoch to this day.",
+            "summary": "The Robinsonade myth of human nature: bourgeois economists project isolated capitalist individuals onto ancient history.",
+            "explanation": "Classical political economy falsely assumes the isolated individual hunter or fisherman as the starting point of human history, treating bourgeois individualism as eternal human nature. Marx shows that humans are social beings from the outset; the isolated individual is a late historical product of generalized commodity exchange, not nature point of departure.",
+            "context": "Introduction: Production, Consumption, Distribution, Exchange (Section 1: Production)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy",
+              "Individualism"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
+        },
+        {
+          "annotation": {
+            "id": "left-wing-communism-ch5-ann-0",
+            "targetText": "They surround the proletariat on every side with a petty-bourgeois atmosphere, which permeates and corrupts the proletariat, and constantly causes among the proletariat relapses into petty-bourgeois spinelessness, disunity, individualism, and alternating moods of exaltation and dejection. The strictest centralisation and discipline are required within the political party of the proletariat in order to counteract this, in order that the organisational role of the proletariat (and that is its principal role) may be exercised correctly, successfully and victoriously.",
+            "summary": "Overcoming petty-bourgeois individualism: centralisation and iron discipline combat the disintegrating habits of petty proprietors.",
+            "explanation": "Lenin warns that surrounding petty-bourgeois elements constantly infect the working class with individualism, indiscipline, and instability. Only an iron-disciplined revolutionary party capable of rallying the masses can counteract this atomizing individualism and fulfill its organizational historical mission.",
+            "context": "Chapter 5: Left-Wing Communism in Germany. The Leaders, the Party, the Class, the Masses",
+            "topics": [
+              "Individualism",
+              "Revolutionary Strategy and Party",
+              "Petty Bourgeoisie"
+            ]
+          },
+          "bookId": "left-wing-communism",
+          "bookTitle": "“Left-Wing” Communism: an Infantile Disorder",
+          "bookAuthor": "V.I. Lenin",
+          "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+          "chapterId": "left-wing-communism-in-germany-the-leaders-the-party-the-class-the-masses",
+          "chapterTitle": "“Left-Wing” Communism in Germany: The Leaders, the Party, the Class, the Masses"
+        },
+        {
+          "annotation": {
+            "id": "on-contradiction-ch2-ann-4",
+            "targetText": "In their opinion, capitalist exploitation, capitalist competition, the individualist ideology of capitalist society, and so on, can all be found in ancient slave society, or even in primitive society, and will exist for ever unchanged. They ascribe the causes of social development to factors external to society, such as geography and climate.",
+            "summary": "The myth of eternal capitalist individualism: bourgeois metaphysics falsely projects competitive individualism onto all human history.",
+            "explanation": "Mao explains how reactionary and metaphysical thinkers treat capitalist competition and individualist ideology as immutable biological traits that have allegedly always existed and will exist forever. Dialectical materialism proves that human consciousness and social psychology are shaped by historical modes of production, not fixed eternal human nature.",
+            "context": "Section I: The Two World Outlooks",
+            "topics": [
+              "Individualism",
+              "Dialectics and Philosophy",
+              "Historical Materialism",
+              "Maoism and People's War",
+              "Human Nature",
+              "Political Economy"
+            ]
+          },
+          "bookId": "on-contradiction",
+          "bookTitle": "On Contradiction",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+          "chapterId": "i-the-two-world-outlooks",
+          "chapterTitle": "I. THE TWO WORLD OUTLOOKS"
+        },
+        {
+          "annotation": {
+            "id": "on-revolutionary-medicine-ann-3",
+            "targetText": "Individualism, in the form of the individual action of a person alone in a social milieu, must disappear in Cuba. In the future individualism ought to be the efficient utilization of the whole individual for the absolute benefit of a collectivity.",
+            "summary": "Che distinguishes between bourgeois individualism (isolated, competitive careerism) and socialist individuality (the full flourishing of personal talents harmonized with and dedicated to the collective community).",
+            "explanation": "Che distinguishes between bourgeois individualism (isolated, competitive careerism) and socialist individuality (the full flourishing of personal talents harmonized with and dedicated to the collective community).",
+            "context": "",
+            "topics": [
+              "Individualism"
+            ]
+          },
+          "bookId": "on-revolutionary-medicine",
+          "bookTitle": "On Revolutionary Medicine",
+          "bookAuthor": "Che Guevara",
+          "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+          "chapterId": "on-revolutionary-medicine",
+          "chapterTitle": "On Revolutionary Medicine"
+        },
+        {
+          "annotation": {
+            "id": "contradictions-among-people-4",
+            "targetText": "The class struggle between the proletariat and the bourgeoisie, the class struggle between the various political forces, and the class struggle between the proletariat and the bourgeoisie in the ideological field will still be protracted and tortuous and at times even very sharp.",
+            "summary": "Even after socialist ownership is established, the ideological and political struggle between the working class and the bourgeoisie remains long, complex, and at times intense.",
+            "explanation": "Even after private ownership of industry and land is largely socialized, bourgeois and petty-bourgeois worldviews persist for decades, requiring ongoing ideological struggle so capitalism is not restored.",
+            "context": "In socialist countries, old habits of individualism, careerism, and market mentality continue to influence culture and policy long after factories are nationalized.",
+            "topics": [
+              "Class Struggle",
+              "Socialist Transition",
+              "Dialectics and Philosophy",
+              "Maoism and People's War",
+              "Individualism",
+              "Petty Bourgeoisie"
+            ]
+          },
+          "bookId": "on-the-correct-handling-of-contradictions-among-the-people",
+          "bookTitle": "On the Correct Handling of Contradictions Among the People",
+          "bookAuthor": "Mao Zedong",
+          "coverGradient": "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
+          "chapterId": "on-the-correct-handling-of-contradictions-among-the-people",
+          "chapterTitle": "On the Correct Handling of Contradictions Among the People"
+        },
+        {
+          "annotation": {
+            "id": "principles-of-communism-ch13-ann-2",
+            "targetText": "for big industry, competition and generally the individualistic organization of production have become a fetter which it must and will shatter; that so long as big industry remains on its present footing, it can be maintained only through the general chaos of every seven years, each time threatening the whole of civilization and not only plunging the proletarians into misery but also ruining large sections of the bourgeoisie; hence either that big industry must itself be given up, which is an absolute impossibility, or that it makes unavoidably necessary an entirely new organization of society in which production is no longer directed by mutually competing individual industrialists but rather by the whole society operating according to a definite plan and according to the needs of all.",
+            "summary": "The individualistic organization of production has become a fetter: replacing competitive chaos with societal planning.",
+            "explanation": "Engels explains that large-scale mechanized industry cannot function sustainably under the anarchy of individualistic competition and private ownership, which repeatedly produces devastating periodic crises. Industry unavoidably requires replacing individualistic direction with collective social planning for the needs of all.",
+            "context": "Question 13: What were the consequences of the industrial revolution and dividing society into bourgeoisie and proletariat?",
+            "topics": [
+              "Individualism",
+              "Political Economy",
+              "Socialist Transition"
+            ]
+          },
+          "bookId": "principles-of-communism",
+          "bookTitle": "The Principles of Communism",
+          "bookAuthor": "Friedrich Engels",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "13-what-follows-from-these-periodic-commercial-crises",
+          "chapterTitle": "13. What Follows from These Periodic Commercial Crises?"
+        },
+        {
+          "annotation": {
+            "id": "kollontai-red-love-ch15-ann-2",
+            "targetText": "Do come in. It's your attic after all. I owe my living here only to you.",
+            "summary": "Solidarity among working women: communal living space shared among comrades replaces individualistic property isolation.",
+            "explanation": "Solidarity among working women: communal living space shared among comrades replaces individualistic property isolation.",
+            "context": "",
+            "topics": [
+              "Family and Gender",
+              "Political Economy",
+              "Individualism"
+            ]
+          },
+          "bookId": "red-love",
+          "bookTitle": "Red Love",
+          "bookAuthor": "Alexandra Kollontai",
+          "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+          "chapterId": "chapter-14",
+          "chapterTitle": "Chapter 14"
+        },
+        {
+          "annotation": {
+            "id": "kollontai-sex-class-ch1-ann-3",
+            "targetText": "The sexual morality of feudalism developed out of tribal authoritativeness and collective patrimonial life. Under capitalism, the triumphant principles of individualism and exclusive private property destroyed whatever remained of community life.",
+            "summary": "Historical materialism applied to morality: each economic epoch (feudalism, capitalism, socialism) constructs its own sexual norms and family forms corresponding to its mode of production.",
+            "explanation": "Historical materialism applied to morality: each economic epoch (feudalism, capitalism, socialism) constructs its own sexual norms and family forms corresponding to its mode of production.",
+            "context": "",
+            "topics": [
+              "Family and Gender",
+              "Historical Materialism",
+              "Individualism",
+              "Political Economy"
+            ]
+          },
+          "bookId": "sexual-relations-and-the-class-struggle",
+          "bookTitle": "Sexual Relations and the Class Struggle",
+          "bookAuthor": "Alexandra Kollontai",
+          "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+          "chapterId": "crisis-of-sexual-morality-across-history",
+          "chapterTitle": "1. The Crisis of Sexual Morality Across History"
+        },
+        {
+          "annotation": {
+            "id": "kollontai-sex-class-ch2-ann-2",
+            "targetText": "The \"potential for loving\" of people today is at a low ebb. Men and women seek each other in the hope of finding for themselves, through another person, a means to a larger share of pleasure. They give little thought to what's happening to their partner's emotional and psychological processes.",
+            "summary": "How capitalism atomizes emotional life: crude bourgeois individualism reduces personal relationships to transactional self-gratification, draining human capacity for genuine empathy.",
+            "explanation": "How capitalism atomizes emotional life: crude bourgeois individualism reduces personal relationships to transactional self-gratification, draining human capacity for genuine empathy.",
+            "context": "",
+            "topics": [
+              "Family and Gender",
+              "Dialectics and Philosophy",
+              "Individualism"
+            ]
+          },
+          "bookId": "sexual-relations-and-the-class-struggle",
+          "bookTitle": "Sexual Relations and the Class Struggle",
+          "bookAuthor": "Alexandra Kollontai",
+          "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+          "chapterId": "psychology-of-bourgeois-individualism",
+          "chapterTitle": "2. The Psychology of Bourgeois Individualism & Loneliness"
+        },
+        {
+          "annotation": {
+            "id": "kollontai-sex-class-ch3-ann-2",
+            "targetText": "Bourgeois morality, with its individualistic family based entirely on private property, has carefully cultivated the idea that one partner should completely \"possess\" the other. It has extended the concept of property rights to include the right to the other person's whole spiritual and emotional world.",
+            "summary": "How private property logic invades intimate life: bourgeois marriage extends property ownership over the partner's emotional and physical identity, fostering possessive jealousy.",
+            "explanation": "How private property logic invades intimate life: bourgeois marriage extends property ownership over the partner's emotional and physical identity, fostering possessive jealousy.",
+            "context": "",
+            "topics": [
+              "Family and Gender",
+              "Individualism",
+              "Political Economy"
+            ]
+          },
+          "bookId": "sexual-relations-and-the-class-struggle",
+          "bookTitle": "Sexual Relations and the Class Struggle",
+          "bookAuthor": "Alexandra Kollontai",
+          "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
+          "chapterId": "property-rights-and-female-inequality",
+          "chapterTitle": "3. Property Rights in Marriage and Female Inequality"
+        },
+        {
+          "annotation": {
+            "id": "socialism-and-anarchism-ann-3",
+            "targetText": "The philosophy of the anarchists is bourgeois philosophy turned inside out. Their individualistic theories and their individualistic ideal are the very opposite of socialism. Their views express, not the future of bourgeois society, which is striding with irresistible force towards the socialisation of labour, but the present and even the past of that society, the domination of blind chance over the scattered and isolated small, producer.",
+            "summary": "Lenin unmasks the petty-bourgeois class roots of anarchism: while socialism is rooted in large-scale socialized production and collective discipline, anarchism is an ideology of individualist rebellion reflecting the economic isolation of petty commodity producers.",
+            "explanation": "Lenin unmasks the petty-bourgeois class roots of anarchism: while socialism is rooted in large-scale socialized production and collective discipline, anarchism is an ideology of individualist rebellion reflecting the economic isolation of petty commodity producers.",
+            "context": "",
+            "topics": [
+              "Ultra Leftism and Anarchism",
+              "Political Economy",
+              "Individualism",
+              "Petty Bourgeoisie"
+            ]
+          },
+          "bookId": "socialism-and-anarchism",
+          "bookTitle": "Socialism and Anarchism",
+          "bookAuthor": "V.I. Lenin",
+          "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+          "chapterId": "socialism-and-anarchism",
+          "chapterTitle": "Socialism and Anarchism"
+        },
+        {
+          "annotation": {
+            "id": "individualism-ann-1",
+            "targetText": "While a person dies every day during the eight or\nmore hours in which he or she functions as a commodity, individuals\ncome to life afterward in their spiritual creations. But this remedy bears the\ngerms of the same sickness: that of a solitary being seeking harmony with\nthe world.",
+            "summary": "Che analyzes the alienation of wage labour under capitalism: workers experience their work-time as self-annihilation and seek refuge in isolated, private spiritual pursuits, reproducing individualist estrangement.",
+            "explanation": "Che analyzes the alienation of wage labour under capitalism: workers experience their work-time as self-annihilation and seek refuge in isolated, private spiritual pursuits, reproducing individualist estrangement.",
+            "context": "",
+            "topics": [
+              "Individualism"
+            ]
+          },
+          "bookId": "socialism-and-man-in-cuba",
+          "bookTitle": "Socialism and Man in Cuba",
+          "bookAuthor": "Che Guevara",
+          "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+          "chapterId": "individualism",
+          "chapterTitle": "Individualism"
         }
       ]
     },
@@ -30143,182 +31147,116 @@
       ]
     },
     {
-      "topic": "Individualism",
-      "slug": "individualism",
-      "count": 8,
+      "topic": "Human Nature",
+      "slug": "human-nature",
+      "count": 9,
       "annotations": [
         {
           "annotation": {
-            "id": "anarchism-socialism-ch1-ann-1",
-            "targetText": "The cornerstone of anarchism is the individual, whose emancipation, \naccording to its tenets, is the principal condition for the emancipation of the \nmasses, the collective body. According to the tenets of anarchism, the emancipation \nof the masses is impossible until the individual is emancipated. Accordingly, its \nslogan is: \"Everything for the individual.\" The cornerstone of Marxism, however, \nis the masses, whose emancipation, according to its tenets, is the principal condition \nfor the emancipation of the individual. That is to say, according to the tenets \nof Marxism, the emancipation of the individual is impossible until the masses are \nemancipated. Accordingly, its slogan is: \"Everything for the masses.\"",
-            "summary": "Contrasts the individualist premise of anarchism with the collective foundation of scientific socialism.",
-            "explanation": "Anarchism places the isolated individual at its center, asserting that social emancipation occurs only after individual liberation. Marxism inverts this premise: individual freedom is materially impossible so long as the mass of humanity remains bound by capitalist exploitation. Genuine individual emancipation requires collective class liberation.",
-            "context": "Written in Tiflis between late 1906 and early 1907 during the reactionary aftermath of the 1905 Russian Revolution, when Georgian anarchist groups under V. Cherkezishvili were winning influence among Caucasian workers.",
+            "id": "das-kapital-vol-1-chapter26-ann-3",
+            "targetText": "To know what is useful for a dog, one must study dog-nature. This nature itself is not to be deduced from the principle of utility. Applying this to man, he that would criticise all human acts, movements, relations, etc., by the principle of utility, must first deal with human nature in general, and then with human nature as modified in each historical epoch. Bentham makes short work of it. With the driest naiveté he takes the modern shopkeeper, especially the English shopkeeper, as the normal man. Whatever is useful to this queer normal man, and to his world, is absolutely useful.",
+            "summary": "Critique of bourgeois human nature: Jeremy Bentham mistakes the 19th-century English shopkeeper for universal human nature.",
+            "explanation": "Marx satirizes utilitarian philosophy for projecting temporary capitalist social relations onto universal humanity. To determine what is useful for human beings, one must analyze human nature as modified in each historical epoch, rather than declaring the modern bourgeois shopkeeper to be the timeless model of all human nature.",
+            "context": "Part VII, Chapter 24: Conversion of Surplus-Value into Capital (Section 5)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-1",
+          "bookTitle": "Capital: Volume 1 (The Process of Production of Capital)",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+          "chapterId": "conversion-of-surplus-value-into-capital",
+          "chapterTitle": "Conversion of Surplus-Value into Capital"
+        },
+        {
+          "annotation": {
+            "id": "das-kapital-vol-3-ch49-ann-3",
+            "targetText": "In fact, the realm of freedom actually begins only where labour which is determined by necessity and mundane considerations ceases; thus in the very nature of things it lies beyond the sphere of actual material production. Just as the savage must wrestle with Nature to satisfy his wants, to maintain and reproduce life, so must civilised man, and he must do so in all social formations and under all possible modes of production. With his development this realm of physical necessity expands as a result of his wants; but, at the same time, the forces of production which satisfy these wants also increase. Freedom in this field can only consist in socialised man, the associated producers, rationally regulating their interchange with Nature, bringing it under their common control, instead of being ruled by it as by the blind forces of Nature; and achieving this with the least expenditure of energy and under conditions most favourable to, and worthy of, their human nature. But it nonetheless still remains a realm of necessity. Beyond it begins that development of human energy which is an end in itself, the true realm of freedom, which, however, can blossom forth only with this realm of necessity as its basis. The shortening of the working-day is its basic prerequisite.",
+            "summary": "The realm of freedom and human nature: true human development begins beyond necessary material production.",
+            "explanation": "Freedom within necessary material production means associated producers rationally regulating their metabolism with nature under conditions worthy of human nature. But genuine human self-development as an end in itself begins beyond necessity, in the true realm of freedom, whose foundation is the shortening of the working day.",
+            "context": "Part VII, Chapter 48: The Trinity Formula",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "das-kapital-vol-3",
+          "bookTitle": "Capital: Volume 3 (The Process of Capitalist Production as a Whole)",
+          "bookAuthor": "Karl Marx (ed. Friedrich Engels)",
+          "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+          "chapterId": "the-trinity-formula",
+          "chapterTitle": "The Trinity Formula"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-1",
+            "targetText": "The human being is in the most literal sense a ζῶον πολιτιχόν, [3] not merely a gregarious animal, but an animal which can individuate itself only in the midst of society.",
+            "summary": "Man as a social animal: human beings can individuate themselves only in the midst of society.",
+            "explanation": "Marx rejects the bourgeois economic myth of isolated individuals (Robinsonades) and emphasizes that human individuality and production exist purely through social relations.",
+            "context": "",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Individualism",
+              "Dialectics and Philosophy"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
+        },
+        {
+          "annotation": {
+            "id": "grundrisse-ch1-ann-5",
+            "targetText": "The individual and isolated hunter and fisherman, with whom Smith and Ricardo begin, belongs among the unimaginative conceits of the eighteenth-century Robinsonades, [1] which in no way express merely a reaction against over-sophistication and a return to a misunderstood natural life, as cultural historians imagine. As little as Rousseau’s contrat social, which brings naturally independent, autonomous subjects into relation and connection by contract, rests on such naturalism. This is the semblance, the merely aesthetic semblance, of the Robinsonades, great and small. It is, rather, the anticipation of ‘civil society’, in preparation since the sixteenth century and making giant strides towards maturity in the eighteenth. In this society of free competition, the individual appears detached from the natural bonds etc. which in earlier historical periods make him the accessory of a definite and limited human conglomerate. Smith and Ricardo still stand with both feet on the shoulders of the eighteenth-century prophets, in whose imaginations this eighteenth-century individual, the product on one side of the dissolution of the feudal forms of society, on the other side of the new forces of production developed since the sixteenth century, appears as an ideal, whose existence they project into the past. Not as a historic result but as history’s point of departure. As the Natural Individual appropriate to their notion of human nature, not arising historically, but posited by nature. This illusion has been common to each new epoch to this day.",
+            "summary": "The Robinsonade myth of human nature: bourgeois economists project isolated capitalist individuals onto ancient history.",
+            "explanation": "Classical political economy falsely assumes the isolated individual hunter or fisherman as the starting point of human history, treating bourgeois individualism as eternal human nature. Marx shows that humans are social beings from the outset; the isolated individual is a late historical product of generalized commodity exchange, not nature point of departure.",
+            "context": "Introduction: Production, Consumption, Distribution, Exchange (Section 1: Production)",
+            "topics": [
+              "Human Nature",
+              "Historical Materialism",
+              "Dialectics and Philosophy",
+              "Individualism"
+            ]
+          },
+          "bookId": "grundrisse",
+          "bookTitle": "Grundrisse",
+          "bookAuthor": "Karl Marx",
+          "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+          "chapterId": "introduction",
+          "chapterTitle": "I. Introduction (Notebook M)"
+        },
+        {
+          "annotation": {
+            "id": "on-contradiction-ch2-ann-4",
+            "targetText": "In their opinion, capitalist exploitation, capitalist competition, the individualist ideology of capitalist society, and so on, can all be found in ancient slave society, or even in primitive society, and will exist for ever unchanged. They ascribe the causes of social development to factors external to society, such as geography and climate.",
+            "summary": "The myth of eternal capitalist individualism: bourgeois metaphysics falsely projects competitive individualism onto all human history.",
+            "explanation": "Mao explains how reactionary and metaphysical thinkers treat capitalist competition and individualist ideology as immutable biological traits that have allegedly always existed and will exist forever. Dialectical materialism proves that human consciousness and social psychology are shaped by historical modes of production, not fixed eternal human nature.",
+            "context": "Section I: The Two World Outlooks",
             "topics": [
               "Individualism",
-              "Ultra Leftism and Anarchism",
-              "Class Struggle",
+              "Dialectics and Philosophy",
+              "Historical Materialism",
+              "Maoism and People's War",
+              "Human Nature",
               "Political Economy"
             ]
           },
-          "bookId": "anarchism-or-socialism",
-          "bookTitle": "Anarchism or Socialism?",
-          "bookAuthor": "Joseph Stalin",
-          "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
-          "chapterId": "introduction",
-          "chapterTitle": "Introduction"
-        },
-        {
-          "annotation": {
-            "id": "anarchism-socialism-ch1-ann-2",
-            "targetText": "Socialism is divided into three main trends : reformism, anarchism and Marxism.\n\nReformism (Bernstein and others), which regards socialism as a remote goal and \nnothing more, reformism, which actually repudiates the socialist revolution and \naims at establishing socialism by peaceful means, reformism, which advocates not \nclass struggle but class collaboration : this reformism is decaying day by day, is \nday by day losing all semblance of socialism and, in our opinion, it is totally \nunnecessary to examine it in these articles when defining socialism.\n\nIt is altogether different with Marxism and anarchism: both are at the present \ntime recognised as socialist trends, they are waging a fierce struggle against each \nother, both are trying to present themselves to the proletariat as genuinely socialist \ndoctrines, and, of course, a study and comparison of the two will be far more interesting \nfor the reader.\n\nWe are not the kind of people who, when the word \"anarchism\" is mentioned, turn \naway contemptuously and say with a supercilious wave of the hand: \"Why waste time \non that, it's not worth talking about!\" We think that such cheap \"criticism\" is \nundignified and useless.\n\nNor are we the kind of people who console themselves with the thought that the \nAnarchists \"have no masses behind them and, therefore, are not so dangerous.\" It \nis not who has a larger or smaller \"mass\" following today, but the essence of the \ndoctrine that matters. If the \"doctrine\" of the Anarchists expresses the truth, \nthen it goes without saying that it will certainly hew a path for itself and will \nrally the masses around itself. If, however, it is unsound and built up on a false \nfoundation, it will not last long and will remain suspended in mid-air. But the \nunsoundness of anarchism must be proved.\n\nSome people believe that Marxism and anarchism are based on the same principles \nand that the disagreements between them concern only tactics, so that, in the opinion \nof these people, it is quite impossible to draw a contrast between these two trends.\n\nThis is a great mistake.\n\nWe believe that the Anarchists are real enemies of Marxism. Accordingly, we also \nhold that a real struggle must be waged against real enemies. Therefore, it is necessary \nto examine the \"doctrine\" of the Anarchists from beginning to end and weigh it up \nthoroughly from all aspects.",
-            "summary": "Distinguishes Marxism from both bourgeois reformism and petty-bourgeois anarchism.",
-            "explanation": "Categorizes modern socialism into three distinct currents: reformism (class collaboration and denial of revolution), anarchism (individualist repudiation of the state and class discipline), and Marxism (scientific class struggle culminating in the dictatorship of the proletariat).",
-            "context": "",
-            "topics": [
-              "Reform and Revisionism",
-              "Ultra Leftism and Anarchism",
-              "Historical Materialism",
-              "The State and Dictatorship of the Proletariat",
-              "Class Struggle",
-              "Individualism"
-            ]
-          },
-          "bookId": "anarchism-or-socialism",
-          "bookTitle": "Anarchism or Socialism?",
-          "bookAuthor": "Joseph Stalin",
-          "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
-          "chapterId": "introduction",
-          "chapterTitle": "Introduction"
-        },
-        {
-          "annotation": {
-            "id": "on-revolutionary-medicine-ann-3",
-            "targetText": "Individualism, in the form of the individual action of a person alone in a social milieu, must disappear in Cuba. In the future individualism ought to be the efficient utilization of the whole individual for the absolute benefit of a collectivity.",
-            "summary": "Che distinguishes between bourgeois individualism (isolated, competitive careerism) and socialist individuality (the full flourishing of personal talents harmonized with and dedicated to the collective community).",
-            "explanation": "Che distinguishes between bourgeois individualism (isolated, competitive careerism) and socialist individuality (the full flourishing of personal talents harmonized with and dedicated to the collective community).",
-            "context": "",
-            "topics": [
-              "Individualism"
-            ]
-          },
-          "bookId": "on-revolutionary-medicine",
-          "bookTitle": "On Revolutionary Medicine",
-          "bookAuthor": "Che Guevara",
-          "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
-          "chapterId": "on-revolutionary-medicine",
-          "chapterTitle": "On Revolutionary Medicine"
-        },
-        {
-          "annotation": {
-            "id": "contradictions-among-people-4",
-            "targetText": "The class struggle between the proletariat and the bourgeoisie, the class struggle between the various political forces, and the class struggle between the proletariat and the bourgeoisie in the ideological field will still be protracted and tortuous and at times even very sharp.",
-            "summary": "Even after socialist ownership is established, the ideological and political struggle between the working class and the bourgeoisie remains long, complex, and at times intense.",
-            "explanation": "Even after private ownership of industry and land is largely socialized, bourgeois and petty-bourgeois worldviews persist for decades, requiring ongoing ideological struggle so capitalism is not restored.",
-            "context": "In socialist countries, old habits of individualism, careerism, and market mentality continue to influence culture and policy long after factories are nationalized.",
-            "topics": [
-              "Class Struggle",
-              "Socialist Transition",
-              "Dialectics and Philosophy",
-              "Maoism and People's War",
-              "Individualism",
-              "Petty Bourgeoisie"
-            ]
-          },
-          "bookId": "on-the-correct-handling-of-contradictions-among-the-people",
-          "bookTitle": "On the Correct Handling of Contradictions Among the People",
+          "bookId": "on-contradiction",
+          "bookTitle": "On Contradiction",
           "bookAuthor": "Mao Zedong",
-          "coverGradient": "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
-          "chapterId": "on-the-correct-handling-of-contradictions-among-the-people",
-          "chapterTitle": "On the Correct Handling of Contradictions Among the People"
+          "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+          "chapterId": "i-the-two-world-outlooks",
+          "chapterTitle": "I. THE TWO WORLD OUTLOOKS"
         },
-        {
-          "annotation": {
-            "id": "kollontai-sex-class-ch1-ann-3",
-            "targetText": "The sexual morality of feudalism developed out of tribal authoritativeness and collective patrimonial life. Under capitalism, the triumphant principles of individualism and exclusive private property destroyed whatever remained of community life.",
-            "summary": "Historical materialism applied to morality: each economic epoch (feudalism, capitalism, socialism) constructs its own sexual norms and family forms corresponding to its mode of production.",
-            "explanation": "Historical materialism applied to morality: each economic epoch (feudalism, capitalism, socialism) constructs its own sexual norms and family forms corresponding to its mode of production.",
-            "context": "",
-            "topics": [
-              "Family and Gender",
-              "Historical Materialism",
-              "Political Economy",
-              "Individualism"
-            ]
-          },
-          "bookId": "sexual-relations-and-the-class-struggle",
-          "bookTitle": "Sexual Relations and the Class Struggle",
-          "bookAuthor": "Alexandra Kollontai",
-          "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
-          "chapterId": "crisis-of-sexual-morality-across-history",
-          "chapterTitle": "1. The Crisis of Sexual Morality Across History"
-        },
-        {
-          "annotation": {
-            "id": "kollontai-sex-class-ch2-ann-2",
-            "targetText": "The \"potential for loving\" of people today is at a low ebb. Men and women seek each other in the hope of finding for themselves, through another person, a means to a larger share of pleasure. They give little thought to what's happening to their partner's emotional and psychological processes.",
-            "summary": "How capitalism atomizes emotional life: crude bourgeois individualism reduces personal relationships to transactional self-gratification, draining human capacity for genuine empathy.",
-            "explanation": "How capitalism atomizes emotional life: crude bourgeois individualism reduces personal relationships to transactional self-gratification, draining human capacity for genuine empathy.",
-            "context": "",
-            "topics": [
-              "Family and Gender",
-              "Dialectics and Philosophy",
-              "Individualism"
-            ]
-          },
-          "bookId": "sexual-relations-and-the-class-struggle",
-          "bookTitle": "Sexual Relations and the Class Struggle",
-          "bookAuthor": "Alexandra Kollontai",
-          "coverGradient": "linear-gradient(135deg, #a01a4e 0%, #4a0c24 100%)",
-          "chapterId": "psychology-of-bourgeois-individualism",
-          "chapterTitle": "2. The Psychology of Bourgeois Individualism & Loneliness"
-        },
-        {
-          "annotation": {
-            "id": "socialism-and-anarchism-ann-3",
-            "targetText": "The philosophy of the anarchists is bourgeois philosophy turned inside out. Their individualistic theories and their individualistic ideal are the very opposite of socialism. Their views express, not the future of bourgeois society, which is striding with irresistible force towards the socialisation of labour, but the present and even the past of that society, the domination of blind chance over the scattered and isolated small, producer.",
-            "summary": "Lenin unmasks the petty-bourgeois class roots of anarchism: while socialism is rooted in large-scale socialized production and collective discipline, anarchism is an ideology of individualist rebellion reflecting the economic isolation of petty commodity producers.",
-            "explanation": "Lenin unmasks the petty-bourgeois class roots of anarchism: while socialism is rooted in large-scale socialized production and collective discipline, anarchism is an ideology of individualist rebellion reflecting the economic isolation of petty commodity producers.",
-            "context": "",
-            "topics": [
-              "Ultra Leftism and Anarchism",
-              "Political Economy",
-              "Individualism",
-              "Petty Bourgeoisie"
-            ]
-          },
-          "bookId": "socialism-and-anarchism",
-          "bookTitle": "Socialism and Anarchism",
-          "bookAuthor": "V.I. Lenin",
-          "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
-          "chapterId": "socialism-and-anarchism",
-          "chapterTitle": "Socialism and Anarchism"
-        },
-        {
-          "annotation": {
-            "id": "individualism-ann-1",
-            "targetText": "While a person dies every day during the eight or\nmore hours in which he or she functions as a commodity, individuals\ncome to life afterward in their spiritual creations. But this remedy bears the\ngerms of the same sickness: that of a solitary being seeking harmony with\nthe world.",
-            "summary": "Che analyzes the alienation of wage labour under capitalism: workers experience their work-time as self-annihilation and seek refuge in isolated, private spiritual pursuits, reproducing individualist estrangement.",
-            "explanation": "Che analyzes the alienation of wage labour under capitalism: workers experience their work-time as self-annihilation and seek refuge in isolated, private spiritual pursuits, reproducing individualist estrangement.",
-            "context": "",
-            "topics": [
-              "Individualism"
-            ]
-          },
-          "bookId": "socialism-and-man-in-cuba",
-          "bookTitle": "Socialism and Man in Cuba",
-          "bookAuthor": "Che Guevara",
-          "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
-          "chapterId": "individualism",
-          "chapterTitle": "Individualism"
-        }
-      ]
-    },
-    {
-      "topic": "Human Nature",
-      "slug": "human-nature",
-      "count": 3,
-      "annotations": [
         {
           "annotation": {
             "id": "origin-family-ch2-1",
@@ -30329,9 +31267,8 @@
             "topics": [
               "Family and Gender",
               "Historical Materialism",
-              "The State and Dictatorship of the Proletariat",
-              "Religion",
-              "Human Nature"
+              "Human Nature",
+              "Religion"
             ]
           },
           "bookId": "origin-family",
@@ -30359,6 +31296,27 @@
           "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
           "chapterId": "conscious-process-of-self-education",
           "chapterTitle": "Conscious process of self-education"
+        },
+        {
+          "annotation": {
+            "id": "bebel-sof-ch2-ann-2",
+            "targetText": "A need deeply implanted in human nature is to be free to choose an occupation and to change it at will. Just as constant repetition makes the choicest dish repulsive, so does the treadmill of a repetitive occupation day in day out render the mind dull and slack. Man works only mechanically, does what he has to do without any higher inspiration and enjoyment. In every man there are latent abilities and inclinations which only need to be awakened and developed to produce the most beautiful results. Only then will man become full man.",
+            "summary": "Human nature and the division of labour: varied activity unlocks all-round human potential under socialism.",
+            "explanation": "Bebel argues that human nature naturally craves variety and freedom of choice, which capitalist lifelong division of labour deadens through mechanical repetition. By drastically reducing working hours and eliminating class specialization, socialist society enables every person to awaken their latent abilities across multiple fields.",
+            "context": "Section 2: Harmonious Development of Mental and Physical Labour",
+            "topics": [
+              "Human Nature",
+              "Socialist Transition",
+              "Historical Materialism",
+              "Political Economy"
+            ]
+          },
+          "bookId": "society-of-the-future",
+          "bookTitle": "Society of the Future",
+          "bookAuthor": "August Bebel",
+          "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
+          "chapterId": "i-basic-laws-of-socialist-society",
+          "chapterTitle": "I. Basic Laws of Socialist Society"
         },
         {
           "annotation": {
