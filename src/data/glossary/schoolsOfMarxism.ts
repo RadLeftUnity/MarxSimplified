@@ -242,14 +242,6 @@ export const schoolsOfMarxismTerms: GlossaryTerm[] = [
     "theoryTags": ["Bordigism", "Left Communism"]
   },
   {
-    "term": "Guevarism",
-    "pattern": "guevarism|guevarist|guevarists|che guevara|guerrilla foco",
-    "definition": "The revolutionary theory and strategy associated with Ernesto 'Che' Guevara (1928 to 1967), particularly 'foco' theory (developed with Régis Debray): that a small armed guerrilla nucleus (foco) operating in rural terrain can create the objective conditions for revolution without waiting for a mass political party or pre-existing revolutionary mass movement.",
-    "misconception": "That Guevarism is simply heroic armed struggle without politics. Guevara stressed political education, international solidarity, and the creation of a 'new socialist man' (the moral-political transformation of individual consciousness through collective revolutionary sacrifice).",
-    "example": "A small group of armed revolutionaries establishing a guerrilla presence in rural mountains, raiding military outposts, and distributing land to peasants, expecting their example to trigger a mass revolutionary uprising.",
-    "theoryTags": ["Guevarism", "Anti-Colonial Socialism", "Marxism-Leninism"]
-  },
-  {
     "term": "Castroism",
     "pattern": "castroism|castroist|castroists|fidel castro|fidelism|cuban revolutionary thought",
     "definition": "The political ideology and revolutionary practice associated with Fidel Castro and the Cuban Revolution (1959), combining Marxism-Leninism with national liberation, Caribbean socialist nationalism, non-alignment, and a specific model of socialist construction based on Cuba's conditions: sugar export economy, US embargo, and Soviet alliance.",

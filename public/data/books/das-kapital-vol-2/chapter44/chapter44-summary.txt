@@ -1,3 +1,1 @@
-Chapter Overview: The Annual Rate of Surplus-Value
-
 Calculates annual surplus value rate: multiplying the single turnover surplus rate by annual turnover frequency.

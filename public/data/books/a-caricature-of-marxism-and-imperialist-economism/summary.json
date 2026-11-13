@@ -1,0 +1,80 @@
+{
+  "id": "a-caricature-of-marxism-and-imperialist-economism",
+  "title": "A Caricature of Marxism and Imperialist Economism",
+  "author": "V.I. Lenin",
+  "year": "1916",
+  "difficulty": "Medium",
+  "readingTime": "1.6 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1916/carimarx/index.htm",
+  "shortDescription": "Lenin's polemic against 'imperialist economism', refuting the dogma that finance capital makes democratic demands, national self-determination, and anti-colonial liberation impossible or obsolete.",
+  "subject": "Imperialism and National Self-Determination",
+  "tags": [
+    "Imperialism",
+    "National Self-Determination",
+    "Imperialist Economism",
+    "Anti-Colonial Socialism",
+    "Marxism-Leninism",
+    "V.I. Lenin"
+  ],
+  "context": "Written between August and October 1916 in response to an article by P. Kievsky (Yuri Pyatakov), this work defended the Bolshevik position on the right of nations to self-determination against a trend among young Bolsheviks and European leftists who argued that global imperialism rendered national struggles obsolete.",
+  "relatesToToday": "Directly refutes modern left-reductionist arguments that dismiss anti-colonial liberation, national sovereignty struggles in the Global South, or democratic rights as pointless distractions from pure class conflict, showing why socialism requires championing democratic self-determination.",
+  "keyTakeaways": [
+    "Critique of imperialist economism: Mechanistic Marxists wrongly assumed that because finance capital rules globally, political independence and self-determination for oppressed nations are economically unachievable illusions.",
+    "Self-determination is a political, not economic, demand: Political borders and state independence can and do change under capitalism (as seen in Norway in 1905), even while economic financial ties remain.",
+    "Defense of the fatherland in just national wars: While defending the fatherland in an imperialist war between oppressor nations is chauvinist treachery, defending an oppressed nation against foreign imperialist subjugation is progressive and legitimate.",
+    "Global revolution as an epoch of combined struggles: Socialist revolution is not a simultaneous strike across all countries, but an epoch combining working-class civil war in imperialist centers with anti-colonial national liberation revolts in the periphery.",
+    "Diverse paths to socialism: While all nations will inevitably arrive at socialism, each will contribute unique forms of democracy, specific varieties of workers' power, and varying rates of transformation."
+  ],
+  "chapters": [
+    {
+      "id": "the-marxist-attitude-towards-war-and-defence-of-the-fatherland",
+      "title": "Chapter 1: The Marxist Attitude Towards War and Defence of the Fatherland",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "our-understanding-of-the-new-era",
+      "title": "Chapter 2: Our Understanding of the New Era",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "what-is-economic-analysis",
+      "title": "Chapter 3: What Is Economic Analysis?",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "the-example-of-norway",
+      "title": "Chapter 4: The Example of Norway",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "monism-and-dualism",
+      "title": "Chapter 5: Monism and Dualism",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-other-political-issues-raised-and-distorted-by-p-kievsky",
+      "title": "Chapter 6: Political Issues Raised and Distorted by P. Kievsky",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "conclusion-alexinsky-methods",
+      "title": "Chapter 7: Conclusion",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    }
+  ]
+}

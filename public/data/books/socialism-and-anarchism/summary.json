@@ -1,0 +1,27 @@
+{
+  "id": "socialism-and-anarchism",
+  "title": "Socialism and Anarchism",
+  "author": "V.I. Lenin",
+  "year": "1905",
+  "difficulty": "Easy",
+  "readingTime": "5 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1905/nov/24.htm",
+  "context": "Published in Novaya Zhizn on November 25, 1905, during the First Russian Revolution, this article evaluates the decision of the St. Petersburg Soviet of Workers' Deputies to reject an application by anarchists for representation, explaining the fundamental theoretical and tactical divide separating scientific socialism from anarchism.",
+  "relatesToToday": "Essential for contemporary revolutionary strategy and labor movements, distinguishing genuine collective working-class organization from individualist ultra-leftism and demonstrating why political struggle is indispensable for emancipation.",
+  "keyTakeaways": [
+    "The Soviet of Workers' Deputies is not a parliament of all tendencies, but a fighting organization of the working class and revolutionary democracy.",
+    "A fundamental gulf separates socialism from anarchism; anarchist philosophy is bourgeois philosophy turned inside out, reflecting the isolated small producer.",
+    "The anarchist repudiation of political struggle disarms the proletariat and inevitably converts workers into passive pawns of bourgeois politics.",
+    "The revolutionary workers' party must wage relentless ideological struggle to politically educate and organize the working class against anarchist confusion."
+  ],
+  "chapters": [
+    {
+      "id": "socialism-and-anarchism",
+      "title": "Socialism and Anarchism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

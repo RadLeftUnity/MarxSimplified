@@ -1,0 +1,26 @@
+{
+  "id": "the-courage-to-criticize-imperialism",
+  "title": "The Courage to Criticize Imperialism",
+  "author": "Thomas Sankara",
+  "year": "1987",
+  "difficulty": "Introductory",
+  "readingTime": "6 mins",
+  "coverGradient": "linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/sankara/1987/january/13.htm",
+  "context": "Conducted in January 1987 by TASS special envoy Boris Chabaev following the 1986 Reykjavik summit between Mikhail Gorbachev and Ronald Reagan, this interview presents Captain Thomas Sankara’s vision of Pan-African anti-imperialism, global disarmament, and national sovereignty for Burkina Faso and the Global South.",
+  "relatesToToday": "Offers a vital framework for understanding how modern developing nations confront imperialist hegemony, covert foreign destabilization, and the ongoing struggle for genuine multipolar sovereignty and self-determined economic development.",
+  "keyTakeaways": [
+    "World peace and disarmament are not the exclusive preserve of superpowers; imperialist warfare and ecological crises directly impact the developing world.",
+    "African liberation demands collective courage in continental forums like the OAU to expose neocolonial exploitation, foreign military bases, and armed proxy destabilization.",
+    "Raising popular anti-imperialist consciousness among workers and peasants is the prerequisite for overcoming underdevelopment and achieving national self-reliance."
+  ],
+  "chapters": [
+    {
+      "id": "the-courage-to-criticize-imperialism",
+      "title": "The Courage to Criticize Imperialism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mobilising-the-masses-for-the-invasion",
+  "title": "Mobilising the Masses for the Invasion",
+  "author": "Che Guevara",
+  "year": "1961",
+  "difficulty": "Easy",
+  "readingTime": "4 mins",
+  "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/guevara/1961/03/28.htm",
+  "context": "Delivered to sugar workers in Santa Clara on March 28, 1961, merely twenty days before the CIA-sponsored Bay of Pigs invasion (Playa Girón), this speech prepares the Cuban working class for imminent imperialist military aggression and outlines the necessity of unyielding national resistance.",
+  "relatesToToday": "Provides crucial lessons on anti-imperialist vigilance, national self-reliance, and mass mobilization against external military aggression and economic destabilization.",
+  "keyTakeaways": [
+    "The Cuban Revolution demonstrated that colonized peoples can rise up and defeat imperialism directly under its fangs.",
+    "Imperialist aggression must be met with continuous, decisive counter-blows without taking a single step backward.",
+    "A revolution cannot depend solely on external foreign aid: true security stems from the unity and sacrifice of the organized working class."
+  ],
+  "chapters": [
+    {
+      "id": "mobilising-the-masses-for-the-invasion",
+      "title": "Mobilising the Masses for the Invasion",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

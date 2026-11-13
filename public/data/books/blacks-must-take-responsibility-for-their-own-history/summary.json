@@ -1,0 +1,26 @@
+{
+  "id": "blacks-must-take-responsibility-for-their-own-history",
+  "title": "Blacks Must Take Responsibility for Their Own History",
+  "author": "Thomas Sankara",
+  "year": "1986",
+  "difficulty": "Introductory",
+  "readingTime": "7 mins",
+  "coverGradient": "linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/sankara/1986/april/21.htm",
+  "context": "Delivered in Ouagadougou on April 21, 1986, at the opening of the International Symposium for the Creation of the Black Institute (Institut des peuples noirs), this speech by Captain Thomas Sankara honors historian Cheikh Anta Diop and outlines a Pan-African framework for cultural decolonization, historical agency, and global solidarity.",
+  "relatesToToday": "Directly addresses contemporary debates over cultural decolonization, historical memory, and how formerly oppressed nations can assert autonomous intellectual sovereignty without falling into racial chauvinism or neocolonial assimilation.",
+  "keyTakeaways": [
+    "Authentic tribute to revolutionary figures like Cheikh Anta Diop requires advancing their scientific and political struggle with equal courage and rigor.",
+    "Reclaiming historical agency is the indispensable prerequisite for African peoples and the diaspora to shape universal civilization as equals.",
+    "Pan-African cultural institutions must remain open and internationalist, serving as bridges for dialogue, mutual respect, and anti-imperialist solidarity."
+  ],
+  "chapters": [
+    {
+      "id": "blacks-must-take-responsibility-for-their-own-history",
+      "title": "Blacks Must Take Responsibility for Their Own History",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

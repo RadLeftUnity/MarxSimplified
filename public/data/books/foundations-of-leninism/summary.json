@@ -1,0 +1,89 @@
+{
+  "id": "foundations-of-leninism",
+  "title": "The Foundations of Leninism",
+  "author": "Joseph Stalin",
+  "year": "1924",
+  "difficulty": "Medium",
+  "readingTime": "2.9 hours",
+  "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/stalin/works/1924/foundations-leninism/",
+  "context": "Delivered as a series of lectures at Sverdlov University in Moscow in April 1924 shortly after Lenin's death, The Foundations of Leninism systematically codifies and synthesizes Lenin's theoretical and practical contributions to Marxism. Stalin defines Leninism as 'Marxism of the era of imperialism and the proletarian revolution,' formulating core principles of the vanguard party, democratic centralism, the worker-peasant alliance, and the dictatorship of the proletariat.",
+  "relatesToToday": "Provides essential frameworks for understanding organizational discipline, political strategy, coalition building between working classes and oppressed peoples, and anti-imperialist solidarity movements globally.",
+  "keyTakeaways": [
+    "Defines Leninism as Marxism of the era of imperialism and the proletarian revolution.",
+    "Identifies imperialism as the monopoly stage of capitalism, showing that revolution breaks the chain at its weakest link rather than where industry is most advanced.",
+    "Establishes the vanguard party as the advanced detachment of the working class, operating on democratic centralism to guide the dictatorship of the proletariat."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-historical-roots-of-leninism",
+      "title": "I. The Historical Roots of Leninism",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "method",
+      "title": "II. Method",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "theory",
+      "title": "III. Theory",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-dictatorship-of-the-proletariat",
+      "title": "IV. The Dictatorship of the Proletariat",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-peasant-question",
+      "title": "V. The Peasant Question",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-national-question",
+      "title": "VI. The National Question",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "strategy-and-tactics",
+      "title": "VII. Strategy and Tactics",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "the-party",
+      "title": "VIII. The Party",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "style-in-work",
+      "title": "IX. Style in Work",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    }
+  ]
+}

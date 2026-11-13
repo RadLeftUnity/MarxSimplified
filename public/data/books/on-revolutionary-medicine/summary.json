@@ -1,0 +1,26 @@
+{
+  "id": "on-revolutionary-medicine",
+  "title": "On Revolutionary Medicine",
+  "author": "Che Guevara",
+  "year": "1960",
+  "difficulty": "Easy",
+  "readingTime": "20 mins",
+  "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/guevara/1960/08/19.htm",
+  "context": "Delivered on August 19, 1960, to the Cuban Militia, this speech traces Che's personal transition from an individual medical doctor traveling Latin America into a revolutionary combatant, laying the theoretical foundation for universal socialist healthcare and socialized medicine.",
+  "relatesToToday": "Crucial for contemporary debates on universal healthcare, the commodification of medicine under capitalism, and redefining professional careers around public service rather than private profit.",
+  "keyTakeaways": [
+    "To be a revolutionary doctor or professional, there must first be a social revolution that transforms structural conditions.",
+    "Socialist medicine must prioritize social prevention and robust public health over commercial, curative big-city hospital treatments.",
+    "Individualist careerism must be replaced by channeling individual talents toward the collective benefit of society."
+  ],
+  "chapters": [
+    {
+      "id": "on-revolutionary-medicine",
+      "title": "On Revolutionary Medicine",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

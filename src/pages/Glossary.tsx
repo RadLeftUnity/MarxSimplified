@@ -18,6 +18,7 @@ const THEORY_OPTIONS: Array<'All' | TheoryTag> = [
   'Xi Jinping Thought',
   'Juche',
   'Anti-Colonial Socialism',
+  'Guevarism',
   'Capitalist Theory',
   'Fascism Analysis',
   'Neo-Marxism',

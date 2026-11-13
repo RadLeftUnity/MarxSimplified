@@ -1,0 +1,27 @@
+{
+  "id": "soviet-power-and-the-status-of-women",
+  "title": "Soviet Power and the Status of Women",
+  "author": "V.I. Lenin",
+  "year": "1919",
+  "difficulty": "Easy",
+  "readingTime": "6 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1919/nov/06.htm",
+  "context": "Published in Pravda on November 6, 1919, to commemorate the second anniversary of the October Revolution during the height of the Russian Civil War and imperialist intervention, this article evaluates the profound legal, social, and economic strides taken by the Soviet Republic to abolish sex inequalities and domestic servitude.",
+  "relatesToToday": "Vital for socialist feminist theory, contrasting hollow bourgeois formal equality with substantive socialist emancipation, and analyzing the socialization of domestic labour.",
+  "keyTakeaways": [
+    "The status of women provides the most graphic measure of the difference between capitalist and socialist democracy.",
+    "Bourgeois democracy proclaims formal abstract equality while preserving private property and the legal privileges of men.",
+    "In two years, the Soviet Republic eradicated all discriminatory laws regarding divorce, marriage, and property, achieving more than capitalist republics achieved in over a century.",
+    "True emancipation requires liberating women from petty, soul-destroying individual domestic housework through collective social facilities."
+  ],
+  "chapters": [
+    {
+      "id": "soviet-power-and-the-status-of-women",
+      "title": "Soviet Power and the Status of Women",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

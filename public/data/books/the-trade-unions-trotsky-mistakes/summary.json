@@ -1,0 +1,37 @@
+{
+  "id": "the-trade-unions-trotsky-mistakes",
+  "title": "The Trade Unions, The Present Situation and Trotsky’s Mistakes",
+  "author": "V.I. Lenin",
+  "year": "1920",
+  "difficulty": "Medium",
+  "readingTime": "55 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1920/dec/30.htm",
+  "shortDescription": "Lenin's famous 1920 speech analyzing the role of trade unions under the dictatorship of the proletariat as schools of communism, refuting Trotsky's proposals for administrative incorporation.",
+  "subject": "Trade Unions and Socialist Transition",
+  "tags": [
+    "Trade Unions",
+    "Dictatorship of the Proletariat",
+    "Workers State",
+    "Bureaucracy",
+    "Marxism-Leninism",
+    "V.I. Lenin"
+  ],
+  "context": "Delivered on December 30, 1920, at a joint meeting of Communist delegates to the Eighth Congress of Soviets and trade union councils, this speech initiated the pivotal trade union controversy within the Russian Communist Party following the conclusion of the Civil War.",
+  "relatesToToday": "Illustrates the crucial relationship between mass working-class organizations and state power, warning against administrative coercion over workers and showing why labor unions must maintain independent educational and protective functions even under a revolutionary government.",
+  "keyTakeaways": [
+    "Trade unions as a school of communism: Trade unions are not state coercive bodies, but mass educational organizations designed to train workers in economic management and link the revolutionary vanguard to the broad masses.",
+    "Politics over economics: While economics forms the ultimate foundation, a correct political approach is essential; without political leadership and persuasion, the working class cannot maintain state power or solve production problems.",
+    "Persuasion before coercion: In dealing with mass organizations of the working class, persuasion and education must always precede administrative commands or state coercion.",
+    "Combating bureaucratic distortions: The transitional workers' state contains bureaucratic defects, making trade unions necessary to defend the material and cultural interests of workers against administrative overreach."
+  ],
+  "chapters": [
+    {
+      "id": "the-trade-unions-the-present-situation-and-trotsky-s-mistakes",
+      "title": "The Trade Unions, The Present Situation and Trotsky’s Mistakes",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

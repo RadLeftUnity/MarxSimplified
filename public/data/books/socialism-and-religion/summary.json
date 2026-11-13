@@ -1,0 +1,27 @@
+{
+  "id": "socialism-and-religion",
+  "title": "Socialism and Religion",
+  "author": "V.I. Lenin",
+  "year": "1905",
+  "difficulty": "Easy",
+  "readingTime": "7 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1905/dec/03.htm",
+  "context": "Published in Novaya Zhizn in December 1905 during the high tide of the First Russian Revolution, this classic article outlines the Marxist perspective on religious belief, state secularism, and working-class party organization.",
+  "relatesToToday": "Crucial for contemporary debates on secularism, religious freedom, state disestablishment, and countering bourgeois attempts to divide the multiconfessional working class along sectarian cultural lines.",
+  "keyTakeaways": [
+    "Religion functions as spiritual oppression and ideological solace for the exploited classes, promising heavenly rewards to justify earthly submission to capital.",
+    "Socialists demand that religion be declared a private affair in relation to the state: requiring complete separation of church and state, abolition of state subsidies, and full freedom of conscience.",
+    "Religion is never a private affair in relation to the workers' party, which is built on a scientific, dialectical materialist worldview and actively educates workers in scientific knowledge.",
+    "The party does not ban religious workers from joining because class unity in the material struggle on earth is far more important than abstract philosophical consensus regarding heaven."
+  ],
+  "chapters": [
+    {
+      "id": "socialism-and-religion",
+      "title": "Socialism and Religion",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

@@ -219,7 +219,7 @@ export const fascistTerms: GlossaryTerm[] = [
   },
   {
     "term": "Fascist New Man",
-    "pattern": "fascist new man|new man|fascist new woman",
+    "pattern": "fascist new man|fascist new woman",
     "definition": "The ideal citizen created by fascist indoctrination: an obedient, militarized, hyper-masculine fanatic willing to sacrifice life, family, and class interest unconditionally for the state and leader.",
     "misconception": "The socialist New Man (which aims for fully realized human potential, education, and collective emancipation). The fascist New Man is trained to be an unthinking instrument of imperialist conquest and domestic suppression.",
     "example": "Youth organizations indoctrinating children with military drills, martial obedience, and anti-communist hatred rather than critical scientific education.",

@@ -1,6 +1,63 @@
 {
   "books": [
     {
+      "id": "a-caricature-of-marxism-and-imperialist-economism",
+      "title": "A Caricature of Marxism and Imperialist Economism",
+      "author": "V.I. Lenin",
+      "year": "1916",
+      "difficulty": "Medium",
+      "readingTime": "1.6 hours",
+      "shortDescription": "Lenin's polemic against 'imperialist economism', refuting the dogma that finance capital makes democratic demands, national self-determination, and anti-colonial liberation impossible or obsolete.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Imperialism and National Self-Determination",
+      "tags": [
+        "Imperialism",
+        "National Self-Determination",
+        "Imperialist Economism",
+        "Anti-Colonial Socialism",
+        "Marxism-Leninism",
+        "V.I. Lenin"
+      ]
+    },
+    {
+      "id": "a-characterisation-of-economic-romanticism",
+      "title": "A Characterisation of Economic Romanticism",
+      "author": "V.I. Lenin",
+      "year": "1897",
+      "difficulty": "Hard",
+      "readingTime": "4.3 hours",
+      "shortDescription": "Lenin's comprehensive critique of Sismondi and Russian Narodism, dismantling petty-bourgeois romantic economics and demonstrating how capitalism develops the home market through the ruination of subsistence producers.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Political Economy and Critique of Romanticism",
+      "tags": [
+        "Political Economy",
+        "Narodism",
+        "Sismondism",
+        "Home Market",
+        "Capital Accumulation",
+        "Marxism-Leninism",
+        "V.I. Lenin"
+      ]
+    },
+    {
+      "id": "a-united-front-against-debt",
+      "title": "A United Front Against Debt",
+      "author": "Thomas Sankara",
+      "year": "1987",
+      "difficulty": "Introductory",
+      "readingTime": "11 mins",
+      "shortDescription": "Delivered in Addis Ababa, Ethiopia, on July 29, 1987, at the summit of the Organization of African Unity, this landmark speech by Captain Thomas Sankara calls for a continental refusal to pay foreign debt, exposing sovereign debt as an instrument of neocolonial reconquest.",
+      "coverColor": "#8b1e0f",
+      "coverGradient": "linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "analysis-of-the-classes-in-chinese-society",
       "title": "Analysis of the Classes in Chinese Society",
       "author": "Mao Zedong",
@@ -17,6 +74,70 @@
         "Peasant Question",
         "Maoism",
         "Mao Zedong"
+      ]
+    },
+    {
+      "id": "anarchism-or-socialism",
+      "title": "Anarchism or Socialism?",
+      "author": "Joseph Stalin",
+      "year": "1907",
+      "difficulty": "Medium",
+      "readingTime": "1.7 hours",
+      "shortDescription": "Written between December 1906 and January 1907 as a series of articles in Georgian socialist periodicals, Anarchism or Socialism? is Stalin's early philosophical defense of dialectical and historical materialism against the Georgian anarchists following Prince Kropotkin. The treatise contrasts the materialist foundation of scientific socialism with individualist anarchist philosophy, demonstrating that individual liberation is impossible without the collective emancipation of the working class.",
+      "coverColor": "#7c1a22",
+      "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "blacks-must-take-responsibility-for-their-own-history",
+      "title": "Blacks Must Take Responsibility for Their Own History",
+      "author": "Thomas Sankara",
+      "year": "1986",
+      "difficulty": "Introductory",
+      "readingTime": "7 mins",
+      "shortDescription": "Delivered in Ouagadougou on April 21, 1986, at the opening of the International Symposium for the Creation of the Black Institute (Institut des peuples noirs), this speech by Captain Thomas Sankara honors historian Cheikh Anta Diop and outlines a Pan-African framework for cultural decolonization, historical agency, and global solidarity.",
+      "coverColor": "#8b1e0f",
+      "coverGradient": "linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "blancism",
+      "title": "Blancism",
+      "author": "V.I. Lenin",
+      "year": "1917",
+      "difficulty": "Medium",
+      "readingTime": "6 mins",
+      "shortDescription": "Published in Pravda No. 27 on April 8 (21), 1917, shortly after Lenin's return to Petrograd and the presentation of his April Theses, this article exposes the Menshevik and Socialist-Revolutionary leadership of the Soviets for repeating the tragic class-collaborationist illusions of the French reformist Louis Blanc in 1848.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "capitalism-and-female-labour",
+      "title": "Capitalism and Female Labour",
+      "author": "V.I. Lenin",
+      "year": "1913",
+      "difficulty": "Easy",
+      "readingTime": "4 mins",
+      "shortDescription": "Written on April 27, 1913, and published in Pravda on May 5, 1913, this brief article addresses an exhibition in Paris showcasing the horrific wage exploitation of women engaged in domestic sweatshop piecework. Lenin utilizes this data to unmask the systematic roots of working-class female oppression under capitalism.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -133,6 +254,22 @@
       ]
     },
     {
+      "id": "foundations-of-leninism",
+      "title": "The Foundations of Leninism",
+      "author": "Joseph Stalin",
+      "year": "1924",
+      "difficulty": "Medium",
+      "readingTime": "2.9 hours",
+      "shortDescription": "Delivered as a series of lectures at Sverdlov University in Moscow in April 1924 shortly after Lenin's death, The Foundations of Leninism systematically codifies and synthesizes Lenin's theoretical and practical contributions to Marxism. Stalin defines Leninism as 'Marxism of the era of imperialism and the proletarian revolution,' formulating core principles of the vanguard party, democratic centralism, the worker-peasant alliance, and the dictatorship of the proletariat.",
+      "coverColor": "#7c1a22",
+      "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "gotha-programme",
       "title": "Critique of the Gotha Programme",
       "author": "Karl Marx",
@@ -187,6 +324,54 @@
         "People's War",
         "Maoism",
         "Mao Zedong"
+      ]
+    },
+    {
+      "id": "guerrilla-warfare-a-method",
+      "title": "Guerrilla Warfare: A Method",
+      "author": "Che Guevara",
+      "year": "1963",
+      "difficulty": "Medium",
+      "readingTime": "32 mins",
+      "shortDescription": "Published in September 1963 in the theoretical journal Cuba Socialista, this seminal essay by Ernesto 'Che' Guevara synthesizes the military, political, and economic principles of the Cuban Revolution into a strategic method for continental anti-imperialist struggle in Latin America and the Global South. Guevara establishes that guerrilla warfare is a political weapon aimed at the conquest of state power, requiring the mobilization of the peasant masses and the creation of subjective revolutionary consciousness.",
+      "coverColor": "#1b4332",
+      "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "how-the-capitalists-are-trying-to-scare-the-people",
+      "title": "How the Capitalists Are Trying to Scare the People",
+      "author": "V.I. Lenin",
+      "year": "1917",
+      "difficulty": "Easy",
+      "readingTime": "5 mins",
+      "shortDescription": "Published in Pravda No. 61 on June 1 (May 19), 1917, during the revolutionary dual-power crisis in Russia, this polemic refutes an editorial from the bourgeois capitalist journal Finansovaya Gazeta, which attempted to terrify the public into opposing workers' control over industry.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "ideology-of-the-cuban-revolution",
+      "title": "Notes for the Study of the Ideology of the Cuban Revolution",
+      "author": "Che Guevara",
+      "year": "1960",
+      "difficulty": "Medium",
+      "readingTime": "10 mins",
+      "shortDescription": "Published in Verde Olivo on October 8, 1960, during the initial consolidation of revolutionary state power in Cuba, this seminal essay articulates the organic Marxist character of the Cuban Revolution and outlines the transformation of revolutionary fighters through practical struggle alongside the peasantry.",
+      "coverColor": "#1b4332",
+      "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -279,6 +464,38 @@
       ]
     },
     {
+      "id": "materialism-and-empirio-criticism",
+      "title": "Materialism and Empirio-criticism",
+      "author": "V.I. Lenin",
+      "year": "1908",
+      "difficulty": "Hard",
+      "readingTime": "14 hours",
+      "shortDescription": "Written by Lenin between February and October 1908 during his Geneva exile following the defeat of the 1905 Russian Revolution, this major philosophical work combats subjective idealist and neo-Kantian tendencies (Machism, Empirio-criticism, and Bogadanov's Empirio-monism) that infected the Russian Social-Democratic party under the guise of 'modernizing' Marxism with contemporary physics.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "mobilising-the-masses-for-the-invasion",
+      "title": "Mobilising the Masses for the Invasion",
+      "author": "Che Guevara",
+      "year": "1961",
+      "difficulty": "Easy",
+      "readingTime": "4 mins",
+      "shortDescription": "Delivered to sugar workers in Santa Clara on March 28, 1961, merely twenty days before the CIA-sponsored Bay of Pigs invasion (Playa Girón), this speech prepares the Cuban working class for imminent imperialist military aggression and outlines the necessity of unyielding national resistance.",
+      "coverColor": "#1b4332",
+      "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "on-contradiction",
       "title": "On Contradiction",
       "author": "Mao Zedong",
@@ -336,6 +553,22 @@
       ]
     },
     {
+      "id": "on-revolutionary-medicine",
+      "title": "On Revolutionary Medicine",
+      "author": "Che Guevara",
+      "year": "1960",
+      "difficulty": "Easy",
+      "readingTime": "20 mins",
+      "shortDescription": "Delivered on August 19, 1960, to the Cuban Militia, this speech traces Che's personal transition from an individual medical doctor traveling Latin America into a revolutionary combatant, laying the theoretical foundation for universal socialist healthcare and socialized medicine.",
+      "coverColor": "#1b4332",
+      "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "on-the-correct-handling-of-contradictions-among-the-people",
       "title": "On the Correct Handling of Contradictions Among the People",
       "author": "Mao Zedong",
@@ -371,6 +604,22 @@
         "The State",
         "Patriarchy",
         "Friedrich Engels"
+      ]
+    },
+    {
+      "id": "our-revolution",
+      "title": "Our Revolution",
+      "author": "V.I. Lenin",
+      "year": "1923",
+      "difficulty": "Medium",
+      "readingTime": "8 mins",
+      "shortDescription": "Dictated on January 16 and 17, 1923, during Lenin's final illness, this brief masterpiece critiques Menshevik memoirist Nikolai Sukhanov and the reformists of the Second International for their mechanical, pedantic misunderstanding of historical materialism and the dialectics of world revolution.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -483,6 +732,74 @@
       ]
     },
     {
+      "id": "socialism-and-anarchism",
+      "title": "Socialism and Anarchism",
+      "author": "V.I. Lenin",
+      "year": "1905",
+      "difficulty": "Easy",
+      "readingTime": "5 mins",
+      "shortDescription": "Published in Novaya Zhizn on November 25, 1905, during the First Russian Revolution, this article evaluates the decision of the St. Petersburg Soviet of Workers' Deputies to reject an application by anarchists for representation, explaining the fundamental theoretical and tactical divide separating scientific socialism from anarchism.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "socialism-and-man-in-cuba",
+      "title": "Socialism and Man in Cuba",
+      "author": "Che Guevara",
+      "year": "1965",
+      "difficulty": "Medium",
+      "readingTime": "30 mins",
+      "shortDescription": "Written in March 1965 as an open letter to Carlos Quijano, editor of the Uruguayan weekly Marcha, this text constitutes Che Guevara's most famous and comprehensive theoretical statement on the human dimension of socialist construction, the ethics of the vanguard, moral incentives, and the creation of the New Man and Woman.",
+      "coverColor": "#1b4332",
+      "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "socialism-and-religion",
+      "title": "Socialism and Religion",
+      "author": "V.I. Lenin",
+      "year": "1905",
+      "difficulty": "Easy",
+      "readingTime": "7 mins",
+      "shortDescription": "Published in Novaya Zhizn in December 1905 during the high tide of the First Russian Revolution, this classic article outlines the Marxist perspective on religious belief, state secularism, and working-class party organization.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "socialism-and-war",
+      "title": "Socialism and War",
+      "author": "V.I. Lenin",
+      "year": "1915",
+      "difficulty": "Medium",
+      "readingTime": "1.5 hours",
+      "shortDescription": "Lenin's decisive polemic defining the Marxist stance on World War I, contrasting revolutionary internationalism and defeatism against bourgeois pacifism and social-chauvinist betrayal.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Imperialism, War and Internationalism",
+      "tags": [
+        "Imperialist War",
+        "Social-Chauvinism",
+        "Revolutionary Defeatism",
+        "Second International",
+        "Marxism-Leninism",
+        "V.I. Lenin"
+      ]
+    },
+    {
       "id": "society-of-the-future",
       "title": "Society of the Future",
       "author": "August Bebel",
@@ -492,6 +809,38 @@
       "shortDescription": "Published as a standalone edition of Part III ('The Socialisation of Society') of August Bebel's classic Woman and Socialism (1879), Society of the Future presents one of the most detailed and inspiring Marxist visions of how a post-capitalist socialist commonwealth will organize production, agriculture, education, art, domestic life, and international relations.",
       "coverColor": "#6b2d5c",
       "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "soviet-power-and-the-status-of-women",
+      "title": "Soviet Power and the Status of Women",
+      "author": "V.I. Lenin",
+      "year": "1919",
+      "difficulty": "Easy",
+      "readingTime": "6 mins",
+      "shortDescription": "Published in Pravda on November 6, 1919, to commemorate the second anniversary of the October Revolution during the height of the Russian Civil War and imperialist intervention, this article evaluates the profound legal, social, and economic strides taken by the Soviet Republic to abolish sex inequalities and domestic servitude.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "summary-of-dialectics",
+      "title": "Summary of Dialectics",
+      "author": "V.I. Lenin",
+      "year": "1914 - 1915",
+      "difficulty": "Hard",
+      "readingTime": "15 mins",
+      "shortDescription": "Written between 1914 and 1915 in Bern, Switzerland, following the outbreak of World War I and the collapse of the Second International, these philosophical notebooks record Lenin's deep study of Hegel's Science of Logic, formulating the 16 elements of dialectics and the famous fragment 'On the Question of Dialectics'.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
       "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
@@ -515,6 +864,38 @@
         "Class Struggle",
         "Marxism-Leninism",
         "V.I. Lenin"
+      ]
+    },
+    {
+      "id": "the-bolsheviks-and-the-petty-bourgeoisie",
+      "title": "The Bolsheviks and the Petty Bourgeoisie",
+      "author": "V.I. Lenin",
+      "year": "1907",
+      "difficulty": "Medium",
+      "readingTime": "8 mins",
+      "shortDescription": "Published in Novy Luch on February 25, 1907, during the elections to the Second State Duma, this polemical article analyzes class differentiation in the Russian Revolution of 1905 to 1907. Responding to the Trudovik organ Noviye Sily, Lenin dissects the social character of the Constitutional-Democratic Party (Cadets) and refutes Menshevik arguments regarding alliances with liberal reformists.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "the-courage-to-criticize-imperialism",
+      "title": "The Courage to Criticize Imperialism",
+      "author": "Thomas Sankara",
+      "year": "1987",
+      "difficulty": "Introductory",
+      "readingTime": "6 mins",
+      "shortDescription": "Conducted in January 1987 by TASS special envoy Boris Chabaev following the 1986 Reykjavik summit between Mikhail Gorbachev and Ronald Reagan, this interview presents Captain Thomas Sankara’s vision of Pan-African anti-imperialism, global disarmament, and national sovereignty for Burkina Faso and the Global South.",
+      "coverColor": "#8b1e0f",
+      "coverGradient": "linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -555,6 +936,42 @@
       ]
     },
     {
+      "id": "the-revolutionary-proletariat-and-the-right-of-nations-to-self-determination",
+      "title": "The Revolutionary Proletariat and the Right of Nations to Self-Determination",
+      "author": "V.I. Lenin",
+      "year": "1915",
+      "difficulty": "Medium",
+      "readingTime": "11 mins",
+      "shortDescription": "Written in German in October 1915 in response to Karl Radek's article in Berner Tagwacht following the Zimmerwald Conference, this essay presents Lenin's foundational formulation of the national question during the imperialist world war, linking democratic self-determination to socialist revolution.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "the-state-and-revolution",
+      "title": "The State and Revolution",
+      "author": "V.I. Lenin",
+      "year": "1917",
+      "difficulty": "Medium",
+      "readingTime": "3.3 hours",
+      "shortDescription": "Lenin's foundational treatise on Marxist state theory, detailing the dictatorship of the proletariat, the smashing of the bourgeois state machine, and the economic basis for the withering away of the state.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "State Theory and Revolution",
+      "tags": [
+        "State Theory",
+        "Dictatorship of the Proletariat",
+        "Withering Away of the State",
+        "Paris Commune",
+        "Marxism-Leninism",
+        "V.I. Lenin"
+      ]
+    },
+    {
       "id": "the-struggle-against-fascism",
       "title": "Fascism",
       "author": "Clara Zetkin",
@@ -570,6 +987,26 @@
         "Class Struggle",
         "United Front",
         "Clara Zetkin"
+      ]
+    },
+    {
+      "id": "the-trade-unions-trotsky-mistakes",
+      "title": "The Trade Unions, The Present Situation and Trotsky’s Mistakes",
+      "author": "V.I. Lenin",
+      "year": "1920",
+      "difficulty": "Medium",
+      "readingTime": "55 mins",
+      "shortDescription": "Lenin's famous 1920 speech analyzing the role of trade unions under the dictatorship of the proletariat as schools of communism, refuting Trotsky's proposals for administrative incorporation.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Trade Unions and Socialist Transition",
+      "tags": [
+        "Trade Unions",
+        "Dictatorship of the Proletariat",
+        "Workers State",
+        "Bureaucracy",
+        "Marxism-Leninism",
+        "V.I. Lenin"
       ]
     },
     {

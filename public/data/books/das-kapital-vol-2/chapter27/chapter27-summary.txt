@@ -1,3 +1,1 @@
-Chapter Overview: The Turnover Time and Number of Turnovers
-
 Defines capital turnover time as production time plus circulation time, calculating annual turnover frequency.

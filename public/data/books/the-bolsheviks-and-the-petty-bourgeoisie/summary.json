@@ -1,0 +1,27 @@
+{
+  "id": "the-bolsheviks-and-the-petty-bourgeoisie",
+  "title": "The Bolsheviks and the Petty Bourgeoisie",
+  "author": "V.I. Lenin",
+  "year": "1907",
+  "difficulty": "Medium",
+  "readingTime": "8 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1907/feb/25.htm",
+  "context": "Published in Novy Luch on February 25, 1907, during the elections to the Second State Duma, this polemical article analyzes class differentiation in the Russian Revolution of 1905 to 1907. Responding to the Trudovik organ Noviye Sily, Lenin dissects the social character of the Constitutional-Democratic Party (Cadets) and refutes Menshevik arguments regarding alliances with liberal reformists.",
+  "relatesToToday": "Essential for evaluating electoral coalitions, exposing how liberal establishment parties systematically betray progressive demands, and establishing why working-class movements must maintain strict political independence while rallying intermediate strata.",
+  "keyTakeaways": [
+    "The class nature of a political party is determined by its social and economic foundation, not by accidental or momentary voting patterns.",
+    "The Cadets represent the liberal bourgeoisie and capitalist landlords who inevitably pivot to the right and seek compromises with reaction out of fear of independent mass mobilizations.",
+    "The Menshevik claim that the bourgeoisie must lead a bourgeois revolution is a vulgarization and caricature of Marxism; the proletariat can and must lead the revolution in alliance with the peasantry.",
+    "The revolutionary proletariat must follow the tactical maxim to march separately but strike together at both autocracy and liberal pseudo-democracy."
+  ],
+  "chapters": [
+    {
+      "id": "the-bolsheviks-and-the-petty-bourgeoisie",
+      "title": "The Bolsheviks and the Petty Bourgeoisie",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

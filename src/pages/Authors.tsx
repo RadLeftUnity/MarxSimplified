@@ -54,6 +54,9 @@ export const Authors: React.FC<AuthorsProps> = ({
       if (aName === 'clara zetkin') return bAuthor.includes('zetkin');
       if (aName === 'nikolai bukharin') return bAuthor.includes('bukharin');
       if (aName === 'august bebel') return bAuthor.includes('bebel');
+      if (aName === 'joseph stalin') return bAuthor.includes('stalin');
+      if (aName === 'che guevara') return bAuthor.includes('guevara') || bAuthor.includes('che');
+      if (aName === 'thomas sankara') return bAuthor.includes('sankara');
       return bAuthor.includes(aName);
     });
   }, [books, selectedAuthor]);

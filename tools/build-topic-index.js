@@ -117,6 +117,18 @@ const TOPIC_RULES = [
     name: 'Idealism',
     pattern: /idealis[mt]|speculative philosophy|hegelian|metaphysical|critical criticism|eternal truths/i,
   },
+  {
+    name: 'Individualism',
+    pattern: /\bindividualis[mt]\b|\bbourgeois individualism\b|\bindividualist\b/i,
+  },
+  {
+    name: 'Human Nature',
+    pattern: /\bhuman nature\b|\bspecies-being\b|\bgattungswesen\b|\bessence of man\b|\bensemble of the social relations\b/i,
+  },
+  {
+    name: 'Petty Bourgeoisie',
+    pattern: /\bpetty[- ]bourgeois(?:ie|e)?\b|\bsmall master\b|\bpeasant proprietor\b|\blittle bourgeois\b/i,
+  },
 ];
 
 const CATEGORY_MAP = JSON.parse(

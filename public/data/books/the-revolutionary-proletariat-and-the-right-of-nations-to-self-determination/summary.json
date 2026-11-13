@@ -1,0 +1,27 @@
+{
+  "id": "the-revolutionary-proletariat-and-the-right-of-nations-to-self-determination",
+  "title": "The Revolutionary Proletariat and the Right of Nations to Self-Determination",
+  "author": "V.I. Lenin",
+  "year": "1915",
+  "difficulty": "Medium",
+  "readingTime": "11 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1915/oct/16.htm",
+  "context": "Written in German in October 1915 in response to Karl Radek's article in Berner Tagwacht following the Zimmerwald Conference, this essay presents Lenin's foundational formulation of the national question during the imperialist world war, linking democratic self-determination to socialist revolution.",
+  "relatesToToday": "Indispensable for contemporary anti-imperialist, national liberation, and anti-colonial movements, demonstrating why genuine proletarian internationalism requires recognizing the right of oppressed nations to political secession.",
+  "keyTakeaways": [
+    "The focal point of a Marxist program on the national question under imperialism is the division of the world into oppressor nations and oppressed nations.",
+    "The proletariat cannot conquer power or build socialism without consistently championing all democratic demands, chief among them the right of nations to self-determination.",
+    "Socialists in oppressor nations who refuse to defend the right of secession for oppressed colonies and nations are not internationalists, but social-chauvinists.",
+    "Socialists demand the freedom of secession not to promote national fragmentation, but to lay the only genuine, voluntary, democratic foundation for the future fraternal unity and fusion of nations."
+  ],
+  "chapters": [
+    {
+      "id": "the-revolutionary-proletariat-and-the-right-of-nations-to-self-determination",
+      "title": "The Revolutionary Proletariat and the Right of Nations to Self-Determination",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

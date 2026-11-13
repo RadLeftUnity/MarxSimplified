@@ -31,7 +31,7 @@ function cleanHtml(html) {
 
   // Remove standard study guides/indexes navigation links from page
   bodyContent = bodyContent
-    .replace(/<p class="footer">[\s\S]*?<\/p>/gi, '')
+    .replace(/<(?:table|div|p)[^>]*class=["']footer["'][\s\S]*?<\/(?:table|div|p)>/gi, '')
     .replace(/<hr class="end"[\s\S]*?>/gi, '');
 
   // Replace block level tags with newlines
@@ -122,6 +122,13 @@ async function main() {
   }
   // Remove em-dashes from Title
   title = title.replace(/—|--/g, '; ');
+  // Strip leading author prefixes like "Lenin: " or "Che Guevara: "
+  title = title.replace(/^(?:V\.\s*I\.\s*)?Lenin\s*:\s*/i, '');
+  title = title.replace(/^(?:Che\s+Guevara|Ernesto\s+Che\s+Guevara)\s*:\s*/i, '');
+  title = title.replace(/^(?:Joseph\s+Stalin|J\.\s*V\.\s*Stalin|Stalin)\s*:\s*/i, '');
+  title = title.replace(/^(?:Mao\s+Zedong|Mao\s+Tse-tung|Mao)\s*:\s*/i, '');
+  title = title.replace(/^(?:Karl\s+Marx|Marx|Friedrich\s+Engels|Engels)\s*:\s*/i, '');
+  title = title.trim();
   // Convert Title Case if ALL CAPS
   if (title === title.toUpperCase()) {
     title = title.toLowerCase().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -134,7 +141,23 @@ async function main() {
     author = authorMatch[1].trim();
     if (author.toLowerCase().includes('mao')) {
       author = 'Mao Zedong';
+    } else if (author.toLowerCase().includes('guevara')) {
+      author = 'Che Guevara';
+    } else if (author.toLowerCase().includes('stalin')) {
+      author = 'Joseph Stalin';
+    } else if (author.toLowerCase().includes('sankara')) {
+      author = 'Thomas Sankara';
+    } else if (author.toLowerCase().includes('lenin')) {
+      author = 'V.I. Lenin';
     }
+  } else if (rawUrl.toLowerCase().includes('sankara') || indexHtml.toLowerCase().includes('sankara')) {
+    author = 'Thomas Sankara';
+  } else if (rawUrl.toLowerCase().includes('guevara') || indexHtml.toLowerCase().includes('guevara')) {
+    author = 'Che Guevara';
+  } else if (rawUrl.toLowerCase().includes('stalin') || indexHtml.toLowerCase().includes('stalin')) {
+    author = 'Joseph Stalin';
+  } else if (rawUrl.toLowerCase().includes('lenin') || indexHtml.toLowerCase().includes('lenin')) {
+    author = 'V.I. Lenin';
   } else if (indexHtml.toLowerCase().includes('mao tse-tung') || indexHtml.toLowerCase().includes('mao zedong')) {
     author = 'Mao Zedong';
   } else if (indexHtml.toLowerCase().includes('engels')) {
@@ -143,7 +166,7 @@ async function main() {
 
   // Parse Year from URL or page
   let year = '1865';
-  const yearUrlMatch = rawUrl.match(/\/works\/(\d{4})\//);
+  const yearUrlMatch = rawUrl.match(/\/(?:works\/)?(\d{4})\//);
   if (yearUrlMatch) {
     year = yearUrlMatch[1];
   } else {
@@ -160,17 +183,33 @@ async function main() {
   if (isSingleFile) {
     // Check if the single file has H2, H3, or H4 headers
     const h2Regex = /<h[2-4][^>]*>([\s\S]*?)<\/h[2-4]>/gi;
-    const h2Matches = [];
+    const allH2Matches = [];
     let h2Match;
     while ((h2Match = h2Regex.exec(indexHtml)) !== null) {
-      h2Matches.push({
+      allH2Matches.push({
         title: h2Match[1].replace(/<[^>]*>/g, '').trim().replace(/\s+/g, ' ').replace(/—|--/g, '; '),
         index: h2Match.index,
         fullMatchLength: h2Match[0].length
       });
     }
 
-    if (h2Matches.length > 0) {
+    const isExcludedHeader = (hTitle) => {
+      const lower = hTitle.toLowerCase().trim();
+      if (!lower) return true;
+      if (lower === author.toLowerCase()) return true;
+      if (lower === title.toLowerCase()) return true;
+      if (lower.startsWith('che guevara') || lower.startsWith('ernesto guevara') || lower.startsWith('ernesto \'che\' guevara')) return true;
+      if (lower.includes('lenin') || lower === 'v.i. lenin' || lower === 'vi lenin' || lower === 'v. i. lenin') return true;
+      if (lower.includes('stalin') || lower === 'joseph stalin' || lower === 'j. v. stalin') return true;
+      if (lower.includes('sankara') || lower === 'thomas sankara') return true;
+      if (lower.startsWith('speech made to') || lower.startsWith('speech to') || lower.startsWith('written:') || lower.startsWith('translated by')) return true;
+      if (lower === 'notes' || lower.startsWith('notes') || lower === 'footnotes' || lower === 'endnotes') return true;
+      return false;
+    };
+
+    const h2Matches = allH2Matches.filter(m => !isExcludedHeader(m.title));
+
+    if (h2Matches.length > 1) {
       // Split single document into H2 sections
       // Check if there is intro text before first H2
       const bodyStartMatch = indexHtml.match(/<body[^>]*>/i);
@@ -252,6 +291,10 @@ async function main() {
       const file = hashIdx !== -1 ? href.substring(0, hashIdx) : href;
       const anchor = hashIdx !== -1 ? href.substring(hashIdx + 1) : null;
 
+      if (rawChapters.some(c => c.file === file && c.anchor === anchor)) {
+        continue;
+      }
+
       rawChapters.push({
         file,
         anchor,
@@ -293,7 +336,7 @@ async function main() {
       fs.writeFileSync(path.join(bookDir, txtFileRelative), cleanText, 'utf8');
       fs.writeFileSync(path.join(bookDir, annFileRelative), '[]', 'utf8');
 
-      const summaryPlaceholder = `Summary of the section: ${chapter.title}.\n\nThis section discusses key dialectical materialist concepts outlined by Mao Zedong.`;
+      const summaryPlaceholder = `Summary of the section: ${chapter.title}.\n\nThis section discusses key theoretical concepts outlined by ${author}.`;
       fs.writeFileSync(path.join(bookDir, sumFileRelative), summaryPlaceholder, 'utf8');
 
       const chapId = chapter.title.toLowerCase()
@@ -394,7 +437,7 @@ async function main() {
       fs.writeFileSync(path.join(bookDir, txtFileRelative), cleanText, 'utf8');
       fs.writeFileSync(path.join(bookDir, annFileRelative), '[]', 'utf8');
       
-      const summaryPlaceholder = `Summary of the chapter: ${chapter.title}.\n\nThis chapter discusses key theoretical concepts outlined by ${author}.`;
+      const summaryPlaceholder = `This chapter explores key theoretical arguments and historical developments addressed by ${author} in "${chapter.title}".`;
       fs.writeFileSync(path.join(bookDir, sumFileRelative), summaryPlaceholder, 'utf8');
 
       const chapId = chapter.title.toLowerCase()
@@ -421,7 +464,16 @@ async function main() {
     readingTime = `${hours} hours`;
   }
 
-  const coverGradient = gradients[Math.floor(Math.random() * gradients.length)];
+  let coverGradient = gradients[Math.floor(Math.random() * gradients.length)];
+  if (author === 'Che Guevara') {
+    coverGradient = 'linear-gradient(135deg, #1b4332 0%, #081c15 100%)';
+  } else if (author === 'Thomas Sankara') {
+    coverGradient = 'linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)';
+  } else if (author === 'Joseph Stalin') {
+    coverGradient = 'linear-gradient(135deg, #3d0c02 0%, #1f0400 100%)';
+  } else if (author === 'V.I. Lenin') {
+    coverGradient = 'linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)';
+  }
 
   const summaryJson = {
     id: bookId,
@@ -432,12 +484,12 @@ async function main() {
     readingTime: readingTime,
     coverGradient: coverGradient,
     marxistsOrgUrl: rawUrl,
-    context: `First published in ${year}, this philosophical essay by ${author} examines the law of the unity of opposites and dialectical materialist analysis.`,
-    relatesToToday: "Mao's analysis of principal contradictions and principal aspects helps explain changing political dynamics, internal organizational conflicts, and complex geopolitical relationships in the modern world.",
+    context: `First published in ${year}, this work by ${author} examines foundational principles of scientific socialism and revolutionary political theory.`,
+    relatesToToday: `Provides critical historical and theoretical insights for analyzing political economy, social contradictions, and contemporary working-class struggles.`,
     keyTakeaways: [
-      "The law of contradiction in things, or the unity of opposites, is the fundamental law of materialist dialectics.",
-      "Contradiction is universal (present in all processes) and particular (each contradiction has its own specific characteristics).",
-      "In any complex process there is a principal contradiction that determines or influences the development of other contradictions."
+      `Examines the material basis of social and economic relations.`,
+      `Analyzes the dynamics of class struggle and historical development.`,
+      `Outlines strategic and organizational lessons for the liberation of the working class.`
     ],
     chapters: finalChapters
   };

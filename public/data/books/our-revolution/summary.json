@@ -1,0 +1,41 @@
+{
+  "id": "our-revolution",
+  "title": "Our Revolution",
+  "author": "V.I. Lenin",
+  "year": "1923",
+  "difficulty": "Medium",
+  "readingTime": "8 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1923/jan/16.htm",
+  "context": "Dictated on January 16 and 17, 1923, during Lenin's final illness, this brief masterpiece critiques Menshevik memoirist Nikolai Sukhanov and the reformists of the Second International for their mechanical, pedantic misunderstanding of historical materialism and the dialectics of world revolution.",
+  "relatesToToday": "Crucial for contemporary debates on revolutionary transitions in the Global South, refuting dogmatic developmentalism, and demonstrating how working-class power can pioneer industrial and cultural modernization.",
+  "keyTakeaways": [
+    "Reformists and pedants completely fail to grasp the core of Marxism: its living revolutionary dialectics.",
+    "World historical development does not follow a rigid, mechanical linear blueprint across all countries.",
+    "A revolution can capture political power under unique crisis conditions (like imperialist war) to create the cultural and economic prerequisites for socialism, rather than passively waiting for capitalism to develop.",
+    "Napoleon's maxim 'On s'engage et puis ... on voit' captures the necessary audacity of revolutionary praxis."
+  ],
+  "chapters": [
+    {
+      "id": "part-i-apropos-of-n-sukhanov-s-notes",
+      "title": "Part I (Apropos of N. Sukhanov's Notes)",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "part-ii",
+      "title": "Part II",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    }
+  ]
+}
