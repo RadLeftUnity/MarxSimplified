@@ -1,0 +1,26 @@
+{
+  "id": "guerrilla-warfare-a-method",
+  "title": "Guerrilla Warfare: A Method",
+  "author": "Che Guevara",
+  "year": "1963",
+  "difficulty": "Medium",
+  "readingTime": "32 mins",
+  "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/guevara/1963/09/guerrilla-warfare.htm",
+  "context": "Published in September 1963 in the theoretical journal Cuba Socialista, this seminal essay by Ernesto 'Che' Guevara synthesizes the military, political, and economic principles of the Cuban Revolution into a strategic method for continental anti-imperialist struggle in Latin America and the Global South. Guevara establishes that guerrilla warfare is a political weapon aimed at the conquest of state power, requiring the mobilization of the peasant masses and the creation of subjective revolutionary consciousness.",
+  "relatesToToday": "Offers critical strategic lessons for modern asymmetric and popular struggles fighting deeply entrenched, heavily militarized state apparatuses and foreign-backed oligarchies.",
+  "keyTakeaways": [
+    "Guerrilla warfare is not an end in itself, but a political instrument for the conquest of state power.",
+    "Subjective conditions of organization and leadership can be created and accelerated through armed mass struggle rather than waited for passively.",
+    "The national bourgeoisie of the dependent world is incapable of leading genuine anti-imperialist liberation due to fear of the working masses."
+  ],
+  "chapters": [
+    {
+      "id": "guerrilla-warfare-a-method",
+      "title": "Guerrilla Warfare: A Method",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

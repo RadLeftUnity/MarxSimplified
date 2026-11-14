@@ -1,0 +1,27 @@
+{
+  "id": "how-the-capitalists-are-trying-to-scare-the-people",
+  "title": "How the Capitalists Are Trying to Scare the People",
+  "author": "V.I. Lenin",
+  "year": "1917",
+  "difficulty": "Easy",
+  "readingTime": "5 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1917/may/19.htm",
+  "context": "Published in Pravda No. 61 on June 1 (May 19), 1917, during the revolutionary dual-power crisis in Russia, this polemic refutes an editorial from the bourgeois capitalist journal Finansovaya Gazeta, which attempted to terrify the public into opposing workers' control over industry.",
+  "relatesToToday": "Directly relevant for countering contemporary capitalist propaganda that equates democratic public ownership or workers' regulation with total economic catastrophe, individual deprivation, and totalitarian overreach.",
+  "keyTakeaways": [
+    "Every major political transformation that transfers power between classes is fundamentally a social revolution; the February Revolution transferred power from feudal landowners to the bourgeoisie.",
+    "Workers' control over production, banks, and cartels is an objective, indispensable emergency measure needed to prevent catastrophic economic breakdown.",
+    "Socialist transformation does not expropriate the small and middle property of peasants and working people, but only expropriates the tiny oligarchic minority of monopoly bosses and millionaires.",
+    "Breaking the economic sabotage of a few hundred wealthy capitalists is sufficient to preserve production and secure the livelihoods of the vast majority."
+  ],
+  "chapters": [
+    {
+      "id": "how-the-capitalists-are-trying-to-scare-the-people",
+      "title": "How the Capitalists Are Trying to Scare the People",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ideology-of-the-cuban-revolution",
+  "title": "Notes for the Study of the Ideology of the Cuban Revolution",
+  "author": "Che Guevara",
+  "year": "1960",
+  "difficulty": "Medium",
+  "readingTime": "10 mins",
+  "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/guevara/1960/10/08.htm",
+  "context": "Published in Verde Olivo on October 8, 1960, during the initial consolidation of revolutionary state power in Cuba, this seminal essay articulates the organic Marxist character of the Cuban Revolution and outlines the transformation of revolutionary fighters through practical struggle alongside the peasantry.",
+  "relatesToToday": "Essential for understanding anti-colonial Marxism, the creative application of historical materialism to conditions in the Global South, and the unity of theory and practice.",
+  "keyTakeaways": [
+    "One should be Marxist with the same naturalness with which a scientist is Newtonian in physics or Pasteurian in biology.",
+    "Marx's qualitative contribution was uniting scientific social analysis with revolutionary transformation.",
+    "The Cuban Revolution fulfilled Marxist laws through concrete practice before its leadership had fully assimilated Marxist theory.",
+    "Agrarian reform and direct living alongside the peasantry converted abstract intellectual theory into living revolutionary practice."
+  ],
+  "chapters": [
+    {
+      "id": "notes-for-the-study-of-the-ideology-of-the-cuban-revolution",
+      "title": "Notes for the Study of the Ideology of the Cuban Revolution",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

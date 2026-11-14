@@ -1,0 +1,42 @@
+{
+  "id": "summary-of-dialectics",
+  "title": "Summary of Dialectics",
+  "author": "V.I. Lenin",
+  "year": "1914 - 1915",
+  "difficulty": "Hard",
+  "readingTime": "15 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1914/cons-logic/summary.htm",
+  "context": "Written between 1914 and 1915 in Bern, Switzerland, following the outbreak of World War I and the collapse of the Second International, these philosophical notebooks record Lenin's deep study of Hegel's Science of Logic, formulating the 16 elements of dialectics and the famous fragment 'On the Question of Dialectics'.",
+  "relatesToToday": "Foundational for understanding Marxist dialectics, the law of contradiction, the critique of mechanical evolutionism, and why genuine social transformation requires qualitative leaps rather than superficial reformism.",
+  "keyTakeaways": [
+    "Dialectics is the doctrine of the unity of opposites: the splitting of a single whole and the cognition of its contradictory parts.",
+    "The 16 elements of dialectics articulate the objective, manifold relations, deepening essence, and qualitative transformations of reality.",
+    "The unity of opposites is relative and temporary, whereas the struggle of opposites is absolute.",
+    "Human cognition develops not in a straight line, but in an ascending spiral.",
+    "Philosophical idealism is a sterile flower growing from the one-sided exaggeration of an aspect of human knowledge."
+  ],
+  "chapters": [
+    {
+      "id": "summary-of-dialectics",
+      "title": "Summary of Dialectics (1914)",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "on-the-question-of-dialectics",
+      "title": "On the Question of Dialectics (1915)",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "editorial-footnotes",
+      "title": "Editorial Footnotes and Citations",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    }
+  ]
+}

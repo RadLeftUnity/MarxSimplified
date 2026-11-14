@@ -277,6 +277,28 @@ export async function prepareFonts(): Promise<void> {
 }
 
 /**
+ * Export a PNG image blob directly to clipboard.
+ * Falls back to automatic file download if browser clipboard permission fails.
+ */
+export async function copyBlobToClipboard(blob: Blob, filename = 'marx-simplified-card.png'): Promise<boolean> {
+  try {
+    if (navigator.clipboard && typeof window.ClipboardItem !== 'undefined') {
+      await navigator.clipboard.write([
+        new ClipboardItem({ 'image/png': blob })
+      ]);
+      return true;
+    } else {
+      downloadBlobAsFile(blob, filename);
+      return true;
+    }
+  } catch (err) {
+    console.warn('Clipboard write unsuccessful, falling back to PNG download.', err);
+    downloadBlobAsFile(blob, filename);
+    return true;
+  }
+}
+
+/**
  * Export a rendered canvas directly to clipboard as a PNG image blob.
  * Falls back to automatic file download if browser clipboard permission fails.
  */
@@ -287,21 +309,8 @@ export async function copyCanvasToClipboard(canvas: HTMLCanvasElement): Promise<
         resolve(false);
         return;
       }
-      try {
-        if (navigator.clipboard && typeof window.ClipboardItem !== 'undefined') {
-          await navigator.clipboard.write([
-            new ClipboardItem({ 'image/png': blob })
-          ]);
-          resolve(true);
-        } else {
-          downloadBlobAsFile(blob, 'marx-simplified-card.png');
-          resolve(true);
-        }
-      } catch (err) {
-        console.warn('Clipboard write unsuccessful, falling back to PNG download.', err);
-        downloadBlobAsFile(blob, 'marx-simplified-card.png');
-        resolve(true);
-      }
+      const success = await copyBlobToClipboard(blob);
+      resolve(success);
     }, 'image/png');
   });
 }

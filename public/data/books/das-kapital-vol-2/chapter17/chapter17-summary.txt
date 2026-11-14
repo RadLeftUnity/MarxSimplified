@@ -1,3 +1,1 @@
-Chapter Overview: The Time of Circulation
-
 Analyzes total circulation time (purchase time plus sale time) and its restricting effect on capital valorization.

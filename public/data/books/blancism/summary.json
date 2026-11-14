@@ -1,0 +1,27 @@
+{
+  "id": "blancism",
+  "title": "Blancism",
+  "author": "V.I. Lenin",
+  "year": "1917",
+  "difficulty": "Medium",
+  "readingTime": "6 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1917/apr/08.htm",
+  "context": "Published in Pravda No. 27 on April 8 (21), 1917, shortly after Lenin's return to Petrograd and the presentation of his April Theses, this article exposes the Menshevik and Socialist-Revolutionary leadership of the Soviets for repeating the tragic class-collaborationist illusions of the French reformist Louis Blanc in 1848.",
+  "relatesToToday": "Critically relevant for dissecting social-democratic and centrist politicians who attempt to manage imperialist capitalist states, make cosmetic anti-war declarations, and sow illusions that capitalist governments can be lobbied into peaceful anti-imperialism.",
+  "keyTakeaways": [
+    "Blancism denotes substituting petty-bourgeois reformist illusions and class collaboration for militant proletarian class struggle.",
+    "The Menshevik and SR conciliators in the Soviets repeated Louis Blanc's 1848 error by looking to the capitalist Provisional Government to organize society in the interests of labor.",
+    "Petty-bourgeois politicians condemn imperialism in words while demanding that the bourgeoisie renounce annexations without overthrowing the world capitalist system.",
+    "Anti-imperialist rhetoric remains an empty deception unless backed by concrete deeds and the revolutionary overthrow of finance capital."
+  ],
+  "chapters": [
+    {
+      "id": "blancism",
+      "title": "Blancism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

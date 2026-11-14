@@ -1,0 +1,72 @@
+{
+  "id": "socialism-and-war",
+  "title": "Socialism and War",
+  "author": "V.I. Lenin",
+  "year": "1915",
+  "difficulty": "Medium",
+  "readingTime": "1.5 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1915/s-w/index.htm",
+  "shortDescription": "Lenin's decisive polemic defining the Marxist stance on World War I, contrasting revolutionary internationalism and defeatism against bourgeois pacifism and social-chauvinist betrayal.",
+  "subject": "Imperialism, War and Internationalism",
+  "tags": [
+    "Imperialist War",
+    "Social-Chauvinism",
+    "Revolutionary Defeatism",
+    "Second International",
+    "Marxism-Leninism",
+    "V.I. Lenin"
+  ],
+  "context": "Written in the summer of 1915 in Swiss exile alongside Grigory Zinoviev for the international socialist Zimmerwald Conference, Socialism and War articulated the Bolshevik stance against the First World War following the collapse of the Second International into patriotic chauvinism.",
+  "relatesToToday": "Provides an essential framework for assessing modern geopolitical conflicts, distinguishing between wars of imperialist aggression and wars of national liberation, and resisting war propaganda framed around national defense.",
+  "keyTakeaways": [
+    "Distinction between just and unjust wars: Socialists do not oppose all warfare unconditionally; wars of national liberation and revolutionary class defense against imperialist oppressors are legitimate and progressive.",
+    "War as the continuation of politics: Applying Clausewitz's principle, World War I was not a defensive war for culture or democracy, but the violent continuation of decades of imperialist rivalry for colonial markets and plunder.",
+    "Condemnation of social-chauvinism: Leaders of the Second International betrayed the working class by voting war credits and defending their national capitalist governments under the guise of defending the fatherland.",
+    "Revolutionary defeatism: In an imperialist war, the revolutionary working class must actively work for the defeat of its own predatory government, transforming the imperialist conflict into a socialist civil war against the capitalist order."
+  ],
+  "chapters": [
+    {
+      "id": "preface-to-the-first-foreign-edition",
+      "title": "Preface to the First (Foreign) Edition",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "preface-to-the-second-edition",
+      "title": "Preface to the Second Edition",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-principles-of-socialism-and-the-war-of-1914-1915",
+      "title": "Chapter 1: The Principles of Socialism and the War of 1914-1915",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "classes-and-parties-in-russia",
+      "title": "Chapter 2: Classes and Parties in Russia",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-restoration-of-the-international",
+      "title": "Chapter 3: The Restoration of the International",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-history-of-the-split-and-the-present-state-of-social-democracy-in-russia",
+      "title": "Chapter 4: The History of the Split and the Present State of Social-Democracy in Russia",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    }
+  ]
+}

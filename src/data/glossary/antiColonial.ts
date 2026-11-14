@@ -1523,17 +1523,6 @@ export const antiColonialTerms: GlossaryTerm[] = [
     ]
   },
   {
-    "term": "Foco Theory",
-    "pattern": "foco theory|foquismo|che's foco theory|guevarism",
-    "definition": "A revolutionary guerrilla strategy formulated by Ernesto 'Che' Guevara and Régis Debray, asserting that a small, dedicated cadre of armed guerrillas (a 'foco') in rural areas can act as a catalyst to create subjective conditions for popular revolution.",
-    "misconception": "Isolated adventurism. Che emphasized that a foco must build deep organic trust with rural peasant populations, providing healthcare and agrarian reform to ignite mass revolution.",
-    "example": "A small group of medical cadres and organizers setting up mobile clinics and land defense units in a remote mountain region to build popular peasant resistance.",
-    "theoryTags": [
-      "Anti-Colonial Socialism",
-      "Marxism-Leninism"
-    ]
-  },
-  {
     "term": "War of Position",
     "pattern": "war of position|war of position vs war of manoeuvre",
     "definition": "Gramsci's strategic distinction: 'War of Manoeuvre' is a direct frontal assault on state power, while 'War of Position' is a long-term cultural and political struggle to build counter-hegemonic institutions, unions, and revolutionary culture within civil society before taking state power.",

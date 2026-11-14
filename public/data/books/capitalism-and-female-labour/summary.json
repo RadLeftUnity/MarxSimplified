@@ -1,0 +1,27 @@
+{
+  "id": "capitalism-and-female-labour",
+  "title": "Capitalism and Female Labour",
+  "author": "V.I. Lenin",
+  "year": "1913",
+  "difficulty": "Easy",
+  "readingTime": "4 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1913/apr/27.htm",
+  "context": "Written on April 27, 1913, and published in Pravda on May 5, 1913, this brief article addresses an exhibition in Paris showcasing the horrific wage exploitation of women engaged in domestic sweatshop piecework. Lenin utilizes this data to unmask the systematic roots of working-class female oppression under capitalism.",
+  "relatesToToday": "Invaluable for contemporary socialist feminist and labor movements analyzing the gig economy, informal home-based wage work, the ongoing devaluation of female labor, and the economic compulsion driving commercial sex work.",
+  "keyTakeaways": [
+    "Capitalism systematically exploits home-based female workers at starvation piece-rates, treating their labor as disposable auxiliary income.",
+    "Prostitution is not a moral failing or individual pathology, but an inevitable economic byproduct of wage-slavery and class exploitation.",
+    "Across slavery, feudalism, and capitalism, exploiting classes have extracted both unpaid labor and sexual subjugation from oppressed classes.",
+    "Exposing the brutal reality of working women's conditions is vital for awakening class consciousness and uniting men and women in the struggle against wage slavery."
+  ],
+  "chapters": [
+    {
+      "id": "capitalism-and-female-labour",
+      "title": "Capitalism and Female Labour",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

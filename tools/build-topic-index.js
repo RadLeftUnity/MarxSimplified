@@ -119,15 +119,15 @@ const TOPIC_RULES = [
   },
   {
     name: 'Individualism',
-    pattern: /\bindividualis[mt]|\bindividualistic|\bbourgeois individual|\bbourgeois individuality\b|\bpetty-bourgeois individualism\b/i,
+    pattern: /\bindividualis[mt]|\bindividualistic|\bbourgeois individual|\bbourgeois individuality\b|\bpetty-bourgeois individualism\b|\bindividualist\b/i,
   },
   {
     name: 'Human Nature',
-    pattern: /\bhuman nature\b|\bspecies-being\b|\bhuman essence\b|\bessence of man\b|\bensemble of the social relations\b/i,
+    pattern: /\bhuman nature\b|\bspecies-being\b|\bgattungswesen\b|\bhuman essence\b|\bessence of man\b|\bensemble of the social relations\b/i,
   },
   {
     name: 'Petty Bourgeoisie',
-    pattern: /\bpetty[- ]bourgeois(?:ie|e)?\b|\bpetty[- ]bourgeois mentality\b|\bpetty[- ]bourgeois socialism\b/i,
+    pattern: /\bpetty[- ]bourgeois(?:ie|e)?\b|\bpetty[- ]bourgeois mentality\b|\bpetty[- ]bourgeois socialism\b|\bsmall master\b|\bpeasant proprietor\b|\blittle bourgeois\b/i,
   },
 ];
 

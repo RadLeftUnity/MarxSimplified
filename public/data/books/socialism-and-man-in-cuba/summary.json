@@ -1,0 +1,132 @@
+{
+  "id": "socialism-and-man-in-cuba",
+  "title": "Socialism and Man in Cuba",
+  "author": "Che Guevara",
+  "year": "1965",
+  "difficulty": "Medium",
+  "readingTime": "30 mins",
+  "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm",
+  "context": "Written in March 1965 as an open letter to Carlos Quijano, editor of the Uruguayan weekly Marcha, this text constitutes Che Guevara's most famous and comprehensive theoretical statement on the human dimension of socialist construction, the ethics of the vanguard, moral incentives, and the creation of the New Man and Woman.",
+  "relatesToToday": "Fundamental for analyzing alienation, the psychological estrangement of wage labour, cultural policy, and why economic development under socialism must be accompanied by conscious ethical transformation.",
+  "keyTakeaways": [
+    "Building communism requires constructing not only new material foundations, but simultaneously the New Man and New Woman.",
+    "Relying on capitalist economic categories (commodity production, profit motives, individual material incentives) leads into a blind alley.",
+    "Moral incentives, direct education, and voluntary social labour are essential instruments for overcoming alienation and forging socialist solidarity.",
+    "True revolutionaries are guided by great feelings of love, combining rigorous political duty with deep empathy for humanity."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "first-heroic-stage",
+      "title": "First heroic stage",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "participation-of-the-masses",
+      "title": "Participation of the masses",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "invisible-laws-of-capitalism",
+      "title": "Invisible laws of capitalism",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-individual-and-socialism",
+      "title": "The individual and socialism",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "new-consciousness",
+      "title": "New consciousness",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "conscious-process-of-self-education",
+      "title": "Conscious process of self-education",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "institutionalization-of-the-revolution",
+      "title": "Institutionalization of the revolution",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "new-status-of-work",
+      "title": "New status of work",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "individualism",
+      "title": "Individualism",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "new-impulse-for-artistic-experimentation",
+      "title": "New impulse for artistic experimentation",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "new-revolutionary-generation",
+      "title": "New revolutionary generation",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "role-of-the-individual",
+      "title": "Role of the individual",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "love-of-living-humanity",
+      "title": "Love of living humanity",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "danger-of-dogmatism",
+      "title": "Danger of dogmatism",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "footnotes",
+      "title": "Footnotes",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    }
+  ]
+}

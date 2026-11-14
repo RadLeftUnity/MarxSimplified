@@ -1,0 +1,26 @@
+{
+  "id": "a-united-front-against-debt",
+  "title": "A United Front Against Debt",
+  "author": "Thomas Sankara",
+  "year": "1987",
+  "difficulty": "Introductory",
+  "readingTime": "11 mins",
+  "coverGradient": "linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/sankara/1987/july/29.htm",
+  "context": "Delivered in Addis Ababa, Ethiopia, on July 29, 1987, at the summit of the Organization of African Unity, this landmark speech by Captain Thomas Sankara calls for a continental refusal to pay foreign debt, exposing sovereign debt as an instrument of neocolonial reconquest.",
+  "relatesToToday": "Provides an essential foundation for contemporary anti-imperialist critiques of IMF and World Bank debt traps, structural adjustment programmes, odious debt, and the ongoing struggle for Global South economic sovereignty.",
+  "keyTakeaways": [
+    "Third-world debt originates in colonial conquest and continues the extraction of African resources under modern financial disguises.",
+    "Debt repayment is a matter of life and death: while imperialist banks can withstand non-payment, African working masses cannot survive debt servicing.",
+    "Only a united, collective front among oppressed nations can successfully resist imperialist retaliation, debt enslavement, and targeted assassinations."
+  ],
+  "chapters": [
+    {
+      "id": "a-united-front-against-debt",
+      "title": "A United Front Against Debt",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

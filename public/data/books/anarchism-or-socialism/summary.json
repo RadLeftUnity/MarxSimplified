@@ -1,0 +1,54 @@
+{
+  "id": "anarchism-or-socialism",
+  "title": "Anarchism or Socialism?",
+  "author": "Joseph Stalin",
+  "year": "1907",
+  "difficulty": "Medium",
+  "readingTime": "1.7 hours",
+  "coverGradient": "linear-gradient(135deg, #7c1a22 0%, #30080c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/stalin/works/1906/12/x01.htm",
+  "context": "Written between December 1906 and January 1907 as a series of articles in Georgian socialist periodicals, Anarchism or Socialism? is Stalin's early philosophical defense of dialectical and historical materialism against the Georgian anarchists following Prince Kropotkin. The treatise contrasts the materialist foundation of scientific socialism with individualist anarchist philosophy, demonstrating that individual liberation is impossible without the collective emancipation of the working class.",
+  "relatesToToday": "Directly addresses debates between collective working class struggle and individualist, anti-organizational tendencies in modern activist movements.",
+  "keyTakeaways": [
+    "Contrasts the cornerstone of anarchism ('everything for the individual') with Marxism ('the emancipation of the masses is the condition for the emancipation of the individual').",
+    "Explains materialist dialectics as the philosophy of continuous motion, where new revolutionary forces inevitably outgrow and burst obsolete social forms.",
+    "Demonstrates that social being determines social consciousness, and that the state cannot simply be wished away without the dictatorship of the proletariat to abolish classes."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "the-dialectical-method",
+      "title": "I. The Dialectical Method",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-materialist-theory",
+      "title": "II. The Materialist Theory",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "proletarian-socialism",
+      "title": "III. Proletarian Socialism",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

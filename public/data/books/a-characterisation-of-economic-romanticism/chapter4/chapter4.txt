@@ -1,0 +1,55 @@
+Vladimir Ilyich Lenin
+
+A Characterisation of Economic Romanticism
+
+(SISMONDI and OUR NATIVE SISMONDISTS)
+
+IV
+
+Wherein Lies the Error of Adam Smith’s and Sismondi’s Theories of National Revenue?
+
+What is the fundamental error that led Sismondi to all these conclusions?
+
+Sismondi took over his theory of national revenue and of its division into two parts (the workers’ and the capitalists’) bodily from Adam Smith. Far from adding anything to Adam Smith’s theses, he even took a step backward and omitted Adam Smith’s attempt (albeit unsuccessful) to substantiate this proposition theoretically. Sismondi appears not to notice how this theory contradicts that of production in general. Indeed, according to the theory which deduces value from labour, the value of a product consists of three components: the part which replaces the raw materials and instruments of labour (constant capital), the part which replaces wages, or the maintenance of the workers (variable capital), and “surplus-value” (Sismondi calls it mieux-value). Such is the analysis of the individual product in terms of value made by Adam Smith and repeated by Sismondi. The question is: how can the social product, which is the sum-total of individual products, consist only of the two latter parts? What has be come of the first part: constant capital? As we have seen, Sismondi merely beat about the bush on this question, but Adam Smith gave an answer to it. He asserted that this part exists independently only in the individual product. If, however, we take the aggregate social product, this part, in its turn, resolves itself into wages and surplus-value: of precisely those capitalists who produce this constant capital.
+
+But in giving this answer Adam Smith did not explain why, when resolving the value of constant capital, say of machines, he again leaves out the constant capital, i.e., in our example, the iron out of which the machines are made, or the instruments used up in the process, etc.? If the value of each product includes the part which replaces constant capital (and all economists agree that it does) then the exclusion of that part from any sphere of social production whatever is quite arbitrary. As the author of Capital pointed out, “when Adam Smith says that the instruments of labour resolve themselves into wages and profit, he forgets to add: and into that constant capital which is used up in their production. Adam Smith simply sends us from Pontius to Pilate, from one line of production to another, from another to a third,”[3] failing to notice that this shifting about does not alter the problem in the least. Smith’s answer (accepted by all the subsequent political economists prior to Marx) is simply an evasion of the problem, avoidance of the difficulty. And there is in deed a difficulty here. It lies in that the concepts of capital and revenue cannot be directly transferred from the individual product to the social product. The economists admit this when they say that from the social point of view what is “capital for one becomes revenue for another” (see Sismondi, as quoted above). This phrase, however, formulates the difficulty but does not solve it.[1]
+
+The solution is that when examining this question from the social point of view, we must no longer speak of products in general, irrespective of their material forms. Indeed, we are discussing the social revenue, i.e., the product which becomes available for consumption. But surely not all products can be consumed through personal consumption: machines, coal, iron, and similar articles are not consumed personally, but productively. From the individual entrepreneur’s point of view this distinction was superfluous: when we said that the workers would consume variable capital, we assumed that on the market they would acquire articles of consumption with the money the capitalist had paid them, the money which he, the capitalist, had received for the machines made by the workers. Here the exchange of machines for bread does not interest us. But from the social point of view, this exchange cannot be assumed: we cannot say that the entire capitalist class which produces machines, iron, etc., sells these things, and in this way realises them. The whole question is how realisation takes place: that is, the replacement of all parts of the social product. Hence, the point of departure in discussing social capital and revenue: or, what is the same thing, the realisation of the product in capitalist society: must be the distinction between two entirely different types of social product: means of production and articles of consumption. The former can be consumed only productively, the latter only personally. The former can serve only as capital, the latter must become revenue, i.e., must be destroyed in consumption by the workers and capitalists. The former go entirely to the capitalists, the latter are shared between the workers and the capitalists.
+
+Once this difference is understood and we rectify the error made by Adam Smith, who left its constant part (i.e., the part which replaces constant capital) out of the social product, the question of the realisation of the product in capitalist society becomes clear. Obviously, we cannot speak of wages being realised through consumption by the workers, and surplus-value through consumption by the capitalists, and nothing more.[2] The workers can consume wages and capitalists surplus-value only when the product consists of articles of consumption, i.e., only in one department of social production. They cannot “consume” the product which consists of means of production: this must be exchanged for articles of consumption. But for which part (in terms of value) of the articles of consumption can they exchange their product?Obviously, only for the constant part (constant capital), since the other two parts constitute the consumption fund of the workers and capitalists who produce articles of consumption. By realising the surplus-value and wages in the industries which produce means of production, this exchange thereby realises the constant capital in the industries which produce articles of consumption. Indeed, for the capitalist who manufactures, say, sugar, that part of the product which is to replace constant capital (i.e., raw materials, auxiliary materials, machines, premises, etc.) exists in the shape of sugar. To realise this part, he must receive corresponding means of production in return for it. The realisation of this part will therefore consist in exchanging the article of consumption for products which serve as means of production. Now the realisation of only one part of the social product, namely, the constant capital in the department which manufactures means of production, remains unexplained. This is partially realised by part of the product going back again into production in its natural form (for example, part of the coal produced by a mining firm is used to produce more coal; the grain obtained by farmers is used for seed, and so forth); and partly it is realised by exchange between individual capitalists in the same department: for example, coal is needed for the production of iron, and iron is needed for the production of coal. The capitalists who produce these two products realise by mutual exchange that part of their respective products which replaces their constant capital.
+
+This analysis (which, we repeat, we have summarised in the most condensed form for the reason given above) solved the difficulty which all the economists felt when they formulated it in the phrase: “capital for one becomes revenue for another.” This analysis revealed the utter fallacy of reducing social production solely to personal consumption.
+
+We can now proceed to examine the conclusions drawn by Sismondi (and the other romanticists) from his fallacious theory. But first let us quote the opinion of Sismondi expressed by the author of the above analysis, after a most detailed and comprehensive examination of Adam Smith’s theory, to which Sismondi added absolutely nothing, merely leaving out Adam Smith’s attempt to justify his contradiction:
+
+“Sismondi, who occupies himself particularly with the relation of capital to revenue, and in actual fact makes the peculiar formulation of this relation the differentia specifica of his Nouveaux Principes, did not say one scientific word” (author’s italics), “did not contribute one iota to the clarification of the problem” (Das Kapital, II, S. 385, 1-te Auflage).[6]
+
+Notes
+
+[1] We give here only the gist of the new theory which provides this solution, leaving ourselves free to present it in greater detail elsewhere. See Das Kapital, II. Band, III, Abschnitt.[4] (For a more detailed exposition, see The Development of Capitalism, chap. I.)[5]: Lenin
+
+[2] That is just how our Narodnik economists Messrs. V. V. and N.-on reason. Above we deliberately dealt in great detail with Sismondi’s wandering around the question of productive and personal consumption, of articles of consumption and means of production (Adam Smith came even closer to distinguishing between them than Sismondi did). We wanted to show the reader that the classical representatives of this fallacious theory felt that it was unsatisfactory, saw the contradiction in it, and made attempts to extricate themselves. But our “original” theoreticians not only see nothing and feel nothing, but know nothing about either the theory or the history of the question they prate about so zealously.: Lenin
+
+[3] Karl Marx, Capital, Vol. II, Moscow, 1957, p. 373; Vol. III, Moscow 1959, p. 821.
+
+[4] Karl Marx, Capital, Vol. II, Moscow, 1957, pp. 351-523.
+
+[5] In the 1897 and 1898 editions Lenin referred to M. I. Tugan-Baranovsky’s Industrial Crises, Part II. In the 1908 edition Lenin introduced a change by referring instead to his own book, The Development of Capitalism in Russia, which appeared in 1899 (see present edition, Vol. 3).
+
+[6] Karl Marx, Capital, Vol. II, Moscow, 1957, p. 391.
+
+ Sismondi’s Conclusions From the Fallacious Theory of Two Parts of the Annual Product in Capitalist Society
+ |
+ Accumulation in Capitalist Society
+
+ Document Index
+
+ Forwards >
+
+ Works Index
+ |
+ Volume 2
+ |
+ Collected Works
+ |
+ L.I.A. Index

@@ -1,0 +1,158 @@
+{
+  "id": "a-characterisation-of-economic-romanticism",
+  "title": "A Characterisation of Economic Romanticism",
+  "author": "V.I. Lenin",
+  "year": "1897",
+  "difficulty": "Hard",
+  "readingTime": "4.3 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1897/econroman/index.htm",
+  "shortDescription": "Lenin's comprehensive critique of Sismondi and Russian Narodism, dismantling petty-bourgeois romantic economics and demonstrating how capitalism develops the home market through the ruination of subsistence producers.",
+  "subject": "Political Economy and Critique of Romanticism",
+  "tags": [
+    "Political Economy",
+    "Narodism",
+    "Sismondism",
+    "Home Market",
+    "Capital Accumulation",
+    "Marxism-Leninism",
+    "V.I. Lenin"
+  ],
+  "context": "Written in Siberian exile in the spring of 1897 and published in the journal Novoye Slovo, this work served as the theoretical groundwork for Lenin's monumental study The Development of Capitalism in Russia (1899), systematically demolishing Narodnik claims that capitalism could not develop in Russia.",
+  "relatesToToday": "Provides critical arguments against modern degrowth romanticism, 'small is beautiful' localism, and moralistic critiques of capitalism that dream of returning to pre-industrial artisanal production rather than socializing advanced productive forces under workers' democratic control.",
+  "keyTakeaways": [
+    "The home market expands through proletarianization: The ruination of subsistence peasant farming does not destroy the home market; it creates it by turning subsistence food and tools into market commodities and forcing peasants into wage labor.",
+    "Adam Smith's dogma refuted: Classical economics and romanticists wrongly omitted constant capital (c) from total product; Marx showed that Department I (means of production) creates a massive internal market that realizes accumulation.",
+    "Underconsumption is not the ultimate cause of crises: Crises do not stem from workers' low consumption (which exists in all class societies), but from the anarchy of production and the fundamental contradiction between socialized production and private appropriation.",
+    "Progressive nature of machine industry: While machinery brings temporary displacement under capitalism, it massively raises labor productivity, breaks patriarchal backwardness, and creates the material basis for socialism.",
+    "Scientific critique versus romantic reaction: Scientific socialism criticizes capitalism from the forward-looking standpoint of the revolutionary proletariat, whereas economic romanticism measures modern industry with the backward-looking yardstick of patriarchal small production."
+  ],
+  "chapters": [
+    {
+      "id": "does-the-home-market-shrink",
+      "title": "Chapter 1: Does the Home Market Shrink Because of the Ruination of the Small Producers?",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "sismondi-s-views-on-national-revenue-and-capital",
+      "title": "Chapter 2: Sismondi’s Views on National Revenue and Capital",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "sismondi-s-conclusions-from-the-fallacious-theory",
+      "title": "Chapter 3: Sismondi’s Conclusions from the Fallacious Theory of Annual Product",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "wherein-lies-the-error-of-adam-smith-and-sismondi",
+      "title": "Chapter 4: Wherein Lies the Error of Adam Smith’s and Sismondi’s Theories of National Revenue?",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "accumulation-in-capitalist-society",
+      "title": "Chapter 5: Accumulation in Capitalist Society",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-foreign-market-as-the-way-out",
+      "title": "Chapter 6: The Foreign Market as the 'Way Out' of Realising Surplus-Value",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "crises",
+      "title": "Chapter 7: Crises",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "capitalist-rent-and-capitalist-overpopulation",
+      "title": "Chapter 8: Capitalist Rent and Capitalist Overpopulation",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "machines-in-capitalist-society",
+      "title": "Chapter 9: Machines in Capitalist Society",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "protection",
+      "title": "Chapter 10: Protection",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "sismondi-s-place-in-the-history-of-political-economy",
+      "title": "Chapter 11: Sismondi’s Place in the History of Political Economy",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "postscript",
+      "title": "Chapter 12: Postscript",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "the-sentimental-criticism-of-capitalism",
+      "title": "Chapter 13: The Sentimental Criticism of Capitalism",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    },
+    {
+      "id": "the-petty-bourgeois-character-of-romanticism",
+      "title": "Chapter 14: The Petty-Bourgeois Character of Romanticism",
+      "textFile": "chapter14/chapter14.txt",
+      "annotationFile": "chapter14/chapter14-annotations.json",
+      "summaryFile": "chapter14/chapter14-summary.txt"
+    },
+    {
+      "id": "the-growth-of-industrial-population",
+      "title": "Chapter 15: The Growth of Industrial Population at the Expense of Agriculture",
+      "textFile": "chapter15/chapter15.txt",
+      "annotationFile": "chapter15/chapter15-annotations.json",
+      "summaryFile": "chapter15/chapter15-summary.txt"
+    },
+    {
+      "id": "practical-proposals-of-romanticism",
+      "title": "Chapter 16: Practical Proposals of Romanticism",
+      "textFile": "chapter16/chapter16.txt",
+      "annotationFile": "chapter16/chapter16-annotations.json",
+      "summaryFile": "chapter16/chapter16-summary.txt"
+    },
+    {
+      "id": "the-reactionary-character-of-romanticism",
+      "title": "Chapter 17: The Reactionary Character of Romanticism",
+      "textFile": "chapter17/chapter17.txt",
+      "annotationFile": "chapter17/chapter17-annotations.json",
+      "summaryFile": "chapter17/chapter17-summary.txt"
+    },
+    {
+      "id": "corn-tariffs-in-england",
+      "title": "Chapter 18: Corn Tariffs in England as Appraised by Romanticism and Scientific Theory",
+      "textFile": "chapter18/chapter18.txt",
+      "annotationFile": "chapter18/chapter18-annotations.json",
+      "summaryFile": "chapter18/chapter18-summary.txt"
+    }
+  ]
+}

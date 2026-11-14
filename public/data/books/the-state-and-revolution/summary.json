@@ -1,0 +1,87 @@
+{
+  "id": "the-state-and-revolution",
+  "title": "The State and Revolution",
+  "author": "V.I. Lenin",
+  "year": "1917",
+  "difficulty": "Medium",
+  "readingTime": "3.3 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1917/staterev/",
+  "shortDescription": "Lenin's foundational treatise on Marxist state theory, detailing the dictatorship of the proletariat, the smashing of the bourgeois state machine, and the economic basis for the withering away of the state.",
+  "subject": "State Theory and Revolution",
+  "tags": [
+    "State Theory",
+    "Dictatorship of the Proletariat",
+    "Withering Away of the State",
+    "Paris Commune",
+    "Marxism-Leninism",
+    "V.I. Lenin"
+  ],
+  "context": "Written in hiding in August and September 1917 on the eve of the October Bolshevik Revolution, Lenin systematically rescued Marx and Engels's teachings on the state from the reformist distortions of the Second International leaders like Karl Kautsky.",
+  "relatesToToday": "Provides crucial clarity on why working-class movements cannot simply take over existing government bureaucracies, police apparatuses, and standing armies to build socialism, showing why authentic democratic power requires dismantling repressive institutions.",
+  "keyTakeaways": [
+    "The state is an instrument of class rule: The state arises from irreconcilable class antagonisms and exists to maintain the dominance of the ruling exploiter class.",
+    "Smashing the bourgeois state apparatus: The working class cannot simply lay hold of the ready-made state machinery; it must shatter the bureaucratic-military apparatus.",
+    "Dictatorship of the proletariat: A transitional workers' state is necessary to suppress capitalist resistance and reorganize production collectively.",
+    "Two phases of communist society: In the first lower phase (socialism), distribution corresponds to labor; in the higher phase of abundance, distribution follows \"from each according to their ability, to each according to their needs.\"",
+    "Withering away of the state: As classes disappear and social cooperation becomes universal custom, special apparatuses of violent coercion wither away naturally."
+  ],
+  "chapters": [
+    {
+      "id": "preface",
+      "title": "Preface to the First Edition",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "class-society-and-the-state",
+      "title": "Chapter 1: Class Society and the State",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-experience-of-1848-1851",
+      "title": "Chapter 2: The Experience of 1848: 1851",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "experience-of-the-paris-commune",
+      "title": "Chapter 3: Experience of the Paris Commune of 1871",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "supplementary-explanations-by-engels",
+      "title": "Chapter 4: Supplementary Explanations by Engels",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "the-economic-basis-of-the-withering-away-of-the-state",
+      "title": "Chapter 5: The Economic Basis of the Withering Away of the State",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "the-vulgarisation-of-marxism-by-opportunists",
+      "title": "Chapter 6: The Vulgarisation of Marxism by Opportunists",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "postscript",
+      "title": "Postscript to the First Edition",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    }
+  ]
+}

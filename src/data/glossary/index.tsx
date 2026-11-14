@@ -23,6 +23,7 @@ import { feudalismTerms } from './feudalism';
 import { postmodernTerms } from './postmodernism';
 import { marxistFeministTerms } from './marxistFeminism';
 import { schoolsOfMarxismTerms } from './schoolsOfMarxism';
+import { guevaristTerms } from './guevarism';
 import { proCapitalistOrganizationTerms } from './proCapitalistOrganizations';
 import { proSocialistOrganizationTerms } from './proSocialistOrganizations';
 
@@ -40,6 +41,7 @@ export const glossary: GlossaryTerm[] = [
   ...dengistTerms,
   ...jucheTerms,
   ...antiColonialTerms,
+  ...guevaristTerms,
   ...capitalistTerms,
   ...fascistTerms,
   ...neoMarxistTerms,
