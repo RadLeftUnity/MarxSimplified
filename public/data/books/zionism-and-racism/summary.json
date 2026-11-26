@@ -1,0 +1,57 @@
+{
+  "id": "zionism-and-racism",
+  "title": "Zionism and Racism",
+  "author": "Hasan Sa'b",
+  "year": "1968",
+  "difficulty": "Intermediate",
+  "readingTime": "1.2 hours",
+  "coverGradient": "linear-gradient(135deg, #1b3a4b 0%, #061a23 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/subject/israel-palestine/prc/essay-2.pdf",
+  "context": "Published in January 1968 as Essay No. 2 by the Palestine Liberation Organization (PLO) Research Center in Beirut, this foundational monograph by Lebanese scholar and diplomat Dr. Hasan Sa'b provides an incisive critique of political Zionism as a racialist ideology, analyzing its roots in 19th-century European nationalist chauvinism and its settler-colonial practices of displacement and racial discrimination.",
+  "relatesToToday": "Provides essential historical and conceptual foundations for understanding the institutionalized racial discrimination, ethnic segregation, and settler-colonial legal structures of the Israeli state, anticipating by seven years United Nations General Assembly Resolution 3379 which determined that Zionism is a form of racism and racial discrimination.",
+  "keyTakeaways": [
+    "Traces the ideological genesis of political Zionism to European 19th-century racialist nationalism and colonial exclusivism.",
+    "Examines the historic Arab and Palestinian resistance against Zionist settler-colonial expansion and forced displacement.",
+    "Highlights the extensive tradition of universalist Jewish dissent against political Zionism, including critiques by Albert Einstein, Morris Cohen, and Judah Magnes.",
+    "Analyzes how the Zionist state structure enforces legal and economic discrimination against indigenous Palestinian citizens.",
+    "Exposes internal racial and ethnic hierarchies within Israel, specifically the systemic discrimination and cultural chauvinism directed by the Ashkenazi establishment against Sephardic and Mizrahi Jews.",
+    "Advocates for a democratic, secular, and anti-racial vision of coexistence across historic Palestine."
+  ],
+  "chapters": [
+    {
+      "id": "the-racist-ideology-of-zionism",
+      "title": "The Racist Ideology of Zionism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "arab-reactions-to-zionist-racism",
+      "title": "Arab Reactions to Zionist Racism",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "jewish-reactions-to-zionist-racism",
+      "title": "Jewish Reactions to Zionist Racism",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "zionism-breeds-racial-and-ethnic-discrimination",
+      "title": "Zionism Breeds Racial and Ethnic Discrimination",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "epilogue",
+      "title": "Epilogue",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "socialism-utopian-and-scientific",
+  "title": "Socialism: Utopian and Scientific",
+  "author": "Friedrich Engels",
+  "year": "1880",
+  "difficulty": "Intermediate",
+  "readingTime": "2.5 hours",
+  "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1880/soc-utop/index.htm",
+  "context": "Published in 1880 and adapted from three chapters of Friedrich Engels' larger polemical work Anti-Dühring, this short book served as one of the most popular and influential introductions to Marxism in the late nineteenth century. Engels traces the development of socialist thought from early visionary reformers to a scientific analysis grounded in historical materialism and the economic laws of capitalist accumulation.",
+  "relatesToToday": "Provides the theoretical framework for distinguishing scientific socialism from moralistic appeals and utopian schemes. It clarifies how structural contradictions within capitalism, particularly between socialized production and private capitalist appropriation, inexorably generate crises, inequality, monopolies, and the objective necessity of public ownership and planned production.",
+  "keyTakeaways": [
+    "Utopian socialism critiqued capitalist misery and envisioned cooperative societies, but lacked an understanding of class struggle and the material conditions necessary to achieve emancipation.",
+    "Dialectics grasps nature and history in dynamic interconnection, change, and contradiction, overcoming the rigid, static categories of metaphysical reasoning.",
+    "The materialist conception of history and the revelation of surplus value transformed socialism from an abstract moral wish into a science grounded in objective social reality.",
+    "The primary contradiction of capitalism is between socialized production carried out by the collective working class and private appropriation by individual capitalists.",
+    "When the working class conquers political power and socializes the means of production, class antagonisms dissolve, state coercion becomes superfluous, and the government of persons is replaced by the administration of things."
+  ],
+  "chapters": [
+    {
+      "id": "general-introduction-and-the-history-of-materialism",
+      "title": "Introduction: The History of Materialism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "history-of-the-english-middle-class",
+      "title": "Introduction: The English Middle Class and Religion",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "part-i-utopian-socialism",
+      "title": "Part I: Utopian Socialism",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "part-ii-dialectics",
+      "title": "Part II: Dialectics",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "part-iii-historical-materialism",
+      "title": "Part III: Historical Materialism",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

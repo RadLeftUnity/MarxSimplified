@@ -152,6 +152,38 @@ export const proCapitalistOrganizationTerms: GlossaryTerm[] = [
     "misconception": "Believing consumer food conglomerates are benign neutral food providers, rather than aggressive transnational monopolies that extract raw resources, exploit Global South labor, and prioritize corporate profit over human life.",
     "example": "A foreign multinational corporation aggressively marketing infant formula in developing countries without clean water access, forcing mothers to rely on diluted formula that causes infant malnutrition.",
     "theoryTags": ["Capitalist Theory", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "European Union",
+    "pattern": "european union|eu|brussels commission|maastricht treaty|lisbon treaty",
+    "definition": "An imperialist economic and political confederation of 27 European capitalist member states establishing a single market, free movement of capital, and a common currency (the Euro). In Marxist-Leninist analysis, following Lenin's 1915 critique in 'On the Slogan for a United States of Europe', the EU functions as a cartel of European finance capital designed to coordinate imperialist competition against global rivals, enforce neoliberal austerity and privatization across member nations, and militarize external borders against Global South refugees.",
+    "misconception": "Viewing the EU as a progressive, internationalist peace project. EU treaties legally outlaw deficit spending for public welfare, ban state subsidies to national industries, and subordinate peripheral European economies to German and French banking cartels.",
+    "example": "The European Central Bank and European Commission imposing crushing austerity packages on Greece, requiring mass privatization of public ports, healthcare cuts, and pension reductions to service debts to private banks.",
+    "theoryTags": ["Capitalist Theory", "Marxism-Leninism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "The Black Book of Communism",
+    "pattern": "the black book of communism|black book of communism|courtois|94 million deaths|100 million deaths",
+    "definition": "A 1997 anti-communist propaganda anthology edited by French historian Stéphane Courtois claiming that communist movements caused 94 to 100 million deaths. The book was widely discredited by mainstream historians and publicly repudiated by two of its primary co-authors (Nicolas Werth and Jean-Louis Margolin) for fabricating figures, counting Nazi combat casualties killed by the Red Army, and counting projected un-born children to reach a sensationalist headline.",
+    "misconception": "Accepting the 100 million death toll as legitimate academic history rather than a politically motivated Cold War polemic that classified wartime epidemics and anti-fascist victories as ideological crimes.",
+    "example": "Anti-communist commentators citing the 100 million statistic to dismiss socialist healthcare and labor programs while ignoring the hundreds of millions killed by capitalist colonialism and poverty.",
+    "theoryTags": ["Capitalist Theory", "Fascism Analysis", "Marxism-Leninism"]
+  },
+  {
+    "term": "Operation Gideon",
+    "pattern": "operation gideon|silvercorp|jordan goudreau|macuto raid",
+    "definition": "A botched May 2020 armed maritime mercenary raid against the Bolivarian Republic of Venezuela organized by US private military company Silvercorp USA (led by former US Green Beret Jordan Goudreau) under a contract signed with US-backed opposition figure Juan Guaidó. Mercenaries launched boats from Colombia aiming to infiltrate Caracas, capture or assassinate President Nicolás Maduro, and install a pro-US regime, but were swiftly intercepted and captured at Macuto beach by local Venezuelan fishermen and the Bolivarian National Guard.",
+    "misconception": "An independent rogue adventure. Silvercorp operated with direct coordination from Guaidó's inner circle, US intelligence contacts in Colombia, and financial contracts guaranteeing millions in looted Venezuelan oil revenues upon coup success.",
+    "example": "A private military contractor signing a commercial contract with an exile politician to stage a commando raid on a foreign capital to seize oil infrastructure.",
+    "theoryTags": ["Capitalist Theory", "Anti-Colonial Socialism", "Fascism Analysis"]
+  },
+  {
+    "term": "Otpor!",
+    "pattern": "otpor|otpor!|canvas|centre for applied nonviolent action and strategies|srđa popović",
+    "definition": "A US-funded Serbian youth movement founded in 1998 that served as the primary street mobilization vehicle for the 2000 'Bulldozer Revolution' that overthrew Yugoslav President Slobodan Milošević. Funded with millions of dollars from the NED, USAID, and the International Republican Institute (IRI), Otpor! trained activists in Gene Sharp's methods of psychological warfare and street theater. Following the coup, its leaders established CANVAS (Center for Applied Nonviolent Action and Strategies) to export color revolution techniques to Georgia, Ukraine, Venezuela, and Belarus.",
+    "misconception": "A spontaneous, non-political student movement. Otpor! was an engineered instrument of US foreign policy created to overthrow the remaining socialist and non-aligned institutions in Yugoslavia and force neoliberal economic privatization.",
+    "example": "An NGO using a stylized clenched-fist logo and flash-mob tactics funded by Western grants to organize anti-government street spectacles before an election.",
+    "theoryTags": ["Capitalist Theory", "Anti-Colonial Socialism"]
   }
 ];
 

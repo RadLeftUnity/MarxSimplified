@@ -5,7 +5,12 @@
     "summary": "Socialist society faces two fundamentally different kinds of conflicts: antagonistic conflicts between the people and their enemies, and non-antagonistic conflicts among the people themselves.",
     "explanation": "Mao introduces his central theoretical innovation for socialist governance: separating hostile class antagonisms against counter-revolutionaries from internal disagreements and structural tensions among the working masses and their allies.",
     "context": "A socialist state must treat foreign-backed sabotage or armed counter-revolution differently from a workplace dispute or policy disagreement among ordinary workers.",
-    "topics": ["Dialectics", "Socialism", "People's Democratic Dictatorship", "Maoism"]
+    "topics": [
+      "Dialectics",
+      "Socialism",
+      "People's Democratic Dictatorship",
+      "Maoism"
+    ]
   },
   {
     "id": "contradictions-among-people-2",
@@ -13,7 +18,12 @@
     "summary": "Freedom and democracy are never abstract; in any class society, giving capitalists the freedom to exploit workers automatically denies workers the freedom from exploitation.",
     "explanation": "Mao refutes Western liberal claims of universal, classless democracy, showing that democracy belongs to the political superstructure and always serves a specific economic base and class interest.",
     "context": "In capitalist two-party systems, billionaires can freely fund campaigns and own media monopolies, while workers lack economic security and genuine political representation.",
-    "topics": ["Class Struggle", "Bourgeois Democracy", "People's Democratic Dictatorship", "Maoism"]
+    "topics": [
+      "Class Struggle",
+      "Bourgeois Democracy",
+      "People's Democratic Dictatorship",
+      "Maoism"
+    ]
   },
   {
     "id": "contradictions-among-people-3",
@@ -21,7 +31,12 @@
     "summary": "Ideological questions and debates among the people cannot be solved by force or administrative bans; they can only be resolved through open discussion, criticism, persuasion, and education.",
     "explanation": "Because ideological beliefs and questions of right and wrong among the people cannot be forced by decree, Mao insists on patient reasoning, debate, and the 'unity : criticism : unity' method.",
     "context": "Banning a mistaken viewpoint among workers without explaining why it is wrong only drives the idea underground, whereas open discussion builds genuine understanding.",
-    "topics": ["Dialectics", "Socialism", "Party Strategy", "Maoism"]
+    "topics": [
+      "Dialectics",
+      "Socialism",
+      "Party Strategy",
+      "Maoism"
+    ]
   },
   {
     "id": "contradictions-among-people-4",
@@ -29,7 +44,12 @@
     "summary": "Even after socialist ownership is established, the ideological and political struggle between the working class and the bourgeoisie remains long, complex, and at times intense.",
     "explanation": "Even after private ownership of industry and land is largely socialized, bourgeois and petty-bourgeois worldviews persist for decades, requiring ongoing ideological struggle so capitalism is not restored.",
     "context": "In socialist countries, old habits of individualism, careerism, and market mentality continue to influence culture and policy long after factories are nationalized.",
-    "topics": ["Class Struggle", "Socialism", "Dialectics", "Maoism"]
+    "topics": [
+      "Class Struggle",
+      "Socialism",
+      "Dialectics",
+      "Maoism"
+    ]
   },
   {
     "id": "contradictions-among-people-5",
@@ -37,6 +57,23 @@
     "summary": "Revisionism is a bourgeois ideological trend inside the socialist movement that is even more dangerous than dogmatism because it hollows out the core of Marxism from within.",
     "explanation": "Mao warns that while dogmatists apply Marxist phrases mechanically, revisionists pay lip-service to Marxism while attacking its core principles: materialist dialectics, party leadership, and the people's democratic dictatorship.",
     "context": "Political factions that use socialist rhetoric while dismantling public ownership and weakening working-class state power pave the way for capitalist restoration.",
-    "topics": ["Revisionism", "Socialism", "Party Strategy", "Maoism"]
+    "topics": [
+      "Revisionism",
+      "Socialism",
+      "Party Strategy",
+      "Maoism"
+    ]
+  },
+  {
+    "id": "contradictions-among-people-6",
+    "targetText": "The contradiction\nbetween the national bourgeoisie and the working class is one between exploiter\nand exploited, and is by nature antagonistic. But in the concrete conditions\nof China, this antagonistic contradiction between the two classes, if properly\nhandled, can be transformed into a non-antagonistic one and be resolved by\npeaceful methods.",
+    "summary": "In the concrete conditions of New China, the contradiction between the proletariat and the national bourgeoisie is resolved through peaceful socialist transformation and state capitalism.",
+    "explanation": "Mao details how the people's democratic dictatorship handles the contradiction with the patriotic national bourgeoisie: through state capitalism (joint state-private enterprises) and buying-out policies, converting an antagonistic relation into a peaceful socialist transformation.",
+    "topics": [
+      "State Capitalism",
+      "Socialist Transition",
+      "People's Democratic Dictatorship",
+      "Maoism"
+    ]
   }
 ]

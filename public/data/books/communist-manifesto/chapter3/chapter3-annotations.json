@@ -32,6 +32,7 @@
     "explanation": "Far from being a simple denunciation of capitalism, the Manifesto praises its historical achievements: it swept away feudal, patriarchal relations and created productive forces larger than all previous generations combined. That same dynamism creates the conditions for its own overthrow.",
     "context": "This is the basis of the Marxist view that socialism grows out of the contradictions of developed capitalism rather than replacing a pre-capitalist society directly.",
     "topics": [
+      "Stages of Socialism and Communism",
       "Historical Materialism",
       "Political Economy"
     ]
@@ -57,6 +58,17 @@
       "Religion",
       "Class Struggle",
       "Historical Materialism"
+    ]
+  },
+  {
+    "id": "manifesto-chapter3-modes-of-production",
+    "targetText": "The feudal system of industry, in which industrial production was monopolised\nby closed guilds, now no longer sufficed for the growing wants of the new\nmarkets. The manufacturing system took its place.",
+    "summary": "The expansion of markets outgrew feudal guild monopolies, compelling the historic transition to the manufacturing mode of production.",
+    "explanation": "Marx and Engels document the dialectical transition from the feudal mode of production to capitalism: when medieval guilds could no longer supply expanding global demand, guild restrictions were swept aside by workshop manufacture, which in turn was revolutionized by steam machinery and modern large-scale industry.",
+    "topics": [
+      "Stages of Socialism and Communism",
+      "Historical Materialism",
+      "Political Economy"
     ]
   }
 ]

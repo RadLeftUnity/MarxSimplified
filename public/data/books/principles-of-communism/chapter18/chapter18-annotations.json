@@ -1,21 +1,22 @@
 [
   {
-    "targetText": "Limitation of private property through progressive taxation, heavy inheritance taxes, abolition of inheritance through collateral lines",
-    "explanation": "Early transitional policies use progressive tax structures and state ownership of core infrastructure to gradually shift economic power into public hands.",
+    "id": "principles-of-communism-chapter18-ann-1",
+    "targetText": "Democracy would be wholly valueless to the proletariat if it were not immediately used as a means for carrying through measures directed against private property and ensuring the livelihood of the proletariat.",
+    "summary": "Political democracy is meaningless for the working class unless weaponized to dismantle private property and secure social rights.",
+    "explanation": "Engels emphasizes that bourgeois political democracy is merely formal unless working people use political power to socialize the economy and guarantee living standards.",
     "topics": [
+      "Democracy and Elections",
       "The State"
     ]
   },
   {
     "id": "principles-of-communism-chapter18-ext-2",
     "targetText": "In the first place, it will establish a democratic constitution, and through this, the direct or indirect dominance of the proletariat.",
-    "summary": "The first step of the revolution is a democratic constitution that gives the proletariat direct or indirect rule.",
-    "explanation": "Engels argues that where workers are a majority, as in England, democracy means direct proletarian rule, while in France and Germany it means indirect rule through alliance with peasants and petty bourgeois.",
-    "context": "The passage shows early Marxist thought linking democracy, class power and the transition to socialism.",
+    "summary": "The first step of the revolution is establishing a democratic constitution securing working-class political power.",
+    "explanation": "Engels argues that where workers are a majority, democracy means direct proletarian rule, while in agrarian nations it requires alliances with working peasants.",
     "topics": [
       "Democracy and Elections",
-      "The State and Dictatorship of the Proletariat",
-      "Socialist Transition"
+      "The State"
     ]
   }
 ]

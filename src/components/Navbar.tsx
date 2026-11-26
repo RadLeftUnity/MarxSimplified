@@ -1,5 +1,5 @@
 import React from 'react';
-import { Moon, Sun, Sliders, Search, User, Landmark, BookOpen, Tag, BookMarked } from 'lucide-react';
+import { Moon, Sun, Sliders, Search, User, Landmark, BookOpen, Tag, BookMarked, HelpCircle } from 'lucide-react';
 
 export type Theme = 'dark' | 'sepia' | 'high-contrast' | 'gray' | 'light';
 
@@ -11,6 +11,7 @@ interface NavbarProps {
   onGoToHistory?: () => void;
   onGoToSearch?: () => void;
   onGoToAuthors?: () => void;
+  onGoToFAQ?: () => void;
   theme: Theme;
   onThemeChange: (theme: Theme) => void;
   onOpenA11y: () => void;
@@ -24,6 +25,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onGoToHistory,
   onGoToSearch,
   onGoToAuthors,
+  onGoToFAQ,
   theme,
   onThemeChange,
   onOpenA11y,
@@ -75,10 +77,19 @@ export const Navbar: React.FC<NavbarProps> = ({
           onClick={onGoToHistory}
           className={`nav-btn ${currentPage === 'history' ? 'nav-btn-active' : ''}`}
           id="nav-btn-history"
-          title="Explore Actually Existing Socialist & Anti-Imperialist State Histories"
+          title="Explore Actually Existing Socialist and Anti-Imperialist State Histories"
         >
           <Landmark className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
           <span>History</span>
+        </button>
+        <button
+          onClick={onGoToFAQ}
+          className={`nav-btn ${currentPage === 'faq' ? 'nav-btn-active' : ''}`}
+          id="nav-btn-faq"
+          title="Frequently Asked Questions and Theory-Backed Answers"
+        >
+          <HelpCircle className="btn-small-icon text-gold" style={{ marginRight: '4px' }} />
+          <span>FAQ</span>
         </button>
         <button
           onClick={onGoToSearch}

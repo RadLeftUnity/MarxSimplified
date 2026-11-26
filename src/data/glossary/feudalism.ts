@@ -144,6 +144,14 @@ export const feudalismTerms: GlossaryTerm[] = [
     "misconception": "That the tragedy was an unpredictable accident. The event demonstrated the Tsarist autocracy's systemic negligence toward working-class lives and extreme poverty.",
     "example": "Russian workers organizing anti-Tsarist strikes citing the Khodynka Meadow disaster and royal extravagance as proof of autocratic corruption.",
     "theoryTags": ["Pre-Capitalist Modes", "Classical Marxism"]
+  },
+  {
+    "term": "Patriarchy",
+    "pattern": "patriarchy|patriarchal|patriarchalism",
+    "definition": "A historic socio-economic system of male supremacy and institutional dominance over women and children. In Marxist analysis, patriarchy is not an innate biological condition, but emerged historically alongside private property, class society, and the monogamous family, serving to secure the patrilineal inheritance of wealth and extract unpaid domestic labor from women.",
+    "misconception": "Believing patriarchy is a natural biological instinct or eternal psychological trait of men, rather than an evolving social structure rooted in the rise of private property and class exploitation.",
+    "example": "Capitalist economies relying on unpaid domestic housework and child rearing performed primarily by women to reproduce the labor force without state or corporate compensation.",
+    "theoryTags": ["Classical Marxism", "Marxist Feminism", "Pre-Capitalist Modes"]
   }
 ];
 

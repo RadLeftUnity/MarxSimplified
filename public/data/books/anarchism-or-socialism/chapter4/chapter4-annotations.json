@@ -5,6 +5,7 @@
     "summary": "Future socialist society abolishes class divisions, commodity exchange, and capitalist wage labor.",
     "explanation": "Outlines the economic foundation of communism: private ownership of means of production is replaced by collective social ownership. With the elimination of capitalist exploitation, production for market profit is replaced by direct production for human need.",
     "topics": [
+      "Stages of Socialism and Communism",
       "Socialist Transition",
       "Political Economy"
     ]
@@ -29,5 +30,17 @@
       "Democracy and Elections"
     ],
     "context": "Following the defeat of the 1871 Paris Commune, bourgeois commentators and anarchists attacked the concept of proletarian dictatorship, prompting Marx and Engels to point to the Commune's direct democracy as its historical living model."
+  },
+  {
+    "id": "anarchism-socialism-ch4-ann-4",
+    "targetText": "From each according to his ability, to each according to his needs!: such \nis the basis upon which the future collectivist system must be created. It goes \nwithout saying that in the first stage of socialism, when elements who have not \nyet grown accustomed to work are being drawn into the new way of life, when the \nproductive forces also will not yet have been sufficiently developed and there will \nstill be \"dirty\" and \"clean\" work to do, the application of the principle: \"to each \naccording to his needs,\" will undoubtedly be greatly hindered and, as a consequence, \nsociety will be obliged temporarily to take some other path, a middle path.",
+    "summary": "Stalin explains the progression of communist society: the first stage of socialism must temporarily distribute according to work before full communism can distribute according to need.",
+    "explanation": "In the initial phase of socialism, because productive forces are still developing, division of labor persists, and habits of uncoerced social labor are not yet universal, society cannot immediately implement distribution by need. It must first pass through a transitional middle path where products are distributed according to labor performed, until capitalist survivals are eradicated and productive abundance allows full communism.",
+    "topics": [
+      "Stages of Socialism and Communism",
+      "Lower Phase of Communism",
+      "Higher Phase of Communism",
+      "Socialist Distribution"
+    ]
   }
 ]

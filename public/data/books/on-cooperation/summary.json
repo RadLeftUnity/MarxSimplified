@@ -1,0 +1,33 @@
+{
+  "id": "on-cooperation",
+  "title": "On Cooperation",
+  "author": "V.I. Lenin",
+  "year": "1923",
+  "difficulty": "Medium",
+  "readingTime": "14 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1923/jan/06.htm",
+  "context": "First published in 1923, this work by V.I. Lenin examines foundational principles of scientific socialism and revolutionary political theory.",
+  "relatesToToday": "Provides critical historical and theoretical insights for analyzing political economy, social contradictions, and contemporary working-class struggles.",
+  "keyTakeaways": [
+    "Examines the material basis of social and economic relations.",
+    "Analyzes the dynamics of class struggle and historical development.",
+    "Outlines strategic and organizational lessons for the liberation of the working class."
+  ],
+  "chapters": [
+    {
+      "id": "part-i",
+      "title": "Part I",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "part-ii",
+      "title": "Part II",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    }
+  ]
+}

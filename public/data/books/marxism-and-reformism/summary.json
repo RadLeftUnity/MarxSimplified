@@ -1,0 +1,26 @@
+{
+  "id": "marxism-and-reformism",
+  "title": "Marxism and Reformism",
+  "author": "V.I. Lenin",
+  "year": "1913",
+  "difficulty": "Medium",
+  "readingTime": "7 mins",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1913/sep/12b.htm",
+  "context": "Published in Pravda Truda in September 1913, Lenin refutes bourgeois reformism and the Menshevik liquidators, demonstrating how revolutionary Marxists fight for reforms while never subordinating working-class struggle to bourgeois legality.",
+  "relatesToToday": "Directly refutes contemporary social democratic and liberal arguments that reduce socialism to electoral reforms or incremental state welfare, clarifying how Marxists utilize reforms to expand class struggle rather than stabilize wage-slavery.",
+  "keyTakeaways": [
+    "Unlike anarchists, Marxists recognize the struggle for reforms, but fight resolutely against reformists who restrict workers' aims to mere reforms.",
+    "Under capitalism, bourgeois reforms are never enduring or far-reaching, and the ruling class uses them to divide workers and perpetuate wage-slavery.",
+    "Marxists utilize every legal possibility and reform to develop and broaden the revolutionary class struggle against wage-slavery."
+  ],
+  "chapters": [
+    {
+      "id": "marxism-and-reformism",
+      "title": "Marxism and Reformism",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

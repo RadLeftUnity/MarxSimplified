@@ -1,0 +1,56 @@
+{
+  "id": "the-1936-39-revolt-in-palestine",
+  "title": "The 1936-39 Revolt in Palestine",
+  "author": "Ghassan Kanafani",
+  "year": "1972",
+  "difficulty": "Intermediate",
+  "readingTime": "1.8 hours",
+  "coverGradient": "linear-gradient(135deg, #1f4027 0%, #0d2012 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/kanafani/1972/revolt.htm",
+  "context": "Written in 1972 by Marxist-Leninist author and PFLP leader Ghassan Kanafani, this foundational text applies historical materialism to dissect the great 1936-1939 Palestinian rebellion against British imperial rule and Zionist settler-colonial expansion. Kanafani analyzes the class contradictions between the militant rural peasantry, the emerging urban working class, and the compromising feudal-clerical Arab leadership.",
+  "relatesToToday": "Provides an indispensable class analysis of the Palestinian liberation struggle, exposing how regional comprador regimes, imperialist powers, and settler-colonial institutions collaborate to suppress mass revolutionary movements, offering vital strategic lessons for contemporary anti-imperialist solidarity.",
+  "keyTakeaways": [
+    "Identifies the tripartite alliance opposing Palestinian liberation: British imperialism, Zionist colonization, and reactionary Arab feudal and bourgeois leadership.",
+    "Details how the 1936 general strike and rural peasant armed resistance demonstrated the spontaneous revolutionary capacity of the popular masses.",
+    "Examines how feudal and bourgeois national committees repeatedly sabotaged militant mass mobilizations to broker compromises with British colonial authorities.",
+    "Demonstrates that national liberation from settler-colonialism cannot succeed under the political direction of compromising feudal and bourgeois elites.",
+    "Establishes scientific socialism and working-class leadership as necessary conditions for genuine anti-colonial emancipation."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "background-the-workers",
+      "title": "Background: The Workers",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "background-the-peasants",
+      "title": "Background: The Peasants",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "background-the-intellectuals",
+      "title": "Background: The Intellectuals",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "the-revolt",
+      "title": "The Revolt",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

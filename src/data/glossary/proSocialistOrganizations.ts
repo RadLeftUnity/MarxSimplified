@@ -168,5 +168,21 @@ export const proSocialistOrganizationTerms: GlossaryTerm[] = [
     "misconception": "That South Korea's economic growth benefitted workers peacefully. The KCTU has faced decades of police raids and imprisonment of its leaders while organizing general strikes against IMF austerity, 69-hour workweek proposals, and Yoon Suk-yeol's December 2024 martial law coup.",
     "example": "Unionized autoworkers, truckers, and rail workers launching an indefinite general strike and marching on the National Assembly in Seoul to overturn a presidential martial law decree.",
     "theoryTags": ["Classical Marxism", "Anti-Colonial Socialism"]
+  },
+  {
+    "term": "Zapatistas",
+    "pattern": "zapatista|zapatistas|ezln|zapatista army of national liberation|caracoles|subcomandante marcos",
+    "definition": "The indigenous militant socialist and autonomist movement in Chiapas, Mexico, organized under the Zapatista Army of National Liberation (EZLN), which launched an armed uprising on January 1, 1994, against NAFTA and landlord oppression. The Zapatistas established autonomous municipalities (caracoles) prioritizing collective agriculture, Mayan self-determination, and horizontal direct democracy. Theoretical Contention: While Marxists stand in solidarity with indigenous anti-colonial resistance, Marxists critique neo-Zapatismo for renouncing the struggle to conquer nationwide state power, leaving the bourgeois Mexican state intact to isolate the movement and preserve national capitalist exploitation.",
+    "misconception": "That local autonomy alone can dismantle global capitalism. Without seizing state power and building a nationwide planned economy, isolated autonomous enclaves remain vulnerable to military encirclement and economic blockades.",
+    "example": "Indigenous communities establishing self-managed village assemblies and community clinics while rejecting participation in Mexican federal elections.",
+    "theoryTags": ["Anti-Colonial Socialism", "Anarcho-Communism", "Marxism-Leninism"]
+  },
+  {
+    "term": "Popular Front for the Liberation of Palestine",
+    "pattern": "popular front for the liberation of palestine|pflp",
+    "definition": "A revolutionary Marxist-Leninist and Palestinian nationalist organization founded in 1967 by George Habash and Mustafa Zabri (Abu Ali Mustafa). Also known as the PFLP, the movement pioneered armed anti-colonial resistance and mass organizing against Israeli settler-colonial occupation and Western imperialism, analyzing the Palestinian struggle as an integral part of world socialist revolution against a tripartite enemy: imperialism, Zionism, and reactionary Arab compradors.",
+    "misconception": "Assuming the Palestinian national liberation movement has historically been solely religious or bourgeois nationalist. The PFLP articulated a secular, socialist, and historical materialist program demanding a single democratic socialist state across historic Palestine.",
+    "example": "Ghassan Kanafani serving as the PFLP spokesperson and editor of al-Hadaf, articulating a Marxist-Leninist class analysis of the 1936-1939 Palestinian revolt.",
+    "theoryTags": ["Anti-Colonial Socialism", "Marxism-Leninism"]
   }
 ];
