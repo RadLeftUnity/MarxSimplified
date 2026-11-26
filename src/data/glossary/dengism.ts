@@ -136,6 +136,14 @@ export const dengistTerms: GlossaryTerm[] = [
     "misconception": "That it constitutes a Western-style 'debt trap'. Empirical studies by independent institutions show that Chinese BRI financing offers low-interest loans, debt relief restructuring, and physical industrial assets without IMF structural adjustment mandates or political austerity demands.",
     "example": "Financing state-owned solar power plants, gold refineries, and agricultural modernization programs in Burkina Faso and the Alliance of Sahel States (AES) without forcing privatization.",
     "theoryTags": ["Xi Jinping Thought", "Anti-Colonial Socialism", "Dengism"]
+  },
+  {
+    "term": "Ecological Civilization",
+    "pattern": "ecological civilization|shengtai wenming|green development china",
+    "definition": "The official developmental strategy in China and Marxist environmental theory integrating socialist economic planning with ecological sustainability. Codified in the Constitution of the Communist Party of China and national Five-Year Plans, it prioritizes green productive forces, massive renewable energy deployment (solar, wind, high-speed rail), reforestation, and environmental protection over reckless GDP maximization.",
+    "misconception": "Viewing it as greenwashing rhetoric. Under state guidance, China installs more renewable power annually than the rest of the world combined and achieved the largest reforestation campaign in human history.",
+    "example": "State-directed five-year planning mobilizing public enterprises to construct massive solar energy bases in the Gobi Desert while replacing coal power plants.",
+    "theoryTags": ["Dengism", "Xi Jinping Thought", "Eco-Marxism", "Marxism-Leninism"]
   }
 ];
 

@@ -147,6 +147,31 @@ function run() {
     } catch (e) {}
   }
 
+  // 5. Pre-render FAQ Pages
+  const faqDataPath = path.join(workspaceRoot, 'src', 'data', 'faq', 'faqData.ts');
+  if (fs.existsSync(faqDataPath)) {
+    try {
+      prerenderPage('faq', 'Frequently Asked Questions: Marxist Theory and Answers', 'Rigorous, theory-grounded answers to common questions and anti-communist misconceptions connected directly to original Marxist texts.', '/og/main.png');
+
+      const content = fs.readFileSync(faqDataPath, 'utf8');
+      const prefix = 'export const FAQ_ITEMS: FAQItem[] = ';
+      const jsonStart = content.indexOf(prefix);
+      let fCount = 0;
+      if (jsonStart !== -1) {
+        const arrayStart = content.indexOf('[', jsonStart + prefix.length);
+        const arrayEnd = content.lastIndexOf(']');
+        if (arrayStart !== -1 && arrayEnd !== -1) {
+          const items = JSON.parse(content.slice(arrayStart, arrayEnd + 1));
+          for (const item of items) {
+            prerenderPage(`faq/${item.id}`, `${item.question} : Marxist FAQ`, item.shortAnswer || 'Marxist theoretical answer and original library references on Marx Simplified.', '/og/main.png');
+            fCount++;
+          }
+        }
+      }
+      console.log(`✓ Pre-rendered static OG meta tags for ${fCount} FAQ entries.`);
+    } catch (e) {}
+  }
+
   console.log('✓ All static OG meta HTML pages generated in dist/!\n');
 }
 

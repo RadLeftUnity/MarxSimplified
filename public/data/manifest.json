@@ -197,6 +197,22 @@
       ]
     },
     {
+      "id": "conspectus-of-bakunin-statism-and-anarchy",
+      "title": "Conspectus of Bakunin's Statism and Anarchy",
+      "author": "Karl Marx",
+      "year": "1874",
+      "difficulty": "Advanced",
+      "readingTime": "10 mins",
+      "shortDescription": "Written by Karl Marx between 1874 and 1875 in his personal research notebooks, this text contains Marx's detailed marginal notes, direct rebuttals, and running commentary on Mikhail Bakunin's major anarchist treatise Statism and Anarchy.",
+      "coverColor": "#8b0000",
+      "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "das-kapital-vol-1",
       "title": "Capital: Volume 1 (The Process of Production of Capital)",
       "author": "Karl Marx",
@@ -251,6 +267,22 @@
         "Fictitious Capital",
         "Ground Rent",
         "Karl Marx"
+      ]
+    },
+    {
+      "id": "five-years-of-russian-revolution",
+      "title": "Five Years of Russian Revolution and the Prospects of the World Revolution",
+      "author": "Clara Zetkin",
+      "year": "1922",
+      "difficulty": "Medium",
+      "readingTime": "1.2 hours",
+      "shortDescription": "First published in 1922, this work by Clara Zetkin examines foundational principles of scientific socialism and revolutionary political theory.",
+      "coverColor": "#2b2d42",
+      "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -464,6 +496,22 @@
       ]
     },
     {
+      "id": "marxism-and-reformism",
+      "title": "Marxism and Reformism",
+      "author": "V.I. Lenin",
+      "year": "1913",
+      "difficulty": "Medium",
+      "readingTime": "7 mins",
+      "shortDescription": "Published in Pravda Truda in September 1913, Lenin refutes bourgeois reformism and the Menshevik liquidators, demonstrating how revolutionary Marxists fight for reforms while never subordinating working-class struggle to bourgeois legality.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "materialism-and-empirio-criticism",
       "title": "Materialism and Empirio-criticism",
       "author": "V.I. Lenin",
@@ -496,6 +544,57 @@
       ]
     },
     {
+      "id": "nationalisation-of-the-land",
+      "title": "The Nationalisation of the Land",
+      "author": "Karl Marx",
+      "year": "1872",
+      "difficulty": "Medium",
+      "readingTime": "6 mins",
+      "shortDescription": "Delivered by Karl Marx in the spring of 1872 to the Manchester Section of the International Working Men's Association (First International), this document formulates the scientific socialist program on agrarian policy, rent, and state ownership of natural resources.",
+      "coverColor": "#1b263b",
+      "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "neo-colonialism",
+      "title": "Neo-Colonialism, the Last Stage of Imperialism",
+      "author": "Kwame Nkrumah",
+      "year": "1965",
+      "difficulty": "Advanced",
+      "readingTime": "7.2 hours",
+      "shortDescription": "Published in London in 1965 on the eve of the OAU summit in Accra, this magnum opus by Pan-African revolutionary and Ghanaian President Kwame Nkrumah caused an international diplomatic earthquake, prompting the US State Department to lodge an official protest and cancel 35 million dollars in promised food aid to Ghana. Within months, the CIA backed the February 1966 military coup that ousted Nkrumah's government.",
+      "coverColor": "#1e3a1e",
+      "coverGradient": "linear-gradient(135deg, #1e3a1e 0%, #0d1e0d 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Neo-Colonialism",
+        "Imperialism",
+        "Anti-Colonial Socialism",
+        "Pan-Africanism",
+        "Kwame Nkrumah"
+      ]
+    },
+    {
+      "id": "on-authority",
+      "title": "On Authority",
+      "author": "Friedrich Engels",
+      "year": "1872",
+      "difficulty": "Beginner",
+      "readingTime": "8 mins",
+      "shortDescription": "Written in 1872 for the Italian socialist publication Almanacco Repubblicano, Friedrich Engels directly confronts the anti-authoritarian currents within the First International, particularly Mikhail Bakunin and the anarchists. Engels demonstrates through practical examples of mechanized industry, railways, and navigation that modern production requires coordination and authority regardless of social form, and that revolution itself is an inherently authoritarian act of class suppression.",
+      "coverColor": "#4e1a3b",
+      "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "on-contradiction",
       "title": "On Contradiction",
       "author": "Mao Zedong",
@@ -511,6 +610,22 @@
         "Philosophy",
         "Maoism",
         "Mao Zedong"
+      ]
+    },
+    {
+      "id": "on-cooperation",
+      "title": "On Cooperation",
+      "author": "V.I. Lenin",
+      "year": "1923",
+      "difficulty": "Medium",
+      "readingTime": "14 mins",
+      "shortDescription": "First published in 1923, this work by V.I. Lenin examines foundational principles of scientific socialism and revolutionary political theory.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -800,6 +915,22 @@
       ]
     },
     {
+      "id": "socialism-utopian-and-scientific",
+      "title": "Socialism: Utopian and Scientific",
+      "author": "Friedrich Engels",
+      "year": "1880",
+      "difficulty": "Intermediate",
+      "readingTime": "2.5 hours",
+      "shortDescription": "Published in 1880 and adapted from three chapters of Friedrich Engels' larger polemical work Anti-Dühring, this short book served as one of the most popular and influential introductions to Marxism in the late nineteenth century. Engels traces the development of socialist thought from early visionary reformers to a scientific analysis grounded in historical materialism and the economic laws of capitalist accumulation.",
+      "coverColor": "#1b4332",
+      "coverGradient": "linear-gradient(135deg, #1b4332 0%, #081c15 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "society-of-the-future",
       "title": "Society of the Future",
       "author": "August Bebel",
@@ -809,6 +940,22 @@
       "shortDescription": "Published as a standalone edition of Part III ('The Socialisation of Society') of August Bebel's classic Woman and Socialism (1879), Society of the Future presents one of the most detailed and inspiring Marxist visions of how a post-capitalist socialist commonwealth will organize production, agriculture, education, art, domestic life, and international relations.",
       "coverColor": "#6b2d5c",
       "coverGradient": "linear-gradient(135deg, #6b2d5c 0%, #240b1f 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "some-questions-concerning-methods-of-leadership",
+      "title": "Some Questions Concerning Methods of Leadership",
+      "author": "Mao Zedong",
+      "year": "1943",
+      "difficulty": "Medium",
+      "readingTime": "12 mins",
+      "shortDescription": "Written in June 1943 during the Yan'an Rectification Movement, this resolution formulated the Marxist theory of leadership and the mass line: 'from the masses, to the masses' and combining the general call with particular guidance.",
+      "coverColor": "#b91c1c",
+      "coverGradient": "linear-gradient(135deg, #b91c1c 0%, #450a0a 100%)",
       "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
@@ -841,6 +988,22 @@
       "shortDescription": "Written between 1914 and 1915 in Bern, Switzerland, following the outbreak of World War I and the collapse of the Second International, these philosophical notebooks record Lenin's deep study of Hegel's Science of Logic, formulating the 16 elements of dialectics and the famous fragment 'On the Question of Dialectics'.",
       "coverColor": "#8c1c1c",
       "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
+      "id": "the-1936-39-revolt-in-palestine",
+      "title": "The 1936-39 Revolt in Palestine",
+      "author": "Ghassan Kanafani",
+      "year": "1972",
+      "difficulty": "Intermediate",
+      "readingTime": "1.8 hours",
+      "shortDescription": "Written in 1972 by Marxist-Leninist author and PFLP leader Ghassan Kanafani, this foundational text applies historical materialism to dissect the great 1936-1939 Palestinian rebellion against British imperial rule and Zionist settler-colonial expansion. Kanafani analyzes the class contradictions between the militant rural peasantry, the emerging urban working class, and the compromising feudal-clerical Arab leadership.",
+      "coverColor": "#1f4027",
+      "coverGradient": "linear-gradient(135deg, #1f4027 0%, #0d2012 100%)",
       "subject": "Theory and Philosophy",
       "tags": [
         "Theory",
@@ -936,6 +1099,22 @@
       ]
     },
     {
+      "id": "the-impending-catastrophe",
+      "title": "The Impending Catastrophe and How to Combat It",
+      "author": "V.I. Lenin",
+      "year": "1917",
+      "difficulty": "Medium",
+      "readingTime": "1.3 hours",
+      "shortDescription": "First published in 1917, this work by V.I. Lenin examines foundational principles of scientific socialism and revolutionary political theory.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "the-revolutionary-proletariat-and-the-right-of-nations-to-self-determination",
       "title": "The Revolutionary Proletariat and the Right of Nations to Self-Determination",
       "author": "V.I. Lenin",
@@ -990,6 +1169,22 @@
       ]
     },
     {
+      "id": "the-tax-in-kind",
+      "title": "The Tax in Kind",
+      "author": "V.I. Lenin",
+      "year": "1921",
+      "difficulty": "Medium",
+      "readingTime": "1.7 hours",
+      "shortDescription": "First published in 1921, this work by V.I. Lenin examines foundational principles of scientific socialism and revolutionary political theory.",
+      "coverColor": "#8c1c1c",
+      "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
+      ]
+    },
+    {
       "id": "the-trade-unions-trotsky-mistakes",
       "title": "The Trade Unions, The Present Situation and Trotsky’s Mistakes",
       "author": "V.I. Lenin",
@@ -1025,6 +1220,22 @@
         "Communist Morality",
         "Family & Marriage",
         "Women's Emancipation"
+      ]
+    },
+    {
+      "id": "theses-on-feuerbach",
+      "title": "Theses on Feuerbach",
+      "author": "Karl Marx",
+      "year": "1845",
+      "difficulty": "Medium",
+      "readingTime": "5 mins",
+      "shortDescription": "Written by Karl Marx in Brussels in the spring of 1845, these eleven concise aphorisms laid the foundation for historical materialism, marking the decisive departure from young Hegelian idealism and Feuerbachian contemplative materialism.",
+      "coverColor": "#4a154b",
+      "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     },
     {
@@ -1116,6 +1327,22 @@
         "Women's Suffrage",
         "Class Struggle",
         "Anti-Imperialism"
+      ]
+    },
+    {
+      "id": "zionism-and-racism",
+      "title": "Zionism and Racism",
+      "author": "Hasan Sa'b",
+      "year": "1968",
+      "difficulty": "Intermediate",
+      "readingTime": "1.2 hours",
+      "shortDescription": "Published in January 1968 as Essay No. 2 by the Palestine Liberation Organization (PLO) Research Center in Beirut, this foundational monograph by Lebanese scholar and diplomat Dr. Hasan Sa'b provides an incisive critique of political Zionism as a racialist ideology, analyzing its roots in 19th-century European nationalist chauvinism and its settler-colonial practices of displacement and racial discrimination.",
+      "coverColor": "#1b3a4b",
+      "coverGradient": "linear-gradient(135deg, #1b3a4b 0%, #061a23 100%)",
+      "subject": "Theory and Philosophy",
+      "tags": [
+        "Theory",
+        "Philosophy"
       ]
     }
   ]

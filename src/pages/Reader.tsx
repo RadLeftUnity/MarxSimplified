@@ -62,10 +62,38 @@ export const Reader: React.FC<ReaderProps> = ({
       setChapterSummary('');
 
       try {
-        const currentIdx = book.chapters.findIndex((c) => c.id === chapterId);
+        let currentIdx = book.chapters.findIndex((c) => c.id === chapterId);
+
+        // Fallback 1: case-insensitive match
+        if (currentIdx === -1) {
+          currentIdx = book.chapters.findIndex(
+            (c) => c.id.toLowerCase() === chapterId.toLowerCase()
+          );
+        }
+
+        // Fallback 2: numeric or "chapterX" match (e.g. "chapter1", "1")
+        if (currentIdx === -1) {
+          const matchNum = chapterId.match(/^(?:chapter[-_]?)?(\d+)$/i);
+          if (matchNum) {
+            const numIdx = parseInt(matchNum[1], 10) - 1;
+            if (numIdx >= 0 && numIdx < book.chapters.length) {
+              currentIdx = numIdx;
+            }
+          }
+        }
+
+        // Fallback 3: default to first chapter if available
+        if (currentIdx === -1 && book.chapters.length > 0) {
+          currentIdx = 0;
+        }
+
         const chapter = book.chapters[currentIdx];
         if (!chapter) {
           throw new Error('Chapter configuration not found in book summary');
+        }
+
+        if (chapter.id !== chapterId) {
+          onChapterChange(chapter.id);
         }
 
         // Fetch bundle (uses cache if available)

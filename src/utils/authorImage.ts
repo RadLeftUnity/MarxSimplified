@@ -29,6 +29,9 @@ export const getAuthorImageUrl = (author: string): string => {
   if (lower.includes('stalin')) return '/images/authors/stalin.jpg';
   if (lower.includes('guevara') || lower.includes('che')) return '/images/authors/che.jpg';
   if (lower.includes('sankara')) return '/images/authors/sankara.jpg';
+  if (lower.includes('nkrumah')) return '/images/authors/nkrumah.jpg';
+  if (lower.includes('kanafani')) return '/images/authors/kanafani.jpg';
+  if (lower.includes("sa'b") || lower.includes('sab') || lower.includes('saab')) return '/images/authors/hasan-sab.jpg';
 
   return '';
 };
@@ -58,6 +61,9 @@ export const getAuthorCoverGradient = (author: string): string => {
   if (lower.includes('stalin')) return 'linear-gradient(135deg, #7c1a22 0%, #30080c 100%)';
   if (lower.includes('guevara') || lower.includes('che')) return 'linear-gradient(135deg, #1b4332 0%, #081c15 100%)';
   if (lower.includes('sankara')) return 'linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)';
+  if (lower.includes('nkrumah')) return 'linear-gradient(135deg, #1e3a1e 0%, #0d1e0d 100%)';
+  if (lower.includes('kanafani')) return 'linear-gradient(135deg, #1f4027 0%, #0d2012 100%)';
+  if (lower.includes("sa'b") || lower.includes('sab') || lower.includes('saab')) return 'linear-gradient(135deg, #1b3a4b 0%, #061a23 100%)';
 
   return 'linear-gradient(135deg, #7a152e 0%, #4a0b1a 100%)';
 };

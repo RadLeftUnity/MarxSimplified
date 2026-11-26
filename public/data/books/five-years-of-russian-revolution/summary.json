@@ -1,0 +1,54 @@
+{
+  "id": "five-years-of-russian-revolution",
+  "title": "Five Years of Russian Revolution and the Prospects of the World Revolution",
+  "author": "Clara Zetkin",
+  "year": "1922",
+  "difficulty": "Medium",
+  "readingTime": "1.2 hours",
+  "coverGradient": "linear-gradient(135deg, #2b2d42 0%, #1d1a39 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/zetkin/1922/11/speech.htm",
+  "context": "First published in 1922, this work by Clara Zetkin examines foundational principles of scientific socialism and revolutionary political theory.",
+  "relatesToToday": "Provides critical historical and theoretical insights for analyzing political economy, social contradictions, and contemporary working-class struggles.",
+  "keyTakeaways": [
+    "Examines the material basis of social and economic relations.",
+    "Analyzes the dynamics of class struggle and historical development.",
+    "Outlines strategic and organizational lessons for the liberation of the working class."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "eighth-session",
+      "title": "Eighth Session",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "plenary-session-of-november-13th",
+      "title": "Plenary Session of November 13th",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "ninth-session",
+      "title": "Ninth Session",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    }
+  ]
+}

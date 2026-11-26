@@ -1,0 +1,27 @@
+{
+  "id": "conspectus-of-bakunin-statism-and-anarchy",
+  "title": "Conspectus of Bakunin's Statism and Anarchy",
+  "author": "Karl Marx",
+  "year": "1874",
+  "difficulty": "Advanced",
+  "readingTime": "10 mins",
+  "coverGradient": "linear-gradient(135deg, #8b0000 0%, #3a0000 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1874/04/bakunin-notes.htm",
+  "context": "Written by Karl Marx between 1874 and 1875 in his personal research notebooks, this text contains Marx's detailed marginal notes, direct rebuttals, and running commentary on Mikhail Bakunin's major anarchist treatise Statism and Anarchy.",
+  "relatesToToday": "A cornerstone primary text for the debate between Marxism and Anarchism, clarifying the materialist necessity of the transitional workers' state, the worker-peasant alliance, and how socialist administration differs fundamentally from bourgeois state bureaucracy.",
+  "keyTakeaways": [
+    "Explains that a workers' state is required so long as hostile class enemies and imperialist forces exist.",
+    "Refutes Bakunin's voluntarist idealism, proving that revolutions depend on material economic conditions rather than mere revolutionary willpower.",
+    "Formulates the socialist policy toward the peasantry: winning them through immediate material improvements and voluntary collective transition.",
+    "Clarifies that under collective socialist ownership, elections and administrative functions lose their coercive political character, becoming cooperative social administration."
+  ],
+  "chapters": [
+    {
+      "id": "conspectus-of-bakunin-statism-and-anarchy",
+      "title": "Conspectus of Bakunin's Statism and Anarchy",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

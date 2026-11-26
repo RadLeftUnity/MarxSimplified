@@ -1,0 +1,110 @@
+{
+  "id": "the-impending-catastrophe",
+  "title": "The Impending Catastrophe and How to Combat It",
+  "author": "V.I. Lenin",
+  "year": "1917",
+  "difficulty": "Medium",
+  "readingTime": "1.3 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1917/ichtci/index.htm",
+  "context": "First published in 1917, this work by V.I. Lenin examines foundational principles of scientific socialism and revolutionary political theory.",
+  "relatesToToday": "Provides critical historical and theoretical insights for analyzing political economy, social contradictions, and contemporary working-class struggles.",
+  "keyTakeaways": [
+    "Examines the material basis of social and economic relations.",
+    "Analyzes the dynamics of class struggle and historical development.",
+    "Outlines strategic and organizational lessons for the liberation of the working class."
+  ],
+  "chapters": [
+    {
+      "id": "famine-is-approaching",
+      "title": "Famine Is Approaching",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "complete-government-inactivity",
+      "title": "Complete Government Inactivity",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "control-measures-are-known-to-all-and-easy-to-take",
+      "title": "Control Measures Are Known To All and Easy To Take",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "nationalisation-of-the-banks",
+      "title": "Nationalisation of the Banks",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "nationalisation-of-the-syndicates",
+      "title": "Nationalisation of the Syndicates",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "abolition-of-commercial-secrecy",
+      "title": "Abolition of Commercial Secrecy",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    },
+    {
+      "id": "compulsory-association",
+      "title": "Compulsory Association",
+      "textFile": "chapter7/chapter7.txt",
+      "annotationFile": "chapter7/chapter7-annotations.json",
+      "summaryFile": "chapter7/chapter7-summary.txt"
+    },
+    {
+      "id": "regulation-of-consumption",
+      "title": "Regulation of Consumption",
+      "textFile": "chapter8/chapter8.txt",
+      "annotationFile": "chapter8/chapter8-annotations.json",
+      "summaryFile": "chapter8/chapter8-summary.txt"
+    },
+    {
+      "id": "government-disruption-of-the-work-of-the-democratic-organisations",
+      "title": "Government Disruption of the Work of the Democratic Organisations",
+      "textFile": "chapter9/chapter9.txt",
+      "annotationFile": "chapter9/chapter9-annotations.json",
+      "summaryFile": "chapter9/chapter9-summary.txt"
+    },
+    {
+      "id": "financial-collapse-and-measures-to-combat-it",
+      "title": "Financial Collapse and Measures To Combat It",
+      "textFile": "chapter10/chapter10.txt",
+      "annotationFile": "chapter10/chapter10-annotations.json",
+      "summaryFile": "chapter10/chapter10-summary.txt"
+    },
+    {
+      "id": "can-we-go-forward-if-we-fear-to-advance-towards-socialism",
+      "title": "Can We Go Forward If We Fear To Advance Towards Socialism?",
+      "textFile": "chapter11/chapter11.txt",
+      "annotationFile": "chapter11/chapter11-annotations.json",
+      "summaryFile": "chapter11/chapter11-summary.txt"
+    },
+    {
+      "id": "the-struggle-against-economic-chaos-and-the-war",
+      "title": "The Struggle Against Economic Chaos; and the War",
+      "textFile": "chapter12/chapter12.txt",
+      "annotationFile": "chapter12/chapter12-annotations.json",
+      "summaryFile": "chapter12/chapter12-summary.txt"
+    },
+    {
+      "id": "the-revolutionary-democrats-and-the-revolutionary-proletariat",
+      "title": "The Revolutionary Democrats and the Revolutionary Proletariat",
+      "textFile": "chapter13/chapter13.txt",
+      "annotationFile": "chapter13/chapter13-annotations.json",
+      "summaryFile": "chapter13/chapter13-summary.txt"
+    }
+  ]
+}

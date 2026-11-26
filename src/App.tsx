@@ -12,6 +12,7 @@ import { Topics } from './pages/Topics';
 import { Search } from './pages/Search';
 import { Authors } from './pages/Authors';
 import { History } from './pages/History';
+import { FAQ } from './pages/FAQ';
 import { AccessibilityPanel, DEFAULT_A11Y_SETTINGS } from './components/AccessibilityPanel';
 import type { AccessibilitySettings, ReaderFontSize, Theme } from './components/AccessibilityPanel';
 import { Loader2, AlertTriangle } from 'lucide-react';
@@ -479,6 +480,10 @@ export default function App() {
     navigate('/authors');
   };
 
+  const handleGoToFAQ = () => {
+    navigate('/faq');
+  };
+
   const handleSelectMatchFromSearch = (
     bookId: string,
     chapterId: string,
@@ -513,6 +518,8 @@ export default function App() {
       ? 'topics'
       : location.pathname.startsWith('/history')
       ? 'history'
+      : location.pathname.startsWith('/faq')
+      ? 'faq'
       : location.pathname.startsWith('/glossary')
       ? 'glossary'
       : location.pathname === '/search'
@@ -568,6 +575,9 @@ export default function App() {
       headTitle = 'Socialist State & Anti-Imperialist History';
       headDescription = 'Explore country history modules, timeline analysis, and socio-economic accomplishments of socialist states.';
     }
+  } else if (location.pathname.startsWith('/faq')) {
+    headTitle = 'Frequently Asked Questions - Marxist Theory and Answers';
+    headDescription = 'Theory-grounded answers to common questions and anti-communist misconceptions connected directly to original Marxist texts.';
   }
 
   return (
@@ -579,6 +589,7 @@ export default function App() {
         onGoToGlossary={handleGoToGlossary}
         onGoToTopics={() => handleGoToTopics()}
         onGoToHistory={handleGoToHistory}
+        onGoToFAQ={handleGoToFAQ}
         onGoToSearch={handleGoToSearch}
         onGoToAuthors={handleGoToAuthors}
         theme={a11ySettings.theme}
@@ -702,6 +713,18 @@ export default function App() {
             <Route
               path="/history/*"
               element={<History onBackToLibrary={handleGoHome} />}
+            />
+
+            <Route
+              path="/faq/*"
+              element={
+                <FAQ
+                  onSelectAnnotationInReader={handleSelectAnnotationFromTopics}
+                  onSelectGlossaryTerm={(slug) => navigate(`/glossary/${slug}`)}
+                  onSelectCountry={(countryId) => navigate(`/history/${countryId}`)}
+                  onSelectTopic={(topicSlug) => navigate(`/topics/${topicSlug}`)}
+                />
+              }
             />
 
             <Route

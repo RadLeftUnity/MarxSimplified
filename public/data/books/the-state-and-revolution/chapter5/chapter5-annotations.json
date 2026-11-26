@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "the-state-and-revolution-ch4-ann-1",
+    "targetText": "\"How is the housing question to be settled then? In present-day society, it is settled just as any other social question: by the gradual economic levelling of demand and supply, a settlement which reproduces the question itself again and again and therefore is no settlement. How a social revolution would settle this question not only depends on the circumstances in each particular case, but is also connected with much more far-reaching questions, one of the most fundamental of which is the abolition of the antithesis between town and country. As it is not our task to create utopian systems for the organization of the future society, it would be more than idle to go into the question here. But one thing is certain: there is already a sufficient quantity of houses in the big cities to remedy immediately all real 'housing shortage', provided they are used judiciously. This can naturally only occur through the expropriation of the present owners and by quartering in their houses homeless workers or workers overcrowded in their present homes. As soon as the proletariat has won political power, such a measure prompted by concern for the common good will be just as easy to carry out as are other expropriations and billetings by the present-day state.\"",
+    "summary": "Engels explains how a socialist revolution solves the housing shortage: immediately expropriating vacant bourgeois residences to house homeless and overcrowded workers.",
+    "explanation": "Engels proves that capitalist market mechanics constantly reproduce the housing crisis because housing is treated as an extractive commodity. Upon winning political power, the working-class state can immediately end homelessness by expropriating vacant dwellings owned by the rich and quartering workers without private landlord extortion.",
+    "topics": [
+      "The State",
+      "Socialist Transition",
+      "Private Property"
+    ]
+  },
+  {
+    "id": "the-state-and-revolution-ch4-ann-2",
+    "targetText": "\"... Necessity of political action by the proletariat and of its dictatorship as the transition to the abolition of classes and, with them, of the state....\"",
+    "summary": "The dictatorship of the proletariat is the necessary political transition to the abolition of classes and the state.",
+    "explanation": "Engels underscores that classes and the state cannot be abolished overnight by anarchist decrees; the working class must actively organize state power to defeat capitalist counter-revolution and build the socialist mode of production.",
+    "topics": [
+      "The State",
+      "Dictatorship of the Proletariat",
+      "Scientific Socialism"
+    ]
+  }
+]

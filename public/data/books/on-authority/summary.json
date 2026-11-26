@@ -1,0 +1,26 @@
+{
+  "id": "on-authority",
+  "title": "On Authority",
+  "author": "Friedrich Engels",
+  "year": "1872",
+  "difficulty": "Beginner",
+  "readingTime": "8 mins",
+  "coverGradient": "linear-gradient(135deg, #4e1a3b 0%, #2f0f23 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1872/10/authority.htm",
+  "context": "Written in 1872 for the Italian socialist publication Almanacco Repubblicano, Friedrich Engels directly confronts the anti-authoritarian currents within the First International, particularly Mikhail Bakunin and the anarchists. Engels demonstrates through practical examples of mechanized industry, railways, and navigation that modern production requires coordination and authority regardless of social form, and that revolution itself is an inherently authoritarian act of class suppression.",
+  "relatesToToday": "Provides an indispensable materialist rebuttal to contemporary utopian and libertarian dismissals of state organization, demonstrating why revolutionary movements require disciplined collective coordination, logistics, and self-defense against counter-revolutionary aggression.",
+  "keyTakeaways": [
+    "Modern mass production, railways, and industrial logistics require coordinated organization and subordination to technical realities.",
+    "Authority and autonomy are relative concepts defined by material social relations rather than abstract moral absolutes.",
+    "A socialist revolution is inherently authoritarian because it uses arms and state power to overcome capitalist resistance and secure the victory of the working class."
+  ],
+  "chapters": [
+    {
+      "id": "on-authority",
+      "title": "On Authority",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

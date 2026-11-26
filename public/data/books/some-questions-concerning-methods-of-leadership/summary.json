@@ -1,0 +1,26 @@
+{
+  "id": "some-questions-concerning-methods-of-leadership",
+  "title": "Some Questions Concerning Methods of Leadership",
+  "author": "Mao Zedong",
+  "year": "1943",
+  "difficulty": "Medium",
+  "readingTime": "12 mins",
+  "coverGradient": "linear-gradient(135deg, #b91c1c 0%, #450a0a 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/reference/archive/mao/selected-works/volume-3/mswv3_13.htm",
+  "context": "Written in June 1943 during the Yan'an Rectification Movement, this resolution formulated the Marxist theory of leadership and the mass line: 'from the masses, to the masses' and combining the general call with particular guidance.",
+  "relatesToToday": "Essential for socialist organizing and democratic accountability, demonstrating how leadership must avoid both bureaucratic commandism and tailism by synthesizing the concrete experiences of working people.",
+  "keyTakeaways": [
+    "All correct leadership must be 'from the masses, to the masses', systematically concentrating the scattered ideas of the masses and testing them in practical action.",
+    "Effective leadership requires combining general calls with particular, concrete guidance in specific units to prevent empty bureaucracy.",
+    "A unified leading group must be linked with the active masses and continually renewed through actual struggle."
+  ],
+  "chapters": [
+    {
+      "id": "some-questions-concerning-methods-of-leadership",
+      "title": "Some Questions Concerning Methods of Leadership",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nationalisation-of-the-land",
+  "title": "The Nationalisation of the Land",
+  "author": "Karl Marx",
+  "year": "1872",
+  "difficulty": "Medium",
+  "readingTime": "6 mins",
+  "coverGradient": "linear-gradient(135deg, #1b263b 0%, #0d1b2a 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1872/04/nationalisation-land.htm",
+  "context": "Delivered by Karl Marx in the spring of 1872 to the Manchester Section of the International Working Men's Association (First International), this document formulates the scientific socialist program on agrarian policy, rent, and state ownership of natural resources.",
+  "relatesToToday": "Essential for understanding why private ownership of land and natural resources generates parasitic rent and environmental exhaustion, and why transferring land to national public ownership is a prerequisite for democratic socialist economic planning.",
+  "keyTakeaways": [
+    "Refutes bourgeois theories of 'Natural Right', showing that private landed property originates historically in violent conquest.",
+    "Demonstrates that modern large-scale agriculture, irrigation, and scientific agronomy make nationalisation of land an objective social necessity.",
+    "Explains why small peasant proprietorship isolates cultivators and acts as a reactionary barrier to agricultural modernization.",
+    "Establishes that national centralisation of the means of production provides the foundation for an association of free and equal producers."
+  ],
+  "chapters": [
+    {
+      "id": "the-nationalisation-of-the-land",
+      "title": "The Nationalisation of the Land",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

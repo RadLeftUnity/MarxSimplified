@@ -8,6 +8,8 @@ interface FormattedTextProps {
   highlightJargon?: boolean;
   excludeGlossaryTerms?: string[];
   excludeGlossaryPhrases?: string[];
+  renderCitation?: (citationNum: string) => React.ReactNode;
+  enableCitations?: boolean;
 }
 
 export interface ParsedBlock {
@@ -216,11 +218,37 @@ export function parseFormattedBlocks(rawText: string): ParsedBlock[] {
   return blocks;
 }
 
-function processItalic(rawText: string, shouldHighlight: boolean): React.ReactNode {
+function renderLeafText(
+  rawText: string,
+  shouldHighlight: boolean,
+  citationRenderer?: ((citationNum: string) => React.ReactNode) | null
+): React.ReactNode {
+  if (!rawText) return null;
+  if (!citationRenderer) {
+    return shouldHighlight ? highlightJargon(rawText) : rawText;
+  }
+  const parts = rawText.split(/(\[\d+\])/g);
+  if (parts.length <= 1) {
+    return shouldHighlight ? highlightJargon(rawText) : rawText;
+  }
+  return parts.map((part, i) => {
+    const match = part.match(/^\[(\d+)\]$/);
+    if (match) {
+      return <React.Fragment key={i}>{citationRenderer(match[1])}</React.Fragment>;
+    }
+    return shouldHighlight ? highlightJargon(part) : part;
+  });
+}
+
+function processItalic(
+  rawText: string,
+  shouldHighlight: boolean,
+  citationRenderer?: ((citationNum: string) => React.ReactNode) | null
+): React.ReactNode {
   if (!rawText) return null;
   const italicParts = rawText.split(/(\*.*?\*|_.*?_)/g);
   if (italicParts.length <= 1) {
-    return shouldHighlight ? highlightJargon(rawText) : rawText;
+    return renderLeafText(rawText, shouldHighlight, citationRenderer);
   }
 
   return italicParts.map((part, i) => {
@@ -231,19 +259,23 @@ function processItalic(rawText: string, shouldHighlight: boolean): React.ReactNo
       const inner = part.slice(1, -1);
       return (
         <em key={i} className="formatted-italic font-italic" style={{ fontStyle: 'italic' }}>
-          {shouldHighlight ? highlightJargon(inner) : inner}
+          {renderLeafText(inner, shouldHighlight, citationRenderer)}
         </em>
       );
     }
-    return shouldHighlight ? highlightJargon(part) : part;
+    return renderLeafText(part, shouldHighlight, citationRenderer);
   });
 }
 
-function processBold(rawText: string, shouldHighlight: boolean): React.ReactNode {
+function processBold(
+  rawText: string,
+  shouldHighlight: boolean,
+  citationRenderer?: ((citationNum: string) => React.ReactNode) | null
+): React.ReactNode {
   if (!rawText) return null;
   const boldParts = rawText.split(/(\*\*.*?\*\*|__.*?__)/g);
   if (boldParts.length <= 1) {
-    return processItalic(rawText, shouldHighlight);
+    return processItalic(rawText, shouldHighlight, citationRenderer);
   }
 
   return boldParts.map((part, i) => {
@@ -254,19 +286,23 @@ function processBold(rawText: string, shouldHighlight: boolean): React.ReactNode
       const inner = part.slice(2, -2);
       return (
         <strong key={i} className="formatted-bold text-gold" style={{ fontWeight: 600 }}>
-          {processItalic(inner, shouldHighlight)}
+          {processItalic(inner, shouldHighlight, citationRenderer)}
         </strong>
       );
     }
-    return processItalic(part, shouldHighlight);
+    return processItalic(part, shouldHighlight, citationRenderer);
   });
 }
 
-function processMarkdownSpan(rawText: string, shouldHighlight: boolean): React.ReactNode {
+function processMarkdownSpan(
+  rawText: string,
+  shouldHighlight: boolean,
+  citationRenderer?: ((citationNum: string) => React.ReactNode) | null
+): React.ReactNode {
   if (!rawText) return null;
   const boldItalicParts = rawText.split(/(\*\*\*.*?\*\*\*|___.*?___)/g);
   if (boldItalicParts.length <= 1) {
-    return processBold(rawText, shouldHighlight);
+    return processBold(rawText, shouldHighlight, citationRenderer);
   }
 
   return boldItalicParts.map((part, i) => {
@@ -277,15 +313,19 @@ function processMarkdownSpan(rawText: string, shouldHighlight: boolean): React.R
       const inner = part.slice(3, -3);
       return (
         <strong key={i} className="formatted-bold-italic text-gold" style={{ fontWeight: 600, fontStyle: 'italic' }}>
-          {processItalic(inner, shouldHighlight)}
+          {processItalic(inner, shouldHighlight, citationRenderer)}
         </strong>
       );
     }
-    return processBold(part, shouldHighlight);
+    return processBold(part, shouldHighlight, citationRenderer);
   });
 }
 
-function renderItemText(itemText: string, shouldHighlight: boolean) {
+function renderItemText(
+  itemText: string,
+  shouldHighlight: boolean,
+  citationRenderer?: ((citationNum: string) => React.ReactNode) | null
+) {
   // Check if item text has a title before a colon
   const titleColonMatch = itemText.match(/^([^:]+:\s*)(.*)$/);
   if (titleColonMatch) {
@@ -294,14 +334,14 @@ function renderItemText(itemText: string, shouldHighlight: boolean) {
     return (
       <>
         <strong className="formatted-item-title">
-          {processMarkdownSpan(titlePart, shouldHighlight)}
+          {processMarkdownSpan(titlePart, shouldHighlight, citationRenderer)}
         </strong>
-        {processMarkdownSpan(restPart, shouldHighlight)}
+        {processMarkdownSpan(restPart, shouldHighlight, citationRenderer)}
       </>
     );
   }
 
-  return processMarkdownSpan(itemText, shouldHighlight);
+  return processMarkdownSpan(itemText, shouldHighlight, citationRenderer);
 }
 
 export const FormattedText: React.FC<FormattedTextProps> = ({
@@ -309,8 +349,33 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
   className = '',
   paragraphClassName = '',
   highlightJargon: shouldHighlight = true,
+  renderCitation,
+  enableCitations = false,
 }) => {
   if (!text) return null;
+
+  const citationRenderer =
+    renderCitation ||
+    (enableCitations
+      ? (citationNum: string) => (
+          <a
+            href={`#faq-citation-${citationNum}`}
+            className="faq-citation-badge-link"
+            onClick={(e) => {
+              e.preventDefault();
+              const el = document.getElementById(`faq-citation-${citationNum}`);
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                el.classList.add('citation-card-highlighted');
+                setTimeout(() => el.classList.remove('citation-card-highlighted'), 2200);
+              }
+            }}
+            title={`Jump to Source [${citationNum}]`}
+          >
+            [{citationNum}]
+          </a>
+        )
+      : null);
 
   const blocks = parseFormattedBlocks(text);
 
@@ -322,7 +387,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
             <div key={idx} className="formatted-list-wrapper">
               {block.intro && (
                 <p className={`formatted-paragraph formatted-intro ${paragraphClassName}`.trim()}>
-                  {processMarkdownSpan(block.intro, shouldHighlight)}
+                  {processMarkdownSpan(block.intro, shouldHighlight, citationRenderer)}
                 </p>
               )}
               <ol className="formatted-list formatted-ol">
@@ -330,7 +395,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
                   <li key={itemIdx} className="formatted-list-item formatted-ol-item">
                     <span className="formatted-ol-badge">{item.num || itemIdx + 1}</span>
                     <div className="formatted-item-content">
-                      {renderItemText(item.text, shouldHighlight)}
+                      {renderItemText(item.text, shouldHighlight, citationRenderer)}
                     </div>
                   </li>
                 ))}
@@ -344,7 +409,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
             <div key={idx} className="formatted-list-wrapper">
               {block.intro && (
                 <p className={`formatted-paragraph formatted-intro ${paragraphClassName}`.trim()}>
-                  {processMarkdownSpan(block.intro, shouldHighlight)}
+                  {processMarkdownSpan(block.intro, shouldHighlight, citationRenderer)}
                 </p>
               )}
               <ul className="formatted-list formatted-ul">
@@ -352,7 +417,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
                   <li key={itemIdx} className="formatted-list-item formatted-ul-item">
                     <span className="formatted-ul-bullet">✦</span>
                     <div className="formatted-item-content">
-                      {renderItemText(item.text, shouldHighlight)}
+                      {renderItemText(item.text, shouldHighlight, citationRenderer)}
                     </div>
                   </li>
                 ))}
@@ -363,7 +428,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
 
         return (
           <p key={idx} className={`formatted-paragraph ${paragraphClassName}`.trim()}>
-            {processMarkdownSpan(block.paragraphText || '', shouldHighlight)}
+            {processMarkdownSpan(block.paragraphText || '', shouldHighlight, citationRenderer)}
           </p>
         );
       })}

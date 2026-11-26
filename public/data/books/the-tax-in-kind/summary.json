@@ -1,0 +1,61 @@
+{
+  "id": "the-tax-in-kind",
+  "title": "The Tax in Kind",
+  "author": "V.I. Lenin",
+  "year": "1921",
+  "difficulty": "Medium",
+  "readingTime": "1.7 hours",
+  "coverGradient": "linear-gradient(135deg, #8c1c1c 0%, #3d0c0c 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/lenin/works/1921/apr/21.htm",
+  "context": "First published in 1921, this work by V.I. Lenin examines foundational principles of scientific socialism and revolutionary political theory.",
+  "relatesToToday": "Provides critical historical and theoretical insights for analyzing political economy, social contradictions, and contemporary working-class struggles.",
+  "keyTakeaways": [
+    "Examines the material basis of social and economic relations.",
+    "Analyzes the dynamics of class struggle and historical development.",
+    "Outlines strategic and organizational lessons for the liberation of the working class."
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    },
+    {
+      "id": "in-lieu-of-introduction",
+      "title": "In Lieu Of Introduction",
+      "textFile": "chapter2/chapter2.txt",
+      "annotationFile": "chapter2/chapter2-annotations.json",
+      "summaryFile": "chapter2/chapter2-summary.txt"
+    },
+    {
+      "id": "the-present-day-economy-of-russia-extract-from-the-1918-pamphlet",
+      "title": "The Present-Day Economy Of Russia(Extract From The 1918 Pamphlet)",
+      "textFile": "chapter3/chapter3.txt",
+      "annotationFile": "chapter3/chapter3-annotations.json",
+      "summaryFile": "chapter3/chapter3-summary.txt"
+    },
+    {
+      "id": "tax-in-kind-freedom-to-trade-and-concessions",
+      "title": "Tax In Kind, Freedom To Trade And Concessions",
+      "textFile": "chapter4/chapter4.txt",
+      "annotationFile": "chapter4/chapter4-annotations.json",
+      "summaryFile": "chapter4/chapter4-summary.txt"
+    },
+    {
+      "id": "political-summary-and-deductions",
+      "title": "Political Summary And Deductions",
+      "textFile": "chapter5/chapter5.txt",
+      "annotationFile": "chapter5/chapter5-annotations.json",
+      "summaryFile": "chapter5/chapter5-summary.txt"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "textFile": "chapter6/chapter6.txt",
+      "annotationFile": "chapter6/chapter6-annotations.json",
+      "summaryFile": "chapter6/chapter6-summary.txt"
+    }
+  ]
+}

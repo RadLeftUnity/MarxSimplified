@@ -312,5 +312,13 @@ export const leninistTerms: GlossaryTerm[] = [
     "misconception": "That the civil war was purely an internal Russian conflict. It involved extensive foreign military invasions and blockades by imperialist powers seeking to crush the socialist revolution.",
     "example": "Foreign troops landing in Archangel and Vladivostok to supply arms and funding to White Guard forces fighting against Bolshevik workers' councils.",
     "theoryTags": ["Marxism-Leninism"]
+  },
+  {
+    "term": "Anti-Imperialism",
+    "pattern": "anti-imperialism|anti-imperialist|anti-imperialists",
+    "definition": "The political, economic, and military struggle against imperialist domination, colonial subjugation, and neo-colonial financial extraction, uniting the international working class with oppressed nations defending sovereignty.",
+    "misconception": "Supporting any foreign reactionary movement. Marxist anti-imperialism objectively analyzes whether a struggle weakens the global monopoly capitalist system, as formulated by Lenin and Stalin regarding national liberation.",
+    "example": "Sovereign nations forming trade partnerships outside the US dollar and resisting foreign military bases or unilateral sanctions.",
+    "theoryTags": ["Marxism-Leninism", "Anti-Colonial Socialism"]
   }
 ];

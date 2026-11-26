@@ -1,0 +1,27 @@
+{
+  "id": "theses-on-feuerbach",
+  "title": "Theses on Feuerbach",
+  "author": "Karl Marx",
+  "year": "1845",
+  "difficulty": "Medium",
+  "readingTime": "5 mins",
+  "coverGradient": "linear-gradient(135deg, #4a154b 0%, #200122 100%)",
+  "marxistsOrgUrl": "https://www.marxists.org/archive/marx/works/1845/theses/engels.htm",
+  "context": "Written by Karl Marx in Brussels in the spring of 1845, these eleven concise aphorisms laid the foundation for historical materialism, marking the decisive departure from young Hegelian idealism and Feuerbachian contemplative materialism.",
+  "relatesToToday": "Provides the philosophical core of Marxist theory, clarifying that true understanding of society comes not from passive academic contemplation, but through conscious, collective revolutionary practice ('praxis') to transform the world.",
+  "keyTakeaways": [
+    "Critiques passive contemplation, establishing that reality is transformed through sensuous human activity and practice.",
+    "Defines objective truth not as an abstract scholastic debate, but as a practical question verified in material struggle.",
+    "Proves that human nature is not an eternal biological abstraction, but the dynamic ensemble of social and class relations.",
+    "Declares the historic task of scientific socialism: moving beyond interpreting the world to actively revolutionizing it."
+  ],
+  "chapters": [
+    {
+      "id": "theses-on-feuerbach",
+      "title": "Theses on Feuerbach",
+      "textFile": "chapter1/chapter1.txt",
+      "annotationFile": "chapter1/chapter1-annotations.json",
+      "summaryFile": "chapter1/chapter1-summary.txt"
+    }
+  ]
+}

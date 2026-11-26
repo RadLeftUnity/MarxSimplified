@@ -9,8 +9,13 @@ const outputPath = path.join(workspaceRoot, 'public', 'data', 'topics-index.json
 
 const TOPIC_RULES = [
   {
-    name: 'Anarchy',
-    pattern: /anarchism|anarchist|anarcho-|adventurism|market anarchy/i,
+    name: 'Stages of Socialism and Communism',
+    pattern: /\b(?:lower|first|higher|second)\s+phase of (?:communism|socialist society|communist society)\b|\bfrom each according to his ability, to each according to his (?:needs|work|labor)\b|\bfeudalism to capitalism\b|\bcapitalism to socialism\b|\bsocialism to communism\b|\bbirthmarks of (?:the old|capitalist) society\b|\bexpropriators are expropriated\b|\brealm of freedom and (?:the )?realm of necessity\b/i,
+  },
+  {
+    name: 'Anarchism',
+    pattern: /\banarchis[mt]|\banarcho-|\bbakunin|\bkropotkin|\bproudhon|\bstatelessness without transition/i,
+    excludePattern: /market anarchy|anarchy of production/i,
   },
   {
     name: 'Dictatorship of the Proletariat',
@@ -22,8 +27,8 @@ const TOPIC_RULES = [
     excludePattern: /state of things|state of affairs|state of mind|state of nature/i,
   },
   {
-    name: 'Phases of Socialism',
-    pattern: /lower phase of|higher phase of|labor tokens?|birthmarks of capitalism|from each according to.*ability|to each according to.*needs?|phases? of socialism|phases? of communism/i,
+    name: 'State Capitalism',
+    pattern: /state[- ]capitalis|state-monopoly capitalism|new economic policy|\bconcessions\b|transitional economy|transitional period|tax in kind/i,
   },
   {
     name: 'Monopolies',
@@ -143,8 +148,12 @@ function canonicalTopic(name) {
 function inferTopicsForAnnotation(ann, textContent) {
   const inferred = new Set();
 
-  if (Array.isArray(ann.topics) && ann.topics.length > 0) {
-    ann.topics.forEach((t) => inferred.add(canonicalTopic(t)));
+  const rawTags = [
+    ...(Array.isArray(ann.topics) ? ann.topics : []),
+    ...(Array.isArray(ann.topicTags) ? ann.topicTags : []),
+  ];
+  if (rawTags.length > 0) {
+    rawTags.forEach((t) => inferred.add(canonicalTopic(t)));
   }
 
   for (const rule of TOPIC_RULES) {

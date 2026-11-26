@@ -193,5 +193,13 @@ export const anarchistTerms: GlossaryTerm[] = [
     "misconception": "Marxist anti-statism. Theoretical Contention: Marxists agree that the ultimate goal is a stateless communist society, but criticize anarchist anti-statism (Engels in 'On Authority') for rejecting the transitional workers' state. Without a centralized workers' state, the working class cannot defend itself against organized imperialist invasion or corporate counter-revolution.",
     "example": "Activism that refuses to campaign for state healthcare legislation or run working-class political candidates, believing all government participation legitimizes state power.",
     "theoryTags": ["Anarcho-Communism", "Classical Marxism"]
+  },
+  {
+    "term": "Capitol Hill Autonomous Zone",
+    "pattern": "capitol hill autonomous zone|chaz|chop|capitol hill organized protest",
+    "definition": "A self-declared six-block autonomous protest occupation established in the Capitol Hill neighborhood of Seattle in June 2020 during the nationwide mass rebellion following the police murder of George Floyd. After the Seattle Police Department evacuated the East Precinct, anti-racist demonstrators and anarchist organizers held the territory as a police-free zone for three weeks until municipal authorities dismantled it. Theoretical Contention: Marxists supported the anti-racist uprising but note that CHAZ demonstrated the limits of prefigurative anarchist communalism: lacking a disciplined workers' party, productive economic base, and centralized defense, the commune fell prey to internal disorganization and was dismantled by the capitalist city government.",
+    "misconception": "Believing a liberated socialist society can be prefigured in a few city blocks surrounded by a capitalist economy, without conquering state power or transforming social production.",
+    "example": "Protesters declaring a city neighborhood free from police and attempting to distribute food through voluntary mutual aid without institutional structure or armed working-class organization.",
+    "theoryTags": ["Anarcho-Communism", "Marxism-Leninism"]
   }
 ];

@@ -124,6 +124,7 @@ async function main() {
   title = title.replace(/—|--/g, '; ');
   // Strip leading author prefixes like "Lenin: " or "Che Guevara: "
   title = title.replace(/^(?:V\.\s*I\.\s*)?Lenin\s*:\s*/i, '');
+  title = title.replace(/^(?:Ghassan\s+)?Kanafani\s*:\s*/i, '');
   title = title.replace(/^(?:Che\s+Guevara|Ernesto\s+Che\s+Guevara)\s*:\s*/i, '');
   title = title.replace(/^(?:Joseph\s+Stalin|J\.\s*V\.\s*Stalin|Stalin)\s*:\s*/i, '');
   title = title.replace(/^(?:Mao\s+Zedong|Mao\s+Tse-tung|Mao)\s*:\s*/i, '');
@@ -136,11 +137,15 @@ async function main() {
 
   // Parse Author
   let author = 'Karl Marx';
-  const authorMatch = indexHtml.match(/<meta\s+name="author"\s+content="([^"]+)"/i);
+  const authorMatch = indexHtml.match(/<meta[^>]*name=["']author["'][^>]*content=["']([^"']+)["']/i) || indexHtml.match(/<meta[^>]*content=["']([^"']+)["'][^>]*name=["']author["']/i);
   if (authorMatch) {
     author = authorMatch[1].trim();
     if (author.toLowerCase().includes('mao')) {
       author = 'Mao Zedong';
+    } else if (author.toLowerCase().includes('kanafani')) {
+      author = 'Ghassan Kanafani';
+    } else if (author.toLowerCase().includes("sa'b") || author.toLowerCase().includes('sab') || author.toLowerCase().includes('saab')) {
+      author = "Hasan Sa'b";
     } else if (author.toLowerCase().includes('guevara')) {
       author = 'Che Guevara';
     } else if (author.toLowerCase().includes('stalin')) {
@@ -149,7 +154,13 @@ async function main() {
       author = 'Thomas Sankara';
     } else if (author.toLowerCase().includes('lenin')) {
       author = 'V.I. Lenin';
+    } else if (author.toLowerCase().includes('zetkin')) {
+      author = 'Clara Zetkin';
     }
+  } else if (rawUrl.toLowerCase().includes('kanafani') || indexHtml.toLowerCase().includes('kanafani')) {
+    author = 'Ghassan Kanafani';
+  } else if (rawUrl.toLowerCase().includes('zetkin') || indexHtml.toLowerCase().includes('zetkin')) {
+    author = 'Clara Zetkin';
   } else if (rawUrl.toLowerCase().includes('sankara') || indexHtml.toLowerCase().includes('sankara')) {
     author = 'Thomas Sankara';
   } else if (rawUrl.toLowerCase().includes('guevara') || indexHtml.toLowerCase().includes('guevara')) {
@@ -195,42 +206,97 @@ async function main() {
 
     const isExcludedHeader = (hTitle) => {
       const lower = hTitle.toLowerCase().trim();
-      if (!lower) return true;
+      if (!lower || lower === '&nbsp;' || lower === '&#160;') return true;
       if (lower === author.toLowerCase()) return true;
       if (lower === title.toLowerCase()) return true;
+      if (lower.includes('kanafani') || lower === 'ghassan kanafani') return true;
       if (lower.startsWith('che guevara') || lower.startsWith('ernesto guevara') || lower.startsWith('ernesto \'che\' guevara')) return true;
       if (lower.includes('lenin') || lower === 'v.i. lenin' || lower === 'vi lenin' || lower === 'v. i. lenin') return true;
       if (lower.includes('stalin') || lower === 'joseph stalin' || lower === 'j. v. stalin') return true;
       if (lower.includes('sankara') || lower === 'thomas sankara') return true;
+      if (lower.includes('zetkin') || lower === 'clara zetkin') return true;
+      if (lower.startsWith('(13/14 november')) return true;
+      if (lower.startsWith('(the significance of the new policy')) return true;
       if (lower.startsWith('speech made to') || lower.startsWith('speech to') || lower.startsWith('written:') || lower.startsWith('translated by')) return true;
       if (lower === 'notes' || lower.startsWith('notes') || lower === 'footnotes' || lower === 'endnotes') return true;
       return false;
     };
 
-    const h2Matches = allH2Matches.filter(m => !isExcludedHeader(m.title));
+    let sectionMatches = allH2Matches.filter(m => !isExcludedHeader(m.title));
 
-    if (h2Matches.length > 1) {
-      // Split single document into H2 sections
-      // Check if there is intro text before first H2
+    if (sectionMatches.length <= 1) {
+      // Check for <p class="sub"> headers
+      const subRegex = /<p[^>]*class=["']sub["'][^>]*>([\s\S]*?)<\/p>/gi;
+      const allSubMatches = [];
+      let subMatch;
+      while ((subMatch = subRegex.exec(indexHtml)) !== null) {
+        allSubMatches.push({
+          title: subMatch[1].replace(/<[^>]*>/g, '').trim().replace(/\s+/g, ' ').replace(/—|--/g, '; '),
+          index: subMatch.index,
+          fullMatchLength: subMatch[0].length
+        });
+      }
+      const filteredSub = allSubMatches.filter(m => !isExcludedHeader(m.title));
+      if (filteredSub.length > 1) {
+        sectionMatches = filteredSub;
+      }
+    }
+
+    if (sectionMatches.length === 1 && (sectionMatches[0].title === 'II' || sectionMatches[0].title === 'Part II')) {
+      const splitPos = sectionMatches[0].index;
+      rawChapters.push({
+        title: "Part I",
+        htmlSnippet: indexHtml.substring(0, splitPos)
+      });
+      rawChapters.push({
+        title: "Part II",
+        htmlSnippet: indexHtml.substring(splitPos)
+      });
+    } else if (sectionMatches.length > 1) {
+      // Split single document into sections
       const bodyStartMatch = indexHtml.match(/<body[^>]*>/i);
       const contentStart = bodyStartMatch ? bodyStartMatch.index + bodyStartMatch[0].length : 0;
-      const firstH2Index = h2Matches[0].index;
+      const firstSectionIndex = sectionMatches[0].index;
 
-      if (firstH2Index > contentStart + 200) {
+      if (firstSectionIndex > contentStart + 200 && sectionMatches[0].title.toLowerCase() !== 'introduction') {
         rawChapters.push({
           title: "Introduction",
-          htmlSnippet: indexHtml.substring(contentStart, firstH2Index)
+          htmlSnippet: indexHtml.substring(contentStart, firstSectionIndex)
         });
       }
 
-      for (let i = 0; i < h2Matches.length; i++) {
-        const currentH2 = h2Matches[i];
-        const nextH2 = h2Matches[i + 1];
-        const startPos = currentH2.index;
-        const endPos = nextH2 ? nextH2.index : indexHtml.length;
+      for (let i = 0; i < sectionMatches.length; i++) {
+        const currentSection = sectionMatches[i];
+        const nextSection = sectionMatches[i + 1];
+        const startPos = currentSection.index;
+        let endPos = nextSection ? nextSection.index : indexHtml.length;
+        if (!nextSection) {
+          const nextH2 = allH2Matches.find(h => h.index > startPos);
+          if (nextH2) {
+            endPos = nextH2.index;
+          }
+        }
+        let snippet = indexHtml.substring(startPos, endPos);
+        const extLinkMatch = snippet.match(/<a\s+[^>]*href=["']([^"']+\.htm)["'][^>]*>/i);
+        if (
+          extLinkMatch &&
+          !extLinkMatch[1].startsWith('http') &&
+          !extLinkMatch[1].startsWith('#') &&
+          !extLinkMatch[1].includes('index.htm') &&
+          !extLinkMatch[1].includes('index.html') &&
+          !extLinkMatch[1].startsWith('../')
+        ) {
+          try {
+            const extPageUrl = baseUrl + extLinkMatch[1];
+            const extHtml = await fetchPage(extPageUrl);
+            snippet += '\n\n' + extHtml;
+          } catch (e) {
+            console.log(`Note: could not inline external linked chapter: ${e.message}`);
+          }
+        }
         rawChapters.push({
-          title: currentH2.title,
-          htmlSnippet: indexHtml.substring(startPos, endPos)
+          title: currentSection.title,
+          htmlSnippet: snippet
         });
       }
     } else {
@@ -465,7 +531,11 @@ async function main() {
   }
 
   let coverGradient = gradients[Math.floor(Math.random() * gradients.length)];
-  if (author === 'Che Guevara') {
+  if (author === 'Ghassan Kanafani') {
+    coverGradient = 'linear-gradient(135deg, #1f4027 0%, #0d2012 100%)';
+  } else if (author === "Hasan Sa'b") {
+    coverGradient = 'linear-gradient(135deg, #1b3a4b 0%, #061a23 100%)';
+  } else if (author === 'Che Guevara') {
     coverGradient = 'linear-gradient(135deg, #1b4332 0%, #081c15 100%)';
   } else if (author === 'Thomas Sankara') {
     coverGradient = 'linear-gradient(135deg, #8b1e0f 0%, #1b381e 100%)';
